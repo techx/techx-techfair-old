@@ -1,8 +1,12 @@
 <?php
 error_reporting(E_ALL ^ E_NOTICE);
+//relationships between URLs and files
 require('parts/routing.php');
+//elements in <head>
 require('parts/head.php');
+//header of site, top banner and nav
 require('parts/header.php');
+//footer of site
 require('parts/footer.php');
 ?>
 <!DOCTYPE html>
@@ -12,11 +16,11 @@ require('parts/footer.php');
 </head>
 <body>
 	<div id="container">
-	<?php
-	make_header($sectionName,$routes);
-	require('pages/'.$d['content']);
-	make_footer();
-	?>
+		<?php make_header($sectionName,$routes);?>
+		<div id="content">
+			<?php require('pages/'.$d['content']); ?>
+		</div>
+		<?php make_footer();?>
 	</div>
 </body>
 </html>
