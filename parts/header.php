@@ -13,14 +13,21 @@ function make_header($sectionName,$routes)
 		<div id="navlinks" class="navEl">
 			<ul>
 			<?php foreach($routes as $key=>$section):?>
-				<?php if($key=='home') $key = ''?>
+				<?php
+				if($key=='home') $key = '';
+				else $key .= '/';
+				?>
 				<li>
 				<a href="/<?php echo $key?>"><?php echo $section['name']?></a>
 				<?php if ($sectionName == $key):?>
 				<ul>
 					<?php foreach($section as $key=>$page): ?>
 						<?php if(is_array($page) && $key != ''):?>
-						<li><a href="/<?php echo $sectionName?>/<?php echo $key ?>"><?php echo $page['name']?></a></li>
+							<?php if(isset($page['content'])):?>
+								<li><a href="/<?php echo $sectionName?>/<?php echo $key ?>/"><?php echo $page['name']?></a></li>
+							<?php else:?>
+								<li><a href="<?php echo $page['external']?>"><?php echo $page['name']?></a></li>
+							<?php endif?>
 						<?php endif;?>
 					<?php endforeach;?>
 				</ul>

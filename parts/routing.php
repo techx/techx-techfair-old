@@ -6,15 +6,15 @@ $routes = array(
 		'content' => 'home.php',
 		'name' => 'Home'
 	),
-	'about' => array(
-		'title' => $basetitle.' / About',
-		'content' => 'about.php',
-		'name' => 'About'
+	'history' => array(
+		'title' => $basetitle.' / History',
+		'content' => 'history.php',
+		'name' => 'History'
 	),
-	'contact' => array(
-		'title' => $basetitle.' / Contact',
-		'content' => 'contact.php',
-		'name' => 'Contact'
+	'team' => array(
+		'title' => $basetitle.' / Team',
+		'content' => 'team.php',
+		'name' => 'Team'
 	),
 	'events' => array(
 		'name' => 'Events',
@@ -22,16 +22,23 @@ $routes = array(
 			'title' => $basetitle.' / Events',
 			'content' => 'events/fair.php',
 		),
+		'map' => array(
+			'title' => $basetitle.' / Map',
+			'content' => 'events/map.php',
+			'name' => 'Map'
+		),
 		'banquet' => array(
 			'title' => $basetitle.' / Banquet',
 			'content' => 'events/banquet.php',
 			'name' => 'Banquet'
 		),
 	),
+	//exhibit is a folder, has a name property
 	'exhibit' => array(
 		'name' => 'Exhibit',
+		//'' is the root, has same name as folder
 		'' => array(
-			'title' => $basetitle.' / Why Exhibit',
+			'title' => $basetitle.' / Why TechFair',
 			'content' => 'exhibit/why.php',
 		),
 		'packages' => array(
@@ -46,7 +53,7 @@ $routes = array(
 		),
 		'portal' => array(
 			'title' => $basetitle.' / Company Portal',
-			'content' => 'exhibit/portal.php',
+			'external' => 'http://www.mittechfair.org/portal/index.php',
 			'name' => 'Company Portal'
 		),
 	),
@@ -77,7 +84,7 @@ else
 		$d = $routes[$sectionName][$page];
 	}
 	//if its a stand-alone page
-	elseif (isset($routes[$sectionName]))
+	elseif (isset($routes[$sectionName]) && $page=='')
 	{
 		$d = $routes[$sectionName];
 	}

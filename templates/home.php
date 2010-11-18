@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link href="style.css" rel="stylesheet" type="text/css" />
+<link href="css/home.css" rel="stylesheet" type="text/css" />
 <title>TechFair 2011</title>
 </head>
 <body>
@@ -27,8 +27,8 @@
     <div id="c2"> <img src="img/photo2.jpg" id="photo2" class="box" />
       <div id="exhibitors" class="box">
         <h3>for exhibitors</h3>
-        <p><a href="">why techfair</a></p>
-        <p><a href="">sponsorship packages</a></p>
+        <p><a href="/exhibit/">why techfair</a></p>
+        <p><a href="/exhibit/packages/">sponsorship packages</a></p>
         <p><a href="http://mittechfair.org/portal/">exhibitor sign in</a></p>
       </div>
      
@@ -36,7 +36,7 @@
     <div id="c3">
       <div id="menu">
         <ul>
-          <li id="map"><a href="/map/" class="box">venue</a></li>
+          <li id="map"><a href="/events/map/" class="box">venue</a></li>
           <li id="team"><a href="/team/" class="box">team</a></li>
           <li id="history"><a href="/history/" class="box">history</a></li>
         </ul>
