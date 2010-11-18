@@ -6,6 +6,11 @@ $routes = array(
 		'content' => 'home.php',
 		'name' => 'Home'
 	),
+	'contact' => array(
+		'title' => $basetitle.' / Contact Us',
+		'content' => 'contact.php',
+		'show' => false
+	),
 	'history' => array(
 		'title' => $basetitle.' / History',
 		'content' => 'history.php',

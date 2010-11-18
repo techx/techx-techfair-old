@@ -41,9 +41,6 @@ body {
 	padding: 0;margin: 0;
 	/*background: url(../img/bg.gif);*/
 }
-a {
-	color: #FFF;
-}
 
 /*
  * STRUCTURE
@@ -60,7 +57,7 @@ a {
 	padding-bottom: 5px;
 }
 #header{
-	background: #fff;
+	background: #FFF;
 	padding-bottom: 10px; 
 }
 #header h1 a{

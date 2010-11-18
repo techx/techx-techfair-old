@@ -19,7 +19,7 @@ function make_header($sectionName,$routes)
 			<ul>
 			<?php foreach($routes as $key=>$section):?>
 				<?php
-				if($key!='home'):
+				if($key!='home' && !isset($section['show'])):
 					$printkey = $key.'/';
 				?>
 					<li>
