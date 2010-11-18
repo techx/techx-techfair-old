@@ -9,6 +9,7 @@ $routes = array(
 	'contact' => array(
 		'title' => $basetitle.' / Contact Us',
 		'content' => 'contact.php',
+		//use show => false to hide from nav
 		'show' => false
 	),
 	'history' => array(
@@ -27,10 +28,10 @@ $routes = array(
 			'title' => $basetitle.' / Events',
 			'content' => 'events/fair.php',
 		),
-		'map' => array(
-			'title' => $basetitle.' / Map',
-			'content' => 'events/map.php',
-			'name' => 'Map'
+		'venue' => array(
+			'title' => $basetitle.' / Venue',
+			'content' => 'events/venue.php',
+			'name' => 'Venue'
 		),
 		'banquet' => array(
 			'title' => $basetitle.' / Banquet',

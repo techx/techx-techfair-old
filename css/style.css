@@ -188,3 +188,43 @@ body {
 #footer-links ul {
 	margin: 10px 0;
 }
+
+/* SPONSORSHIP TABLE */
+table#sponsorship th {
+	font-weight: 600;
+}
+table#sponsorship td, table#sponsorship th {
+	padding: 5px;
+	text-align: left;
+	width: 200px;
+}
+table#sponsorship td.gold {
+	background-color: #EEEE00;
+	font-size: 16px;
+	padding: 10px 5px;
+}
+table#sponsorship td.silver {
+	background-color: #CCC;
+	font-size: 16px;
+	padding: 10px 5px;
+}
+table#sponsorship td.bronze {
+	background-color: #8C7853;
+	font-size: 16px;
+	padding: 10px 5px;
+}
+table#sponsorship tr.pricing td, table#sponsorship tr.pricing th {
+	font-size: 18px;
+	color: white;
+	background-color: #666;
+	text-align: right;
+}
+table#sponsorship th {
+	text-align: right;
+}
+table#sponsorship tr:nth-child(even) td {
+	background-color: #EEE;
+}
+table#sponsorship tr:nth-child(even) th {
+	background-color: #DDD;
+}
