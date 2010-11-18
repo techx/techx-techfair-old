@@ -2,41 +2,47 @@
  * RESET
  */
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
-	margin:0;
-	padding:0;
+	margin: 0;
+	padding: 0;
 }
 table {
-	border-collapse:collapse;
-	border-spacing:0;
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 fieldset,img { 
-	border:0;
+	border: 0;
 }
 address,caption,cite,code,dfn,em,strong,th,var {
-	font-style:normal;
-	font-weight:normal;
+	font-style: normal;
+	font-weight: normal;
 }
 ol,ul {
-	list-style:none;
+	list-style: none;
 }
 caption,th {
-	text-align:left;
+	text-align: left;
 }
 h1,h2,h3,h4,h5,h6 {
-	font-size:100%;
-	font-weight:normal;
+	font-size: 100%;
+	font-weight: normal;
 }
-q:before,q:after {
-	content:'';
+q: before,q: after {
+	content: '';
 }
-abbr,acronym { border:0;
+abbr,acronym { border: 0;
 }
 
 /*
  * GENERAL STYLES
  */
 body {
-	font-family: Helvetica Neue, Helvetica, Arial, serif;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	padding: 0;margin: 0;
+	/*background: url(../img/bg.gif);*/
+}
+a {
+	color: #FFF;
 }
 
 /*
@@ -47,16 +53,43 @@ body {
 	margin: 0 auto;
 }
 /* HEADER */
-#header {
-	/*TEMPORARY*/
-	height: 100px;
-	border: 1px solid #CCC;
+#header-content{
+	margin: 0;
+	padding: 0;
+	background: url('../img/headerhr.gif') bottom repeat-x #fff;
+	padding-bottom: 5px;
+}
+#header{
+	background: #fff;
+	padding-bottom: 10px; 
+}
+#header h1 a{
+	background: url('../img/header.png') no-repeat top left;
+	height: 80px;
+	line-height: auto;
+	width: 242px;
+	display: block; 
+	border: 0;
+	text-indent: -32094px;
+	font-size: 3px;
+	padding: 0;
+	margin: 0;
+}
+#header h1{
+	width: 960px;
+	background: #fff;
+	margin: 0 auto;
+	height: 80px;
+	padding: 0; 
+	margin-bottom: 12px;
+	background: url('../img/headersub.png') no-repeat top left;
 }
 .navEl {
 	float: left;
 }
 #nav {
-	margin-bottom: 10px;
+	margin: 0 auto 10px;
+	width: 940px;
 }
 #navleft {
 	width: 50px;
@@ -100,7 +133,7 @@ body {
 	height: 300px;
 	background-color: #DDD;
 }
-.clearfix:after {
+.clearfix: after {
 	content: ".";
 	display: block;
 	height: 0;
@@ -119,4 +152,42 @@ body {
 	padding-left: 10px;
 	font-size: 30px;
 	font-weight: 300;
+}
+/* FOOTER */
+#footer-content {
+	width: 960px; 
+	color: #fff;
+	display: block;
+	margin: 0 auto;
+}
+#footer {
+	background: #222;
+	border-top: 15px solid #fff;
+	display: block;
+	margin: 0;
+	display: block;
+	padding-bottom: 20px;
+}
+#footer-links ul {
+	list-style: none;
+}
+#footer-links {
+	float: right;
+}
+#footer-links li {
+	font-size: 20px;
+	display: block;
+	float: right;
+	clear: right; 
+	color: #646464; 
+}
+#footer-links a {
+	text-decoration: none;
+	color: #fff;
+}
+#footer-links a:hover {
+	border: inherit;
+}
+#footer-links ul {
+	margin: 10px 0;
 }
