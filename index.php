@@ -11,8 +11,8 @@ require('parts/footer.php');
 
 //pick the right template
 if ($sectionName=='') {
-	require('templates/home.php');
+	require('parts/templates/home.php');
 } else {
-	require('templates/default.php');
+	require('parts/templates/default.php');
 }
 ?>

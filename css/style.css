@@ -120,10 +120,13 @@ body {
 	font-weight: 300;
 	font-size: 20px;
 }
+#navlinks a:hover {
+	color: #333;
+}
 #navlinks li li a {
 	margin-left: 20px;
 	color: #CCC;
-	font-size: 16px;
+	font-size: 14px;
 }
 #photo {
 	width: 670px;
@@ -190,12 +193,15 @@ body {
 }
 
 /* SPONSORSHIP TABLE */
+table#sponsorship {
+	color: #333;
+}
 table#sponsorship th {
 	font-weight: 600;
 }
 table#sponsorship td, table#sponsorship th {
 	padding: 5px;
-	text-align: left;
+	text-align: center;
 	width: 200px;
 }
 table#sponsorship td.gold {
@@ -215,9 +221,8 @@ table#sponsorship td.bronze {
 }
 table#sponsorship tr.pricing td, table#sponsorship tr.pricing th {
 	font-size: 18px;
-	color: white;
-	background-color: #666;
-	text-align: right;
+	color: #000;
+	background-color: #CDCDCD;
 }
 table#sponsorship th {
 	text-align: right;
