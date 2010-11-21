@@ -36,7 +36,7 @@
 	<div id="c3">
 		<div id="menu">
 			<ul>
-				<li id="map"><a href="/events/map/" class="box">venue</a></li>
+				<li id="map"><a href="/events/venue/" class="box">venue</a></li>
 				<li id="team"><a href="/team/" class="box">team</a></li>
 				<li id="history"><a href="/history/" class="box">history</a></li>
 			</ul>
