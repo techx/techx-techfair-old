@@ -5,7 +5,10 @@ function make_header($sectionName,$routes)
 	<div id="header">
 		<div id="header-content">
 			<h1>
-				<a href="/">MIT TechFair</a>
+				<a href="/"><span>MIT TechFair</span></a>
+				<div>
+					<h2>January 31, 2011</h2><h2>10:00am - 3:30pm at Rockwell Cage</h2>
+				</div>
 			</h1>
 		</div>
 	</div>

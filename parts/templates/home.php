@@ -4,13 +4,21 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<link href="css/home.css" rel="stylesheet" type="text/css" />
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+	<script type="text/javascript" src="/js/cufon-yui.js"></script>
+	<script type="text/javascript" src="/js/Helvetica_300.font.js"></script>
+	<script type="text/javascript">
+		Cufon.replace('h2, h3');
+	</script>
 	<title>TechFair 2011</title>
 </head>
 <body>
 	<div id="container">
 		<div id="header">
 			<div id="header-content">
-				<h1><a href="http://techfair.mit.edu/">MIT TechFair</a></h1>
+				<h1>
+					<a href="/"><span>MIT TechFair</span></a>
+					<div><h2>January 31, 2011</h2><h2>10:00am - 3:30pm at Rockwell Cage</h2></div>
+				</h1>
 			</div>
 		</div>
 		<div id="body">

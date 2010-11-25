@@ -1,4 +1,3 @@
-<h1>The TechFair Team</h1>
 <script type="text/javascript"> 
 var revert = new Array();
 var inames = new Array('Emily', 'Jeff', 'Kuan', 'Susie', 'Cyril', 'Nick');
@@ -22,6 +21,7 @@ function out(num) {
   if(document.images) document.images[inames[num]].src = revert[num];
 }
 </script>
+<h1>The TechFair Team</h1>
 <p>6 people, 1 awesome team.</p>
 
 <table border="0" cellspacing="3" cellpadding="3" style="font-size: 8pt;">

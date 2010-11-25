@@ -12,16 +12,6 @@ $routes = array(
 		//use show => false to hide from nav
 		'show' => false
 	),
-	'history' => array(
-		'title' => $basetitle.' / History',
-		'content' => 'history.php',
-		'name' => 'History'
-	),
-	'team' => array(
-		'title' => $basetitle.' / Team',
-		'content' => 'team.php',
-		'name' => 'Team'
-	),
 	'events' => array(
 		'name' => 'Events',
 		'' => array(
@@ -62,6 +52,16 @@ $routes = array(
 			'external' => 'http://www.mittechfair.org/portal/index.php',
 			'name' => 'Company Portal'
 		),
+	),
+	'history' => array(
+		'title' => $basetitle.' / History',
+		'content' => 'history.php',
+		'name' => 'History'
+	),
+	'team' => array(
+		'title' => $basetitle.' / Team',
+		'content' => 'team.php',
+		'name' => 'Team'
 	),
 );
 $error404 = array(

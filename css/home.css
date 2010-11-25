@@ -5,44 +5,51 @@ body{
 	/*background:url(../img/bg.gif);*/
 }
 * {
-font-family:Arial, Helvetica, sans-serif;
+font-family: Helvetica, Arial, sans-serif;
 }
 #container, body>#container{
 	margin:0;
 	padding:0;
 }
-#header-content{
-	margin:0;
-	padding:0;
-	background:url('../img/headerhr.gif') bottom repeat-x #fff;
-	padding-bottom:5px;
-}
 #header{
-	background:#fff;
-	padding-bottom:10px; 
-	
+	background: url('../img/headerhr.gif') bottom repeat-x transparent;
+	padding-bottom: 10px;
 }
-#header h1 a{
-	background:url('../img/header.png') no-repeat top left;
-	height:80px;
-	line-height:auto;
-	width:242px;
-	display:block; 
-	border:0;
-	text-indent:-32094px;
-	font-size:3px;
-	padding:0;
-	margin:0;
+#header-content{
+	margin: 0;
+	padding: 0;
+	background: url('../img/headerbg.png') bottom repeat-x transparent;
 }
 #header h1{
-	width:960px;
-	background: #fff;
-	margin:0 auto;
-	height:80px;
-	padding:0; 
-	margin-bottom:12px;
-
-	background:url('../img/headersub.png') no-repeat top left;
+	width: 960px;
+	margin: 0 auto;
+	padding: 0;
+	height: 90px;
+}
+#header h1 a{
+	background: url('../img/header.png') no-repeat top left;
+	height: 80px;
+	width: 242px;
+	display: block; 
+	border: none;
+	font-size: 3px;
+	padding: 0;
+	margin: 0;
+	float: left;
+}
+#header h1 a span {
+	display: none;
+}
+#header h1 div {
+	height: 64px;
+	padding-top: 26px;
+	margin-left: 280px;
+}
+#header h2 {
+	font-size: 16px;
+	color: #444;
+	margin: 0 0 4px;
+	font-weight: 400;
 }
 /* body */
 #body{
@@ -148,8 +155,8 @@ h3{
 	margin:0 auto;
 }
 #footer{
-	background:#222;
-	border-top:15px solid #fff;
+	background: url('/img/footer.png') repeat-x;
+	border-top: 15px solid #FFF;
 	display:block;
 	margin:0;
 	display:block;
