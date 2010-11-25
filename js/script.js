@@ -4,8 +4,11 @@ $(document).ready(function(){
 		$(this).prev().hover(function(){
 			if (el.hasClass('collapse'))
 			{
-				$('#navlinks .shown').stop().addClass('collapse').removeClass('shown').slideUp();
-				el.addClass('shown').stop().slideDown().removeClass('collapse');
+				var duration = 200;
+				$('#navlinks .shown').stop().removeClass('shown').slideUp(duration,function(){
+					$(this).addClass('collapse');
+				});
+				el.addClass('shown').stop().slideDown(duration).removeClass('collapse');
 			}
 		},function(){});
 	});
