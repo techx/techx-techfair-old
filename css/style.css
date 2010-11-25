@@ -101,22 +101,22 @@ body {
 	margin-right: 10px;
 }
 #navleft1 {
-	height: 150px;
+	height: 100px;
 	background-color: #f29523;
 	margin-bottom: 10px;
 }
 #navleft2 {
-	height: 100px;
+	height: 60px;
 	background-color: #383838;
 	margin-bottom: 10px;
 }
 #navleft3 {
-	height: 30px;
+	height: 20px;
 	background-color: #8bb1f1;
 }
 #navlinks {
 	width: 180px;
-	height: 280px;
+	height: 180px;
 	padding: 10px;
 	background-color: #4078d6;
 	margin-right: 10px;
@@ -141,9 +141,12 @@ body {
 #navlinks li li a:hover {
 	background-color: #CCC;
 }
+#navlinks .collapse {
+	display: none;
+}
 #photo {
 	width: 670px;
-	height: 300px;
+	height: 200px;
 	background-color: #DDD;
 }
 .clearfix:after {

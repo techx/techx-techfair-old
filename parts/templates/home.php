@@ -7,7 +7,7 @@
 	<script type="text/javascript" src="/js/cufon-yui.js"></script>
 	<script type="text/javascript" src="/js/Helvetica_300.font.js"></script>
 	<script type="text/javascript">
-		Cufon.replace('h2, h3');
+		Cufon.replace('h2, h3, #menu a');
 	</script>
 	<title>TechFair 2011</title>
 </head>
@@ -25,6 +25,7 @@
 		<div id="c1">
 			<div id="event" class="box">
 				<h3>the event</h3>Techfair is a week-long expo filled with interesting and more marketing speak to fill this box up to maybe here.
+				<a href="/events/">more info &raquo;</a>
 			</div>
 		<div id="think" class="box">
 			<h3>THINK</h3>

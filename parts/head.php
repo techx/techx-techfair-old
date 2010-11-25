@@ -18,6 +18,7 @@ function make_head($title)
 	<script type="text/javascript">
 		Cufon.replace('#content h1, h2, h3');
 	</script>
+	<script type="text/javascript" src="/js/script.js"></script>
 <?php
 }
 ?>

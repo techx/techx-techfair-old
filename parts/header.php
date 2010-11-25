@@ -26,21 +26,22 @@ function make_header($sectionName,$routes)
 					$printkey = $key.'/';
 				?>
 					<li>
-					<a href="/<?php echo $printkey?>"><?php echo $section['name']?></a>
-					<?php if ($sectionName == $key):?>
-					<ul>
-						<?php foreach($section as $key=>$page): ?>
-							<?php if(is_array($page) && $key != ''):?>
-								<?php if(isset($page['content'])):?>
-									<li><a href="/<?php echo $sectionName?>/<?php echo $key ?>/"><?php echo $page['name']?></a></li>
-								<?php else:?>
-									<li><a href="<?php echo $page['external']?>"><?php echo $page['name']?></a></li>
-								<?php endif;?>
-							<?php endif;?>
-						<?php endforeach;?>
-					</ul>
+						<a href="/<?php echo $printkey?>"><?php echo $section['name']?></a>
+						<?php if(isset($section[''])): //only folders have a key named '' for the main page?>
+							<?php ($sectionName == $key) ? $class = 'shown' : $class = 'collapse'; ?>
+							<ul class="<?php echo $class?>">
+								<?php foreach($section as $subkey=>$page): ?>
+									<?php if(is_array($page) && $subkey != ''):?>
+										<?php if(isset($page['content'])):?>
+											<li><a href="/<?php echo $key?>/<?php echo $subkey ?>/"><?php echo $page['name']?></a></li>
+										<?php else:?>
+											<li><a href="<?php echo $page['external']?>"><?php echo $page['name']?></a></li>
+										<?php endif;?>
+									<?php endif;?>
+								<?php endforeach;?>
+							</ul>
+						<?php endif?>
 					</li>
-					<?php endif;?>
 				<?php endif;?>
 			<?php endforeach;?>
 			</ul>

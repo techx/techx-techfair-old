@@ -50,24 +50,24 @@ Group, IGT, Cisco</p>
 <table align="center">
     <tr>
         <td>
-            <a href="/media/history/06_1.jpg" target="_blank"><img src="/media/history/06_1t.jpg" /></a>
+            <a href="/img/history/06_1.jpg" target="_blank"><img src="/img/history/06_1t.jpg" /></a>
         </td>
         <td>
-            <a href="/media/history/06_2.jpg" target="_blank"><img src="/media/history/06_2t.jpg" /></a>
+            <a href="/img/history/06_2.jpg" target="_blank"><img src="/img/history/06_2t.jpg" /></a>
         </td>
         <td>
-            <a href="/media/history/06_3.jpg" target="_blank"><img src="/media/history/06_3t.jpg" /></a>
+            <a href="/img/history/06_3.jpg" target="_blank"><img src="/img/history/06_3t.jpg" /></a>
         </td>
     </tr>
     <tr>
         <td>
-            <a href="/media/history/06_4.jpg" target="_blank"><img src="/media/history/06_4t.jpg" /></a>
+            <a href="/img/history/06_4.jpg" target="_blank"><img src="/img/history/06_4t.jpg" /></a>
         </td>
         <td>
-            <a href="/media/history/06_5.jpg" target="_blank"><img src="/media/history/06_5t.jpg" /></a>
+            <a href="/img/history/06_5.jpg" target="_blank"><img src="/img/history/06_5t.jpg" /></a>
         </td>
         <td>
-            <a href="/media/history/06_6.jpg" target="_blank"><img src="/media/history/06_6t.jpg" /></a>
+            <a href="/img/history/06_6.jpg" target="_blank"><img src="/img/history/06_6t.jpg" /></a>
         </td>
     </tr>
 </table>
@@ -89,24 +89,24 @@ many more fairs to follow.</p>
 <table align="center">
     <tr>
         <td>
-            <a href="/media/history/05_1.jpg" target="_blank"><img src="/media/history/05_1t.jpg" /></a>
+            <a href="/img/history/05_1.jpg" target="_blank"><img src="/img/history/05_1t.jpg" /></a>
         </td>
         <td>
-            <a href="/media/history/05_2.jpg" target="_blank"><img src="/media/history/05_2t.jpg" /></a>
+            <a href="/img/history/05_2.jpg" target="_blank"><img src="/img/history/05_2t.jpg" /></a>
         </td>
         <td>
-            <a href="/media/history/05_3.jpg" target="_blank"><img src="/media/history/05_3t.jpg" /></a>
+            <a href="/img/history/05_3.jpg" target="_blank"><img src="/img/history/05_3t.jpg" /></a>
         </td>
     </tr>
     <tr>
         <td>
-            <a href="/media/history/05_4.jpg" target="_blank"><img src="/media/history/05_4t.jpg" /></a>
+            <a href="/img/history/05_4.jpg" target="_blank"><img src="/img/history/05_4t.jpg" /></a>
         </td>
         <td>
-            <a href="/media/history/05_5.jpg" target="_blank"><img src="/media/history/05_5t.jpg" /></a>
+            <a href="/img/history/05_5.jpg" target="_blank"><img src="/img/history/05_5t.jpg" /></a>
         </td>
         <td>
-            <a href="/media/history/05_6.jpg" target="_blank"><img src="/media/history/05_6t.jpg" /></a>
+            <a href="/img/history/05_6.jpg" target="_blank"><img src="/img/history/05_6t.jpg" /></a>
         </td>
     </tr>
 </table>
