@@ -38,7 +38,7 @@ $routes = array(
 			'content' => 'exhibit/why.php',
 		),
 		'packages' => array(
-			'title' => $basetitle.' / Sponsorship Packages',
+			'title' => $basetitle.' / Sponsorship',
 			'content' => 'exhibit/packages.php',
 			'name' => 'Sponsorship Packages'
 		),

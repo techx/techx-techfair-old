@@ -1,6 +1,6 @@
-<h1>Sponsorship Packages</h1>
-<p>TechFair offers three standard sponsorships, designated below. Aside from the amenities described, the higher sponsorships help companies maintain a larger physical and advertised presence as part of our TechFair campaign before and during the fair.</p> 
-<p>TechFair also offers custom sponsorships and opportunities. Please contact <a href="mailto:techfair-cr@mit.edu">techfair-cr@mit.edu</a> for more information.</p> 
+<h1>Sponsorship</h1>
+<p>TechFair offers three standard sponsorships, designated below. Aside from the amenities described, the higher sponsorships help companies maintain a larger physical and advertised presence as part of our TechFair campaign before and during the fair.</p>
+<h2>Packages</h2>
 <table id="sponsorship"> 
 	<tr> 
 		<th>Sponsorship</th> 
@@ -107,3 +107,5 @@
 		<td>$1000</td> 
 	</tr> 
 </table>
+<h2>Apply</h2>
+<p>TechFair also offers custom sponsorships and opportunities. If interested in applying to MIT TechFair 2011, please contact <a href="mailto:techfair-cr-head@mit.edu">techfair-cr-head@mit.edu</a> for more information.</p> 
