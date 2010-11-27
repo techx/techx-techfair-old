@@ -64,27 +64,12 @@ print_r($errors);
 //if there are no errors, add mysql entry and move file to safe place
 if(count($errors) == 0)
 {
-	//my poor mysqli code...
-	/*
-	$mysqli = new mysqli('mysql.mit.edu', 'techfair', 'it02139', 'techfair+db');
-	if (mysqli_connect_errno())
-	{
-		printf("Connect failed: %s\n", mysqli_connect_error());
-	    exit();
-	}
-	$stmt = $mysqli->prepare("INSERT into resumedrop11 (firstname,lastname,email,year,course,phone) VALUES (?,?,?,?,?,?,?)");
-	$phone = $_POST['phone1'].$_POST['phone2'].$_POST['phone3'];
-	$stmt->bind_param('sssssss',$_POST['firstname'],$_POST['lastname'],$_POST['email'],$_POST['year'],$_POST['course'],$_POST['resume'],$phone);
-	$stmt->execute();
-	$stmt->close();
-	*/
-	
 	//add mysql entry
 	$mysql = mysql_connect('localhost', 'techfair', 'it02139');
 	mysql_select_db('techfair+db');
-	print_r('firstname: '.$_POST['firstname']);
+	print($_POST['firstname']);
 	$firstname = mysql_real_escape_string($_POST['firstname']);
-	print_r($firstname);
+	print($firstname);
 	exit();
 	$lastname = mysql_real_escape_string($_POST['lastname']);
 	$email = mysql_real_escape_string($_POST['email']);
