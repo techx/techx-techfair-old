@@ -1,5 +1,6 @@
 <pre>
 <?php
+print_r($_POST);
 print_r($_FILES);
 $errors = array();
 if(!isset($_POST['firstname']) || $_POST['firstname']=='')
