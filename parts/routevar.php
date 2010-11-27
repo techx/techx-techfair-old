@@ -31,12 +31,12 @@ $routes = array(
 		'afterparty' => array(
 			'title' => 'Afterparty / '.$basetitle,
 			'content' => 'pages/events/party.php',
-			'name' => '<img src="/img/db.png" alt="db" style="vertical-align:top"/>&nbsp;<span>Afterparty</span>'
+			'name' => 'Afterparty'
 		),
 		'venue' => array(
 			'title' => 'Venue / '.$basetitle,
 			'content' => 'pages/events/venue.php',
-			'name' => 'Venue'
+			'name' => '<img src="/img/mit.png" alt="mit" style="vertical-align:top"/>&nbsp;Venue'
 		),
 	),
 	//exhibit is a folder, has a name property
