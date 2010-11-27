@@ -65,7 +65,7 @@ print_r($errors);
 if(count($errors) == 0)
 {
 	//add mysql entry
-	$mysql = mysql_connect('localhost', 'techfair', 'it02139');
+	$mysql = mysql_connect('localhost', 'techfair', 'it02139') or die(mysql_error());
 	mysql_select_db('techfair+db');
 	$query = sprintf("INSERT into resumedrop11 (firstname,lastname,email,year,course,phone) VALUES ('%s','%s','%s','%s','%s','%s')",
 				mysql_real_escape_string($_POST['firstname']),
@@ -75,6 +75,7 @@ if(count($errors) == 0)
 				mysql_real_escape_string($_POST['course']),
 				mysql_real_escape_string($_POST['phone']));
 	echo $query;
+	exit();
 	$insert = mysql_query($query);
 	
 	if ($insert)
