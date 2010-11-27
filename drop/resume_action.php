@@ -31,9 +31,9 @@ if(
 {
 	$errors['year'] = 'Please choose a valid graduation year.';
 }
-if(!isset($_POST['course']) || $_POST['course']=='')
+if(!isset($_POST['major1']) || $_POST['major1']=='' || $_POST['major1']==0 || !isset($_POST['major2']) || $_POST['major2']=='')
 {
-	$errors['course'] = 'Please enter course information.';
+	$errors['major'] = 'Please indicate your major(s).';
 }
 if($_FILES['resume']['error']>0)
 {
@@ -63,12 +63,13 @@ if(count($errors) == 0)
 	//add mysql entry
 	$mysql = mysql_connect('mysql.mit.edu', 'techfair', 'tech02139portal') or die(mysql_error());
 	mysql_select_db('techfair+resume');
-	$query = sprintf("INSERT into resumedrop11 (firstname,lastname,email,year,course,phone) VALUES ('%s','%s','%s','%s','%s','%d')",
+	$query = sprintf("INSERT into resumedrop11 (firstname,lastname,email,year,major1,major2,phone) VALUES ('%s','%s','%s','%s','%s','%s','%d')",
 				mysql_real_escape_string($_POST['firstname']),
 				mysql_real_escape_string($_POST['lastname']),
 				mysql_real_escape_string($_POST['email']),
 				mysql_real_escape_string($_POST['year']),
-				mysql_real_escape_string($_POST['course']),
+				mysql_real_escape_string($_POST['major1']),
+				mysql_real_escape_string($_POST['major2']),
 				mysql_real_escape_string($_POST['phone1'].$_POST['phone2'].$_POST['phone3']));
 	$insert = mysql_query($query);
 	

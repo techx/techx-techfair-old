@@ -30,7 +30,6 @@ if (@$_SERVER['SSL_CLIENT_S_DN_CN']) { // if certificate detected
   echo '<h3>Welcome, <strong>',$_SERVER['SSL_CLIENT_S_DN_CN'],'</strong>.</h3>'; // name
 }
 ?>
-
 <form action="" method="post" enctype="multipart/form-data">
 	<input type="hidden" name="action" value="resume" />
 	<table>
@@ -72,17 +71,36 @@ if (@$_SERVER['SSL_CLIENT_S_DN_CN']) { // if certificate detected
 			<td class="error"><?php echoError('year')?></td>
 		</tr>
 		<tr>
-			<th><label>Course</label></th>
+			<th><label>Major(s)</label></th>
 			<td>
+				<select name="major1" id="major1">
+					<option value="0">Pick a major</option>
 				<?php
 				$mysql = mysql_connect('mysql.mit.edu', 'techfair', 'tech02139portal') or die(mysql_error());
 				mysql_select_db('techfair+resume');
-				$query = "SELECT Course from courses";
-				
+				$query = "SELECT course from courses ORDER BY id asc";
+				$result = mysql_query($query);
+				while($row = mysql_fetch_row($result)):
+				print_r($row);
 				?>
-				<input type="text" name="course" id="course"  size="20" <?php echoValue('course')?>/>
+					<option value="<?php echo $row[0]?>" <?php pickSelect('major1',$row[0])?>><?php echo $row[0]?></option>
+				<?php endwhile;?>
+				</select>
+				(and
+				<select name="major2" id="major2">
+					<option value="0">optionally a second</option>
+				<?php
+				$query = "SELECT course from courses WHERE id!=41 ORDER BY id asc";
+				$result = mysql_query($query);
+				while($row = mysql_fetch_row($result)):
+				print_r($row);
+				?>
+					<option value="<?php echo $row[0]?>" <?php pickSelect('major2',$row[0])?>><?php echo $row[0]?></option>
+				<?php endwhile;?>
+				</select>
+				)
 			</td>
-			<td class="error"><?php echoError('course')?></td>
+			<td class="error"><?php echoError('major')?></td>
 		</tr>
 		<tr>
 			<th><label>Resume (pdf)</label></th>
