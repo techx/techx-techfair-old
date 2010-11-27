@@ -83,7 +83,7 @@ if(count($errors) == 0)
 		$firstname = str_replace('/','',$_POST['firstname']);
 		$filename = $id.$lastname.$firstname.'.pdf';
 
-		$dir = 'uploads/';
+		$dir = 'resumes/';
 		$filepath = $dir.$filename;
 		echo $filepath;
 		if (is_uploaded_file($_FILES['resume']['tmp_name']) && move_uploaded_file($_FILES['resume']['tmp_name'],$filepath))
