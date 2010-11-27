@@ -85,6 +85,7 @@ if(count($errors) == 0)
 	print_r('firstname: '.$_POST['firstname']);
 	$firstname = mysql_real_escape_string($_POST['firstname']);
 	print_r($firstname);
+	exit();
 	$lastname = mysql_real_escape_string($_POST['lastname']);
 	$email = mysql_real_escape_string($_POST['email']);
 	$year = mysql_real_escape_string($_POST['year']);
