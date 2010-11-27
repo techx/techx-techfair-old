@@ -1,7 +1,5 @@
 <pre>
 <?php
-//set $status to 1 to let resume.php know everything was successful
-$status = 0;
 $errors = array();
 if(!isset($_POST['firstname']) || $_POST['firstname']=='')
 {
@@ -92,8 +90,8 @@ if(count($errors) == 0)
 			$update = mysql_query($query);
 			if($update)
 			{
-				//flag of $status = 1 lets resume.php know everything was successful
-				$status = 1;
+				//redirect to success message
+				header('Location: ?msg=success');
 			} else {
 				unlink($filepath);
 				exit('Could not update data in database');

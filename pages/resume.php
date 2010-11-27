@@ -1,4 +1,4 @@
-<?php if($status==1):?>
+<?php if($_GET['msg']=='success'):?>
 <div class="success">Your r&#233;sum&#233; has been successfully dropped. We look forward to seeing you at MIT TechFair 2011!</div>
 <?php endif;?>
 <h1>R&#233;sum&#233; Drop</h1>
