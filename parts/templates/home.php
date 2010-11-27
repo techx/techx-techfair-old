@@ -47,8 +47,8 @@
 		<div id="menu">
 			<ul>
 				<li id="map"><a href="/events/venue/" class="box">venue</a></li>
-				<li id="team"><a href="/team/" class="box">team</a></li>
-				<li id="history"><a href="/history/" class="box">history</a></li>
+				<li id="team"><a href="/about/" class="box">about us</a></li>
+				<li id="history"><a href="/drop/" class="box">r&#233;sum&#233; drop</a></li>
 			</ul>
 		</div>
 		<div id="techat" class="box">

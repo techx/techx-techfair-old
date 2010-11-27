@@ -5,10 +5,10 @@ $(document).ready(function(){
 			if (el.hasClass('collapse'))
 			{
 				var duration = 200;
-				$('#navlinks .shown').stop().removeClass('shown').slideUp(duration,function(){
+				$('#navlinks .shown').removeClass('shown').slideUp(duration,function(){
 					$(this).addClass('collapse');
 				});
-				el.addClass('shown').stop().slideDown(duration).removeClass('collapse');
+				el.addClass('shown').slideDown(duration).removeClass('collapse');
 			}
 		},function(){});
 	});
