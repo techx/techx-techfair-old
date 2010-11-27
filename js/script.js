@@ -12,5 +12,4 @@ $(document).ready(function(){
 			}
 		},function(){});
 	});
-	$('#content h1, h2, h3, label, .success, button').addClass('typeface-js').css('font-family','Helvetica');
 });
