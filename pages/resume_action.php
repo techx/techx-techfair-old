@@ -87,7 +87,9 @@ if(count($errors) == 0)
 	$year = mysql_real_escape_string($_POST['year']);
 	$course = mysql_real_escape_string($_POST['course']);
 	$phone = mysql_real_escape_string($_POST['phone']);
-	$insert = mysql_query("INSERT into resumedrop11 (firstname,lastname,email,year,course,phone) VALUES ('$firstname','$lastname','$email','$year','$course','$phone')");
+	$query = "INSERT into resumedrop11 (firstname,lastname,email,year,course,phone) VALUES ('$firstname','$lastname','$email','$year','$course','$phone')";
+	echo $query;
+	$insert = mysql_query($query);
 	
 	if ($insert)
 	{
