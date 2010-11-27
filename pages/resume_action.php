@@ -1,3 +1,4 @@
+<pre>
 <?php
 //set $status to 1 to let resume.php know everything was successful
 $status = 0;
@@ -105,3 +106,4 @@ if(count($errors) == 0)
 	}
 }
 ?>
+</pre>
