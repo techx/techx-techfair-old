@@ -57,20 +57,30 @@ if($_FILES['resume']['error']>0)
 		$errors['resume'] = 'Must be a pdf.';
 	}
 }
+if(!isset($_POST['kerberos']) || $_POST['kerberos']=='')
+{
+	$errors['kerberos'] = 'error';
+}
 //if there are no errors, add mysql entry and move file to safe place
 if(count($errors) == 0)
 {
 	//add mysql entry
 	$mysql = mysql_connect('mysql.mit.edu', 'techfair', 'tech02139portal') or die(mysql_error());
 	mysql_select_db('techfair+resume');
-	$query = sprintf("INSERT into resumedrop11 (firstname,lastname,email,year,major1,major2,phone) VALUES ('%s','%s','%s','%s','%s','%s','%d')",
+	(isset($_POST['fulltime'])) ? $fulltime = 1 : $fulltime = 0;
+	(isset($_POST['internship'])) ? $internship = 1 : $internship = 0;
+	$query = sprintf("INSERT into resumedrop11 (kerberos,firstname,lastname,email,year,major1,major2,phone,fulltime,internship) VALUES ('%s','%s','%s','%s','%s','%s','%s','%d','%d','%d')",
+				mysql_real_escape_string($_POST['kerberos']),
 				mysql_real_escape_string($_POST['firstname']),
 				mysql_real_escape_string($_POST['lastname']),
 				mysql_real_escape_string($_POST['email']),
 				mysql_real_escape_string($_POST['year']),
 				mysql_real_escape_string($_POST['major1']),
 				mysql_real_escape_string($_POST['major2']),
-				mysql_real_escape_string($_POST['phone1'].$_POST['phone2'].$_POST['phone3']));
+				mysql_real_escape_string($_POST['phone1'].$_POST['phone2'].$_POST['phone3']),
+				$fulltime,
+				$internship
+				);
 	$insert = mysql_query($query);
 	
 	if ($insert)

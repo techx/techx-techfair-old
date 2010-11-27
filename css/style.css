@@ -369,3 +369,7 @@ form td.error {
 	font-size: 14px;
 	color: #FF0000;
 }
+ul.radio span {
+	font-size: 14px;
+	margin-left: 5px;
+}

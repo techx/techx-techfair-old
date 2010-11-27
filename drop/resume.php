@@ -25,28 +25,37 @@ if(!function_exists('pickSelect'))
 		if(isset($_POST[$key]) && $_POST[$key]==$option) echo 'selected';
 	}
 }
-if (@$_SERVER['SSL_CLIENT_S_DN_CN']) { // if certificate detected
-  $email = $_SERVER['SSL_CLIENT_S_DN_Email']; // email
-  echo '<h3>Welcome, <strong>',$_SERVER['SSL_CLIENT_S_DN_CN'],'</strong>.</h3>'; // name
-}
+
+$email = $_SERVER['SSL_CLIENT_S_DN_Email']; // email
+echo '<h3>Welcome, <strong>',$_SERVER['SSL_CLIENT_S_DN_CN'],'</strong>.</h3>'; // name
+
+$mysql = mysql_connect('mysql.mit.edu', 'techfair', 'tech02139portal') or die(mysql_error());
+mysql_select_db('techfair+resume');
+$query = sprintf("SELECT resume FROM resumedrop11 WHERE kerberos='%s'",$email);
+$result = mysql_query($query);
+$exists = mysql_num_rows($result);
+if($exists>0):
 ?>
+<p>You have already submitted a r&#233;sum&#233;. Thank you for your interest in MIT TechFair.</p>
+<?php else: ?>
 <form action="" method="post" enctype="multipart/form-data">
 	<input type="hidden" name="action" value="resume" />
+	<input type="hidden" name="kerberos" value="<?php echo $email?>" />
 	<table>
 		<tr>
-			<th><label>First Name</label></th>
+			<th><label for="firstname">First Name</label></th>
 			<td><input type="text" name="firstname" id="firstname" size="20" <?php echoValue('firstname')?>/></td>
 			<td class="error"><?php echoError('firstname')?></td>
 		</tr>
 		<tr>
-			<th><label>Last Name</label></th>
+			<th><label for="lastname">Last Name</label></th>
 			<td><input type="text" name="lastname" id="lastname"  size="20" <?php echoValue('lastname')?>/></td>
 			<td class="error"><?php echoError('lastname')?></td>
 		</tr>
 		<tr>
-			<th><label>Email</label></th>
+			<th><label for="email">Email</label></th>
 			<td><input type="text" name="email" id="email"  size="25" <?php
-			if(isset$_POST['email'])) echo 'value="',$_POST['email'],'"';
+			if(isset($_POST['email'])) echo 'value="',$_POST['email'],'"';
 			else if(isset($email)) echo 'value="',$email,'"';
 			?>/></td>
 			<td class="error"><?php echoError('email')?></td>
@@ -61,7 +70,7 @@ if (@$_SERVER['SSL_CLIENT_S_DN_CN']) { // if certificate detected
 			<td class="error"><?php echoError('phone')?></td>
 		</tr>
 		<tr>
-			<th><label>Year</label></th>
+			<th><label for="year">Year</label></th>
 			<td>
 				<select name="year" id="year">
 					<option value="G" <?php pickSelect('year','G')?>>Grad</option>
@@ -74,13 +83,11 @@ if (@$_SERVER['SSL_CLIENT_S_DN_CN']) { // if certificate detected
 			<td class="error"><?php echoError('year')?></td>
 		</tr>
 		<tr>
-			<th><label>Major(s)</label></th>
+			<th><label for="major1">Major(s)</label></th>
 			<td>
 				<select name="major1" id="major1">
 					<option value="0">Pick a major</option>
 				<?php
-				$mysql = mysql_connect('mysql.mit.edu', 'techfair', 'tech02139portal') or die(mysql_error());
-				mysql_select_db('techfair+resume');
 				$query = "SELECT course from courses ORDER BY id asc";
 				$result = mysql_query($query);
 				while($row = mysql_fetch_row($result)):
@@ -104,11 +111,11 @@ if (@$_SERVER['SSL_CLIENT_S_DN_CN']) { // if certificate detected
 			<td class="error"><?php echoError('major')?></td>
 		</tr>
 		<tr>
-			<th><label>Interested in</label></th>
+			<th><label>Interested In</label></th>
 			<td>
-				<ul>
-					<li><input type="checkbox" name="fulltime" />Full-time</li>
-					<li><input type="checkbox" name="internship" />Internship</li>
+				<ul class="radio">
+					<li><input type="checkbox" name="fulltime" id="fulltime" value="1"/><span>Full-time</span></li>
+					<li><input type="checkbox" name="internship" id="internship" value="1"/><span>Internship</span></li>
 				</ul>
 			</td>
 		</tr>
@@ -123,3 +130,4 @@ if (@$_SERVER['SSL_CLIENT_S_DN_CN']) { // if certificate detected
 		</tr>
 	</table>
 </form>
+<?php endif;?>
