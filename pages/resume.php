@@ -1,5 +1,5 @@
 <?php if($status==1):?>
-<div class="success">Your r&#233;sum&#233; has been successfully dropped. We look forward to seeing you at MIT TechFair 2011.</div>
+<div class="success">Your r&#233;sum&#233; has been successfully dropped. We look forward to seeing you at MIT TechFair 2011!</div>
 <?php endif;?>
 <h1>R&#233;sum&#233; Drop</h1>
 <p>The r&#233;sum&#233; drop is provided as a service to <strong>MIT students</strong> interested in companies coming to TechFair. These r&#233;sum&#233;s will be compiled into a book for each company to peruse.</p>
