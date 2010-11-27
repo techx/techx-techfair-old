@@ -46,7 +46,7 @@ if (@$_SERVER['SSL_CLIENT_S_DN_CN']) { // if certificate detected
 		<tr>
 			<th><label>Email</label></th>
 			<td><input type="text" name="email" id="email"  size="25" <?php
-			if(isset$_POST['email']) echo 'value="',$_POST['email'],'"';
+			if(isset$_POST['email'])) echo 'value="',$_POST['email'],'"';
 			else if(isset($email)) echo 'value="',$email,'"'
 			?>/></td>
 			<td class="error"><?php echoError('email')?></td>
@@ -84,7 +84,6 @@ if (@$_SERVER['SSL_CLIENT_S_DN_CN']) { // if certificate detected
 				$query = "SELECT course from courses ORDER BY id asc";
 				$result = mysql_query($query);
 				while($row = mysql_fetch_row($result)):
-				print_r($row);
 				?>
 					<option value="<?php echo $row[0]?>" <?php pickSelect('major1',$row[0])?>><?php echo $row[0]?></option>
 				<?php endwhile;?>
@@ -96,7 +95,6 @@ if (@$_SERVER['SSL_CLIENT_S_DN_CN']) { // if certificate detected
 				$query = "SELECT course from courses WHERE id!=41 ORDER BY id asc";
 				$result = mysql_query($query);
 				while($row = mysql_fetch_row($result)):
-				print_r($row);
 				?>
 					<option value="<?php echo $row[0]?>" <?php pickSelect('major2',$row[0])?>><?php echo $row[0]?></option>
 				<?php endwhile;?>
