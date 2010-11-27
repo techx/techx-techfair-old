@@ -90,7 +90,7 @@ if(count($errors) == 0)
 			if($update)
 			{
 				//redirect to success message
-				header('Location: &msg=success');
+				header('Location: ?msg=success');
 			} else {
 				unlink($filepath);
 				exit('Could not update data in database');
