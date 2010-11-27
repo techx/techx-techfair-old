@@ -1,5 +1,5 @@
 <?php
-$basetitle = 'MIT TechFair';
+$basetitle = 'MIT TechFair 2011';
 $routes = array(
 	'home' => array(
 		'title' => $basetitle,
@@ -7,7 +7,7 @@ $routes = array(
 		'name' => 'Home'
 	),
 	'contact' => array(
-		'title' => $basetitle.' / Contact Us',
+		'title' => 'Contact Us / '.$basetitle,
 		'content' => 'contact.php',
 		//use show => false to hide from nav
 		'show' => false
@@ -15,18 +15,28 @@ $routes = array(
 	'events' => array(
 		'name' => 'Events',
 		'' => array(
-			'title' => $basetitle.' / Events',
+			'title' => 'Events / '.$basetitle,
 			'content' => 'events/fair.php',
 		),
-		'venue' => array(
-			'title' => $basetitle.' / Venue',
-			'content' => 'events/venue.php',
-			'name' => 'Venue'
+		'hackathon' => array(
+			'title' => 'Hackathon / '.$basetitle,
+			'content' => 'events/hackathon.php',
+			'name' => '<img src="/img/fb.png" alt="fb" style="vertical-align:top"/>&nbsp;<span>Hackathon</span>'
 		),
 		'banquet' => array(
-			'title' => $basetitle.' / Banquet',
+			'title' => 'Banquet / '.$basetitle,
 			'content' => 'events/banquet.php',
 			'name' => 'Banquet'
+		),
+		'afterparty' => array(
+			'title' => 'Afterparty / '.$basetitle,
+			'content' => 'events/party.php',
+			'name' => '<img src="/img/db.png" alt="db" style="vertical-align:top"/>&nbsp;<span>Afterparty</span>'
+		),
+		'venue' => array(
+			'title' => 'Venue / '.$basetitle,
+			'content' => 'events/venue.php',
+			'name' => 'Venue'
 		),
 	),
 	//exhibit is a folder, has a name property
@@ -34,34 +44,41 @@ $routes = array(
 		'name' => 'Exhibit',
 		//'' is the root, has same name as folder
 		'' => array(
-			'title' => $basetitle.' / Why TechFair',
+			'title' => 'Why TechFair / '.$basetitle,
 			'content' => 'exhibit/why.php',
 		),
 		'packages' => array(
-			'title' => $basetitle.' / Sponsorship',
+			'title' => 'Sponsorship / '.$basetitle,
 			'content' => 'exhibit/packages.php',
 			'name' => 'Sponsorship Packages'
 		),
 		'apply' => array(
-			'title' => $basetitle.' / Apply to the Fair',
+			'title' => 'Apply to the Fair / '.$basetitle,
 			'content' => 'exhibit/apply.php',
 			'name' => 'Apply to the Fair'
 		),
 		'portal' => array(
-			'title' => $basetitle.' / Company Portal',
+			'title' => 'Company Portal / '.$basetitle,
 			'external' => 'http://www.mittechfair.org/portal/index.php',
 			'name' => 'Company Portal'
 		),
 	),
-	'history' => array(
-		'title' => $basetitle.' / History',
-		'content' => 'history.php',
-		'name' => 'History'
+	'resume' => array(
+		'title' => 'R&#233;sum&#233; Drop / '.$basetitle,
+		'content' => 'resume.php',
+		'name' => 'R&#233;sum&#233; Drop',
+		//process specifies if you want form information processed before any output
+		'process' => 'resume_action.php'
 	),
 	'team' => array(
-		'title' => $basetitle.' / Team',
+		'title' => 'Team / '.$basetitle,
 		'content' => 'team.php',
 		'name' => 'Team'
+	),
+	'history' => array(
+		'title' => 'History / '.$basetitle,
+		'content' => 'history.php',
+		'name' => 'History'
 	),
 );
 $error404 = array(
@@ -81,6 +98,7 @@ else
 	//explode section/page
 	$parts = explode('/',$page);
 	$sectionName = $parts[0];
+	$subSectionName = $parts[1];
 	if (isset($parts[1])) $page = $parts[1];
 	else $page = "";
 	

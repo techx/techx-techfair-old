@@ -44,6 +44,9 @@ body {
 .clear {
 	clear: both;
 }
+.center {
+	text-align: center;
+}
 
 /*
  * STRUCTURE
@@ -105,7 +108,7 @@ body {
 	margin-right: 10px;
 }
 #navleft1 {
-	height: 100px;
+	height: 130px;
 	background-color: #f29523;
 	margin-bottom: 10px;
 }
@@ -120,7 +123,7 @@ body {
 }
 #navlinks {
 	width: 180px;
-	height: 180px;
+	height: 210px;
 	padding: 10px;
 	background-color: #4078d6;
 	margin-right: 10px;
@@ -129,13 +132,20 @@ body {
 	text-decoration: none;
 	color: white;
 	font-weight: 300;
-	font-size: 20px;
+	font-size: 16px;
 	display: block;
 	padding: 3px;
+}
+#navlinks a.current {
+	background-color: #444;
+	color: #FFF;
 }
 #navlinks a:hover {
 	color: #333;
 	background-color: #DDD;
+}
+#navlinks a:hover span {
+	text-decoration: underline;
 }
 #navlinks li li a {
 	margin-left: 20px;
@@ -150,7 +160,7 @@ body {
 }
 #photo {
 	width: 670px;
-	height: 200px;
+	height: 230px;
 	background-color: #DDD;
 }
 .clearfix:after {
@@ -310,4 +320,44 @@ table#sponsorship tr:nth-child(even) th {
 	font-size: 15px !important;
 	color: #666;
 	margin-bottom: 5px !important;
+}
+
+/*
+ * FORM
+ */
+form th {
+	padding: 5px;
+	text-align: right;
+	font-size: 18px;
+}
+form td {
+	padding: 5px;
+	font-size: 18px;
+}
+input[type=text], input[type=password] {
+	padding: 8px;
+	font-size: 18px;
+	border: 1px solid #CCC;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+}
+input[type=text]:focus, input[type=password]:focus {
+	border: 1px solid #4078D6;
+}
+button {
+	border: 1px solid #CCC;
+	height: 38px;
+	padding: 0 10px;
+	font-size: 18px;
+	background: url('/img/button.png') repeat-x transparent;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+}
+button:hover {
+	border: 1px solid #4078D6;
+	cursor: pointer;
+}
+form td.error {
+	font-size: 14px;
+	color: #FF0000;
 }

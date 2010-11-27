@@ -1,5 +1,5 @@
 <?php
-function make_header($sectionName,$routes)
+function make_header($sectionName,$subSectionName,$routes)
 {
 ?>
 	<div id="header">
@@ -26,14 +26,16 @@ function make_header($sectionName,$routes)
 					$printkey = $key.'/';
 				?>
 					<li>
-						<a href="/<?php echo $printkey?>"><?php echo $section['name']?></a>
+						<?php ($sectionName==$key && $subSectionName=='') ? $class=' class="current"' : $class='';?>
+						<a href="/<?php echo $printkey?>"<?php echo $class?>><?php echo $section['name']?></a>
 						<?php if(isset($section[''])): //only folders have a key named '' for the main page?>
 							<?php ($sectionName == $key) ? $class = 'shown' : $class = 'collapse'; ?>
 							<ul class="<?php echo $class?>">
 								<?php foreach($section as $subkey=>$page): ?>
 									<?php if(is_array($page) && $subkey != ''):?>
 										<?php if(isset($page['content'])):?>
-											<li><a href="/<?php echo $key?>/<?php echo $subkey ?>/"><?php echo $page['name']?></a></li>
+											<?php ($sectionName==$key && $subSectionName==$subkey) ? $class=' class="current"' : $class='';?>
+											<li><a href="/<?php echo $key?>/<?php echo $subkey ?>/"<?php echo $class?>><?php echo $page['name']?></a></li>
 										<?php else:?>
 											<li><a href="<?php echo $page['external']?>"><?php echo $page['name']?></a></li>
 										<?php endif;?>

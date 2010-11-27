@@ -1,4 +1,4 @@
 <h1>Events</h1>
-<p>Come join the expo of cutting edge technology and experience the new products from Oracle, Microsoft, Shell and many more companies and labs!</p>
+<p>Come join the expo of cutting edge technology and experience the innovation from Oracle, Facebook, 23andme, and many more companies and labs!</p>
 <p>The Tech Fair will be conducted "trade-show" style. The audience will be able to walk around to different companies and learn about the company, what they're presenting on, how the science and technologies work, and careers in the company and field of research. We'll also be raffling off great prizes!</p>
 <p>Please visit this site soon for a list of companies that will be presenting during the exposition. If you have any questions, please contact us! We also welcome MIT students to help organize the fair.</p>

@@ -1,5 +1,5 @@
-<h1>Sponsorship</h1>
-<p>TechFair offers three standard sponsorships, designated below. Aside from the amenities described, the higher sponsorships help companies maintain a larger physical and advertised presence as part of our TechFair campaign before and during the fair.</p>
+<h1>Sponsorship Packages</h1>
+<p>TechFair offers three standard sponsorship packages, designated below. Aside from the amenities described, the higher sponsorships help companies maintain a larger physical and advertised presence as part of our TechFair campaign before and during the fair.</p>
 <h2>Packages</h2>
 <table id="sponsorship"> 
 	<tr> 

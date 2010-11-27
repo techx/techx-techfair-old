@@ -9,6 +9,11 @@ require('parts/header.php');
 //footer of site
 require('parts/footer.php');
 
+if(isset($_POST['action']) && isset($d['process']))
+{
+	require('pages/'.$d['process']);
+}
+
 //pick the right template
 if ($sectionName=='') {
 	require('parts/templates/home.php');
