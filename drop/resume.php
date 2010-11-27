@@ -73,7 +73,15 @@ if (@$_SERVER['SSL_CLIENT_S_DN_CN']) { // if certificate detected
 		</tr>
 		<tr>
 			<th><label>Course</label></th>
-			<td><input type="text" name="course" id="course"  size="20" <?php echoValue('course')?>/></td>
+			<td>
+				<?php
+				$mysql = mysql_connect('mysql.mit.edu', 'techfair', 'tech02139portal') or die(mysql_error());
+				mysql_select_db('techfair+resume');
+				$query = "SELECT Course from courses";
+				
+				?>
+				<input type="text" name="course" id="course"  size="20" <?php echoValue('course')?>/>
+			</td>
 			<td class="error"><?php echoError('course')?></td>
 		</tr>
 		<tr>
