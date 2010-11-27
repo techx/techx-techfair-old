@@ -67,16 +67,13 @@ if(count($errors) == 0)
 	//add mysql entry
 	$mysql = mysql_connect('localhost', 'techfair', 'it02139');
 	mysql_select_db('techfair+db');
-	print($_POST['firstname']);
-	$firstname = mysql_real_escape_string($_POST['firstname']);
-	print($firstname);
-	exit();
-	$lastname = mysql_real_escape_string($_POST['lastname']);
-	$email = mysql_real_escape_string($_POST['email']);
-	$year = mysql_real_escape_string($_POST['year']);
-	$course = mysql_real_escape_string($_POST['course']);
-	$phone = mysql_real_escape_string($_POST['phone']);
-	$query = "INSERT into resumedrop11 (firstname,lastname,email,year,course,phone) VALUES ('$firstname','$lastname','$email','$year','$course','$phone')";
+	$query = sprintf("INSERT into resumedrop11 (firstname,lastname,email,year,course,phone) VALUES ('%s','%s','%s','%s','%s','%s')",
+				mysql_real_escape_string($_POST['firstname']),
+				mysql_real_escape_string($_POST['lastname']),
+				mysql_real_escape_string($_POST['email']),
+				mysql_real_escape_string($_POST['year']),
+				mysql_real_escape_string($_POST['course']),
+				mysql_real_escape_string($_POST['phone']));
 	echo $query;
 	$insert = mysql_query($query);
 	
