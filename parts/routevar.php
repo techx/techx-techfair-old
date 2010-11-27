@@ -16,7 +16,12 @@ $routes = array(
 		'name' => 'Events',
 		'' => array(
 			'title' => 'Events / '.$basetitle,
-			'content' => 'pages/events/fair.php',
+			'content' => 'pages/events/fair.php'
+		),
+		'venue' => array(
+			'title' => 'The Fair / '.$basetitle,
+			'content' => 'pages/events/venue.php',
+			'name' => '<img src="/img/mit.png" alt="mit" style="vertical-align:top"/>&nbsp;The Fair'
 		),
 		'hackathon' => array(
 			'title' => 'Hack-a-thon / '.$basetitle,
@@ -33,11 +38,6 @@ $routes = array(
 			'content' => 'pages/events/party.php',
 			'name' => 'Afterparty'
 		),
-		'venue' => array(
-			'title' => 'Venue / '.$basetitle,
-			'content' => 'pages/events/venue.php',
-			'name' => '<img src="/img/mit.png" alt="mit" style="vertical-align:top"/>&nbsp;Venue'
-		),
 	),
 	//exhibit is a folder, has a name property
 	'exhibit' => array(
@@ -45,7 +45,7 @@ $routes = array(
 		//'' is the root, has same name as folder
 		'' => array(
 			'title' => 'Why TechFair / '.$basetitle,
-			'content' => 'pages/exhibit/why.php',
+			'content' => 'pages/exhibit/why.php'
 		),
 		'packages' => array(
 			'title' => 'Sponsorship / '.$basetitle,
@@ -63,19 +63,26 @@ $routes = array(
 			'name' => 'Company Portal'
 		),
 	),
+	'about' => array(
+		'name' => 'About Us',
+		'' => array(
+			'title' => 'About Us / '.$basetitle,
+			'content' => 'pages/about/us.php'
+		),
+		'team' => array(
+			'title' => 'Team / '.$basetitle,
+			'content' => 'pages/about/team.php',
+			'name' => 'Exec Team'
+		),
+		'history' => array(
+			'title' => 'History / '.$basetitle,
+			'content' => 'pages/about/history.php',
+			'name' => 'History'
+		),
+	),
 	'drop' => array(
 		'external' => '/drop/',
-		'name' => 'R&#233;sum&#233; Drop',
-	),
-	'team' => array(
-		'title' => 'Team / '.$basetitle,
-		'content' => 'pages/team.php',
-		'name' => 'Team'
-	),
-	'history' => array(
-		'title' => 'History / '.$basetitle,
-		'content' => 'pages/history.php',
-		'name' => 'History'
-	),
+		'name' => 'R&#233;sum&#233; Drop'
+	)
 );
 ?>
