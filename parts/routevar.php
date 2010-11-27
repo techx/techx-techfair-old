@@ -74,10 +74,10 @@ $routes = array(
 			'content' => 'pages/about/team.php',
 			'name' => 'Exec Team'
 		),
-		'history' => array(
-			'title' => 'History / '.$basetitle,
-			'content' => 'pages/about/history.php',
-			'name' => 'History'
+		'past-sponsors' => array(
+			'title' => 'Past Sponsors / '.$basetitle,
+			'content' => 'pages/about/pastsponsors.php',
+			'name' => 'Past Sponsors'
 		),
 	),
 	'drop' => array(
