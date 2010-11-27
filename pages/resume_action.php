@@ -1,7 +1,7 @@
 <pre>
 <?php
-print_r($_POST);
-print_r($_FILES);
+//set $status to 1 to let resume.php know everything was successful
+$status = 0;
 $errors = array();
 if(!isset($_POST['firstname']) || $_POST['firstname']=='')
 {
@@ -60,13 +60,12 @@ if($_FILES['resume']['error']>0)
 		$errors['resume'] = 'Must be a pdf.';
 	}
 }
-print_r($errors);
 //if there are no errors, add mysql entry and move file to safe place
 if(count($errors) == 0)
 {
 	//add mysql entry
-	$mysql = mysql_connect('mysql.mit.edu', 'techfair', 'it02139') or die(mysql_error());
-	mysql_select_db('techfair+db');
+	$mysql = mysql_connect('mysql.mit.edu', 'techfair', 'tech02139portal') or die(mysql_error());
+	mysql_select_db('techfair+resume');
 	$query = sprintf("INSERT into resumedrop11 (firstname,lastname,email,year,course,phone) VALUES ('%s','%s','%s','%s','%s','%d')",
 				mysql_real_escape_string($_POST['firstname']),
 				mysql_real_escape_string($_POST['lastname']),
@@ -81,17 +80,16 @@ if(count($errors) == 0)
 		$id = mysql_insert_id();
 		$lastname = str_replace('/','',$_POST['lastname']);
 		$firstname = str_replace('/','',$_POST['firstname']);
-		$filename = $id.$lastname.$firstname.'.pdf';
+		$filename = $id.'_'.$lastname.'_'.$firstname.'.pdf';
 
-		$dir = getcwd().'/resumes/';
+		$dir = '/mit/techfair/resumes/';
 		$filepath = $dir.$filename;
-		error_reporting(E_ALL);
-		print_r(is_dir($dir));
-		print_r($filepath);
-		print_r($_FILES['resume']['tmp_name']);
 		if (move_uploaded_file($_FILES['resume']['tmp_name'],$filepath))
 		{
-			$update = mysql_query("UPDATE resumedrop11 SET resume=$filepath WHERE id=$id");
+			$query = sprintf("UPDATE resumedrop11 SET resume='%s' WHERE id=%d",
+						mysql_real_escape_string($filepath),
+						$id);
+			$update = mysql_query($query);
 			if($update)
 			{
 				//flag of $status = 1 lets resume.php know everything was successful
