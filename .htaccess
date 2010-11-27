@@ -2,11 +2,13 @@
     RewriteEngine On
     RewriteBase /
 
-    #Checks to see if the user is attempting to access a valid file,
-    #such as an image or css document, if this isn't true it sends the
-    #request to index.php
+	RewriteRule ^drop - [L,NC]
+
+    #Checks to see if the user is attempting to access a valid file or directory
+    #Otherwise send request to index.php
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_URI} !drop
     RewriteRule ^(.*)$ index.php?page=/$1 [L]
 </IfModule>
 
