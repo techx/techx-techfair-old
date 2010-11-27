@@ -82,7 +82,9 @@ if(count($errors) == 0)
 	//add mysql entry
 	$mysql = mysql_connect('localhost', 'techfair', 'it02139');
 	mysql_select_db('techfair+db');
+	print_r($_POST);
 	$firstname = mysql_real_escape_string($_POST['firstname']);
+	print_r($firstname);
 	$lastname = mysql_real_escape_string($_POST['lastname']);
 	$email = mysql_real_escape_string($_POST['email']);
 	$year = mysql_real_escape_string($_POST['year']);
