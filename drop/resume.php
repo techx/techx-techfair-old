@@ -94,10 +94,9 @@ if($exists>0):
 				?>
 					<option value="<?php echo $row[0]?>" <?php pickSelect('major1',$row[0])?>><?php echo $row[0]?></option>
 				<?php endwhile;?>
-				</select>
-				(and
+				</select><br />
 				<select name="major2" id="major2">
-					<option value="0">optionally a second</option>
+					<option value="0">Second major</option>
 				<?php
 				$query = "SELECT course from courses WHERE id!=41 ORDER BY id asc";
 				$result = mysql_query($query);
@@ -105,8 +104,7 @@ if($exists>0):
 				?>
 					<option value="<?php echo $row[0]?>" <?php pickSelect('major2',$row[0])?>><?php echo $row[0]?></option>
 				<?php endwhile;?>
-				</select>
-				)
+				</select> (optional)
 			</td>
 			<td class="error"><?php echoError('major')?></td>
 		</tr>
