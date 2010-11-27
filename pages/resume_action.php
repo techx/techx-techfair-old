@@ -103,9 +103,4 @@ if(count($errors) == 0)
 		exit('Could not insert data into database.');
 	}
 }
-<<<<<<< HEAD:pages/resume_action.php
 ?>
-</pre>
-=======
-?>
->>>>>>> 5da43635e70d4d2335eee7f4a309db77d9510272:pages/resume_action.php
