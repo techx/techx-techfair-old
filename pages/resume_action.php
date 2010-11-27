@@ -80,7 +80,7 @@ if(count($errors) == 0)
 		$firstname = str_replace('/','',$_POST['firstname']);
 		$filename = $id.'_'.$lastname.'_'.$firstname.'.pdf';
 
-		$dir = '/mit/techfair/resumes/';
+		$dir = '/mit/techfair/web_scripts/resumes/';
 		$filepath = $dir.$filename;
 		if (move_uploaded_file($_FILES['resume']['tmp_name'],$filepath))
 		{
@@ -103,5 +103,9 @@ if(count($errors) == 0)
 		exit('Could not insert data into database.');
 	}
 }
+<<<<<<< HEAD:pages/resume_action.php
 ?>
 </pre>
+=======
+?>
+>>>>>>> 5da43635e70d4d2335eee7f4a309db77d9510272:pages/resume_action.php
