@@ -47,7 +47,7 @@ if (@$_SERVER['SSL_CLIENT_S_DN_CN']) { // if certificate detected
 			<th><label>Email</label></th>
 			<td><input type="text" name="email" id="email"  size="25" <?php
 			if(isset$_POST['email'])) echo 'value="',$_POST['email'],'"';
-			else if(isset($email)) echo 'value="',$email,'"'
+			else if(isset($email)) echo 'value="',$email,'"';
 			?>/></td>
 			<td class="error"><?php echoError('email')?></td>
 		</tr>
