@@ -31,7 +31,7 @@ echo '<h3>Welcome, <strong>',$_SERVER['SSL_CLIENT_S_DN_CN'],'</strong>.</h3>'; /
 
 $mysql = mysql_connect('mysql.mit.edu', 'techfair', 'tech02139portal') or die(mysql_error());
 mysql_select_db('techfair+resume');
-$query = sprintf("SELECT resume FROM resumedrop11 WHERE kerberos='%s'",$email);
+$query = sprintf("SELECT resume FROM resumedrop11 WHERE email='%s'",$email);
 $result = mysql_query($query);
 $exists = mysql_num_rows($result);
 if($exists>0):
@@ -40,7 +40,6 @@ if($exists>0):
 <?php else: ?>
 <form action="" method="post" enctype="multipart/form-data">
 	<input type="hidden" name="action" value="resume" />
-	<input type="hidden" name="kerberos" value="<?php echo $email?>" />
 	<table>
 		<tr>
 			<th><label for="firstname">First Name</label></th>
@@ -54,10 +53,7 @@ if($exists>0):
 		</tr>
 		<tr>
 			<th><label for="email">Email</label></th>
-			<td><input type="text" name="email" id="email"  size="25" <?php
-			if(isset($_POST['email'])) echo 'value="',$_POST['email'],'"';
-			else if(isset($email)) echo 'value="',$email,'"';
-			?>/></td>
+			<td><?php echo $email?><input type="hidden" name="email" value="<?php echo $email?>" /></td>
 			<td class="error"><?php echoError('email')?></td>
 		</tr>
 		<tr>
