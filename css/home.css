@@ -58,8 +58,6 @@ font-family: Helvetica, Arial, sans-serif;
 	padding:0;
 	clear:both;
 	background:#fff;
-	border: solid white;
-	border-width:0 25px;
 }
 #c1,#c2,#c3{
 	float:left;
