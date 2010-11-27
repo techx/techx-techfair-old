@@ -1,86 +1,6 @@
 <?php
-$basetitle = 'MIT TechFair 2011';
-$routes = array(
-	'home' => array(
-		'title' => $basetitle,
-		'content' => 'home.php',
-		'name' => 'Home'
-	),
-	'contact' => array(
-		'title' => 'Contact Us / '.$basetitle,
-		'content' => 'contact.php',
-		//use show => false to hide from nav
-		'show' => false
-	),
-	'events' => array(
-		'name' => 'Events',
-		'' => array(
-			'title' => 'Events / '.$basetitle,
-			'content' => 'events/fair.php',
-		),
-		'hackathon' => array(
-			'title' => 'Hack-a-thon / '.$basetitle,
-			'content' => 'events/hackathon.php',
-			'name' => '<img src="/img/fb.png" alt="fb" style="vertical-align:top"/>&nbsp;<span>Hack-a-thon</span>'
-		),
-		'banquet' => array(
-			'title' => 'Banquet / '.$basetitle,
-			'content' => 'events/banquet.php',
-			'name' => 'Banquet'
-		),
-		'afterparty' => array(
-			'title' => 'Afterparty / '.$basetitle,
-			'content' => 'events/party.php',
-			'name' => '<img src="/img/db.png" alt="db" style="vertical-align:top"/>&nbsp;<span>Afterparty</span>'
-		),
-		'venue' => array(
-			'title' => 'Venue / '.$basetitle,
-			'content' => 'events/venue.php',
-			'name' => 'Venue'
-		),
-	),
-	//exhibit is a folder, has a name property
-	'exhibit' => array(
-		'name' => 'Exhibit',
-		//'' is the root, has same name as folder
-		'' => array(
-			'title' => 'Why TechFair / '.$basetitle,
-			'content' => 'exhibit/why.php',
-		),
-		'packages' => array(
-			'title' => 'Sponsorship / '.$basetitle,
-			'content' => 'exhibit/packages.php',
-			'name' => 'Sponsorship Packages'
-		),
-		'apply' => array(
-			'title' => 'Apply to the Fair / '.$basetitle,
-			'content' => 'exhibit/apply.php',
-			'name' => 'Apply to the Fair'
-		),
-		'portal' => array(
-			'title' => 'Company Portal / '.$basetitle,
-			'external' => 'http://www.mittechfair.org/portal/index.php',
-			'name' => 'Company Portal'
-		),
-	),
-	'resume' => array(
-		'title' => 'R&#233;sum&#233; Drop / '.$basetitle,
-		'content' => 'resume.php',
-		'name' => 'R&#233;sum&#233; Drop',
-		//process specifies if you want form information processed before any output
-		'process' => 'resume_action.php'
-	),
-	'team' => array(
-		'title' => 'Team / '.$basetitle,
-		'content' => 'team.php',
-		'name' => 'Team'
-	),
-	'history' => array(
-		'title' => 'History / '.$basetitle,
-		'content' => 'history.php',
-		'name' => 'History'
-	),
-);
+//separate the $route variable into its own file so resume drop can access it
+require('routevar.php');
 $error404 = array(
 	'title' => '404 Not Found',
 	'content' => '404.php'
@@ -98,17 +18,16 @@ else
 	//explode section/page
 	$parts = explode('/',$page);
 	$sectionName = $parts[0];
-	$subSectionName = $parts[1];
-	if (isset($parts[1])) $page = $parts[1];
-	else $page = "";
+	if (isset($parts[1])) $subSectionName = $parts[1];
+	else $subSectionName = "";
 	
 	//if its in a section
-	if (isset($routes[$sectionName][$page]))
+	if (isset($routes[$sectionName][$subSectionName]))
 	{
-		$d = $routes[$sectionName][$page];
+		$d = $routes[$sectionName][$subSectionName];
 	}
 	//if its a stand-alone page
-	elseif (isset($routes[$sectionName]) && $page=='')
+	elseif (isset($routes[$sectionName]) && $subSectionName=='')
 	{
 		$d = $routes[$sectionName];
 	}

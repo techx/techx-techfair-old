@@ -27,7 +27,11 @@ function make_header($sectionName,$subSectionName,$routes)
 				?>
 					<li>
 						<?php ($sectionName==$key && $subSectionName=='') ? $class=' class="current"' : $class='';?>
-						<a href="/<?php echo $printkey?>"<?php echo $class?>><?php echo $section['name']?></a>
+						<?php if(!isset($section['external'])):?>
+							<a href="/<?php echo $printkey?>"<?php echo $class?>><?php echo $section['name']?></a>
+						<?php else:?>
+							<a href="<?php echo $section['external']?>"<?php echo $class?>><?php echo $section['name']?></a>
+						<?php endif;?>
 						<?php if(isset($section[''])): //only folders have a key named '' for the main page?>
 							<?php ($sectionName == $key) ? $class = 'shown' : $class = 'collapse'; ?>
 							<ul class="<?php echo $class?>">
@@ -42,7 +46,7 @@ function make_header($sectionName,$subSectionName,$routes)
 									<?php endif;?>
 								<?php endforeach;?>
 							</ul>
-						<?php endif?>
+						<?php endif;?>
 					</li>
 				<?php endif;?>
 			<?php endforeach;?>

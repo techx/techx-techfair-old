@@ -7,7 +7,7 @@
 	<?php make_header($sectionName,$subSectionName,$routes);?>
 	<div id="container">
 		<div id="content">
-			<?php require('pages/'.$d['content']); ?>
+			<?php require($d['content']); ?>
 		</div>
 	</div>
 	<?php make_footer();?>
