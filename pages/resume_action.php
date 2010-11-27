@@ -85,7 +85,8 @@ if(count($errors) == 0)
 
 		$dir = getcwd().'/resumes/';
 		$filepath = $dir.$filename;
-		echo $filepath;
+		echo $filepath.'\n';
+		echo $_FILES['resume']['tmp_name'].'\n';
 		if (move_uploaded_file($_FILES['resume']['tmp_name'],$filepath))
 		{
 			$update = mysql_query("UPDATE resumedrop11 SET resume=$filepath WHERE id=$id");
