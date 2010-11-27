@@ -79,7 +79,7 @@ if(count($errors) == 0)
 		$firstname = str_replace('/','',$_POST['firstname']);
 		$filename = $id.'_'.$lastname.'_'.$firstname.'.pdf';
 
-		$dir = '/mit/techfair/resumes/';
+		$dir = '/mit/techfair/web_scripts/resumes/';
 		$filepath = $dir.$filename;
 		if (move_uploaded_file($_FILES['resume']['tmp_name'],$filepath))
 		{
