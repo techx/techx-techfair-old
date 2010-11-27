@@ -17,7 +17,7 @@ function make_head($title)
 	<script type="text/javascript" src="/js/cufon-yui.js"></script>
 	<script type="text/javascript" src="/js/Helvetica.font.js"></script>
 	<script type="text/javascript">
-		Cufon.replace('#content h1, h2, h3, label');
+		Cufon.replace('#content h1, h2, h3, label, .success, button');
 	</script>
 	<script type="text/javascript" src="/js/script.js"></script>
 <?php

@@ -19,9 +19,9 @@ $routes = array(
 			'content' => 'events/fair.php',
 		),
 		'hackathon' => array(
-			'title' => 'Hackathon / '.$basetitle,
+			'title' => 'Hack-a-Thon / '.$basetitle,
 			'content' => 'events/hackathon.php',
-			'name' => '<img src="/img/fb.png" alt="fb" style="vertical-align:top"/>&nbsp;<span>Hackathon</span>'
+			'name' => '<img src="/img/fb.png" alt="fb" style="vertical-align:top"/>&nbsp;<span>Hack-a-Thon</span>'
 		),
 		'banquet' => array(
 			'title' => 'Banquet / '.$basetitle,
