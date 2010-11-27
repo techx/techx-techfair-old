@@ -7,6 +7,7 @@
     #request to index.php
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteCond %{REQUEST_FILENAME} ^resumes
     RewriteRule ^(.*)$ index.php?page=/$1 [L]
 </IfModule>
 
@@ -14,4 +15,4 @@
     # If we don't have mod_rewrite installed, all 404's
     # can be sent to index.php, and everything works as normal.
     ErrorDocument 404 /index.php
-</IfModule> 
+</IfModule>
