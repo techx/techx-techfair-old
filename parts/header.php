@@ -52,7 +52,6 @@ function make_header($sectionName,$subSectionName,$routes)
 			<?php endforeach;?>
 			</ul>
 		</div>
-<<<<<<< HEAD
 		<div id="photo" class="navEl" style="background:url(/img/banners/<?= rand(1,8)?>.png);"></div>
 	</div>
 <?php
