@@ -63,7 +63,8 @@ print_r($errors);
 //if there are no errors, add mysql entry and move file to safe place
 if(count($errors) == 0)
 {
-	//add mysql entry
+	//my poor mysqli code...
+	/*
 	$mysqli = new mysqli('mysql.mit.edu', 'techfair', 'it02139', 'techfair+db');
 	if (mysqli_connect_errno())
 	{
@@ -75,24 +76,46 @@ if(count($errors) == 0)
 	$stmt->bind_param('sssssss',$_POST['firstname'],$_POST['lastname'],$_POST['email'],$_POST['year'],$_POST['course'],$_POST['resume'],$phone);
 	$stmt->execute();
 	$stmt->close();
-	
-	$lastname = str_replace('/','',$_POST['lastname']);
-	$firstname = str_replace('/','',$_POST['firstname']);
-	$filename = $mysqli->insert_id.$lastname.$firstname.'.pdf';
-	$dir = 'uploads/';
-	$path = $dir.$filename;
-	if (is_uploaded_file($_FILES['resume']['tmp_name']) && move_uploaded_file($_FILES['resume']['tmp_name'],$path))
-	{
-		$stmt = $mysqli->prepare("UPDATE resumedrop11 SET resume=? WHERE id=".$mysqli->insert_id);
-		$stmt->bind_param('s',$path);
-		$stmt->execute();
-		$stmt->close();
-		//flag of $status = 1 lets resume.php know everything was successful
-		$status = 1;
-	} else {
-		exit('File could not be uploaded. Please go back in your browser and try again.');
-	}
 	*/
+	
+	//add mysql entry
+	$mysql = mysql_connect('localhost', 'techfair', 'it02139');
+	mysql_select_db('techfair+db');
+	$firstname = mysql_real_escape_string($_POST['firstname']);
+	$lastname = mysql_real_escape_string($_POST['lastname']);
+	$email = mysql_real_escape_string($_POST['email']);
+	$year = mysql_real_escape_string($_POST['year']);
+	$course = mysql_real_escape_string($_POST['course']);
+	$phone = mysql_real_escape_string($_POST['phone']);
+	$insert = mysql_query("INSERT into resumedrop11 (firstname,lastname,email,year,course,phone) VALUES ('$firstname','$lastname','$email','$year','$course','$phone')");
+	
+	if ($insert)
+	{
+		$id = mysql_insert_id();
+		$lastname = str_replace('/','',$_POST['lastname']);
+		$firstname = str_replace('/','',$_POST['firstname']);
+		$filename = $id.$lastname.$firstname.'.pdf';
+
+		$dir = 'uploads/';
+		$filepath = $dir.$filename;
+
+		if (is_uploaded_file($_FILES['resume']['tmp_name']) && move_uploaded_file($_FILES['resume']['tmp_name'],$filepath))
+		{
+			$update = mysql_query("UPDATE resumedrop11 SET resume=$filepath WHERE id=$id");
+			if($update)
+			{
+				//flag of $status = 1 lets resume.php know everything was successful
+				$status = 1;
+			} else {
+				unlink($filepath);
+				exit('Could not update data in database');
+			}
+		} else {
+			exit('File could not be uploaded. Please go back in your browser and try again.');
+		}
+	} else {
+		exit('Could not insert data into database.');
+	}
 }
 ?>
 </pre>
