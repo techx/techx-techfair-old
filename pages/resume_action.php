@@ -73,9 +73,7 @@ if(count($errors) == 0)
 				mysql_real_escape_string($_POST['email']),
 				mysql_real_escape_string($_POST['year']),
 				mysql_real_escape_string($_POST['course']),
-				mysql_real_escape_string($_POST['phone']));
-	echo $query;
-	exit();
+				mysql_real_escape_string($_POST['phone1'].$_POST['phone2'].$_POST['phone3']));
 	$insert = mysql_query($query);
 	
 	if ($insert)
