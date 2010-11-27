@@ -45,7 +45,10 @@ if (@$_SERVER['SSL_CLIENT_S_DN_CN']) { // if certificate detected
 		</tr>
 		<tr>
 			<th><label>Email</label></th>
-			<td><input type="text" name="email" id="email"  size="25" <?php if(isset($email)) echo 'value="',$email,'"'?>/></td>
+			<td><input type="text" name="email" id="email"  size="25" <?php
+			if(isset$_POST['email']) echo 'value="',$_POST['email'],'"';
+			else if(isset($email)) echo 'value="',$email,'"'
+			?>/></td>
 			<td class="error"><?php echoError('email')?></td>
 		</tr>
 		<tr>
@@ -101,6 +104,15 @@ if (@$_SERVER['SSL_CLIENT_S_DN_CN']) { // if certificate detected
 				)
 			</td>
 			<td class="error"><?php echoError('major')?></td>
+		</tr>
+		<tr>
+			<th><label>Interested in</label></th>
+			<td>
+				<ul>
+					<li><input type="checkbox" name="fulltime" />Full-time</li>
+					<li><input type="checkbox" name="internship" />Internship</li>
+				</ul>
+			</td>
 		</tr>
 		<tr>
 			<th><label>Resume (pdf)</label></th>
