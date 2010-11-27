@@ -25,6 +25,10 @@ if(!function_exists('pickSelect'))
 		if(isset($_POST[$key]) && $_POST[$key]==$option) echo 'selected';
 	}
 }
+if (@$_SERVER['SSL_CLIENT_S_DN_CN']) { // if certificate detected
+  $email = $_SERVER['SSL_CLIENT_S_DN_Email']; // email
+  echo '<h3>Welcome, <strong>',$_SERVER['SSL_CLIENT_S_DN_CN'],'</strong>.</h3>'; // name
+}
 ?>
 <form action="" method="post" enctype="multipart/form-data">
 	<input type="hidden" name="action" value="resume" />
@@ -41,7 +45,7 @@ if(!function_exists('pickSelect'))
 		</tr>
 		<tr>
 			<th><label>Email</label></th>
-			<td><input type="text" name="email" id="email"  size="25" <?php echoValue('email')?>/></td>
+			<td><input type="text" name="email" id="email"  size="25" <?php if(isset($email)) echo 'value="',$email,'"'?>/></td>
 			<td class="error"><?php echoError('email')?></td>
 		</tr>
 		<tr>
@@ -58,7 +62,7 @@ if(!function_exists('pickSelect'))
 			<td>
 				<select name="year" id="year">
 					<option value="G" <?php pickSelect('year','G')?>>Grad</option>
-					<option value="2011" <?php pickSelect('year','2011')?>>2011</option>
+					<option value="2011" <?php pickSelect('year','2011')?><?php if(!isset($_POST['year'])) echo 'selected'?>>2011</option>
 					<option value="2012" <?php pickSelect('year','2012')?>>2012</option>
 					<option value="2013" <?php pickSelect('year','2013')?>>2013</option>
 					<option value="2014" <?php pickSelect('year','2014')?>>2014</option>
