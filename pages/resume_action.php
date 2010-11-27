@@ -1,4 +1,3 @@
-<pre>
 <?php
 $errors = array();
 if(!isset($_POST['firstname']) || $_POST['firstname']=='')
