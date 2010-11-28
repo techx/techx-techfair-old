@@ -3,7 +3,7 @@
 require('routevar.php');
 $error404 = array(
 	'title' => '404 Not Found',
-	'content' => '404.php'
+	'content' => 'pages/404.php'
 );
 if (! isset($_GET['page']) || $_GET['page'] == '')
 {
@@ -18,6 +18,11 @@ else
 	//explode section/page
 	$parts = explode('/',$page);
 	$sectionName = $parts[0];
+	
+	//SHORTCUTS
+	if ($sectionName=='resume') header('Location: /drop/');
+	elseif ($sectionName=='hack') header('Location: /events/hackathon/');
+	
 	if (isset($parts[1])) $subSectionName = $parts[1];
 	else $subSectionName = "";
 	
