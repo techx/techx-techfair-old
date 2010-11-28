@@ -1,3 +1,6 @@
+<?php if($_GET['msg']=='success'):?>
+<div class="success">Your email has been saved. Thank you for your interest in MIT TechFair!</div>
+<?php endif;?>
 <h1>Facebook Hack-a-thon</h1>
 <h2>What</h2>
 <p>The Hack-a-thon is a coding competition sponsored by Facebook. Hack individually or in teams, or form up to teams of 10!
@@ -10,6 +13,7 @@ This competition is open to all MIT students. Build something awesome that you'v
 <p><strong>Room 32-082</strong> - Stata Basement TEAL Room</p>
 <h2>Interested?</h2>
 <p>Enter your MIT email for more details:</p>
+<?php if (isset($error['email'])) echo $error['email']?>
 <form action="" method="post">
 	<input type="hidden" name="action" value="hackathon" />
 	<input type="text" name="email" />
