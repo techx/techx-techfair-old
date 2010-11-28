@@ -112,14 +112,14 @@ h3{
 	font-family:"Helvetica Neue Light", Arial, Helvetica, sans-serif;
 	border:0;
 }
-#map a{ background:#7b7979;}
+#map a{ background:#7b7979;} 
 #map a:hover{ background: #888}
 #team a{ background:#545050;}
 #team a:hover {background:#666}
 #history a{ background:#383838; margin:0;}
 #history a:hover {background:#484848}
 
-#event{ background:#383838; color:#fff; height:313px; margin-bottom:15px;line-height:15px;}
+#event{ background:#383838; color:#fff; height:313px; margin-bottom:15px;line-height:16px;}
 #exhibitors{ background:#4078d6; height:247px;} 
 #techat { background:#8bb1f1; height:197px; margin-bottom:15px;}
 #exhibitors a{
