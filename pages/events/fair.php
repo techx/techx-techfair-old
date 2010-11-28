@@ -1,4 +1,9 @@
 <h1>Events</h1>
-<p>Come join the expo of cutting edge technology and experience the innovation from Oracle, Facebook, 23andme, and many more companies and labs!</p>
-<p>The Tech Fair will be conducted "trade-show" style. The audience will be able to walk around to different companies and learn about the company, what they're presenting on, how the science and technologies work, and careers in the company and field of research. We'll also be raffling off great prizes!</p>
-<p>Please visit this site soon for a list of companies that will be presenting during the exposition. If you have any questions, please contact us! We also welcome MIT students to help organize the fair.</p>
+<h2>The Fair</h2>
+<p>TechFair itself is on January 31st, 2011 in Rockwell Cage. <a href="/events/venue">Learn more</a> about the fair.
+</p>
+<h2>Hack-a-thon Coding Competition</h2>
+<p>Hack-a-thon is happening the night before TechFair! This Facebook-sponsored event is an all-night coding competition. Learn more and sign up <a href="/hack">here</a>.
+</p>
+<h2>The Banquet</h2>
+<p>An annual <a href="/events/banquet">banquet</a> is held in celebration of the completion of <a href="/events/venue">TechFair</a> and to present the <a href="http://mittechfair.org/think/">THINK Competition</a> winners. MIT Students, check back in January on how you can sign up to attend.</p>

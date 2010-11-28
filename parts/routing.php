@@ -34,9 +34,12 @@ else
 	} elseif ($sectionName=='getabooth') {
 		$redirect = true;
 		header('Location: /students/individual/');
-	} elseif ($sectionName=='mitstartup' || $sectionName=='mitstartups') {
+	} elseif ($sectionName=='mitstartup' || $sectionName=='mitstartups' || $sectionName=='startups') {
 		$redirect = true;
 		header('Location: /students/startups/');
+	} elseif ($sectionName=='engage') {
+		$redirect = true;
+		header('Location: /pages/students/interest.php');
 	} else {
 		$redirect = false;
 	}

@@ -62,7 +62,7 @@
 		<th>Banquet</th> 
 		<td>1 table</td> 
 		<td>1 table</td> 
-		<td>1 table</td> 
+		<td>shared banquet table</td> 
 	</tr> 
  
 	<tr> 
@@ -81,9 +81,9 @@
  
 	<tr> 
 		<th></th> 
-		<td>Access to TechFair resume book</td> 
-		<td>Access to TechFair resume book</td> 
-		<td>Access to TechFair resume book</td> 
+		<td>Full access to online and paper versions</td> 
+		<td>Full access to online and paper versions</td> 
+		<td>Full access to online and paper versions</td> 
 	</tr> 
  
 	<tr> 
@@ -107,5 +107,5 @@
 		<td>$1000</td> 
 	</tr> 
 </table>
-<h2>Register</h2>
-<p>In addition to the aforementioned sponsorship packages, TechFair also offers custom sponsorships and opportunities. If interested in registering for MIT TechFair 2011, please contact <a href="mailto:techfair-cr-head@mit.edu">techfair-cr-head@mit.edu</a> for more information.</p> 
+<h1>Registration</h1>
+<p>If your company is interested in registering for MIT TechFair 2011, please contact <a href="mailto:techfair-cr-head@mit.edu">techfair-cr-head@mit.edu</a> for more information. <br><br> In addition to the aforementioned sponsorship packages, TechFair also offers custom sponsorships and opportunities. </p> 

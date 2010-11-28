@@ -53,13 +53,13 @@ $routes = array(
 		'packages' => array(
 			'title' => 'Sponsorship / '.$basetitle,
 			'content' => 'pages/companies/packages.php',
-			'name' => 'Sponsorship Packages'
+			'name' => 'Sponsorship Packages & Registration'
 		),
-		'register' => array(
-			'title' => 'Register / '.$basetitle,
-			'content' => 'pages/companies/register.php',
-			'name' => 'Register'
-		),
+		//'register' => array(
+		//	'title' => 'Register / '.$basetitle,
+		//	'content' => 'pages/companies/register.php',
+		//	'name' => 'Register'
+		//),
 		'portal' => array(
 			'external' => 'http://www.mittechfair.org/portal/index.php',
 			'name' => 'Company Portal'

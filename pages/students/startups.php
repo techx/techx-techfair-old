@@ -7,7 +7,7 @@
 	<li>Make long lasting connections with companies</li>
 	<li>Get inspired by other startups</li>
 </ul>
-<p>Note that startups must be mainly composed of current MIT students. If you do not meet this criteria, we encourage you to learn more about coming to TechFair as <a href="/companies/">a company</a>.</p>
+<p>Note that startups must be mainly composed of current MIT students. If you do not meet this criteria, we encourage you to learn more about coming to TechFair as <a href="/companies/">a company sponsor</a>.</p>
 <p>Preferred application (see below) deadline is <u>December 20 with rolling applications afterward</u>. Your startup must be prepared for interviews by the first week of January.</p>
 
 <?php
