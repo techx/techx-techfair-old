@@ -25,7 +25,7 @@
 		<div id="body">
 		<div id="c1">
 			<div id="event" class="box">
-				<h3>the event</h3>Techfair is a week-long expo filled with interesting and more marketing speak to fill this box up to maybe here.
+				<h3>the event</h3>Techfair is MIT's annual student-run technology expo. All are welcome to sample an eclectic mix of cutting edge technology from companies, labs, and MIT students. Excited about the fair? Kick off starts with an all-night <a href="/events/hackathon/">Hack-a-thon</a>, progresses into the <a href="/events/venus/">fair itself</a> and ends off with a <a href="/events/banquet/">banquet</a>. TechFair is also home to the <a href="http://www.mittechfair.org/think/index.php">THINK competition</a>, which occurs in the months preceeding TechFair.
 				<a href="/events/">more info &raquo;</a>
 			</div>
 		<div id="think" class="box">
