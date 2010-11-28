@@ -26,6 +26,9 @@ else
 	} elseif ($sectionName=='hack') {
 		$redirect = true;
 		header('Location: /events/hackathon/');
+	} elseif ($sectionName=='signmeup') {
+		$redirect = true;
+		header('Location: https://spreadsheets.google.com/viewform?formkey=dFRaLXB4dzdjNGxNUElDbkJLMU1EU1E6MQ');
 	} else {
 		$redirect = false;
 	}
