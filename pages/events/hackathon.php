@@ -1,5 +1,5 @@
 <?php if($_GET['msg']=='success'):?>
-<div class="success">Your email has been received. Thank you for your interest in MIT TechFair!</div>
+<div class="success">Your email has been saved. Thank you for your interest in MIT TechFair!</div>
 <?php endif;?>
 <h1>Facebook Hack-a-thon</h1>
 <h2>What</h2>
