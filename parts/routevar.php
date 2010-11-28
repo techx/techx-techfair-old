@@ -12,6 +12,11 @@ $routes = array(
 		//use show => false to hide from nav
 		'show' => false
 	),
+	'engage' => array(
+		'title' => 'Student Interest Form / '.$basetitle,
+		'content' => 'pages/students/interest.php',
+		'show' => false
+	),
 	'events' => array(
 		'name' => 'Events',
 		'' => array(

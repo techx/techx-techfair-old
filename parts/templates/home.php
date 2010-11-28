@@ -28,6 +28,7 @@
 				<h3>the event</h3>
 				TechFair is MIT's annual student-run technology expo. All are welcome to sample an eclectic mix of cutting edge technology from companies, labs, and MIT students. 
                 <p>Excited about the fair? Kick off starts with an all-night <a href="/events/hackathon/">Hack-a-thon</a>, progresses into the <a href="/events/venue/">fair itself</a> and ends with a <a href="/events/banquet/">banquet</a>. </p><p>TechFair is also home to the <a href="http://www.mittechfair.org/think/index.php">THINK competition</a>, which occurs in the months preceeding TechFair.</p>
+				<p>If you are a student and would like to stay up to date with the latest updates and reminders, fill out our <a href="/engage/">student interest form</a>!</p>
 				<p><a href="/events/">more info &raquo;</a></p>
 			</div>
 		<div id="think" class="box">
