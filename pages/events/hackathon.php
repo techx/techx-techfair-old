@@ -13,7 +13,7 @@
 	</form>
 </div>
 <h2>What</h2>
-<p>The Hack-a-thon is a coding competition sponsored by Facebook. Hack individually or in teams, or form up to teams of 10!
+<p>The Hack-a-thon is a coding competition sponsored by Facebook. Hack individually, or form up to teams of 10!
 This competition is open to all MIT students. Build something awesome that you've always wanted to build. Facebook Engineers will be on site to work with you and judge the final projects. Food/caffeine/free shirts will be distributed.</p>
 <h3>Prizes</h3>
 <p><strong>$1000 in awards</strong> and, of course, notoriety to be gained</p>
