@@ -6,7 +6,7 @@
 <ul>
 	<li>for your <a href="/mitstartups/">student startup</a></li>
 	<li>for your <a href="/getabooth/">individual project</a></li>
-	<li>for your student group, send us an <a href="mailto:">email</a>!</li>
+	<li>for your student group, send us an <a href="mailto:techfair-tf@mit.edu">email at techfair-tf@mit.edu</a>!</li>
 </ul>
 </p>
 
@@ -23,4 +23,5 @@
 <h2>Resume Drop</h2>
 <p>TechFair is dedicated to showcasing the latest technology. Along with bringing their awesome demos, companies also like to see the talent at MIT, so don't forget to drop <a href="/drop">your resume</a>! </p>
 
-
+<h2>Interested?</h2>
+<p>If you'd like to be notified about TechFair updates and reminders for the main fair, resume drop, Facebook hack-a-thon, and more, fill out our <a href="/engage/">student interest form</a>.
