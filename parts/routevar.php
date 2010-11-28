@@ -44,7 +44,7 @@ $routes = array(
 		'name' => 'For Companies',
 		//'' is the root, has same name as folder
 		'' => array(
-			'title' => 'Why TechFair / '.$basetitle,
+			'title' => 'For Companies / '.$basetitle,
 			'content' => 'pages/companies/why.php'
 		),
 		'packages' => array(
@@ -58,10 +58,31 @@ $routes = array(
 			'name' => 'Apply to the Fair'
 		),
 		'portal' => array(
-			'title' => 'Company Portal / '.$basetitle,
 			'external' => 'http://www.mittechfair.org/portal/index.php',
 			'name' => 'Company Portal'
 		),
+	),
+	'students' => array(
+		'name' => 'For Students',
+		'' => array(
+			'title' => 'For Students / '.$basetitle,
+			'content' => 'pages/students/exhibit.php',
+		),
+		'individual' => array(
+			'title' => 'Individual Students / '.$basetitle,
+			'content' => 'pages/students/individuals.php',
+			'name' => 'Individual Exhibitors'
+		),
+		'startups' => array(
+			'title' => 'Student Startups / '.$basetitle,
+			'content' => 'pages/students/startups.php',
+			'name' => 'Student Startups'
+		),
+		'resume-drop' => array(
+			'external' => '/drop/',
+			'name' => 'R&#233;sum&#233; Drop'
+		),
+		
 	),
 	'about' => array(
 		'name' => 'About Us',
@@ -80,9 +101,5 @@ $routes = array(
 			'name' => 'Past Sponsors'
 		),
 	),
-	'drop' => array(
-		'external' => '/drop/',
-		'name' => 'R&#233;sum&#233; Drop'
-	)
 );
 ?>

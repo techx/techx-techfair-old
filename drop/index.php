@@ -1,8 +1,8 @@
 <?php
 error_reporting(E_ALL ^ E_NOTICE);
 //custom replacement for routing:
-$sectionName = 'drop';
-$subSectionName = '';
+$sectionName = 'students';
+$subSectionName = 'resume-drop';
 
 $d = array(
 	'title' => 'R&#233;sum&#233; Drop / '.$basetitle,
