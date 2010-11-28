@@ -36,7 +36,7 @@ else
 		header('Location: /students/individual/');
 	} elseif ($sectionName=='mitstartup' || $sectionName=='mitstartups') {
 		$redirect = true;
-		header('Location: /students/startups/')
+		header('Location: /students/startups/');
 	} else {
 		$redirect = false;
 	}
