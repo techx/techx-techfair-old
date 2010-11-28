@@ -21,7 +21,8 @@ $routes = array(
 		'hackathon' => array(
 			'title' => 'Hack-a-thon / '.$basetitle,
 			'content' => 'pages/events/hackathon.php',
-			'name' => 'Hack-a-thon'
+			'name' => 'Hack-a-thon',
+			'process' => 'pages/events/hackathon_process.php'
 		),
 		'venue' => array(
 			'title' => 'The Fair / '.$basetitle,
