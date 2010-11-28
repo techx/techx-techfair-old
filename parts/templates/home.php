@@ -4,7 +4,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<link href="css/home.css" rel="stylesheet" type="text/css" />
 	<!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>-->
-	<script type="text/javascript" src="/js/jquery.min.js"></script>
+	<script type="text/javascript" src="/js/jquery-1.4.2.min.js"></script>
 	<script type="text/javascript" src="/js/cufon-yui.js"></script>
 	<script type="text/javascript" src="/js/Helvetica.font.js"></script>
 	<script type="text/javascript">
