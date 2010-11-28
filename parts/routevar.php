@@ -33,11 +33,13 @@ $routes = array(
 			'content' => 'pages/events/banquet.php',
 			'name' => 'Banquet'
 		),
+		/*
 		'afterparty' => array(
 			'title' => 'Afterparty / '.$basetitle,
 			'content' => 'pages/events/party.php',
 			'name' => 'Afterparty'
 		),
+		*/
 	),
 	//companies is a folder, has a name property
 	'companies' => array(
@@ -100,6 +102,10 @@ $routes = array(
 			'content' => 'pages/about/pastsponsors.php',
 			'name' => 'Past Sponsors'
 		),
+	),
+	'think' => array(
+		'name' => '<span>THINK</span>',
+		'external' => 'http://mittechfair.org/think/'
 	),
 );
 ?>
