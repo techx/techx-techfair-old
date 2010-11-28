@@ -153,10 +153,10 @@ body {
 	background-color: #F29523;
 }
 #navbar li.main#s2 {
-	background-color: #383838;
+	background-color: #8BB1F1;
 }
 #navbar li.main#s3 {
-	background-color: #8BB1F1;
+	background-color: #383838;
 }
 #navbar li.main#s4 {
 	background-color: #FAFAFA;
@@ -203,10 +203,10 @@ body {
 	background-color: #DA8531;
 }
 #navbar li.main#s2 ul {
-	background-color: #222;
+	background-color: #7290CC;
 }
 #navbar li.main#s3 ul {
-	background-color: #7290CC;
+	background-color: #222;
 }
 #navbar li.main ul a {
 	float: none !important;
