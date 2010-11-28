@@ -12,7 +12,7 @@ if (count($errors)==0)
 	//add mysql entry
 	$mysql = mysql_connect('mysql.mit.edu', 'techfair', 'tech02139portal') or die(mysql_error());
 	mysql_select_db('techfair+resume');
-	$query = sprintf("INSERT into hackathon11 (email) VALUES (%s)",mysql_real_escape_string($_POST['email']));
+	$query = sprintf("INSERT into hackathon11 (email) VALUES ('%s')",mysql_real_escape_string($_POST['email']));
 	$insert = mysql_query($query);
 	if ($insert)
 	{
