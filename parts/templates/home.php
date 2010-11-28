@@ -37,10 +37,10 @@
 		<div id="c2">
 			<img src="img/photo2.jpg" id="photo2" class="box" />
 			<div id="exhibitors" class="box">
-				<h3>for exhibitors</h3>
-				<p><a href="/exhibit/">why techfair</a></p>
-				<p><a href="/exhibit/packages/">sponsorship packages</a></p>
-				<p><a href="http://mittechfair.org/portal/">exhibitor sign in</a></p>
+				<h3>for companies</h3>
+				<p><a href="/companies/">why techfair</a></p>
+				<p><a href="/companies/packages/">sponsorship packages</a></p>
+				<p><a href="http://mittechfair.org/portal/">company sign in</a></p>
 			</div>
 		</div>
 	<div id="c3">
