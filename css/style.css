@@ -129,44 +129,6 @@ body {
 	height: 20px;
 	background-color: #8bb1f1;
 }
-/*
-#navlinks {
-	width: 180px;
-	height: 210px;
-	padding: 10px;
-	background-color: #4078d6;
-	margin-right: 10px;
-}
-#navlinks a {
-	text-decoration: none;
-	color: white;
-	font-weight: 300;
-	font-size: 16px;
-	display: block;
-	padding: 3px;
-}
-#navlinks a.current {
-	background-color: #444;
-	color: #FFF;
-}
-#navlinks a:hover {
-	color: #333;
-	background-color: #DDD;
-}
-#navlinks a:hover span {
-	text-decoration: underline;
-}
-#navlinks li li a {
-	margin-left: 20px;
-	color: #CCC;
-	font-size: 14px;
-}
-#navlinks li li a:hover {
-	background-color: #CCC;
-}
-#navlinks .collapse {
-	display: none;
-}*/
 #photo {
 	width: 810px;
 	height: 170px;
@@ -215,8 +177,17 @@ body {
 #photo .shown {
 	width: 130px;
 	height: 160px;
-	padding-top: 10px;
+	padding: 10px 0 0;
 	float: left;
+}
+#photo li.main#s0 ul {
+	background-color: #3366CC;
+}
+#photo li.main#s1 ul {
+	background-color: #DA8531;
+}
+#photo li.main#s2 ul {
+	background-color: #222;
 }
 #photo li.main ul a {
 	float: none !important;
@@ -225,6 +196,8 @@ body {
 	line-height: 20px;
 	height: auto;
 	padding: 3px;
+	margin-left: 10px;
+	width: 104px;
 }
 #photo li.main ul a:hover {
 	background-color: #CCC;
