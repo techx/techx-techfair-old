@@ -153,10 +153,13 @@ body {
 	background-color: #F29523;
 }
 #navbar li.main#s2 {
-	background-color: #383838;
+	background-color: #8BB1F1;
 }
 #navbar li.main#s3 {
-	background-color: #8BB1F1;
+	background-color: #383838;
+}
+#navbar li.main#s4 {
+	background-color: #FAFAFA;
 }
 #navbar li.main a {
 	display: inline-block;
@@ -169,11 +172,17 @@ body {
 	text-decoration: none;
 	float: left;
 }
-#navbar li.main a span {
-	font-size: 22px;
-	line-height: 24px;
-	position: relative;
-	top: -10px;
+#navbar li.main.think {
+	width: 50px !important;
+}
+#navbar li.main.think a {
+	width: 50px !important;
+	background: url('/img/THINK.png') no-repeat transparent;
+	padding: 0;
+	height: 170px;
+}
+#navbar li.main.think span {
+	display: none;
 }
 #navbar li.main a:hover {
 	background-color: #CCC;
@@ -194,10 +203,10 @@ body {
 	background-color: #DA8531;
 }
 #navbar li.main#s2 ul {
-	background-color: #222;
+	background-color: #7290CC;
 }
 #navbar li.main#s3 ul {
-	background-color: #7290CC;
+	background-color: #222;
 }
 #navbar li.main ul a {
 	float: none !important;
@@ -221,7 +230,7 @@ body {
 }
 /* CONTENT */
 #content {
-	border-left: 150px solid #c3c3c3;
+	border-left: 140px solid #c3c3c3;
 	clear: both;
 	padding: 10px 10px 20px;
 }

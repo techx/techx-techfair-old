@@ -28,11 +28,12 @@ function make_header($sectionName,$subSectionName,$routes)
 					$printkey = $key.'/';
 				?>
 					<?php ($sectionName==$key) ? $class=' current' : $class='';?>
-					<li class="main<?php echo $class?>" id="s<?php echo $k?>">
+					<?php ($key=='think') ? $think=' think' : $think='';?>
+					<li class="main<?php echo $class?><?php echo $think?>" id="s<?php echo $k?>">
 						<?php if(!isset($section['external'])):?>
 							<a href="/<?php echo $printkey?>"><?php echo $section['name']?></a>
 						<?php else:?>
-							<a href="<?php echo $section['external']?>"><?php echo $section['name']?></a>
+							<a href="<?php echo $section['external']?>"><span><?php echo $section['name']?></span></a>
 						<?php endif;?>
 						<?php if(isset($section[''])): //only folders have a key named '' for the main page?>
 							<?php ($sectionName == $key) ? $class = 'shown' : $class = 'hidden'; ?>
