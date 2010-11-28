@@ -20,8 +20,18 @@ else
 	$sectionName = $parts[0];
 	
 	//SHORTCUTS
-	if ($sectionName=='resume') header('Location: /drop/');
-	elseif ($sectionName=='hack') header('Location: /events/hackathon/');
+	if ($sectionName=='resume') {
+		$redirect = true;
+		header('Location: /drop/');
+	} elseif ($sectionName=='hack') {
+		$redirect = true;
+		header('Location: /events/hackathon/');
+	} elseif ($sectionName=='signmeup') {
+		$redirect = true;
+		header('Location: https://spreadsheets.google.com/viewform?formkey=dFRaLXB4dzdjNGxNUElDbkJLMU1EU1E6MQ');
+	} else {
+		$redirect = false;
+	}
 	
 	if (isset($parts[1])) $subSectionName = $parts[1];
 	else $subSectionName = "";
@@ -37,9 +47,9 @@ else
 		$d = $routes[$sectionName];
 	}
 	//if its not a real page
-	else
+	elseif ($redirect==false)
 	{
-		header("Status: 404 Not Found");
+		//header("Status: 404 Not Found");
 		$d = $error404;
 	}
 }
