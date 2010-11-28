@@ -129,67 +129,73 @@ body {
 	height: 20px;
 	background-color: #8bb1f1;
 }
-#photo {
+#navbar {
 	width: 810px;
 	height: 170px;
 	background-color: #DDD;
 }
-#photo li.main {
+#navbar li.main {
 	display: inline-block;
-	width: 130px;
+	width: 150px;
 	height: 170px;
 	background-color: #CCC;
 	float: left;
 	margin-right: 10px;
 }
-#photo li.main.current {
-	width: 260px;
+#navbar li.main.current {
+	width: 290px;
 }
-#photo li.main#s0 {
+#navbar li.main#s0 {
 	background-color: #4078d6;
 }
-#photo li.main#s1 {
+#navbar li.main#s1 {
 	background-color: #F29523;
 }
-#photo li.main#s2 {
+#navbar li.main#s2 {
 	background-color: #383838;
 }
-#photo li.main#s3 {
+#navbar li.main#s3 {
 	background-color: #8BB1F1;
 }
-#photo li.main a {
+#navbar li.main a {
 	display: inline-block;
-	width: 120px;
+	width: 140px;
 	height: 64px;
-	font-size: 30px;
+	font-size: 27px;
 	line-height: 32px;
 	padding: 10px 0 96px 10px;
 	color: white;
 	text-decoration: none;
 	float: left;
 }
-#photo li.main a:hover {
+#navbar li.main a span {
+	font-size: 22px;
+	line-height: 24px;
+	position: relative;
+	top: -10px;
+}
+#navbar li.main a:hover {
 	background-color: #CCC;
 }
-#photo .hidden {
+#navbar .hidden {
 	display: none;
 }
-#photo .shown {
+#navbar .shown {
 	width: 130px;
 	height: 160px;
 	padding: 10px 0 0;
 	float: left;
 }
-#photo li.main#s0 ul {
+#navbar li.main#s0 ul {
 	background-color: #3366CC;
 }
-#photo li.main#s1 ul {
+#navbar li.main#s1 ul {
 	background-color: #DA8531;
 }
-#photo li.main#s2 ul {
+#navbar li.main#s2 ul {
 	background-color: #222;
 }
-#photo li.main ul a {
+#navbar li.main ul a {
 	float: none !important;
 	display: block !important;
 	font-size: 18px !important;
@@ -199,7 +205,7 @@ body {
 	margin-left: 10px;
 	width: 104px;
 }
-#photo li.main ul a:hover {
+#navbar li.main ul a:hover {
 	background-color: #CCC;
 }
 .clearfix:after {

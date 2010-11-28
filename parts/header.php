@@ -18,7 +18,7 @@ function make_header($sectionName,$subSectionName,$routes)
 			<div id="navleft2"></div>
 			<div id="navleft3"></div>
 		</div>
-		<div id="photo" class="navEl" style="background:url(/img/banners/<?php echo rand(1,8)?>.png);">
+		<div id="navbar" class="navEl" style="background:url(/img/banners/<?php echo rand(1,8)?>.png);">
 			<ul>
 			<?php
 			$k = 0;

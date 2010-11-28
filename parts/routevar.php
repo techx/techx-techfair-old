@@ -39,22 +39,22 @@ $routes = array(
 			'name' => 'Afterparty'
 		),
 	),
-	//exhibit is a folder, has a name property
-	'exhibit' => array(
-		'name' => 'Exhibit',
+	//companies is a folder, has a name property
+	'companies' => array(
+		'name' => 'For Companies',
 		//'' is the root, has same name as folder
 		'' => array(
 			'title' => 'Why TechFair / '.$basetitle,
-			'content' => 'pages/exhibit/why.php'
+			'content' => 'pages/companies/why.php'
 		),
 		'packages' => array(
 			'title' => 'Sponsorship / '.$basetitle,
-			'content' => 'pages/exhibit/packages.php',
+			'content' => 'pages/companies/packages.php',
 			'name' => 'Sponsorship Packages'
 		),
 		'apply' => array(
 			'title' => 'Apply to the Fair / '.$basetitle,
-			'content' => 'pages/exhibit/apply.php',
+			'content' => 'pages/companies/apply.php',
 			'name' => 'Apply to the Fair'
 		),
 		'portal' => array(
