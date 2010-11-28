@@ -18,28 +18,30 @@ function make_header($sectionName,$subSectionName,$routes)
 			<div id="navleft2"></div>
 			<div id="navleft3"></div>
 		</div>
-		<div id="navlinks" class="navEl">
+		<div id="photo" class="navEl" style="background:url(/img/banners/<?php echo rand(1,8)?>.png);">
 			<ul>
-			<?php foreach($routes as $key=>$section):?>
+			<?php
+			$k = 0;
+			foreach($routes as $key=>$section):?>
 				<?php
 				if($key!='home' && !isset($section['show'])):
 					$printkey = $key.'/';
 				?>
-					<li>
-						<?php ($sectionName==$key && $subSectionName=='') ? $class=' class="current"' : $class='';?>
+					<?php ($sectionName==$key) ? $class=' current' : $class='';?>
+					<li class="main<?php echo $class?>" id="s<?php echo $k?>">
 						<?php if(!isset($section['external'])):?>
-							<a href="/<?php echo $printkey?>"<?php echo $class?>><?php echo $section['name']?></a>
+							<a href="/<?php echo $printkey?>"><?php echo $section['name']?></a>
 						<?php else:?>
-							<a href="<?php echo $section['external']?>"<?php echo $class?>><?php echo $section['name']?></a>
+							<a href="<?php echo $section['external']?>"><?php echo $section['name']?></a>
 						<?php endif;?>
 						<?php if(isset($section[''])): //only folders have a key named '' for the main page?>
-							<?php ($sectionName == $key) ? $class = 'shown' : $class = 'collapse'; ?>
+							<?php ($sectionName == $key) ? $class = 'shown' : $class = 'hidden'; ?>
 							<ul class="<?php echo $class?>">
 								<?php foreach($section as $subkey=>$page): ?>
 									<?php if(is_array($page) && $subkey != ''):?>
 										<?php if(isset($page['content'])):?>
 											<?php ($sectionName==$key && $subSectionName==$subkey) ? $class=' class="current"' : $class='';?>
-											<li><a href="/<?php echo $key?>/<?php echo $subkey ?>/"<?php echo $class?>><?php echo $page['name']?></a></li>
+											<li<?php echo $class?>><a href="/<?php echo $key?>/<?php echo $subkey ?>/"><?php echo $page['name']?></a></li>
 										<?php else:?>
 											<li><a href="<?php echo $page['external']?>"><?php echo $page['name']?></a></li>
 										<?php endif;?>
@@ -48,11 +50,12 @@ function make_header($sectionName,$subSectionName,$routes)
 							</ul>
 						<?php endif;?>
 					</li>
-				<?php endif;?>
+				<?php
+				$k++;
+				endif;?>
 			<?php endforeach;?>
 			</ul>
 		</div>
-		<div id="photo" class="navEl" style="background:url(/img/banners/<?php echo rand(1,8)?>.png);"></div>
 	</div>
 <?php
 }

@@ -21,12 +21,12 @@ $routes = array(
 		'hackathon' => array(
 			'title' => 'Hack-a-thon / '.$basetitle,
 			'content' => 'pages/events/hackathon.php',
-			'name' => '<img src="/img/fb.png" alt="fb" style="vertical-align:top"/>&nbsp;<span>Hack-a-thon</span>'
+			'name' => 'Hack-a-thon'
 		),
 		'venue' => array(
 			'title' => 'The Fair / '.$basetitle,
 			'content' => 'pages/events/venue.php',
-			'name' => '<img src="/img/mit.png" alt="mit" style="vertical-align:top"/>&nbsp;The Fair'
+			'name' => 'The Fair'
 		),
 		'banquet' => array(
 			'title' => 'Banquet / '.$basetitle,

@@ -13,11 +13,12 @@ function make_head($title)
 	</style>
 	<![endif]-->
 	<!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>-->
-	<script type="text/javascript" src="/js/jquery.min.js"></script>
+	<script type="text/javascript" src="/js/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="/js/jquery-ui-1.8.6.custom.min.js"></script>
 	<script type="text/javascript" src="/js/cufon-yui.js"></script>
 	<script type="text/javascript" src="/js/Helvetica.font.js"></script>
 	<script type="text/javascript">
-		Cufon.replace('#content h1, h2, h3, label, .success, button');
+		Cufon.replace('#photo a, #content h1, h2, h3, label, .success, button');
 	</script>
 	<script type="text/javascript" src="/js/script.js"></script>
 <?php
