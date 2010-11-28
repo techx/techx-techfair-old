@@ -107,5 +107,5 @@
 		<td>$1000</td> 
 	</tr> 
 </table>
-<h2>Apply</h2>
-<p>TechFair also offers custom sponsorships and opportunities. If interested in applying to MIT TechFair 2011, please contact <a href="mailto:techfair-cr-head@mit.edu">techfair-cr-head@mit.edu</a> for more information.</p> 
+<h2>Register</h2>
+<p>In addition to the aforementioned sponsorship packages, TechFair also offers custom sponsorships and opportunities. If interested in registering for MIT TechFair 2011, please contact <a href="mailto:techfair-cr-head@mit.edu">techfair-cr-head@mit.edu</a> for more information.</p> 

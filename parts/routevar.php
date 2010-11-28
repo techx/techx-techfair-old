@@ -55,10 +55,10 @@ $routes = array(
 			'content' => 'pages/companies/packages.php',
 			'name' => 'Sponsorship Packages'
 		),
-		'apply' => array(
-			'title' => 'Apply to the Fair / '.$basetitle,
-			'content' => 'pages/companies/apply.php',
-			'name' => 'Apply to the Fair'
+		'register' => array(
+			'title' => 'Register / '.$basetitle,
+			'content' => 'pages/companies/register.php',
+			'name' => 'Register'
 		),
 		'portal' => array(
 			'external' => 'http://www.mittechfair.org/portal/index.php',
