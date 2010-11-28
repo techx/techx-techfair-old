@@ -444,3 +444,19 @@ ul.radio span {
 	font-size: 14px;
 	margin-left: 5px;
 }
+
+#facebook {
+	background-color: #3B5998;
+	display: inline-block;
+	padding: 10px;
+	border: 5px solid #FFF;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-moz-box-shadow: 5px 5px 5px #ccc;
+	-webkit-box-shadow: 5px 5px 5px #ccc;
+	box-shadow: 5px 5px 5px #ccc;
+}
+#facebook p {
+	font-size: 16px;
+	color: white;
+}
