@@ -1,3 +1,6 @@
+<?php if($_GET['msg']=='success'):?>
+<div class="success">Your r&#233;sum&#233; has been successfully dropped. We look forward to seeing you at MIT TechFair 2011!</div>
+<?php endif;?>
 <h1>Facebook Hack-a-thon</h1>
 <h2>What</h2>
 <p>The Hack-a-thon is a coding competition sponsored by Facebook. Hack individually or in teams, or form up to teams of 10!
