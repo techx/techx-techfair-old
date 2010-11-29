@@ -13,6 +13,7 @@
 	<title><?php echo $basetitle?></title>
 </head>
 <body>
+<?php include_once('parts/analytics.php');?>
 	<div id="container">
 		<div id="header">
 			<div id="header-content">
