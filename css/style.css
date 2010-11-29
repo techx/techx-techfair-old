@@ -108,7 +108,7 @@ div.error {
 #header h2 {
 	font-size: 16px;
 	color: #444;
-	margin-bottom: 4px;
+	margin: 0 0 4px;
 	font-weight: 400;
 }
 .navEl {
