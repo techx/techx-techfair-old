@@ -2,9 +2,9 @@
 <html> 
 <head>
 <?php make_head($d['title']); ?>
+<?php include_once('parts/analytics.php');?>
 </head>
 <body>
-<?php include_once('parts/analytics.php');?>
 	<?php make_header($sectionName,$subSectionName,$routes);?>
 	<div id="container">
 		<div id="content">

@@ -11,9 +11,9 @@
 		Cufon.replace('h2, h3, #menu a');
 	</script>
 	<title><?php echo $basetitle?></title>
+	<?php include_once('parts/analytics.php');?>
 </head>
 <body>
-<?php include_once('parts/analytics.php');?>
 	<div id="container">
 		<div id="header">
 			<div id="header-content">
