@@ -1,5 +1,7 @@
 <?php
 error_reporting(E_ALL ^ E_NOTICE);
+//redirect tf.mit.edu to techfair.mit.edu
+require('parts/domain.php');
 //relationships between URLs and files
 require('parts/routing.php');
 //elements in <head>
