@@ -64,6 +64,13 @@
 		<td>1 table</td> 
 		<td>shared banquet table</td> 
 	</tr> 
+ 	
+    <tr> 
+		<th>Resume Book</th> 
+		<td>Full access to online and paper versions</td> 
+		<td>Full access to online and paper versions</td> 
+		<td>Full access to online and paper versions</td> 
+	</tr> 
  
 	<tr> 
 		<th>Advertising</th> 
@@ -72,18 +79,12 @@
 		<td>Small logo/section in TechFair booklet</td> 
 	</tr> 
  
-	<tr> 
+	
+    <tr> 
 		<th></th> 
 		<td>Feature company videos on TechFair website</td> 
 		<td>Feature company videos on TechFair website</td> 
 		<td></td> 
-	</tr> 
- 
-	<tr> 
-		<th></th> 
-		<td>Full access to online and paper versions</td> 
-		<td>Full access to online and paper versions</td> 
-		<td>Full access to online and paper versions</td> 
 	</tr> 
  
 	<tr> 
