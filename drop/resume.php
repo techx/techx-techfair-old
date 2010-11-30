@@ -124,4 +124,5 @@ if($exists>0):
 		</tr>
 	</table>
 </form>
+<p><strong>If you are encountering any errors, please email the above information along with your r&#233;sum&#233; to <a href="mailto:techfair-it@mit.edu">techfair-it@mit.edu</a>.</strong></p>
 <?php endif;?>

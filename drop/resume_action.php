@@ -52,15 +52,19 @@ if($_FILES['resume']['error']>0)
 	{
 		$errors['resume'] = 'File size must be less than 5MB.';
 	}
-	if($_FILES['resume']['type']!='application/pdf')
+	/*
+	if($_FILES['resume']['type']!='application/pdf' && $_FILES['resume']['type']!='application/download' && $_FILES['resume']['type']!='application/save-as')
 	{
+		$to = 'TechFair IT <techfair-it@mit.edu>';
+		$subject = "File Upload Error (".date("F j, Y, g:i a").")";
+		$message = "Error uploading, not valid pdf. Mime type of ".$_FILES['resume']['type']." detected. Uploaded by ".$_POST['firstname']." ".$_POST['lastname']." (".$_POST['email'].")";
+		$headers = 'From: no-reply@tf.mit.edu'."\r\nContent-type: text/html\r\n".'X-Mailer: PHP/' . phpversion();
+		mail($to,$subject,$message,$headers);
 		$errors['resume'] = 'Must be a pdf.';
 	}
+	*/
 }
-if(!isset($_POST['kerberos']) || $_POST['kerberos']=='')
-{
-	$errors['kerberos'] = 'error';
-}
+
 //if there are no errors, add mysql entry and move file to safe place
 if(count($errors) == 0)
 {
@@ -69,8 +73,7 @@ if(count($errors) == 0)
 	mysql_select_db('techfair+resume');
 	(isset($_POST['fulltime'])) ? $fulltime = 1 : $fulltime = 0;
 	(isset($_POST['internship'])) ? $internship = 1 : $internship = 0;
-	$query = sprintf("INSERT into resumedrop11 (kerberos,firstname,lastname,email,year,major1,major2,phone,fulltime,internship) VALUES ('%s','%s','%s','%s','%s','%s','%s','%d','%d','%d')",
-				mysql_real_escape_string($_POST['kerberos']),
+	$query = sprintf("INSERT into resumedrop11 (firstname,lastname,email,year,major1,major2,phone,fulltime,internship) VALUES ('%s','%s','%s','%s','%s','%s','%d','%d','%d')",
 				mysql_real_escape_string($_POST['firstname']),
 				mysql_real_escape_string($_POST['lastname']),
 				mysql_real_escape_string($_POST['email']),
