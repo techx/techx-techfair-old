@@ -65,7 +65,7 @@ if(!isset($_POST['kerberos']) || $_POST['kerberos']=='')
 if(count($errors) == 0)
 {
 	//add mysql entry
-	$mysql = mysql_connect('mysql.mit.edu', 'techfair', 'tech02139portal') or die(mysql_error());
+	$mysql = mysql_connect('mysql.mit.edu', 'techfair', 'tech1312011fair02139') or die(mysql_error());
 	mysql_select_db('techfair+resume');
 	(isset($_POST['fulltime'])) ? $fulltime = 1 : $fulltime = 0;
 	(isset($_POST['internship'])) ? $internship = 1 : $internship = 0;
