@@ -29,7 +29,7 @@ if(!function_exists('pickSelect'))
 $email = $_SERVER['SSL_CLIENT_S_DN_Email']; // email
 echo '<h3>Welcome, <strong>',$_SERVER['SSL_CLIENT_S_DN_CN'],'</strong>.</h3>'; // name
 
-$mysql = mysql_connect('mysql.mit.edu', 'techfair', 'tech02139portal') or die(mysql_error());
+$mysql = mysql_connect('mysql.mit.edu', 'techfair', 'tech1312011fair02139') or die(mysql_error());
 mysql_select_db('techfair+resume');
 $query = sprintf("SELECT resume FROM resumedrop11 WHERE email='%s'",$email);
 $result = mysql_query($query);
@@ -124,5 +124,5 @@ if($exists>0):
 		</tr>
 	</table>
 </form>
-<p><strong>If you are encountering any errors, please email the above information along with your r&#233;sum&#233; to <a href="mailto:techfair-it@mit.edu">techfair-it@mit.edu</a>.</strong></p>
+<p><strong>If you are encountering any errors, please email the above information along with your r&#233;sum&#233; <a href="mailto:techfair-it@mit.edu">techfair-it@mit.edu</a>.</strong></p>
 <?php endif;?>
