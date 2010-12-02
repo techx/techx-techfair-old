@@ -2,7 +2,7 @@
 <html> 
 <head>
 <?php make_head($d['title']); ?>
-<?php include_once('parts/analytics.php');?>
+<?php include_once($_SERVER['DOCUMENT_ROOT'].'/parts/analytics.php');?>
 </head>
 <body>
 	<?php make_header($sectionName,$subSectionName,$routes);?>
