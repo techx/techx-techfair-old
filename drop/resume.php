@@ -29,7 +29,7 @@ if(!function_exists('pickSelect'))
 $email = $_SERVER['SSL_CLIENT_S_DN_Email']; // email
 echo '<h3>Welcome, <strong>',$_SERVER['SSL_CLIENT_S_DN_CN'],'</strong>.</h3>'; // name
 
-$mysql = mysql_connect('mysql.mit.edu', 'techfair', 'tech1312011fair02139') or die(mysql_error());
+$mysql = mysql_connect('mysql.mit.edu', 'techfair', '02139techfair') or die(mysql_error());
 mysql_select_db('techfair+resume');
 $query = sprintf("SELECT resume FROM resumedrop11 WHERE email='%s'",$email);
 $result = mysql_query($query);

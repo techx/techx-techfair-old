@@ -1,3 +1,3 @@
 <?php
-$connection = new mysqli('mysql.mit.edu','techfair','tech1312011fair02139','techfair+resume');
+$connection = new mysqli('mysql.mit.edu','techfair','02139techfair','techfair+resume');
 ?>
