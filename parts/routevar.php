@@ -17,6 +17,11 @@ $routes = array(
 		'content' => 'pages/students/interest.php',
 		'show' => false
 	),
+	'mysqli' => array(
+		'title' => 'Mysqli / '.$basetitle,
+		'content' => 'pages/mysqli.php',
+		'show' => false
+	),
 	'events' => array(
 		'name' => 'Events',
 		'' => array(
