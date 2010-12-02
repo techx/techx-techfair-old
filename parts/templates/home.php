@@ -61,6 +61,7 @@
 			<p><a href="/students/">opportunities at techfair</a></p>
 			<p><a href="/students/individual/">individual exhibitors</a></p>
 			<p><a href="/students/startups/">student startups</a></p>
+			<p><a href="/drop/">r&#233;sum&#233; drop</a></p>
 			<!--
 			<script src="http://widgets.twimg.com/j/2/widget.js"></script>
 			<script>
