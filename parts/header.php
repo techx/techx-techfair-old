@@ -38,6 +38,7 @@ function make_header($sectionName,$subSectionName,$routes)
 						<?php if(isset($section[''])): //only folders have a key named '' for the main page?>
 							<?php ($sectionName == $key) ? $class = 'shown' : $class = 'hidden'; ?>
 							<ul class="<?php echo $class?>">
+								<li><a href="/<?php echo $printkey?>"><?php echo $section['name']?></a></li>
 								<?php foreach($section as $subkey=>$page): ?>
 									<?php if(is_array($page) && $subkey != ''):?>
 										<?php if(isset($page['content'])):?>

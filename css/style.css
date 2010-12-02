@@ -139,13 +139,13 @@ div.error {
 }
 #navbar {
 	width: 930px;
-	height: 170px;
+	height: 200px;
 	background-color: #DDD;
 }
 #navbar li.main {
 	display: inline-block;
 	width: 150px;
-	height: 170px;
+	height: 200px;
 	background-color: #CCC;
 	float: left;
 	margin-right: 10px;
@@ -174,7 +174,7 @@ div.error {
 	height: 64px;
 	font-size: 27px;
 	line-height: 32px;
-	padding: 10px 0 96px 10px;
+	padding: 10px 0 126px 10px;
 	color: white;
 	text-decoration: none;
 	float: left;
@@ -199,7 +199,7 @@ div.error {
 }
 #navbar .shown {
 	width: 130px;
-	height: 160px;
+	height: 190px;
 	padding: 10px 0 0;
 	float: left;
 }

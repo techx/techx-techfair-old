@@ -67,7 +67,7 @@ font-family: Helvetica, Arial, sans-serif;
 #c3{
 	margin:0;
 }
-#event, #exhibitors, #techat{
+#event, #exhibitors, #students{
 	float:left;
 	padding:10px;
 	width:290px;
@@ -121,8 +121,8 @@ h3{
 
 #event{ background:#383838; color:#fff; height:313px; margin-bottom:15px;line-height:16px;}
 #exhibitors{ background:#4078d6; height:247px;} 
-#techat { background:#8bb1f1; height:197px; margin-bottom:15px;}
-#exhibitors a{
+#students { background:#8bb1f1; height:197px; margin-bottom:15px;}
+#exhibitors a, #students a {
 	font-size:20px;
 	color:#fff;
 	margin-left:20px;

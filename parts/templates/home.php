@@ -41,7 +41,7 @@
 		<div id="c2">
 			<img src="img/photo2.jpg" id="photo2" class="box" />
 			<div id="exhibitors" class="box">
-				<h3>for exhibitors</h3>
+				<h3>for companies</h3>
 				<p><a href="/companies/">why techfair</a></p>
 				<p><a href="/companies/packages/">sponsorship packages</a></p>
 				<p><a href="http://mittechfair.org/portal/">company sign in</a></p>
@@ -52,12 +52,16 @@
 		<div id="menu">
 			<ul>
 				<li id="map"><a href="/events/venue/" class="box">the fair</a></li>
-				<li id="team"><a href="/about/" class="box">about us</a></li>
-				<li id="history"><a href="/drop/" class="box">r&#233;sum&#233; drop</a></li>
+				<li id="team"><a href="/drop/" class="box">r&#233;sum&#233; drop</a></li>
+				<li id="history"><a href="/events/hackathon/" class="box">hack-a-<br/>thon</a></li>
 			</ul>
 		</div>
-		<div id="techat" class="box">
-			<h3>tech@techfair</h3>
+		<div id="students" class="box">
+			<h3>for students</h3>
+			<p><a href="/students/">opportunities at techfair</a></p>
+			<p><a href="/students/individual/">individual exhibitors</a></p>
+			<p><a href="/students/startups/">student startups</a></p>
+			<!--
 			<script src="http://widgets.twimg.com/j/2/widget.js"></script>
 			<script>
 			new TWTR.Widget({
@@ -89,7 +93,7 @@
 			  }
 			}).render().setUser('mittechfair').start();
 			</script>
-			<a href="http://twitter.com/mittechfair/">visit our twitter page &raquo;</a></p>
+		-->
 		</div>
 		<img src="img/photo3.jpg" id="photo3" class="box" /></div>
 		<div style="clear:both"></div>
