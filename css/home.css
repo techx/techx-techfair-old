@@ -77,10 +77,10 @@ font-family: Helvetica, Arial, sans-serif;
 #movie div {
 	position: absolute;
 	top: 50%;
-	margin-top: -162px;
+	margin-top: -193px;
 	height: 324px;
 	left: 50%;
-	margin-left: -288px;
+	margin-left: -320px;
 	background: url('/img/ajax-loader.gif') no-repeat center center transparent;
 }
 #c3{

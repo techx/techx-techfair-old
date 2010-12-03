@@ -18,7 +18,7 @@
 <body>
 	<div class="ui-widget-overlay" id="movie">
 		<div>
-			<object width="576" height="324" ><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://www.facebook.com/v/75505423022" /><embed src="http://www.facebook.com/v/75505423022" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="576" height="324"></embed></object>
+			<object width="640" height="385"><param name="movie" value="http://www.youtube.com/v/XZXBMSb7_eE?fs=1&amp;hl=en_US&amp;rel=0&amp;hd=1&amp;autoplay=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/XZXBMSb7_eE?fs=1&amp;hl=en_US&amp;rel=0&amp;hd=1&amp;autoplay=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="640" height="385"></embed></object>
 		</div>
 	</div>
 	<div id="container">
