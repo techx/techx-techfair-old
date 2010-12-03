@@ -46,7 +46,6 @@
 		</div>
 		<img src="img/photo1.jpg" id="photo1" class="box" /></div>
 		<div id="c2">
-			<div id="gray" class="box"></div>
 			<div id="photo2" class="box"></div>
 			<div id="exhibitors" class="box">
 				<h3>for companies</h3>
