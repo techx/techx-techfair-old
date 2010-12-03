@@ -3,8 +3,10 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<link href="css/home.css" rel="stylesheet" type="text/css" />
+	<link href="css/jquery-ui/jquery.ui.all.css" rel="stylesheet" type="text/css" />
 	<!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>-->
 	<script type="text/javascript" src="/js/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="/js/jquery-ui-1.8.6.custom.min.js"></script>
 	<script type="text/javascript" src="/js/cufon-yui.js"></script>
 	<script type="text/javascript" src="/js/Helvetica.font.js"></script>
 	<script type="text/javascript">
@@ -14,6 +16,11 @@
 	<?php include_once('parts/analytics.php');?>
 </head>
 <body>
+	<div class="ui-widget-overlay" id="movie">
+		<div>
+			<object width="576" height="324" ><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://www.facebook.com/v/75505423022" /><embed src="http://www.facebook.com/v/75505423022" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="576" height="324"></embed></object>
+		</div>
+	</div>
 	<div id="container">
 		<div id="header">
 			<div id="header-content">
@@ -39,7 +46,8 @@
 		</div>
 		<img src="img/photo1.jpg" id="photo1" class="box" /></div>
 		<div id="c2">
-			<img src="img/photo2.jpg" id="photo2" class="box" />
+			<div id="gray" class="box"></div>
+			<div id="photo2" class="box"></div>
 			<div id="exhibitors" class="box">
 				<h3>for companies</h3>
 				<p><a href="/companies/">why techfair</a></p>
@@ -113,5 +121,13 @@
 		</div>
 	</div>
 </div>
+<script type="text/javascript">
+	$('#photo2').click(function(){
+		$('#movie').css('display','block');
+	});
+	$('#movie').click(function(){
+		$(this).css('display','none');
+	});
+</script>
 </body>
 </html>
