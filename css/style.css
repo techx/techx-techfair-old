@@ -240,6 +240,7 @@ div.error {
 	border-left: 140px solid #c3c3c3;
 	clear: both;
 	padding: 10px 10px 20px;
+	font-weight: 300;
 }
 #content a {
 	color: #4078D6;
