@@ -19,6 +19,8 @@ if(isset($_POST['action']) && isset($d['process']))
 //pick the right template
 if ($sectionName=='') {
 	require('parts/templates/home.php');
+} else if ($sectionName=='vvv') {
+    require('parts/templates/homeSAND.php');  
 } else {
 	require('parts/templates/default.php');
 }
