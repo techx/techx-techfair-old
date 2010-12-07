@@ -148,7 +148,10 @@ h3{
 	text-decoration:none;
 	margin-bottom:10px; 
 }
-
+#body a:hover {
+	text-decoration: underline;
+	color: #DDD;
+}
 #photo2{
 	width:310px;
 	height: 174px;

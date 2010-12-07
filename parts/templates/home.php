@@ -52,7 +52,6 @@
 				<p><a href="/companies/">why techfair</a></p>
 				<p><a href="/companies/packages/">sponsorship packages</a></p>
 				<p><a href="http://mittechfair.org/portal/">company sign in</a></p>
-				<p><a href="/students/">MIT student exhibitors</a></p>
 			</div>
 		</div>
 	<div id="c3">
