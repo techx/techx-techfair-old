@@ -1,3 +1,6 @@
+<?php if($_GET['msg']=='success'):?>
+<div class="success">Your email has been saved. Thank you for your interest in MIT TechFair!</div>
+<?php endif;?>
 <h1>Student Startups</h1>
 <p>Show off your startup to other students and companies the annual MIT TechFair technology expo! We are looking for technology oriented startups initiated by MIT students. The fair is on January 31st, 2011.</p>
 <h2>Why apply?</h2>

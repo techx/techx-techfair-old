@@ -1,6 +1,3 @@
-<?php if($_GET['msg']=='success'):?>
-<div class="success">Your email has been saved. Thank you for your interest in MIT TechFair!</div>
-<?php endif;?>
 <?php
 $errors = array();
 if(!isset($_POST['email']) || $_POST['email']=='' || (preg_match('/^[^@]+@[a-zA-Z0-9._-]+\.[a-zA-z]+$/',$_POST['email'])==0))

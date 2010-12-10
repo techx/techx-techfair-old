@@ -1,3 +1,6 @@
+<?php if($_GET['msg']=='success'):?>
+<div class="success">Your email has been saved. Thank you for your interest in MIT TechFair!</div>
+<?php endif;?>
 <h1>Individual Exhibitors</h1>
 <p>Have an amazing project you want to showcase to thousands of people? Are you planning to build something cool during IAP? Want an opportunity to demo your project to both students and companies? Apply for a free booth to display your tech at MIT TechFair on January 31st, 2011.</p>
 <p>Preferred application deadline is <u>December 20 with rolling applications afterward</u>. Your project must be prepared and ready to present for interviews by the first week of January.</p>
