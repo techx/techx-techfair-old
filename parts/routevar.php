@@ -84,12 +84,14 @@ $routes = array(
 		'individual' => array(
 			'title' => 'Individual Students / '.$basetitle,
 			'content' => 'pages/students/individuals.php',
-			'name' => 'Individual Exhibitors'
+			'name' => 'Individual Exhibitors',
+			'process' => 'pages/students/individuals_process.php'
 		),
 		'startups' => array(
 			'title' => 'Student Startups / '.$basetitle,
 			'content' => 'pages/students/startups.php',
-			'name' => 'Student Startups'
+			'name' => 'Student Startups',
+			'process' => 'pages/students/startups_process.php'
 		),
 		'resume-drop' => array(
 			'external' => '/drop/',
