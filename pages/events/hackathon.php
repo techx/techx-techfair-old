@@ -3,7 +3,7 @@
 <?php endif;?>
 <h1>The&nbsp;<img src="/img/fb_logo.png" style="vertical-align:bottom" alt="facebook"/>&nbsp;Hack-a-thon</h1>
 <h2>Interested?</h2>
-<div id="facebook">
+<div id="facebook" class="interest">
 	<p>Enter your MIT email for more details:</p>
 	<?php if (isset($error['email'])) echo '<div class="error">',$error['email'],'</div>';?>
 	<form action="" method="post">

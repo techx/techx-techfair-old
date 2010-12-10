@@ -9,7 +9,16 @@
 </ul>
 <p>Note that startups must be mainly composed of current MIT students. If you do not meet this criteria, we encourage you to learn more about coming to TechFair as <a href="/companies/">a company sponsor</a>.</p>
 <p>Preferred application (see below) deadline is <u>December 20 with rolling applications afterward</u>. Your startup must be prepared for interviews by the first week of January.</p>
-
+<h2>Interested?</h2>
+<div id="normal" class="interest">
+	<p>Enter your MIT email for reminders and more information:</p>
+	<?php if (isset($error['email'])) echo '<div class="error">',$error['email'],'</div>';?>
+	<form action="" method="post">
+		<input type="hidden" name="action" value="hackathon" />
+		<input type="text" name="email" />
+		<button type="submit">Submit</button>
+	</form>
+</div>
 <?php
 if ($_POST["name"] != "" and $_POST["email"] != ""):
 	$to = 'TechFair Task Force <techfair-tf@mit.edu>, '.$_POST["email"];
