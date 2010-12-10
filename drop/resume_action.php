@@ -31,7 +31,7 @@ if(
 {
 	$errors['year'] = 'Please choose a valid graduation year.';
 }
-if(!isset($_POST['major1']) || $_POST['major1']=='' || $_POST['major1']==0 || !isset($_POST['major2']) || $_POST['major2']=='')
+if(!isset($_POST['major1']) || $_POST['major1']=='' || $_POST['major1']=='0' || !isset($_POST['major2']) || $_POST['major2']=='')
 {
 	$errors['major'] = 'Please indicate your major(s).';
 }
