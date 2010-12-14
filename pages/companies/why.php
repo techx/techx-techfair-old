@@ -6,4 +6,4 @@
 <h2>Banquet</h2>
 <p>Another benefit of TechFair sponsorship is the post-fair banquet, a formal dinner where companies will be able to invite <strong>students of their choice</strong> to their reserved table. This is an excellent opportunity for sponsors to connect to MIT students at a different level.</p>
 <h2>Sponsorship Packages</h2>
-<p>For more information regarding how your company can be a part of TechFair, <a href="/exhibit/packages">read more about sponsorship packages</a>.</p>
+<p>For more information regarding how your company can be a part of TechFair, <a href="/companies/packages/">read more about sponsorship packages</a>.</p>
