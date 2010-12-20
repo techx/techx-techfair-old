@@ -324,7 +324,7 @@ div.error {
 
 /* SPONSORSHIP TABLE */
 table#sponsorship {
-	color: #333;
+	color: #111;
 }
 table#sponsorship th {
 	font-weight: 600;
@@ -333,6 +333,9 @@ table#sponsorship td, table#sponsorship th {
 	padding: 5px;
 	text-align: center;
 	width: 200px;
+}
+table#sponsorship .unfocus {
+	color: #AAA !important;
 }
 table#sponsorship td.gold {
 	background-color: #EEEE00;

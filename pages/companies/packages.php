@@ -2,111 +2,117 @@
 <p>TechFair offers three standard sponsorship packages, designated below. Aside from the amenities described, the higher sponsorships help companies maintain a larger physical and advertised presence as part of our TechFair campaign before and during the fair.</p>
 <p>The deadline for registration is <b>January 7, 2011</b>.</p>
 <h2>Packages</h2>
+<?php
+function focus($p) {
+    if ($p=='g' && (isset($_GET['s']) || isset($_GET['b'])) && !isset($_GET['g'])) echo ' class="unfocus"';
+    if ($p=='s' && (isset($_GET['g']) || isset($_GET['b'])) && !isset($_GET['s'])) echo ' class="unfocus"';
+    if ($p=='b' && (isset($_GET['g']) || isset($_GET['s'])) && !isset($_GET['b'])) echo ' class="unfocus"';
+}
+?>
 <table id="sponsorship"> 
 	<tr> 
 		<th>Sponsorship</th> 
 		<td class="gold">Gold</td> 
 		<td class="silver">Silver</td> 
 		<td class="bronze">Bronze</td> 
-	</tr> 
- 
+	</tr>
 	<tr> 
 		<th>Booths</th> 
-		<td>2 booths</td> 
-		<td>1 booth</td> 
-		<td>1 booth</td> 
+		<td<?php focus('g') ?>>2 booths</td> 
+		<td<?php focus('s') ?>>1 booth</td> 
+		<td<?php focus('b') ?>>1 booth</td> 
 	</tr> 
  
 	<tr> 
 		<th>Lodging</th> 
-		<td>2 hotel rooms</td> 
-		<td>1 hotel room</td> 
-		<td></td> 
+		<td<?php focus('g') ?>>2 hotel rooms</td> 
+		<td<?php focus('s') ?>>1 hotel room</td> 
+		<td<?php focus('b') ?>></td> 
 	</tr> 
  
 	<tr> 
 		<th>Catering</th> 
-		<td>Breakfast and lunch</td> 
-		<td>Breakfast and lunch</td> 
-		<td>Breakfast and lunch</td> 
+		<td<?php focus('g') ?>>Breakfast and lunch</td> 
+		<td<?php focus('s') ?>>Breakfast and lunch</td> 
+		<td<?php focus('b') ?>>Breakfast and lunch</td> 
 	</tr> 
  
 	<tr> 
 		<th>TechTalk Options</th> 
-		<td>Spotlight</td> 
-		<td>Standard</td> 
-		<td></td> 
+		<td<?php focus('g') ?>>Spotlight</td> 
+		<td<?php focus('s') ?>>Standard</td> 
+		<td<?php focus('b') ?>></td> 
 	</tr> 
  
 	<tr> 
 		<th>Storage &amp; Shipping</th> 
-		<td>Complimentary</td> 
-		<td>Optional extra</td> 
-		<td></td> 
+		<td<?php focus('g') ?>>Complimentary</td> 
+		<td<?php focus('s') ?>>Optional extra</td> 
+		<td<?php focus('b') ?>></td> 
 	</tr> 
  
 	<tr> 
 		<th>Parking</th> 
-		<td>Complimentary</td> 
-		<td>Optional extra</td> 
-		<td></td> 
+		<td<?php focus('g') ?>>Complimentary</td> 
+		<td<?php focus('s') ?>>Optional extra</td> 
+		<td<?php focus('b') ?>></td> 
 	</tr> 
  
 	<tr> 
 		<th>A/V Support</th> 
-		<td>Complimentary</td> 
-		<td>Optional extra</td> 
-		<td></td> 
+		<td<?php focus('g') ?>>Complimentary</td> 
+		<td<?php focus('s') ?>>Optional extra</td> 
+		<td<?php focus('b') ?>></td> 
 	</tr> 
  
 	<tr> 
 		<th>Banquet</th> 
-		<td>1 table</td> 
-		<td>1 table</td> 
-		<td>shared banquet table</td> 
+		<td<?php focus('g') ?>>1 table</td> 
+		<td<?php focus('s') ?>>1 table</td> 
+		<td<?php focus('b') ?>>shared banquet table</td> 
 	</tr> 
  	
     <tr> 
 		<th>Resume Book</th> 
-		<td>Full access to online and paper versions</td> 
-		<td>Full access to online and paper versions</td> 
-		<td>Full access to online and paper versions</td> 
+		<td<?php focus('g') ?>>Full access to online and paper versions</td> 
+		<td<?php focus('s') ?>>Full access to online and paper versions</td> 
+		<td<?php focus('b') ?>>Full access to online and paper versions</td> 
 	</tr> 
  
 	<tr> 
 		<th>Advertising</th> 
-		<td>Large logo/section in TechFair booklet</td> 
-		<td>Medium logo/section in TechFair booklet</td> 
-		<td>Small logo/section in TechFair booklet</td> 
+		<td<?php focus('g') ?>>Large logo/section in TechFair booklet</td> 
+		<td<?php focus('s') ?>>Medium logo/section in TechFair booklet</td> 
+		<td<?php focus('b') ?>>Small logo/section in TechFair booklet</td> 
 	</tr> 
  
 	
     <tr> 
 		<th></th> 
-		<td>Feature company videos on TechFair website</td> 
-		<td>Feature company videos on TechFair website</td> 
-		<td></td> 
+		<td<?php focus('g') ?>>Feature company videos on TechFair website</td> 
+		<td<?php focus('s') ?>>Feature company videos on TechFair website</td> 
+		<td<?php focus('b') ?>></td> 
 	</tr> 
  
 	<tr> 
 		<th></th> 
-		<td>Free advertisement in The Tech, MIT's premier newspaper</td> 
-		<td></td> 
-		<td></td> 
+		<td<?php focus('g') ?>>Free advertisement in The Tech, MIT's premier newspaper</td> 
+		<td<?php focus('s') ?>></td> 
+		<td<?php focus('b') ?>></td> 
 	</tr> 
 	
 	<tr> 
 		<th></th> 
-		<td>Customized TechFair marketing team campus advertising campaign</td> 
-		<td></td> 
-		<td></td> 
+		<td<?php focus('g') ?>>Customized TechFair marketing team campus advertising campaign</td> 
+		<td<?php focus('s') ?>></td> 
+		<td<?php focus('b') ?>></td> 
 	</tr> 
 	
 	<tr class="pricing"> 
 		<th>Price</th> 
-		<td>$4000</td> 
-		<td>$2000</td> 
-		<td>$1000</td> 
+		<td<?php focus('g') ?>>$4000</td> 
+		<td<?php focus('s') ?>>$2000</td> 
+		<td<?php focus('b') ?>>$1000</td> 
 	</tr> 
 </table>
 <h1>Registration</h1>
