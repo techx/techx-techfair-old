@@ -20,11 +20,15 @@ font-family: Helvetica, Arial, sans-serif;
 	padding: 0;
 	background: url('../img/headerbg.png') bottom repeat-x transparent;
 }
+#header-inner {
+    width: 960px;
+    margin: 0 auto;
+}
 #header h1{
-	width: 960px;
 	margin: 0 auto;
 	padding: 0;
 	height: 90px;
+	display: inline-block;
 }
 #header h1 a{
 	background: url('../img/header.png') no-repeat top left;
@@ -43,13 +47,35 @@ font-family: Helvetica, Arial, sans-serif;
 #header h1 div {
 	height: 64px;
 	padding-top: 26px;
-	margin-left: 280px;
+	margin-left: 242px;
 }
 #header h2 {
 	font-size: 16px;
 	color: #444;
 	margin: 0 0 4px;
 	font-weight: 400;
+}
+#countdown {
+    display: inline-block;
+    float: right;
+    margin-top: 13px;
+	color:#fff;
+	font-family: verdana, arial, geneva;
+}
+.cd {
+	width:50px;
+	float:left;
+	text-align:center;
+	background-color:#222;
+	padding:10px 5px;
+	text-align:center;
+	margin-right:2px;
+	font-size:24px;
+}
+.cd-sub{
+	display:block;
+	font-size:14px;
+	color:#ddd;
 }
 /* body */
 #body{

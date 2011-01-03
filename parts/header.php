@@ -2,14 +2,63 @@
 function make_header($sectionName,$subSectionName,$routes)
 {
 ?>
-	<div id="header">
-		<div id="header-content">
-			<h1>
-				<a href="/"><span>MIT TechFair</span></a>
-				<div>
-					<h2>January 31, 2011</h2><h2>10:00am - 3:30pm at Rockwell Cage</h2>
-				</div>
-			</h1>
+    <div id="header">
+        <div id="header-content">
+            <div id="header-inner">
+                <h1>
+                    <a href="/"><span>MIT TechFair</span></a>
+                    <div>
+                        <h2>January 31, 2011</h2><h2>10:00am - 3:30pm at Rockwell Cage</h2>
+                    </div>
+                </h1>
+            
+                <div id="countdown">
+                <div id="countdown-day" class="cd"><span id="cd-day">Lo</span><span class="cd-sub">days</span></div>
+                <div id="countdown-hr" class="cd"><span id="cd-hr">ad</span><span class="cd-sub">hours</span></div>
+                <div id="countdown-min" class="cd"><span id="cd-min">in</span><span class="cd-sub">mins</span></div>
+                <div id="countdown-sec" class="cd"><span id="cd-sec">g</span><span class="cd-sub">secs</span></div>
+                <div style="clear:both"></div>
+                </div>
+
+                <script>
+                var montharray=new Array("Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec")
+
+                function countdown(yr,m,d){
+                	theyear=yr;themonth=m;theday=d;
+                	var today=new Date();
+                	var todayy=today.getYear();
+                	if (todayy < 1000)
+                		todayy+=1900;
+                	var todaym=today.getMonth();
+                	var todayd=today.getDate();
+                	var todayh=today.getHours();
+                	var todaymin=today.getMinutes();
+                	var todaysec=today.getSeconds();
+                	var todaystring=montharray[todaym]+" "+todayd+", "+todayy+" "+todayh+":"+todaymin+":"+todaysec;
+                	futurestring=montharray[m-1]+" "+d+", "+yr;
+                	dd=Date.parse(futurestring)-Date.parse(todaystring);
+                	dday=Math.floor(dd/(60*60*1000*24)*1);
+                	dhour=Math.floor((dd%(60*60*1000*24))/(60*60*1000)*1);
+                	dmin=Math.floor(((dd%(60*60*1000*24))%(60*60*1000))/(60*1000)*1);
+                	dsec=Math.floor((((dd%(60*60*1000*24))%(60*60*1000))%(60*1000))/1000*1);
+                	if(dday==0&&dhour==0&&dmin==0&&dsec==1){
+                		document.getElementById('countdown').innerHTML='It\'s today! Check us out at Rockwell Cage!';
+                		document.getElementById('countdown').style='background-color:#222;border-bottom:10px solid #aaa;';
+                		return;
+                	}
+                	else{
+                		document.getElementById('cd-day').innerHTML=dday;
+                		document.getElementById('cd-hr').innerHTML=dhour;
+                		document.getElementById('cd-min').innerHTML=dmin;
+                		document.getElementById('cd-sec').innerHTML=dsec;
+                		setTimeout("countdown(theyear,themonth,theday)",1000);
+                	}
+                }
+
+                countdown(2011,1,31);
+                </script>
+            </div>
+			
 		</div>
 	</div>
 	<div id="nav" class="clearfix">
@@ -18,7 +67,7 @@ function make_header($sectionName,$subSectionName,$routes)
 			<div id="navleft2"></div>
 			<div id="navleft3"></div>
 		</div>
-		<div id="navbar" class="navEl" style="background:url(/img/banners/<?php echo rand(1,8)?>.png);">
+		<div id="navbar" class="navEl" style="background-image:url(/img/banners/<?php echo rand(1,8)?>.png);">
 			<ul>
 			<?php
 			$k = 0;

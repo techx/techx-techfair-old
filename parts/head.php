@@ -21,6 +21,7 @@ function make_head($title)
 		Cufon.replace('#navbar a, #content h1, h2, h3, label, .success, button');
 	</script>
 	<script type="text/javascript" src="/js/script.js"></script>
+
 <?php
 }
 ?>
