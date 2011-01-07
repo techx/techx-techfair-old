@@ -120,5 +120,10 @@ $routes = array(
 		'name' => '<span>THINK</span>',
 		'external' => 'http://mittechfair.org/think/'
 	),
+	'wiki' => array(
+		'name' => '<span>Wiki</span>',
+		'external' => 'http://techfair.mit.edu/wiki/',
+		'show' => false
+	),
 );
 ?>
