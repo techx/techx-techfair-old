@@ -12,6 +12,8 @@
 </ul>
 <p>Note that startups must be mainly composed of current MIT students. If you do not meet this criteria, we encourage you to learn more about coming to TechFair as <a href="/companies/">a company sponsor</a>.</p>
 <p>Preferred application (see below) deadline is <u>December 20 with rolling applications afterward</u>. Your startup must be prepared for interviews by the first week of January.</p>
+<?php
+/*
 <h2>Interested but don't have your application ready yet?</h2>
 <div id="normal" class="interest">
 	<p>Enter your MIT email for reminders and more information:</p>
@@ -22,6 +24,7 @@
 		<button type="submit">Submit</button>
 	</form>
 </div>
+*/?>
 <?php
 if ($_POST["name"] != "" and $_POST["email"] != ""):
 	$to = 'TechFair Task Force <techfair-tf@mit.edu>, '.$_POST["email"];
@@ -44,6 +47,8 @@ else:
 ?>
 
 <h1>Application</h1>
+<?php
+/*
 <form action="" method="POST">
 	<table> 
 		<tr> 
@@ -102,4 +107,6 @@ else:
 		</tr>
 	</table>
 </form>
+*/?>
+<p>We are no longer accepting applications for TechFair 2011. Come back next year!</p>
 <?php endif;?>
