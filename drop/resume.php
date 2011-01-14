@@ -36,8 +36,8 @@ $result = mysql_query($query);
 $exists = mysql_num_rows($result);
 if($exists>0):
 ?>
-<p>You have already submitted a r&#233;sum&#233;. Thank you for your interest in MIT TechFair.</p>
-<?php else: ?>
+<p>You have already submitted a r&#233;sum&#233;. If you'd like to update your resume, resubmit it below.</p>
+<?php endif;?>
 <form action="" method="post" enctype="multipart/form-data">
 	<input type="hidden" name="action" value="resume" />
 	<table>
@@ -125,4 +125,3 @@ if($exists>0):
 	</table>
 </form>
 <p><strong>If you are encountering any errors, please email the above information along with your r&#233;sum&#233; <a href="mailto:techfair-it@mit.edu">techfair-it@mit.edu</a>.</strong></p>
-<?php endif;?>

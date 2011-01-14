@@ -73,6 +73,19 @@ if(count($errors) == 0)
 	mysql_select_db('techfair+resume');
 	(isset($_POST['fulltime'])) ? $fulltime = 1 : $fulltime = 0;
 	(isset($_POST['internship'])) ? $internship = 1 : $internship = 0;
+	
+	$query = sprintf("SELECT resume from resumedrop11 WHERE email='%s'",mysql_real_escape_string($_POST['email']))
+	$results = mysql_query($query);
+	$row = mysql_fetch_assoc($result);
+	$resume = $row['resume'];
+	
+	$dir = '/mit/techfair/web_scripts/resumes/';
+	
+	if (mysql_num_rows()>0) {
+	    $query = sprintf("DELETE from resumedrop11 WHERE email='%s'",mysql_real_escape_string($_POST['email']));
+	    rename($resume,$dir.'old/'.base_name($resume));
+	}
+	
 	$query = sprintf("INSERT into resumedrop11 (firstname,lastname,email,year,major1,major2,phone,fulltime,internship) VALUES ('%s','%s','%s','%s','%s','%s','%d','%d','%d')",
 				mysql_real_escape_string($_POST['firstname']),
 				mysql_real_escape_string($_POST['lastname']),
@@ -93,7 +106,6 @@ if(count($errors) == 0)
 		$firstname = str_replace('/','',$_POST['firstname']);
 		$filename = $id.'_'.$lastname.'_'.$firstname.'.pdf';
 
-		$dir = '/mit/techfair/web_scripts/resumes/';
 		$filepath = $dir.$filename;
 		if (move_uploaded_file($_FILES['resume']['tmp_name'],$filepath))
 		{
