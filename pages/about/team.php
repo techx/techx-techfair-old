@@ -22,7 +22,7 @@ function out(num) {
 }
 </script>
 <h1>The TechFair Executive Team</h1>
-<p><strong>6 people, 1 awesome team.</strong></p>
+<p><strong>6 people, 1 awesome team.</strong> (1 team email: <a href="mailto:techfair-exec@mit.edu">techfair-exec@mit.edu</a>)</p>
 
 <h2>Emily Zhao</h2>
 <img src="/img/exec/Emily0.jpg" name="Emily" onMouseOver="over(0)" onMouseOut="out(0)" class="teamImage"/>

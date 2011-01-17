@@ -2,14 +2,13 @@
 <p>TechFair offers three standard sponsorship packages, designated below. Aside from the amenities described, the higher sponsorships help companies maintain a larger physical and advertised presence as part of our TechFair campaign before and during the fair.</p>
 <p>The deadline for registration is <b>January 7, 2011</b>.</p>
 <h2>Packages</h2>
-<p><strong>Our gold and silver sponsorship packages are oversubscribed and are no longer available. We highly recommend the bronze package for interested companies, though!</strong></p>
+<p><strong>Our sponsorship packages are all oversubscribed and are no longer available for TechFair 2011. Of course, we'd love to have your company at TechFair 2012, so feel free to send us an email!</strong></p>
 <?php
 function focus($p) {
     /*if ($p=='g' && (isset($_GET['s']) || isset($_GET['b'])) && !isset($_GET['g'])) echo ' class="unfocus"';
     if ($p=='s' && (isset($_GET['g']) || isset($_GET['b'])) && !isset($_GET['s'])) echo ' class="unfocus"';
     if ($p=='b' && (isset($_GET['g']) || isset($_GET['s'])) && !isset($_GET['b'])) echo ' class="unfocus"';*/
-    if ($p=='g') echo ' class="unfocus"';
-    if ($p=='s') echo ' class="unfocus"';
+    echo ' class="unfocus"';
 }
 ?>
 <table id="sponsorship"> 
@@ -119,4 +118,4 @@ function focus($p) {
 	</tr> 
 </table>
 <h1>Registration</h1>
-<p>If your company is interested in registering for MIT TechFair 2011, please contact <a href="mailto:techfair-cr-head@mit.edu">techfair-cr-head@mit.edu</a> for more information. <br><br> In addition to the aforementioned sponsorship packages, TechFair also offers custom sponsorships and opportunities. </p> 
+<p>If your company is interested in registering for MIT TechFair 2012, please contact <a href="mailto:techfair-cr-head@mit.edu">techfair-cr-head@mit.edu</a> for more information. <br><br> In addition to the aforementioned sponsorship packages, TechFair also offers custom sponsorships and opportunities. </p> 

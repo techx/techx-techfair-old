@@ -74,16 +74,20 @@ if(count($errors) == 0)
 	(isset($_POST['fulltime'])) ? $fulltime = 1 : $fulltime = 0;
 	(isset($_POST['internship'])) ? $internship = 1 : $internship = 0;
 	
-	$query = sprintf("SELECT resume from resumedrop11 WHERE email='%s'",mysql_real_escape_string($_POST['email']))
-	$results = mysql_query($query);
-	$row = mysql_fetch_assoc($result);
-	$resume = $row['resume'];
+	$query = sprintf("SELECT resume from resumedrop11 WHERE email='%s'",mysql_real_escape_string($_POST['email']));
+	$result = mysql_query($query);
 	
 	$dir = '/mit/techfair/web_scripts/resumes/';
 	
-	if (mysql_num_rows()>0) {
+	if (mysql_num_rows($result)>0) {
+	    $row = mysql_fetch_assoc($result);
+    	$resume = $row['resume'];
+	
 	    $query = sprintf("DELETE from resumedrop11 WHERE email='%s'",mysql_real_escape_string($_POST['email']));
-	    rename($resume,$dir.'old/'.base_name($resume));
+	    mysql_query($query);
+	    
+	    $newname = $dir.'old/'.basename($resume);
+	    rename($resume,$newname);
 	}
 	
 	$query = sprintf("INSERT into resumedrop11 (firstname,lastname,email,year,major1,major2,phone,fulltime,internship) VALUES ('%s','%s','%s','%s','%s','%s','%d','%d','%d')",
