@@ -114,11 +114,12 @@ font-family: Helvetica, Arial, sans-serif;
 #movie div {
 	position: absolute;
 	top: 50%;
-	margin-top: -193px;
-	height: 324px;
+	margin-top: -270px;
 	left: 50%;
-	margin-left: -320px;
+	margin-left: -480px;
 	background: url('/img/ajax-loader.gif') no-repeat center center transparent;
+	width: 960px;
+	height: 540px;
 }
 #c3{
 	margin:0;
@@ -177,7 +178,7 @@ h3{
 #history a:hover {background:#484848; background:#4d3418;}
 
 #event{ background:#383838; color:#fff; height:313px; margin-bottom:15px;line-height:16px;}
-#exhibitors{ background:#4078d6; height:306px;} 
+#exhibitors{ background:#4078d6; height:147px;} 
 #students { background:#8bb1f1; height:196px; margin-bottom:15px;}
 #exhibitors a, #students a {
 	font-size:20px;
@@ -191,16 +192,40 @@ h3{
 	color: #DDD;
 }
 #photo2{
-	width:310px;
-	height: 174px;
+	width:306px;
+	height: 329px;
 	margin-bottom:15px;
 	display:block;
-	background: url('../img/fb_desat.png') no-repeat transparent;
+	padding: 2px;
+	-webkit-transition-property: background-color;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-property: background-color;
+    -moz-transition-duration: 0.5s;
 }
 #photo2:hover {
-	background-image: url('../img/fb_poster.png');
-	cursor: pointer;
+    background-color: #EEE;
+    cursor: pointer;
+    -webkit-transition-property: background-color;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-property: background-color;
+    -moz-transition-duration: 0.5s;
 }
+#photo2 img {
+    float: left;
+    margin: 0 2px 2px 0;
+    -webkit-transition-property: opacity;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-property: opacity;
+    -moz-transition-duration: 0.5s;
+}
+#photo2:hover img {
+    opacity: 0.5;
+    -webkit-transition-property: opacity;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-property: opacity;
+    -moz-transition-duration: 0.5s;
+}
+
 #photo1{
 	height:167px;
 	width: 146px;

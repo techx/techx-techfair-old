@@ -18,7 +18,7 @@
 <body>
 	<div class="ui-widget-overlay" id="movie">
 		<div>
-			<object width="640" height="385"><param name="movie" value="http://www.youtube.com/v/XZXBMSb7_eE?fs=1&amp;hl=en_US&amp;rel=0&amp;hd=1&amp;autoplay=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/XZXBMSb7_eE?fs=1&amp;hl=en_US&amp;rel=0&amp;hd=1&amp;autoplay=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="640" height="385"></embed></object>
+			<script src="http://player.ooyala.com/player.js?width=960&height=540&embedCode=ZkeGd2MTrsnQOCzU7pYc2DfL1xbek1cv&autoplay=1&browserPlacement=left300px"></script><noscript><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" id="ooyalaPlayer_3gzdz_gj0u6mjg" width="960" height="540" codebase="http://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab"><param name="movie" value="http://player.ooyala.com/player.swf?embedCode=ZkeGd2MTrsnQOCzU7pYc2DfL1xbek1cv&version=2" /><param name="bgcolor" value="#000000" /><param name="allowScriptAccess" value="always" /><param name="allowFullScreen" value="true" /><param name="flashvars" value="embedType=noscriptObjectTag&embedCode=ZkeGd2MTrsnQOCzU7pYc2DfL1xbek1cv&autoplay=1&browserPlacement=left300px" /><embed src="http://player.ooyala.com/player.swf?embedCode=ZkeGd2MTrsnQOCzU7pYc2DfL1xbek1cv&version=2" bgcolor="#000000" width="960" height="540" name="ooyalaPlayer_3gzdz_gj0u6mjg" align="middle" play="true" loop="false" allowscriptaccess="always" allowfullscreen="true" type="application/x-shockwave-flash" flashvars="&embedCode=ZkeGd2MTrsnQOCzU7pYc2DfL1xbek1cv&autoplay=1&browserPlacement=left300px" pluginspage="http://www.adobe.com/go/getflashplayer"></embed></object></noscript>
 		</div>
 	</div>
 	<div id="container">
@@ -88,14 +88,35 @@
 				<p>If you are a student and would like to stay up to date with the latest updates and reminders, fill out our <a href="/engage/">student interest form</a>!</p>
 				<p><a href="/events/">more info &raquo;</a></p>
 			</div>
-		<div id="think" class="box">
-			<h3>THINK</h3>
-			<p>high school science and technology competition</p>
-			<p><a href="http://www.mittechfair.org/think/index.php">more info &raquo;</a></p>
+    		<div id="think" class="box">
+    			<h3>THINK</h3>
+    			<p>high school science and technology competition</p>
+    			<p><a href="http://www.mittechfair.org/think/index.php">more info &raquo;</a></p>
+    		</div>
+    		<img src="img/photo1.jpg" id="photo1" class="box" />
 		</div>
-		<img src="img/photo1.jpg" id="photo1" class="box" /></div>
 		<div id="c2">
-			<div id="photo2" class="box"></div>
+			<div id="photo2" class="box">
+			    <img src="/img/logos/oracle.png" />
+		        <img src="/img/logos/23andme.png" />
+                <img src="/img/logos/akamai.png" />
+                <!--<img src="/img/logos/aol.png" />-->
+                <img src="/img/logos/boeing.png" />
+                <img src="/img/logos/cisco.png" />
+                <img src="/img/logos/cooliris.png" />
+                <img src="/img/logos/dropbox.png" />
+                <img src="/img/logos/facebook.png" />
+                <img src="/img/logos/interactive.png" />
+                <img src="/img/logos/lockheed.png" />
+                <img src="/img/logos/mathworks.png" />
+                <img src="/img/logos/mesoscale.png" />
+                <img src="/img/logos/microsoft.png" />
+                <img src="/img/logos/mozilla.png" />
+                <img src="/img/logos/palantir.png" />
+                <img src="/img/logos/schlumberger.png" />
+                <img src="/img/logos/synaptics.png" />
+                <img src="/img/logos/walz.png" />
+			</div>
 			<div id="exhibitors" class="box">
 				<h3>for companies</h3>
 				<p><a href="/companies/">why techfair</a></p>

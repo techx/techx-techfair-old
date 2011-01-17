@@ -43,33 +43,8 @@
 		</div>
 		<img src="img/photo1.jpg" id="photo1" class="box" /></div>
 		<div id="c2">
-			<div id="photo2" class="box">
-<script src="http://player.ooyala.com/player.js?width=310&height=174&embedCode=ZkeGd2MTrsnQOCzU7pYc2DfL1xbek1cv&view=channel"></script><noscript><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
-																																						 id="ooyalaPlayer_3n3dn_gheiblkd"
-																																						 width="310"
-																																						 height="174"
-																																						 codebase="http://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab"><param name="movie"
-																																						 value="http://player.ooyala.com/player.swf?embedCode=ZkeGd2MTrsnQOCzU7pYc2DfL1xbek1cv&version=2"
-																																						 /><param name="bgcolor"
-																																						 value="#000000"
-																																						 /><param name="allowScriptAccess"
-																																						 value="always"
-																																						 /><param name="allowFullScreen"
-																																						 value="true"
-																																						 /><param name="flashvars"
-																																						 value="embedType=noscriptObjectTag&embedCode=ZkeGd2MTrsnQOCzU7pYc2DfL1xbek1cv&view=channel"
-																																						 /><embed src="http://player.ooyala.com/player.swf?embedCode=ZkeGd2MTrsnQOCzU7pYc2DfL1xbek1cv&version=2"
-																																						 bgcolor="#000000"
-																																						 width="310"
-																																						 height="174"
-																																						 name="ooyalaPlayer_3n3dn_gheiblkd"
-																																						 align="middle"
-																																						 play="true"
-																																						 loop="false"
-																																						 allowscriptaccess="always"
-																																						 allowfullscreen="true"
-																																						 type="application/x-shockwave-flash"
-																																						 flashvars="&embedCode=ZkeGd2MTrsnQOCzU7pYc2DfL1xbek1cv&view=channel" pluginspage="http://www.adobe.com/go/getflashplayer"></embed></object></noscript>
+			<div id="photo2" class="box"> 
+<script src="http://player.ooyala.com/player.js?width=310&height=174&embedCode=I1ZzNpOlFP_EKb6i-tTDPrBqmWN63kf7&view=channel"></script><noscript><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" id="ooyalaPlayer_3n3dn_gheiblkd" width="310" height="174" codebase="http://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab"><param name="movie" value="http://player.ooyala.com/player.swf?embedCode=I1ZzNpOlFP_EKb6i-tTDPrBqmWN63kf7&version=2" /><param name="bgcolor" value="#000000" /><param name="allowScriptAccess" value="always" /><param name="allowFullScreen" value="true" /><param name="flashvars" value="embedType=noscriptObjectTag&embedCode=I1ZzNpOlFP_EKb6i-tTDPrBqmWN63kf7&view=channel" /><embed src="http://player.ooyala.com/player.swf?embedCode=I1ZzNpOlFP_EKb6i-tTDPrBqmWN63kf7&version=2" bgcolor="#000000" width="310" height="174" name="ooyalaPlayer_3n3dn_gheiblkd" align="middle" play="true" loop="false" allowscriptaccess="always" allowfullscreen="true" type="application/x-shockwave-flash" flashvars="&embedCode=I1ZzNpOlFP_EKb6i-tTDPrBqmWN63kf7&view=channel" pluginspage="http://www.adobe.com/go/getflashplayer"></embed></object></noscript>
 			</div>
 			<div id="exhibitors" class="box">
 				<h3>for companies</h3>
