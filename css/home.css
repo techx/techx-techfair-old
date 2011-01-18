@@ -121,6 +121,26 @@ font-family: Helvetica, Arial, sans-serif;
 	width: 960px;
 	height: 540px;
 }
+#movie #close {
+    display: inline-block;
+    color: #FFF;
+    position: relative;
+    top: -34px;
+    float: right;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+}
+#movie #close:hover {
+    background-color: #444;
+    cursor: pointer;
+}
+#movie #close span {
+    display: inline-block;
+    position: relative;
+    top: 2px;
+}
 #c3{
 	margin:0;
 }

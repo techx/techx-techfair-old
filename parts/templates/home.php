@@ -18,6 +18,7 @@
 <body>
 	<div class="ui-widget-overlay" id="movie">
 		<div>
+		    <span id="close"><span class="ui-icon ui-icon-circle-close"></span>close</span>
 			<script src="http://player.ooyala.com/player.js?width=960&height=540&embedCode=ZkeGd2MTrsnQOCzU7pYc2DfL1xbek1cv&autoplay=1&browserPlacement=left300px"></script><noscript><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" id="ooyalaPlayer_3gzdz_gj0u6mjg" width="960" height="540" codebase="http://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab"><param name="movie" value="http://player.ooyala.com/player.swf?embedCode=ZkeGd2MTrsnQOCzU7pYc2DfL1xbek1cv&version=2" /><param name="bgcolor" value="#000000" /><param name="allowScriptAccess" value="always" /><param name="allowFullScreen" value="true" /><param name="flashvars" value="embedType=noscriptObjectTag&embedCode=ZkeGd2MTrsnQOCzU7pYc2DfL1xbek1cv&autoplay=1&browserPlacement=left300px" /><embed src="http://player.ooyala.com/player.swf?embedCode=ZkeGd2MTrsnQOCzU7pYc2DfL1xbek1cv&version=2" bgcolor="#000000" width="960" height="540" name="ooyalaPlayer_3gzdz_gj0u6mjg" align="middle" play="true" loop="false" allowscriptaccess="always" allowfullscreen="true" type="application/x-shockwave-flash" flashvars="&embedCode=ZkeGd2MTrsnQOCzU7pYc2DfL1xbek1cv&autoplay=1&browserPlacement=left300px" pluginspage="http://www.adobe.com/go/getflashplayer"></embed></object></noscript>
 		</div>
 	</div>
@@ -193,8 +194,13 @@
 	$('#photo2').click(function(){
 		$('#movie').css('display','block');
 	});
-	$('#movie').click(function(){
-		$(this).css('display','none');
+	$('#movie #close').click(function(){
+		$('#movie').css('display','none');
+	});
+	$(document).keyup(function(event){
+	    if (event.keyCode=='27') {
+	        $('#movie').css('display','none');
+	    }
 	});
 </script>
 </body>
