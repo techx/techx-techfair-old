@@ -6,7 +6,7 @@ if (isset($_POST['email'])):
     if (preg_match('/^[^@]+@[a-zA-Z0-9._-]*mit\.edu$/',$email) && $email!='FAILURE') {
         echo 'SUCCESS';
         $mysqli = new mysqli('mysql.mit.edu','techfair','02139techfair','techfair+dayof');
-        $stmt = $mysqli->prepare("INSERT INTO techfair+dayof (email) VALUES (%s)");
+        $stmt = $mysqli->prepare("INSERT INTO techfair+dayof (email) VALUES (?)");
         $stmt->bind_param('s',$email);
         $stmt->execute();
         $stmt->close();
