@@ -44,6 +44,11 @@ $routes = array(
 			'content' => 'pages/events/banquet.php',
 			'name' => 'Banquet'
 		),
+		'afterparty' => array(
+		    'title' => 'Afterparty / '.$basetitle,
+		    'content' => 'pages/events/party.php',
+		    'name' => 'Afterparty'
+		),
 		/*
 		'afterparty' => array(
 			'title' => 'Afterparty / '.$basetitle,
