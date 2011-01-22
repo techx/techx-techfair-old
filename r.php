@@ -120,7 +120,7 @@ else:
             <h1>Welcome to MIT TechFair!</h1>
             <form action="" method="post" id="form">
                 <label for="email"><span class="button">ENTER</span> to submit your MIT email</label>
-                <input type="text" id="email" name="email" placeholder="MIT Email"/>
+                <input type="text" id="email" name="email" placeholder="MIT Email"autocomplete="off"/>
             </form>
             <div id="success" class="message">Thanks!</div>
             <div id="failure" class="message">Try again!</div>

@@ -20,3 +20,5 @@ MIT Spring 2011 Registration Day
 <p>TechFair 2011 will be held at Rockwell Cage (building W33) on MIT campus, located on Vassar Street behind the student center. If you're coming from out of town, <a href="http://whereis.mit.edu/directions.html">directions to MIT are available</a>. Click the map below for a larger, interactive version.</p>
 <h3>Map</h3>
 <a href="http://whereis.mit.edu/?go=W33"><img src="/img/map.png" alt="map of MIT" /></a>
+
+<h2>Passports</h2>
