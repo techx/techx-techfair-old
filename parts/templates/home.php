@@ -129,15 +129,14 @@
 		<div id="menu">
 			<ul>
 				<li id="map"><a href="/events/venue/" class="box">the fair</a></li>
-				<li id="team"><a href="/drop/" class="box">r&#233;sum&#233; drop</a></li>
-				<li id="history"><a href="/events/hackathon/" class="box">hack-a-<br/>thon</a></li>
+				<li id="team"><a href="/pdf/booklet2011-web.pdf" class="box">booklet</a></li>
+				<li id="history"><a href="/drop/" class="box">r&#233;sum&#233; drop</a></li>
 			</ul>
 		</div>
 		<div id="students" class="box">
 			<h3>for students</h3>
+			<p><a href="/events/exhibitorlist/">check out the list of exhibitors</a></p>
 			<p><a href="/students/">opportunities at techfair</a></p>
-			<p><a href="/students/individual/">individual exhibitors</a></p>
-			<p><a href="/students/startups/">student startups</a></p>
 			<p><a href="/drop/">r&#233;sum&#233; drop</a></p>
 			<!--
 			<script src="http://widgets.twimg.com/j/2/widget.js"></script>

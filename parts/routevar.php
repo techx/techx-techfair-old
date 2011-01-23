@@ -49,10 +49,10 @@ $routes = array(
 		    'content' => 'pages/events/party.php',
 		    'name' => 'Afterparty'
 		),
-		'company-list' => array(
+		'exhibitorlist' => array(
 		    'title' => 'Events / '.$basetitle,
-		    'content' => 'pages/events/companylist.php',
-		    'name' => 'List of Companies'
+		    'content' => 'pages/events/exhibitorlist.php',
+		    'name' => 'List of Exhibitors'
 		),
 		/*
 		'afterparty' => array(
