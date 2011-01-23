@@ -190,12 +190,13 @@ h3{
 	font-family:"Helvetica Neue Light", Arial, Helvetica, sans-serif;
 	border:0;
 }
-#map a{ background:#7b7979;background:#e0861f;} 
-#map a:hover {background: #888; background:#c5863e;}
-#team a{ background:#545050;background:#9f5d16; }
-#team a:hover {background:#666; background:#7a5226;}
-#history a{ background:#383838; margin:0;background:#613b0e;}
-#history a:hover {background:#484848; background:#4d3418;}
+
+#map a{ background:#e0a71f;} 
+#map a:hover {background: #ffb400; }
+#team a{ background:#e0861f; }
+#team a:hover {background:#f80;}
+#history a{ background:#e0661f; margin:0}
+#history a:hover {background:#ff5e00;}
 
 #event{ background:#383838; color:#fff; height:313px; margin-bottom:15px;line-height:16px;}
 #exhibitors{ background:#4078d6; height:147px;} 
