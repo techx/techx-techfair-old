@@ -49,6 +49,11 @@ $routes = array(
 		    'content' => 'pages/events/party.php',
 		    'name' => 'Afterparty'
 		),
+		'exhibitorlist' => array(
+		    'title' => 'Events / '.$basetitle,
+		    'content' => 'pages/events/exhibitorlist.php',
+		    'name' => 'List of Exhibitors'
+		),
 		/*
 		'afterparty' => array(
 			'title' => 'Afterparty / '.$basetitle,
