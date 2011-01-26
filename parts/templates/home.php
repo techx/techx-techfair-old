@@ -106,7 +106,7 @@
 				        <td>1/31 9pm - 11pm<br />E15 (Old Media Lab)<br />Lower Atrium</td>
 				    </tr>
 				</table>
-				<a href="/events/">more info &raquo;</a></p>
+				<p>Events require a non-expired MIT ID. <a href="/events/">more info &raquo;</a></p>
 			</div>
     		<div id="think" class="box">
     			<h3>THINK</h3>
