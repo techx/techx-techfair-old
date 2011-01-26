@@ -509,3 +509,50 @@ ul.radio span {
 	font-size: 16px;
 	color: white !important;
 }
+
+div.schedule{
+	font-size:12px;
+	margin-left:5px;
+	font-family: Helvetica, Arial, sans-serif;
+}
+h2.schedule{
+	padding-top:5px;
+	padding-left:10px;
+	margin: 0 0 0 -10px !important;
+	border: 0 !important;
+	color: #000 !important;
+}
+.schedule-title{
+	font-size:16px;
+	border-top:1px solid #ddd;
+	padding-top:5px;
+	margin-top:5px;
+	clear:left;
+}
+.schedule-orange, .schedule-orange a{
+	color:#f26a25;
+}
+#schedule-during{
+	background-color:#ddf;
+	padding-bottom:10px;
+	margin-top:10px;
+}
+.schedule-orange, .schedule-blue{
+	margin-left:40px;
+}
+.schedule-blue, .schedule-blue a{
+	color:#1d5daa;
+}
+.schedule-check{
+	border:2px solid #555;
+	width:10px;
+	background:#fff;
+	height:10px;
+	float:left;
+	margin-top:2px;
+	margin-right:10px;
+}
+#schedule-before, #schedule-during, #schedule-after {
+    padding-left: 10px;
+    width: 500px;
+}

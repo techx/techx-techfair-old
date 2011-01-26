@@ -39,6 +39,11 @@ $routes = array(
 			'content' => 'pages/events/venue.php',
 			'name' => 'The Fair'
 		),
+		'talks' => array(
+		    'title' => 'TechTalks / '.$basetitle,
+		    'content' => 'pages/events/talks.php',
+		    'name' => 'TechTalks'
+		),
 		'banquet' => array(
 			'title' => 'Banquet / '.$basetitle,
 			'content' => 'pages/events/banquet.php',
@@ -48,11 +53,6 @@ $routes = array(
 		    'title' => 'Afterparty / '.$basetitle,
 		    'content' => 'pages/events/party.php',
 		    'name' => 'Afterparty'
-		),
-		'exhibitorlist' => array(
-		    'title' => 'Events / '.$basetitle,
-		    'content' => 'pages/events/exhibitorlist.php',
-		    'name' => 'List of Exhibitors'
 		),
 		/*
 		'afterparty' => array(
@@ -70,11 +70,16 @@ $routes = array(
 			'title' => 'For Companies / '.$basetitle,
 			'content' => 'pages/companies/why.php'
 		),
-		'packages' => array(
-			'title' => 'Sponsorship / '.$basetitle,
-			'content' => 'pages/companies/packages.php',
-			'name' => 'Sponsorship Packages & Registration'
+		'exhibitorlist' => array(
+		    'title' => 'Events / '.$basetitle,
+		    'content' => 'pages/companies/exhibitorlist.php',
+		    'name' => 'List of Exhibitors'
 		),
+		//'packages' => array(
+		//	'title' => 'Sponsorship / '.$basetitle,
+		//	'content' => 'pages/companies/packages.php',
+		//	'name' => 'Sponsorship Packages & Registration'
+		//),
 		//'register' => array(
 		//	'title' => 'Register / '.$basetitle,
 		//	'content' => 'pages/companies/register.php',
@@ -91,6 +96,12 @@ $routes = array(
 			'title' => 'For Students / '.$basetitle,
 			'content' => 'pages/students/exhibit.php',
 		),
+		'checklist' => array(
+		    'title' => 'Student Checklist / '.$basetitle,
+		    'content' => 'pages/students/checklist.php',
+		    'name' => 'Checklist'
+		),
+		/*
 		'individual' => array(
 			'title' => 'Individual Students / '.$basetitle,
 			'content' => 'pages/students/individuals.php',
@@ -103,6 +114,7 @@ $routes = array(
 			'name' => 'Student Startups',
 			'process' => 'pages/students/startups_process.php'
 		),
+		*/
 		'resume-drop' => array(
 			'external' => '/drop/',
 			'name' => 'R&#233;sum&#233; Drop'

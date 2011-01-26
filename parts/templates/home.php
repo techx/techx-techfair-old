@@ -83,11 +83,30 @@
 		<div id="body">
 		<div id="c1">
 			<div id="event" class="box">
-				<h3>the event</h3>
-				TechFair is MIT's annual student-run technology expo. Sample an eclectic mix of cutting edge technology from companies, labs, and MIT students. 
-                <p>Excited about the fair? Kick off starts with an all-night <a href="/events/hackathon/">Hack-a-thon</a>, progresses into the <a href="/events/venue/">fair itself</a> and ends with a <a href="/events/banquet/">banquet</a>. </p><p>TechFair is also home to the <a href="http://www.mittechfair.org/think/index.php">THINK competition</a>, which occurs in the months preceeding TechFair.</p>
-				<p>If you are a student and would like to stay up to date with the latest updates and reminders, fill out our <a href="/engage/">student interest form</a>!</p>
-				<p><a href="/events/">more info &raquo;</a></p>
+				<h3>schedule of events</h3>
+				<table>
+				    <tr>
+				        <th><a href="/events/hackathon/">Hack-a-thon</a></th>
+				        <td>1/30 10pm - 1/31 8am<br /><span>32-082 (Stata TEAL room)</td>
+				    </tr>
+				    <tr class="mainFair">
+				        <th><a href="/events/venue/">TechFair</a></th>
+				        <td>1/31 10am - 3:30pm<br />Rockwell Cage</td>
+				    </tr>
+				    <tr>
+				        <th><a href="/events/talks/">TechTalks</a></th>
+				        <td>At the Fair</td>
+				    </tr>
+				    <tr>
+				        <th><a href="/events/banquet/">Banquet</a></th>
+				        <td>1/31 6pm - 8:30pm<br />Hyatt Regency 16th floor<br />Charles View Ballroom</td>
+				    </tr>
+				    <tr>
+				        <th><a href="/events/afterparty/">Afterparty</a></th>
+				        <td>1/31 9pm - 11pm<br />E15 (Old Media Lab)<br />Lower Atrium</td>
+				    </tr>
+				</table>
+				<a href="/events/">more info &raquo;</a></p>
 			</div>
     		<div id="think" class="box">
     			<h3>THINK</h3>
@@ -119,24 +138,24 @@
                 <img src="/img/logos/walz.png" />
 			</div>
 			<div id="exhibitors" class="box">
-				<h3>for companies</h3>
-				<p><a href="/companies/">why techfair</a></p>
-				<p><a href="/companies/packages/">sponsorship packages</a></p>
-				<p><a href="http://mittechfair.org/portal/">company sign in</a></p>
+        		<h3>for companies</h3>
+        		<p><a href="/companies/exhibitorlist/">2011 exhibitors</a></p>
+        		<p><a href="/events/talks/">TechTalks</a></p>
+        		<p><a href="http://mittechfair.org/portal/">company sign in</a></p>
 			</div>
 		</div>
 	<div id="c3">
 		<div id="menu">
 			<ul>
 				<li id="map"><a href="/events/venue/" class="box">the fair</a></li>
-				<li id="team"><a href="/pdf/booklet2011-web.pdf" class="box">booklet</a></li>
+				<li id="team"><a href="http://dl.dropbox.com/u/13568755/Booklet2011-Jan25-med-res.pdf" class="box">booklet</a></li>
 				<li id="history"><a href="/drop/" class="box">r&#233;sum&#233; drop</a></li>
 			</ul>
 		</div>
 		<div id="students" class="box">
 			<h3>for students</h3>
-			<p><a href="/events/exhibitorlist/">check out the list of exhibitors</a></p>
-			<p><a href="/students/">opportunities at techfair</a></p>
+			<p><a href="/companies/exhibitorlist/">2011 exhibitors</a></p>
+			<p><a href="/students/checklist/">TechFair checklist</a></p>
 			<p><a href="/drop/">r&#233;sum&#233; drop</a></p>
 			<!--
 			<script src="http://widgets.twimg.com/j/2/widget.js"></script>

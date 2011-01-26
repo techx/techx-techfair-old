@@ -199,6 +199,34 @@ h3{
 #history a:hover {background:#4d3418;text-decoration:none!important;}
 
 #event{ background:#383838; color:#fff; height:313px; margin-bottom:15px;line-height:16px;}
+#event a {
+    font-size: 1.4em;
+}
+#event table {
+    border-collapse: collapse;
+    margin: 14px 0;
+}
+#event th {
+    font-weight: 400;
+    text-align: right;
+    padding: 6px 12px 6px 8px;
+    width: 100px;
+}
+#event td {
+    padding: 5px 10px 5px 0;
+    color: #DDD;
+}
+#event .mainFair th {
+    font-size: 15px;
+    background-color: #444;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#event .mainFair td {
+    background-color: #444;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 #exhibitors{ background:#4078d6; height:147px;} 
 #students { background:#8bb1f1; height:196px; margin-bottom:15px;}
 #exhibitors a, #students a {
