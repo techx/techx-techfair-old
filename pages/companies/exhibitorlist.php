@@ -29,12 +29,15 @@
 <li>Adobe</li>
 <li>AT&amp;T</li>
 <li>Azure Dynamics</li>
+<li>B Line</li>
+<li>Cypress Semiconductors</li>
 <li>Foursquare</li>
 <li>General Electric</li>
 <li>Google</li>
 <li>NAVAIR</li>
 <li>OPNET Technologies Inc.</li>
 <li>REAL Software Systems</li>
+<li>SecondMarket</li>
 <li>Volkswagen ERL</li>
 </ul>
 <h2>Startup Sponsors</h2>
