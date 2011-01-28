@@ -11,7 +11,7 @@ if (mysqli_connect_errno()) {
     printf("Connect failed: %s\n", mysqli_connect_error()); 
     exit(); 
 }
-$result = $mysqli->query("SELECT * FROM registration ORDER BY lastname,firstname");
+$result = $mysqli->query("SELECT * FROM registration ORDER BY lastname");
 while($row = $result->fetch_assoc()){ 
     printf("%s (%s)\n", $row['Name'], $row['Population']); 
 }
