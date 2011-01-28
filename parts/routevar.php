@@ -96,6 +96,10 @@ $routes = array(
 			'title' => 'For Students / '.$basetitle,
 			'content' => 'pages/students/exhibit.php',
 		),
+		'exhibitors' => array(
+			'external' => '/companies/exhibitorlist/',
+			'name' => 'List of Exhibitors'
+		),
 		'checklist' => array(
 		    'title' => 'Student Checklist / '.$basetitle,
 		    'content' => 'pages/students/checklist.php',
