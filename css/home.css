@@ -191,12 +191,12 @@ h3{
 	border:0;
 }
 
-#map a{ background:#e0861f;} 
-#map a:hover { background:#c5863e; text-decoration:none !important;}
-#team a{ background:#9f5d16; }
-#team a:hover {background:#7a5226;text-decoration:none!important;}
-#history a{ margin:0;background:#613b0e;}
-#history a:hover {background:#4d3418;text-decoration:none!important;}
+#map a{ background:#e0a71f;} 
+#map a:hover { background:#fa0; text-decoration:none !important;}
+#team a{ background:#e0861f; }
+#team a:hover {background:#f80;text-decoration:none!important;}
+#history a{ margin:0;background:#e0661f;}
+#history a:hover {background:#f60;text-decoration:none!important;}
 
 #event{ background:#383838; color:#fff; height:313px; margin-bottom:15px;line-height:16px;}
 #event a {
