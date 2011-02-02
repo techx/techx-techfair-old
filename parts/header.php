@@ -20,44 +20,8 @@ function make_header($sectionName,$subSectionName,$routes)
                 <div style="clear:both"></div>
                 </div>
 
-                <script>
-                var montharray=new Array("Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec")
-
-                function countdown(yr,m,d){
-                	theyear=yr;themonth=m;theday=d;
-                	var today=new Date();
-                	var todayy=today.getYear();
-                	if (todayy < 1000)
-                		todayy+=1900;
-                	var todaym=today.getMonth();
-                	var todayd=today.getDate();
-                	var todayh=today.getHours();
-                	var todaymin=today.getMinutes();
-                	var todaysec=today.getSeconds();
-                	var todaystring=montharray[todaym]+" "+todayd+", "+todayy+" "+todayh+":"+todaymin+":"+todaysec;
-                	futurestring=montharray[m-1]+" "+d+", "+yr;
-                	dd=Date.parse(futurestring)-Date.parse(todaystring);
-                	dday=Math.floor(dd/(60*60*1000*24)*1);
-                	dhour=Math.floor((dd%(60*60*1000*24))/(60*60*1000)*1);
-                	dmin=Math.floor(((dd%(60*60*1000*24))%(60*60*1000))/(60*1000)*1);
-                	dsec=Math.floor((((dd%(60*60*1000*24))%(60*60*1000))%(60*1000))/1000*1);
-                	if(dday==0&&dhour==0&&dmin==0&&dsec==1){
-                		document.getElementById('countdown').innerHTML='It\'s today! Check us out at Rockwell Cage!';
-                		document.getElementById('countdown').style='background-color:#222;border-bottom:10px solid #aaa;';
-                		return;
-                	}
-                	else{
-                		document.getElementById('cd-day').innerHTML=dday;
-                		document.getElementById('cd-hr').innerHTML=dhour;
-                		document.getElementById('cd-min').innerHTML=dmin;
-                		document.getElementById('cd-sec').innerHTML=dsec;
-                		setTimeout("countdown(theyear,themonth,theday)",1000);
-                	}
-                }
-
-                countdown(2011,1,31);
-                </script>
-            </div>
+				<script type="text/javascript" src="/parts/counter.js"></script>
+				</div>
 			
 		</div>
 	</div>

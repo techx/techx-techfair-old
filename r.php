@@ -2,8 +2,14 @@
 if (isset($_POST['email'])):
     //$email = mysql_real_escape_string($_POST['email']);
     $email = $_POST['email'];
+    $full_email = $email;
     $email = strtolower($email);
-    if (preg_match('/^[^@]+@[a-zA-Z0-9._-]*mit\.edu$/',$email) && $email!='FAILURE') {
+    if(preg_match("/mit.edu/",$email))
+        $email = substr($email,0,strlen($email)-8);
+	exec("ldapsearch -h ldap.mit.edu -p 389 -u -b 'dc=mit,dc=edu' -x '(uid=".$email.")'", $output1);
+    $output1 = implode($output1);
+    if(preg_match("/givenName/",$output1))
+    {
         echo 'SUCCESS';
         $mysqli = new mysqli('mysql.mit.edu','techfair','02139techfair','techfair+dayof');
         if (mysqli_connect_errno()) { 
@@ -11,7 +17,7 @@ if (isset($_POST['email'])):
             exit(); 
         }
         $stmt = $mysqli->prepare("INSERT INTO registration (email) VALUES (?)");
-        $stmt->bind_param('s',$email);
+        $stmt->bind_param('s',$full_email);
         $stmt->execute();
         $stmt->close();
         $mysqli->close();
@@ -60,7 +66,7 @@ else:
                 padding: 0.2em;
                 border: 3px solid #000;
                 border-radius: 10px;
-                width: 800px;
+                width: 600px;
                 text-align: center;
             }
             .message {

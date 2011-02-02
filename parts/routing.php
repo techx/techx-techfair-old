@@ -33,10 +33,10 @@ else
 		header('Location: https://spreadsheets.google.com/viewform?formkey=dFRaLXB4dzdjNGxNUElDbkJLMU1EU1E6MQ');
 	} elseif ($sectionName=='getabooth') {
 		$redirect = true;
-		header('Location: /students/individual/');
-	} elseif ($sectionName=='mitstartup' || $sectionName=='mitstartups' || $sectionName=='startups') {
+		header('Location: /individual/');
+	} elseif ($sectionName=='mitstartup' || $sectionName=='startups') {
 		$redirect = true;
-		header('Location: /students/startups/');
+		header('Location: /mitstartups/');
 	} else {
 		$redirect = false;
 	}

@@ -6,6 +6,16 @@ $routes = array(
 		'content' => 'pages/home.php',
 		'name' => 'Home'
 	),
+	'b' => array(
+	   'title' => 'Banquet View',
+	   'content' => 'pages/banquetview.php',
+	   'show' => false
+	),
+	'rsvps' => array(
+	   'title' => 'Banquet RSVPs',
+	   'content' => 'pages/rsvps.php',
+	   'show' => false
+	),
 	'contact' => array(
 		'title' => 'Contact Us / '.$basetitle,
 		'content' => 'pages/contact.php',
@@ -75,11 +85,11 @@ $routes = array(
 		    'content' => 'pages/companies/exhibitorlist.php',
 		    'name' => 'List of Exhibitors'
 		),
-		//'packages' => array(
-		//	'title' => 'Sponsorship / '.$basetitle,
-		//	'content' => 'pages/companies/packages.php',
-		//	'name' => 'Sponsorship Packages & Registration'
-		//),
+		'packages' => array(
+			'title' => 'Sponsorship / '.$basetitle,
+			'content' => 'pages/companies/packages.php',
+			'name' => 'Sponsorship Packages'
+		),
 		//'register' => array(
 		//	'title' => 'Register / '.$basetitle,
 		//	'content' => 'pages/companies/register.php',
@@ -87,7 +97,7 @@ $routes = array(
 		//),
 		'portal' => array(
 			'external' => 'http://www.mittechfair.org/portal/index.php',
-			'name' => 'Company Portal'
+			'name' => 'Portal'
 		),
 	),
 	'students' => array(
@@ -105,25 +115,10 @@ $routes = array(
 		    'content' => 'pages/students/checklist.php',
 		    'name' => 'Checklist'
 		),
-		/*
-		'individual' => array(
-			'title' => 'Individual Students / '.$basetitle,
-			'content' => 'pages/students/individuals.php',
-			'name' => 'Individual Exhibitors',
-			'process' => 'pages/students/individuals_process.php'
-		),
-		'startups' => array(
-			'title' => 'Student Startups / '.$basetitle,
-			'content' => 'pages/students/startups.php',
-			'name' => 'Student Startups',
-			'process' => 'pages/students/startups_process.php'
-		),
-		*/
 		'resume-drop' => array(
 			'external' => '/drop/',
 			'name' => 'R&#233;sum&#233; Drop'
 		),
-		
 	),
 	'about' => array(
 		'name' => 'About Us',
@@ -149,6 +144,18 @@ $routes = array(
 	'wiki' => array(
 		'name' => '<span>Wiki</span>',
 		'external' => 'http://techfair.mit.edu/wiki/',
+		'show' => false
+	),
+	'individual' => array(
+		'title' => 'Individual Students / '.$basetitle,
+		'content' => 'pages/students/individuals.php',
+		'process' => 'pages/students/individuals_process.php',
+		'show' => false
+	),
+	'mitstartups' => array(
+		'title' => 'Student Startups / '.$basetitle,
+		'content' => 'pages/students/startups.php',
+		'process' => 'pages/students/startups_process.php',
 		'show' => false
 	),
 );

@@ -307,6 +307,10 @@ div.error {
 	border-left: 10px solid #F29523;
 	padding-left: 10px;
 }
+#content h4 {
+    font-size: 14px;
+    font-weight: 600;
+}
 #content p {
 	padding: 5px 0;
 	font-size: 14px;
@@ -555,4 +559,36 @@ h2.schedule{
 #schedule-before, #schedule-during, #schedule-after {
     padding-left: 10px;
     width: 500px;
+}
+
+#techtalks {
+    margin-top: 10px;
+}
+#techtalks td, #techtalks th {
+    padding: 5px;
+}
+#techtalks th {
+    background-color: #8BB1F1;
+    color: #FFF;
+}
+#techtalks td {
+    color: #333;
+}
+#techtalks .time {
+    color: #888;
+}
+#techtalks .speaker {
+    color: #000;
+    font-weight: 600;
+}
+#techtalks .raffle td {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.rsvp {
+    margin-bottom: 10px;
+}
+.rsvp div {
+    color: #666;
 }
