@@ -157,6 +157,7 @@
 			<p><a href="/companies/exhibitorlist/">2011 exhibitors</a></p>
 			<p><a href="/students/checklist/">TechFair checklist</a></p>
 			<p><a href="/drop/">r&#233;sum&#233; drop</a></p>
+			<div style="font-size:18px;text-align:center;"><a href="/events/venue/#raffle" style="text-decoration:underline">The raffle winners have been announced!</a></div>
 			<!--
 			<script src="http://widgets.twimg.com/j/2/widget.js"></script>
 			<script>
