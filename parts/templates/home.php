@@ -30,7 +30,7 @@
     					<a href="/"><span>MIT TechFair</span></a>
     					<div><h2>"Reg Day" Monday, January 31, 2011</h2><h2>10:00am - 3:30pm at Rockwell Cage</h2></div>
     				</h1>
-			
+		<?/*	
         			<div id="countdown">
                     <div id="countdown-day" class="cd"><span id="cd-day">Lo</span><span class="cd-sub">days</span></div>
                     <div id="countdown-hr" class="cd"><span id="cd-hr">ad</span><span class="cd-sub">hours</span></div>
@@ -40,7 +40,7 @@
                     </div>
 
 					<script type="text/javascript" src="/parts/counter.js"></script>
-                
+                */?>
     			</div>
     		</div>
 		</div>
