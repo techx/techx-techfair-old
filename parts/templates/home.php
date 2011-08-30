@@ -28,7 +28,9 @@
 			    <div id="header-inner">
     				<h1>
     					<a href="/"><span>MIT TechFair</span></a>
-    					<div><h2>"Reg Day" Monday, January 31, 2011</h2><h2>10:00am - 3:30pm at Rockwell Cage</h2></div>
+						<div>
+							<h2>Time and Date</h2><h2>To be announced!</h2>
+						</div>
     				</h1>
 		<?/*	
         			<div id="countdown">

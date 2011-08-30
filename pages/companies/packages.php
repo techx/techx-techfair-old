@@ -1,14 +1,12 @@
 <h1>Sponsorship Packages</h1>
 <p>TechFair offers three standard sponsorship packages, designated below. Aside from the amenities described, the higher sponsorships help companies maintain a larger physical and advertised presence as part of our TechFair campaign before and during the fair.</p>
-<p>The deadline for registration is <b>January 7, 2011</b>.</p>
+<p>The deadline for registration is <b>January 7, 2012</b>.</p>
 <h2>Packages</h2>
-<p><strong>Our sponsorship packages are all oversubscribed and are no longer available for TechFair 2011. Of course, we'd love to have your company at TechFair 2012, so feel free to send us an email!</strong></p>
 <?php
 function focus($p) {
-    /*if ($p=='g' && (isset($_GET['s']) || isset($_GET['b'])) && !isset($_GET['g'])) echo ' class="unfocus"';
+    if ($p=='g' && (isset($_GET['s']) || isset($_GET['b'])) && !isset($_GET['g'])) echo ' class="unfocus"';
     if ($p=='s' && (isset($_GET['g']) || isset($_GET['b'])) && !isset($_GET['s'])) echo ' class="unfocus"';
-    if ($p=='b' && (isset($_GET['g']) || isset($_GET['s'])) && !isset($_GET['b'])) echo ' class="unfocus"';*/
-    echo ' class="unfocus"';
+    if ($p=='b' && (isset($_GET['g']) || isset($_GET['s'])) && !isset($_GET['b'])) echo ' class="unfocus"';
 }
 ?>
 <table id="sponsorship"> 
@@ -40,13 +38,6 @@ function focus($p) {
 	</tr> 
  
 	<tr> 
-		<th>TechTalk Options</th> 
-		<td<?php focus('g') ?>>Spotlight</td> 
-		<td<?php focus('s') ?>>Standard</td> 
-		<td<?php focus('b') ?>></td> 
-	</tr> 
- 
-	<tr> 
 		<th>Storage &amp; Shipping</th> 
 		<td<?php focus('g') ?>>Complimentary</td> 
 		<td<?php focus('s') ?>>Optional extra</td> 
@@ -71,7 +62,7 @@ function focus($p) {
 		<th>Banquet</th> 
 		<td<?php focus('g') ?>>1 table</td> 
 		<td<?php focus('s') ?>>1 table</td> 
-		<td<?php focus('b') ?>>shared banquet table</td> 
+		<td<?php focus('b') ?>></td> 
 	</tr> 
  	
     <tr> 

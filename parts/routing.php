@@ -22,7 +22,10 @@ else
 	/*
 	 * SHORTCUTS
 	 */	
-	if ($sectionName=='resume') {
+	if ($sectionName=='exhibitors') {
+		$redirect = true;
+		header('Location: /companies/exhibitorlist/');
+	} elseif ($sectionName=='resume') {
 		$redirect = true;
 		header('Location: /drop/');
 	} elseif ($sectionName=='hack') {
@@ -31,6 +34,9 @@ else
 	} elseif ($sectionName=='signmeup') {
 		$redirect = true;
 		header('Location: https://spreadsheets.google.com/viewform?formkey=dFRaLXB4dzdjNGxNUElDbkJLMU1EU1E6MQ');
+	} elseif ($sectionName=='workflowy') {
+		$redirect = true;
+		header('Location: http://workflowy.com/shared/761e8590-0ab1-3df1-fde1-d439aa975fa6/');
 	} elseif ($sectionName=='getabooth') {
 		$redirect = true;
 		header('Location: /individual/');
