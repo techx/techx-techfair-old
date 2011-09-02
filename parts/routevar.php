@@ -160,9 +160,9 @@ $routes = array(
 	),
 	'midway' => array(
 		'title' => 'Midway / '.$basetitle,
-		'content' => 'pages/midway.php',
+		'content' => 'pages/students/midway.php',
 		'name' => 'Midway',
-		'process' => 'pages/midway_process.php',
+		'process' => 'pages/students/midway_process.php',
 		'show' => false
 	),
 	'join' => array(
