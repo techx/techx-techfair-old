@@ -22,6 +22,11 @@ function make_head($title)
 	</script>
 	<script type="text/javascript" src="/js/script.js"></script>
 
+
+  <!-- tipsy tooltips -->
+  <link rel="stylesheet" href="/css/tipsy.css" type="text/css" />
+  <script type="text/javascript" src="javascripts/jquery.tipsy.js"></script>
+  
 <?php
 }
 ?>
