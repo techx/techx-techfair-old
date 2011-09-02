@@ -118,9 +118,9 @@
 		</div>
 		<div id="students" class="box">
 			<h3>for students</h3>
-			<div style="font-size:25px;text-align:center;">
+			<div style="font-size:20px;text-align:center;">
 			  <p>
-			  <a href="#">Student project grants info coming soon</a>
+			  Student project grants info coming soon
 			  <p>
 			  <b>Planning board 2012 application opens 9/3</b>
 			  <br>
