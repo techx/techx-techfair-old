@@ -1,4 +1,4 @@
-<script type="text/javascript"> 
+<!--<script type="text/javascript"> 
 var revert = new Array();
 var inames = new Array('Emily', 'Jeff', 'Kuan', 'Susie', 'Cyril', 'Nick');
  
@@ -20,9 +20,28 @@ function over(num) {
 function out(num) {
   if(document.images) document.images[inames[num]].src = revert[num];
 }
-</script>
+</script>-->
 <h1>The TechFair Executive Team</h1>
-<p><strong>6 people, 1 awesome team.</strong> (1 team email: <a href="mailto:techfair-exec@mit.edu">techfair-exec@mit.edu</a>)</p>
+<p><strong>9 people, 1 awesome team.</strong> (1 team email: <a href="mailto:techfair-exec@mit.edu">techfair-exec@mit.edu</a>)</p>
+
+<table>
+  <tr>
+    <td><img src="/img/exec/david.jpg" name="David" class="teamImage"/>
+    <td><img src="/img/exec/jennifer.jpg" name="Jennifer" class="teamImage"/>
+    <td><img src="/img/exec/goot.jpg" name="Goot" class="teamImage"/>
+  </tr>
+  <tr>
+    <td><img src="/img/exec/carolyn.jpg" name="Carolyn" class="teamImage"/>
+    <td><img src="/img/exec/susie.jpg" name="Susie" class="teamImage"/>
+    <td><img src="/img/exec/ravi.jpg" name="Ravi" class="teamImage"/>
+  </tr>
+  <tr>
+    <td><img src="/img/exec/josh.jpg" name="Josh" class="teamImage"/>
+    <td><img src="/img/exec/ranna.jpg" name="Ranna" class="teamImage"/>
+    <td><img src="/img/exec/sherry.jpg" name="Sherry" class="teamImage"/>
+  </tr>
+
+<!--OLD EXEC
 
 <h2>Emily Zhao</h2>
 <img src="/img/exec/Emily0.jpg" name="Emily" onMouseOver="over(0)" onMouseOut="out(0)" class="teamImage"/>
@@ -77,3 +96,4 @@ function out(num) {
 	<span>Nick is the head honcho of the THINK operation, which is kind of like babysitting, if your kids are all geniuses. When not taking far more classes than humanly possible, Nick regularly upholds the astonishing feat of owning a fixed-gear bicycle without being smug about it.</span>
 </div>
 <div class="clear"></div>
+-->

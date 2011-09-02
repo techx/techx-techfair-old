@@ -43,8 +43,7 @@
 				Thank you for a successful Techfair 2011. We are currently planning for <b><i>Techfair 2012</b></i>, please check back later in the fall for updated event information!
 				<p>
 				  In the mean time, feel free to <a href="mailto:techfair-exec@mit.edu">contact us</a> with any questions.
-				<p>
-				  Are you a student? Join us in planning the most awesome techcentric event MIT has ever seen. <a href="/join">Apply here</a>
+				
 
 <!--	begin schedule 
 			<table>
@@ -114,16 +113,16 @@
 			<ul>
 				<li id="map"><a href="/events/venue/" class="box">Techfair 2011</a></li>
 				<li id="team"><a href="http://dl.dropbox.com/u/13568755/Booklet2011-Jan25-med-res.pdf" class="box">2011 booklet</a></li>
-				<li id="history"><a href="/drop/" class="box">about us</a></li>
+				<li id="history"><a href="/about" class="box">about us</a></li>
 			</ul>
 		</div>
 		<div id="students" class="box">
 			<h3>for students</h3>
 			<div style="font-size:25px;text-align:center;">
 			  <p>
-			  <a href="/companies/exhibitorlist/#student-startups">Student project grants</a>
+			  <a href="#">Student project grants info coming soon</a>
 			  <p>
-			  <a href="/join" style="text-decoration:none"><b>Planning board 2012 application</b></a>
+			  <b>Planning board 2012 application opens 9/3</b>
 			  <br>
 			  <span style="font-size:12px;">Requires MIT certificates.</div>
 			<!--

@@ -31,7 +31,7 @@ if(
 {
 	$errors['year'] = 'Please choose a valid graduation year.';
 }
-if(!isset($_POST['major1']) || $_POST['major1']=='' || $_POST['major1']=='0' || !isset($_POST['major2']) || $_POST['major2']=='')
+if(!isset($_POST['course1']) || $_POST['course1']=='' || $_POST['course1']=='0' || !isset($_POST['course2']) || $_POST['course2']=='')
 {
 	$errors['major'] = 'Please indicate your major(s).';
 }
@@ -74,7 +74,7 @@ if(count($errors) == 0)
 	(isset($_POST['fulltime'])) ? $fulltime = 1 : $fulltime = 0;
 	(isset($_POST['internship'])) ? $internship = 1 : $internship = 0;
 	
-	$query = sprintf("SELECT resume from resumedrop11 WHERE email='%s'",mysql_real_escape_string($_POST['email']));
+	$query = sprintf("SELECT resume from applications12 WHERE email='%s'",mysql_real_escape_string($_POST['email']));
 	$result = mysql_query($query);
 	
 	$dir = '/mit/techfair/web_scripts/resumes/';
@@ -83,23 +83,28 @@ if(count($errors) == 0)
 	    $row = mysql_fetch_assoc($result);
     	$resume = $row['resume'];
 	
-	    $query = sprintf("DELETE from resumedrop11 WHERE email='%s'",mysql_real_escape_string($_POST['email']));
+	    $query = sprintf("DELETE from applications12 WHERE email='%s'",mysql_real_escape_string($_POST['email']));
 	    mysql_query($query);
 	    
 	    $newname = $dir.'old/'.basename($resume);
 	    rename($resume,$newname);
 	}
 	
-	$query = sprintf("INSERT into resumedrop11 (firstname,lastname,email,year,major1,major2,phone,fulltime,internship) VALUES ('%s','%s','%s','%s','%s','%s','%d','%d','%d')",
+	$query = sprintf("INSERT into applications12 (firstname,lastname,year,email,phone,course1,course2,dorm,committee1, committee2, question1, question2, question3, extra, attachment) VALUES ('%s','%s','%s','%s','%s','%s','%d','%d','%d')",
 				mysql_real_escape_string($_POST['firstname']),
 				mysql_real_escape_string($_POST['lastname']),
-				mysql_real_escape_string($_POST['email']),
 				mysql_real_escape_string($_POST['year']),
-				mysql_real_escape_string($_POST['major1']),
-				mysql_real_escape_string($_POST['major2']),
+				mysql_real_escape_string($_POST['email']),
 				mysql_real_escape_string($_POST['phone1'].$_POST['phone2'].$_POST['phone3']),
-				$fulltime,
-				$internship
+				mysql_real_escape_string($_POST['course1']),
+				mysql_real_escape_string($_POST['course2']),
+				mysql_real_escape_string($_POST['dorm']),
+				mysql_real_escape_string($_POST['committee1']),
+				mysql_real_escape_string($_POST['committee2']),
+				mysql_real_escape_string($_POST['question1']),
+				mysql_real_escape_string($_POST['question2']),
+				mysql_real_escape_string($_POST['question3']),
+				mysql_real_escape_string($_POST['extra'])
 				);
 	$insert = mysql_query($query);
 	
@@ -113,7 +118,7 @@ if(count($errors) == 0)
 		$filepath = $dir.$filename;
 		if (move_uploaded_file($_FILES['resume']['tmp_name'],$filepath))
 		{
-			$query = sprintf("UPDATE resumedrop11 SET resume='%s' WHERE id=%d",
+			$query = sprintf("UPDATE applications12 SET resume='%s' WHERE id=%d",
 						mysql_real_escape_string($filepath),
 						$id);
 			$update = mysql_query($query);

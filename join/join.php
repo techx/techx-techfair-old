@@ -2,7 +2,7 @@
 <div class="success">Your application has been successfully submitted. We will be contacting you soon to schedule an interview!</div>
 <?php endif;?>
 <h1>Planning board 2012 application</h1>
-<p>We are constantly looking for new ideas. We are looking for passionate, creative individuals.  Join us, and be a part of a very unique event on campus.</p>
+<p>TechFair is an ambitious organization always looking for visionary new ideas and passionate, creative individuals. Join us and learn professional skills while meeting other students passionate about tech. Be a part of a very unique event on campus.</p>
 <h2>Committee descriptions</h2>
 <p>Techfair has a 9 person exec team overseeing 8 committees. No matter where your strengths lie, we can find a place for you. 
   
@@ -70,7 +70,7 @@ if(!function_exists('pickSelect'))
 }
 
 $email = $_SERVER['SSL_CLIENT_S_DN_Email']; // email
-echo '<h3>Welcome, <strong>',$_SERVER['SSL_CLIENT_S_DN_CN'],'</strong>.</h3>'; // name
+echo '<h3>Hi, <strong>',$_SERVER['SSL_CLIENT_S_DN_CN'],'</strong>!.</h3>'; // name
 
 $mysql = mysql_connect('mysql.mit.edu', 'techfair', '02139techfair') or die(mysql_error());
 mysql_select_db('techfair+resume');
@@ -135,7 +135,7 @@ if($exists>0):
 				<?php endwhile;?>
 				</select><br />
 				<select name="course2" id="course2">
-					<option value="0">Second course (optional)</option>
+					<option value="0">Second course</option>
 				<?php
 				$query = "SELECT course from courses WHERE id!=41 ORDER BY id asc";
 				$result = mysql_query($query);
@@ -179,16 +179,18 @@ if($exists>0):
 		<tr>
 		  <th><label>Open-ended questions</label></th>
 		  <td>
+		        <p>
 		    		Why those committees?
-		    		<input type="textarea" name="question1" value="<?php echo $question1?>" />
-      		
-      			  
+		    		<textarea rows="4" cols="30" value="<?php echo $question1?>" />
+      	    </p>	
+      	    <p>		  
 		    		What other commitments/interest do you expect to have during the semester? (greek life, sports, etc)
-		    		<input type="textarea" name="question2" value="<?php echo $question2?>" />
-		    		
+		    		<textarea rows="4" cols="30" value="<?php echo $question2?>" />
+          	</p>	
+          	<p>		    		
 		    		What's something you're passionate about? It could be a club or a cause or even reddit.
-		    		<input type="textarea" name="question3" value="<?php echo $question3?>" />
-		    
+		    		<textarea rows="4" cols="30" value="<?php echo $question3?>" />
+		        </p>
 		  </td>
 		</tr>
 	
@@ -199,7 +201,7 @@ if($exists>0):
 	  <tr>
 	    <th>Extra information
 	    </th>
-	    <td><?php echo $extra?><input type="hidden" name="extra" value="<?php echo $extra?>" /></td>
+	    <td><?php echo $extra?><input type="text" name="extra" value="<?php echo $extra?>" /></td>
 			<td class="error"><?php echoError('extra')?></td>
 	  </tr>
 		<tr>
