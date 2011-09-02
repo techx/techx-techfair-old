@@ -1,9 +1,52 @@
 <?php if($_GET['msg']=='success'):?>
-<div class="success">Your r&#233;sum&#233; has been successfully dropped. We look forward to seeing you at MIT TechFair 2011!</div>
+<div class="success">Your application has been successfully submitted. We will be contacting you soon to schedule an interview!</div>
 <?php endif;?>
-<h1>R&#233;sum&#233; Drop</h1>
-<p>The r&#233;sum&#233; drop is provided as a service to <strong>MIT students</strong> interested in companies coming to TechFair. These r&#233;sum&#233;s will be compiled into a book for each company to peruse.</p>
-<h2>Student Information and R&#233;sum&#233;</h2>
+<h1>Planning board 2012 application</h1>
+<p>We are constantly looking for new ideas. We are looking for passionate, creative individuals.  Join us, and be a part of a very unique event on campus.</p>
+<h2>Committee descriptions</h2>
+<p>Techfair has a 9 person exec team overseeing 8 committees. No matter where your strengths lie, we can find a place for you. 
+  
+  <p>
+  <b>Corporate Relations</b>
+  <br>
+  Corporate Relations chooses, contacts, and courts the bleeding-edge technology companies for Techfair, with the responsibility for inviting everything from start-ups to multi-national corporations. Members learn how to contact and interface with recruiters and professionals alike.
+  </p>
+  <p>
+  <b>
+  Marketing</b>
+  <br>
+  The Marketing committee shapes Techfair's image in the MIT community with a variety of creative publicity campaigns, ranging from traditional to the unconventional. As one of the top marketing groups on campus, members will learn not only learn how to advertise effectively on campus, but also acquire important skills applicable to real world marketing. Techfair's marketing committee is often a springboard for successful publicity chairs in many other student groups.
+    </p>
+  <p>
+  <b>Student Relations</b>
+  <br>
+  The Student Relations team recruits MIT startups, labs, and student projects to become exhibitors at Techfair. Members learn their way around the entrepreneurial community at MIT; whether it's the next big webapp, a customize-designed 3d printer, or a motorized shopping cart, it's the job of Student Relations to bring these projects to Techfair.
+    </p>
+  <p>
+  <b>Logistics</b>
+  <br>
+  The Logistics team is responsible for ironing out all the details involved in planning such a large event. Members of the logistics team learn how to plan and manage large events, in particular how to deal with numerous MIT offices and outside vendors that are involved in planning any event. The skills and knowledge accrued by the logistics team are indispensable to any MIT student group.
+    </p>
+  <p>
+  <b>TechTalks</b>
+  <br>
+  The TechTalks committee is a new committee this year, and will be contacting and recruiting prominent speakers from various technology industries. Members will get an unparalleled opportunity to contribute their vision to this new planning committee.
+    </p>
+  <p>
+  <b>Internal Relations</b>
+  <br>
+  The Internal Relations team is responsible for planning many of Techfair's internal events. Members will have an opportunity to interact with members of all of the committees, and gain experience in planning large events and retreats.
+    </p>
+  <p>
+  <b>Finance</b>
+  <br>
+  The Finance team is responsible for managing Techfair's budget, and facilitating the reimbursement process. Members obtain an intimate familiarity with the Student Activities Office (SAO) and MIT policies: connections and knowledge that are vital to all MIT student groups.
+    </p>
+  <p>
+  <b>IT</b>
+  <br>
+  The IT committee will be responsible for maintaining and redesigning Techfair's website. On this small committee, members will have capacious responsibility and the opportunity to add to their portfolio.
+    </p>
 <?php
 if(!function_exists('echoError'))
 {
@@ -31,12 +74,12 @@ echo '<h3>Welcome, <strong>',$_SERVER['SSL_CLIENT_S_DN_CN'],'</strong>.</h3>'; /
 
 $mysql = mysql_connect('mysql.mit.edu', 'techfair', '02139techfair') or die(mysql_error());
 mysql_select_db('techfair+resume');
-$query = sprintf("SELECT resume FROM resumedrop11 WHERE email='%s'",$email);
+$query = sprintf("SELECT attachment FROM applications12 WHERE email='%s'",$email);
 $result = mysql_query($query);
 $exists = mysql_num_rows($result);
 if($exists>0):
 ?>
-<p>You have already submitted a r&#233;sum&#233;. If you'd like to update your resume, resubmit it below.</p>
+<p>You have already submitted an application;. If you'd like to update it, resubmit it below.</p>
 <?php endif;?>
 <form action="" method="post" enctype="multipart/form-data">
 	<input type="hidden" name="action" value="resume" />
@@ -70,58 +113,105 @@ if($exists>0):
 			<td>
 				<select name="year" id="year">
 					<option value="G" <?php pickSelect('year','G')?>>Grad</option>
-					<option value="2011" <?php pickSelect('year','2011')?><?php if(!isset($_POST['year'])) echo 'selected'?>>2011</option>
-					<option value="2012" <?php pickSelect('year','2012')?>>2012</option>
-					<option value="2013" <?php pickSelect('year','2013')?>>2013</option>
-					<option value="2014" <?php pickSelect('year','2014')?>>2014</option>
+					<option value="2012" <?php pickSelect('year','2011')?><?php if(!isset($_POST['year'])) echo 'selected'?>>2011</option>
+					<option value="2013" <?php pickSelect('year','2012')?>>2012</option>
+					<option value="2014" <?php pickSelect('year','2013')?>>2013</option>
+					<option value="2015" <?php pickSelect('year','2014')?>>2014</option>
 				</select>
 			</td>
 			<td class="error"><?php echoError('year')?></td>
 		</tr>
 		<tr>
-			<th><label for="major1">Major(s)</label></th>
+			<th><label for="course1">Course(s)</label></th>
 			<td>
-				<select name="major1" id="major1">
-					<option value="0">Pick a major</option>
+				<select name="course1" id="course1">
+					<option value="0">Pick a course</option>
 				<?php
 				$query = "SELECT course from courses ORDER BY id asc";
 				$result = mysql_query($query);
 				while($row = mysql_fetch_row($result)):
 				?>
-					<option value="<?php echo $row[0]?>" <?php pickSelect('major1',$row[0])?>><?php echo $row[0]?></option>
+					<option value="<?php echo $row[0]?>" <?php pickSelect('course1',$row[0])?>><?php echo $row[0]?></option>
 				<?php endwhile;?>
 				</select><br />
-				<select name="major2" id="major2">
-					<option value="0">Second major</option>
+				<select name="course2" id="course2">
+					<option value="0">Second course (optional)</option>
 				<?php
 				$query = "SELECT course from courses WHERE id!=41 ORDER BY id asc";
 				$result = mysql_query($query);
 				while($row = mysql_fetch_row($result)):
 				?>
-					<option value="<?php echo $row[0]?>" <?php pickSelect('major2',$row[0])?>><?php echo $row[0]?></option>
+					<option value="<?php echo $row[0]?>" <?php pickSelect('course2',$row[0])?>><?php echo $row[0]?></option>
 				<?php endwhile;?>
 				</select> (optional)
 			</td>
 			<td class="error"><?php echoError('major')?></td>
 		</tr>
 		<tr>
-			<th><label>Interested In</label></th>
+			<th><label>Committee interest</label></th>
 			<td>
-				<ul class="radio">
-					<li><input type="checkbox" name="fulltime" id="fulltime" value="1"/><span>Full-time</span></li>
-					<li><input type="checkbox" name="internship" id="internship" value="1"/><span>Internship</span></li>
-				</ul>
+			  Select up to 2 committees that you are interested in. Descriptions are at the top of the page.
+			  <br>
+        <select name="committee1">
+        <option>Corporate Relations</option>
+        <option>Marketing</option>
+        <option>Student Relations</option>
+        <option>Logistics</option>
+        <option>TechTalk</option>
+        <option>Internal Relations</option>
+        <option>Finance</option>
+        <option>Information Technology</option>
+        </select><br/>
+        
+        <select name="committee2">
+        <option>None</option>         
+        <option>Corporate Relations</option>
+        <option>Marketing</option>
+        <option>Student Relations</option>
+        <option>Logistics</option>
+        <option>TechTalk</option>
+        <option>Internal Relations</option>
+        <option>Finance</option>
+        <option>Information Technology</option>
+        </select><br/>
 			</td>
 		</tr>
 		<tr>
-			<th><label>Resume (pdf)</label></th>
-			<td><input type="file" name="resume" <?php echoValue('resume')?>/></td>
-			<td class="error"><?php echoError('resume')?></td>
+		  <th><label>Open-ended questions</label></th>
+		  <td>
+		    		Why those committees?
+		    		<input type="textarea" name="question1" value="<?php echo $question1?>" />
+      		
+      			  
+		    		What other commitments/interest do you expect to have during the semester? (greek life, sports, etc)
+		    		<input type="textarea" name="question2" value="<?php echo $question2?>" />
+		    		
+		    		What's something you're passionate about? It could be a club or a cause or even reddit.
+		    		<input type="textarea" name="question3" value="<?php echo $question3?>" />
+		    
+		  </td>
+		</tr>
+	
+	  <tr>
+	    <td colspan=2>If you have any extra materials you'd like us to see, tell us or upload here. Examples: resume, personal website, portfolio, blog, etc. Anything works, but it's just optional.
+      </td>
+	  </tr>
+	  <tr>
+	    <th>Extra information
+	    </th>
+	    <td><?php echo $extra?><input type="hidden" name="extra" value="<?php echo $extra?>" /></td>
+			<td class="error"><?php echoError('extra')?></td>
+	  </tr>
+		<tr>
+			<th><label>Optional Attachment</label></th>
+			<td>			  
+			  <input type="file" name="attachment" <?php echoValue('attachment')?>/></td>
+			<td class="error"><?php echoError('attachment')?></td>
 		</tr>
 		<tr>
 			<th></th>
-			<td><button type="submit" value="Drop">Drop</button></td>
+			<td><button type="submit" value="Apply">Apply!</button></td>
 		</tr>
 	</table>
 </form>
-<p><strong>If you are encountering any errors, please email the above information along with your r&#233;sum&#233; <a href="mailto:techfair-it@mit.edu">techfair-it@mit.edu</a>.</strong></p>
+<p><strong>If you are encountering any errors, please email <a href="mailto:techfair-it@mit.edu">techfair-it@mit.edu</a>.</strong></p>

@@ -29,7 +29,7 @@
     				<h1>
     					<a href="/"><span>MIT TechFair</span></a>
 						<div>
-							<h2>Time and Date</h2><h2>To be announced!</h2>
+							<h2>Techfair 2012 details coming soon</h2><h2>Event date: February 6th, 2012</h2>
 						</div>
     				</h1>
     			</div>
@@ -38,13 +38,21 @@
 		<div id="body">
 		<div id="c1">
 			<div id="event" class="box">
-				<h3>schedule of events</h3>
-				<table>
+				<h3>welcome</h3>
+        <p>
+				Thank you for a successful Techfair 2011. We are currently planning for <b><i>Techfair 2012</b></i>, please check back later in the fall for updated event information!
+				<p>
+				  In the mean time, feel free to <a href="mailto:techfair-exec@mit.edu">contact us</a> with any questions.
+				<p>
+				  Are you a student? Join us in planning the most awesome techcentric event MIT has ever seen. <a href="/join">Apply here</a>
+
+<!--	begin schedule 
+			<table>
 				    <tr>
 				        <th><a href="/events/hackathon/">Hack-a-thon</a></th>
 				        <td>1/30 10pm - 1/31 8am<br /><span>32-082 (Stata TEAL room)</td>
 				    </tr>
-				    <tr class="mainFair">
+				    <tr>
 				        <th><a href="/events/venue/">TechFair</a></th>
 				        <td>1/31 10am - 3:30pm<br />Rockwell Cage</td>
 				    </tr>
@@ -62,6 +70,9 @@
 				    </tr>
 				</table>
 				<p>Events require a non-expired MIT ID. <a href="/events/">more info &raquo;</a></p>
+				-->
+				
+				
 			</div>
     		<div id="think" class="box">
     			<h3>THINK</h3>
@@ -94,25 +105,27 @@
 			</div>
 			<div id="exhibitors" class="box">
         		<h3>for companies</h3>
-        		<p><a href="/companies/exhibitorlist/">2011 exhibitors</a></p>
-        		<p><a href="/events/talks/">TechTalks</a></p>
-        		<p><a href="http://mittechfair.org/portal/">company sign in</a></p>
+        		<br>
+        		<p><a href="/companies/packages/">2012 sponsorship packages</a></p>
 			</div>
 		</div>
 	<div id="c3">
 		<div id="menu">
 			<ul>
-				<li id="map"><a href="/events/venue/" class="box">the fair</a></li>
-				<li id="team"><a href="http://dl.dropbox.com/u/13568755/Booklet2011-Jan25-med-res.pdf" class="box">booklet</a></li>
-				<li id="history"><a href="/drop/" class="box">r&#233;sum&#233; drop</a></li>
+				<li id="map"><a href="/events/venue/" class="box">Techfair 2011</a></li>
+				<li id="team"><a href="http://dl.dropbox.com/u/13568755/Booklet2011-Jan25-med-res.pdf" class="box">2011 booklet</a></li>
+				<li id="history"><a href="/drop/" class="box">about us</a></li>
 			</ul>
 		</div>
 		<div id="students" class="box">
 			<h3>for students</h3>
-			<p><a href="/companies/exhibitorlist/#student-startups">2011 exhibitors</a></p>
-			<p><a href="/students/checklist/">TechFair checklist</a></p>
-			<p><a href="/drop/">r&#233;sum&#233; drop</a></p>
-			<div style="font-size:18px;text-align:center;"><a href="/events/venue/#raffle" style="text-decoration:underline">The raffle winners have been announced!</a></div>
+			<div style="font-size:25px;text-align:center;">
+			  <p>
+			  <a href="/companies/exhibitorlist/#student-startups">Student project grants</a>
+			  <p>
+			  <a href="/join" style="text-decoration:none"><b>Planning board 2012 application</b></a>
+			  <br>
+			  <span style="font-size:12px;">Requires MIT certificates.</div>
 			<!--
 			<script src="http://widgets.twimg.com/j/2/widget.js"></script>
 			<script>

@@ -8,7 +8,7 @@ function make_header($sectionName,$subSectionName,$routes)
                 <h1>
                     <a href="/"><span>MIT TechFair</span></a>
                     <div>
-                        <h2>Time and date</h2><h2>To be announced!</h2><!--"Reg Day" Monday, January 31, 2011</h2><h2>10:00am - 3:30pm at Rockwell Cage</h2>-->
+                        <h2>Techfair 2012 details coming soon</h2><h2>Event date: February 6th, 2012</h2><!--"Reg Day" Monday, January 31, 2011</h2><h2>10:00am - 3:30pm at Rockwell Cage</h2>-->
                     </div>
                 </h1>
             

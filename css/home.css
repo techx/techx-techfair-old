@@ -199,8 +199,8 @@ h3{
 #history a:hover {background:#f60;text-decoration:none!important;}
 
 #event{ background:#383838; color:#fff; height:313px; margin-bottom:15px;line-height:16px;}
-#event a {
-    font-size: 1.4em;
+#event {
+   font-size: 14px;
 }
 #event table {
     border-collapse: collapse;
