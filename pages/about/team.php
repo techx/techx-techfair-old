@@ -22,25 +22,28 @@ function out(num) {
 }
 </script>-->
 
-
+<script type="text/javascript">
+    $('#tooltip').tipsy();
+ </script>
+ 
 <h1>The TechFair Executive Team</h1>
 <p><strong>9 people, 1 awesome team.</strong> (1 team email: <a href="mailto:techfair-exec@mit.edu">techfair-exec@mit.edu</a>)</p>
 
-<table cellpadding=0 cellmargin=15>
+<table padding=0 margin=15>
   <tr>
-    <td><a id="tooltip" href="#" title="David Luciano: Logistics Director, karate master"><img src="/img/exec/david.jpg" name="David" class="teamImage"/></a>
-    <td><img src="/img/exec/jennifer.jpg" name="Jennifer" class="teamImage"/>
-    <td><img src="/img/exec/goot.jpg" name="Goot" class="teamImage"/>
+    <td><a id="tooltip" href="#" title="David Luciano: Logistics Director, karate master"><img src="/img/exec/david.jpg" name="David"/></a>
+    <td><a id="tooltip" href="#" title="Jennifer Wang: Student Relations Director, nutella fanatic"><img src="/img/exec/jennifer.jpg" name="Jennifer" class="teamImage"/></a>
+    <td><a id="tooltip" href="#" title="Jonathan Gootenberg: Corporate Relations Co-Director, unit overtaker"><img src="/img/exec/goot.jpg" name="Goot" class="teamImage"/></a>
   </tr>
   <tr>
-    <td><img src="/img/exec/carolyn.jpg" name="Carolyn" class="teamImage"/>
-    <td><img src="/img/exec/susie.jpg" name="Susie" class="teamImage"/>
-    <td><img src="/img/exec/ravi.jpg" name="Ravi" class="teamImage"/>
+    <td><a id="tooltip" href="#" title="Carolyn Zhang: Marketing Director, fashionista"><img src="/img/exec/carolyn.jpg" name="Carolyn" class="teamImage"/></a>
+    <td><a id="tooltip" href="#" title="Susie Fu: Managing Director, mother hen"><img src="/img/exec/susie.jpg" name="Susie" class="teamImage"/></a>
+    <td><a id="tooltip" href="#" title="Ravi Charan: Associate Director, math genius"><img src="/img/exec/ravi.jpg" name="Ravi" class="teamImage"/></a>
   </tr>
   <tr>
-    <td><img src="/img/exec/josh.jpg" name="Josh" class="teamImage"/>
-    <td><img src="/img/exec/ranna.jpg" name="Ranna" class="teamImage"/>
-    <td><img src="/img/exec/sherry.jpg" name="Sherry" class="teamImage"/>
+    <td><a id="tooltip" href="#" title="Joshua Ma: Corporate Relations Co-Director, superstarhacker"><img src="/img/exec/josh.jpg" name="Josh" class="teamImage"/></a>
+    <td><a id="tooltip" href="#" title="Ranna Zhou: Internal Director, multitask extraordinare"><img src="/img/exec/ranna.jpg" name="Ranna" class="teamImage"/></a>
+    <td><a id="tooltip" href="#" title="Sherry Wu: Finance Director, original apple fangirl"><img src="/img/exec/sherry.jpg" name="Sherry" class="teamImage"/></a>
   </tr>
 </table>
 
