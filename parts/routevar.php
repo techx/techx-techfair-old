@@ -161,7 +161,6 @@ $routes = array(
 	'midway' => array(
 		'title' => 'Midway / '.$basetitle,
 		'content' => 'pages/students/midway.php',
-		'name' => 'Midway',
 		'process' => 'pages/students/midway_process.php',
 		'show' => false
 	),
