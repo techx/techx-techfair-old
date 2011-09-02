@@ -169,7 +169,7 @@ $routes = array(
 		'title' => 'Join us / '.$basetitle,
 		'content' => 'join/midway.php',
 		'name' => 'Join us',
-		'process' => 'pages/midway_process.php'
+		'process' => 'pages/midway_process.php',
 		'show' => false
 	),
 );
