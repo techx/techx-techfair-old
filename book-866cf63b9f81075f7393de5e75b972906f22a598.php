@@ -245,7 +245,7 @@ else:
     </script>
 </head>
 <body>
-    <h1>MIT TechFair 2011 Resume Book</h1>
+    <h1>MIT Techfair 2011 Resume Book</h1>
 <?php
 $mysqli = new mysqli('mysql.mit.edu','techfair','02139techfair','techfair+resume');
 if (mysqli_connect_errno()) { 

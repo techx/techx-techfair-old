@@ -19,7 +19,7 @@ function displayForm()
     <td>
     <table width="100%" border="0" cellpadding="3" cellspacing="1" bgcolor="#FFFFFF">
     <tr>
-    <td colspan="3"><strong>TechFair 2011 Resume Book Login</strong></td>
+    <td colspan="3"><strong>Techfair 2011 Resume Book Login</strong></td>
     </tr>
     <tr>
     <td colspan="3">Please enter the password below. You should have received this password in an email - please email <a href="mailto:techfair-it@mit.edu">techfair-it@mit.edu</a> if you need the password resent.</a></td>

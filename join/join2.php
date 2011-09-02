@@ -9,7 +9,7 @@ global $web_root, $doc_root;
 $text = <<<EOT
 <link href="$web_root/media/css/form.css" type="text/css" rel="stylesheet"/>
 <h2>MIT Techfair Application</h2>
-<h3>Apply to be a part of the TechFair team!</h3>
+<h3>Apply to be a part of the Techfair team!</h3>
 <p class="important">Required fields marked with an asterisk (*)</p>
 
 <form enctype="multipart/form-data" action="registerscript.php" method="post" name="Contact" onSubmit="return formCheck(this);">

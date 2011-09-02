@@ -26,7 +26,7 @@ function out(num) {
     $('#tooltip').tipsy();
  </script>
  
-<h1>The TechFair Executive Team</h1>
+<h1>The Techfair Executive Team</h1>
 <p><strong>9 people, 1 awesome team.</strong> (1 team email: <a href="mailto:techfair-exec@mit.edu">techfair-exec@mit.edu</a>)</p>
 
 <table padding=0 margin=15>

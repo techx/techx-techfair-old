@@ -27,7 +27,7 @@
 			<div id="header-content">
 			    <div id="header-inner">
     				<h1>
-    					<a href="/"><span>MIT TechFair</span></a>
+    					<a href="/"><span>MIT Techfair</span></a>
 						<div>
 							<h2>Techfair 2012 details coming soon</h2><h2>Event date: February 6th, 2012</h2>
 						</div>
@@ -52,7 +52,7 @@
 				        <td>1/30 10pm - 1/31 8am<br /><span>32-082 (Stata TEAL room)</td>
 				    </tr>
 				    <tr>
-				        <th><a href="/events/venue/">TechFair</a></th>
+				        <th><a href="/events/venue/">Techfair</a></th>
 				        <td>1/31 10am - 3:30pm<br />Rockwell Cage</td>
 				    </tr>
 				    <tr>
@@ -169,7 +169,7 @@
 				<ul>
 					<li><a href="/about/">about us</a></li>
 					<li><a href="/contact/">contact us</a></li>
-					<li id="copyright">copyright 2006-2011 MIT TechFair</li>
+					<li id="copyright">copyright 2006-2011 MIT Techfair</li>
 				</ul>
 			</div>
 			<div style="clear:both"></div>

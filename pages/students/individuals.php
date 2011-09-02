@@ -1,8 +1,8 @@
 <?php if($_GET['msg']=='success'):?>
-<div class="success">Your email has been saved. Thank you for your interest in MIT TechFair!</div>
+<div class="success">Your email has been saved. Thank you for your interest in MIT Techfair!</div>
 <?php endif;?>
 <h1>Individual Exhibitors</h1>
-<p>Have an amazing project you want to showcase to thousands of people? Are you planning to build something cool during IAP? Want an opportunity to demo your project to both students and companies? Apply for a free booth to display your tech at MIT TechFair on January 31st, 2011.</p>
+<p>Have an amazing project you want to showcase to thousands of people? Are you planning to build something cool during IAP? Want an opportunity to demo your project to both students and companies? Apply for a free booth to display your tech at MIT Techfair on January 31st, 2011.</p>
 <p>Preferred application deadline is <u>December 20 with rolling applications afterward</u>. Your project must be prepared and ready to present for interviews by the first week of January.</p>
 <?php
 /*
@@ -19,8 +19,8 @@
 */?>
 <?php
 if ($_POST["name"] != "" and $_POST["email"] != ""):
-	$to = 'TechFair Task Force <techfair-tf@mit.edu>, '.$_POST["email"];
-	$subject = "TechFair Individual Exhibitor Application";
+	$to = 'Techfair Task Force <techfair-tf@mit.edu>, '.$_POST["email"];
+	$subject = "Techfair Individual Exhibitor Application";
 	$message = 'Name: '.$_POST["name"].
 	'<br><br>Email: '.$_POST["email"].
 	'<br><br>Phone: '.$_POST["phone"].
@@ -107,6 +107,6 @@ else:
 	</table>
 </form>
 */?>
-<p>We are no longer accepting applications for TechFair 2011. Come back next year!</p>
+<p>We are no longer accepting applications for Techfair 2011. Come back next year!</p>
 </div>
 <?php endif;?>

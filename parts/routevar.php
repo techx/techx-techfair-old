@@ -1,5 +1,5 @@
 <?php
-$basetitle = 'MIT TechFair 2012';
+$basetitle = 'MIT Techfair 2012';
 $routes = array(
 	'home' => array(
 		'title' => $basetitle,

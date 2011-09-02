@@ -123,7 +123,7 @@ else:
     </head>
     <body>
         <div id="container">
-            <h1>Welcome to MIT TechFair!</h1>
+            <h1>Welcome to MIT Techfair!</h1>
             <form action="" method="post" id="form">
                 <label for="email"><span class="button">ENTER</span> to submit your MIT email</label>
                 <input type="text" id="email" name="email" placeholder="MIT Email"autocomplete="off"/>

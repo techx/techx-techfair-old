@@ -9,7 +9,7 @@ function make_footer()
 			<ul>
 				<li><a href="/about/">about us</a></li>
 				<li><a href="/contact/">contact us</a></li>
-				<li id="copyright">copyright 2006-2011 MIT TechFair</li>
+				<li id="copyright">copyright 2006-2011 MIT Techfair</li>
 			</ul>
 		</div>
 		<div style="clear:both"></div>

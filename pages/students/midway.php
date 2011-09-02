@@ -1,5 +1,5 @@
 <?php if($_GET['msg']=='success'):?>
-<div class="success">Your email has been saved. Thank you for your interest in MIT TechFair!<br><br>
+<div class="success">Your email has been saved. Thank you for your interest in MIT Techfair!<br><br>
   <button type="submit" onclick="location.href='/midway'">Refresh </button></div>
 <?php endif;?>
 

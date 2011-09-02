@@ -1,16 +1,16 @@
 <?php if($_GET['msg']=='success'):?>
-<div class="success">Your email has been saved. Thank you for your interest in MIT TechFair!</div>
+<div class="success">Your email has been saved. Thank you for your interest in MIT Techfair!</div>
 <?php endif;?>
 <h1>Student Startups</h1>
-<p>Show off your startup to other students and companies the annual MIT TechFair technology expo! We are looking for technology oriented startups initiated by MIT students. The fair is on January 31st, 2011.</p>
+<p>Show off your startup to other students and companies the annual MIT Techfair technology expo! We are looking for technology oriented startups initiated by MIT students. The fair is on January 31st, 2011.</p>
 <h2>Why apply?</h2>
 <ul>
-	<li>You'll get a booth at TechFair, at no cost!</li>
+	<li>You'll get a booth at Techfair, at no cost!</li>
 	<li>Promote your startup to thousands of fellow students</li>
 	<li>Make long lasting connections with companies</li>
 	<li>Get inspired by other startups</li>
 </ul>
-<p>Note that startups must be mainly composed of current MIT students. If you do not meet this criteria, we encourage you to learn more about coming to TechFair as <a href="/companies/">a company sponsor</a>.</p>
+<p>Note that startups must be mainly composed of current MIT students. If you do not meet this criteria, we encourage you to learn more about coming to Techfair as <a href="/companies/">a company sponsor</a>.</p>
 <p>Preferred application (see below) deadline is <u>December 20 with rolling applications afterward</u>. Your startup must be prepared for interviews by the first week of January.</p>
 <?php
 /*
@@ -27,8 +27,8 @@
 */?>
 <?php
 if ($_POST["name"] != "" and $_POST["email"] != ""):
-	$to = 'TechFair Task Force <techfair-tf@mit.edu>, '.$_POST["email"];
-	$subject = "TechFair Student Startup Application";
+	$to = 'Techfair Task Force <techfair-tf@mit.edu>, '.$_POST["email"];
+	$subject = "Techfair Student Startup Application";
 	$message = 'Name: '.$_POST["name"].
 	'<br><br>Email: '.$_POST["email"].
 	'<br><br>Phone: '.$_POST["phone"].
@@ -108,5 +108,5 @@ else:
 	</table>
 </form>
 */?>
-<p>We are no longer accepting applications for TechFair 2011. Come back next year!</p>
+<p>We are no longer accepting applications for Techfair 2011. Come back next year!</p>
 <?php endif;?>

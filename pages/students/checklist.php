@@ -1,4 +1,4 @@
-<h1>TechFair's Student Checklist</h2>
+<h1>Techfair's Student Checklist</h2>
 <div id="schedule-before">
 <div class="schedule">
 <h2 class="schedule">Before the Fair</h2>
@@ -34,7 +34,7 @@
               
               </div><div id="schedule-after">
                 <h2 class="schedule">After the Fair</h2>
-                <div class="schedule-title"><div class="schedule-check"></div>Party it up at the TechFair Afterparty</div>
+                <div class="schedule-title"><div class="schedule-check"></div>Party it up at the Techfair Afterparty</div>
                 <div class="schedule-blue">Monday 1/31 @ 9 PM - 11 PM<br />
                   @ Old Media Lab, Lower Atrium</div>
                 <div class="schedule-orange">Sponsored by Microsoft

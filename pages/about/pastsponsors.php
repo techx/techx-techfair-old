@@ -1,6 +1,6 @@
-<h1>Past Sponsors of TechFair<h1>
+<h1>Past Sponsors of Techfair<h1>
 	
-<h2>2010 MIT TechFair</h2>
+<h2>2010 MIT Techfair</h2>
 <p>2010 included the addition of some very big names in the technology industry, and the continuation of many of our loyal partners.</p>
 
 <h3>Platinum Sponsor</h3>
@@ -13,7 +13,7 @@ Systems, Inc.</p>
 <h3>Basic Sponsors</h3>
 <p>Draper Laboratory, Medtronic, Cooliris, LogMeIn Inc., Tagged Inc, Activision, Akamai, Dropbox, Google, US Army Natick, Ball Aerospace &amp; Technologies Corp., Recombinant Data Corp., Global Prior Art, Grassroots Giving Group, RealNetworks, DRW Trading Group, Knight Equity Markets, L.P., General Atomics., Northrop Grumman, Autotegrity, GE Aviation, Human Dynamics Research Group, MIT Lincoln Laboratory, PROTEUS Technologies</p>
 
-<h2>2009 MIT TechFair</h2>
+<h2>2009 MIT Techfair</h2>
 <p>2009 continued Techfair's success with a strong group of gold and silver sponsors.</p>
 <h3>Gold Sponsors</h3>
 <p>BAE Systems, Microsoft, The Mathworks, Thomson Reuters, Bloomberg</p>
@@ -23,8 +23,8 @@ Group, IGT, Cisco</p>
 <h3>Basic Sponsors</h3>
 <p>454 Life Sciences, Analog Devices, Aurora Flight Sciences, Shell, Cooliris, Glance Networks, Medtronic, Redi2 Technologies, US Army, Wacom, Real Software Systems, Tibco Software Inc., Northrop Grumman, Vertica Systems, Akamai Technologies, Elastra Corporation, IBM, KD Secure, ClickDiagnostics, Linden Lab, Philips North America, Trimble Navigation Limited, Baker Hughes, Scanscout, Onlatte, PadMapper, Sponty, DropBox, Sun Microsystems, Astaro, GE aviation, Robert Bosch llc., Soapstone Networks, Tap n' Tap</p>
 
-<h2>2007 MIT TechFair</h2>
-<p>The 2007 event saw TechFair continue its explosive growth as fifty-six companies, eight academic labs, and one student group exhibited for more than 2200 students.</p>
+<h2>2007 MIT Techfair</h2>
+<p>The 2007 event saw Techfair continue its explosive growth as fifty-six companies, eight academic labs, and one student group exhibited for more than 2200 students.</p>
 <h3>Platinum Sponsor</h3>
 <p>Oracle</p>
 <h3>Gold Sponsors</h3>
@@ -34,8 +34,8 @@ Group, IGT, Cisco</p>
 <h3>Basic Sponsors</h3>
 <p>Merck, ClearPoint Metrics, Hillcrest Labs, Medtronic, StreamBase, Integrated DNA Technologies, Amgen, Yahoo!, Analog Devices, 454 Life Sciences, Air Products Ltd., BioDefense, Boeing, Wilson TurboPower, Electro Standards Laboratories, GE Healthcare, IBM, Lucasfilm Ltd., Power Systems Mfg., Roland, Pulmatrix, Holosonics, Vanu</p>
 
-<h2>2006 MIT TechFair</h2>
-<p>Thirty-eight companies and more than 1400 students attended the second MIT TechFair.</p>
+<h2>2006 MIT Techfair</h2>
+<p>Thirty-eight companies and more than 1400 students attended the second MIT Techfair.</p>
 <h3>Platinum Sponsor</h3>
 <p>The Mathworks</p>
 

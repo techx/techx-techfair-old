@@ -55,7 +55,7 @@ if($_FILES['resume']['error']>0)
 	/*
 	if($_FILES['resume']['type']!='application/pdf' && $_FILES['resume']['type']!='application/download' && $_FILES['resume']['type']!='application/save-as')
 	{
-		$to = 'TechFair IT <techfair-it@mit.edu>';
+		$to = 'Techfair IT <techfair-it@mit.edu>';
 		$subject = "File Upload Error (".date("F j, Y, g:i a").")";
 		$message = "Error uploading, not valid pdf. Mime type of ".$_FILES['resume']['type']." detected. Uploaded by ".$_POST['firstname']." ".$_POST['lastname']." (".$_POST['email'].")";
 		$headers = 'From: no-reply@tf.mit.edu'."\r\nContent-type: text/html\r\n".'X-Mailer: PHP/' . phpversion();

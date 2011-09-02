@@ -2,7 +2,7 @@
 <div class="success">Your application has been successfully submitted. We will be contacting you soon to schedule an interview!</div>
 <?php endif;?>
 <h1>Planning board 2012 application</h1>
-<p>TechFair is an ambitious organization always looking for visionary new ideas and passionate, creative individuals. Join us and learn professional skills while meeting other students passionate about tech. Be a part of a very unique event on campus.</p>
+<p>Techfair is an ambitious organization always looking for visionary new ideas and passionate, creative individuals. Join us and learn professional skills while meeting other students passionate about tech. Be a part of a very unique event on campus.</p>
 <h2>Committee descriptions</h2>
 <p>Techfair has a 9 person exec team overseeing 8 committees. No matter where your strengths lie, we can find a place for you. 
   
