@@ -22,16 +22,13 @@ function out(num) {
 }
 </script>-->
 
-<script type="text/javascript"> 
-$('#david').tipsy();
-</script>
 
 <h1>The TechFair Executive Team</h1>
 <p><strong>9 people, 1 awesome team.</strong> (1 team email: <a href="mailto:techfair-exec@mit.edu">techfair-exec@mit.edu</a>)</p>
 
 <table cellpadding=0 cellmargin=15>
   <tr>
-    <td><a id="david" href="#" title="David Luciano: Logistics Director, karate master"><img src="/img/exec/david.jpg" name="David" class="teamImage"/></a>
+    <td><a id="tooltip" href="#" title="David Luciano: Logistics Director, karate master"><img src="/img/exec/david.jpg" name="David" class="teamImage"/></a>
     <td><img src="/img/exec/jennifer.jpg" name="Jennifer" class="teamImage"/>
     <td><img src="/img/exec/goot.jpg" name="Goot" class="teamImage"/>
   </tr>
