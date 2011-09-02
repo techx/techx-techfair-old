@@ -25,7 +25,7 @@ function make_head($title)
 
   <!-- tipsy tooltips -->
   <link rel="stylesheet" href="/css/tipsy.css" type="text/css" />
-  <script type="text/javascript" src="javascripts/jquery.tipsy.js"></script>
+  <script type="text/javascript" src="/css/jquery.tipsy.js"></script>
   
 <?php
 }
