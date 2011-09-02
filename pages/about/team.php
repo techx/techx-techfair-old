@@ -31,7 +31,7 @@ $('#david').tipsy();
 
 <table cellpadding=0 cellmargin=15>
   <tr>
-    <td><a id="david" href="#" title='David Luciano: Logistics Director, karate master'><img src="/img/exec/david.jpg" name="David" class="teamImage"/>
+    <td><a id="david" href="#" title="David Luciano: Logistics Director, karate master"><img src="/img/exec/david.jpg" name="David" class="teamImage"/></a>
     <td><img src="/img/exec/jennifer.jpg" name="Jennifer" class="teamImage"/>
     <td><img src="/img/exec/goot.jpg" name="Goot" class="teamImage"/>
   </tr>
