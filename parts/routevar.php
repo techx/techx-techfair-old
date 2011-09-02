@@ -158,5 +158,19 @@ $routes = array(
 		'process' => 'pages/students/startups_process.php',
 		'show' => false
 	),
+	'midway' => array(
+		'title' => 'Midway / '.$basetitle,
+		'content' => 'pages/midway.php',
+		'name' => 'Midway',
+		'process' => 'pages/midway_process.php',
+		'show' => false
+	),
+	'join' => array(
+		'title' => 'Join us / '.$basetitle,
+		'content' => 'join/midway.php',
+		'name' => 'Join us',
+		'process' => 'pages/midway_process.php'
+		'show' => false
+	),
 );
 ?>
