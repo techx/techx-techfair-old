@@ -3,7 +3,7 @@
 <?php endif;?>
 <h1>Techfair Interest</h1>
 <p>Keep up with Techfair info session and application reminders, Techfair student grants, and more!</p>
-<div id="midway" class="interest">
+<div id="facebook" class="interest">
 	<p>Enter your MIT email:</p>
 	<?php if (isset($error['email'])) echo '<div class="error">',$error['email'],'</div>';?>
 	<form action="" method="post">

@@ -14,7 +14,7 @@ if (count($errors)==0)
 	$insert = mysql_query($query);
 	if ($insert)
 	{
-		header('Location: &msg=success');
+		header('Location: midway&msg=success');
 	}
 }
 ?>
