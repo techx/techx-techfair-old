@@ -182,14 +182,17 @@ if($exists>0):
 		        <p>
 		    		Why those committees?
 		    		<textarea rows="4" cols="30" value="<?php echo $question1?>" />
+		    		  </textarea>
       	    </p>	
       	    <p>		  
 		    		What other commitments/interest do you expect to have during the semester? (greek life, sports, etc)
 		    		<textarea rows="4" cols="30" value="<?php echo $question2?>" />
+		    		  </textarea>
           	</p>	
           	<p>		    		
 		    		What's something you're passionate about? It could be a club or a cause or even reddit.
 		    		<textarea rows="4" cols="30" value="<?php echo $question3?>" />
+		    		  </textarea>
 		        </p>
 		  </td>
 		</tr>

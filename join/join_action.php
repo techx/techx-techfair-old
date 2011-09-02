@@ -118,7 +118,7 @@ if(count($errors) == 0)
 		$filepath = $dir.$filename;
 		if (move_uploaded_file($_FILES['resume']['tmp_name'],$filepath))
 		{
-			$query = sprintf("UPDATE applications12 SET resume='%s' WHERE id=%d",
+			$query = sprintf("UPDATE applications2 SET resume='%s' WHERE id=%d",
 						mysql_real_escape_string($filepath),
 						$id);
 			$update = mysql_query($query);

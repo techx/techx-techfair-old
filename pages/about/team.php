@@ -24,7 +24,7 @@ function out(num) {
 <h1>The TechFair Executive Team</h1>
 <p><strong>9 people, 1 awesome team.</strong> (1 team email: <a href="mailto:techfair-exec@mit.edu">techfair-exec@mit.edu</a>)</p>
 
-<table>
+<table cellpadding=0 cellmargin=15>
   <tr>
     <td><img src="/img/exec/david.jpg" name="David" class="teamImage"/>
     <td><img src="/img/exec/jennifer.jpg" name="Jennifer" class="teamImage"/>
@@ -40,6 +40,7 @@ function out(num) {
     <td><img src="/img/exec/ranna.jpg" name="Ranna" class="teamImage"/>
     <td><img src="/img/exec/sherry.jpg" name="Sherry" class="teamImage"/>
   </tr>
+</table>
 
 <!--OLD EXEC
 
