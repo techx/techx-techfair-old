@@ -1,6 +1,6 @@
 <?php if($_GET['msg']=='success'):?>
 <div class="success">Your email has been saved. Thank you for your interest in MIT TechFair!<br><br>
-  <input type="button" value="Refresh" onclick="location.href='/midway'"></div>
+  <button type="submit" onclick="location.href='/midway'">Refresh </button></div>
 <?php endif;?>
 <?php if($_GET['msg']!='success'):?>
 <h1>Techfair Interest</h1>
