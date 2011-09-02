@@ -4,7 +4,6 @@
 <?php endif;?>
 
 <?php if (isset($error['email'])) echo '<div class="error">',$error['email'],'</div>';?>
-<?php endif;?>
 
 <?php if($_GET['msg']!='success'):?>
 <h1>Techfair 2012 Interest</h1>
