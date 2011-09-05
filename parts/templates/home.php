@@ -122,7 +122,7 @@
 			  <p>
 			  Student project grants info coming soon
 			  <p>
-			  <b>Planning board 2012 application opens 9/3</b>
+			  <b>Planning board 2012 application opens 9/6</b>
 			  <br>
 			  <span style="font-size:12px;">Requires MIT certificates.</div>
 			<!--
