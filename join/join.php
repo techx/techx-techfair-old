@@ -87,12 +87,12 @@ if($exists>0):
 	<table>
 		<tr>
 			<th><label for="firstname">First Name</label></th>
-			<td><input type="text" name="firstname" id="firstname" size="20" <?php echoValue('firstname')?>/></td>
+			<td><input type="text" name="firstname" id="firstname" size="20"/></td>
 			<td class="error"><?php echoError('firstname')?></td>
 		</tr>
 		<tr>
 			<th><label for="lastname">Last Name</label></th>
-			<td><input type="text" name="lastname" id="lastname"  size="20" <?php echoValue('lastname')?>/></td>
+			<td><input type="text" name="lastname" id="lastname"  size="20" /></td>
 			<td class="error"><?php echoError('lastname')?></td>
 		</tr>
 		<tr>
@@ -103,9 +103,9 @@ if($exists>0):
 		<tr>
 			<th><label>Phone</label></th>
 			<td>
-				(&nbsp;<input type="text" name="phone1" id="phone1" size="3" maxlength="3" class="center" <?php echoValue('phone1')?>/>&nbsp;)
-				<input type="text" name="phone2" id="phone1" size="3" maxlength="3" class="center" <?php echoValue('phone2')?>/>&nbsp;
-				<input type="text" name="phone3" id="phone1" size="4" maxlength="4" class="center" <?php echoValue('phone3')?>/>
+				(&nbsp;<input type="text" name="phone1" id="phone1" size="3" maxlength="3" class="center" />&nbsp;)
+				<input type="text" name="phone2" id="phone1" size="3" maxlength="3" class="center"/>&nbsp;
+				<input type="text" name="phone3" id="phone1" size="4" maxlength="4" class="center" />
 			</td>
 			<td class="error"><?php echoError('phone')?></td>
 		</tr>
@@ -114,10 +114,10 @@ if($exists>0):
 			<td>
 				<select name="year" id="year">
 					<option value="G" <?php pickSelect('year','G')?>>Grad</option>
-					<option value="2012" <?php pickSelect('year','2012')?><?php if(!isset($_POST['year'])) echo 'selected'?>>2011</option>
-					<option value="2013" <?php pickSelect('year','2013')?>>2012</option>
-					<option value="2014" <?php pickSelect('year','2014')?>>2013</option>
-					<option value="2015" <?php pickSelect('year','2015')?>>2014</option>
+					<option value="2012" <?php pickSelect('year','2012')?>>2012</option>
+					<option value="2013" <?php pickSelect('year','2013')?>>2013</option>
+					<option value="2014" <?php pickSelect('year','2014')?>>2014</option>
+					<option value="2015" <?php pickSelect('year','2015')?>>2015</option>
 				</select>
 			</td>
 			<td class="error"><?php echoError('year')?></td>
@@ -132,7 +132,7 @@ if($exists>0):
 				$result = mysql_query($query);
 				while($row = mysql_fetch_row($result)):
 				?>
-					<option value="<?php echo $row[0]?>" <?php pickSelect('course1',$row[0])?>><?php echo $row[0]?></option>
+					<option <?php pickSelect('course1',$row[0])?>><?php echo $row[0]?></option>
 				<?php endwhile;?>
 				</select><br />
 				<select name="course2" id="course2">
@@ -142,7 +142,7 @@ if($exists>0):
 				$result = mysql_query($query);
 				while($row = mysql_fetch_row($result)):
 				?>
-					<option value="<?php echo $row[0]?>" <?php pickSelect('course2',$row[0])?>><?php echo $row[0]?></option>
+					<option <?php pickSelect('course2',$row[0])?>><?php echo $row[0]?></option>
 				<?php endwhile;?>
 				</select> (optional)
 			</td>
@@ -183,19 +183,19 @@ if($exists>0):
 		        <p>
 		    		Why those committees?
 		    		<br>
-		    		<textarea rows="4" cols="60" value="<?php echo $question1?>" />
+		    		<textarea rows="4" cols="60" />
 		    		  </textarea>
       	    </p>	
       	    <p>		  
 		    		What other commitments/interest do you expect to have during the semester? (greek life, sports, etc)
 		    		<br>
-		    		<textarea rows="4" cols="60" value="<?php echo $question2?>" />
+		    		<textarea rows="4" cols="60" />
 		    		  </textarea>
           	</p>	
           	<p>		    		
 		    		What's something you're passionate about? It could be a club or a cause or even reddit.
 		    		<br>
-		    		<textarea rows="4" cols="60" value="<?php echo $question3?>" />
+		    		<textarea rows="4" cols="60" />
 		    		  </textarea>
 		        </p>
 		  </td>
