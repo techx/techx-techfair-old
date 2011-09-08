@@ -2,7 +2,8 @@
 <div class="success">Your application has been successfully submitted. We will be contacting you soon to schedule an interview!</div>
 <?php endif;?>
 <h1>Planning board 2012 application</h1>
-<p>TechFair is an ambitious organization always looking for visionary new ideas and passionate, creative individuals. Join us and learn professional skills while meeting other students passionate about tech. Be a part of a very unique event on campus.</p>
+<p>TechFair is an ambitious organization always looking for visionary new ideas and passionate, creative individuals. Join us and learn professional skills while meeting other students passionate about tech. Be a part of a very unique event on campus. <strong>Applications deadline: noon on Sunday, 9/25/11</strong></p>
+<p>After we receive your application, we will contact you to schedule an interview during the week of 9/26. Questions? Contact the exec team at <a href="mailto:techfair-exec@mit.edu">techfair-exec@mit.edu</a></p>
 <h2>Committee descriptions</h2>
 <p>Techfair has a 9 person exec team overseeing 8 committees. No matter where your strengths lie, we can find a place for you. 
   
@@ -70,7 +71,7 @@ if(!function_exists('pickSelect'))
 }
 
 $email = $_SERVER['SSL_CLIENT_S_DN_Email']; // email
-echo '<h3>Application</h3>'; // application title
+echo '<h2>Application</h2>'; // application title
 
 $mysql = mysql_connect('mysql.mit.edu', 'techfair', '02139techfair') or die(mysql_error());
 mysql_select_db('techfair+resume');
@@ -182,19 +183,19 @@ if($exists>0):
 		        <p>
 		    		Why those committees?
 		    		<br>
-		    		<textarea rows="4" cols="45" value="<?php echo $question1?>" />
+		    		<textarea rows="4" cols="60" value="<?php echo $question1?>" />
 		    		  </textarea>
       	    </p>	
       	    <p>		  
 		    		What other commitments/interest do you expect to have during the semester? (greek life, sports, etc)
 		    		<br>
-		    		<textarea rows="4" cols="45" value="<?php echo $question2?>" />
+		    		<textarea rows="4" cols="60" value="<?php echo $question2?>" />
 		    		  </textarea>
           	</p>	
           	<p>		    		
 		    		What's something you're passionate about? It could be a club or a cause or even reddit.
 		    		<br>
-		    		<textarea rows="4" cols="45" value="<?php echo $question3?>" />
+		    		<textarea rows="4" cols="60" value="<?php echo $question3?>" />
 		    		  </textarea>
 		        </p>
 		  </td>
@@ -205,8 +206,8 @@ if($exists>0):
       </td>
 	  </tr>
 	  <tr>
-	    <th><label>Extra information</labe> </th>
-	    <td><?php echo $extra?><input type="text" cols="45" name="extra" value="<?php echo $extra?>" /></td>
+	    <th><label>Extra link/text</labe> </th>
+	    <td><?php echo $extra?><input type="text" width="300" name="extra" value="<?php echo $extra?>" /></td>
 			<td class="error"><?php echoError('extra')?></td>
 	  </tr>
 		<tr>
