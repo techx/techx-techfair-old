@@ -5,9 +5,9 @@ $sectionName = 'students';
 $subSectionName = 'join';
 
 $d = array(
-	'title' => 'R&#233;sum&#233; Join / '.$basetitle,
+	'title' => 'Join TehcFair / '.$basetitle,
 	'content' => '../join/join.php',
-	'name' => 'R&#233;sum&#233; Join',
+	'name' => 'Join TechFair',
 );
 
 
