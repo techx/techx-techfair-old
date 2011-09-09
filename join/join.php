@@ -3,7 +3,8 @@
 <?php endif;?>
 <h1>Planning board 2012 application</h1>
 <p>TechFair is an ambitious organization always looking for visionary new ideas and passionate, creative individuals. Join us and learn professional skills while meeting other students passionate about tech. Be a part of a very unique event on campus. <strong>Applications deadline: noon on Sunday, 9/25/11</strong></p>
-<p>After we receive your application, we will contact you to schedule an interview during the week of 9/26. Questions? Contact the exec team at <a href="mailto:techfair-exec@mit.edu">techfair-exec@mit.edu</a></p>
+<p>After we receive your application, we may contact you to schedule an interview during the week of 9/26. 
+  <br><strong>Questions? Contact the exec team at <a href="mailto:techfair-exec@mit.edu">techfair-exec@mit.edu</a></strong></p>
 <h2>Committee descriptions</h2>
 <p>Techfair has a 9 person exec team overseeing 8 committees. No matter where your strengths lie, we can find a place for you. 
   
@@ -36,7 +37,7 @@
   <p>
   <b>Internal Relations</b>
   <br>
-  The Internal Relations team is responsible for planning many of Techfair's internal events. Members will have an opportunity to interact with members of all of the committees, and gain experience in planning large events and retreats.
+  The Internal Relations team is responsible for planning many of Techfair's internal events, such as general body meetings, retreat, and the after-afterparty. 
     </p>
   <p>
   <b>Finance</b>
@@ -178,10 +179,10 @@ if($exists>0):
 			</td>
 		</tr>
 		<tr>
-		  <th valign="top"><label>Open-ended questions</label></th>
+		  <th valign="top"><label>Short Answer</label></th>
 		  <td>
 		        <p>
-		    		Why those committees?
+		    		Why these committees?
 		    		<br>
 		    		<textarea rows="4" cols="60" />
 		    		  </textarea>
@@ -202,7 +203,7 @@ if($exists>0):
 		</tr>
 	
 	  <tr>
-	    <td colspan=2>If you have any extra materials you'd like us to see, tell us or upload here. Examples: resume, personal website, portfolio, blog, etc. Anything works, but it's just optional.
+	    <td colspan=2>If you have any extra materials you'd like us to see, tell us or upload here. Examples: resume, personal website, portfolio, blog, etc. Anything works, but it's totally optional.
       </td>
 	  </tr>
 	  <tr>
