@@ -5,8 +5,8 @@ $sectionName = 'students';
 $subSectionName = 'join';
 
 $d = array(
-	'title' => 'Join TechFair / '.$basetitle,
-	'content' => '../join/join.php',
+	'title' => 'Join TechFair / TechFair',
+	'content' => 'join.php',
 	'name' => 'Join TechFair',
 );
 

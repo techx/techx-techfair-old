@@ -5,48 +5,39 @@
 <p>TechFair is an ambitious organization always looking for visionary new ideas and passionate, creative individuals. Join us and learn professional skills while meeting other students passionate about tech. Be a part of a very unique event on campus. <strong>Applications deadline: noon on Sunday, 9/25/11</strong></p>
 <p>After we receive your application, we may contact you to schedule an interview during the week of 9/26. 
   <br><strong>Questions? Contact the exec team at <a href="mailto:techfair-exec@mit.edu">techfair-exec@mit.edu</a></strong></p>
-<h2>Committee descriptions</h2>
+<h2>Committees</h2>
 <p>Techfair has a 9 person exec team overseeing 8 committees. No matter where your strengths lie, we can find a place for you. 
   
+  <h3>Corporate Relations</h3>
   <p>
-  <b>Corporate Relations</b>
-  <br>
   Corporate Relations chooses, contacts, and courts the bleeding-edge technology companies for Techfair, with the responsibility for inviting everything from start-ups to multi-national corporations. Members learn how to contact and interface with recruiters and professionals alike.
   </p>
+  <h3>Marketing</h3>
   <p>
-  <b>
-  Marketing</b>
-  <br>
   The Marketing committee shapes Techfair's image in the MIT community with a variety of creative publicity campaigns, ranging from traditional to the unconventional. As one of the top marketing groups on campus, members will learn not only learn how to advertise effectively on campus, but also acquire important skills applicable to real world marketing. Techfair's marketing committee is often a springboard for successful publicity chairs in many other student groups.
     </p>
+  <h3>Student Relations</h3>
   <p>
-  <b>Student Relations</b>
-  <br>
   The Student Relations team recruits MIT startups, labs, and student projects to become exhibitors at Techfair. Members learn their way around the entrepreneurial community at MIT; whether it's the next big webapp, a customize-designed 3d printer, or a motorized shopping cart, it's the job of Student Relations to bring these projects to Techfair.
     </p>
+  <h3>Logistics</h3>
   <p>
-  <b>Logistics</b>
-  <br>
   The Logistics team is responsible for ironing out all the details involved in planning such a large event. Members of the logistics team learn how to plan and manage large events, in particular how to deal with numerous MIT offices and outside vendors that are involved in planning any event. The skills and knowledge accrued by the logistics team are indispensable to any MIT student group.
     </p>
+  <h3>TechTalks</h3>
   <p>
-  <b>TechTalks</b>
-  <br>
   The TechTalks committee is a new committee this year, and will be contacting and recruiting prominent speakers from various technology industries. Members will get an unparalleled opportunity to contribute their vision to this new planning committee.
     </p>
+  <h3>Internal Relations</h3>
   <p>
-  <b>Internal Relations</b>
-  <br>
   The Internal Relations team is responsible for planning many of Techfair's internal events, such as general body meetings, retreat, and the after-afterparty. 
     </p>
+  <h3>Finance</h3>
   <p>
-  <b>Finance</b>
-  <br>
   The Finance team is responsible for managing Techfair's budget, and facilitating the reimbursement process. Members obtain an intimate familiarity with the Student Activities Office (SAO) and MIT policies: connections and knowledge that are vital to all MIT student groups.
     </p>
+  <h3>IT</h3>
   <p>
-  <b>IT</b>
-  <br>
   The IT committee will be responsible for maintaining and redesigning Techfair's website. On this small committee, members will have capacious responsibility and the opportunity to add to their portfolio.
     </p>
 <?php
@@ -75,7 +66,7 @@ $email = $_SERVER['SSL_CLIENT_S_DN_Email']; // email
 echo '<h2>Application</h2>'; // application title
 
 $mysql = mysql_connect('mysql.mit.edu', 'techfair', '02139techfair') or die(mysql_error());
-mysql_select_db('techfair+resume');
+mysql_select_db('techfair+applications');
 $query = sprintf("SELECT attachment FROM applications12 WHERE email='%s'",$email);
 $result = mysql_query($query);
 $exists = mysql_num_rows($result);
@@ -114,11 +105,11 @@ if($exists>0):
 			<th><label for="year">Year</label></th>
 			<td>
 				<select name="year" id="year">
-					<option value="G" <?php pickSelect('year','G')?>>Grad</option>
-					<option value="2012" <?php pickSelect('year','2012')?>>2012</option>
-					<option value="2013" <?php pickSelect('year','2013')?>>2013</option>
-					<option value="2014" <?php pickSelect('year','2014')?>>2014</option>
 					<option value="2015" <?php pickSelect('year','2015')?>>2015</option>
+					<option value="2014" <?php pickSelect('year','2014')?>>2014</option>
+					<option value="2013" <?php pickSelect('year','2013')?>>2013</option>
+					<option value="2012" <?php pickSelect('year','2012')?>>2012</option>
+					<option value="G" <?php pickSelect('year','G')?>>Grad</option>
 				</select>
 			</td>
 			<td class="error"><?php echoError('year')?></td>
@@ -152,53 +143,40 @@ if($exists>0):
 		<tr>
 			<th valign="top"><label>Committee interest</label></th>
 			<td>
-			  Select up to 2 committees that you are interested in. Descriptions are at the top of the page.
-			  <br>
+        <p>Select up to 2 committees that you are interested in. Descriptions are at the top of the page.</p>
         <select name="committee1">
-        <option>Corporate Relations</option>
-        <option>Marketing</option>
-        <option>Student Relations</option>
-        <option>Logistics</option>
-        <option>TechTalk</option>
-        <option>Internal Relations</option>
-        <option>Finance</option>
-        <option>Information Technology</option>
-        </select><br/>
+          <option>Corporate Relations</option>
+          <option>Marketing</option>
+          <option>Student Relations</option>
+          <option>Logistics</option>
+          <option>TechTalk</option>
+          <option>Internal Relations</option>
+          <option>Finance</option>
+          <option>Information Technology</option>
+        </select>
         
         <select name="committee2">
-        <option>None</option>         
-        <option>Corporate Relations</option>
-        <option>Marketing</option>
-        <option>Student Relations</option>
-        <option>Logistics</option>
-        <option>TechTalk</option>
-        <option>Internal Relations</option>
-        <option>Finance</option>
-        <option>Information Technology</option>
-        </select><br/>
+          <option>None</option>         
+          <option>Corporate Relations</option>
+          <option>Marketing</option>
+          <option>Student Relations</option>
+          <option>Logistics</option>
+          <option>TechTalk</option>
+          <option>Internal Relations</option>
+          <option>Finance</option>
+          <option>Information Technology</option>
+        </select>
 			</td>
 		</tr>
 		<tr>
-		  <th valign="top"><label>Short Answer</label></th>
+		  <th valign="top"><label>Short answer</label></th>
 		  <td>
-		        <p>
-		    		Why these committees?
-		    		<br>
-		    		<textarea rows="4" cols="60" />
-		    		  </textarea>
-      	    </p>	
-      	    <p>		  
-		    		What other commitments/interest do you expect to have during the semester? (greek life, sports, etc)
-		    		<br>
-		    		<textarea rows="4" cols="60" />
-		    		  </textarea>
-          	</p>	
-          	<p>		    		
-		    		What's something you're passionate about? It could be a club or a cause or even reddit.
-		    		<br>
-		    		<textarea rows="4" cols="60" />
-		    		  </textarea>
-		        </p>
+		        <p>Why these committees?</p>
+		    		<textarea rows="4" cols="60" /></textarea>
+      	    <p>What other commitments/interest do you expect to have during the semester? (greek life, sports, etc)</p>	
+		    		<textarea rows="4" cols="60" /></textarea>
+          	<p>What's something you're passionate about? It could be a club or a cause or even reddit.</p>
+		    		<textarea rows="4" cols="60" /></textarea>
 		  </td>
 		</tr>
 	

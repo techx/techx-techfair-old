@@ -167,6 +167,7 @@ h3{
 	font-family:"Helvetica Neue Light", Arial, Helvetica, sans-serif;
 }
 .box{
+	color:#fff;
 	float:left;
 }
 #menu ul, #menu li{
@@ -198,7 +199,7 @@ h3{
 #history a{ margin:0;background:#e0661f;}
 #history a:hover {background:#f60;text-decoration:none!important;}
 
-#event{ background:#383838; color:#fff; height:313px; margin-bottom:15px;line-height:16px;}
+#event{ background:#383838; height:313px; margin-bottom:15px;line-height:16px;}
 #event {
    font-size: 14px;
 }
@@ -227,10 +228,19 @@ h3{
     padding-top: 10px;
     padding-bottom: 10px;
 }
-#exhibitors{ background:#4078d6; height:147px;} 
-#students { background:#8bb1f1; height:196px; margin-bottom:15px;}
+#exhibitors{ background:#4078d6; height:147px;
+
+} 
+#students { background:#56a; height:196px; margin-bottom:15px;
+}
+#students, #exhibitors, #event {
+	outline:none;
+	box-shadow:0 0 5px rgba(255,170,0, .7);
+	-webkit-box-shadow: 0 0 10px rgba(255,170,0, .7);
+	-moz-box-shadow:0 0 10px rgba(255,170,0,.7);
+}
 #exhibitors a, #students a {
-	font-size:20px;
+	font-size:14pt;
 	color:#fff;
 	margin-left:20px;
 	text-decoration:none;
