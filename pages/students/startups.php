@@ -2,7 +2,7 @@
 <div class="success">Your email has been saved. Thank you for your interest in MIT Techfair!</div>
 <?php endif;?>
 <h1>Student Startups</h1>
-<p>Show off your startup to other students and companies the annual MIT Techfair technology expo! We are looking for technology oriented startups initiated by MIT students. The fair is on January 31st, 2011.</p>
+<p>Show off your startup to other students and companies the annual MIT Techfair technology expo! We are looking for technology oriented startups initiated by MIT students. The fair is on February 6th, 2012.</p>
 <h2>Why apply?</h2>
 <ul>
 	<li>You'll get a booth at Techfair, at no cost!</li>
@@ -10,8 +10,8 @@
 	<li>Make long lasting connections with companies</li>
 	<li>Get inspired by other startups</li>
 </ul>
-<p>Note that startups must be mainly composed of current MIT students. If you do not meet this criteria, we encourage you to learn more about coming to Techfair as <a href="/companies/">a company sponsor</a>.</p>
-<p>Preferred application (see below) deadline is <u>December 20 with rolling applications afterward</u>. Your startup must be prepared for interviews by the first week of January.</p>
+<p>Note that startups must be mainly composed of current MIT students. If you do not meet this criteria, we encourage you to learn more about coming to Techfair as <a href="/companies/">a company sponsor</a>.</p><!--
+<p>Preferred application (see below) deadline is <u>December 20 with rolling applications afterward</u>. Your startup must be prepared for interviews by the first week of January.</p>-->
 <?php
 /*
 <h2>Interested but don't have your application ready yet?</h2>
@@ -108,5 +108,5 @@ else:
 	</table>
 </form>
 */?>
-<p>We are no longer accepting applications for Techfair 2011. Come back next year!</p>
+<p>We will be accepting applications for Techfair 2011 starting November 1.</p>
 <?php endif;?>

@@ -83,7 +83,7 @@ $routes = array(
 		'exhibitorlist' => array(
 		    'title' => 'Events / '.$basetitle,
 		    'content' => 'pages/companies/exhibitorlist.php',
-		    'name' => 'List of Exhibitors'
+		    'name' => '2011 List of Exhibitors'
 		),
 		'packages' => array(
 			'title' => 'Sponsorship / '.$basetitle,
@@ -108,17 +108,24 @@ $routes = array(
 		),
 		'exhibitors' => array(
 			'external' => '/companies/exhibitorlist/',
-			'name' => 'List of Exhibitors'
+			'name' => '2011 List of Exhibitors'
 		),
-		'checklist' => array(
-		    'title' => 'Student Checklist / '.$basetitle,
-		    'content' => 'pages/students/checklist.php',
-		    'name' => 'Checklist'
+		'displays' => array(
+			'external' => '/students/',
+			'name' => 'Startups &amp; Projects'
 		),
+
+
+		'funding' => array(
+			'content' => 'pages/students/funding.php',
+			'name' => 'Project Funding'
+		),
+
+/*
 		'resume-drop' => array(
 			'external' => '/drop/',
 			'name' => 'R&#233;sum&#233; Drop'
-		),
+		),*/
 	),
 	'about' => array(
 		'name' => 'About Us',
@@ -171,5 +178,12 @@ $routes = array(
 		'process' => 'pages/midway_process.php',
 		'show' => false
 	),
+
+		'2011checklist' => array(
+		    'title' => '2011 Student Checklist / '.$basetitle,
+		    'content' => 'pages/2011checklist.php',
+		    'name' => 'Checklist',
+			'show'=>'false'
+		)
 );
 ?>
