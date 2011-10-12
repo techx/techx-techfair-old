@@ -41,6 +41,8 @@
 				<h3>welcome</h3>
         <p>
 				Thank you for a successful Techfair 2011. We are currently planning for <b><i>Techfair 2012</b></i>, please check back later in the fall for updated event information!
+<p>
+Check out our <a href="https://picasaweb.google.com/103604151821709535051/MITTechFair2011">photos from Techfair 2011</a>!
 				<p>
 				  In the mean time, feel free to <a href="mailto:techfair-exec@mit.edu">contact us</a> with any questions.
 				
@@ -105,7 +107,7 @@
 			<div id="exhibitors" class="box">
         		<h3>for companies</h3>
         		<br>
-        		<p><a href="/companies/packages/">2012 sponsorship packages</a></p>
+        		<p style="text-align: center;"><a href="/companies/packages/">2012 sponsorship packages</a></p>
 			</div>
 		</div>
 	<div id="c3">
@@ -118,14 +120,16 @@
 		</div>
 		<div id="students" class="box">
 			<h3>for students</h3>
-			<div style="font-size:14pt;text-align:center;">
+			<div style="">
 			 
+
+			<div style="text-align: center; background: #455c98; border: 1px solid #6f87c6;  padding: 3px;"><a href="/join"><b>Planning board 2012<br> application due 9/25</b></a><br>
+			  <span style="font-size:12px;">Requires MIT certificates.</span></div>
+
 			<p><a href="/students/">MIT student startups &amp; projects</a></p>
 
-			<p><a href="/students/funding/">Student Project Funding</a></p>
-			<p><b>Planning board 2012 application opens 9/8 </b>
-			  <br>
-			  <span style="font-size:12px;">Requires MIT certificates.</p></div>
+			<p><a href="/students/funding/">Student Project Funding</a></p>		
+			</div>
 			<!--
 			<script src="http://widgets.twimg.com/j/2/widget.js"></script>
 			<script>
