@@ -178,6 +178,12 @@ $routes = array(
 		'process' => 'pages/midway_process.php',
 		'show' => false
 	),
+	'finance' => array(
+		'title' => 'Finance / '.$basetitle,
+		'content' => 'finance/index.php',
+		'name' => 'TF Finance',
+		'show' => false
+	),
 
 		'2011checklist' => array(
 		    'title' => '2011 Student Checklist / '.$basetitle,

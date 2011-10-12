@@ -1,8 +1,7 @@
 <h1>For Students</h1>
 
-<h2>Our Vision for Technology</h2>
-<strong>Startups &amp; Projects</strong>
-<p>We at Techfair believe that innovative technology does not solely stem from a corporate or research setting. That is why, for the first time in Techfair history, we are opening up our booths to include individual student projects , student startups, and student groups on campus. Don't have a project? Come to the <a href="/events">fair</a> and support your friends!</p>
+<h2>Startups &amp; Projects</h2>
+<p>We at Techfair believe that innovative technology does not solely stem from a corporate or research setting. We are again opening up our booths to include individual student projects , student startups, and student groups on campus. Don't have a project? Come to the <a href="/events">fair</a> and support your friends!</p>
 <p>Learn more about how to get your own booth:
 <ul>
 	<li>for your <a href="/mitstartups/">student startup</a></li>

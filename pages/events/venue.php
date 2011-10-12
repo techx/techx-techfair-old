@@ -2,7 +2,7 @@
 <p>Come join the expo of cutting edge technology and experience the innovation from Oracle, Facebook, 23andme, Dropbox, and many more companies and labs!</p>
 <p>Techfair will be conducted "trade-show" style. The audience will be able to walk around to different companies and learn about the company, what they're presenting on, how the science and technologies work, and careers in the company and field of research. We'll also be raffling off great prizes!</p>
 <p>Please visit this site soon for a list of companies that will be presenting during the exposition. If you have any questions, please contact us! We also welcome MIT students to help organize the fair.</p>
-
+<p><a href="https://picasaweb.google.com/103604151821709535051/MITTechFair2011">View our photos from Techfair 2011<a></p>
 <h2>Who</h2>
 <p>All MIT students, staff, and affliates are welcome to attend!</p>
 <h3 id="raffle">RAFFLE WINNERS</h3>

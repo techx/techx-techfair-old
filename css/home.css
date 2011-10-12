@@ -201,7 +201,7 @@ h3{
 
 #event{ background:#383838; height:313px; margin-bottom:15px;line-height:16px;}
 #event {
-   font-size: 14px;
+   font-size: 11pt;
 }
 #event table {
     border-collapse: collapse;
@@ -235,14 +235,15 @@ h3{
 }
 #students, #exhibitors, #event {
 	outline:none;
-	box-shadow:0 0 5px rgba(255,170,0, .7);
+	/*box-shadow:0 0 5px rgba(255,170,0, .7);
 	-webkit-box-shadow: 0 0 10px rgba(255,170,0, .7);
 	-moz-box-shadow:0 0 10px rgba(255,170,0,.7);
+*/
 }
 #exhibitors a, #students a {
 	font-size:14pt;
 	color:#fff;
-	margin-left:20px;
+	/*margin-left:20px;*/
 	text-decoration:none;
 	margin-bottom:10px; 
 }

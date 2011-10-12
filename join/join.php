@@ -1,8 +1,5 @@
-<?php if($_GET['msg']=='success'):?>
-<div class="success">Your application has been successfully submitted. We will be contacting you soon to schedule an interview!</div>
-<?php endif;?>
 <h1>Planning board 2012 application</h1>
-<p>TechFair is an ambitious organization always looking for visionary new ideas and passionate, creative individuals. Join us and learn professional skills while meeting other students passionate about tech. Be a part of a very unique event on campus. <strong>Applications deadline: noon on Sunday, 9/25/11</strong></p>
+<p>TechFair is an ambitious organization always looking for visionary new ideas and passionate, creative individuals. Join us and learn professional skills while meeting other students passionate about tech. Be a part of a very unique event on campus. <strong>Applications deadline: 10pm on Sunday, 9/25/11</strong></p>
 <p>After we receive your application, we may contact you to schedule an interview during the week of 9/26. 
   <br><strong>Questions? Contact the exec team at <a href="mailto:techfair-exec@mit.edu">techfair-exec@mit.edu</a></strong></p>
 <h2>Committees</h2>
@@ -55,6 +52,12 @@ if(!function_exists('echoValue'))
 		if(isset($_POST[$key]) && $status==0) echo 'value="',$_POST[$key],'"';
 	}
 }
+if(!function_exists('echoTextarea'))
+{
+  function echoTextarea($key) {
+    if(isset($_POST[$key])) echo $_POST[$key];
+  }
+}
 if(!function_exists('pickSelect'))
 {
 	function pickSelect($key,$option) {
@@ -63,43 +66,58 @@ if(!function_exists('pickSelect'))
 }
 
 $email = $_SERVER['SSL_CLIENT_S_DN_Email']; // email
-echo '<h2>Application</h2>'; // application title
+echo '<h2 id="form">Application</h2>'; // application title
 
 $mysql = mysql_connect('mysql.mit.edu', 'techfair', '02139techfair') or die(mysql_error());
 mysql_select_db('techfair+applications');
-$query = sprintf("SELECT attachment FROM applications12 WHERE email='%s'",$email);
+$query = sprintf("SELECT id FROM applications_2012 WHERE email='%s'",$email);
 $result = mysql_query($query);
 $exists = mysql_num_rows($result);
 if($exists>0):
 ?>
-<p>You have already submitted an application;. If you'd like to update it, resubmit it below.</p>
+<?php if($_GET['msg']=='success'):?>
+<div class="success">Your application has been successfully submitted. We will be contacting you soon to schedule an interview!</div>
 <?php endif;?>
-<form action="" method="post" enctype="multipart/form-data">
+<p>You have already submitted an application. <strong>If you'd like to update it, resubmit it below. Your previous submission will be overwritten.</strong></p>
+<?php endif;?>
+<form action="#form" method="post" enctype="multipart/form-data">
 	<input type="hidden" name="action" value="resume" />
 	<table>
-		<tr>
-			<th><label for="firstname">First Name</label></th>
-			<td><input type="text" name="firstname" id="firstname" size="20"/></td>
+    <tr>
+      <td></td>
 			<td class="error"><?php echoError('firstname')?></td>
 		</tr>
 		<tr>
-			<th><label for="lastname">Last Name</label></th>
-			<td><input type="text" name="lastname" id="lastname"  size="20" /></td>
+			<th><label for="firstname">First Name</label></th>
+			<td><input type="text" name="firstname" id="firstname" size="20" <?php echoValue('firstname')?>/></td>
+    </tr>
+    <tr>
+      <td></td>
 			<td class="error"><?php echoError('lastname')?></td>
 		</tr>
 		<tr>
+			<th><label for="lastname">Last Name</label></th>
+			<td><input type="text" name="lastname" id="lastname"  size="20" <?php echoValue('lastname')?>/></td>
+    </tr>
+		<tr>
 			<th><label for="email">Email</label></th>
 			<td><?php echo $email?><input type="hidden" name="email" value="<?php echo $email?>" /></td>
-			<td class="error"><?php echoError('email')?></td>
+    </tr>
+    <tr>
+      <td></td>
+			<td class="error"><?php echoError('phone')?></td>
 		</tr>
 		<tr>
 			<th><label>Phone</label></th>
 			<td>
-				(&nbsp;<input type="text" name="phone1" id="phone1" size="3" maxlength="3" class="center" />&nbsp;)
-				<input type="text" name="phone2" id="phone1" size="3" maxlength="3" class="center"/>&nbsp;
-				<input type="text" name="phone3" id="phone1" size="4" maxlength="4" class="center" />
+				(&nbsp;<input type="text" name="phone1" id="phone1" size="3" maxlength="3" class="center" <?php echoValue('phone1')?>/>&nbsp;)
+				<input type="text" name="phone2" id="phone1" size="3" maxlength="3" class="center" <?php echoValue('phone2')?>/>&nbsp;
+				<input type="text" name="phone3" id="phone1" size="4" maxlength="4" class="center" <?php echoValue('phone3')?>/>
 			</td>
-			<td class="error"><?php echoError('phone')?></td>
+    </tr>
+    <tr>
+      <td></td>
+			<td class="error"><?php echoError('year')?></td>
 		</tr>
 		<tr>
 			<th><label for="year">Year</label></th>
@@ -112,7 +130,10 @@ if($exists>0):
 					<option value="G" <?php pickSelect('year','G')?>>Grad</option>
 				</select>
 			</td>
-			<td class="error"><?php echoError('year')?></td>
+    </tr>
+    <tr>
+      <td></td>
+			<td class="error"><?php echoError('major')?></td>
 		</tr>
 		<tr>
 			<th><label for="course1">Course(s)</label></th>
@@ -120,6 +141,7 @@ if($exists>0):
 				<select name="course1" id="course1">
 					<option value="0">Pick a course</option>
 				<?php
+        mysql_select_db('techfair+resume');
 				$query = "SELECT course from courses ORDER BY id asc";
 				$result = mysql_query($query);
 				while($row = mysql_fetch_row($result)):
@@ -128,55 +150,66 @@ if($exists>0):
 				<?php endwhile;?>
 				</select><br />
 				<select name="course2" id="course2">
-					<option value="0">Second course</option>
+					<option value="0">Optional second course</option>
 				<?php
 				$query = "SELECT course from courses WHERE id!=41 ORDER BY id asc";
 				$result = mysql_query($query);
 				while($row = mysql_fetch_row($result)):
 				?>
 					<option <?php pickSelect('course2',$row[0])?>><?php echo $row[0]?></option>
-				<?php endwhile;?>
-				</select> (optional)
+				<?php
+          endwhile;
+          mysql_select_db('techfair+applications');
+        ?>
+				</select>
 			</td>
-			<td class="error"><?php echoError('major')?></td>
+    </tr>
+    <tr>
+      <td></td>
+			<td class="error"><?php echoError('committee')?></td>
 		</tr>
 		<tr>
 			<th valign="top"><label>Committee interest</label></th>
 			<td>
         <p>Select up to 2 committees that you are interested in. Descriptions are at the top of the page.</p>
         <select name="committee1">
-          <option>Corporate Relations</option>
-          <option>Marketing</option>
-          <option>Student Relations</option>
-          <option>Logistics</option>
-          <option>TechTalk</option>
-          <option>Internal Relations</option>
-          <option>Finance</option>
-          <option>Information Technology</option>
+          <option value="0">Select a comittee</option>
+          <option value="Corporate Relations" <?php pickSelect('committee1', 'Corporate Relations')?>>Corporate Relations</option>
+          <option value="Marketing" <?php pickSelect('committee1', 'Marketing')?>>Marketing</option>
+          <option value="Student Relations" <?php pickSelect('committee1', 'Student Relations')?>>Student Relations</option>
+          <option value="Logistics" <?php pickSelect('committee1', 'Logistics')?>>Logistics</option>
+          <option value="TechTalk" <?php pickSelect('committee1', 'TechTalk')?>>TechTalk</option>
+          <option value="Internal Relations" <?php pickSelect('committee1', 'Internal Relations')?>>Internal Relations</option>
+          <option value="Finance" <?php pickSelect('committee1', 'Finance')?>>Finance</option>
+          <option value="Information Technology" <?php pickSelect('committee1', 'Information Technology')?>>Information Technology</option>
         </select>
         
         <select name="committee2">
-          <option>None</option>         
-          <option>Corporate Relations</option>
-          <option>Marketing</option>
-          <option>Student Relations</option>
-          <option>Logistics</option>
-          <option>TechTalk</option>
-          <option>Internal Relations</option>
-          <option>Finance</option>
-          <option>Information Technology</option>
+          <option value="0">Optional second committee</option>         
+          <option value="Corporate Relations" <?php pickSelect('committee2', 'Corporate Relations')?>>Corporate Relations</option>
+          <option value="Marketing" <?php pickSelect('committee2', 'Marketing')?>>Marketing</option>
+          <option value="Student Relations" <?php pickSelect('committee2', 'Student Relations')?>>Student Relations</option>
+          <option value="Logistics" <?php pickSelect('committee2', 'Logistics')?>>Logistics</option>
+          <option value="TechTalk" <?php pickSelect('committee2', 'TechTalk')?>>TechTalk</option>
+          <option value="Internal Relations" <?php pickSelect('committee2', 'Internal Relations')?>>Internal Relations</option>
+          <option value="Finance" <?php pickSelect('committee2', 'Finance')?>>Finance</option>
+          <option value="Information Technology" <?php pickSelect('committee2', 'Information Technology')?>>Information Technology</option>
         </select>
 			</td>
 		</tr>
+    <tr>
+      <td></td>
+			<td class="error"><?php echoError('short_answers')?></td>
+    </tr>
 		<tr>
 		  <th valign="top"><label>Short answer</label></th>
 		  <td>
 		        <p>Why these committees?</p>
-		    		<textarea rows="4" cols="60" /></textarea>
+		    		<textarea name="why" rows="4" cols="60" /><?php echoTextarea('why')?></textarea>
       	    <p>What other commitments/interest do you expect to have during the semester? (greek life, sports, etc)</p>	
-		    		<textarea rows="4" cols="60" /></textarea>
+		    		<textarea name="commitments" rows="4" cols="60" /><?php echoTextarea('commitments')?></textarea>
           	<p>What's something you're passionate about? It could be a club or a cause or even reddit.</p>
-		    		<textarea rows="4" cols="60" /></textarea>
+		    		<textarea name="passions" rows="4" cols="60" /><?php echoTextarea('passions')?></textarea>
 		  </td>
 		</tr>
 	
@@ -184,16 +217,23 @@ if($exists>0):
 	    <td colspan=2>If you have any extra materials you'd like us to see, tell us or upload here. Examples: resume, personal website, portfolio, blog, etc. Anything works, but it's totally optional.
       </td>
 	  </tr>
-	  <tr>
-	    <th><label>Extra link/text</labe> </th>
-	    <td><?php echo $extra?><input type="text" width="300" name="extra" value="<?php echo $extra?>" /></td>
+    <tr>
+      <td></td>
 			<td class="error"><?php echoError('extra')?></td>
+    </tr>
+	  <tr>
+
+	    <th><label>Extra link/text</labe> </th>
+	    <td><input type="text" width="300" name="extra" <?php echoValue('extra')?>fg/></td>
 	  </tr>
+    <tr>
+      <td></td>
+			<td class="error"><?php echoError('attachment')?></td>
+    </tr>
 		<tr>
 			<th><label>Optional Attachment</label></th>
 			<td>			  
 			  <input type="file" name="attachment" <?php echoValue('attachment')?>/></td>
-			<td class="error"><?php echoError('attachment')?></td>
 		</tr>
 		<tr>
 			<th></th>

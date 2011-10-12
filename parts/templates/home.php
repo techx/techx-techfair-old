@@ -128,8 +128,8 @@ Check out our <a href="https://picasaweb.google.com/103604151821709535051/MITTec
 
 			<p><a href="/students/">MIT student startups &amp; projects</a></p>
 
-			<p><a href="/students/funding/">Student Project Funding</a></p>		
-			</div>
+			<p><a href="/students/funding/">Student Project Funding</a></p>
+		</div>
 			<!--
 			<script src="http://widgets.twimg.com/j/2/widget.js"></script>
 			<script>

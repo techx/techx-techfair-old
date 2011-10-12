@@ -1,4 +1,5 @@
 <h1>TechTalks</h1>
+<p><strong>NOTE: TechTalks were an experimental addition to last year's fair. They will not be offered for Techfair 2012 - we're working on revamping them and bringing them back in a different context.</strong></p>
 <p>We have talks lined up for every minute of Techfair by notable speakers from our sponsors. Speakers will range from engineers to executives to founders themselves!</p>
 <h1>Schedule</h1>
 <table id="techtalks">
