@@ -123,9 +123,7 @@
 			<p><a href="/students/">MIT student startups &amp; projects</a></p>
 
 			<p><a href="/students/funding/">Student Project Funding</a></p>
-			<p><b>Planning board 2012 application opens 9/8 </b>
-			  <br>
-			  <span style="font-size:12px;">Requires MIT certificates.</p></div>
+		</div>
 			<!--
 			<script src="http://widgets.twimg.com/j/2/widget.js"></script>
 			<script>
