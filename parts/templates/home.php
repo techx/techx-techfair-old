@@ -120,7 +120,7 @@
 			<h3>for students</h3>
 			<div style="font-size:14pt;text-align:center;">
 			 
-			<p><a href="/students/">MIT student startups &amp; projects</a></p>
+			<p><a href="/students/">MIT student startups and projects</a></p>
 
 			<p><a href="/students/funding/">Student Project Funding</a></p>
 		</div>
