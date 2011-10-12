@@ -120,13 +120,7 @@ Check out our <a href="https://picasaweb.google.com/103604151821709535051/MITTec
 		</div>
 		<div id="students" class="box">
 			<h3>for students</h3>
-			<div style="">
-			 
-
-			<div style="text-align: center; background: #455c98; border: 1px solid #6f87c6;  padding: 3px;"><a href="/join"><b>Planning board 2012<br> application due 9/25</b></a><br>
-			  <span style="font-size:12px;">Requires MIT certificates.</span></div>
-
-			<p><a href="/students/">MIT student startups &amp; projects</a></p>
+			<p><a href="/students/">MIT student startups and projects</a></p>
 
 			<p><a href="/students/funding/">Student Project Funding</a></p>
 		</div>
