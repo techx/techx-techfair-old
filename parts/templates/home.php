@@ -157,8 +157,9 @@ Check out our <a href="https://picasaweb.google.com/103604151821709535051/MITTec
 			}).render().setUser('mittechfair').start();
 			</script>
 		-->
-		</div>
 		<img src="img/photo3.jpg" id="photo3" class="box" /></div>
+		</div>
+		
 		<div style="clear:both"></div>
 	</div>
 	<div id="footer">
