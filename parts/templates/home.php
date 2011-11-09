@@ -78,7 +78,7 @@ Check out our <a href="https://picasaweb.google.com/103604151821709535051/MITTec
     		<div id="think" class="box">
     			<h3>THINK</h3>
     			<p>high school science and technology competition</p>
-    			<p><a href="http://www.mittechfair.org/think/index.php">more info &raquo;</a></p>
+    			<p><a href="http://www.mittechfair.org/">more info &raquo;</a></p>
     		</div>
     		<img src="img/photo1.jpg" id="photo1" class="box" />
 		</div>
