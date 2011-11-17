@@ -1,6 +1,7 @@
 <h1>Sponsorship Packages</h1>
 <p>TechFair offers three standard sponsorship packages, designated below. Aside from the amenities described, the higher sponsorships help companies maintain a larger physical and advertised presence as part of our TechFair campaign before and during the fair.</p>
 <p>The deadline for registration is <b>January 7, 2012</b>.</p>
+<p>Note: as of November 17, the gold package has been sold out and is no longer being offered.</p>
 <h2>Packages</h2>
 <?php
 function focus($p) {
