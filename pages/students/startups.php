@@ -1,4 +1,5 @@
 <?php if($_GET['msg']=='success'):?>
+
 <div class="success">Your email has been saved. Thank you for your interest in MIT Techfair!</div>
 <?php endif;?>
 <h1>Student Startups</h1>
@@ -10,9 +11,11 @@
 	<li>Make long lasting connections with companies</li>
 	<li>Get inspired by other startups</li>
 </ul>
-<p>Note that startups must be mainly composed of current MIT students. If you do not meet this criteria, we encourage you to learn more about coming to Techfair as <a href="/companies/">a company sponsor</a>.</p><!--
+<p>Note that startups must be mainly composed of current MIT students. If you do not meet this criteria, we encourage you to learn more about coming to Techfair as <a href="/companies/">a company sponsor</a>.</p>
+<p>
+  <!--
 <p>Preferred application (see below) deadline is <u>December 20 with rolling applications afterward</u>. Your startup must be prepared for interviews by the first week of January.</p>-->
-<?php
+  <?php
 /*
 <h2>Interested but don't have your application ready yet?</h2>
 <div id="normal" class="interest">
@@ -25,7 +28,7 @@
 	</form>
 </div>
 */?>
-<?php
+  <?php
 if ($_POST["name"] != "" and $_POST["email"] != ""):
 	$to = 'Techfair Task Force <techfair-tf@mit.edu>, '.$_POST["email"];
 	$subject = "Techfair Student Startup Application";
@@ -45,8 +48,13 @@ if ($_POST["name"] != "" and $_POST["email"] != ""):
 	}
 else:
 ?>
-
+</p>
 <h1>Application</h1>
+<p><strong>Applications have been extended to Dec 3 and rolling afterwards. </strong></p><div style="background-color: #C43B1D; padding:10px;">
+  <p style="color:#fff; ">Mark that you are applying as a <strong>MIT Startup</strong>.</p>
+  <p style="color:#fff; ">If you do not receive confirmation that your application was submitted, please email your application to <a href="mailto:techfair-sr@mit.edu">techfair-sr@mit.edu</a>. We will be sending out an email to all applicants on Dec 5, if you submit an application do not receive an email, please contact us.</p>
+</div>
+<p>&nbsp;</p>
 <?php
 /*
 <form action="" method="POST">
@@ -108,5 +116,6 @@ else:
 	</table>
 </form>
 */?>
-<p>We will be accepting applications for Techfair 2011 starting November 1.</p>
+<iframe src="https://docs.google.com/spreadsheet/embeddedform?formkey=dDJkalJzZHRkMmtMSzJWc2pjU09iYXc6MQ" width="760" height="2000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+</div>
 <?php endif;?>

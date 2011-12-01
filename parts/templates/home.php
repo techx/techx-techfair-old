@@ -114,7 +114,7 @@ Check out our <a href="https://picasaweb.google.com/103604151821709535051/MITTec
 		<div id="menu">
 			<ul>
 				<li id="map"><a href="/events/venue/" class="box">Techfair 2011</a></li>
-				<li id="team"><a href="http://dl.dropbox.com/u/13568755/Booklet2011-Jan25-med-res.pdf" class="box">2011 booklet</a></li>
+				<li id="team"><a href="http://techfair.mit.edu/pdf/booklet2011-web.pdf" class="box">2011 booklet</a></li>
 				<li id="history"><a href="/about" class="box">about us</a></li>
 			</ul>
 		</div>

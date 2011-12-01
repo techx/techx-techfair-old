@@ -40,6 +40,9 @@ else
 	} elseif ($sectionName=='getabooth') {
 		$redirect = true;
 		header('Location: /individual/');
+	} elseif ($sectionName=='mitprojects') {
+		$redirect = true;
+		header('Location: /individual/');
 	} elseif ($sectionName=='mitstartup' || $sectionName=='startups') {
 		$redirect = true;
 		header('Location: /mitstartups/');

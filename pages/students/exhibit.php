@@ -1,12 +1,13 @@
 <h1>For Students</h1>
 
-<h2>Startups &amp; Projects</h2>
-<p>We at Techfair believe that innovative technology does not solely stem from a corporate or research setting. We are again opening up our booths to include individual student projects , student startups, and student groups on campus. Don't have a project? Come to the <a href="/events">fair</a> and support your friends!</p>
+<h2>Display at Techfair: Startups &amp; Projects</h2>
+<p>We at Techfair believe that innovative technology does not solely stem from a corporate or research setting. We are again opening up our booths to include individual student projects, student startups, and student groups on campus. Don't have a project? Come to the <a href="/events">fair</a> and support your friends!</p>
+<p><strong>Applications are due on Dec 3 </strong>and rolling afterwards.</p>
 <p>Learn more about how to get your own booth:
 <ul>
-	<li>for your <a href="/mitstartups/">student startup</a></li>
-	<li>for your <a href="/getabooth/">individual project</a></li>
-	<li>for your student group, send us an <a href="mailto:techfair-sr@mit.edu">email at techfair-sr@mit.edu</a>!</li>
+	<li>Get your own booth for your <a href="/mitstartups/">student startup</a></li>
+	<li>Get your own booth for your <a href="/getabooth/"> project</a></li>
+  <li>for your student group, send us an email at <a href="mailto:techfair-sr@mit.edu">techfair-sr@mit.edu</a>!</li>
 </ul>
 </p>
 <h2>Techfair Project Funding</h2>
