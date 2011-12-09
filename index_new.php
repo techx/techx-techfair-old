@@ -57,6 +57,82 @@
             height: 80px;
             background: url(img/homepage/sponsorheader.png);
         }
+        
+          /*make the navigation menu list*/
+        #nav {
+            width: 1000px;
+            list-style: none;
+            background: #ffffff;
+            margin: 0;
+            padding: 0;
+            overflow:hidden;
+        }
+        #nav a {
+        	color:black;
+        	font-family: sans-serif;
+        	text-decoration: none;
+        }
+        #nav a:hover{
+        	text-decoration: underline;
+        }
+        
+        /*apply general rules for menu items*/
+        #nav li{
+            float: left;
+			width: 250px;
+			text-align: center;
+			border-left:1px solid #666666;
+			box-sizing: border-box;
+			list-style:none;
+			background:#ffffff;
+        }
+        #nav li:first-child {
+        	border: 0;
+        }
+         #nav li:last-child {
+        	border: 0;
+        }
+        
+        /*fill the entire box with the link*/
+        #nav > li > a{
+        	padding: 2px 0;
+        	display: block;
+        }
+        
+        /*transition for submenu growth */
+		#subMenu, #subMenu li{
+			transition: height 0.3s;
+			-moz-transition: height 0.3s; /* Firefox 4 */
+			-webkit-transition: height 0.3s; /* Safari and Chrome */
+			-o-transition: height 0.3s; /* Opera */
+		}
+		
+		#subMenu li{
+			border:0;
+			height:0;
+			width:1000px;
+			background:#ffffff;
+			overflow:hidden;
+		}
+		 
+        #subMenu a {
+        	display:inline-block;
+        	margin-top:15px;
+        	margin-left:100px;
+        }
+        #subMenu a:first-child {
+        	margin-left:0;
+        }
+		
+		/*Display the corresponding submenu on hover, keep it open while hovering over it */
+		#eMain:hover ~ #subMenu > ul > #eSub, #eSub:hover, 
+		#sMain:hover ~ #subMenu > ul > #sSub, #sSub:hover, 
+		#cMain:hover ~ #subMenu > ul > #cSub, #cSub:hover, 
+		#aMain:hover ~ #subMenu > ul > #aSub, #aSub:hover, 
+		#nav:hover #subMenu{
+			height:50px;
+		}
+       
     </style>
 
 </head>
@@ -65,20 +141,28 @@
         <div id="header">
             <a id="logo">Techfair</a>
         </div>
-        <ul id="nav">
-            <li>
-                Events
-            </li>
-            <li>
-                For Students
-            </li>
-            <li>
-                For Companies
-            </li>
-            <li>
-                About Us
-            </li>
-        </ul>
+       <ul id="nav">
+			<li id="eMain">
+				<a href="#">Events</a>
+			</li>
+			<li id="sMain">
+				<a href="#">For Students</a>
+			</li>
+			<li id="cMain">
+				<a href="#">For Companies</a>
+			</li>
+			<li id="aMain">
+				<a href="#">About Us</a>
+			</li>
+			<li id="subMenu">
+				<ul>
+					<li id="eSub"><a href="#">Hack-a-thon</a> <a href="#">The Fair</a> <a href="#">TechTalks</a> <a href="#">Banquet</a> <a href="#">Afterparty</a></li>
+					<li id="sSub"><a href="#">2012 List of Exibitors</a> <a href="#">Startups & Projects</a> <a href="#">Project Funding</a> </li>
+					<li id="cSub"><a href="#">2012 List of Exibitors</a> <a href="#">Sponsorship Packages</a> <a href="#">Portal</a> </li>
+					<li id="aSub"><a href="#">Exec Team</a> <a href="#">Past Sponsors</a></li>
+				</ul>
+			</li>
+		</ul>
         <div id="slideshow">
         
         </div>
