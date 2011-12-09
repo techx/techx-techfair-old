@@ -58,6 +58,7 @@
             background: url(img/homepage/sponsorheader.png);
         }
         
+       
           /*make the navigation menu list*/
         #nav {
             width: 1000px;
@@ -67,17 +68,9 @@
             padding: 0;
             overflow:hidden;
         }
-        #nav a {
-        	color:black;
-        	font-family: sans-serif;
-        	text-decoration: none;
-        }
-        #nav a:hover{
-        	text-decoration: underline;
-        }
         
         /*apply general rules for menu items*/
-        #nav li{
+        #nav li {
             float: left;
 			width: 250px;
 			text-align: center;
@@ -89,50 +82,65 @@
         #nav li:first-child {
         	border: 0;
         }
-         #nav li:last-child {
+        #nav li:last-child {
         	border: 0;
         }
         
-        /*fill the entire box with the link*/
         #nav > li > a{
         	padding: 2px 0;
         	display: block;
         }
         
-        /*transition for submenu growth */
-		#subMenu, #subMenu li{
+		#subMenu {
+			height:0px;
+			width:1000px;
 			transition: height 0.3s;
 			-moz-transition: height 0.3s; /* Firefox 4 */
 			-webkit-transition: height 0.3s; /* Safari and Chrome */
 			-o-transition: height 0.3s; /* Opera */
 		}
-		
-		#subMenu li{
+		#subMenu ul {
+        	list-style: none;
+        	margin: 0;
+        	padding: 0;
+        	width: 1000px;
+        }
+      
+		#subMenu li {
 			border:0;
-			height:0;
-			width:1000px;
-			background:#ffffff;
-			overflow:hidden;
+			height:200px;
+			width:250px;
+			background:#ffffff;			
 		}
-		 
-        #subMenu a {
-        	display:inline-block;
+		#nav a {
+			color: #000;
+			text-decoration: none;
+		}
+		#nav a:hover {
+			text-decoration: underline;
+		}
+		#subMenu a {
+			color: #ccc;
+			display:block;
         	margin-top:15px;
-        	margin-left:100px;
-        }
-        #subMenu a:first-child {
-        	margin-left:0;
-        }
-		
-		/*Display the corresponding submenu on hover, keep it open while hovering over it */
-		#eMain:hover ~ #subMenu > ul > #eSub, #eSub:hover, 
-		#sMain:hover ~ #subMenu > ul > #sSub, #sSub:hover, 
-		#cMain:hover ~ #subMenu > ul > #cSub, #cSub:hover, 
-		#aMain:hover ~ #subMenu > ul > #aSub, #aSub:hover, 
-		#nav:hover #subMenu{
-			height:50px;
+
+			transition: color 0.3s;
+			-moz-transition: color 0.3s; /* Firefox 4 */
+			-webkit-transition: color 0.3s; /* Safari and Chrome */
+			-o-transition: color 0.3s; /* Opera */
 		}
-       
+		/*Display the corresponding submenu on hover, keep it open while hovering over it */
+		#eMain:hover ~ #subMenu > ul > #eSub a, #eSub:hover a,
+		#sMain:hover ~ #subMenu > ul > #sSub a, #sSub:hover a,
+		#cMain:hover ~ #subMenu > ul > #cSub a, #cSub:hover a,
+		#aMain:hover ~ #subMenu > ul > #aSub a, #aSub:hover a {
+			color: #000;
+		}
+		#nav:hover #subMenu {
+			height:200px;
+		}
+        
+        
     </style>
 
 </head>
