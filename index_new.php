@@ -5,9 +5,34 @@
     <title>MIT Techfair</title>
     <link href='http://fonts.googleapis.com/css?family=Galdeano' rel='stylesheet' type='text/css'>
     
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        
     <script type="text/javascript">
       var _gaq = _gaq || [];  _gaq.push(['_setAccount', 'UA-19969189-3']);  _gaq.push(['_trackPageview']);
       (function() {    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);  })();
+    
+    var i = 0;
+    function advanceSlide() {
+    console.log (i);
+        $("#slideshow img").eq((i+1) %5).removeClass("hide");
+        $("#slideshow img").eq((i+1) %5).addClass("show");
+        setTimeout(hideSlide, 000);
+            i++; 
+        $("#slideshow img").eq((i+1) %5).removeClass();
+            i = i %5;
+    }
+    function hideSlide() {
+	    var j = i-1;
+	    if (j < 0) {
+		    j += 5;
+		}
+	    $("#slideshow img").eq(j).removeClass("show");
+	    $("#slideshow img").eq(j).addClass("hide");
+    }
+
+    $(document).ready(function() {
+        setInterval(advanceSlide, 8000);
+    });
     </script>
     
     <style>
@@ -41,16 +66,42 @@
         }
         #nav li{
             display: block;
-            float: left;
-            
+            float: left;   
         }
-        #slideshow {
-            clear: both;
+       #slideshow {
+            height: 665 px;
+            width: 1000 px;
+            overflow: hidden;
+            position: relative;
         }
         #overlay {
-            width: 100%;
-            background: url();
-            
+            position: absolute;
+        	top: 20px;
+        	height: 665px;
+        	width: 1000px;
+        	background-image: url(http://i19.photobucket.com/albums/b169/3xc1m4tion/slideshow-pixels.png);
+        	z-index: 150;
+        }
+        #slideshow img {
+            position: absolute;
+            top: 665px;
+    	    z-index: 1;
+        }
+        #slideshow img.show {
+            top: 0;
+            display: block;
+            transition: top 2s ease 0s;
+        	-moz-transition: top 2s ease 0s;
+        	-webkit-transition: top 2s ease 0s;
+        	z-index: 100;
+        }
+        #slideshow img.hide {
+            top: -665;
+            display: block;
+            transition: top 2s ease 0s;
+        	-moz-transition: top 2s ease 0s;
+        	-webkit-transition: top 2s ease 0s;
+        	z-index: 100;
         }
         #linkout {
             padding: 10px;
@@ -189,10 +240,13 @@
                 </ul>
             </li>
         </ul>
+        <div id="overlay"></div>
         <div id="slideshow">
-        
-        </div>
-        <div id="overlay">
+            <img class="show" src="http://i19.photobucket.com/albums/b169/3xc1m4tion/1.png"/>
+            <img src="http://i19.photobucket.com/albums/b169/3xc1m4tion/2.png"/>
+            <img src="http://i19.photobucket.com/albums/b169/3xc1m4tion/3.png"/>
+            <img src="http://i19.photobucket.com/albums/b169/3xc1m4tion/4.png"/>
+            <img src="http://i19.photobucket.com/albums/b169/3xc1m4tion/5.png"/>
         </div>
         <div id="linkout">
             <a href="mailto:techfair-exec@mit.edu">techfair-exec@mit.edu</a>
