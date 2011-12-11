@@ -64,7 +64,6 @@
             width: 1000px;
             overflow: hidden;
             position: relative;
-            margin-top: 10px;
         }
         #overlay {
             position: absolute;
@@ -130,7 +129,6 @@
             border-left:1px solid #999;
             box-sizing: border-box;
             list-style:none;
-            background:#ffffff;
         }
         #nav li:first-child {
             border: 0;
@@ -144,27 +142,30 @@
             display: block;
         }
         
-        #subMenu {
+        #nav #subMenu {
             height:0px;
             width:1000px;
             transition: height 0.3s;
             -moz-transition: height 0.3s; /* Firefox 4 */
             -webkit-transition: height 0.3s; /* Safari and Chrome */
             -o-transition: height 0.3s; /* Opera */
+            -moz-box-shadow: 5px 5px 5px #ccc;
+            -webkit-box-shadow: 5px 5px 5px #ccc;
+            box-shadow: inset 0 5px 5px #EEE;
+            background: #FAFAFA;
+            margin-top: 10px;
         }
         #subMenu ul {
             list-style: none;
             margin: 0;
             padding: 0;
             width: 1000px;
-            background: yellow;
         }
       
         #subMenu li {
             border:0;
             height:200px;
             width:250px;
-            background:#ffffff;
         }   
         #nav a {
             color: #000;
