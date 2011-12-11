@@ -79,7 +79,7 @@
         	top: 20px;
         	height: 665px;
         	width: 1000px;
-        	background-image: url(http://i19.photobucket.com/albums/b169/3xc1m4tion/slideshow-pixels.png);
+        	background: url('img/homepage/slideshow-pixels.png') no-repeat center bottom;
         	z-index: 150;
         }
         #slideshow img {
