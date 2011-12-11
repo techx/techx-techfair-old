@@ -49,9 +49,10 @@
             background: url();
             
         }
-        #linkout {
+        #linkout, #linkout a {
             width: 100%;
             color: #006cff;
+            vertical-align: middle;
         }
         #copyright {
             float: right;
