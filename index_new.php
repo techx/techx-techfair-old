@@ -73,10 +73,11 @@
             width: 1000px;
             overflow: hidden;
             position: relative;
+            margin-top: 10px;
         }
         #overlay {
             position: absolute;
-            top: 20px;
+            top: 0;
             height: 665px;
             width: 1000px;
             background-image: url(http://i19.photobucket.com/albums/b169/3xc1m4tion/slideshow-pixels.png);
