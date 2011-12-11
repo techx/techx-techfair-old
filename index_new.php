@@ -121,13 +121,13 @@
         /*apply general rules for menu items*/
         #nav li {
             float: left;
-            width: 250px;
+            width: 249px;
             text-align: center;
             border-left:1px solid #999;
-            box-sizing: border-box;
             list-style:none;
         }
         #nav li:first-child {
+        	width:250px;
             border: 0;
         }
         #nav li:last-child {
