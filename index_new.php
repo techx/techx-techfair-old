@@ -73,6 +73,7 @@
             width: 1000px;
             overflow: hidden;
             position: relative;
+            margin-top: 10px;
         }
         #overlay {
             position: absolute;
