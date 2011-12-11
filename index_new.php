@@ -69,8 +69,8 @@
             float: left;   
         }
        #slideshow {
-            height: 665 px;
-            width: 1000 px;
+            height: 665px;
+            width: 1000px;
             overflow: hidden;
             position: relative;
         }
