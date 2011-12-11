@@ -52,8 +52,10 @@
             background: url();
             
         }
+        #linkout {
+            padding: 10px;
+        }
         #linkout, #linkout a {
-            width: 100%;
             color: #006cff;
             vertical-align: top;
         }
@@ -82,7 +84,7 @@
             float: left;
             width: 250px;
             text-align: center;
-            border-left:1px solid #666666;
+            border-left:1px solid #999;
             box-sizing: border-box;
             list-style:none;
             background:#ffffff;
@@ -94,8 +96,8 @@
             border: 0;
         }
         
-        #nav > li > a{
-            padding: 2px 0;
+        #nav > li > a {
+            padding: 2px 0;;
             display: block;
         }
         
@@ -112,14 +114,15 @@
             margin: 0;
             padding: 0;
             width: 1000px;
+            background: yellow;
         }
       
         #subMenu li {
             border:0;
             height:200px;
             width:250px;
-            background:#ffffff;            
-        }
+            background:#ffffff;
+        }   
         #nav a {
             color: #000;
             text-decoration: none;
@@ -142,12 +145,18 @@
         #sMain:hover ~ #subMenu > ul > #sSub a, #sSub:hover a,
         #cMain:hover ~ #subMenu > ul > #cSub a, #cSub:hover a,
         #aMain:hover ~ #subMenu > ul > #aSub a, #aSub:hover a {
-            color: #000;
+            color: #666;
+        }
+        #eSub:hover a:hover,
+        #sSub:hover a:hover,
+        #cSub:hover a:hover,
+        #aSub:hover a:hover {
+            color: #AAA;
+            text-decoration: none;
         }
         #nav:hover #subMenu {
             height:200px;
         }
-        
         
     </style>
 
@@ -173,9 +182,10 @@
             <li id="subMenu">
                 <ul>
                     <li id="eSub"><a href="#">Hack-a-thon</a> <a href="#">The Fair</a> <a href="#">TechTalks</a> <a href="#">Banquet</a> <a href="#">Afterparty</a></li>
-                    <li id="sSub"><a href="#">2012 List of Exibitors</a> <a href="#">Startups & Projects</a> <a href="#">Project Funding</a> </li>
+                    <li id="sSub"><a href="http://google.com">2012 List of Exibitors</a> <a href="#">Startups & Projects</a> <a href="#">Project Funding</a> </li>
                     <li id="cSub"><a href="#">2012 List of Exibitors</a> <a href="#">Sponsorship Packages</a> <a href="#">Portal</a> </li>
                     <li id="aSub"><a href="#">Exec Team</a> <a href="#">Past Sponsors</a></li>
+                    <li style="clear:both"></li>
                 </ul>
             </li>
         </ul>
