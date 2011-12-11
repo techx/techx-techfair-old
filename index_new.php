@@ -13,21 +13,12 @@
     
     var i = 0;
     function advanceSlide() {
-    console.log (i);
-        $("#slideshow img").eq((i+1) %5).removeClass("hide");
-        $("#slideshow img").eq((i+1) %5).addClass("show");
-        setTimeout(hideSlide, 000);
-            i++; 
-        $("#slideshow img").eq((i+1) %5).removeClass();
-            i = i %5;
-    }
-    function hideSlide() {
-        var j = i-1;
-        if (j < 0) {
-            j += 5;
-        }
-        $("#slideshow img").eq(j).removeClass("show");
-        $("#slideshow img").eq(j).addClass("hide");
+    console.log (i);    
+        $("#slideshow img").eq((i+2) %5).removeClass();
+        $("#slideshow img").eq((i+1) %5).removeClass("hide").addClass("show");
+        $("#slideshow img").eq(i).removeClass("show").addClass("hide");
+        i++;
+        i = i %5;
     }
 
     $(document).ready(function() {
@@ -97,7 +88,7 @@
             z-index: 100;
         }
         #slideshow img.hide {
-            top: -665;
+            top: -665px;
             display: block;
             transition: top 2s ease 0s;
             -moz-transition: top 2s ease 0s;
