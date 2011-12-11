@@ -22,12 +22,12 @@
             i = i %5;
     }
     function hideSlide() {
-	    var j = i-1;
-	    if (j < 0) {
-		    j += 5;
-		}
-	    $("#slideshow img").eq(j).removeClass("show");
-	    $("#slideshow img").eq(j).addClass("hide");
+        var j = i-1;
+        if (j < 0) {
+            j += 5;
+        }
+        $("#slideshow img").eq(j).removeClass("show");
+        $("#slideshow img").eq(j).addClass("hide");
     }
 
     $(document).ready(function() {
@@ -85,23 +85,23 @@
         #slideshow img {
             position: absolute;
             top: 665px;
-    	    z-index: 1;
+            z-index: 1;
         }
         #slideshow img.show {
             top: 0;
             display: block;
             transition: top 2s ease 0s;
-        	-moz-transition: top 2s ease 0s;
-        	-webkit-transition: top 2s ease 0s;
-        	z-index: 100;
+            -moz-transition: top 2s ease 0s;
+            -webkit-transition: top 2s ease 0s;
+            z-index: 100;
         }
         #slideshow img.hide {
             top: -665;
             display: block;
             transition: top 2s ease 0s;
-        	-moz-transition: top 2s ease 0s;
-        	-webkit-transition: top 2s ease 0s;
-        	z-index: 100;
+            -moz-transition: top 2s ease 0s;
+            -webkit-transition: top 2s ease 0s;
+            z-index: 100;
         }
         #linkout {
             padding: 10px;
@@ -240,8 +240,8 @@
                 </ul>
             </li>
         </ul>
-        <div id="overlay"></div>
         <div id="slideshow">
+            <div id="overlay"></div>
             <img class="show" src="http://i19.photobucket.com/albums/b169/3xc1m4tion/1.png"/>
             <img src="http://i19.photobucket.com/albums/b169/3xc1m4tion/2.png"/>
             <img src="http://i19.photobucket.com/albums/b169/3xc1m4tion/3.png"/>
