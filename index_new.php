@@ -51,13 +51,10 @@
             display: inline-block;
             background: url(img/homepage/logo.png);
         }
-        #nav {
-            width: 100%;
-            list-style: none;
-        }
         #nav li{
             display: block;
             float: left;   
+            margin-bottom: 10px;
         }
        #slideshow {
             height: 665px;
@@ -113,10 +110,10 @@
 
         /*make the navigation menu list*/
         #nav {
+            margin: 10px 0 0;
             width: 1000px;
             list-style: none;
             background: #ffffff;
-            margin: 0;
             padding: 0;
             overflow:hidden;
         }
@@ -143,17 +140,17 @@
         }
         
         #nav #subMenu {
-            height:0px;
+            height:0;
             width:1000px;
             transition: height 0.3s;
             -moz-transition: height 0.3s; /* Firefox 4 */
             -webkit-transition: height 0.3s; /* Safari and Chrome */
             -o-transition: height 0.3s; /* Opera */
-            -moz-box-shadow: 5px 5px 5px #ccc;
-            -webkit-box-shadow: 5px 5px 5px #ccc;
-            box-shadow: inset 0 5px 5px #EEE;
+            -moz-box-shadow: inset 0 5px 5px #EEE;
+            -webkit-box-shadow: inset 0 5px 5px #EEE;
+            box-shadow: inset 0 5px 5px rgba(0,0,0,0.1), inset 0 -5px 5px rgba(0,0,0,0.1);
             background: #FAFAFA;
-            margin-top: 10px;
+            margin: 0;
         }
         #subMenu ul {
             list-style: none;
@@ -175,7 +172,7 @@
             text-decoration: underline;
         }
         #subMenu a {
-            color: #ccc;
+            color: #bbb;
             display:block;
             margin-top:15px;
 
@@ -229,7 +226,6 @@
                     <li id="sSub"><a href="http://google.com">2012 List of Exibitors</a> <a href="#">Startups & Projects</a> <a href="#">Project Funding</a> </li>
                     <li id="cSub"><a href="#">2012 List of Exibitors</a> <a href="#">Sponsorship Packages</a> <a href="#">Portal</a> </li>
                     <li id="aSub"><a href="#">Exec Team</a> <a href="#">Past Sponsors</a></li>
-                    <li style="clear:both"></li>
                 </ul>
             </li>
         </ul>
