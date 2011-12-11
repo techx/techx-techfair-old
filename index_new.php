@@ -117,17 +117,18 @@
             padding: 0;
             overflow:hidden;
         }
-        
+
         /*apply general rules for menu items*/
         #nav li {
+        	margin: 0;
             float: left;
-            width: 250px;
+            width: 249px;
             text-align: center;
             border-left:1px solid #999;
-            box-sizing: border-box;
             list-style:none;
         }
         #nav li:first-child {
+        	width:250px;
             border: 0;
         }
         #nav li:last-child {
@@ -135,7 +136,7 @@
         }
         
         #nav > li > a {
-            padding: 2px 0;;
+            padding: 5px 0;;
             display: block;
         }
         
@@ -160,10 +161,19 @@
         }
       
         #subMenu li {
-            border:0;
+            border-left: 1px solid #ddd;
             height:200px;
-            width:250px;
+            width:249px;
         }   
+         #subMenu li:first-child {
+        	width:250px;
+            border: 0;
+        }
+         #subMenu li:last-child {
+        	width:249px;
+            border-left: 1px solid #ddd;
+        }
+
         #nav a {
             color: #000;
             text-decoration: none;
