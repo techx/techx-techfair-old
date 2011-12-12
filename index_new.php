@@ -322,12 +322,11 @@
         	    <a id="palantir" href=http://www.palantir.com><img src="http://i19.photobucket.com/albums/b169/3xc1m4tion/palantir.png"></a>
         	    <a id="palantir" href=http://www.schlumberger.com><img src="http://i19.photobucket.com/albums/b169/3xc1m4tion/schlumberger.png"></a>
             	<a id="sequoia" href=http://www.sequoia.com><img src="http://i19.photobucket.com/albums/b169/3xc1m4tion/sequoia.png"></a>
-        </div>
+        </div><br>
 
 </div>
 </div>
     </div>
-    <br><br>
 </body>
 </html>
 
