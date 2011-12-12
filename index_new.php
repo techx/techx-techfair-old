@@ -119,6 +119,7 @@
             float: right;
         }
         
+        /*sponsors panel code*/
         #sponsors {
             height: 50px;
             width: 1000px;
