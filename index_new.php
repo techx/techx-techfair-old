@@ -26,7 +26,7 @@
     });
     
     var j = 0;
-    function advanceSlide() {
+    function nextSponsor() {
             $("#sponsorslide div").eq((j+1) %2).removeClass("hide").addClass("show");
             $("#sponsorslide div").eq((j) %2).removeClass("show").addClass("hide");
             setTimeout(reset, 2000);
@@ -38,7 +38,7 @@
     }
 
     $(document).ready(function() {
-        setInterval(advanceSlide, 8000);
+        setInterval(nextSponsor, 8000);
     });
     
     </script>
