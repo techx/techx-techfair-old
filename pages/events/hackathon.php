@@ -14,7 +14,7 @@
 	</form>
 </div>
 -->
-<p>Officially RSVP on <a href="http://www.facebook.com/event.php?eid=125783997485098">Facebook</a>.</p>
+<p>The details are still being hammered out - stay tuned!</p>
 <h2>What</h2>
 <p>The Hack-a-thon is a coding competition sponsored by Facebook. Hack individually, or form up to teams of 10!
 This competition is open to all MIT students. Build something awesome
@@ -27,7 +27,7 @@ Alto, CA.
 Judging is based 50% on the idea and 50% on the implementation.
 There will also be prizes, food, drink, and swag for everyone!</p>
 <h2>When</h2>
-<p><strong>January 30th to January 31st</strong>, <strong>10pm to 8am</strong>, the night before Techfair!</p>
+<p>TBA</p>
 <h2>Where</h2>
 <p><strong>Room 32-082</strong> - Stata Basement TEAL Room</p>
 <p>MIT students only.</p>
