@@ -24,6 +24,23 @@
     $(document).ready(function() {
         setInterval(advanceSlide, 8000);
     });
+    
+    var j = 0;
+    function advanceSlide() {
+            $("#sponsorslide div").eq((j+1) %2).removeClass("hide").addClass("show");
+            $("#sponsorslide div").eq((j) %2).removeClass("show").addClass("hide");
+            setTimeout(reset, 2000);
+                j++;
+                j = j %2;
+    }
+    function reset() {
+	        $("#sponsorslide div").eq((j+1) %2).removeClass();
+    }
+
+    $(document).ready(function() {
+        setInterval(advanceSlide, 8000);
+    });
+    
     </script>
     
     <style>
@@ -101,12 +118,47 @@
         #copyright {
             float: right;
         }
-        #sponsors{
-            width: 100%;
-            height: 80px;
-            background: url(img/homepage/sponsorheader.png);
+        
+        #sponsors {
+            height: 50px;
+            width: 1000px;
+            overflow: hidden;
+            position: relative;
+        	background-image: url(http://i19.photobucket.com/albums/b169/3xc1m4tion/sponsorheader.png);
+        	}
+        #sponsorslide {
+        	position: absolute;
+        	height: 30px;
+        	width: 1000px;
+        	top: 20px;
+        	overflow: hidden;
+        	}
+        #set {
+        	position: absolute;
+        	height: 30px;
+        	width: 1000px;
+        	top: 50px;
+        	}
+        #set img {
+        	padding-left: 30px;
+        	padding-right: 30px;
+        	}
+        #set.show {
+        	position: absolute;
+            top: 0;
+            display: block;
+            transition: top 2s ease 0s;
+        	-moz-transition: top 2s ease 0s;
+        	-webkit-transition: top 2s ease 0s;
         }
-
+        #set.hide {
+        	position: absolute;
+            top: -50px;
+            display: block;
+            transition: top 2s ease 0s;
+        	-moz-transition: top 2s ease 0s;
+	        -webkit-transition: top 2s ease 0s;
+        }
 
         /*make the navigation menu list*/
         #nav {
@@ -253,9 +305,26 @@
             <a href="http://twitter.com/mittechfair"><img src="img/homepage/twitter.png" alt="twitter" /></a>
             <span id="copyright">&copy; MIT Techfair 2012</span>
         </div>
-        <div id="sponsors">
-        
+        <div id="sponsors" align="center">
+            <div id="sponsorslide" >
+
+            <div id="set" class="show">
+                <a id="facebook" href=http://www.facebook.com><img src=http://i19.photobucket.com/albums/b169/3xc1m4tion/facebook.png></a>
+	            <a id="adobe" href=http://www.adobe.com><img src="http://i19.photobucket.com/albums/b169/3xc1m4tion/adobe.png"></a>
+	            <a id="cisco" href=http://www.cisco.com><img src="http://i19.photobucket.com/albums/b169/3xc1m4tion/cisco.png"></a>
+	            <a id="dropbox" href=http://www.dropbox.com><img src="http://i19.photobucket.com/albums/b169/3xc1m4tion/dropbox.png"></a>
+	            <a id="mozilla" href=http://www.mozilla.com><img src="http://i19.photobucket.com/albums/b169/3xc1m4tion/firefox.png"></a>
+            </div>
+            <div id="set">
+        	    <a id="microsoft" href=http://www.microsoft.com><img src="http://i19.photobucket.com/albums/b169/3xc1m4tion/microsoft.png"></a>
+        	    <a id="oracle" href=http://www.oracle.com><img src="http://i19.photobucket.com/albums/b169/3xc1m4tion/oracle.png"></a>
+        	    <a id="palantir" href=http://www.palantir.com><img src="http://i19.photobucket.com/albums/b169/3xc1m4tion/palantir.png"></a>
+        	    <a id="palantir" href=http://www.schlumberger.com><img src="http://i19.photobucket.com/albums/b169/3xc1m4tion/schlumberger.png"></a>
+            	<a id="sequoia" href=http://www.sequoia.com><img src="http://i19.photobucket.com/albums/b169/3xc1m4tion/sequoia.png"></a>
         </div>
+
+</div>
+</div>
     </div>
 </body>
 </html>
