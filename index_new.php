@@ -262,6 +262,98 @@
             height:200px;
         }
         
+	/*sponsors nav*/        
+	ul#sponsorlinks {
+		height: 29px;
+		overflow: hidden;
+		width: 1000px;
+		margin: 0 auto;
+		list-style: none;
+	}
+	ul#sponsorlinks li {
+		height: 29px;
+		overflow: hidden;
+		display:inline;
+		padding: 10px;
+	}
+	ul#sponsorlinks a {
+		height: 29px;
+		overflow: hidden;
+		float: left; 
+		text-indent: -9999px;
+		padding: 10px;
+	}
+	ul#sponsorlinks li#facebook a {
+		width: 150px;
+		background: url(http://i19.photobucket.com/albums/b169/3xc1m4tion/logos1.png) 0px 0px;
+	}
+	ul#sponsorlinks li#facebook a:hover{  
+    	background-position: 0px -29px;  
+	}  
+	ul#sponsorlinks li#adobe a {
+		width: 195px;
+		background: url(http://i19.photobucket.com/albums/b169/3xc1m4tion/logos1.png) -150px 0px;
+	}
+	ul#sponsorlinks li#adobe a:hover{  
+    	background-position: -150px -29px;  
+	}  
+	ul#sponsorlinks li#cisco a {
+		width: 134px;
+		background: url(http://i19.photobucket.com/albums/b169/3xc1m4tion/logos1.png) -363px 0px;
+	}
+	ul#sponsorlinks li#cisco a:hover{  
+	    background-position: -363px -29px;  
+	}  
+	ul#sponsorlinks li#dropbox a {
+		width: 159px;
+		background: url(http://i19.photobucket.com/albums/b169/3xc1m4tion/logos1.png) -547px 0px;
+	}
+	ul#sponsorlinks li#dropbox a:hover{  
+	    background-position: -547px -29px;  
+	}  
+	ul#sponsorlinks li#mozilla a {
+		width: 135px;
+		background: url(http://i19.photobucket.com/albums/b169/3xc1m4tion/logos1.png) -741px 0px;
+	}
+	ul#sponsorlinks li#mozilla a:hover{  
+	    background-position: -741px -29px;  
+	} 
+	ul#sponsorlinks li#microsoft a {
+		width: 160px;
+		background: url(http://i19.photobucket.com/albums/b169/3xc1m4tion/logos2.png) -40px 0px;
+	}
+	ul#sponsorlinks li#microsoft a:hover{  
+ 	   background-position: -40px -29px;  
+	}  
+	ul#sponsorlinks li#oracle a {
+		width: 176px;
+		background: url(http://i19.photobucket.com/albums/b169/3xc1m4tion/logos2.png) -223px 0px;
+	}
+	ul#sponsorlinks li#oracle a:hover{  
+	    background-position: -223px -29px;  
+	}  
+	ul#sponsorlinks li#palantir a {
+		width: 177px;
+		background: url(http://i19.photobucket.com/albums/b169/3xc1m4tion/logos2.png) -410px 0px;
+	}
+	ul#sponsorlinks li#palantir a:hover{  
+		background-position: -410px -29px;  
+	}  
+	ul#sponsorlinks li#schlumberger a {
+		width: 183px;
+		background: url(http://i19.photobucket.com/albums/b169/3xc1m4tion/logos2.png) -583px 0px;
+	}
+	ul#sponsorlinks li#schlumberger a:hover{  
+		background-position: -583px -29px;  
+	}  
+	ul#sponsorlinks li#sequoia a {
+		width: 200px;
+		background: url(http://i19.photobucket.com/albums/b169/3xc1m4tion/logos2.png) -783px 0px;
+	}
+	ul#sponsorlinks li#sequoia a:hover{  
+		background-position: -783px -29px;  
+	}  
+
     </style>
 
 </head>
@@ -309,20 +401,25 @@
         <div id="sponsors" align="center">
             <div id="sponsorslide" >
 
-            <div id="set" class="show">
-                <a id="facebook" href=http://www.facebook.com><img src=http://i19.photobucket.com/albums/b169/3xc1m4tion/facebook.png></a>
-	            <a id="adobe" href=http://www.adobe.com><img src="http://i19.photobucket.com/albums/b169/3xc1m4tion/adobe.png"></a>
-	            <a id="cisco" href=http://www.cisco.com><img src="http://i19.photobucket.com/albums/b169/3xc1m4tion/cisco.png"></a>
-	            <a id="dropbox" href=http://www.dropbox.com><img src="http://i19.photobucket.com/albums/b169/3xc1m4tion/dropbox.png"></a>
-	            <a id="mozilla" href=http://www.mozilla.com><img src="http://i19.photobucket.com/albums/b169/3xc1m4tion/firefox.png"></a>
-            </div>
-            <div id="set">
-        	    <a id="microsoft" href=http://www.microsoft.com><img src="http://i19.photobucket.com/albums/b169/3xc1m4tion/microsoft.png"></a>
-        	    <a id="oracle" href=http://www.oracle.com><img src="http://i19.photobucket.com/albums/b169/3xc1m4tion/oracle.png"></a>
-        	    <a id="palantir" href=http://www.palantir.com><img src="http://i19.photobucket.com/albums/b169/3xc1m4tion/palantir.png"></a>
-        	    <a id="palantir" href=http://www.schlumberger.com><img src="http://i19.photobucket.com/albums/b169/3xc1m4tion/schlumberger.png"></a>
-            	<a id="sequoia" href=http://www.sequoia.com><img src="http://i19.photobucket.com/albums/b169/3xc1m4tion/sequoia.png"></a>
-        </div><br>
+           
+	<div id="set" class="show">
+		<ul id="sponsorlinks">
+			<li id="facebook"><a href=http://www.facebook.com></a></li>
+			<li id="adobe"><a href=http://www.adobe.com></a></li>
+			<li id="cisco"><a href=http://www.cisco.com></a></li>
+			<li id="dropbox"><a href=http://www.dropbox.com></a></li>
+			<li id="mozilla"><a href=http://www.mozilla.com></a></li>
+		</ul>
+	</div>
+	<div id="set">
+		<ul id="sponsorlinks">
+			<li id="microsoft"><a href=http://www.microsoft.com></a></li>
+			<li id="oracle"><a href=http://www.oracle.com></a></li>
+			<li id="palantir"><a href=http://www.palantir.com></a></li>
+			<li id="schlumberger"><a href=http://www.schlumberger.com></a></li>
+			<li id="sequoia"><a href=http://www.sequoia.com></a></li>
+		</ul>        
+		</div><br>
 
 </div>
 </div>
