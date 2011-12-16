@@ -1,7 +1,7 @@
 <h1>Sponsorship Packages</h1>
 <p>TechFair offers three standard sponsorship packages, designated below. Aside from the amenities described, the higher sponsorships help companies maintain a larger physical and advertised presence as part of our TechFair campaign before and during the fair.</p>
 <p>The deadline for registration is <b>January 7, 2012</b>.</p>
-<p>Note: as of November 17, the gold package has been sold out and is no longer being offered. Our silver package is heartily recommended, though!</p>
+<p>Note: as of November 17, the gold package has been sold out and is no longer being offered.</p>
 <h2>Packages</h2>
 <?php
 function focus($p) {
@@ -110,4 +110,4 @@ function focus($p) {
 	</tr> 
 </table>
 <h1>Registration</h1>
-<p>If your company is interested in registering for MIT TechFair 2012, please contact <a href="mailto:techfair-cr-head@mit.edu">techfair-cr-head@mit.edu</a> for more information. <br><br> In addition to the aforementioned sponsorship packages, TechFair also offers custom sponsorships and opportunities. </p> 
+<p>If your company is interested in registering for MIT TechFair 2012, please contact <a href="mailto:techfair-cr@mit.edu">techfair-cr@mit.edu</a> for more information. <br><br> In addition to the aforementioned sponsorship packages, TechFair also offers custom sponsorships and opportunities. </p> 
