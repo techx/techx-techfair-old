@@ -49,6 +49,12 @@ else
 	} elseif ($sectionName=='mitstartup' || $sectionName=='startups') {
 		$redirect = true;
 		header('Location: /mitstartups/');
+	} elseif ($sectionName=='drop') {
+		$redirect = true;
+		header('Location: http://umeqo.com/techfair');
+	} elseif ($sectionName=='think') {
+		$redirect = true;
+		header('Location: http://mitthink.mit.edu');
 	} else {
 		$redirect = false;
 	}

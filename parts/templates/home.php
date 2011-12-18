@@ -29,7 +29,7 @@
     				<h1>
     					<a href="/"><span>MIT Techfair</span></a>
 						<div>
-							<h2>Techfair 2012 details coming soon</h2><h2>Event date: February 6th, 2012</h2>
+							<h2>Techfair 2012</h2><h2>Monday, February 6th, 2012 in Rockwell Cage</h2>
 						</div>
     				</h1>
     			</div>
@@ -40,11 +40,13 @@
 			<div id="event" class="box">
 				<h3>welcome</h3>
         <p>
-				Thank you for a successful Techfair 2011. We are currently planning for <b><i>Techfair 2012</b></i>, please check back later in the fall for updated event information!
+	  Techfair 2012 is planned for Spring Registration day (February 6th, 2012) in Rockwell Cage. Our lineup for this year will include a hackathon, an afterparty, a banquet, and a speaker series in addition to the Fair itself. More details to come!  
+<p>
+Drop off your resume for Techfair 2012 <a href="http://umeqo.com/techfair">here</a>. 
 <p>
 Check out our <a href="https://picasaweb.google.com/103604151821709535051/MITTechFair2011">photos from Techfair 2011</a>!
 				<p>
-				  In the mean time, feel free to <a href="mailto:techfair-exec@mit.edu">contact us</a> with any questions.
+				  <a href="mailto:techfair-exec@mit.edu">Contact us</a> with any questions.
 				
 
 <!--	begin schedule 
@@ -78,7 +80,7 @@ Check out our <a href="https://picasaweb.google.com/103604151821709535051/MITTec
     		<div id="think" class="box">
     			<h3>THINK</h3>
     			<p>high school science and technology competition</p>
-    			<p><a href="http://www.mittechfair.org/">more info &raquo;</a></p>
+    			<p><a href="http://mitthink.mit.edu">more info &raquo;</a></p>
     		</div>
     		<img src="img/photo1.jpg" id="photo1" class="box" />
 		</div>
@@ -113,8 +115,8 @@ Check out our <a href="https://picasaweb.google.com/103604151821709535051/MITTec
 	<div id="c3">
 		<div id="menu">
 			<ul>
-				<li id="map"><a href="/events/venue/" class="box">Techfair 2011</a></li>
-				<li id="team"><a href="http://techfair.mit.edu/pdf/booklet2011-web.pdf" class="box">2011 booklet</a></li>
+				<li id="map"><a href="/events/venue/" class="box">Techfair 2012</a></li>
+				<li id="team"><a href="http://techfair.mit.edu/pdf/booklet2011-web.pdf" class="box">Fair Booklet</a></li>
 				<li id="history"><a href="/about" class="box">about us</a></li>
 			</ul>
 		</div>
@@ -169,7 +171,7 @@ Check out our <a href="https://picasaweb.google.com/103604151821709535051/MITTec
 				<ul>
 					<li><a href="/about/">about us</a></li>
 					<li><a href="/contact/">contact us</a></li>
-					<li id="copyright">copyright 2006-2011 MIT Techfair</li>
+					<li id="copyright">copyright 2006-2012 MIT Techfair</li>
 				</ul>
 			</div>
 			<div style="clear:both"></div>

@@ -146,7 +146,7 @@ $routes = array(
 	),
 	'think' => array(
 		'name' => '<span>THINK</span>',
-		'external' => 'http://mittechfair.org/think/'
+		'external' => 'http://mitthink.mit.edu/'
 	),
 	'wiki' => array(
 		'name' => '<span>Wiki</span>',
@@ -185,11 +185,16 @@ $routes = array(
 		'show' => false
 	),
 
-		'2011checklist' => array(
-		    'title' => '2011 Student Checklist / '.$basetitle,
-		    'content' => 'pages/2011checklist.php',
-		    'name' => 'Checklist',
-			'show'=>'false'
-		)
+	'2011checklist' => array(
+		'title' => '2011 Student Checklist / '.$basetitle,
+		'content' => 'pages/2011checklist.php',
+		'name' => 'Checklist',
+		'show'=>'false'
+	),
+	'drop' => array(
+		'external' => 'http://www.umeqo.com/techfair',
+		'name' => 'Resume',
+		'show' => false
+	)
 );
 ?>
