@@ -1,4 +1,26 @@
-/*
+/* @license
+ * MyFonts Webfont Build ID 1918894, 2012-01-13T13:34:36-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Calluna Sans Regular by exljbris
+ * URL: http://www.myfonts.com/fonts/exljbris/calluna-sans/regular/
+ * Copyright: Copyright (c) 2010 by Jos Buivenga. All rights reserved.
+ * Licensed pageviews: unlimited
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=1918894
+ * 
+ * © 2012 Bitstream Inc
+*/
+
+ @font-face {font-family: 'CallunaSans-Regular';src: url('webfonts/1D47AE_0_0.eot');src: url('webfonts/1D47AE_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/1D47AE_0_0.woff') format('woff'),url('webfonts/1D47AE_0_0.ttf') format('truetype');}
+ 
+ /*
  * RESET
  */
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
@@ -36,11 +58,12 @@ abbr,acronym { border: 0;
  * GENERAL STYLES
  */
 body {
-	font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Galdeano', sans-serif;
 	font-size: 12px;
 	padding: 0;
 	margin: 0;
 	font-weight: 300;
+	background: #e6e6e6;
 }
 .clear {
 	clear: both;
@@ -68,53 +91,23 @@ div.error {
  * STRUCTURE
  */
 #container {
-	width: 940px;
 	margin: 0 auto;
+	width: 1000px;
+	background: #fff;
 }
 /* HEADER */
 #header{
-	border-top:10px solid #222;
-	background: url('../img/headerhr.gif') bottom repeat-x transparent;
-	padding-bottom: 10px;
+	width: 100%;
+    height: 121px;
+    background: url('../img/homepage/pixely.png') no-repeat top right;
 }
-#header-content{
-	margin: 0;
-	padding: 0;
-	background: url('../img/headerbg.png') bottom repeat-x transparent;
-}
-#header-inner {
-    width: 960px;
-    margin: 0 auto;
-}
-#header h1{
-	padding: 0;
-	height: 90px;
-	display: inline-block;
-}
-#header h1 a{
-	background: url('../img/header.png') no-repeat top left;
-	height: 80px;
-	width: 242px;
-	display: block; 
-	border: none;
-	font-size: 3px;
-	padding: 0;
-	margin: 0;
-	float: left;
-}
-#header h1 a span {
-	display: none;
-}
-#header h1 div {
-	height: 64px;
-	padding-top: 26px;
-	margin-left: 242px;
-}
-#header h2 {
-	font-size: 16px;
-	color: #444;
-	margin: 0 0 4px;
-	font-weight: 400;
+#logo {
+    text-indent: -1000em;
+    width: 333px;
+    height: 121px;
+    margin: 0 0 0 25px;
+    display: inline-block;
+    background: url('../img/homepage/logo.png') no-repeat left center;
 }
 
 #countdown {

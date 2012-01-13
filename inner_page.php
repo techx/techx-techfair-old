@@ -3,17 +3,18 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>MIT Techfair</title>
-    <link href='http://fonts.googleapis.com/css?family=Galdeano' rel='stylesheet' type='text/css'>
     
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
         
  
     <style>
+       @font-face {font-family: 'CallunaSans-Regular';src: url('css/webfonts/1D47AE_0_0.eot');src: url('css/webfonts/1D47AE_0_0.eot?#iefix') format('embedded-opentype'),url('css/webfonts/1D47AE_0_0.woff') format('woff'),url('css/webfonts/1D47AE_0_0.ttf') format('truetype');}
+ 
        body {
             background: #e6e6e6;
             margin: 0;
             padding: 0;
-            font-family: 'Galdeano', sans-serif;
+            font-family: 'CallunaSans-Regular', sans-serif;
         }
         #container {
             margin: 0 auto;
@@ -184,7 +185,7 @@
         #sSub:hover a:hover,
         #cSub:hover a:hover,
         #aSub:hover a:hover {
-            color: #AAA;
+            color: #111;
             text-decoration: none;
         }
         #nav:hover #subMenu {

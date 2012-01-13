@@ -27,11 +27,14 @@
     </script>
     
     <style>
+    	  
+ 		@font-face {font-family: 'CallunaSans-Regular';src: url('css/webfonts/1D47AE_0_0.eot');src: url('css/webfonts/1D47AE_0_0.eot?#iefix') format('embedded-opentype'),url('css/webfonts/1D47AE_0_0.woff') format('woff'),url('css/webfonts/1D47AE_0_0.ttf') format('truetype');}
+ 
         body {
             background: #e6e6e6;
             margin: 0;
             padding: 0;
-            font-family: 'Galdeano', sans-serif;
+            font-family: 'CallunaSans-Regular', sans-serif;
         }
         #container {
             margin: 0 auto;
@@ -47,7 +50,7 @@
             text-indent: -1000em;
             width: 333px;
             height: 121px;
-            margin: 10px 0 0 25px;
+            margin: 0px 0 0 25px;
             display: inline-block;
             background: url(img/homepage/logo.png) no-repeat left center;
         }
@@ -214,7 +217,7 @@
         #sSub:hover a:hover,
         #cSub:hover a:hover,
         #aSub:hover a:hover {
-            color: #AAA;
+            color: #111;
             text-decoration: none;
         }
         #nav:hover #subMenu {
