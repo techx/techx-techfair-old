@@ -50,7 +50,7 @@
             text-indent: -1000em;
             width: 333px;
             height: 121px;
-            margin: 10px 0 0 25px;
+            margin: 0px 0 0 25px;
             display: inline-block;
             background: url(img/homepage/logo.png) no-repeat left center;
         }
@@ -217,7 +217,7 @@
         #sSub:hover a:hover,
         #cSub:hover a:hover,
         #aSub:hover a:hover {
-            color: #AAA;
+            color: #111;
             text-decoration: none;
         }
         #nav:hover #subMenu {
