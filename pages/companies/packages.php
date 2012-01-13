@@ -1,13 +1,13 @@
 <h1>Sponsorship Packages</h1>
 <p>TechFair offers three standard sponsorship packages, designated below. Aside from the amenities described, the higher sponsorships help companies maintain a larger physical and advertised presence as part of our TechFair campaign before and during the fair.</p>
 <p>The deadline for registration is <b>January 7, 2012</b>.</p>
-<p>Note: as of November 17, the gold package has been sold out and is no longer being offered.</p>
+<p><strong>Note: as of January 12, all packages have been sold out and are no longer being offered. Reach out to us if you'd like to be added to the waiting list.</strong></p>
 <h2>Packages</h2>
 <?php
 function focus($p) {
     if ($p=='g' && (true || isset($_GET['s']) || isset($_GET['b'])) && !isset($_GET['g'])) echo ' class="unfocus"';
-    if ($p=='s' && (isset($_GET['g']) || isset($_GET['b'])) && !isset($_GET['s'])) echo ' class="unfocus"';
-    if ($p=='b' && (isset($_GET['g']) || isset($_GET['s'])) && !isset($_GET['b'])) echo ' class="unfocus"';
+    if ($p=='s' && (true || isset($_GET['g']) || isset($_GET['b'])) && !isset($_GET['s'])) echo ' class="unfocus"';
+    if ($p=='b' && (true || isset($_GET['g']) || isset($_GET['s'])) && !isset($_GET['b'])) echo ' class="unfocus"';
 }
 ?>
 <table id="sponsorship"> 
