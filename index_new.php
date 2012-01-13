@@ -66,7 +66,7 @@
             height: 121px;
             margin: 10px 0 0 25px;
             display: inline-block;
-            background: url(img/homepage/logo.png) no-repeat bottom left;
+            background: url(img/homepage/logo.png) no-repeat left center;
         }
         #nav li{
             display: block;
