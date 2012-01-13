@@ -396,7 +396,9 @@
             </li>
         </ul>
         <div id="slideshow">
-            <div id="info"></div>
+            <div id="info">
+                <h2>Introducing Techfair 2012</h2>
+            </div>
             <div id="overlay"></div>
             <img class="show" src="http://i19.photobucket.com/albums/b169/3xc1m4tion/1.png"/>
             <img src="http://i19.photobucket.com/albums/b169/3xc1m4tion/2.png"/>
