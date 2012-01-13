@@ -83,7 +83,7 @@ $routes = array(
 		'exhibitorlist' => array(
 		    'title' => 'Events / '.$basetitle,
 		    'content' => 'pages/companies/exhibitorlist.php',
-		    'name' => '2011 List of Exhibitors'
+		    'name' => '2012 List of Exhibitors'
 		),
 		'packages' => array(
 			'title' => 'Sponsorship / '.$basetitle,
@@ -104,7 +104,7 @@ $routes = array(
 		),
 		'exhibitors' => array(
 			'external' => '/companies/exhibitorlist/',
-			'name' => '2011 List of Exhibitors'
+			'name' => '2012 List of Exhibitors'
 		),
 		'displays' => array(
 			'external' => '/students/',
