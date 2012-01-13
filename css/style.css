@@ -18,7 +18,13 @@
  * © 2012 Bitstream Inc
 */
 
- @font-face {font-family: 'CallunaSans-Regular';src: url('webfonts/1D47AE_0_0.eot');src: url('webfonts/1D47AE_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/1D47AE_0_0.woff') format('woff'),url('webfonts/1D47AE_0_0.ttf') format('truetype');}
+/*
+ @font-face {
+      font-family: 'CallunaSans-Regular';
+      src: url('webfonts/1D47AE_0_0.eot');
+      src: url('webfonts/1D47AE_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/1D47AE_0_0.woff') format('woff'),url('webfonts/1D47AE_0_0.ttf') format('truetype');
+}
+*/
  
  /*
  * RESET
@@ -58,7 +64,7 @@ abbr,acronym { border: 0;
  * GENERAL STYLES
  */
 body {
-    font-family: 'CallunaSans-Regular', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
 	padding: 0;
 	margin: 0;
@@ -276,27 +282,6 @@ float:left;
     float: right;
 }
 
-/*sponsors panel code*/
-#sponsors {   
-    position: relative;
-    border-top: 1px solid rgb(255,160,51);
-    text-align: center;
-    padding: 30px 0;
-}
-#sponsors h1 {
-    position: absolute;
-    top: -8px;
-    left: 50%;
-    width: 160px;
-    margin-left: -80px;
-    font-size: 16px;
-    font-weight: 400;
-    background: white;
-}
-#sponsors a {
-	color: #006cff;
-	text-decoration: none;
-}
 
 /* SPONSORSHIP TABLE */
 table#sponsorship {
@@ -609,11 +594,11 @@ ul#sponsorlinks #andmore a {
 	width:100%;
 }
 #column-left {
-	width: 50%;
+	width: 470px;
 	float:left;
 }
 #column-right {
-	width: 50%;
+     width: 470px;
 	float:right;
 }
 #column-bottom {
@@ -714,13 +699,17 @@ ul#sponsorlinks #andmore a {
 }
 #sponsors h1 {
     position: absolute;
-    top: -18px;
+    top: -12px;
     left: 50%;
-    width: 160px;
+    width: 200px;
     margin-left: -80px;
     font-size: 16px;
     font-weight: 400;
     background: white;
+}
+#sponsors a {
+    color: #006cff;
+    text-decoration: none;
 }
 
 #slideshow {
@@ -772,7 +761,7 @@ ul#sponsorlinks #andmore a {
 
 #info {
      background: rgba(255, 255, 255, 0.7);
-     width: 550px;
+     width: 400px;
      padding: 10px;
      z-index: 200;
      position: absolute;
@@ -783,8 +772,10 @@ ul#sponsorlinks #andmore a {
      border-bottom: 1px solid rgba(255,255,255,0.9);
 }
 #info h2 {
-     font-size: 52px;
+     font-size: 46px;
      margin: 0 0 10px;
+     line-height: 46px;
+     border-bottom: 2px solid rgb(255,182,0);
 }
 #info h3 {
      margin-top: 20px;
@@ -793,14 +784,13 @@ ul#sponsorlinks #andmore a {
 #info p {
      margin: 10px 0;
      font-family: Helvetica, Arial, sans-serif;
-     line-height: 24px;
+     line-height: 26px;
 }
 #info p strong {
      font-weight: 600;
 }
 #info p em {
      font-style: italic;
-     border-bottom: 1px solid rgb(255,128,0);
 }
 #info a {
      color: #006cff;

@@ -62,6 +62,3 @@ function make_header($sectionName,$subSectionName,$routes)
 						<?php endforeach;?>
 					</li>
 		</ul>
-<?php
-}
-?>

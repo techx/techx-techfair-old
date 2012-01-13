@@ -6,7 +6,8 @@ require('parts/header.php');
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>MIT Techfair</title>
-    <link href='http://fonts.googleapis.com/css?family=Galdeano' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600' rel='stylesheet' type='text/css'>
+    
     
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
         
@@ -64,14 +65,9 @@ require('parts/header.php');
                 <h2>Introducing Techfair 2012</h2>
                 <h3>Techfair is at Rockwell Cage on February 6th!</h3>
                 <p>
-                    With <strong>over 50</strong> companies, this year's fair is bound to be the largest yet.
-                    Come see awesome companies like <em>Facebook</em>, <em>Apple</em>, <em>GE</em>, <em>Bose</em>, <em>Lytro</em>, and <em>Merck</em> show off their latest and greatest, next to
-                    student groups with <em>solar electric vehicles</em>, giant <em>Wimhurst machines</em>, <em>life-sized tetris boards</em>, and more.
+                    With <strong>over 50 companies</strong>, this year's student-run fair is bound to be the largest yet.
                 </p>
-                <h3>Students</h3>
                 <p>Be sure to <a href="http://umeqo.com/techfair">drop your resume</a> before the fair, and check out the <a href="#">fair schedule</a>. Don't miss out on the hackathon and banquet!</p>
-                <h3>Companies</h3>
-                <p>We've seen soaringly high demand this year, and we're all out of booths. To get on the waitlist, contact <a href="mailto:techfair-cr@mit.edu">the CR committee</a>.</p>
             </div>
             <div id="overlay"></div>
             <img class="show" src="http://i19.photobucket.com/albums/b169/3xc1m4tion/1.png"/>
