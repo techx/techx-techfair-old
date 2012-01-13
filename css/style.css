@@ -196,7 +196,7 @@ float:left;
 #submenu a {
     color: #bbb;
     display:block;
-    margin-top:15px;
+    margin-top:10px;
 
     transition: color 0.3s;
     -moz-transition: color 0.3s; /* Firefox 4 */
@@ -715,6 +715,7 @@ h2.schedule{
 #info h3 {
      margin-top: 20px;
      font-size: 22px;
+     font-weight: 300;
 }
 #info p {
      margin: 10px 0;

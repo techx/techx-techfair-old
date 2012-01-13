@@ -38,9 +38,9 @@
         <div id="slideshow">
             <div id="info">
                 <h2>Introducing Techfair 2012</h2>
-                <h3>Techfair comes to Rockwell Cage on February 6th!</h3>
+                <h3>Rockwell Cage - February 6</h3>
                 <p>
-                    With <strong>over 50 companies</strong>, this year's student-run fair is bound to be the largest yet.
+                    With <strong><a href="/companies/exhibitorlist/">over 50 companies</a></strong>, this year's student-run fair is bound to be the largest yet.
                 </p>
                 <p>
                     Be sure to <a href="http://umeqo.com/techfair">drop your resume</a> before the fair, and check out the <a href="#">fair schedule</a>.

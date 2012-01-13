@@ -46,7 +46,7 @@ $routes = array(
 		),
 		'venue' => array(
 			'title' => 'The Fair / '.$basetitle,
-			'content' => 'pages/events/schedule.php',
+			'content' => 'pages/events/fair.php',
 			'name' => 'The Fair'
 		),
 		'talks' => array(
@@ -95,10 +95,6 @@ $routes = array(
 		//	'content' => 'pages/companies/register.php',
 		//	'name' => 'Register'
 		//),
-		'portal' => array(
-			'external' => 'http://www.mittechfair.org/portal/index.php',
-			'name' => 'Portal'
-		),
 	),
 	'students' => array(
 		'name' => 'For Students',
