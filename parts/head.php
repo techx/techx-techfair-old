@@ -4,7 +4,8 @@ function make_head($title)
 ?>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
 	<title><?php echo $title?></title>
-	<link type="text/css" href="/css/style.css" rel="stylesheet" media="screen" />
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600' rel='stylesheet' type='text/css'>
+	<link type="text/css" href="/css/style.css" rel="stylesheet" />
 	<!--[if IE]>
 	<style type="text.css">
 		.clearfix {
