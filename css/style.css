@@ -134,7 +134,7 @@ div.error {
     float: left;
     width: 249px;
     text-align: center;
-    border-left:1px solid #999;
+    border-left:1px solid #DDD;
     list-style:none;
 }
 #nav li:first-child {
@@ -148,6 +148,7 @@ div.error {
 #nav > li > a {
     padding: 5px 0;;
     display: block;
+    background: #F0F0F0;
 }
 
 #nav #submenu {
@@ -160,7 +161,7 @@ div.error {
     -moz-box-shadow: inset 0 5px 5px #EEE;
     -webkit-box-shadow: inset 0 5px 5px #EEE;
     box-shadow: inset 0 5px 5px rgba(0,0,0,0.1), inset 0 -5px 5px rgba(0,0,0,0.1);
-    background: #FAFAFA;
+    background: url(http://subtlepatterns.com/patterns/fabric_plaid.png);
     margin: 0;
 }
 #submenu ul {
@@ -186,7 +187,7 @@ float:left;
 }*/	
 
 #nav a {
-    color: #000;
+    color: #222;
     text-decoration: none;
 }
 #nav a:hover {
@@ -514,85 +515,6 @@ h2.schedule{
 }
 
 
-/*sponsors nav*/        
-ul#sponsorlinks {
-    height: 29px;
-    width: 1000px;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-ul#sponsorlinks li {
-    height: 29px;
-    float: center;
-    display:inline-block;
-}
-ul#sponsorlinks a {
-    display: inline-block;
-    height: 29px;
-    width: 120px;
-    text-indent: -9999px;
-}
-ul#sponsorlinks li#facebook a {
-    background: url(../img/homepage/sponsors.png) 0px 0px;
-}
-ul#sponsorlinks li#facebook a:hover{  
-    background-position: 0px -29px;  
-}  
-ul#sponsorlinks li#dropbox a {
-    background: url(../img/homepage/sponsors.png) -120px 0px;
-}
-ul#sponsorlinks li#dropbox a:hover{  
-    background-position: -120px -29px;  
-}  
-ul#sponsorlinks li#microsoft a {
-    background: url(../img/homepage/sponsors.png) -240px 0px;
-}
-ul#sponsorlinks li#microsoft a:hover{  
-    background-position: -240px  -29px;  
-}  
-ul#sponsorlinks li#oracle a {
-    background: url(../img/homepage/sponsors.png) -360px 0px;
-}
-ul#sponsorlinks li#oracle a:hover{  
-    background-position: -360px -29px;  
-}  
-ul#sponsorlinks li#palantir a {
-    background: url(../img/homepage/sponsors.png) -480px 0px;
-}
-ul#sponsorlinks li#palantir a:hover{  
-    background-position: -480px -29px;  
-}
-ul#sponsorlinks li#slb a {
-    background: url(../img/homepage/sponsors.png) -600px 0px;
-}
-ul#sponsorlinks li#slb a:hover{  
-    background-position: -600px -29px;  
-}
-ul#sponsorlinks li#sequoia a {
-    background: url(../img/homepage/sponsors.png) -720px 0px;
-}
-ul#sponsorlinks li#sequoia a:hover{  
-    background-position: -720px -29px;  
-}
-ul#sponsorlinks li#apple a {
-    width: 80px;
-    background: url(../img/homepage/sponsors.png) -860px 0px;
-}
-ul#sponsorlinks li#apple a:hover{  
-    background-position: -860px -29px;  
-}
-ul#sponsorlinks #andmore {
-    width: 100px;
-    line-height: 29px;
-}
-ul#sponsorlinks #andmore a {
-    text-indent: 0;
-    line-height: 29px;
-    width: auto;
-}
-
-
 #column-top {
 	width:100%;
 }
@@ -616,7 +538,7 @@ ul#sponsorlinks #andmore a {
  */
  /*sponsors nav*/        
  ul#sponsorlinks {
-     height: 29px;
+     height: 50px;
      width: 1000px;
      margin: 0;
      padding: 0;
@@ -670,6 +592,9 @@ ul#sponsorlinks #andmore a {
  ul#sponsorlinks li#slb a:hover{  
      background-position: -600px -29px;  
  }
+ ul#sponsorlinks li#sequoia {
+     margin: 0;
+ }
  ul#sponsorlinks li#sequoia a {
      background: url('../img/homepage/sponsors.png') -720px 0px;
  }
@@ -691,6 +616,12 @@ ul#sponsorlinks #andmore a {
      text-indent: 0;
      line-height: 29px;
      width: auto;
+     color: #222;
+     text-transform: uppercase;
+     font-size: 14px;
+ }
+ ul#sponsorlinks #andmore a:hover {
+     color: #888;
  }
  
 /*sponsors panel code*/
@@ -779,6 +710,7 @@ ul#sponsorlinks #andmore a {
      margin: 0 0 10px;
      line-height: 50px;
      border-bottom: 2px solid rgb(255,182,0);
+     font-weight: 300;
 }
 #info h3 {
      margin-top: 20px;
