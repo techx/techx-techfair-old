@@ -58,8 +58,8 @@ abbr,acronym { border: 0;
  * GENERAL STYLES
  */
 body {
-    font-family: 'Galdeano', sans-serif;
-	font-size: 12px;
+    font-family: 'CallunaSans-Regular', sans-serif;
+	font-size: 16px;
 	padding: 0;
 	margin: 0;
 	font-weight: 300;
@@ -298,7 +298,7 @@ div.error {
 }
 #content p {
 	padding: 5px 0;
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 22px;
 	color: #444;
 }
@@ -320,6 +320,7 @@ div.error {
 	padding: 25px 15px 20px;
 }
 #linkout, #linkout a {
+	text-decoration: none;
     color: #006cff;
     vertical-align: top;
 }
@@ -328,7 +329,7 @@ div.error {
 }
 
 /*sponsors panel code*/
-#sponsors {
+#sponsors {   
     position: relative;
     border-top: 1px solid rgb(255,160,51);
     text-align: center;
@@ -336,7 +337,7 @@ div.error {
 }
 #sponsors h1 {
     position: absolute;
-    top: -18px;
+    top: -8px;
     left: 50%;
     width: 160px;
     margin-left: -80px;
@@ -344,7 +345,10 @@ div.error {
     font-weight: 400;
     background: white;
 }
-
+#sponsors a {
+	color: #006cff;
+	text-decoration: none;
+}
 
 /* SPONSORSHIP TABLE */
 table#sponsorship {
@@ -571,6 +575,85 @@ h2.schedule{
 }
 .rsvp div {
     color: #666;
+}
+
+
+/*sponsors nav*/        
+ul#sponsorlinks {
+    height: 29px;
+    width: 1000px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul#sponsorlinks li {
+    height: 29px;
+    float: center;
+    display:inline-block;
+}
+ul#sponsorlinks a {
+    display: inline-block;
+    height: 29px;
+    width: 120px;
+    text-indent: -9999px;
+}
+ul#sponsorlinks li#facebook a {
+    background: url(../img/homepage/sponsors.png) 0px 0px;
+}
+ul#sponsorlinks li#facebook a:hover{  
+    background-position: 0px -29px;  
+}  
+ul#sponsorlinks li#dropbox a {
+    background: url(../img/homepage/sponsors.png) -120px 0px;
+}
+ul#sponsorlinks li#dropbox a:hover{  
+    background-position: -120px -29px;  
+}  
+ul#sponsorlinks li#microsoft a {
+    background: url(../img/homepage/sponsors.png) -240px 0px;
+}
+ul#sponsorlinks li#microsoft a:hover{  
+    background-position: -240px  -29px;  
+}  
+ul#sponsorlinks li#oracle a {
+    background: url(../img/homepage/sponsors.png) -360px 0px;
+}
+ul#sponsorlinks li#oracle a:hover{  
+    background-position: -360px -29px;  
+}  
+ul#sponsorlinks li#palantir a {
+    background: url(../img/homepage/sponsors.png) -480px 0px;
+}
+ul#sponsorlinks li#palantir a:hover{  
+    background-position: -480px -29px;  
+}
+ul#sponsorlinks li#slb a {
+    background: url(../img/homepage/sponsors.png) -600px 0px;
+}
+ul#sponsorlinks li#slb a:hover{  
+    background-position: -600px -29px;  
+}
+ul#sponsorlinks li#sequoia a {
+    background: url(../img/homepage/sponsors.png) -720px 0px;
+}
+ul#sponsorlinks li#sequoia a:hover{  
+    background-position: -720px -29px;  
+}
+ul#sponsorlinks li#apple a {
+    width: 80px;
+    background: url(../img/homepage/sponsors.png) -860px 0px;
+}
+ul#sponsorlinks li#apple a:hover{  
+    background-position: -860px -29px;  
+}
+ul#sponsorlinks #andmore {
+    width: 100px;
+    line-height: 29px;
+}
+ul#sponsorlinks #andmore a {
+    text-indent: 0;
+    line-height: 29px;
+    width: auto;
 }
 
 
