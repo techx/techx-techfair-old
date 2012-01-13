@@ -3,7 +3,7 @@ function make_header($sectionName,$subSectionName,$routes)
 {
 ?>
     <div id="header">
-	    <a id="logo" href="/">Techfair</a>
+	    	<a id="logo" href="/">Techfair</a>
 	</div>
 		<ul id="nav">
 			<?php
@@ -62,3 +62,4 @@ function make_header($sectionName,$subSectionName,$routes)
 						<?php endforeach;?>
 					</li>
 		</ul>
+<?php } ?>
