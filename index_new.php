@@ -352,7 +352,13 @@
     }
     ul#sponsorlinks li#sequoia a:hover{  
         background-position: -783px -29px;  
-    }  
+    }
+    
+    #info {
+        background: white;
+        width: 200px;
+        height: 100px;
+    }
 
     </style>
 
@@ -385,6 +391,7 @@
             </li>
         </ul>
         <div id="slideshow">
+            <div id="info"></div>
             <div id="overlay"></div>
             <img class="show" src="http://i19.photobucket.com/albums/b169/3xc1m4tion/1.png"/>
             <img src="http://i19.photobucket.com/albums/b169/3xc1m4tion/2.png"/>
