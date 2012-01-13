@@ -27,11 +27,14 @@
     </script>
     
     <style>
+    	  
+ 		@font-face {font-family: 'CallunaSans-Regular';src: url('webfonts/1D47AE_0_0.eot');src: url('webfonts/1D47AE_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/1D47AE_0_0.woff') format('woff'),url('webfonts/1D47AE_0_0.ttf') format('truetype');}
+ 
         body {
             background: #e6e6e6;
             margin: 0;
             padding: 0;
-            font-family: 'Galdeano', sans-serif;
+            font-family: 'CallunaSans-Regular', sans-serif;
         }
         #container {
             margin: 0 auto;
