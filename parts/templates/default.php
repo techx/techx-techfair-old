@@ -5,12 +5,12 @@
 <?php include_once($_SERVER['DOCUMENT_ROOT'].'/parts/analytics.php');?>
 </head>
 <body>
-	<?php make_header($sectionName,$subSectionName,$routes);?>
 	<div id="container">
+		<?php make_header($sectionName,$subSectionName,$routes);?>
 		<div id="content">
 			<?php require($d['content']); ?>
 		</div>
+		<?php make_footer();?>
 	</div>
-	<?php make_footer();?>
 </body>
 </html>

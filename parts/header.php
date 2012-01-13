@@ -6,7 +6,7 @@ function make_header($sectionName,$subSectionName,$routes)
         <div id="header-content">
             <div id="header-inner">
                 <h1>
-                    <a href="/"><span>MIT Techfair</span></a>
+                    <a href="/"><a id="logo">Techfair</a></a>
                     <div>
                         <h2>"Reg Day" Monday, February 6th, 2012</h2><h2>9:00am - 3:00pm at Rockwell Cage</h2>
                     </div>

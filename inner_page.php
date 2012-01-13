@@ -185,7 +185,7 @@
         #sSub:hover a:hover,
         #cSub:hover a:hover,
         #aSub:hover a:hover {
-            color: #AAA;
+            color: #111;
             text-decoration: none;
         }
         #nav:hover #subMenu {
