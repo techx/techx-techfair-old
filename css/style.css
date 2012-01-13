@@ -662,11 +662,11 @@ ul#sponsorlinks #andmore a {
 	width:100%;
 }
 #column-left {
-	width: 50%;
+	width: 470px;
 	float:left;
 }
 #column-right {
-	width: 50%;
+     width: 470px;
 	float:right;
 }
 #column-bottom {
@@ -767,7 +767,7 @@ ul#sponsorlinks #andmore a {
 }
 #sponsors h1 {
     position: absolute;
-    top: -18px;
+    top: -9px;
     left: 50%;
     width: 160px;
     margin-left: -80px;
