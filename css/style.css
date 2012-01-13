@@ -813,8 +813,8 @@ ul#sponsorlinks #andmore a {
 
 
 #info {
-     background: rgba(255, 255, 255, 0.7);
-     width: 400px;
+     background: rgba(255, 255, 255, 0.8);
+     width: 430px;
      padding: 10px;
      z-index: 200;
      position: absolute;
@@ -827,7 +827,7 @@ ul#sponsorlinks #andmore a {
 #info h2 {
      font-size: 46px;
      margin: 0 0 10px;
-     line-height: 46px;
+     line-height: 50px;
      border-bottom: 2px solid rgb(255,182,0);
 }
 #info h3 {

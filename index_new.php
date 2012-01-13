@@ -63,11 +63,14 @@ require('parts/header.php');
         <div id="slideshow">
             <div id="info">
                 <h2>Introducing Techfair 2012</h2>
-                <h3>Techfair is at Rockwell Cage on February 6th!</h3>
+                <h3>Techfair comes to Rockwell Cage on February 6th!</h3>
                 <p>
                     With <strong>over 50 companies</strong>, this year's student-run fair is bound to be the largest yet.
                 </p>
-                <p>Be sure to <a href="http://umeqo.com/techfair">drop your resume</a> before the fair, and check out the <a href="#">fair schedule</a>. Don't miss out on the hackathon and banquet!</p>
+                <p>
+                    Be sure to <a href="http://umeqo.com/techfair">drop your resume</a> before the fair, and check out the <a href="#">fair schedule</a>.
+                    Don't miss out on the <a href="/events/hackathon">hackathon</a> and <a href="/events/banquet">banquet</a>!
+                </p>
             </div>
             <div id="overlay"></div>
             <img class="show" src="http://i19.photobucket.com/albums/b169/3xc1m4tion/1.png"/>
