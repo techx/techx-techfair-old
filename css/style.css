@@ -314,19 +314,9 @@ div.error {
 
 /* FOOTER */
 #footer {
-	background: url('../img/footer.png') repeat-x;
-	border-top: 15px solid #fff;
-	display: block;
-	margin: 0;
-	display: block;
-	padding-bottom: 20px;
+	width: 100%;
 }
-#footer-links ul {
-	list-style: none;
-}
-#footer-links {
-	float: right;
-}
+
  #linkout {
 	padding: 25px 15px 20px;
 }
