@@ -34,7 +34,7 @@
                 j = j %2;
     }
     function reset() {
-	        $("#sponsorslide div").eq((j+1) %2).removeClass();
+            $("#sponsorslide div").eq((j+1) %2).removeClass();
     }
 
     $(document).ready(function() {
@@ -63,10 +63,10 @@
         #logo {
             text-indent: -1000em;
             width: 333px;
-            height: 74px;
+            height: 121px;
             margin: 10px 0 0 25px;
             display: inline-block;
-            background: url(img/homepage/logo.png);
+            background: url(img/homepage/logo.png) no-repeat left center;
         }
         #nav li{
             display: block;
@@ -81,11 +81,11 @@
         }
         #overlay {
             position: absolute;
-        	top: 20px;
-        	height: 665px;
-        	width: 1000px;
-        	background: url('img/homepage/slideshow-pixels.png') no-repeat center bottom;
-        	z-index: 150;
+            top: 20px;
+            height: 665px;
+            width: 1000px;
+            background: url('img/homepage/slideshow-pixels.png') no-repeat center bottom;
+            z-index: 150;
         }
         #slideshow img {
             position: absolute;
@@ -109,7 +109,7 @@
             z-index: 100;
         }
         #linkout {
-            padding: 10px;
+            padding: 25px 15px 20px;
         }
         #linkout, #linkout a {
             color: #006cff;
@@ -125,40 +125,40 @@
             width: 1000px;
             overflow: hidden;
             position: relative;
-        	background-image: url(http://i19.photobucket.com/albums/b169/3xc1m4tion/sponsorheader.png);
-        	}
+            background-image: url(http://i19.photobucket.com/albums/b169/3xc1m4tion/sponsorheader.png);
+            }
         #sponsorslide {
-        	position: absolute;
-        	height: 30px;
-        	width: 1000px;
-        	top: 20px;
-        	overflow: hidden;
-        	}
+            position: absolute;
+            height: 30px;
+            width: 1000px;
+            top: 20px;
+            overflow: hidden;
+            }
         #set {
-        	position: absolute;
-        	height: 30px;
-        	width: 1000px;
-        	top: 50px;
-        	}
+            position: absolute;
+            height: 30px;
+            width: 1000px;
+            top: 50px;
+            }
         #set img {
-        	padding-left: 30px;
-        	padding-right: 30px;
-        	}
+            padding-left: 30px;
+            padding-right: 30px;
+            }
         #set.show {
-        	position: absolute;
+            position: absolute;
             top: 0;
             display: block;
             transition: top 2s ease 0s;
-        	-moz-transition: top 2s ease 0s;
-        	-webkit-transition: top 2s ease 0s;
+            -moz-transition: top 2s ease 0s;
+            -webkit-transition: top 2s ease 0s;
         }
         #set.hide {
-        	position: absolute;
+            position: absolute;
             top: -50px;
             display: block;
             transition: top 2s ease 0s;
-        	-moz-transition: top 2s ease 0s;
-	        -webkit-transition: top 2s ease 0s;
+            -moz-transition: top 2s ease 0s;
+            -webkit-transition: top 2s ease 0s;
         }
 
         /*make the navigation menu list*/
@@ -173,7 +173,7 @@
 
         /*apply general rules for menu items*/
         #nav li {
-        	margin: 0;
+            margin: 0;
             float: left;
             width: 249px;
             text-align: center;
@@ -181,7 +181,7 @@
             list-style:none;
         }
         #nav li:first-child {
-        	width:250px;
+            width:250px;
             border: 0;
         }
         #nav li:last-child {
@@ -219,11 +219,11 @@
             width:249px;
         }   
          #subMenu li:first-child {
-        	width:250px;
+            width:250px;
             border: 0;
         }
          #subMenu li:last-child {
-        	width:249px;
+            width:249px;
             border-left: 1px solid #ddd;
         }
 
@@ -262,97 +262,108 @@
             height:200px;
         }
         
-	/*sponsors nav*/        
-	ul#sponsorlinks {
-		height: 29px;
-		overflow: hidden;
-		width: 1000px;
-		margin: 0 auto;
-		list-style: none;
-	}
-	ul#sponsorlinks li {
-		height: 29px;
-		overflow: hidden;
-		display:inline;
-		padding: 10px;
-	}
-	ul#sponsorlinks a {
-		height: 29px;
-		overflow: hidden;
-		float: left; 
-		text-indent: -9999px;
-		padding: 10px;
-	}
-	ul#sponsorlinks li#facebook a {
-		width: 150px;
-		background: url(http://i19.photobucket.com/albums/b169/3xc1m4tion/logos1.png) 0px 0px;
-	}
-	ul#sponsorlinks li#facebook a:hover{  
-    	background-position: 0px -29px;  
-	}  
-	ul#sponsorlinks li#adobe a {
-		width: 195px;
-		background: url(http://i19.photobucket.com/albums/b169/3xc1m4tion/logos1.png) -150px 0px;
-	}
-	ul#sponsorlinks li#adobe a:hover{  
-    	background-position: -150px -29px;  
-	}  
-	ul#sponsorlinks li#cisco a {
-		width: 134px;
-		background: url(http://i19.photobucket.com/albums/b169/3xc1m4tion/logos1.png) -363px 0px;
-	}
-	ul#sponsorlinks li#cisco a:hover{  
-	    background-position: -363px -29px;  
-	}  
-	ul#sponsorlinks li#dropbox a {
-		width: 159px;
-		background: url(http://i19.photobucket.com/albums/b169/3xc1m4tion/logos1.png) -547px 0px;
-	}
-	ul#sponsorlinks li#dropbox a:hover{  
-	    background-position: -547px -29px;  
-	}  
-	ul#sponsorlinks li#mozilla a {
-		width: 135px;
-		background: url(http://i19.photobucket.com/albums/b169/3xc1m4tion/logos1.png) -741px 0px;
-	}
-	ul#sponsorlinks li#mozilla a:hover{  
-	    background-position: -741px -29px;  
-	} 
-	ul#sponsorlinks li#microsoft a {
-		width: 160px;
-		background: url(http://i19.photobucket.com/albums/b169/3xc1m4tion/logos2.png) -40px 0px;
-	}
-	ul#sponsorlinks li#microsoft a:hover{  
- 	   background-position: -40px -29px;  
-	}  
-	ul#sponsorlinks li#oracle a {
-		width: 176px;
-		background: url(http://i19.photobucket.com/albums/b169/3xc1m4tion/logos2.png) -223px 0px;
-	}
-	ul#sponsorlinks li#oracle a:hover{  
-	    background-position: -223px -29px;  
-	}  
-	ul#sponsorlinks li#palantir a {
-		width: 177px;
-		background: url(http://i19.photobucket.com/albums/b169/3xc1m4tion/logos2.png) -410px 0px;
-	}
-	ul#sponsorlinks li#palantir a:hover{  
-		background-position: -410px -29px;  
-	}  
-	ul#sponsorlinks li#schlumberger a {
-		width: 183px;
-		background: url(http://i19.photobucket.com/albums/b169/3xc1m4tion/logos2.png) -583px 0px;
-	}
-	ul#sponsorlinks li#schlumberger a:hover{  
-		background-position: -583px -29px;  
-	}  
-	ul#sponsorlinks li#sequoia a {
-		width: 200px;
-		background: url(http://i19.photobucket.com/albums/b169/3xc1m4tion/logos2.png) -783px 0px;
-	}
-	ul#sponsorlinks li#sequoia a:hover{  
-		background-position: -783px -29px;  
-	}  
+    /*sponsors nav*/        
+    ul#sponsorlinks {
+        height: 29px;
+        overflow: hidden;
+        width: 1000px;
+        margin: 0 auto;
+        list-style: none;
+    }
+    ul#sponsorlinks li {
+        height: 29px;
+        overflow: hidden;
+        display:inline;
+        padding: 10px;
+    }
+    ul#sponsorlinks a {
+        height: 29px;
+        overflow: hidden;
+        float: left; 
+        text-indent: -9999px;
+        padding: 10px;
+    }
+    ul#sponsorlinks li#facebook a {
+        width: 150px;
+        background: url(http://i19.photobucket.com/albums/b169/3xc1m4tion/logos1.png) 0px 0px;
+    }
+    ul#sponsorlinks li#facebook a:hover{  
+        background-position: 0px -29px;  
+    }  
+    ul#sponsorlinks li#adobe a {
+        width: 195px;
+        background: url(http://i19.photobucket.com/albums/b169/3xc1m4tion/logos1.png) -150px 0px;
+    }
+    ul#sponsorlinks li#adobe a:hover{  
+        background-position: -150px -29px;  
+    }  
+    ul#sponsorlinks li#cisco a {
+        width: 134px;
+        background: url(http://i19.photobucket.com/albums/b169/3xc1m4tion/logos1.png) -363px 0px;
+    }
+    ul#sponsorlinks li#cisco a:hover{  
+        background-position: -363px -29px;  
+    }  
+    ul#sponsorlinks li#dropbox a {
+        width: 159px;
+        background: url(http://i19.photobucket.com/albums/b169/3xc1m4tion/logos1.png) -547px 0px;
+    }
+    ul#sponsorlinks li#dropbox a:hover{  
+        background-position: -547px -29px;  
+    }  
+    ul#sponsorlinks li#mozilla a {
+        width: 135px;
+        background: url(http://i19.photobucket.com/albums/b169/3xc1m4tion/logos1.png) -741px 0px;
+    }
+    ul#sponsorlinks li#mozilla a:hover{  
+        background-position: -741px -29px;  
+    } 
+    ul#sponsorlinks li#microsoft a {
+        width: 160px;
+        background: url(http://i19.photobucket.com/albums/b169/3xc1m4tion/logos2.png) -40px 0px;
+    }
+    ul#sponsorlinks li#microsoft a:hover{  
+        background-position: -40px -29px;  
+    }  
+    ul#sponsorlinks li#oracle a {
+        width: 176px;
+        background: url(http://i19.photobucket.com/albums/b169/3xc1m4tion/logos2.png) -223px 0px;
+    }
+    ul#sponsorlinks li#oracle a:hover{  
+        background-position: -223px -29px;  
+    }  
+    ul#sponsorlinks li#palantir a {
+        width: 177px;
+        background: url(http://i19.photobucket.com/albums/b169/3xc1m4tion/logos2.png) -410px 0px;
+    }
+    ul#sponsorlinks li#palantir a:hover{  
+        background-position: -410px -29px;  
+    }  
+    ul#sponsorlinks li#schlumberger a {
+        width: 183px;
+        background: url(http://i19.photobucket.com/albums/b169/3xc1m4tion/logos2.png) -583px 0px;
+    }
+    ul#sponsorlinks li#schlumberger a:hover{  
+        background-position: -583px -29px;  
+    }  
+    ul#sponsorlinks li#sequoia a {
+        width: 200px;
+        background: url(http://i19.photobucket.com/albums/b169/3xc1m4tion/logos2.png) -783px 0px;
+    }
+    ul#sponsorlinks li#sequoia a:hover{  
+        background-position: -783px -29px;  
+    }
+    
+    #info {
+        background: rgba(255, 255, 255, 0.5);
+        width: 500px;
+        height: 300px;
+        z-index: 200;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        border: 1px solid white;
+    }
 
     </style>
 
@@ -385,6 +396,9 @@
             </li>
         </ul>
         <div id="slideshow">
+            <div id="info">
+                <h2>Introducing Techfair 2012</h2>
+            </div>
             <div id="overlay"></div>
             <img class="show" src="http://i19.photobucket.com/albums/b169/3xc1m4tion/1.png"/>
             <img src="http://i19.photobucket.com/albums/b169/3xc1m4tion/2.png"/>
@@ -402,24 +416,24 @@
             <div id="sponsorslide" >
 
            
-	<div id="set" class="show">
-		<ul id="sponsorlinks">
-			<li id="facebook"><a href=http://www.facebook.com></a></li>
-			<li id="adobe"><a href=http://www.adobe.com></a></li>
-			<li id="cisco"><a href=http://www.cisco.com></a></li>
-			<li id="dropbox"><a href=http://www.dropbox.com></a></li>
-			<li id="mozilla"><a href=http://www.mozilla.com></a></li>
-		</ul>
-	</div>
-	<div id="set">
-		<ul id="sponsorlinks">
-			<li id="microsoft"><a href=http://www.microsoft.com></a></li>
-			<li id="oracle"><a href=http://www.oracle.com></a></li>
-			<li id="palantir"><a href=http://www.palantir.com></a></li>
-			<li id="schlumberger"><a href=http://www.schlumberger.com></a></li>
-			<li id="sequoia"><a href=http://www.sequoia.com></a></li>
-		</ul>        
-		</div><br>
+    <div id="set" class="show">
+        <ul id="sponsorlinks">
+            <li id="facebook"><a href=http://www.facebook.com></a></li>
+            <li id="adobe"><a href=http://www.adobe.com></a></li>
+            <li id="cisco"><a href=http://www.cisco.com></a></li>
+            <li id="dropbox"><a href=http://www.dropbox.com></a></li>
+            <li id="mozilla"><a href=http://www.mozilla.com></a></li>
+        </ul>
+    </div>
+    <div id="set">
+        <ul id="sponsorlinks">
+            <li id="microsoft"><a href=http://www.microsoft.com></a></li>
+            <li id="oracle"><a href=http://www.oracle.com></a></li>
+            <li id="palantir"><a href=http://www.palantir.com></a></li>
+            <li id="schlumberger"><a href=http://www.schlumberger.com></a></li>
+            <li id="sequoia"><a href=http://www.sequoia.com></a></li>
+        </ul>        
+        </div><br>
 
 </div>
 </div>

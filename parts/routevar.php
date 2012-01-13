@@ -121,6 +121,7 @@ $routes = array(
 			'name' => 'Project Funding'
 		),
 
+
 /*
 		'resume-drop' => array(
 			'external' => '/drop/',
@@ -195,6 +196,11 @@ $routes = array(
 		'external' => 'http://www.umeqo.com/techfair',
 		'name' => 'Resume',
 		'show' => false
-	)
+	),
+	'finaldisplayform' => array(
+			'external' => 'http://docs.google.com/spreadsheet/viewform?hl=en_US&formkey=dEJ0SXlPbnpSS1hjWjA1SWUyYTZLMVE6MQ#gid=0',
+			'name'=>'Final Display',
+			'show'=>false
+	),
 );
 ?>

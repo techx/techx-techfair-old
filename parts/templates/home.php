@@ -29,8 +29,8 @@
     				<h1>
     					<a href="/"><span>MIT Techfair</span></a>
 						<div>
-							<h2>Techfair 2012</h2><h2>Monday, February 6th, 2012 in Rockwell Cage</h2>
-						</div>
+                        <h2>"Reg Day" Monday, February 6th, 2012</h2><h2>9:00am - 3:00pm at Rockwell Cage</h2>
+					</div>
     				</h1>
     			</div>
     		</div>
