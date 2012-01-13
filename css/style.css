@@ -218,7 +218,7 @@ div.error {
 }
 #navbar li.main.think a {
 	width: 50px !important;
-	background: url('/img/THINK.png') no-repeat transparent;
+	background: url('../img/THINK.png') no-repeat transparent;
 	padding: 0;
 	height: 200px;
 }
@@ -320,7 +320,7 @@ div.error {
 	margin: 0 auto;
 }
 #footer {
-	background: url('/img/footer.png') repeat-x;
+	background: url('../img/footer.png') repeat-x;
 	border-top: 15px solid #fff;
 	display: block;
 	margin: 0;
@@ -460,7 +460,7 @@ button {
 	height: 38px;
 	padding: 0 10px;
 	font-size: 18px;
-	background: url('/img/button.png') repeat-x transparent;
+	background: url('../img/button.png') repeat-x transparent;
 	border-radius: 4px;
 	-moz-border-radius: 4px;
 	vertical-align: bottom;
@@ -594,3 +594,170 @@ h2.schedule{
 	width: 100%;
 	clear:both;
 }
+
+
+
+/**
+ * HOME PAGE STYLES
+ */
+ /*sponsors nav*/        
+ ul#sponsorlinks {
+     height: 29px;
+     width: 1000px;
+     margin: 0;
+     padding: 0;
+     list-style: none;
+ }
+ ul#sponsorlinks li {
+     height: 29px;
+     float: center;
+     display:inline-block;
+     margin-right: 7px;
+ }
+ ul#sponsorlinks a {
+     display: inline-block;
+     height: 29px;
+     width: 120px;
+     text-indent: -9999px;
+ }
+ ul#sponsorlinks li#facebook a {
+     background: url('../img/homepage/sponsors.png') 0px 0px;
+ }
+ ul#sponsorlinks li#facebook a:hover{  
+     background-position: 0px -29px;  
+ }  
+ ul#sponsorlinks li#dropbox a {
+     background: url('../img/homepage/sponsors.png') -120px 0px;
+ }
+ ul#sponsorlinks li#dropbox a:hover{  
+     background-position: -120px -29px;  
+ }  
+ ul#sponsorlinks li#microsoft a {
+     background: url('../img/homepage/sponsors.png') -240px 0px;
+ }
+ ul#sponsorlinks li#microsoft a:hover{  
+     background-position: -240px  -29px;  
+ }  
+ ul#sponsorlinks li#oracle a {
+     background: url('../img/homepage/sponsors.png') -360px 0px;
+ }
+ ul#sponsorlinks li#oracle a:hover{  
+     background-position: -360px -29px;  
+ }  
+ ul#sponsorlinks li#palantir a {
+     background: url('../img/homepage/sponsors.png') -480px 0px;
+ }
+ ul#sponsorlinks li#palantir a:hover{  
+     background-position: -480px -29px;  
+ }
+ ul#sponsorlinks li#slb a {
+     background: url('../img/homepage/sponsors.png') -600px 0px;
+ }
+ ul#sponsorlinks li#slb a:hover{  
+     background-position: -600px -29px;  
+ }
+ ul#sponsorlinks li#sequoia a {
+     background: url('../img/homepage/sponsors.png') -720px 0px;
+ }
+ ul#sponsorlinks li#sequoia a:hover{  
+     background-position: -720px -29px;  
+ }
+ ul#sponsorlinks li#apple a {
+     width: 60px;
+     background: url('../img/homepage/sponsors.png') -870px 0px;
+ }
+ ul#sponsorlinks li#apple a:hover{  
+     background-position: -870px -29px;  
+ }
+ ul#sponsorlinks #andmore {
+     width: 100px;
+     line-height: 29px;
+ }
+ ul#sponsorlinks #andmore a {
+     text-indent: 0;
+     line-height: 29px;
+     width: auto;
+ }
+ 
+/*sponsors panel code*/
+#sponsors {
+    position: relative;
+    border-top: 1px solid rgb(255,160,51);
+    text-align: center;
+    padding: 30px 0;
+}
+#sponsors h1 {
+    position: absolute;
+    top: -18px;
+    left: 50%;
+    width: 160px;
+    margin-left: -80px;
+    font-size: 16px;
+    font-weight: 400;
+    background: white;
+}
+
+#slideshow {
+   height: 665px;
+   width: 1000px;
+   overflow: hidden;
+   position: relative;
+}
+#overlay {
+   position: absolute;
+   top: 20px;
+   height: 665px;
+   width: 1000px;
+   background: url('../img/homepage/slideshow-pixels.png') no-repeat center bottom;
+   z-index: 150;
+}
+#slideshow img {
+   position: absolute;
+   top: 665px;
+   z-index: 1;
+}
+#slideshow img.show {
+   top: 0;
+   display: block;
+   transition: top 2s ease 0s;
+   -moz-transition: top 2s ease 0s;
+   -webkit-transition: top 2s ease 0s;
+   z-index: 100;
+}
+#slideshow img.hide {
+   top: -665px;
+   display: block;
+   transition: top 2s ease 0s;
+   -moz-transition: top 2s ease 0s;
+   -webkit-transition: top 2s ease 0s;
+   z-index: 100;
+}
+#linkout {
+   padding: 25px 15px 20px;
+}
+#linkout, #linkout a {
+   color: #006cff;
+   vertical-align: top;
+}
+#copyright {
+   float: right;
+}
+
+
+ #info {
+     background: rgba(255, 255, 255, 0.7);
+     width: 600px;
+     padding: 10px;
+     z-index: 200;
+     position: absolute;
+     top: 50px;
+     left: 0;
+     border-top: 1px solid white;
+     border-right: 1px solid white;
+     border-bottom: 1px solid white;
+ }
+ #info h2 {
+     font-size: 52px;
+     margin: 0 0 10px;
+ }
+/* END HOME PAGE STYLES */
