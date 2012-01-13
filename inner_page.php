@@ -227,7 +227,7 @@
 		}
 		#content p {
 			padding: 5px 0;
-			font-size: 14px;
+			font-size: 16px;
 			line-height: 22px;
 			color: #444;
 		}
