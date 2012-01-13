@@ -13,7 +13,6 @@
     
     var i = 0;
     function advanceSlide() {
-    console.log (i);    
         $("#slideshow img").eq((i+2) %5).removeClass();
         $("#slideshow img").eq((i+1) %5).removeClass("hide").addClass("show");
         $("#slideshow img").eq(i).removeClass("show").addClass("hide");
@@ -121,11 +120,10 @@
         
         /*sponsors panel code*/
         #sponsors {
-            height: 50px;
-            width: 1000px;
+            height: 70px;
             overflow: hidden;
             position: relative;
-            background-image: url(http://i19.photobucket.com/albums/b169/3xc1m4tion/sponsorheader.png);
+            background: url(http://i19.photobucket.com/albums/b169/3xc1m4tion/sponsorheader.png) no-repeat top center;
             }
         #sponsorslide {
             position: absolute;
@@ -355,14 +353,20 @@
     }
     
     #info {
-        background: rgba(255, 255, 255, 0.5);
-        width: 500px;
-        height: 300px;
+        background: rgba(255, 255, 255, 0.7);
+        width: 600px;
+        padding: 10px;
         z-index: 200;
         position: absolute;
         top: 50px;
         left: 0;
-        border: 1px solid white;
+        border-top: 1px solid white;
+        border-right: 1px solid white;
+        border-bottom: 1px solid white;
+    }
+    #info h2 {
+        font-size: 52px;
+        margin: 0 0 10px;
     }
 
     </style>
@@ -398,6 +402,16 @@
         <div id="slideshow">
             <div id="info">
                 <h2>Introducing Techfair 2012</h2>
+                <h3>Techfair is at Rockwell Cage on February 6th!</h3>
+                <p>
+                    With <strong>over 50</strong> companies, this year's fair is bound to be the largest yet.
+                    Come see awesome companies like Facebook, Apple, GE, Bose, Lytro, and Merck show off their latest and greatest next to
+                    student groups with solar electric vehicles, giant Wimhurst machines, life-sized tetris boards, and more.
+                </p>
+                <h3>Students</h3>
+                <p>Be sure to <a href="#">drop your resume</a> before the fair. <a href="#">Fair Schedule</a>.</p>
+                <h3>Companies</h3>
+                <p>We've seen soaringly high demand this year, and we're all out of booths! To get on the waitlist, contact <a href="mailto:techfair-cr@mit.edu">the CR committee</a>.</p>
             </div>
             <div id="overlay"></div>
             <img class="show" src="http://i19.photobucket.com/albums/b169/3xc1m4tion/1.png"/>
@@ -407,9 +421,9 @@
             <img src="http://i19.photobucket.com/albums/b169/3xc1m4tion/5.png"/>
         </div>
         <div id="linkout">
-            <a href="mailto:techfair-exec@mit.edu">techfair-exec@mit.edu</a>
             <a href="http://facebook.com/techfair"><img src="img/homepage/facebook.png" alt="fb" /></a>
             <a href="http://twitter.com/mittechfair"><img src="img/homepage/twitter.png" alt="twitter" /></a>
+            <a href="mailto:techfair-exec@mit.edu">techfair-exec@mit.edu</a>
             <span id="copyright">&copy; MIT Techfair 2012</span>
         </div>
         <div id="sponsors" align="center">
