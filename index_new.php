@@ -355,9 +355,14 @@
     }
     
     #info {
-        background: white;
-        width: 200px;
-        height: 100px;
+        background: rgba(255, 255, 255, 0.5);
+        width: 500px;
+        height: 300px;
+        z-index: 200;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        border: 1px solid white;
     }
 
     </style>
