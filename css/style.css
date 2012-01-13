@@ -278,34 +278,26 @@ div.error {
 }
 /* CONTENT */
 #content {
-	border-left: 140px solid #c3c3c3;
 	clear: both;
-	padding: 10px 10px 20px;
+	padding: 10px 20px 20px;
 }
 #content a {
 	color: #4078D6;
 }
 #content h1 {
-	margin: 20px 0 0 -100px;
-	border-left: 90px solid #666;
+	margin: 20px 0 0 0;
 	font-size: 30px;
 	font-weight: 300;
-	padding-left: 10px;
 }
 #content h2 {
 	font-size: 24px;
 	color: #4078D6;
-	margin: 10px 0 5px -70px;
-	border-left: 60px solid #4078D6;
-	padding-left: 10px;
+	margin: 10px 0 5px 0;
 }
 #content h3 {
 	font-size: 20px;
 	color: #F29523;
 	margin: 10px 0 0;
-	margin-left: -20px;
-	border-left: 10px solid #F29523;
-	padding-left: 10px;
 }
 #content h4 {
     font-size: 14px;
@@ -591,4 +583,21 @@ h2.schedule{
 }
 .rsvp div {
     color: #666;
+}
+
+
+#column-top {
+	width:100%;
+}
+#column-left {
+	width: 50%;
+	float:left;
+}
+#column-right {
+	width: 50%;
+	float:right;
+}
+#column-bottom {
+	width: 100%;
+	clear:both;
 }
