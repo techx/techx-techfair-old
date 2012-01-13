@@ -36,7 +36,7 @@ $routes = array(
 		'name' => 'Events',
 		'' => array(
 			'title' => 'Events / '.$basetitle,
-			'content' => 'pages/events/fair.php'
+			'content' => 'pages/events/schedule.php'
 		),
 		'hackathon' => array(
 			'title' => 'Hack-a-thon / '.$basetitle,
@@ -46,7 +46,7 @@ $routes = array(
 		),
 		'venue' => array(
 			'title' => 'The Fair / '.$basetitle,
-			'content' => 'pages/events/venue.php',
+			'content' => 'pages/events/schedule.php',
 			'name' => 'The Fair'
 		),
 		'talks' => array(
