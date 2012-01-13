@@ -833,20 +833,39 @@ ul#sponsorlinks #andmore a {
 }
 
 
- #info {
+#info {
      background: rgba(255, 255, 255, 0.7);
-     width: 600px;
+     width: 550px;
      padding: 10px;
      z-index: 200;
      position: absolute;
      top: 50px;
      left: 0;
-     border-top: 1px solid white;
-     border-right: 1px solid white;
-     border-bottom: 1px solid white;
- }
- #info h2 {
+     border-top: 1px solid rgba(255,255,255,0.9);
+     border-right: 1px solid rgba(255,255,255,0.9);
+     border-bottom: 1px solid rgba(255,255,255,0.9);
+}
+#info h2 {
      font-size: 52px;
      margin: 0 0 10px;
- }
+}
+#info h3 {
+     margin-top: 20px;
+     font-size: 22px;
+}
+#info p {
+     margin: 10px 0;
+     font-family: Helvetica, Arial, sans-serif;
+     line-height: 24px;
+}
+#info p strong {
+     font-weight: 600;
+}
+#info p em {
+     font-style: italic;
+     border-bottom: 1px solid rgb(255,128,0);
+}
+#info a {
+     color: #006cff;
+}
 /* END HOME PAGE STYLES */
