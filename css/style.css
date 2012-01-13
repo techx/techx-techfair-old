@@ -313,43 +313,38 @@ div.error {
 }
 
 /* FOOTER */
-#footer-content {
-	width: 960px; 
-	color: #fff;
-	display: block;
-	margin: 0 auto;
-}
 #footer {
-	background: url('/img/footer.png') repeat-x;
-	border-top: 15px solid #fff;
-	display: block;
-	margin: 0;
-	display: block;
-	padding-bottom: 20px;
+	width:100%;
 }
-#footer-links ul {
-	list-style: none;
+ #linkout {
+	padding: 25px 15px 20px;
 }
-#footer-links {
-	float: right;
+#linkout, #linkout a {
+    color: #006cff;
+    vertical-align: top;
 }
-#footer-links li {
-	font-size: 20px;
-	display: block;
-	float: right;
-	clear: right; 
-	color: #646464; 
+#copyright {
+    float: right;
 }
-#footer-links a {
-	text-decoration: none;
-	color: #fff;
+
+/*sponsors panel code*/
+#sponsors {
+    position: relative;
+    border-top: 1px solid rgb(255,160,51);
+    text-align: center;
+    padding: 30px 0;
 }
-#footer-links a:hover {
-	border: inherit;
+#sponsors h1 {
+    position: absolute;
+    top: -18px;
+    left: 50%;
+    width: 160px;
+    margin-left: -80px;
+    font-size: 16px;
+    font-weight: 400;
+    background: white;
 }
-#footer-links ul {
-	margin: 10px 0;
-}
+
 
 /* SPONSORSHIP TABLE */
 table#sponsorship {
