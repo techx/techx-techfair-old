@@ -224,93 +224,79 @@
     /*sponsors nav*/        
     ul#sponsorlinks {
         height: 29px;
-        overflow: hidden;
         width: 1000px;
-        margin: 0 auto;
+        margin: 0;
+        padding: 0;
         list-style: none;
     }
     ul#sponsorlinks li {
         height: 29px;
-        overflow: hidden;
-        display:inline;
-        padding: 10px;
+        float: center;
+        display:inline-block;
     }
     ul#sponsorlinks a {
+        display: inline-block;
         height: 29px;
-        overflow: hidden;
-        float: left; 
+        width: 120px;
         text-indent: -9999px;
-        padding: 10px;
     }
     ul#sponsorlinks li#facebook a {
-        width: 150px;
-        background: url(http://i19.photobucket.com/albums/b169/3xc1m4tion/logos1.png) 0px 0px;
+        background: url(img/homepage/sponsors.png) 0px 0px;
     }
     ul#sponsorlinks li#facebook a:hover{  
         background-position: 0px -29px;  
     }  
-    ul#sponsorlinks li#adobe a {
-        width: 195px;
-        background: url(http://i19.photobucket.com/albums/b169/3xc1m4tion/logos1.png) -150px 0px;
-    }
-    ul#sponsorlinks li#adobe a:hover{  
-        background-position: -150px -29px;  
-    }  
-    ul#sponsorlinks li#cisco a {
-        width: 134px;
-        background: url(http://i19.photobucket.com/albums/b169/3xc1m4tion/logos1.png) -363px 0px;
-    }
-    ul#sponsorlinks li#cisco a:hover{  
-        background-position: -363px -29px;  
-    }  
     ul#sponsorlinks li#dropbox a {
-        width: 159px;
-        background: url(http://i19.photobucket.com/albums/b169/3xc1m4tion/logos1.png) -547px 0px;
+        background: url(img/homepage/sponsors.png) -120px 0px;
     }
     ul#sponsorlinks li#dropbox a:hover{  
-        background-position: -547px -29px;  
+        background-position: -120px -29px;  
     }  
-    ul#sponsorlinks li#mozilla a {
-        width: 135px;
-        background: url(http://i19.photobucket.com/albums/b169/3xc1m4tion/logos1.png) -741px 0px;
-    }
-    ul#sponsorlinks li#mozilla a:hover{  
-        background-position: -741px -29px;  
-    } 
     ul#sponsorlinks li#microsoft a {
-        width: 160px;
-        background: url(http://i19.photobucket.com/albums/b169/3xc1m4tion/logos2.png) -40px 0px;
+        background: url(img/homepage/sponsors.png) -240px 0px;
     }
     ul#sponsorlinks li#microsoft a:hover{  
-        background-position: -40px -29px;  
+        background-position: -240px  -29px;  
     }  
     ul#sponsorlinks li#oracle a {
-        width: 176px;
-        background: url(http://i19.photobucket.com/albums/b169/3xc1m4tion/logos2.png) -223px 0px;
+        background: url(img/homepage/sponsors.png) -360px 0px;
     }
     ul#sponsorlinks li#oracle a:hover{  
-        background-position: -223px -29px;  
+        background-position: -360px -29px;  
     }  
     ul#sponsorlinks li#palantir a {
-        width: 177px;
-        background: url(http://i19.photobucket.com/albums/b169/3xc1m4tion/logos2.png) -410px 0px;
+        background: url(img/homepage/sponsors.png) -480px 0px;
     }
     ul#sponsorlinks li#palantir a:hover{  
-        background-position: -410px -29px;  
-    }  
-    ul#sponsorlinks li#schlumberger a {
-        width: 183px;
-        background: url(http://i19.photobucket.com/albums/b169/3xc1m4tion/logos2.png) -583px 0px;
+        background-position: -480px -29px;  
     }
-    ul#sponsorlinks li#schlumberger a:hover{  
-        background-position: -583px -29px;  
-    }  
+    ul#sponsorlinks li#slb a {
+        background: url(img/homepage/sponsors.png) -600px 0px;
+    }
+    ul#sponsorlinks li#slb a:hover{  
+        background-position: -600px -29px;  
+    }
     ul#sponsorlinks li#sequoia a {
-        width: 200px;
-        background: url(http://i19.photobucket.com/albums/b169/3xc1m4tion/logos2.png) -783px 0px;
+        background: url(img/homepage/sponsors.png) -720px 0px;
     }
     ul#sponsorlinks li#sequoia a:hover{  
-        background-position: -783px -29px;  
+        background-position: -720px -29px;  
+    }
+    ul#sponsorlinks li#apple a {
+        width: 80px;
+        background: url(img/homepage/sponsors.png) -860px 0px;
+    }
+    ul#sponsorlinks li#apple a:hover{  
+        background-position: -860px -29px;  
+    }
+    ul#sponsorlinks #andmore {
+        width: 100px;
+        line-height: 29px;
+    }
+    ul#sponsorlinks #andmore a {
+        text-indent: 0;
+        line-height: 29px;
+        width: auto;
     }
     
     #info {
@@ -391,10 +377,14 @@
             <h1>Attending Companies</h1>
             <ul id="sponsorlinks">
                 <li id="facebook"><a href="http://www.facebook.com"></a></li>
-                <li id="adobe"><a href=http://www.adobe.com></a></li>
-                <li id="cisco"><a href=http://www.cisco.com></a></li>
-                <li id="dropbox"><a href=http://www.dropbox.com></a></li>
-                <li id="mozilla"><a href=http://www.mozilla.com></a></li>
+                <li id="apple"><a href="http://www.apple.com"></a></li>
+                <li id="dropbox"><a href="http://www.microsoft.com"></a></li>
+                <li id="microsoft"><a href="http://oracle.com"></a></li>
+                <li id="oracle"><a href="http://palantir.com"></a></li>
+                <li id="palantir"><a href="http://www.slb.com"></a></li>
+                <li id="slb"><a href="http://www.dropbox.com"></a></li>
+                <li id="sequoia"><a href="http://www.sequoiacap.com"></a></li>
+                <li id="andmore"><a href="#">and more...</a></li>
             </ul>
             
         </div>
