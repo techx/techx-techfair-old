@@ -24,22 +24,6 @@
         setInterval(advanceSlide, 8000);
     });
     
-    var j = 0;
-    function nextSponsor() {
-            $("#sponsorslide div").eq((j+1) %2).removeClass("hide").addClass("show");
-            $("#sponsorslide div").eq((j) %2).removeClass("show").addClass("hide");
-            setTimeout(reset, 2000);
-                j++;
-                j = j %2;
-    }
-    function reset() {
-            $("#sponsorslide div").eq((j+1) %2).removeClass();
-    }
-
-    $(document).ready(function() {
-        setInterval(nextSponsor, 8000);
-    });
-    
     </script>
     
     <style>
@@ -120,43 +104,20 @@
         
         /*sponsors panel code*/
         #sponsors {
-            height: 70px;
-            overflow: hidden;
             position: relative;
-            background: url(http://i19.photobucket.com/albums/b169/3xc1m4tion/sponsorheader.png) no-repeat top center;
-            }
-        #sponsorslide {
-            position: absolute;
-            height: 30px;
-            width: 1000px;
-            top: 20px;
-            overflow: hidden;
-            }
-        #set {
-            position: absolute;
-            height: 30px;
-            width: 1000px;
-            top: 50px;
-            }
-        #set img {
-            padding-left: 30px;
-            padding-right: 30px;
-            }
-        #set.show {
-            position: absolute;
-            top: 0;
-            display: block;
-            transition: top 2s ease 0s;
-            -moz-transition: top 2s ease 0s;
-            -webkit-transition: top 2s ease 0s;
+            border-top: 1px solid rgb(255,160,51);
+            text-align: center;
+            padding: 30px 0;
         }
-        #set.hide {
+        #sponsors h1 {
             position: absolute;
-            top: -50px;
-            display: block;
-            transition: top 2s ease 0s;
-            -moz-transition: top 2s ease 0s;
-            -webkit-transition: top 2s ease 0s;
+            top: -18px;
+            left: 50%;
+            width: 160px;
+            margin-left: -80px;
+            font-size: 16px;
+            font-weight: 400;
+            background: white;
         }
 
         /*make the navigation menu list*/
@@ -426,31 +387,17 @@
             <a href="mailto:techfair-exec@mit.edu">techfair-exec@mit.edu</a>
             <span id="copyright">&copy; MIT Techfair 2012</span>
         </div>
-        <div id="sponsors" align="center">
-            <div id="sponsorslide" >
-
-           
-    <div id="set" class="show">
-        <ul id="sponsorlinks">
-            <li id="facebook"><a href=http://www.facebook.com></a></li>
-            <li id="adobe"><a href=http://www.adobe.com></a></li>
-            <li id="cisco"><a href=http://www.cisco.com></a></li>
-            <li id="dropbox"><a href=http://www.dropbox.com></a></li>
-            <li id="mozilla"><a href=http://www.mozilla.com></a></li>
-        </ul>
-    </div>
-    <div id="set">
-        <ul id="sponsorlinks">
-            <li id="microsoft"><a href=http://www.microsoft.com></a></li>
-            <li id="oracle"><a href=http://www.oracle.com></a></li>
-            <li id="palantir"><a href=http://www.palantir.com></a></li>
-            <li id="schlumberger"><a href=http://www.schlumberger.com></a></li>
-            <li id="sequoia"><a href=http://www.sequoia.com></a></li>
-        </ul>        
-        </div><br>
-
-</div>
-</div>
+        <div id="sponsors">
+            <h1>Attending Companies</h1>
+            <ul id="sponsorlinks">
+                <li id="facebook"><a href="http://www.facebook.com"></a></li>
+                <li id="adobe"><a href=http://www.adobe.com></a></li>
+                <li id="cisco"><a href=http://www.cisco.com></a></li>
+                <li id="dropbox"><a href=http://www.dropbox.com></a></li>
+                <li id="mozilla"><a href=http://www.mozilla.com></a></li>
+            </ul>
+            
+        </div>
     </div>
 </body>
 </html>
