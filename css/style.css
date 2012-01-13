@@ -636,7 +636,7 @@ h2.schedule{
     top: -12px;
     left: 50%;
     width: 200px;
-    margin-left: -80px;
+    margin: 0 0 0 -80px;
     font-size: 16px;
     font-weight: 400;
     background: white;
@@ -707,13 +707,12 @@ h2.schedule{
 }
 #info h2 {
      font-size: 46px;
-     margin: 0 0 10px;
      line-height: 50px;
      border-bottom: 2px solid rgb(255,182,0);
      font-weight: 300;
 }
 #info h3 {
-     margin-top: 20px;
+     margin-top: 5px;
      font-size: 22px;
      font-weight: 300;
 }

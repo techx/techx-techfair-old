@@ -25,7 +25,6 @@ function make_footer()
             
         </div>
 </div>
-<script type="text/javascript"> Cufon.now(); </script>
 <?php	
 }
 ?>

@@ -2,15 +2,17 @@
 <p>TechFair 2011 was the biggest Techfair yet. Check out <a href="/pdf/booklet2011-web.pdf">the 2011 booklet</a> for company descriptions. See the <a href="/2011checklist/">2011 student checklist</a> to get a taste of all the events that were offered.
 </p>
 <h2>Platinum Sponsor</h2>
-<img title="Oracle" alt="Oracle" src="/img/logos/oracle.png" />
+<img title="Facebook" alt="Facebook" src="/img/logos/facebook_large.png" />
+<p>(<a href="/events/hackathon/">Hack-a-thon Sponsor</a>)</p>
 <h2>Gold Sponsors</h2>
 <div style="margin-left:20px">
 <img title="Dropbox" alt="Dropbox" src="/img/logos/dropbox.png" /><br />
-<img title="Facebook" alt="Facebook" src="/img/logos/facebook.png" /> * <a href="/events/hackathon/">Hack-a-thon Sponsor</a><br />
-<img title="Lockheed Martin" alt="Lockheed Martin" src="/img/logos/lockheed.png" /><br />
-<img title="Mathworks" alt="Mathworks" src="/img/logos/mathworks.png" /><br />
-<img title="Microsoft" alt="Microsoft" src="/img/logos/microsoft.png" /> * <a href="/events/afterparty">Afterparty Sponsor</a><br />
-<img title="Palantir" alt="Palantir" src="/img/logos/palantir.png" /></div>
+<img title="Microsoft" alt="Microsoft" src="/img/logos/microsoft.png" /> (<a href="/events/afterparty">Afterparty Sponsor</a>)<br />
+<img title="Oracle" alt="Oracle" src="/img/logos/oracle_small.png" /><br />
+<img title="Palantir" alt="Palantir" src="/img/logos/palantir.png" /><br />
+<img title="Schlumberger" alt="Schlumberger" src="/img/logos/slb.png" /><br />
+<img title="Sequoia" alt="Sequoia" src="/img/logos/sequoia.png" /><br />
+</div>
 <h2>Silver Sponsors</h2>
 <ul>
 <li>23andMe</li>
@@ -52,6 +54,9 @@
 <li>Lincoln Laboratory * Non-Profit Sponsor</li>
 <li>UPOP * MIT Program Sponsor</li></ul>
 
+<h2>Other Companies</h2>
+<p><img title="Apple" alt="Apple" src="/img/logos/apple.png" /></p>
+
 <style>
 #student-startups span, #student-exhibitors span{
 	font-size:11px;
@@ -76,7 +81,6 @@
 <li>The Musical Wearable <span>by Yang Yang '11</span></li>
 <li>Stuff Charles Made <span>by Charles Z. Guan '11</span></li>
 <li>WiiBook <span>by Charles Franklin '14</span></li></ul>
-</ul>
 <h2>MIT Student Groups</h2>
 <ul>
 <li>MIT Electric Vehicle Team (EVT)</li>

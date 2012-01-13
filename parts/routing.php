@@ -78,7 +78,7 @@ else
 	//if its not a real page
 	elseif ($redirect==false)
 	{
-		//header("Status: 404 Not Found");
+	    header("HTTP/1.0 404 Not Found");
 		$d = $error404;
 	}
 }
