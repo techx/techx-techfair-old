@@ -68,8 +68,10 @@ body {
 	font-size: 16px;
 	padding: 0;
 	margin: 0;
-	font-weight: 300;
 	background: #e6e6e6;
+}
+p {
+    font-weight: 300;
 }
 .clear {
 	clear: both;
@@ -784,7 +786,6 @@ ul#sponsorlinks #andmore a {
 }
 #info p {
      margin: 10px 0;
-     font-family: Helvetica, Arial, sans-serif;
      line-height: 26px;
 }
 #info p strong {
