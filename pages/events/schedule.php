@@ -3,7 +3,7 @@
 </div>
 <div id="column-left">
 <h2>Techfair Events</h2>
-<table id="schedule">
+<table id="schedule" cellpadding=2 cellspacing=1 RULES=ROWS>
   <tr>
     <th>Event
     <th>Time
@@ -44,7 +44,7 @@
 
 <h2>Other Events</h2>
 
-<table id="schedule">
+<table id="schedule" cellpadding=2 cellspacing=1 RULES=ROWS>
   <tr>
     <th>Event
     <th>Time
