@@ -839,7 +839,7 @@ table#schedule td{
     -webkit-transition: width 0.3s; /* Safari and Chrome */
     -o-transition: width 0.3s; /* Opera */
 }
-#mini-schedule-container:hover > #mini-schedule {
+#info:hover #mini-schedule {
 	overflow: hidden;
 	visibility: visible;
 	width: 400px;
