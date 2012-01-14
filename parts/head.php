@@ -23,8 +23,6 @@ function make_head($title)
   <link rel="stylesheet" href="/css/tipsy.css" type="text/css" />
   <script type="text/javascript" src="/css/jquery.tipsy.js"></script>
   
- 
-  
 <?php
 }
 ?>
