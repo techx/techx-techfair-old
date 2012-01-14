@@ -51,14 +51,14 @@ Suggested route for students: enter through the Johnson Athletic center and foll
 
 </div>
 
-<div class="column-bottom" style="text-align: center; margin-top: 50px;">
-  <a href="/img/fair/Fair1.JPG"><img src="/img/fair/Fair1.JPG" style="margin-right: 20px;" width=345 height=230></a>
-  <a href="/img/fair/Fair2.JPG"><img src="/img/fair/Fair2.JPG" style="margin-right: 20px;" width=153 height=230></a>
-  <a href="/img/fair/Fair3.JPG"><img src="/img/fair/Fair3.JPG" width=345 height=230></a>
+<div class="column-bottom" style="text-align: center; padding-top: 50px;">
+  <a href="/img/fair/Fair1.JPG"><img src="/img/fair/Fair1.JPG" style="margin-right: 20px;" width=377 height=251></a>
+  <a href="/img/fair/Fair2.JPG"><img src="/img/fair/Fair2.JPG" style="margin-right: 20px;" width=167 height=251></a>
+  <a href="/img/fair/Fair3.JPG"><img src="/img/fair/Fair3.JPG" width=377 height=251></a>
   
   <div style="margin-top: 20px;">
-  <a href="/img/fair/Fair4.JPG"><img src="/img/fair/Fair4.JPG" style="margin-right: 20px;" width=345 height=230></a>
-  <a href="/img/fair/Fair5.JPG"><img src="/img/fair/Fair5.JPG" style="margin-right: 20px;" width=153 height=230></a>
-  <a href="/img/fair/Fair6.JPG"><img src="/img/fair/Fair6.JPG" width=345 height=230></a>
+  <a href="/img/fair/Fair4.JPG"><img src="/img/fair/Fair4.JPG" style="margin-right: 20px;" width=377 height=251></a>
+  <a href="/img/fair/Fair5.JPG"><img src="/img/fair/Fair5.JPG" style="margin-right: 20px;" width=167 height=251></a>
+  <a href="/img/fair/Fair6.JPG"><img src="/img/fair/Fair6.JPG" width=377 height=251></a>
   </div>
 </div>

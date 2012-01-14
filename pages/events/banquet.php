@@ -22,8 +22,8 @@ February 6th, 2012<br><p>
 <img src="/img/hyatt.PNG" alt="The Hyatt" /></p>
 </div>
 
-<div class="column-bottom" style="text-align: center; margin-top: 50px;">
-  <a href="/img/banquet/Banquet1.JPG"><img src="/img/banquet/Banquet1.JPG" style="margin-right: 5px;" width=306 height=204></a>
-  <a href="/img/banquet/Banquet2.JPG"><img src="/img/banquet/Banquet2.JPG" style="margin-right: 5px;" width=306 height=204></a>
-  <a href="/img/banquet/Banquet3.JPG"><img src="/img/banquet/Banquet3.JPG" style="margin-right: 5px;" width=306 height=204></a>
+<div class="column-bottom" style="text-align: center; padding-top: 50px;">
+  <a href="/img/banquet/Banquet1.JPG"><img src="/img/banquet/Banquet1.JPG" style="margin-right: 20px;" width=306 height=204></a>
+  <a href="/img/banquet/Banquet2.JPG"><img src="/img/banquet/Banquet2.JPG" style="margin-right: 20px;" width=306 height=204></a>
+  <a href="/img/banquet/Banquet3.JPG"><img src="/img/banquet/Banquet3.JPG" width=306 height=204></a>
 </div>
