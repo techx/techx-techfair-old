@@ -39,26 +39,27 @@
 February 6th, 2012<br>
 MIT Spring 2012 Registration Day
 </p>
+
+<h2>Where</h2>
+<p>Rockwell Cage (building W33) on MIT campus, located on Vassar Street behind the student center. If you're coming from out of town, <a href="http://whereis.mit.edu/directions.html">directions to MIT are available</a>. Click the map for a larger, interactive version.</p>
+
 </div>
 
 <div class="column-right">
-
-<h2>Where</h2>
-<p>Techfair 2012 will be held at Rockwell Cage (building W33) on MIT campus, located on Vassar Street behind the student center. If you're coming from out of town, <a href="http://whereis.mit.edu/directions.html">directions to MIT are available</a>. Click the map below for a larger, interactive version.</p>
-<h3>Map</h3>
-Suggested route for students: enter through the Johnson Athletic center and follow the signs to get to Rockwell Cage. <br>
+<h2>Map</h2>
+<p>Suggested route for students: enter through the Johnson Athletic center and follow the signs to get to Rockwell Cage. </p>
 <a href="http://whereis.mit.edu/?go=W33"><img src="/img/map.png" alt="map of MIT" /></a>
 
 </div>
 
 <div class="column-bottom" style="text-align: center; padding-top: 30px;">
-  <a href="/img/fair/Fair1.JPG"><img src="/img/fair/Fair1.JPG" style="margin-right: 20px;" width=376 height=251></a>
+  <a href="/img/fair/Fair1.JPG"><img src="/img/fair/Fair1.JPG" style="margin-right: 20px;" width=374 height=251></a>
   <a href="/img/fair/Fair2.JPG"><img src="/img/fair/Fair2.JPG" style="margin-right: 20px;" width=167 height=251></a>
-  <a href="/img/fair/Fair3.JPG"><img src="/img/fair/Fair3.JPG" width=377 height=251></a>
+  <a href="/img/fair/Fair3.JPG"><img src="/img/fair/Fair3.JPG" width=374 height=251></a>
   
   <div style="margin-top: 20px;">
-  <a href="/img/fair/Fair4.JPG"><img src="/img/fair/Fair4.JPG" style="margin-right: 20px;" width=376 height=251></a>
+  <a href="/img/fair/Fair4.JPG"><img src="/img/fair/Fair4.JPG" style="margin-right: 20px;" width=374 height=251></a>
   <a href="/img/fair/Fair5.JPG"><img src="/img/fair/Fair5.JPG" style="margin-right: 20px;" width=167 height=251></a>
-  <a href="/img/fair/Fair6.JPG"><img src="/img/fair/Fair6.JPG" width=377 height=251></a>
+  <a href="/img/fair/Fair6.JPG"><img src="/img/fair/Fair6.JPG" width=374 height=251></a>
   </div>
 </div>
