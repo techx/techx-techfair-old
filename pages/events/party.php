@@ -20,9 +20,9 @@
   </div>
 
   <div class="column-bottom" style="text-align: center; padding-top: 30px;">
-    <a href="/img/afterparty/Party1.JPG"><img src="/img/afterparty/Party1.JPG" style="margin-right: 20px;" width=370 height=250></a>
-    <a href="/img/afterparty/Party2.JPG"><img src="/img/afterparty/Party2.JPG" style="margin-right: 20px;" width=165 height=250></a>
-    <a href="/img/afterparty/Party3.JPG"><img src="/img/afterparty/Party3.JPG" width=370 height=250></a>
+    <a href="/img/afterparty/Party1o.JPG"><img src="/img/afterparty/Party1.JPG" style="margin-right: 20px;" width=370 height=248></a>
+    <a href="/img/afterparty/Party2o.JPG"><img src="/img/afterparty/Party2.JPG" style="margin-right: 20px;" width=165 height=248></a>
+    <a href="/img/afterparty/Party3o.JPG"><img src="/img/afterparty/Party3.JPG" width=370 height=248></a>
   </div>
   
   </p>
