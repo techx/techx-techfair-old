@@ -23,8 +23,20 @@
 
     $(document).ready(function() {
         setInterval(advanceSlide, 8000);
+		
+		$("#mini-schedule-button").mouseover(
+		  function () {
+				$("#mini-schedule").addClass("schedule-show");
+			}
+		);
+		$("#info").mouseleave(
+		  function () {
+				$("#mini-schedule").removeClass("schedule-show");
+			}
+		);
     });
     
+
     </script>
     
     <link href="css/style.css" rel="stylesheet" />
