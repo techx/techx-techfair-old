@@ -19,7 +19,46 @@
 	</div>
 	<h2>Silver Sponsors</h2>
 	<table class="sponsor-table">
-		<tr>
+		<?php
+			$silver = array(
+				'10gen (mongoDB)' => '1',
+				'Adobe' => "http://www.adobe.com/",
+				'Bazaar Voice' => 'b',
+				'Corning' => 'c'
+			);
+			
+			ksort($silver);
+			for($i=0; $i<sizeof($silver)%3; $i++){
+				array_push($silver, 'null');
+			}
+			
+			$count = 1;
+			if($count%3==0){
+				echo "<tr>";
+			}
+			foreach($silver as $key => $value){
+				echo "<td><a href=".$value.">".$key."</a></td>";
+					
+				if($count%3==0){
+					echo "</tr>";
+					echo "<tr>";
+				}
+				$count++;
+			}
+			if(($count-1)%3!=0){
+				echo "</tr>";
+			}
+			/*while($silver){
+				echo "<tr>";
+				for($i = 0; $i<3; $i++){
+					array_pop($silver) as $key => $value ;
+					echo "<td>".$key."</td>";
+				}
+				echo "</tr>";
+			} */
+		?>
+	</table>
+	<!--	<tr>
 			<td>10gen (mongoDB)</td>
 			<td>Adobe <a href="http://www.adobe.com/"><img src="/img/external.png"></a></td>
 			<td>Bazaar Voice</td>
@@ -44,7 +83,7 @@
 			<td>Twitter</td>
 			<td></td>
 		</tr>
-	</table>
+	</table>-->
 	<h2>Bronze Sponsors</h2>
 	<table class="sponsor-table">
 		<tr>
