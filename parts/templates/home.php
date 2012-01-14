@@ -55,7 +55,6 @@
 						<div id="mini-schedule-content">
 							<h2>Schedule</h2>
 							<h3>Full Schedule <a href="/events/">Here</a></h3>
-							<br><br>
 							<table cellpadding=4 cellspacing=5 RULES=ROWS>
                 <tr>
                   <th><strong>Event</strong>
@@ -80,7 +79,7 @@
                 <tr>
                   <td><a href="/events/afterparty/">Afterparty</a>
                   <td>Mon 2/6 9pm-11pm
-                  <td>Media Lab 6th floor
+                  <td>E14 6th floor
                 </tr>
                 <tr>
                   <td><a href="/events/talks/">TechTalks</a>
