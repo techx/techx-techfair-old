@@ -12,8 +12,8 @@
   </tr>
   <tr>
     <td width=92>Hackathon
-    <td>Sat 2/4 <br>10pm-8am
-    <td>TBA
+    <td width=84>Sat 2/4 <br>10pm-8am
+    <td width=69>TBA
     <td>MIT, Harvard, Brown students
   </tr>
   <tr>
@@ -53,14 +53,14 @@
   </tr>
   <tr>
     <td width=92>Sequoia Panel
-    <td>TBA
-    <td>TBA
+    <td width=84>TBA
+    <td width=69>TBA
     <td>MIT Community
   </tr>
   <tr>
     <td>Oblong TechTalk
     <td>TBA
-    <td>Media Lab, Room TBA
+    <td>Media Lab<br>Room TBA
     <td>MIT Community
   </tr>
 </table>
