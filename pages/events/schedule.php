@@ -19,7 +19,7 @@
   <tr>
     <td>The Fair
     <td>Mon 2/6<br> 9am-3pm
-    <td>Rockwell Cage
+    <td>Rockwell<br> Cage
     <td>MIT students, staff, alumni, affiliates
   </tr>
   <tr>
@@ -44,7 +44,7 @@
 
 <h2>Other Events</h2>
 
-<table id="schedule" cellpadding=2 cellspacing=1 RULES=ROWS">
+<table id="schedule" cellpadding=2 cellspacing=1 RULES=ROWS>
   <tr>
     <th><strong>Event</strong>
     <th><strong>Time</strong>
