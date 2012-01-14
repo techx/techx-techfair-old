@@ -39,9 +39,9 @@ $routes = array(
 			'content' => 'pages/events/schedule.php'
 		),
 		'hackathon' => array(
-			'title' => 'Hack-a-thon / '.$basetitle,
+			'title' => 'Hackathon / '.$basetitle,
 			'content' => 'pages/events/hackathon.php',
-			'name' => 'Hack-a-thon',
+			'name' => 'Hackathon',
 			'process' => 'pages/events/hackathon_process.php'
 		),
 		'venue' => array(

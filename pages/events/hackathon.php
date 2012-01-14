@@ -1,7 +1,8 @@
+<div id="column-left">
 <?php if($_GET['msg']=='success'):?>
 <div class="success">Your email has been saved. Thank you for your interest in MIT Techfair!</div>
 <?php endif;?>
-<h1>The&nbsp;<img src="/img/fb_logo.png" style="vertical-align:bottom" alt="facebook"/>&nbsp;Hack-a-thon</h1>
+<h1>The&nbsp;<img src="/img/fb_logo.png" style="vertical-align:bottom" alt="facebook"/>&nbsp;Hackathon</h1>
 <h2>Interested?</h2>
 <!--
 <div id="facebook" class="interest">
@@ -16,18 +17,20 @@
 -->
 <p>The details are still being hammered out - stay tuned!</p>
 <h2>What</h2>
-<p>The Hack-a-thon is a coding competition sponsored by Facebook. Hack individually, or form up to teams of 10!
-This competition is open to all MIT students. Build something awesome
-that you've always wanted to build. Bring your ideas or think of one on
-the spot!
-Facebook Engineers will be on site to work with you and judge the final projects. Food/caffeine/free shirts will be distributed.</p>
+<p>The Hackathon is a coding competition sponsored by Facebook. This competition is open to all MIT, Harvard, and Brown students. More details soon!</p>
 <h3>Prizes</h3>
-<p>Winners will be flown out to <strong>Facebook HQ</strong> in Palo
-Alto, CA.
-Judging is based 50% on the idea and 50% on the implementation.
-There will also be prizes, food, drink, and swag for everyone!</p>
+<p>TBA <br>
+There will also be food, drink, and swag for everyone!</p>
 <h2>When</h2>
-<p>TBA</p>
+<p>Saturday, February 4th @ 10pm to Sunday, February 5th @ 8am</p>
 <h2>Where</h2>
-<p><strong>Room 32-082</strong> - Stata Basement TEAL Room</p>
-<p>MIT students only.</p>
+<p>TBA</p>
+</div>
+
+<div id="column-right">
+  <img src="Photos/Hack1.JPG" style="float: left;" width=230 height=150>
+  <img src="Photos/Hack2.JPG" style="float: right;" width=230 height=150>
+  <br><br>
+  <img src="Photos/Hack3.JPG" style="float: left;" width=230 height=150>
+  <img src="Photos/Hack4.JPG" style="float: right;" width=230 height=150>
+</div>

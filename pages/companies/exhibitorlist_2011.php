@@ -1,12 +1,12 @@
 <h1>2011 List of Exhibitors</h1>
-<p>TechFair 2011 was the biggest Techfair yet. Check out <a href="/pdf/booklet2011-web.pdf">the 2011 booklet</a> for company descriptions. See the <a href="/2011checklist/">2011 student checklist</a> to get a taste of all the events that were offered.
+<p>Techfair 2011 was the biggest Techfair yet. Check out <a href="/pdf/booklet2011-web.pdf">the 2011 booklet</a> for company descriptions. See the <a href="/2011checklist/">2011 student checklist</a> to get a taste of all the events that were offered.
 </p>
 <h2>Platinum Sponsor</h2>
 <img title="Oracle" alt="Oracle" src="/img/logos/oracle.png" />
 <h2>Gold Sponsors</h2>
 <div style="margin-left:20px">
 <img title="Dropbox" alt="Dropbox" src="/img/logos/dropbox.png" /><br />
-<img title="Facebook" alt="Facebook" src="/img/logos/facebook.png" /> * <a href="/events/hackathon/">Hack-a-thon Sponsor</a><br />
+<img title="Facebook" alt="Facebook" src="/img/logos/facebook.png" /> * <a href="/events/hackathon/">Hackathon Sponsor</a><br />
 <img title="Lockheed Martin" alt="Lockheed Martin" src="/img/logos/lockheed.png" /><br />
 <img title="Mathworks" alt="Mathworks" src="/img/logos/mathworks.png" /><br />
 <img title="Microsoft" alt="Microsoft" src="/img/logos/microsoft.png" /> * <a href="/events/afterparty">Afterparty Sponsor</a><br />

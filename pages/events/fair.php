@@ -2,7 +2,7 @@
 <p>Come join the expo of cutting edge technology and experience the innovation from a wide variety of companies, MIT research groups, student projects, and more!</p>
 <p>Techfair will be conducted "trade-show" style. The audience will be able to walk around to different booths and learn about the presenters, how the science and technologies work, and careers in the company and field of research (if applicable). We'll also be raffling off great prizes!</p>
 <p>Please visit this site soon for a list of companies that will be presenting during the exposition. If you have any questions, please contact us! We also welcome MIT students to help organize the fair, and application for the planning board will be open in the Fall semester.</p>
-<p><a href="https://picasaweb.google.com/103604151821709535051/MITTechFair2011">View our photos from Techfair 2011<a></p>
+<p><a href="https://picasaweb.google.com/103604151821709535051/MITTechfair2011">View our photos from Techfair 2011<a></p>
 <h2>Who</h2>
 <p>All MIT students, alumni, staff, and affliates are welcome to attend!</p>
 <!--<h3 id="raffle">RAFFLE WINNERS</h3>
