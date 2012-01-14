@@ -839,6 +839,13 @@ table#schedule td{
     -webkit-transition: width 0.3s; /* Safari and Chrome */
     -o-transition: width 0.3s; /* Opera */
 }
+
+#mini-schedule table  {
+  color: #444;
+  font-weight: 300;
+  font-size: 15px;
+}
+
 #mini-schedule-container:hover > #mini-schedule {
 	overflow: hidden;
 	visibility: visible;
