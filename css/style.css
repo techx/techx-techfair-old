@@ -872,7 +872,7 @@ table#schedule td{
 	height: 345px;
 }*/
 
-#mini-schedule .show {
+#mini-schedule.schedule-show {
 	width: 400px;
 }
 
