@@ -67,17 +67,22 @@ function populateSponsorTable($sponsorList){
 <div class="column-left">
 	<h2>Platinum Sponsor</h2>
 	<div class="sponsor-logos">
-	    <img title="Facebook" alt="Facebook" src="/img/logos/facebook_large.png" />
+	    <a href="http://www.facebook.com/"><img title="Facebook" alt="Facebook" src="/img/logos/facebook_large.png" /></a>
 	    <p>(<a href="/events/hackathon/">Hack-a-thon Sponsor</a>)</p>
 	</div>
 	<h2>Gold Sponsors</h2>
-	<div class="sponsor-logos">
-	    <img title="Dropbox" alt="Dropbox" src="/img/logos/dropbox.png" /><br />
-	    <img title="Microsoft" alt="Microsoft" src="/img/logos/microsoft.png" /> (<a href="/events/afterparty">Afterparty Sponsor</a>)<br />
-	    <img title="Oracle" alt="Oracle" src="/img/logos/oracle_small.png" /><br />
-	    <img title="Palantir" alt="Palantir" src="/img/logos/palantir.png" /><br />
-	    <img title="Schlumberger" alt="Schlumberger" src="/img/logos/slb.png" /><br />
-	    <img title="Sequoia" alt="Sequoia" src="/img/logos/sequoia.png" /><br />
+	<div class="sponsor-logos full-width">
+		<div class="column-left-half">
+	   	 	<a href="http://www.dropbox.com/"><img title="Dropbox" alt="Dropbox" src="/img/logos/dropbox.png" /></a><br />
+		    <a href="http://www.microsoft.com/"><img title="Microsoft" alt="Microsoft" src="/img/logos/microsoft.png" /></a> <a style="display:block; margin-top:-15px; font-size: 10px" href="/events/afterparty">(Afterparty Sponsor)</a>
+	    	 <a href="http://www.oracle.com/"><img title="Oracle" alt="Oracle" src="/img/logos/oracle_small.png" /></a><br />
+		</div>
+		<div class="column-right-half">
+	 	    <a href="http://www.palantir.com/"><img title="Palantir" alt="Palantir" src="/img/logos/palantir.png" /></a><br />
+		     <a href="http://www.slb.com/"><img title="Schlumberger" alt="Schlumberger" src="/img/logos/slb.png" /></a><br />
+		     <a href="http://www.sequoiacap.com/"><img title="Sequoia" alt="Sequoia" src="/img/logos/sequoia.png" /></a><br />
+		</div>
+		<div class="column-bottom"></div>
 	</div>
 	<h2>Silver Sponsors</h2>
 	<table class="sponsor-table">
@@ -232,7 +237,7 @@ function populateSponsorTable($sponsorList){
 		</tr>-->
 	</table>
 	<h2>Other Companies</h2>
-	<p><img title="Apple" alt="Apple" src="/img/logos/apple.png" /></p>
+	<p><a href="http://www.apple.com/"><img title="Apple" alt="Apple" src="/img/logos/apple.png" /></a></p>
 	<!--<ul>
 	<li>10gen (mongoDB)</li>
 	<li>Adobe</li>
@@ -287,13 +292,13 @@ function populateSponsorTable($sponsorList){
 	<li>VMWare</li>
 	<li>Zanbato</li>
 	</ul>-->
-	<!--<h2>Startup Sponsors</h2>
+	<h2>Startup Sponsors</h2>
 	<ul>
 	<li>Aurora Flight Sciences</li>
 	<li>Locu</li>
 	<li>Lytro</li>
 	<li>Nyx Devices</li>
 	<li>Yottaa</li>
-	</ul>-->
+	</ul>
 </div>
 <div class="column-bottom"></div>

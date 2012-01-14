@@ -99,6 +99,19 @@ div.error {
     text-align: center;
     margin-bottom: 10px;
 }
+
+.full-width {
+	width: 100%;
+}
+.column-right-half{
+	width: 50%;
+	float: right;
+}
+.column-left-half{
+	float: left;
+	width: 50%;
+}
+
 /*
  * STRUCTURE
  */
