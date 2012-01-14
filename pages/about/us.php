@@ -7,6 +7,6 @@
 <h3>We are <span style="color:black">45 committee members</span> led by <span style="color:black">10 exec members</span> determined to throw<br /> <span style="color:black;font-size:30px">1 awesome event</span>.</h3>
 <p>
   <br><Br>
-<a href="/img/team/Team1o.jpg"><img src="/img/team/Team1.jpg" style="margin-right: 15px;" alt="The Techfair team" /></a>
-<a href="/img/team/Team2o.jpg"><img src="/img/team/Team2.jpg" style="margin-right: 15px;"  alt="At our annual retreat" /></a>
+<a href="/img/team/Team1o.jpg"><img src="/img/team/Team1.jpg" style="margin-right: 20px;" alt="The Techfair team" /></a>
+<a href="/img/team/Team2o.jpg"><img src="/img/team/Team2.jpg" style="margin-right: 20px;"  alt="At our annual retreat" /></a>
 <a href="/img/team/Team3o.jpg"><img src="/img/team/Team3.jpg" alt="We have fun, don't worry" /></a>
