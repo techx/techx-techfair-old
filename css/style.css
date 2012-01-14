@@ -819,8 +819,7 @@ table#schedule td{
 	left: -349px;
 	width: 329px;
 	height: 45px;
-	padding: 10px;
-	text-align: center;
+	text-align: left;
 	background:transparent;
 }
 #mini-schedule {

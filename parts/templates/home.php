@@ -48,11 +48,44 @@
                 </p>
 				<div id="mini-schedule-container">
 					<div id="mini-schedule-button">
-						<h1><span style="background: rgba(248, 196, 131, 0.8)">Show Schedule ></span></h1>
+						<div style="padding: 10px; background: rgba(248, 196, 131, 0.8)"><h1>Show Schedule ></h1></div>
 					</div>
 					<div id="mini-schedule">
 						<div id="mini-schedule-content">
-							Schedule stuff blah blah blah...
+							<h2>2012 Schedule</h2>
+							<h3>Full Schedule <a href="/events/">Here</a></h3>
+							<table style="td {height: 20px; };"cellpadding=2 cellspacing=5 RULES=ROWS>
+                <tr>
+                  <th><strong>Event</strong>
+                  <th><strong>Time</strong>
+                  <th><strong>Location</strong>
+                </tr>
+                <tr>
+                  <td width=92>Hackathon
+                  <td>Sat 2/4 <br>10pm-8am
+                  <td>TBA
+                </tr>
+                <tr>
+                  <td>The Fair
+                  <td>Mon 2/6<br> 9am-3pm
+                  <td>Rockwell Cage
+                </tr>
+                <tr>
+                  <td>Banquet
+                  <td>Mon 2/6<br> 6pm-8:30pm
+                  <td>The Hyatt
+                </tr>
+                <tr>
+                  <td>Afterparty
+                  <td>Mon 2/6<br> 9pm-11pm
+                  <td>Media Lab <br>6th floor
+                </tr>
+                <tr>
+                  <td>TechTalks
+                  <td>Sat 2/11<br>Time TBA
+                  <td>10-250
+                </tr>
+              </table>
 						</div>
 					</div>
 				</div>
