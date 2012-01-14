@@ -1,3 +1,65 @@
+<?php 
+function natksort($array) 
+{ 
+    $original_keys_arr = array(); 
+    $original_values_arr = array(); 
+    $clean_keys_arr = array(); 
+
+    $i = 0; 
+    foreach ($array AS $key => $value) 
+    { 
+        $original_keys_arr[$i] = $key; 
+        $original_values_arr[$i] = $value; 
+        $clean_keys_arr[$i] = strtr($key, "ÄÖÜäöüÉÈÀËëéèàç", "AOUaouEEAEeeeac"); 
+        $i++; 
+    } 
+
+    natcasesort($clean_keys_arr); 
+
+    $result_arr = array(); 
+
+    foreach ($clean_keys_arr AS $key => $value) 
+    { 
+        $original_key = $original_keys_arr[$key]; 
+        $original_value = $original_values_arr[$key]; 
+        $result_arr[$original_key] = $original_value; 
+    } 
+
+    return $result_arr; 
+} 
+?>
+
+<?php
+function populateSponsorTable($sponsorList){
+
+	natksort($sponsorList);
+	for($i=0; $i<sizeof($sponsorList)%3; $i++){
+		array_push($sponsorList, 'null');
+	}
+
+	$count = 1;
+	if($count%3==0){
+		echo "<tr>";
+	}
+	foreach($sponsorList as $key => $value){
+		if($value != 'null'){
+			echo "<td><a href=".$value.">".$key." <img src='/img/external.png'></a></td>";
+		}else{
+			echo "<td></td>";
+		}
+		if($count%3==0){
+			echo "</tr>";
+			echo "<tr>";
+		}
+		$count++;
+	}
+	if(($count-1)%3!=0){
+		echo "</tr>";
+	}
+}
+
+?>
+
 <div class="column-top">
 	<h1>2012 List of Exhibitors</h1>
 	<p>Techfair 2012 is looking to be the biggest Techfair yet!</p>
@@ -19,14 +81,37 @@
 	</div>
 	<h2>Silver Sponsors</h2>
 	<table class="sponsor-table">
-		<tr>
-			<td>10gen</td>
+		<?php
+			//Add Silver sponsors & their websites to this list. They DON'T have to be in alphabetical order; the function will sort them.
+			$silver = array(
+				'10gen (mongoDB)'					=> '#',
+				'Adobe' 							=> 'http://www.adobe.com/',
+				'Bazaar Voice' 						=> '#',
+				'Corning' 							=> '#',
+				'Dassault Systemes (Solidworks)' 	=> '#',
+				'General Electric' 					=> '#',
+				'GrubHub' 							=> '#',
+				'MathWorks' 						=> '#',
+				'Merck' 							=> '#',
+				'Mozilla'							=> '#',
+				'Oblong' 							=> '#',
+				'Sony (SCEA)' 						=> '#',
+				'Thomson Reuters' 					=> '#',
+				'Twitter' 							=> '#' 
+			);
+			
+			populateSponsorTable($silver);
+			
+		?>
+	</table>
+	<!--	<tr>
+			<td>10gen (mongoDB)</td>
 			<td>Adobe <a href="http://www.adobe.com/"><img src="/img/external.png"></a></td>
 			<td>Bazaar Voice</td>
 		</tr>
 		<tr>
 			<td>Corning</td>
-			<td>Solidworks</td>
+			<td>Dassault Systemes (Solidworks)</td>
 			<td>General Electric</td>
 		</tr>
 		<tr>
@@ -37,18 +122,53 @@
 		<tr>
 			<td>Mozilla</td>
 			<td>Oblong</td>
-			<td>Sony Computer Entertainment America</td>
+			<td>Sony (SCEA)</td>
 		</tr>
 		<tr>
 			<td>Thomson Reuters</td>
 			<td>Twitter</td>
 			<td></td>
 		</tr>
-	</table>
+	</table>-->
 	<h2>Bronze Sponsors</h2>
 	<table class="sponsor-table">
-		<tr>
-			<td>3LM (Three Laws of Mobility)</td>
+		<?php
+			//Add Bronze sponsors & their websites to this list. They DON'T have to be in alphabetical order; the function will sort them.
+			$bronze = array(
+				'3LM' => '#',
+				'AisleBuyer' => '#',
+				'Akamai' => '#',
+				'Akiban Technologies' => '#',
+				'AT&T' => '#',
+				'Autodesk' => '#',
+				'Bose' => '#',
+				'CEO in a box' => '#',
+				'Citrix Online' => '#',
+				'Crittercism' => '#',
+				'eBay' => '#',
+				'Fusion-io' => '#',
+				'Google' => '#',
+				'Kiva' => '#',
+				'Knome' => '#',
+				'Lincoln Lab' => '#',
+				'Maxim Integrated Products' => '#',
+				'MDS Lavastorm Analytics' => '#',
+				'Medtronic' => '#',
+				'Philips' => '#',
+				'Quixey' => '#',
+				'Smule' => '#',
+				'Square' => '#',
+				'Synaptics' => '#',
+				'TI' => '#',
+				'Under Armour' => '#',
+				'VMWare' => '#',
+				'Zanbato' => '#'
+			);
+			
+			populateSponsorTable($bronze);
+		?>
+		<!--<tr>
+			<td>3LM</td>
 			<td>AisleBuyer</td>
 			<td>Akamai</td>
 		</tr>
@@ -75,7 +195,7 @@
 		<tr>
 			<td>Lincoln Lab</td>
 			<td>Maxim Integrated Products</td>
-			<td>MDS Lavastorm Analytics  http://martindawessystems.com/</td>
+			<td>MDS Lavastorm Analytics</td>
 		</tr>
 		<tr>
 			<td>Medtronic</td>
@@ -109,7 +229,7 @@
 			<td>Nyx Devices</td>
 			<td>Yottaa</td>
 			<td></td>
-		</tr>
+		</tr>-->
 	</table>
 	<h2>Other Companies</h2>
 	<p><img title="Apple" alt="Apple" src="/img/logos/apple.png" /></p>

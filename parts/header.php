@@ -74,6 +74,10 @@ function make_header($sectionName,$subSectionName,$routes)
 															$fairClass = "fillerClass";
 														  endif;	?>
 														
+														<?php if($page['name']=="2012 Resume Drop"):
+																$page['name'] = '<img src="/img/right.png"> 2012 Resume Drop <img src="/img/external-grey.png">';
+															  endif;	?>
+														
 													<?php if(isset($page['content'])):?>
 														<?php ($sectionName==$key && $subSectionName==$subkey) ? $class=' class="current"' : $class='';?>
 														<li<?php echo $class?>><a class=<?php echo $fairClass ?> href="/<?php echo $key?>/<?php echo $subkey ?>/"><?php echo $page['name']?></a></li>
