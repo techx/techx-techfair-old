@@ -741,7 +741,7 @@ table#schedule td{
 #info {
      background: rgba(255, 255, 255, 0.8);
      width: 400px;
-	 height: 325px;
+	 height: 273px;
      padding: 10px;
      z-index: 200;
      position: absolute;
@@ -841,9 +841,14 @@ table#schedule td{
 }
 
 #mini-schedule table  {
-  color: #444;
+  color: #888;
   font-weight: 300;
-  font-size: 15px;
+  font-size: 16px;
+  width: 375px;
+}
+
+#mini-schedule td  {
+  height: 30px;
 }
 
 #mini-schedule-container:hover > #mini-schedule, #mini-schedule-grow-button:hover ~ #mini-schedule {
