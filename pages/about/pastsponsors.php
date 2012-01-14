@@ -1,4 +1,20 @@
 <h1>Past Sponsors of Techfair<h1>
+
+<h2>2011 MIT Techfair</h2>
+<h3>Platinum Sponsor</h3>
+<p>Facebook</p>
+<h3>Gold Sponsors</h3>
+<p>Microsoft, Schlumberger, Oracle, Sequoia, Dropbox, Palantir, Apple</p>
+<h3>Silver Sponsors</h3>
+<p>General Electric, Dassault Systemes (Solidworks), Oblong, Thomson Reuters, Twitter, Sony (SCEA), GrubHub, 10gen (mongoDB),
+    Bazaar Voice, Corning, Merck, MathWorks, Mozilla, Adobe</p>
+<h3>Bronze Sponsors</h3>
+<p>Akiban Technologies, Under Armour, Kiva, VMWare, eBay, Fusion-io, AisleBuyer, Synaptics, Lincoln Lab, Maxim Integrated Products,
+    Smule, Citrix Online, Google, MDS Lavastorm Analytics, CEO in a box, Zanbato, TI, Autodesk, Bose, Crittercism, Philips,
+    AT&amp;T, Knome, Square, 3LM, Akamai, Medtronic, Quixey</p>
+<h3>Basic Sponsors</h3>
+<p>Nyx Devices, Aurora Flight Sciences, Yottaa, Lytro, Locu</p>
+
 	
 <h2>2010 MIT Techfair</h2>
 <p>2010 included the addition of some very big names in the technology industry, and the continuation of many of our loyal partners.</p>
@@ -14,7 +30,6 @@ Systems, Inc.</p>
 <p>Draper Laboratory, Medtronic, Cooliris, LogMeIn Inc., Tagged Inc, Activision, Akamai, Dropbox, Google, US Army Natick, Ball Aerospace &amp; Technologies Corp., Recombinant Data Corp., Global Prior Art, Grassroots Giving Group, RealNetworks, DRW Trading Group, Knight Equity Markets, L.P., General Atomics., Northrop Grumman, Autotegrity, GE Aviation, Human Dynamics Research Group, MIT Lincoln Laboratory, PROTEUS Technologies</p>
 
 <h2>2009 MIT Techfair</h2>
-<p>2009 continued Techfair's success with a strong group of gold and silver sponsors.</p>
 <h3>Gold Sponsors</h3>
 <p>BAE Systems, Microsoft, The Mathworks, Thomson Reuters, Bloomberg</p>
 <h3>Silver Sponsors</h3>
