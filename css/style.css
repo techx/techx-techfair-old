@@ -766,3 +766,17 @@ table#schedule td{
 	text-decoration: underline;
 }
 /* END HOME PAGE STYLES */
+
+
+.sponsor-table {
+	border-collapse: collapse;
+	width: 100%;
+}
+.sponsor-table, .sponsor-table td, .sponsor-table tr {
+	border: 1px solid #cccccc;
+}
+.sponsor-table td {
+	width:33%;
+	padding: 15px 15px;
+	text-align: center;
+}
