@@ -30,9 +30,69 @@ function out(num) {
 	});
  </script>
  
+<style type="text/css">
+.marginnone {
+  border: 0px;
+}
+.marginright {
+  margin-right: 8px;
+  border: 0px;
+}
+.marginrighttopbottom {
+  margin-right: 8px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  border: 0px;
+}
+.margintopbottom {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  border: 0px;
+}
+</style>
+ 
 <h1>The Techfair Executive Team</h1>
-<p><strong>9 people, 1 awesome team.</strong> (1 team email: <a href="mailto:techfair-exec@mit.edu">techfair-exec@mit.edu</a>)</p>
+<p>
+  The executive team is elected every year by the Techfair committee members. These future leaders of America 
+  <strong>10 people, 1 awesome team.</strong> <br>Team email: <a href="mailto:techfair-exec@mit.edu">techfair-exec@mit.edu</a></p>
 
+<a id="tooltip4" href="#" title="Susie Fu: Managing Director, mother hen">
+  <img class="marginright" src="/img/exec/susie.jpg" name="Susie" />
+</a>
+<a id="tooltip5" href="#" title="Ravi Charan: Associate Director, TechTalk director, math genius">
+  <img class="marginright" src="/img/exec/ravi.jpg" name="Ravi" />
+</a>
+<a href="#" id="tooltip1" title="Jennifer Wang: Student Relations Director, nutella fanatic">
+  <img class="marginright" src="/img/exec/jennifer.jpg" name="Jennifer"/>
+</a>
+<a id="tooltip6" href="#" title="Joshua Ma: Corporate Relations Co-Director, superstarhacker">
+  <img class="marginnone" src="/img/exec/josh.jpg" name="Josh" />
+</a>
+
+<a href="#" id="tooltip2" title="Jonathan Gootenberg: Corporate Relations Co-Director, unit overtaker">
+  <img class="marginrighttopbottom" src="/img/exec/goot.jpg" name="Goot"/>
+  </a>
+<a href="/img/exec/execo.jpg" id="tooltip10" title="Executive Team at the Techfair Retreat">
+  <img class="marginrighttopbottom" src="/img/exec/exec.JPG" name="Exec"/>
+</a>
+<a id="tooltip8" href="#" title="Sherry Wu: Finance Director, original apple fangirl">
+  <img class="margintopbottom" src="/img/exec/sherry.jpg" name="Sherry" />
+  </a>
+
+<a id="tooltip7" href="#" title="Ranna Zhou: Internal Director, multitask extraordinare">
+  <img class="marginright" src="/img/exec/ranna.jpg" name="Ranna" />
+  </a>
+<a href="#" id="tooltip3" title="Carolyn Zhang: Marketing Director, fashionista">
+  <img class="marginright" src="/img/exec/carolyn.jpg" name="Carolyn" />
+  </a>
+<a href="#" id="tooltip9" title="Julie Wang: Events Director, mystery woman">
+  <img class="marginright" src="/img/exec/julie.jpg" name="Julie"/>
+</a>
+<a href="#" id="tooltip0" title="David Luciano: Logistics Director, karate master">
+  <img class="marginnone" src="/img/exec/david.jpg" name="David"/>
+</a>
+
+<!-- Old 3x3 2011 Exec
 <table padding=0 margin=15>
   <tr>
     <td><a href="#" id="tooltip0" title="David Luciano: Logistics Director, karate master"><img src="/img/exec/david.jpg" name="David"/></a>
@@ -50,6 +110,7 @@ function out(num) {
     <td><a id="tooltip8" href="#" title="Sherry Wu: Finance Director, original apple fangirl"><img src="/img/exec/sherry.jpg" name="Sherry" /></a>
   </tr>
 </table>
+-->
 
 <!--OLD EXEC
 
