@@ -538,18 +538,18 @@ table#schedule {
     display:block;
 }
 
-#column-top {
+.column-top {
     width:100%;
 }
-#column-left {
+.column-left {
     width: 470px;
     float:left;
 }
-#column-right {
+.column-right {
      width: 470px;
     float:right;
 }
-#column-bottom {
+.column-bottom {
     width: 100%;
     clear:both;
 }

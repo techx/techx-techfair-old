@@ -1,7 +1,7 @@
-<div id="column-top">
+<div class="column-top">
 	<h1>Schedule of Events</h1>
 </div>
-<div id="column-left">
+<div class="column-left">
 <h2>Techfair Events</h2>
 <table id="schedule" cellpadding=2 cellspacing=1 RULES=ROWS>
   <tr>
@@ -67,7 +67,7 @@
 
 
 </div>
-<div id="column-right">
+<div class="column-right">
   <h2>Hackathon Coding Competition</h2>
 	<p>Hackathon is happening the weekend before Techfair! This Facebook-sponsored event is an all-night coding competition. Learn more <a href="/hack">here</a>.
 	</p>
@@ -88,5 +88,5 @@
 	<h2>Oblong TechTalk</h2>
 	<p>Oblong Industries will be presenting their g‑speak™ platform at the Media Lab.</p>
 </div>
-<div id="column-bottom">
+<div class="column-bottom">
 </div>
