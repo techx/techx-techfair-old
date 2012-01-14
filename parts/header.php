@@ -40,18 +40,47 @@ function make_header($sectionName,$subSectionName,$routes)
 							?>
 								<?php ($sectionName==$key) ? $class=' current' : $class='';?>
 								<?php ($key=='think') ? $think=' think' : $think='';?>
-		
+									
 									<?php if(isset($section[''])): //only folders have a key named '' for the main page?>
 										<?php ($sectionName == $key) ? $class = 'shown' : $class = 'hidden'; ?>
 										<ul id="sub<?php echo $k?>">
+											
+											<?php $uniqueName=''; 
+										 		switch($printkey){
+													case "events/":
+														$uniqueName = "Schedule";
+														break;
+													case "companies/":
+														$uniqueName = "Get Involved";
+														break;
+													case "students/":
+														$uniqueName = "Get Involved";
+														break;
+													case "about/":
+														$uniqueName = "About Techfair";
+														break;
+												}
+											?>
+											<li><a href="/<?php echo $printkey?>"><?php echo $uniqueName?></a></li>
+											
+											
 											<?php foreach($section as $subkey=>$page): ?>
 												<?php if(is_array($page) && $subkey != ''):?>
+													
+													<?php if($page['name']=="The Fair"):
+															$fairClass = "bold";
+															$page['name'] = '<img src="/img/right.png"> The Fair';
+														  else:
+															$fairClass = "fillerClass";
+														  endif;	?>
+														
 													<?php if(isset($page['content'])):?>
 														<?php ($sectionName==$key && $subSectionName==$subkey) ? $class=' class="current"' : $class='';?>
-														<li<?php echo $class?>><a href="/<?php echo $key?>/<?php echo $subkey ?>/"><?php echo $page['name']?></a></li>
+														<li<?php echo $class?>><a class=<?php echo $fairClass ?> href="/<?php echo $key?>/<?php echo $subkey ?>/"><?php echo $page['name']?></a></li>
 													<?php else:?>
-														<li><a href="<?php echo $page['external']?>"><?php echo $page['name']?></a></li>
+														<li><a class=<?php echo $fairClass ?> href="<?php echo $page['external']?>"><?php echo $page['name']?></a></li>
 													<?php endif;?>
+									
 												<?php endif;?>
 											<?php endforeach;?>
 										</ul>
