@@ -53,13 +53,13 @@ MIT Spring 2012 Registration Day
 </div>
 
 <div class="column-bottom" style="text-align: center; padding-top: 30px;">
-  <a href="/img/fair/Fair1.JPG"><img src="/img/fair/Fair1.JPG" style="margin-right: 20px;" width=374 height=251></a>
-  <a href="/img/fair/Fair2.JPG"><img src="/img/fair/Fair2.JPG" style="margin-right: 20px;" width=167 height=251></a>
-  <a href="/img/fair/Fair3.JPG"><img src="/img/fair/Fair3.JPG" width=374 height=251></a>
+  <a href="/img/fair/Fair1.JPG"><img src="/img/fair/Fair1.JPG" style="margin-right: 20px;" width=370 height=250></a>
+  <a href="/img/fair/Fair2.JPG"><img src="/img/fair/Fair2.JPG" style="margin-right: 20px;" width=165 height=250></a>
+  <a href="/img/fair/Fair3.JPG"><img src="/img/fair/Fair3.JPG" width=370 height=250></a>
   
   <div style="margin-top: 20px;">
-  <a href="/img/fair/Fair4.JPG"><img src="/img/fair/Fair4.JPG" style="margin-right: 20px;" width=374 height=251></a>
-  <a href="/img/fair/Fair5.JPG"><img src="/img/fair/Fair5.JPG" style="margin-right: 20px;" width=167 height=251></a>
-  <a href="/img/fair/Fair6.JPG"><img src="/img/fair/Fair6.JPG" width=374 height=251></a>
+  <a href="/img/fair/Fair4.JPG"><img src="/img/fair/Fair4.JPG" style="margin-right: 20px;" width=370 height=250></a>
+  <a href="/img/fair/Fair5.JPG"><img src="/img/fair/Fair5.JPG" style="margin-right: 20px;" width=165 height=250></a>
+  <a href="/img/fair/Fair6.JPG"><img src="/img/fair/Fair6.JPG" width=370 height=250></a>
   </div>
 </div>

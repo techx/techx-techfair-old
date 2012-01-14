@@ -20,11 +20,11 @@ February 6th, 2012<br><p>
 <p><a href="http://maps.google.com/maps?q=hyatt+cambridge&hl=en&ll=42.352566,-71.100769&spn=0.010498,0.022724&sll=42.35653,-71.099653&sspn=0.010497,0.022724&vpsrc=6&dirflg=w&hq=hyatt+cambridge&t=m&z=16">Hyatt Regency Cambridge</a> Charles View Ballroom (16th floor)<br>
   575 Memorial Drive<br>
   Cambridge, Massachusetts<br>
-<img src="/img/hyatt.PNG" alt="The Hyatt" /></p>
+<img src="/img/hyatt.PNG" alt="The Hyatt" style="margin-top: 20px;"/></p>
 </div>
 
 <div class="column-bottom" style="text-align: center; padding-top: 30px;">
-  <a href="/img/banquet/Banquet1.JPG"><img src="/img/banquet/Banquet1.JPG" style="margin-right: 20px;" width=305 height=204></a>
-  <a href="/img/banquet/Banquet2.JPG"><img src="/img/banquet/Banquet2.JPG" style="margin-right: 20px;" width=305 height=204></a>
-  <a href="/img/banquet/Banquet3.JPG"><img src="/img/banquet/Banquet3.JPG" width=305 height=204></a>
+  <a href="/img/banquet/Banquet1.JPG"><img src="/img/banquet/Banquet1.JPG" style="margin-right: 20px;" width=300 height=203></a>
+  <a href="/img/banquet/Banquet2.JPG"><img src="/img/banquet/Banquet2.JPG" style="margin-right: 20px;" width=300 height=203></a>
+  <a href="/img/banquet/Banquet3.JPG"><img src="/img/banquet/Banquet3.JPG" width=300 height=203></a>
 </div>
