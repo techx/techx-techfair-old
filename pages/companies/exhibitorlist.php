@@ -63,6 +63,7 @@ function populateSponsorTable($sponsorList){
 <div class="column-top">
 	<h1>2012 List of Exhibitors</h1>
 	<p>Techfair 2012 is looking to be the biggest Techfair yet!</p>
+	<p>See the full schedule <a href="/events/">here</a>.</p>
 </div>
 <div class="column-left">
 	<h2>Platinum Sponsor</h2>

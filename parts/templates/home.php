@@ -44,11 +44,11 @@
                     With <strong><a href="/companies/exhibitorlist/">over 50 companies and 30 student projects</a></strong>, this year's student-run expo is bound to be the largest yet.
                 </p>
                 <p>
-                  <a href="http://umeqo.com/techfair">Drop your resume</a> by February 5th
+                  <a href="http://umeqo.com/techfair">Drop your resume</a> by February 4th
                 </p>
 				<div id="mini-schedule-container">
 					<div id="mini-schedule-button">
-						Show Full Schedule <img src="/img/right-big.png"/>
+						<h1><span style="background: rgba(248, 196, 131, 0.8)">Show Schedule ></span></h1>
 					</div>
 					<div id="mini-schedule">
 						<div id="mini-schedule-content">
