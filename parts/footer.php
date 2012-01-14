@@ -14,11 +14,11 @@ function make_footer()
             <ul id="sponsorlinks">
                 <li id="facebook"><a href="http://www.facebook.com"></a></li>
                 <li id="apple"><a href="http://www.apple.com"></a></li>
-                <li id="dropbox"><a href="http://www.microsoft.com"></a></li>
-                <li id="microsoft"><a href="http://oracle.com"></a></li>
-                <li id="oracle"><a href="http://palantir.com"></a></li>
-                <li id="palantir"><a href="http://www.slb.com"></a></li>
-                <li id="slb"><a href="http://www.dropbox.com"></a></li>
+                <li id="dropbox"><a href="http://www.dropbox.com"></a></li>
+                <li id="microsoft"><a href="http://microsoft.com"></a></li>
+                <li id="oracle"><a href="http://oracle.com"></a></li>
+                <li id="palantir"><a href="http://www.palantir.com"></a></li>
+                <li id="slb"><a href="http://www.slb.com"></a></li>
                 <li id="sequoia"><a href="http://www.sequoiacap.com"></a></li>
                 <li id="andmore"><a href="#">and more...</a></li>
             </ul>
