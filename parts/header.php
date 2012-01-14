@@ -75,10 +75,7 @@ function make_header($sectionName,$subSectionName,$routes)
 														  endif;	?>
 														
 														<?php if($page['name']=="2012 Resume Drop"):
-																$fairClass = "bold";
-																$page['name'] = '<img src="/img/right.png"> 2012 Resume Drop <img src="/img/external.png">';
-															  else:
-																$fairClass = "fillerClass";
+																$page['name'] = '<img src="/img/right.png"> 2012 Resume Drop <img src="/img/external-grey.png">';
 															  endif;	?>
 														
 													<?php if(isset($page['content'])):?>

@@ -773,6 +773,16 @@ table#schedule td{
 	border-collapse: collapse;
 	width: 100%;
 }
+
+.sponsor-table a {
+	color: #000;
+	text-decoration: none;
+}
+.sponsor-table a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+
 .sponsor-table, .sponsor-table td, .sponsor-table tr {
 	border: 1px solid #cccccc;
 }
@@ -781,6 +791,8 @@ table#schedule td{
 	padding: 15px 15px;
 	text-align: center;
 }
+
+
 
 #mini-schedule-container {
 	position:absolute;
