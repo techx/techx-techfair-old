@@ -24,7 +24,7 @@ function out(num) {
 
 <script type="text/javascript">
 	$(document).ready(function() {
-		for(count=0;count<9;count++){
+			for(count=0;count<9;count++){
 			$("#tooltip"+count).tipsy({gravity: 's'});
 		}
 	});

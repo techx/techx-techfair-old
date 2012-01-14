@@ -728,6 +728,7 @@ table#schedule td{
 #info {
      background: rgba(255, 255, 255, 0.8);
      width: 400px;
+	 height: 325px;
      padding: 10px;
      z-index: 200;
      position: absolute;
@@ -780,3 +781,45 @@ table#schedule td{
 	padding: 15px 15px;
 	text-align: center;
 }
+
+#mini-schedule-container {
+	position:absolute;
+	top: -1px;
+	left: 421px;
+}
+#mini-schedule-button {
+	position: absolute;
+	top: 302px;
+	left: -145px;
+	width: 125px;
+	height: 25px;
+	padding: 10px;
+	text-align: center;
+	background:rgba(50, 255, 0, 0.4);
+	
+}
+#mini-schedule {
+	padding: 10px;
+	visibility: hidden;
+	position:absolute;
+	width: 0px;
+	height: 325px;
+	background: rgba(255, 255, 255, 0.8);
+	border-top: 1px solid rgba(255,255,255,0.9);
+     border-right: 1px solid rgba(255,255,255,0.9);
+     border-bottom: 1px solid rgba(255,255,255,0.9);
+	transition: width 0.3s;
+    -moz-transition: width 0.3s; /* Firefox 4 */
+    -webkit-transition: width 0.3s; /* Safari and Chrome */
+    -o-transition: width 0.3s; /* Opera */
+}
+#mini-schedule-container:hover > #mini-schedule {
+	overflow: hidden;
+	visibility: visible;
+	width: 400px;
+}
+#mini-schedule-content {
+	width: 400px;
+}
+
+

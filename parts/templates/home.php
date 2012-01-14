@@ -46,7 +46,15 @@
                     Be sure to <a href="http://umeqo.com/techfair">drop your resume</a> before the fair, and check out the <a href="#">fair schedule</a>.
                     Don't miss out on the <a href="/events/hackathon">hackathon</a>, <a href="/events/banquet">banquet</a>, and <a href="/events/afterparty">afterparty</a>!
                 </p>
-				<div id="schedule">
+				<div id="mini-schedule-container">
+					<div id="mini-schedule-button">
+						Show Schedule
+					</div>
+					<div id="mini-schedule">
+						<div id="mini-schedule-content">
+							Schedule stuff blah blah blah...
+						</div>
+					</div>
 				</div>
             </div>
             <div id="overlay"></div>
