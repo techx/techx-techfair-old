@@ -33,6 +33,7 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,
     margin: 0;
     padding: 0;
 }
+
 table {
     border-collapse: collapse;
     border-spacing: 0;
@@ -542,18 +543,18 @@ table#schedule td{
     display:block;
 }
 
-#column-top {
+.column-top {
     width:100%;
 }
-#column-left {
+.column-left {
     width: 470px;
     float:left;
 }
-#column-right {
+.column-right {
      width: 470px;
     float:right;
 }
-#column-bottom {
+.column-bottom {
     width: 100%;
     clear:both;
 }
