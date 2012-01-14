@@ -100,17 +100,24 @@ $routes = array(
 		'name' => 'For Students',
 		'' => array(
 			'title' => 'For Students / '.$basetitle,
-			'content' => 'pages/students/exhibit.php',
+			'content' => 'pages/students/forstudents.php',
+		),
+		'resume' => array(
+		  'external' => 'http://www.umeqo.com/techfair',
+			'name' => '2012 Resume Drop'
 		),
 		'exhibitors' => array(
 			'external' => '/companies/exhibitorlist/',
 			'name' => '2012 List of Exhibitors'
 		),
-		'displays' => array(
-			'external' => '/students/',
-			'name' => 'Startups &amp; Projects'
+		'startups' => array(
+			'external' => '/mitstartups',
+			'name' => 'Student Startups'
 		),
-
+  	'projects' => array(
+  		'external' => '/getabooth',
+  		'name' => 'Student Projects'
+  	),
 
 		'funding' => array(
 			'content' => 'pages/students/funding.php',

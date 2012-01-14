@@ -20,13 +20,13 @@
 	<h2>Silver Sponsors</h2>
 	<table class="sponsor-table">
 		<tr>
-			<td>10gen (mongoDB)</td>
+			<td>10gen</td>
 			<td>Adobe <a href="http://www.adobe.com/"><img src="/img/external.png"></a></td>
 			<td>Bazaar Voice</td>
 		</tr>
 		<tr>
 			<td>Corning</td>
-			<td>Dassault Systemes (Solidworks)</td>
+			<td>Solidworks</td>
 			<td>General Electric</td>
 		</tr>
 		<tr>
@@ -37,7 +37,7 @@
 		<tr>
 			<td>Mozilla</td>
 			<td>Oblong</td>
-			<td>Sony (SCEA)</td>
+			<td>Sony Computer Entertainment America</td>
 		</tr>
 		<tr>
 			<td>Thomson Reuters</td>
@@ -48,7 +48,7 @@
 	<h2>Bronze Sponsors</h2>
 	<table class="sponsor-table">
 		<tr>
-			<td>3LM</td>
+			<td>3LM (Three Laws of Mobility)</td>
 			<td>AisleBuyer</td>
 			<td>Akamai</td>
 		</tr>
@@ -75,7 +75,7 @@
 		<tr>
 			<td>Lincoln Lab</td>
 			<td>Maxim Integrated Products</td>
-			<td>MDS Lavastorm Analytics</td>
+			<td>MDS Lavastorm Analytics  http://martindawessystems.com/</td>
 		</tr>
 		<tr>
 			<td>Medtronic</td>
