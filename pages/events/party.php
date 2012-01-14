@@ -19,10 +19,10 @@
 
   </div>
 
-  <div class="column-bottom" style="text-align: center; padding-top: 50px;">
-    <a href="/img/afterparty/Party1.JPG"><img src="/img/afterparty/Party1.JPG" style="margin-right: 20px;" width=377 height=251></a>
+  <div class="column-bottom" style="text-align: center; padding-top: 30px;">
+    <a href="/img/afterparty/Party1.JPG"><img src="/img/afterparty/Party1.JPG" style="margin-right: 20px;" width=376 height=251></a>
     <a href="/img/afterparty/Party2.JPG"><img src="/img/afterparty/Party2.JPG" style="margin-right: 20px;" width=167 height=251></a>
-    <a href="/img/afterparty/Party3.JPG"><img src="/img/afterparty/Party3.JPG" width=377 height=251></a>
+    <a href="/img/afterparty/Party3.JPG"><img src="/img/afterparty/Party3.JPG" width=376 height=251></a>
   </div>
   
   </p>

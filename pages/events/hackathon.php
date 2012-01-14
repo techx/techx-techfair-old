@@ -37,7 +37,7 @@
   <p>To be announced!</p>
 </div>
 
-<div class="column-bottom" style="text-align: center; padding-top: 50px;">
+<div class="column-bottom" style="text-align: center; padding-top: 30px;">
   <a href="/img/hackathon/Hack1.JPG"><img src="/img/hackathon/Hack1.JPG" style="margin-right: 20px;" width=225 height=150></a>
   <a href="/img/hackathon/Hack2.JPG"><img src="/img/hackathon/Hack2.JPG" style="margin-right: 20px;" width=225 height=150></a>
   <a href="/img/hackathon/Hack3.JPG"><img src="/img/hackathon/Hack3.JPG" style="margin-right: 20px;" width=225 height=150></a>
