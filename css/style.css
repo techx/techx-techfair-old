@@ -846,7 +846,7 @@ table#schedule td{
   font-size: 15px;
 }
 
-#mini-schedule-container:hover > #mini-schedule {
+#mini-schedule-container:hover > #mini-schedule, #mini-schedule-grow-button:hover ~ #mini-schedule {
 	overflow: hidden;
 	visibility: visible;
 	width: 400px;
@@ -860,11 +860,11 @@ table#schedule td{
 	height: 0;
 	position: absolute;
 	top: 0;
-	left: 0;
+	left: -440px;	
 }
-#mini-schedule-grow-button:hover, #mini-schedule-container:hover {
-	width: 400px;
-	height: 325px;
+#mini-schedule-grow-button:hover, #mini-schedule-container:hover > #mini-schedule-grow-button {
+	width: 440px;
+	height: 345px;
 }
 
 
