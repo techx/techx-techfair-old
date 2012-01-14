@@ -46,6 +46,8 @@
                     Be sure to <a href="http://umeqo.com/techfair">drop your resume</a> before the fair, and check out the <a href="#">fair schedule</a>.
                     Don't miss out on the <a href="/events/hackathon">hackathon</a>, <a href="/events/banquet">banquet</a>, and <a href="/events/afterparty">afterparty</a>!
                 </p>
+				<div id="schedule">
+				</div>
             </div>
             <div id="overlay"></div>
             <img class="show" src="http://i19.photobucket.com/albums/b169/3xc1m4tion/1.png"/>
@@ -54,7 +56,9 @@
             <img src="http://i19.photobucket.com/albums/b169/3xc1m4tion/4.png"/>
             <img src="http://i19.photobucket.com/albums/b169/3xc1m4tion/5.png"/>
         </div>
-        <div id="linkout">
+		<?php make_footer();?>
+		
+       <!-- <div id="linkout">
             <a href="http://facebook.com/techfair"><img src="img/homepage/facebook.png" alt="fb" /></a>
             <a href="http://twitter.com/mittechfair"><img src="img/homepage/twitter.png" alt="twitter" /></a>
             <a href="mailto:techfair-exec@mit.edu">techfair-exec@mit.edu</a>
@@ -74,7 +78,7 @@
                 <li id="andmore"><a href="/companies/exhibitorlist">and more...</a></li>
             </ul>
             
-        </div>
+        </div>-->
     </div>
 </body>
 </html>

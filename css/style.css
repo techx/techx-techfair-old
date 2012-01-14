@@ -103,6 +103,7 @@ div.error {
  */
 #container {
     margin: 0 auto;
+	padding-bottom: 40px;
     width: 1000px;
     background: #fff;
 }
@@ -284,6 +285,9 @@ float:left;
     text-decoration: none;
     color: #006cff;
     vertical-align: top;
+}
+#linkout a:hover {
+	text-decoration: underline;
 }
 #copyright {
     float: right;
@@ -622,6 +626,7 @@ h2.schedule{
      background-position: -870px -29px;  
  }
  ul#sponsorlinks #andmore {
+	 margin-left: 50px;
      width: 100px;
      line-height: 29px;
  }
@@ -721,7 +726,7 @@ h2.schedule{
 #info h2 {
      font-size: 46px;
      line-height: 50px;
-     border-bottom: 2px solid rgb(255,182,0);
+     border-bottom: 1px solid #999999; /*rgb(255,182,0);*/
      font-weight: 300;
 }
 #info h3 {
@@ -740,6 +745,10 @@ h2.schedule{
      font-style: italic;
 }
 #info a {
+	text-decoration: none;
      color: #006cff;
+}
+#info a:hover {
+	text-decoration: underline;
 }
 /* END HOME PAGE STYLES */
