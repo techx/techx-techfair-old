@@ -37,18 +37,18 @@
         ?>
         <div id="slideshow">
             <div id="info">
-                <h2>Introducing Techfair 2012</h2>
-                <h3>Rockwell Cage - February 6</h3>
+                <h2>Techfair 2012</h2>
+                <h3>Rockwell Cage - Monday, February 6</h3>
+                <h4>9am - 3pm</h4>
                 <p>
-                    With <strong><a href="/companies/exhibitorlist/">over 50 companies</a></strong>, this year's student-run fair is bound to be the largest yet.
+                    With <strong><a href="/companies/exhibitorlist/">over 50 companies and 30 student projects</a></strong>, this year's student-run expo is bound to be the largest yet.
                 </p>
                 <p>
-                    Be sure to <a href="http://umeqo.com/techfair">drop your resume</a> before the fair, and check out the <a href="#">fair schedule</a>.
-                    Don't miss out on the <a href="/events/hackathon">hackathon</a>, <a href="/events/banquet">banquet</a>, and <a href="/events/afterparty">afterparty</a>!
+                  <a href="http://umeqo.com/techfair">Drop your resume</a> by February 5th
                 </p>
 				<div id="mini-schedule-container">
 					<div id="mini-schedule-button">
-						Show Schedule
+						Show Full Schedule <img src="/img/right-big.png"/>
 					</div>
 					<div id="mini-schedule">
 						<div id="mini-schedule-content">

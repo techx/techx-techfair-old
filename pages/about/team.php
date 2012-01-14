@@ -63,10 +63,10 @@ function out(num) {
  
 <h1>The Techfair Executive Team</h1>
 <p>
-  The executive team is elected every year by the Techfair committee members. These future leaders of America 
-  <strong>10 people, 1 awesome team.</strong> <br>Team email: <a href="mailto:techfair-exec@mit.edu">techfair-exec@mit.edu</a></p>
-<br><br>
-
+  The executive team is elected every year by the <a href="/about/">Techfair committee members</a>. 
+  <br>Team email: <a href="mailto:techfair-exec@mit.edu">techfair-exec@mit.edu</a>
+  </p>
+<h2>10 people, 1 awesome team.</h2> 
 <div id='exec-photos'>
 <a id="tooltip4" href="#" title="Susie Fu: Managing Director, mother hen">
   <img class="marginright" src="/img/exec/susie.jpg" name="Susie" />

@@ -814,14 +814,14 @@ table#schedule td{
 }
 #mini-schedule-button {
 	position: absolute;
-	top: 302px;
-	left: -145px;
-	width: 125px;
-	height: 25px;
+	top: 231px;
+	left: -323px;
+	width: 207px;
+	height: 45px;
 	padding: 10px;
 	text-align: center;
 	background:rgba(50, 255, 0, 0.4);
-	
+	font-size: 38px;
 }
 #mini-schedule {
 	padding: 10px;

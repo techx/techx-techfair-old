@@ -4,7 +4,7 @@
 <p>Past Committees: <br>
 - <a href="http://mittechfair.org/think/">THINK</a>, a high school science and technology competition spun out of Techfair in 2008, now operates independently</p>
 
-<h3>We are <span style="color:black">45 committee members</span> led by <span style="color:black">10 exec members</span> determined to throw<br /> <span style="color:black;font-size:30px">1 awesome event</span>.</h3>
+<h3>We are <span style="color:black">45 committee members</span> led by <span style="color:black">10 exec members</span> determined to throw<br /> <span style="color:black;font-size:30px">1 awesome series of events</span>.</h3>
 <p>
   <br><Br>
 <a href="/img/team/Team1o.jpg"><img src="/img/team/Team1.jpg" style="margin-right: 20px;" alt="The Techfair team" /></a>

@@ -1,7 +1,7 @@
 <h1>Sponsorship Packages</h1>
 <p>Techfair offers three standard sponsorship packages, designated below. Aside from the amenities described, the higher sponsorships help companies maintain a larger physical and advertised presence as part of our Techfair campaign before and during the fair.</p>
 <h1>Registration</h1>
-<p><strong>As of January 12, all packages have been sold out and are no longer being offered. Reach out to us if you'd like to be added to the waiting list.</strong></p>
+<p><strong>As of January 12, all packages have been sold out and are no longer being offered. Please contact the Corporate Relations committee, <a href="mailto:techfair-cr@mit.edu">techfair-cr@mit.edu</a>, if you'd like to be added to the waiting list.</strong></p>
 <h2>Packages</h2>
 <?php
 function focus($p) {
@@ -10,8 +10,7 @@ function focus($p) {
     if ($p=='b' && (true || isset($_GET['g']) || isset($_GET['s'])) && !isset($_GET['b'])) echo ' class="unfocus"';
 }
 ?>
-<div style="margin-left: auto; margin-right: auto;">
-<table id="sponsorship"> 
+<table id="sponsorship" style="margin-left: auto; margin-right: auto;"> 
 	<tr> 
 		<th>Sponsorship</th> 
 		<td class="gold">Gold</td> 
