@@ -52,9 +52,10 @@
 					</div>
 					<div id="mini-schedule">
 						<div id="mini-schedule-content">
-							<h2>2012 Schedule</h2>
+							<h2>Schedule</h2>
 							<h3>Full Schedule <a href="/events/">Here</a></h3>
-							<table style="td {height: 20px; };"cellpadding=2 cellspacing=5 RULES=ROWS>
+							<p>
+							<table style="width: 375px; td {height: 20px;};"cellpadding=2 cellspacing=5 RULES=ROWS>
                 <tr>
                   <th><strong>Event</strong>
                   <th><strong>Time</strong>
@@ -86,6 +87,7 @@
                   <td>10-250
                 </tr>
               </table>
+              </p>
 						</div>
 					</div>
 				</div>
