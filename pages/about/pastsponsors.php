@@ -2,18 +2,15 @@
 
 <h2>2011 MIT Techfair</h2>
 <h3>Platinum Sponsor</h3>
-<p>Facebook</p>
+<p>Oracle</p>
 <h3>Gold Sponsors</h3>
-<p>Microsoft, Schlumberger, Oracle, Sequoia, Dropbox, Palantir, Apple</p>
+<p>Dropbox, Facebook, Lockheed Martin, Mathworks, Microsoft, Palantir</p>
 <h3>Silver Sponsors</h3>
-<p>General Electric, Dassault Systemes (Solidworks), Oblong, Thomson Reuters, Twitter, Sony (SCEA), GrubHub, 10gen (mongoDB),
-    Bazaar Voice, Corning, Merck, MathWorks, Mozilla, Adobe</p>
+<p>23andMe, Akamai, Boeing, Cisco, Cooliris, Interactive Intelligence, Meso Scale Diagnostics, LLC (Meso Scale Discovery), Mozilla, Schlumberger, Synaptics, WALZ Group</p>
 <h3>Bronze Sponsors</h3>
-<p>Akiban Technologies, Under Armour, Kiva, VMWare, eBay, Fusion-io, AisleBuyer, Synaptics, Lincoln Lab, Maxim Integrated Products,
-    Smule, Citrix Online, Google, MDS Lavastorm Analytics, CEO in a box, Zanbato, TI, Autodesk, Bose, Crittercism, Philips,
-    AT&amp;T, Knome, Square, 3LM, Akamai, Medtronic, Quixey</p>
+<p>Adobe, AT&amp;T, Azure Dynamics, B Line, Cypress Semiconductors, Foursquare, General Electric, Google, NAVAIR, OPNET Technologies Inc., REAL Software Systems, SecondMarket, Volkswagen ERL</p>
 <h3>Basic Sponsors</h3>
-<p>Nyx Devices, Aurora Flight Sciences, Yottaa, Lytro, Locu</p>
+<p>Aurora Flight Sciences, Circle Twelve, LiquidPiston, Prepr Foundation, Tap 'n Tap</p>
 
 	
 <h2>2010 MIT Techfair</h2>

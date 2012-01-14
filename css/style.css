@@ -747,9 +747,9 @@ table#schedule td{
      position: absolute;
      top: 50px;
      left: 0;
-     border-top: 1px solid rgba(255,255,255,0.9);
+    /* border-top: 1px solid rgba(255,255,255,0.9);
      border-right: 1px solid rgba(255,255,255,0.9);
-     border-bottom: 1px solid rgba(255,255,255,0.9);
+     border-bottom: 1px solid rgba(255,255,255,0.9);*/
 }
 #info h2 {
      font-size: 46px;
@@ -809,8 +809,8 @@ table#schedule td{
 
 #mini-schedule-container {
 	position:absolute;
-	top: -1px;
-	left: 421px;
+	top: 0px;
+	left: 420px;
 }
 #mini-schedule-button {
 	position: absolute;
@@ -824,15 +824,17 @@ table#schedule td{
 	font-size: 38px;
 }
 #mini-schedule {
+	overflow: hidden;
 	padding: 10px;
-	visibility: hidden;
+	padding-left: 0px;
+	padding-right: 0px;
 	position:absolute;
 	width: 0px;
 	height: 325px;
 	background: rgba(255, 255, 255, 0.8);
-	border-top: 1px solid rgba(255,255,255,0.9);
+	/*border-top: 1px solid rgba(255,255,255,0.9);
      border-right: 1px solid rgba(255,255,255,0.9);
-     border-bottom: 1px solid rgba(255,255,255,0.9);
+     border-bottom: 1px solid rgba(255,255,255,0.9);*/
 	transition: width 0.3s;
     -moz-transition: width 0.3s; /* Firefox 4 */
     -webkit-transition: width 0.3s; /* Safari and Chrome */
@@ -844,7 +846,8 @@ table#schedule td{
 	width: 400px;
 }
 #mini-schedule-content {
-	width: 400px;
+	margin: 0px 10px;
+	width: 380px;
 }
 
 

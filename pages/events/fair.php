@@ -6,7 +6,7 @@
   <p><h2><a href="/companies/exhibitorlist/">Check out the 2012 Exhibitors!</a></h2>
   </p>
   <p>If you have any questions, please contact us! We also welcome MIT students to help organize the fair, and application for the planning board will be open in the Fall semester.</p>
-  <p><a href="https://picasaweb.google.com/103604151821709535051/MITTechfair2011">View our photos from Techfair 2011<a></p>
+  <p><a href="https://picasaweb.google.com/103604151821709535051/MITTechfair2011">View our photos from Techfair 2011</a></p>
 
 
 </div>
