@@ -1,8 +1,11 @@
-<div id="column-left">
+<div id="column-top">
 <?php if($_GET['msg']=='success'):?>
 <div class="success">Your email has been saved. Thank you for your interest in MIT Techfair!</div>
 <?php endif;?>
 <h1>The&nbsp;<img src="/img/fb_logo.png" style="vertical-align:bottom" alt="facebook"/>&nbsp;Hackathon</h1>
+</div>
+
+<div id="column-left">
 <h2>Interested?</h2>
 <!--
 <div id="facebook" class="interest">
@@ -34,3 +37,6 @@ There will also be food, drink, and swag for everyone!</p>
   <img src="Photos/Hack3.JPG" style="float: left;" width=230 height=150>
   <img src="Photos/Hack4.JPG" style="float: right;" width=230 height=150>
 </div>
+
+<div id="column-bottom">
+  </div>
