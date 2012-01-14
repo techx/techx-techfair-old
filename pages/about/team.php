@@ -36,20 +36,20 @@ function out(num) {
   padding: 0px;
 }
 .marginright {
-  margin-right: 6px;
+  margin-right: 5px;
   border: 0px;
   padding: 0px;
 }
 .marginrighttopbottom {
-  margin-right: 6px;
-  margin-top: 6px;
-  margin-bottom: 6px;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
   border: 0px;
   padding: 0px;
 }
 .margintopbottom {
-  margin-top: 6px;
-  margin-bottom: 6px;
+  margin-top: 5px;
+  margin-bottom: 5px;
   border: 0px;
   padding: 0px;
 }
@@ -72,7 +72,7 @@ function out(num) {
 <a id="tooltip6" href="#" title="Joshua Ma: Corporate Relations Co-Director, superstarhacker">
   <img class="marginnone" src="/img/exec/josh.jpg" name="Josh" />
 </a>
-
+<br>
 <a href="#" id="tooltip2" title="Jonathan Gootenberg: Corporate Relations Co-Director, unit overtaker">
   <img class="marginrighttopbottom" src="/img/exec/goot.jpg" name="Goot"/>
   </a>
@@ -82,7 +82,7 @@ function out(num) {
 <a id="tooltip8" href="#" title="Sherry Wu: Finance Director, original apple fangirl">
   <img class="margintopbottom" src="/img/exec/sherry.jpg" name="Sherry" />
   </a>
-
+<br>
 <a id="tooltip7" href="#" title="Ranna Zhou: Internal Director, multitask extraordinare">
   <img class="marginright" src="/img/exec/ranna.jpg" name="Ranna" />
   </a>
