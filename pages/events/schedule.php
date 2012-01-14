@@ -3,40 +3,40 @@
 </div>
 <div id="column-left">
 <h2>Techfair Events</h2>
-<table id="schedule" cellpadding=2 cellspacing=1 RULES=ROWS>
+<table id="schedule" cellpadding=2 cellspacing=5 RULES=ROWS>
   <tr>
-    <th>Event
-    <th>Time
-    <th>Location
-    <th>Who
+    <th><strong>Event</strong>
+    <th><strong>Time</strong>
+    <th><strong>Location</strong>
+    <th><strong>Who</strong>
   </tr>
   <tr>
-    <td>Hackathon
-    <td>Sat 2/4 10pm-8am
+    <td width=92>Hackathon
+    <td>Sat 2/4 <br>10pm-8am
     <td>TBA
     <td>MIT, Harvard, Brown students
   </tr>
   <tr>
     <td>The Fair
-    <td>Mon 2/6 9am-3pm
+    <td>Mon 2/6<br> 9am-3pm
     <td>Rockwell Cage
     <td>MIT students, alumni, affiliates
   </tr>
   <tr>
     <td>Banquet
-    <td>Mon 2/6 6pm-8:30pm
+    <td>Mon 2/6<br> 6pm-8:30pm
     <td>The Hyatt
     <td>By company invitation
   </tr>
   <tr>
     <td>Afterparty
-    <td>Mon 2/6 9pm-11pm
-    <td>Media Lab 6th floor
+    <td>Mon 2/6<br> 9pm-11pm
+    <td>Media Lab <br>6th floor
     <td>MIT students
   </tr>
   <tr>
     <td>TechTalks
-    <td>Sat 2/11
+    <td>Sat 2/11<br>Time TBA
     <td>10-250
     <td>Everyone is welcome!
   </tr>
@@ -46,13 +46,13 @@
 
 <table id="schedule" cellpadding=2 cellspacing=1 RULES=ROWS>
   <tr>
-    <th>Event
-    <th>Time
-    <th>Location
-    <th>Who
+    <th><strong>Event</strong>
+    <th><strong>Time</strong>
+    <th><strong>Location</strong>
+    <th><strong>Who</strong>
   </tr>
   <tr>
-    <td>Sequoia Panel
+    <td width=92>Sequoia Panel
     <td>TBA
     <td>TBA
     <td>TBA

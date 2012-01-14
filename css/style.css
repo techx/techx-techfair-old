@@ -492,6 +492,11 @@ h2.schedule{
 table#schedule {
   font-family: font-family: 'Open Sans', sans-serif; 
   font-size: 13px;
+  width: 470px;
+}
+
+table#schedule td{
+  height: 46px;
 }
 
 #techtalks {
