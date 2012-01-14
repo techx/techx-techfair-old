@@ -93,7 +93,7 @@ function populateSponsorTable($sponsorList){
 				'Adobe' 							=> 'http://www.adobe.com/',
 				'Bazaar Voice' 						=> '#',
 				'Corning' 							=> '#',
-				'Dassault Systemes (Solidworks)' 	=> '#',
+				'Solidworks' 						=> '#',
 				'General Electric' 					=> '#',
 				'GrubHub' 							=> '#',
 				'MathWorks' 						=> '#',
