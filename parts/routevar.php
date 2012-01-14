@@ -44,7 +44,7 @@ $routes = array(
 			'name' => 'Hackathon',
 			'process' => 'pages/events/hackathon_process.php'
 		),
-		'venue' => array(
+		'fair' => array(
 			'title' => 'The Fair / '.$basetitle,
 			'content' => 'pages/events/fair.php',
 			'name' => 'The Fair'

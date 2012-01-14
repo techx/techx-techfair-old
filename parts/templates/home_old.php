@@ -44,7 +44,7 @@
 <p>
 Drop off your resume for Techfair 2012 <a href="http://umeqo.com/techfair">here</a>. 
 <p>
-Check out our <a href="https://picasaweb.google.com/103604151821709535051/MITTechFair2011">photos from Techfair 2011</a>!
+Check out our <a href="https://picasaweb.google.com/103604151821709535051/MITTechfair2011">photos from Techfair 2011</a>!
 				<p>
 				  <a href="mailto:techfair-exec@mit.edu">Contact us</a> with any questions.
 				
@@ -52,11 +52,11 @@ Check out our <a href="https://picasaweb.google.com/103604151821709535051/MITTec
 <!--	begin schedule 
 			<table>
 				    <tr>
-				        <th><a href="/events/hackathon/">Hack-a-thon</a></th>
+				        <th><a href="/events/hackathon/">Hackathon</a></th>
 				        <td>1/30 10pm - 1/31 8am<br /><span>32-082 (Stata TEAL room)</td>
 				    </tr>
 				    <tr>
-				        <th><a href="/events/venue/">Techfair</a></th>
+				        <th><a href="/events/fair/">Techfair</a></th>
 				        <td>1/31 10am - 3:30pm<br />Rockwell Cage</td>
 				    </tr>
 				    <tr>
@@ -115,7 +115,7 @@ Check out our <a href="https://picasaweb.google.com/103604151821709535051/MITTec
 	<div id="c3">
 		<div id="menu">
 			<ul>
-				<li id="map"><a href="/events/venue/" class="box">Techfair 2012</a></li>
+				<li id="map"><a href="/events/fair/" class="box">Techfair 2012</a></li>
 				<li id="team"><a href="http://techfair.mit.edu/pdf/booklet2011-web.pdf" class="box">Fair Booklet</a></li>
 				<li id="history"><a href="/about" class="box">about us</a></li>
 			</ul>

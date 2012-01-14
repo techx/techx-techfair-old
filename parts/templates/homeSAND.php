@@ -32,7 +32,7 @@
 			<div id="event" class="box">
 				<h3>the event</h3>
 				Techfair is MIT's annual student-run technology expo. All are welcome to sample an eclectic mix of cutting edge technology from companies, labs, and MIT students. 
-                <p>Excited about the fair? Kick off starts with an all-night <a href="/events/hackathon/">Hack-a-thon</a>, progresses into the <a href="/events/venue/">fair itself</a> and ends with a <a href="/events/banquet/">banquet</a>. </p><p>Techfair is also home to the <a href="http://www.mittechfair.org/think/index.php">THINK competition</a>, which occurs in the months preceeding Techfair.</p>
+                <p>Excited about the fair? Kick off starts with an all-night <a href="/events/hackathon/">Hackathon</a>, progresses into the <a href="/events/fair/">fair itself</a> and ends with a <a href="/events/banquet/">banquet</a>. </p><p>Techfair is also home to the <a href="http://www.mittechfair.org/think/index.php">THINK competition</a>, which occurs in the months preceeding Techfair.</p>
 				<p>If you are a student and would like to stay up to date with the latest updates and reminders, fill out our <a href="/engage/">student interest form</a>!</p>
 				<p><a href="/events/">more info &raquo;</a></p>
 			</div>
@@ -57,7 +57,7 @@
 	<div id="c3">
 		<div id="menu">
 			<ul>
-				<li id="map"><a href="/events/venue/" class="box">the fair</a></li>
+				<li id="map"><a href="/events/fair/" class="box">the fair</a></li>
 				<li id="team"><a href="/drop/" class="box">r&#233;sum&#233; drop</a></li>
 				<li id="history"><a href="/events/hackathon/" class="box">hack-a-<br/>thon</a></li>
 			</ul>

@@ -17,9 +17,9 @@
 <p>Techfair events are open to all MIT students:
 <ul>
 	<li>The fair  itself is on spring registration day, February 6, 2012. Come and check out awesome technology!</li>
-<li>Check back as Techfair 2012 for more events. See <a href="/2011checklist/">last year's student check list</a>, which included a resume drop,  networking banquet and a Hack-a-thon.</li> 
+<li>Check back as Techfair 2012 for more events. See <a href="/2011checklist/">last year's student check list</a>, which included a resume drop,  networking banquet and a Hackathon.</li> 
 <? /*
-	<li>Like to code? Check out the Techfair <a href="/events/hackathon/">Hack-a-thon</a>, sponsored by Facebook.</li>
+	<li>Like to code? Check out the Techfair <a href="/events/hackathon/">Hackathon</a>, sponsored by Facebook.</li>
 	<li>We will conclude Techfair day with a <a href="/events/banquet/">networking banquet</a>.</li> */ ?>
 </ul>
 </p>
@@ -27,5 +27,5 @@
 <h2>Resume Drop</h2>
 <p>Techfair is dedicated to showcasing the latest technology. Along with bringing their awesome demos, companies also like to see the talent at MIT, so don't forget to drop <a href="/drop">your resume</a>! </p> 
 <h2>Interested?</h2>
-<p>If you'd like to be notified about Techfair updates and reminders for the main fair, resume drop, Facebook hack-a-thon, and more, fill out our <a href="/engage/">student interest form</a>.*/?>
+<p>If you'd like to be notified about Techfair updates and reminders for the main fair, resume drop, Facebook Hackathon, and more, fill out our <a href="/engage/">student interest form</a>.*/?>
 
