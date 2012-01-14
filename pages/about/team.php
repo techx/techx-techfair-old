@@ -23,7 +23,11 @@ function out(num) {
 </script>-->
 
 <script type="text/javascript">
-    $('#tooltip').tipsy();
+	$(document).ready(function() {
+		for(count=0;count<9;count++){
+			$("#tooltip"+count).tipsy({gravity: 's'});
+		}
+	});
  </script>
  
 <h1>The Techfair Executive Team</h1>
@@ -31,26 +35,26 @@ function out(num) {
 
 <table padding=0 margin=15>
   <tr>
-    <td><a id="tooltip" href="#" title="David Luciano: Logistics Director, karate master"><img src="/img/exec/david.jpg" name="David"/></a>
-    <td><a id="tooltip" href="#" title="Jennifer Wang: Student Relations Director, nutella fanatic"><img src="/img/exec/jennifer.jpg" name="Jennifer" class="teamImage"/></a>
-    <td><a id="tooltip" href="#" title="Jonathan Gootenberg: Corporate Relations Co-Director, unit overtaker"><img src="/img/exec/goot.jpg" name="Goot" class="teamImage"/></a>
+    <td><a href="#" id="tooltip0" title="David Luciano: Logistics Director, karate master"><img src="/img/exec/david.jpg" name="David"/></a>
+    <td><a href="#" id="tooltip1" title="Jennifer Wang: Student Relations Director, nutella fanatic"><img src="/img/exec/jennifer.jpg" name="Jennifer"/></a>
+    <td><a href="#" id="tooltip2" title="Jonathan Gootenberg: Corporate Relations Co-Director, unit overtaker"><img src="/img/exec/goot.jpg" name="Goot"/></a>
   </tr>
   <tr>
-    <td><a id="tooltip" href="#" title="Carolyn Zhang: Marketing Director, fashionista"><img src="/img/exec/carolyn.jpg" name="Carolyn" class="teamImage"/></a>
-    <td><a id="tooltip" href="#" title="Susie Fu: Managing Director, mother hen"><img src="/img/exec/susie.jpg" name="Susie" class="teamImage"/></a>
-    <td><a id="tooltip" href="#" title="Ravi Charan: Associate Director, math genius"><img src="/img/exec/ravi.jpg" name="Ravi" class="teamImage"/></a>
+    <td><a href="#" id="tooltip3" title="Carolyn Zhang: Marketing Director, fashionista"><img src="/img/exec/carolyn.jpg" name="Carolyn" /></a>
+    <td><a id="tooltip4" href="#" title="Susie Fu: Managing Director, mother hen"><img src="/img/exec/susie.jpg" name="Susie" /></a>
+    <td><a id="tooltip5" href="#" title="Ravi Charan: Associate Director, math genius"><img src="/img/exec/ravi.jpg" name="Ravi" /></a>
   </tr>
   <tr>
-    <td><a id="tooltip" href="#" title="Joshua Ma: Corporate Relations Co-Director, superstarhacker"><img src="/img/exec/josh.jpg" name="Josh" class="teamImage"/></a>
-    <td><a id="tooltip" href="#" title="Ranna Zhou: Internal Director, multitask extraordinare"><img src="/img/exec/ranna.jpg" name="Ranna" class="teamImage"/></a>
-    <td><a id="tooltip" href="#" title="Sherry Wu: Finance Director, original apple fangirl"><img src="/img/exec/sherry.jpg" name="Sherry" class="teamImage"/></a>
+    <td><a id="tooltip6" href="#" title="Joshua Ma: Corporate Relations Co-Director, superstarhacker"><img src="/img/exec/josh.jpg" name="Josh" /></a>
+    <td><a id="tooltip7" href="#" title="Ranna Zhou: Internal Director, multitask extraordinare"><img src="/img/exec/ranna.jpg" name="Ranna" /></a>
+    <td><a id="tooltip8" href="#" title="Sherry Wu: Finance Director, original apple fangirl"><img src="/img/exec/sherry.jpg" name="Sherry" /></a>
   </tr>
 </table>
 
 <!--OLD EXEC
 
 <h2>Emily Zhao</h2>
-<img src="/img/exec/Emily0.jpg" name="Emily" onMouseOver="over(0)" onMouseOut="out(0)" class="teamImage"/>
+<img src="/img/exec/Emily0.jpg" name="Emily" onMouseOver="over(0)" onMouseOut="out(0)" />
 <div class="team">
 	<h3>Managing Director, Logistics Director</h3>
 	<h4>Course 6+18</h4>
@@ -59,7 +63,7 @@ function out(num) {
 <div class="clear"></div>
 
 <h2>Jeff Chen</h2>
-<img src="/img/exec/Jeff0.jpg" name="Jeff" onMouseOver="over(1)" onMouseOut="out(1)" class="teamImage"/>
+<img src="/img/exec/Jeff0.jpg" name="Jeff" onMouseOver="over(1)" onMouseOut="out(1)" />
 <div class="team">
 	<h3>Associate Director, Corporate Relations Director, Human Relations Director</h3>
 	<h4>Course 6+18</h4>
@@ -68,7 +72,7 @@ function out(num) {
 <div class="clear"></div>
 
 <h2>Kuan Cheng</h2>
-<img src="/img/exec/Kuan0.jpg" name="Kuan" onMouseOver="over(2)" onMouseOut="out(2)" class="teamImage"/>
+<img src="/img/exec/Kuan0.jpg" name="Kuan" onMouseOver="over(2)" onMouseOut="out(2)" />
 <div class="team">
 	<h3>Corporate Relations Director</h3>
 	<h4>Course 2</h4>
@@ -77,7 +81,7 @@ function out(num) {
 <div class="clear"></div>
 
 <h2>Susie Fu</h2>
-<img src="/img/exec/Susie0.jpg" name="Susie" onMouseOver="over(3)" onMouseOut="out(3)" class="teamImage"/>
+<img src="/img/exec/Susie0.jpg" name="Susie" onMouseOver="over(3)" onMouseOut="out(3)" />
 <div class="team">
 	<h3>Marketing Director, IT Director</h3>
 	<h4>Course 6</h4>
@@ -86,7 +90,7 @@ function out(num) {
 <div class="clear"></div>
 
 <h2>Cyril Lan</h2>
-<img src="/img/exec/Cyril0.jpg" name="Cyril" onMouseOver="over(4)" onMouseOut="out(4)" class="teamImage"/>
+<img src="/img/exec/Cyril0.jpg" name="Cyril" onMouseOver="over(4)" onMouseOut="out(4)" />
 <div class="team">
 	<h3>Finance Director</h3>
 	<h4>Course 6+15</h4>
@@ -95,7 +99,7 @@ function out(num) {
 <div class="clear"></div>
 
 <h2>Nick Dou</h2>
-<img src="/img/exec/Nick0.jpg" name="Nick" onMouseOver="over(5)" onMouseOut="out(5)" class="teamImage"/>
+<img src="/img/exec/Nick0.jpg" name="Nick" onMouseOver="over(5)" onMouseOut="out(5)" />
 <div class="team">
 	<h3>THINK Director</h3>
 	<h4>Course 2+6</h4>
