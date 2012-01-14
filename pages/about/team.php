@@ -32,26 +32,32 @@ function out(num) {
  
 <style type="text/css">
 .marginnone {
+  margin: 0px 0px 0px 0px;
   border: 0px;
   padding: 0px;
 }
 .marginright {
-  margin-right: 1px;
+  margin: 0px 5px 0px 0px;
   border: 0px;
   padding: 0px;
 }
 .marginrighttopbottom {
-  margin-right: 1px;
-  margin-top: 1px;
-  margin-bottom: 1px;
+  margin: 5px 5px 5px 0px;
   border: 0px;
   padding: 0px;
 }
 .margintopbottom {
-  margin-top: 1px;
-  margin-bottom: 1px;
+  margin: 5px 0px 5px 0px;
   border: 0px;
   padding: 0px;
+}
+
+#exec-photos a {
+  text-decoration: none;
+}
+
+#exec-photos a:hover {
+  text-decoration: none;
 }
 </style>
  
@@ -60,6 +66,8 @@ function out(num) {
   The executive team is elected every year by the Techfair committee members. These future leaders of America 
   <strong>10 people, 1 awesome team.</strong> <br>Team email: <a href="mailto:techfair-exec@mit.edu">techfair-exec@mit.edu</a></p>
 <br><br>
+
+<div id='exec-photos'>
 <a id="tooltip4" href="#" title="Susie Fu: Managing Director, mother hen">
   <img class="marginright" src="/img/exec/susie.jpg" name="Susie" />
 </a>
@@ -95,7 +103,7 @@ function out(num) {
 <a href="#" id="tooltip0" title="David Luciano: Logistics Director, karate master">
   <img class="marginnone" src="/img/exec/david.jpg" name="David"/>
 </a>
-
+</div>
 <!-- Old 3x3 2011 Exec
 <table padding=0 margin=15>
   <tr>
