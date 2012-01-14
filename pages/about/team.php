@@ -33,21 +33,25 @@ function out(num) {
 <style type="text/css">
 .marginnone {
   border: 0px;
+  padding: 0px;
 }
 .marginright {
-  margin-right: 7px;
+  margin-right: 6px;
   border: 0px;
+  padding: 0px;
 }
 .marginrighttopbottom {
-  margin-right: 7px;
-  margin-top: 7px;
-  margin-bottom: 7px;
+  margin-right: 6px;
+  margin-top: 6px;
+  margin-bottom: 6px;
   border: 0px;
+  padding: 0px;
 }
 .margintopbottom {
-  margin-top: 7px;
-  margin-bottom: 7px;
+  margin-top: 6px;
+  margin-bottom: 6px;
   border: 0px;
+  padding: 0px;
 }
 </style>
  
