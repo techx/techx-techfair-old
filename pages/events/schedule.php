@@ -20,7 +20,7 @@
     <td>The Fair
     <td>Mon 2/6<br> 9am-3pm
     <td>Rockwell Cage
-    <td>MIT students, alumni, affiliates
+    <td>MIT students, staff, alumni, affiliates
   </tr>
   <tr>
     <td>Banquet
@@ -55,13 +55,13 @@
     <td width=92>Sequoia Panel
     <td>TBA
     <td>TBA
-    <td>TBA
+    <td>MIT Community
   </tr>
   <tr>
     <td>Oblong TechTalk
     <td>TBA
     <td>Media Lab, Room TBA
-    <td>Everyone is welcome!
+    <td>MIT Community
   </tr>
 </table>
 
@@ -79,14 +79,14 @@
 	<h2>Afterparty</h2>
 	<p>For details of the Techfair Afterparty, see the <a href="/events/afterparty/">Afterparty page</a>.</p>
 	<h2>TechTalks</h2>
-	<p>We've revamped TechTalks into a full day of engaging speakers from all different backgrounds. Everyone in the Boston area is welcome to attend.</p>
+	<p>We are hosting a series of engaging speakers from all different backgrounds. Everyone in the Boston area is welcome to attend.</p>
 	<p><p>
-
+<p><p>
 <h1> Other Events</h1>
 	<h2>Sequoia Panel</h2>
 	<p><a href="http://www.sequoiacap.com/">Sequoia Capital</a> is featuring a few of their innovative startups in a one-hour panel.</p>
 	<h2>Oblong TechTalk</h2>
-	<p>Oblong Industries will be presenting their g‑speak™ platform at the Media Lab.</p>
+	<p><a href="http://oblong.com/">Oblong Industries</a> will be presenting their g‑speak™ platform at the Media Lab.</p>
 </div>
 <div class="column-bottom">
 </div>

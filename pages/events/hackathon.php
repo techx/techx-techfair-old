@@ -19,6 +19,8 @@
 </div>
 -->
 <p>The details are still being hammered out - stay tuned!</p>
+<h2>Who</h2>
+<p>All MIT, Harvard, and Brown students are welcome!</p>
 <h2>What</h2>
 <p>The Hackathon is a coding competition sponsored by Facebook. This competition is open to all MIT, Harvard, and Brown students. More details soon!</p>
 <h2>Prizes</h2>
@@ -34,9 +36,9 @@ There will also be food, drink, and swag for everyone!</p>
   <p>To be announced!</p>
 </div>
 
-<div class="column-bottom" style="text-align: center; margin-top: 25px;">
-  <img src="/img/hackathon/Hack1.JPG" style="margin-right: 5px;" width=230 height=150>
-  <img src="/img/hackathon/Hack2.JPG" style="margin-right: 5px;" width=230 height=150>
-  <img src="/img/hackathon/Hack3.JPG" style="margin-right: 5px;" width=230 height=150>
-  <img src="/img/hackathon/Hack4.JPG" style="margin-top: 5px;" width=230 height=150>
+<div class="column-bottom" style="text-align: center; margin-top: 50px;">
+  <a href="/img/hackathon/Hack1.JPG"><img src="/img/hackathon/Hack1.JPG" style="margin-right: 5px;" width=230 height=150></a>
+  <a href="/img/hackathon/Hack2.JPG"><img src="/img/hackathon/Hack2.JPG" style="margin-right: 5px;" width=230 height=150></a>
+  <a href="/img/hackathon/Hack3.JPG"><img src="/img/hackathon/Hack3.JPG" style="margin-right: 5px;" width=230 height=150></a>
+  <a href="/img/hackathon/Hack4.JPG"><img src="/img/hackathon/Hack4.JPG" style="margin-top: 5px;" width=230 height=150></a>
 </div>

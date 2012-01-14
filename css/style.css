@@ -239,6 +239,9 @@ float:left;
 #content a {
     color: #4078D6;
 }
+#content a:hover {
+    color: #e6e6e6;
+}
 #content h1 {
     margin: 20px 0 0 0;
     font-size: 30px;
