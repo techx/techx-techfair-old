@@ -44,7 +44,7 @@
                     With <strong><a href="/companies/exhibitorlist/">over 50 companies and 30 student projects</a></strong>, this year's student-run expo is bound to be the largest yet.
                 </p>
                 <p>
-                  <a href="http://umeqo.com/techfair">Drop your resume</a> by February 4th
+                  MIT students, <a href="http://umeqo.com/techfair">drop your resume</a> by February 4th
                 </p>
 				<div id="mini-schedule-container">
 					<div id="mini-schedule-grow-button"></div>

@@ -428,6 +428,7 @@ button {
 button:hover {
     border: 1px solid #4078D6;
     cursor: pointer;
+    cursor: hand;
 }
 form td.error {
     font-size: 14px;
@@ -842,7 +843,6 @@ table#schedule td{
 
 #mini-schedule table  {
   margin-top: 10px;
-  color: #888;
   font-weight: 300;
   font-size: 15px;
   width: 375px;
