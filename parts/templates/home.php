@@ -55,35 +55,35 @@
 						<div id="mini-schedule-content">
 							<h2>Schedule</h2>
 							<h3>Full Schedule <a href="/events/">Here</a></h3>
-							
-							<table cellpadding=2 cellspacing=5 RULES=ROWS>
+							<br><br>
+							<table cellpadding=4 cellspacing=5 RULES=ROWS>
                 <tr>
                   <th><strong>Event</strong>
                   <th><strong>Time</strong>
                   <th><strong>Location</strong>
                 </tr>
                 <tr>
-                  <td width=92>Hackathon
+                  <td width=92><a href="/events/hackathon/">Hackathon</a>
                   <td>Sat 2/4 10pm-8am
                   <td>TBA
                 </tr>
                 <tr>
-                  <td>The Fair
+                  <td><a href="/events/fair/">The Fair</a>
                   <td>Mon 2/6 9am-3pm
                   <td>Rockwell Cage
                 </tr>
                 <tr>
-                  <td>Banquet
+                  <td><a href="/events/banquet/">Banquet</a>
                   <td>Mon 2/6 6pm-8:30pm
                   <td>The Hyatt
                 </tr>
                 <tr>
-                  <td>Afterparty
+                  <td><a href="/events/afterparty/">Afterparty</a>
                   <td>Mon 2/6 9pm-11pm
                   <td>Media Lab 6th floor
                 </tr>
                 <tr>
-                  <td>TechTalks
+                  <td><a href="/events/talks/">TechTalks</a>
                   <td>Sat 2/11 Time TBA
                   <td>10-250
                 </tr>
