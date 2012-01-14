@@ -21,10 +21,20 @@
 	<table class="sponsor-table">
 		<?php
 			$silver = array(
-				'10gen (mongoDB)' => '1',
+				'10gen (mongoDB)' => '#',
 				'Adobe' => "http://www.adobe.com/",
-				'Bazaar Voice' => 'b',
-				'Corning' => 'c'
+				'Bazaar Voice' => '#',
+				'Corning' => '#',
+				'Dassault Systemes (Solidworks)' => '#',
+				'General Electric' => '#' ,
+				'GrubHub' => '#' ,
+				 'MathWorks' => '#' ,
+				 'Merck' => '#'  ,
+				 'Mozilla' => '#' ,
+				 'Oblong' => '#' ,
+				 'Sony (SCEA)' => '#' ,
+				 'Thomson Reuters' => '#' ,
+				 'Twitter' => '#' 
 			);
 			
 			ksort($silver);
@@ -37,8 +47,11 @@
 				echo "<tr>";
 			}
 			foreach($silver as $key => $value){
-				echo "<td><a href=".$value.">".$key."</a></td>";
-					
+				if($value != 'null'){
+					echo "<td><a href=".$value.">".$key." <img src='/img/external.png'></a></td>";
+				}else{
+					echo "<td></td>";
+				}
 				if($count%3==0){
 					echo "</tr>";
 					echo "<tr>";
