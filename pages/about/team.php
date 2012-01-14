@@ -37,17 +37,17 @@ function out(num) {
   padding: 0px;
 }
 .marginright {
-  margin: 0px 5px 0px 0px;
+  margin: 0px 4px 0px 0px;
   border: 0px;
   padding: 0px;
 }
 .marginrighttopbottom {
-  margin: 5px 5px 5px 0px;
+  margin: 5px 4px 4px 0px;
   border: 0px;
   padding: 0px;
 }
 .margintopbottom {
-  margin: 5px 0px 5px 0px;
+  margin: 4px 0px 4px 0px;
   border: 0px;
   padding: 0px;
 }
