@@ -46,6 +46,7 @@
                 <p>
                   <a href="http://umeqo.com/techfair">Drop your resume</a> by February 4th
                 </p>
+				<div id="mini-schedule-grow-button"></div>
 				<div id="mini-schedule-container">
 					<div id="mini-schedule-button">
 						<div style="padding: 10px; background: rgba(248, 196, 131, 0.8)"><h1>Show Schedule ></h1></div>

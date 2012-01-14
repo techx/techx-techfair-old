@@ -839,7 +839,7 @@ table#schedule td{
     -webkit-transition: width 0.3s; /* Safari and Chrome */
     -o-transition: width 0.3s; /* Opera */
 }
-#info:hover #mini-schedule {
+#mini-schedule-container:hover > #mini-schedule {
 	overflow: hidden;
 	visibility: visible;
 	width: 400px;
@@ -848,5 +848,17 @@ table#schedule td{
 	margin: 0px 10px;
 	width: 380px;
 }
+#mini-schedule-grow-button {
+	width: 0;
+	height: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#mini-schedule-grow-button:hover, #mini-schedule-container:hover {
+	width: 400px;
+	height: 325px;
+}
+
 
 
