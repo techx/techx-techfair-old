@@ -23,6 +23,8 @@
 
     $(document).ready(function() {
         setInterval(advanceSlide, 8000);
+
+		
     });
     
     </script>

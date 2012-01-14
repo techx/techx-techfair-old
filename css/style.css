@@ -851,16 +851,15 @@ table#schedule td{
   height: 30px;
 }
 
-#mini-schedule-container:hover > #mini-schedule, #mini-schedule-grow-button:hover ~ #mini-schedule {
+/*#mini-schedule-container:hover > #mini-schedule, #mini-schedule-grow-button:hover ~ #mini-schedule {
 	overflow: hidden;
 	visibility: visible;
-	width: 400px;
-}
+}*/
 #mini-schedule-content {
 	margin: 0px 10px;
 	width: 380px;
 }
-#mini-schedule-grow-button {
+/*#mini-schedule-grow-button {
 	width: 0;
 	height: 0;
 	position: absolute;
@@ -870,9 +869,9 @@ table#schedule td{
 #mini-schedule-grow-button:hover, #mini-schedule-container:hover > #mini-schedule-grow-button {
 	width: 440px;
 	height: 345px;
-}
+}*/
 
 #mini-schedule .show {
-	
+	width: 400px;
 }
 
