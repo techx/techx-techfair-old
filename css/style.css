@@ -816,13 +816,12 @@ table#schedule td{
 #mini-schedule-button {
 	position: absolute;
 	top: 231px;
-	left: -323px;
-	width: 207px;
+	left: -349px;
+	width: 329px;
 	height: 45px;
 	padding: 10px;
 	text-align: center;
-	background:rgba(50, 255, 0, 0.4);
-	font-size: 38px;
+	background:transparent;
 }
 #mini-schedule {
 	overflow: hidden;
