@@ -67,7 +67,7 @@ function populateSponsorTable($sponsorList){
 <div class="column-left">
 	<h2>Platinum Sponsor</h2>
 	<div class="sponsor-logos">
-	    <a href="http://www.facebook.com/"><img title="Facebook" alt="Facebook" src="/img/logos/facebook_large.png" /></a>
+	    <a href="http://www.facebook.com/"><img title="Facebook" alt="Facebook" src="/img/logos/facebook_larger.png" /></a>
 	    <p>(<a href="/events/hackathon/">Hack-a-thon Sponsor</a>)</p>
 	</div>
 	<h2>Gold Sponsors</h2>
