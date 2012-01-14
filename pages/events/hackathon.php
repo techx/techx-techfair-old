@@ -31,11 +31,11 @@ There will also be food, drink, and swag for everyone!</p>
 </div>
 
 <div id="column-right">
-  <img src="Photos/Hack1.JPG" style="float: left;" width=230 height=150>
-  <img src="Photos/Hack2.JPG" style="float: right;" width=230 height=150>
-  <br><br>
-  <img src="Photos/Hack3.JPG" style="float: left;" width=230 height=150>
-  <img src="Photos/Hack4.JPG" style="float: right;" width=230 height=150>
+  <img src="/img/hackathon/Hack1.JPG" style="float: left; margin-bottom: 10px;" width=230 height=150>
+  <img src="/img/hackathon/Hack2.JPG" style="float: right; margin-bottom: 10px;" width=230 height=150>
+  
+  <img src="/img/hackathon/Hack3.JPG" style="float: left;" width=230 height=150>
+  <img src="/img/hackathon/Hack4.JPG" style="float: right;" width=230 height=150>
 </div>
 
 <div id="column-bottom">
