@@ -3,12 +3,12 @@
 </div>
 <div id="column-left">
 <h2>Techfair Events</h2>
-<table>
+<table id="schedule">
   <tr>
-    <td>Event
-    <td>Time
-    <td>Location
-    <td>Who
+    <th>Event
+    <th>Time
+    <th>Location
+    <th>Who
   </tr>
   <tr>
     <td>Hackathon
@@ -42,14 +42,14 @@
   </tr>
 </table>
 
-<h2>Company Events</h2>
+<h2>Other Events</h2>
 
-<table>
+<table id="schedule">
   <tr>
-    <td>Event
-    <td>Time
-    <td>Location
-    <td>Who
+    <th>Event
+    <th>Time
+    <th>Location
+    <th>Who
   </tr>
   <tr>
     <td>Sequoia Panel
@@ -81,8 +81,10 @@
 	<h2>TechTalks</h2>
 	<p>We've revamped TechTalks into a full day of engaging speakers from all different backgrounds. Everyone in the Boston area is welcome to attend.</p>
 	<p><p>
+
+<h1> Other Events</h1>
 	<h2>Sequoia Panel</h2>
-	<p><a href="http://www.sequoiacap.com/"Sequoia Capital</a> is featuring a few of their innovative startups in a one-hour panel.</p>
+	<p><a href="http://www.sequoiacap.com/">Sequoia Capital</a> is featuring a few of their innovative startups in a one-hour panel.</p>
 	<h2>Oblong TechTalk</h2>
 	<p>Oblong Industries will be presenting their g‑speak™ platform at the Media Lab.</p>
 </div>
