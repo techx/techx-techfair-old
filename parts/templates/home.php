@@ -49,7 +49,9 @@
 				<div id="mini-schedule-container">
 					<div id="mini-schedule-grow-button"></div>
 					<div id="mini-schedule-button">
-						<div style="padding: 10px; background: rgba(248, 196, 131, 0.8)"><h1>Show Schedule ></h1></div>
+						<div style="padding: 10px; background: rgba(248, 196, 131, 0.8)">
+						  <h3>Show Schedule ></h3>
+						  </div>
 					</div>
 					<div id="mini-schedule">
 						<div id="mini-schedule-content">
@@ -62,27 +64,27 @@
                   <th><strong>Location</strong>
                 </tr>
                 <tr>
-                  <td width=92><a href="/events/hackathon/">Hackathon</a>
+                  <td width=92><a href="/events/hackathon/"><strong>Hackathon</strong></a>
                   <td>Sat 2/4 10pm-8am
                   <td>TBA
                 </tr>
                 <tr>
-                  <td><a href="/events/fair/">The Fair</a>
+                  <td><a href="/events/fair/"><strong>The Fair</strong></a>
                   <td>Mon 2/6 9am-3pm
                   <td>Rockwell Cage
                 </tr>
                 <tr>
-                  <td><a href="/events/banquet/">Banquet</a>
+                  <td><a href="/events/banquet/"><strong>Banquet</strong></a>
                   <td>Mon 2/6 6pm-8:30pm
                   <td>The Hyatt
                 </tr>
                 <tr>
-                  <td><a href="/events/afterparty/">Afterparty</a>
+                  <td><a href="/events/afterparty/"><strong>Afterparty</strong></a>
                   <td>Mon 2/6 9pm-11pm
                   <td>E14 6th floor
                 </tr>
                 <tr>
-                  <td><a href="/events/talks/">TechTalks</a>
+                  <td><a href="/events/talks/"><strong>TechTalks</strong></a>
                   <td>Sat 2/11 Time TBA
                   <td>10-250
                 </tr>
