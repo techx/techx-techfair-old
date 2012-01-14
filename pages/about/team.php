@@ -24,7 +24,7 @@ function out(num) {
 
 <script type="text/javascript">
 	$(document).ready(function() {
-			for(count=0;count<9;count++){
+			for(count=0;count<11;count++){
 			$("#tooltip"+count).tipsy({gravity: 's'});
 		}
 	});
@@ -36,20 +36,20 @@ function out(num) {
   padding: 0px;
 }
 .marginright {
-  margin-right: 5px;
+  margin-right: 1px;
   border: 0px;
   padding: 0px;
 }
 .marginrighttopbottom {
-  margin-right: 5px;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-right: 1px;
+  margin-top: 1px;
+  margin-bottom: 1px;
   border: 0px;
   padding: 0px;
 }
 .margintopbottom {
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 1px;
+  margin-bottom: 1px;
   border: 0px;
   padding: 0px;
 }
@@ -59,7 +59,7 @@ function out(num) {
 <p>
   The executive team is elected every year by the Techfair committee members. These future leaders of America 
   <strong>10 people, 1 awesome team.</strong> <br>Team email: <a href="mailto:techfair-exec@mit.edu">techfair-exec@mit.edu</a></p>
-
+<br><br>
 <a id="tooltip4" href="#" title="Susie Fu: Managing Director, mother hen">
   <img class="marginright" src="/img/exec/susie.jpg" name="Susie" />
 </a>
