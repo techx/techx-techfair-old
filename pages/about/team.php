@@ -35,18 +35,18 @@ function out(num) {
   border: 0px;
 }
 .marginright {
-  margin-right: 8px;
+  margin-right: 7px;
   border: 0px;
 }
 .marginrighttopbottom {
-  margin-right: 8px;
-  margin-top: 8px;
-  margin-bottom: 8px;
+  margin-right: 7px;
+  margin-top: 7px;
+  margin-bottom: 7px;
   border: 0px;
 }
 .margintopbottom {
-  margin-top: 8px;
-  margin-bottom: 8px;
+  margin-top: 7px;
+  margin-bottom: 7px;
   border: 0px;
 }
 </style>
