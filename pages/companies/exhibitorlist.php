@@ -43,7 +43,7 @@ function populateSponsorTable($sponsorList){
 	}
 	foreach($sponsorList as $key => $value){
 		if($value != 'null'){
-			echo "<td><a href=".$value.">".$key." <img src='/img/external.png'></a></td>";
+			echo "<td><a href=".$value.">".$key."</a></td>";
 		}else{
 			echo "<td></td>";
 		}
