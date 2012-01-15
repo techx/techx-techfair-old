@@ -13,7 +13,7 @@
   
   <div class="column-right">
     <h2>When</h2>
-    <p>Monday, February 4th, 9pm-11pm</p>
+    <p>Monday, February 6th, 9pm-11pm</p>
     <h2>Where</h2>
     <p><a href="http://whereis.mit.edu/?go=E14">New Media Lab (E14)</a>, 6th floor</p>
 
