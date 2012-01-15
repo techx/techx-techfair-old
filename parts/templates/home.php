@@ -61,8 +61,8 @@
 				<div id="mini-schedule-container">
 					<div id="mini-schedule-grow-button"></div>
 					<div id="mini-schedule-button">
-						<div style="padding: 5px 0px 5px 9px; background: rgba(104, 196, 252, 0.8)">
-						  <h3>Show Schedule ></h3>
+						<div style="padding: 3px 0px 5px 9px; background: rgba(104, 196, 252, 0.8)">
+						  <h3><strong>Show Schedule ></strong></h3>
 						  </div>
 					</div>
 					<div id="mini-schedule">
