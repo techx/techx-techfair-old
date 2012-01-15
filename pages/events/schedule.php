@@ -78,8 +78,8 @@
 	<p>An annual banquet is held in celebration of the completion of <a href="/events/fair">The Fair</a> and to present the <a href="http://mitthink.mit.edu">THINK Competition</a> winners. Learn more <a href="/events/banquet">here</a></p>
 	<h2><a href="/events/afterparty/">Afterparty</a></h2>
 	<p>For details of the Techfair Afterparty, see the <a href="/events/afterparty/">Afterparty page</a>.</p>
-	<h2>TechTalks</h2>
-	<p>We are hosting a series of engaging speakers from all different backgrounds. Everyone in the Boston area is welcome to attend. More info <a href="/events/talks/">here</a></p>
+	<h2><a href="/events/talks/">TechTalks</a></h2>
+	<p>We are hosting a series of engaging speakers from all different backgrounds. Everyone in the Boston area is welcome to attend. More info <a href="/events/talks/">here</a>.</p>
 	<p><p>
 <p><p>
 <h1> Other Events</h1>

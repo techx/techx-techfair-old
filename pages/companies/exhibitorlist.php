@@ -69,19 +69,19 @@ function populateSponsorTable($sponsorList){
 	<h2>Platinum Sponsor</h2>
 	<div class="sponsor-logos">
 	    <a href="http://www.facebook.com/"><img title="Facebook" alt="Facebook" src="/img/logos/facebook_larger.png" /></a>
-	    <p>(<a href="/events/hackathon/">Hack-a-thon Sponsor</a>)</p>
+	    <p><a href="/events/hackathon/">Hack-a-thon Sponsor</a></p>
 	</div>
 	<h2>Gold Sponsors</h2>
 	<div class="sponsor-logos full-width">
 		<div class="column-left-half">
-	   	 	<a href="http://www.dropbox.com/"><img title="Dropbox" alt="Dropbox" src="/img/logos/dropbox.png" /></a><br />
-		    <a href="http://www.microsoft.com/"><img title="Microsoft" alt="Microsoft" src="/img/logos/microsoft.png" /></a> <a style="display:block; margin-top:-15px; font-size: 10px" href="/events/afterparty">(Afterparty Sponsor)</a>
-	    	 <a href="http://www.oracle.com/"><img title="Oracle" alt="Oracle" src="/img/logos/oracle_small.png" /></a><br />
+	   	 	<a href="http://www.dropbox.com/"><img title="Dropbox" alt="Dropbox" src="/img/logos/0Dropbox.png" /></a><br />
+		    <a href="http://www.microsoft.com/"><img title="Microsoft" alt="Microsoft" src="/img/logos/0Microsoft.png" /></a> <a style="display:block; margin-top:-15px; font-size: 10px" href="/events/afterparty">Afterparty Sponsor</a>
+	    	 <a href="http://www.oracle.com/"><img title="Oracle" alt="Oracle" src="/img/logos/0Oracle.png" /></a><br />
 		</div>
 		<div class="column-right-half">
-	 	    <a href="http://www.palantir.com/"><img title="Palantir" alt="Palantir" src="/img/logos/palantir.png" /></a><br />
-		     <a href="http://www.slb.com/"><img title="Schlumberger" alt="Schlumberger" src="/img/logos/slb.png" /></a><br />
-		     <a href="http://www.sequoiacap.com/"><img title="Sequoia" alt="Sequoia" src="/img/logos/sequoia.png" /></a><br />
+	 	    <a href="http://www.palantir.com/"><img title="Palantir" alt="Palantir" src="/img/logos/0Palantir.png" /></a><br />
+		     <a href="http://www.slb.com/"><img title="Schlumberger" alt="Schlumberger" src="/img/logos/0Schlumberger.png" /></a><br />
+		     <a href="http://www.sequoiacap.com/"><img title="Sequoia" alt="Sequoia" src="/img/logos/0Sequoia.png" /></a><br />
 		</div>
 		<div class="column-bottom"></div>
 	</div>
