@@ -9,7 +9,7 @@
 <p>23andMe, Akamai, Boeing, Cisco, Cooliris, Interactive Intelligence, Meso Scale Diagnostics, LLC (Meso Scale Discovery), Mozilla, Schlumberger, Synaptics, WALZ Group</p>
 <h3>Bronze Sponsors</h3>
 <p>Adobe, AT&amp;T, Azure Dynamics, B Line, Cypress Semiconductors, Foursquare, General Electric, Google, NAVAIR, OPNET Technologies Inc., REAL Software Systems, SecondMarket, Volkswagen ERL</p>
-<h3>Basic Sponsors</h3>
+<h3>Startup Sponsors</h3>
 <p>Aurora Flight Sciences, Circle Twelve, LiquidPiston, Prepr Foundation, Tap 'n Tap</p>
 
 	
@@ -23,7 +23,7 @@
 <h3>Silver Sponsors</h3>
 <p>Lockheed Martin, Sandia National Laboratories, TomTom International B.V., Cisco
 Systems, Inc.</p>
-<h3>Basic Sponsors</h3>
+<h3>Startup Sponsors</h3>
 <p>Draper Laboratory, Medtronic, Cooliris, LogMeIn Inc., Tagged Inc, Activision, Akamai, Dropbox, Google, US Army Natick, Ball Aerospace &amp; Technologies Corp., Recombinant Data Corp., Global Prior Art, Grassroots Giving Group, RealNetworks, DRW Trading Group, Knight Equity Markets, L.P., General Atomics., Northrop Grumman, Autotegrity, GE Aviation, Human Dynamics Research Group, MIT Lincoln Laboratory, PROTEUS Technologies</p>
 
 <h2>2009 MIT Techfair</h2>
@@ -32,7 +32,7 @@ Systems, Inc.</p>
 <h3>Silver Sponsors</h3>
 <p>Opnet Technologies, Logmein, Maxim, Lockheed Martin, Schlumberger, DRW Trading
 Group, IGT, Cisco</p>
-<h3>Basic Sponsors</h3>
+<h3>Startup Sponsors</h3>
 <p>454 Life Sciences, Analog Devices, Aurora Flight Sciences, Shell, Cooliris, Glance Networks, Medtronic, Redi2 Technologies, US Army, Wacom, Real Software Systems, Tibco Software Inc., Northrop Grumman, Vertica Systems, Akamai Technologies, Elastra Corporation, IBM, KD Secure, ClickDiagnostics, Linden Lab, Philips North America, Trimble Navigation Limited, Baker Hughes, Scanscout, Onlatte, PadMapper, Sponty, DropBox, Sun Microsystems, Astaro, GE aviation, Robert Bosch llc., Soapstone Networks, Tap n' Tap</p>
 
 <h2>2007 MIT Techfair</h2>
@@ -43,7 +43,7 @@ Group, IGT, Cisco</p>
 <p>The Mathworks, Microsoft, Texas Instruments, BAE Systems, Motorola, Cisco, ASML, Seagate SyntaxError</p>
 <h3>Silver Sponsors</h3>
 <p>Google, Sensata Technologies, Bose, Draper Laboratory, Sun Microsystems, Nokia, Nortel, Pfizer, Aleri, Autodesk, Invinity Ward, KLA Tencor, GE MDS, Shell Oil, Thomson, Vertex Pharmaceuticals, Schlumberger</p>
-<h3>Basic Sponsors</h3>
+<h3>Startup Sponsors</h3>
 <p>Merck, ClearPoint Metrics, Hillcrest Labs, Medtronic, StreamBase, Integrated DNA Technologies, Amgen, Yahoo!, Analog Devices, 454 Life Sciences, Air Products Ltd., BioDefense, Boeing, Wilson TurboPower, Electro Standards Laboratories, GE Healthcare, IBM, Lucasfilm Ltd., Power Systems Mfg., Roland, Pulmatrix, Holosonics, Vanu</p>
 
 <h2>2006 MIT Techfair</h2>
@@ -56,7 +56,7 @@ Group, IGT, Cisco</p>
 
 <h3>Silver Sponsors</h3>
 <p>Apple, Bose, Industrial Light &amp; Magic, Nokia, Raytheon, Sun Microsystems, Johnson &amp; Johnson (Cordis), Autodesk, Air Liquide, Organon Pharmaceuticals</p>
-<h3>Basic Sponsors</h3>
+<h3>Startup Sponsors</h3>
 <p>Analog Devices, Medtronic, BBN Technologies, Broadcom, ClearPoint Metrics, Natick Soldier Systems Center, MIT Lincoln Laboratory, Amgen, Vision Robotics, Demiurge Studios, Creare, Electro Standards Laboratory, Grandstream Networks, Rallypoint, Wyeth, Integrated DNA Technologies, Invitrogen, Pfizer, Air Products</p>
 
 <table align="center">
@@ -84,11 +84,9 @@ Group, IGT, Cisco</p>
     </tr>
 </table>
 
-<h2>2005 MIT Tech Fair</h2>
-<p>On January 31st, 2005, over 700 students went to Walker Memorial on the MIT campus to attend MIT's first ever Tech Fair. Ten industry-leading companies presented in a trade show format some of their most innovative science and technologies. Everything from technologies protecting the soldier of the future to automating carpet vacuuming was displayed. See pictures of the 2005 exhibition.</p>
-<p>The success of the first ever Technology Fair is only the start of hopefully
-many more fairs to follow.</p>
-<p>The following companies attended the 2005 MIT Tech Fair:</p>
+<h2>2005 MIT Techfair</h2>
+<p>On January 31st, 2005, over 700 students went to Walker Memorial on the MIT campus to attend MIT's first ever Techfair. Ten industry-leading companies presented in a trade show format some of their most innovative science and technologies. Everything from technologies protecting the soldier of the future to automating carpet vacuuming was displayed. See pictures of the 2005 exhibition.</p>
+<p>The following companies attended the 2005 MIT Techfair:</p>
 <h3>Platinum Sponsor</h3>
 <p>VMware</p>
 <h3>Gold Sponsors</h3>
