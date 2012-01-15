@@ -295,8 +295,8 @@ function populateSponsorTable($sponsorList){
 	</ul>-->
 	<h2>Startup Sponsors</h2>
 	<ul>
-	<li>Aurora Flight Sciences</li>
-	<li>Locu</li>
+	<li><a href="http://aurora.aero/">Aurora Flight Sciences</a></li>
+	<li><a href="">Locu</a></li>
 	<li>Lytro</li>
 	<li>Nyx Devices</li>
 	<li>Yottaa</li>
