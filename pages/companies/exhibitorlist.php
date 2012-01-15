@@ -296,10 +296,10 @@ function populateSponsorTable($sponsorList){
 	<h2>Startup Sponsors</h2>
 	<ul>
 	<li><a href="http://aurora.aero/">Aurora Flight Sciences</a></li>
-	<li><a href="">Locu</a></li>
-	<li>Lytro</li>
-	<li>Nyx Devices</li>
-	<li>Yottaa</li>
+	<li><a href="http://locu.com/">Locu</a></li>
+	<li><a href="http://www.lytro.com/">Lytro</a></li>
+	<li><a href="http://nyxdevices.com/">Nyx Devices</a></li>
+	<li><a href="http://www.yottaa.com/">Yottaa</a></li>
 	</ul>
 </div>
 <div class="column-bottom"></div>
