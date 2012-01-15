@@ -20,7 +20,7 @@
     <td><a href="/events/fair/">The Fair</a>
     <td>Mon 2/6<br> 9am-3pm
     <td>Rockwell<br> Cage
-    <td>MIT students, staff, alumni, affiliates
+    <td>MIT community
   </tr>
   <tr>
     <td><a href="/events/banquet/">Banquet</a>
@@ -68,7 +68,7 @@
 
 </div>
 <div class="column-right">
-  <h2><a href="/hack">Hackathon Coding Competition</a></h2>
+  <h2><a href="/hack">Techfair Hackathon</a></h2>
 	<p>Hackathon is happening the weekend before Techfair! This Facebook-sponsored event is an all-night coding competition. Learn more <a href="/hack">here</a>.
 	</p>
 	<h2><a href="/events/fair">The Fair</a></h2>
