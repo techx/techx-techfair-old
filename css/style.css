@@ -552,8 +552,12 @@ table#schedule td{
 
 .sponsor-logos {
     margin-left: 20px;
+}
+
+.sponsor-logos img {
     margin-top: 10px;
 }
+
 #student-startups span, #student-exhibitors span{
     font-size:11px;
     color:#888;
