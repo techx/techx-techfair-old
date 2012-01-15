@@ -81,7 +81,7 @@ $routes = array(
 			'content' => 'pages/companies/why.php'
 		),
 		'exhibitorlist' => array(
-		    'title' => 'Events / '.$basetitle,
+		    'title' => 'Exhibitors / '.$basetitle,
 		    'content' => 'pages/companies/exhibitorlist.php',
 		    'name' => '2012 List of Exhibitors'
 		),
