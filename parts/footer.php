@@ -20,7 +20,7 @@ function make_footer()
                 <li id="palantir"><a href="http://www.palantir.com"></a></li>
                 <li id="slb"><a href="http://www.slb.com"></a></li>
                 <li id="sequoia"><a href="http://www.sequoiacap.com"></a></li>
-                <li id="andmore"><a href="#">and more...</a></li>
+                <li id="andmore"><a href="/companies/exhibitorlist/">and more...</a></li>
             </ul>
             
         </div>
