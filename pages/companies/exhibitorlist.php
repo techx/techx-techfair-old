@@ -273,9 +273,23 @@ function populateSponsorTable($sponsorList){
 </div>
 <div class="column-right">
 	<h2>MIT Student Startups</h2>
-	<p>To be announced!</p>
+	<ul>
+		<li><a href="http://maslab.mit.edu/2012/site/maslab.php">MASLAB: Mobile Autonomous Systems Lab</a></li>
+	</ul>
 	<h2>MIT Student Exhibitors</h2>
-	<p>To be announced!</p>
+	<ul>
+		<li>Charles Jessup Franklin</li>
+		<li><a href="http://rvsn.csail.mit.edu/">CSAIL Robotics, Vision and Sensor Networks</a></li>
+		<li>Giant Wimshurst Generator</li>
+		<li>Hydrophotonophone</li>
+		<li>Life-Sized Tetris Boards</li>
+		<li>MIT Hobby Shop</li>
+		<li><a href="http://miters.mit.edu/">MITERS</a></li>
+		<li><a href="http://solar-cars.scripts.mit.edu/">Solar Electric Vehicle Team (SEVT)</a></li>
+		<li>StartLabs</li>
+		<li>Twine</li>
+		<li>Yang Yang (Musical Dress)</li>
+	</ul>
 	
 	<!--<h2>Bronze Sponsors</h2>
 	<ul>
