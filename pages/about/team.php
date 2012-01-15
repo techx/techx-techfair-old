@@ -23,6 +23,15 @@ function out(num) {
 </script>-->
 
 <script type="text/javascript">
+	$.fn.preload = function() {
+	    this.each(function(){
+	        $('<img/>')[0].src = this;
+	    });
+	}
+
+	$(['/img/exec/susie.jpg','/img/exec/ravi.jpg','/img/exec/jennifer.jpg','/img/exec/josh.jpg','/img/exec/goot.jpg','/img/exec/exec.JPG','/img/exec/sherry.jpg','/img/exec/ranna.jpg','/img/exec/carolyn.jpg','/img/exec/julie.jpg','/img/exec/david.jpg']).preload();
+	
+	
 	$(document).ready(function() {
 			for(count=0;count<11;count++){
 			$("#tooltip"+count).tipsy({gravity: 's'});
