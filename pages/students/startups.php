@@ -50,7 +50,7 @@ else:
 ?>
 </p>
 <h1>Application</h1>
-<p><strong>Applications have been extended to Dec 3 and rolling afterwards. </strong></p><div style="background-color: #C43B1D; padding:10px;">
+<p><strong>The application deadline has passed for 2012. Email <a href="mailto:techfair-sr@mit.edu">techfair-sr@mit.edu</a> to be placed on our mailing list for Techfair 2013.</strong></p><div style="background-color: #C43B1D; padding:10px;">
   <p style="color:#fff; ">Mark that you are applying as a <strong>MIT Startup</strong>.</p>
   <p style="color:#fff; ">If you do not receive confirmation that your application was submitted, please email your application to <a href="mailto:techfair-sr@mit.edu">techfair-sr@mit.edu</a>. We will be sending out an email to all applicants on Dec 5, if you submit an application do not receive an email, please contact us.</p>
 </div>

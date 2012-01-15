@@ -46,7 +46,7 @@ else:
   Yes, as long as it is primarily your own work, projects may be affliated with particular labs.</li>
 </ul>
 <h1>Application</h1>
-<p><strong>Applications have been extended to Dec 3 and rolling afterwards. </strong></p>
+<p><strong>The application deadline has passed for 2012. Email <a href="mailto:techfair-sr@mit.edu">techfair-sr@mit.edu</a> to be placed on our mailing list for Techfair 2013.</strong></p>
 
 <div style="background-color: #C43B1D; padding:10px;">
   <p style="color:#fff; ">Mark that you are applying as a <strong>MIT Project Exhibitor</strong>.</p>
