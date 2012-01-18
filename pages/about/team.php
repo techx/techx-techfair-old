@@ -29,7 +29,7 @@ function out(num) {
 	    });
 	}
 
-	$(['/img/exec/susie.jpg','/img/exec/ravi.jpg','/img/exec/jennifer.jpg','/img/exec/josh.jpg','/img/exec/goot.jpg','/img/exec/exec.JPG','/img/exec/sherry.jpg','/img/exec/ranna.jpg','/img/exec/carolyn.jpg','/img/exec/julie.jpg','/img/exec/david.jpg']).preload();
+	$(['/img/exec/susie.jpg','/img/exec/ravi.jpg','/img/exec/jennifer.jpg','/img/exec/josh.jpg','/img/exec/goot.jpg','/img/exec/exec.jpg','/img/exec/sherry.jpg','/img/exec/ranna.jpg','/img/exec/carolyn.jpg','/img/exec/julie.jpg','/img/exec/david.jpg']).preload();
 	
 	
 	$(document).ready(function() {
@@ -94,7 +94,7 @@ function out(num) {
   <img class="marginrighttopbottom" src="/img/exec/goot.jpg" name="Goot"/>
   </a>
 <a href="/img/exec/execo.jpg" id="tooltip10" title="Executive Team at the Techfair Retreat">
-  <img class="marginrighttopbottom" src="/img/exec/exec.JPG" name="Exec"/>
+  <img class="marginrighttopbottom" src="/img/exec/exec.jpg" name="Exec"/>
 </a>
 <a id="tooltip8" href="#" title="Sherry Wu: Finance Director, original apple fangirl">
   <img class="margintopbottom" src="/img/exec/sherry.jpg" name="Sherry" />

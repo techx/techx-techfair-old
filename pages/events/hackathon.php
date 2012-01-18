@@ -37,8 +37,8 @@
 </div>
 
 <div class="column-bottom" style="text-align: center; padding-top: 30px;">
-  <a href="/img/hackathon/Hack1o.JPG"><img src="/img/hackathon/Hack1.JPG" style="margin-right: 20px;" width=220 height=150></a>
-  <a href="/img/hackathon/Hack2o.JPG"><img src="/img/hackathon/Hack2.JPG" style="margin-right: 20px;" width=220 height=150></a>
-  <a href="/img/hackathon/Hack3o.JPG"><img src="/img/hackathon/Hack3.JPG" style="margin-right: 20px;" width=220 height=150></a>
-  <a href="/img/hackathon/Hack4o.JPG"><img src="/img/hackathon/Hack4.JPG" width=220 height=150></a>
+  <a href="/img/hackathon/Hack1o.jpg"><img src="/img/hackathon/Hack1.jpg" style="margin-right: 20px;" width=220 height=150></a>
+  <a href="/img/hackathon/Hack2o.jpg"><img src="/img/hackathon/Hack2.jpg" style="margin-right: 20px;" width=220 height=150></a>
+  <a href="/img/hackathon/Hack3o.jpg"><img src="/img/hackathon/Hack3.jpg" style="margin-right: 20px;" width=220 height=150></a>
+  <a href="/img/hackathon/Hack4o.jpg"><img src="/img/hackathon/Hack4.jpg" width=220 height=150></a>
 </div>

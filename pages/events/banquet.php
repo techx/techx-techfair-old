@@ -26,7 +26,7 @@ February 6, 2012<br><p>
 </div>
 
 <div class="column-bottom" style="text-align: center; padding-top: 30px;">
-  <a href="/img/banquet/Banquet1o.JPG"><img src="/img/banquet/Banquet1.JPG" style="margin-right: 20px;" width=300 height=200></a>
-  <a href="/img/banquet/Banquet2o.JPG"><img src="/img/banquet/Banquet2.JPG" style="margin-right: 20px;" width=300 height=200></a>
-  <a href="/img/banquet/Banquet3o.JPG"><img src="/img/banquet/Banquet3.JPG" width=300 height=200></a>
+  <a href="/img/banquet/Banquet1o.jpg"><img src="/img/banquet/Banquet1.jpg" style="margin-right: 20px;" width=300 height=200></a>
+  <a href="/img/banquet/Banquet2o.jpg"><img src="/img/banquet/Banquet2.jpg" style="margin-right: 20px;" width=300 height=200></a>
+  <a href="/img/banquet/Banquet3o.jpg"><img src="/img/banquet/Banquet3.jpg" width=300 height=200></a>
 </div>
