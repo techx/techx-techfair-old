@@ -18,9 +18,9 @@
   </div>
 
   <div class="column-bottom" style="text-align: center; padding-top: 30px;">
-    <a href="/img/afterparty/Party1o.JPG"><img src="/img/afterparty/Party1.jpg" style="margin-right: 20px;" width=370 height=248></a>
-    <a href="/img/afterparty/Party2o.JPG"><img src="/img/afterparty/Party2.jpg" style="margin-right: 20px;" width=165 height=248></a>
-    <a href="/img/afterparty/Party3o.JPG"><img src="/img/afterparty/Party3.jpg" width=370 height=248></a>
+    <a href="/img/afterparty/Party1o.jpg"><img src="/img/afterparty/Party1.jpg" style="margin-right: 20px;" width=370 height=248></a>
+    <a href="/img/afterparty/Party2o.jpg"><img src="/img/afterparty/Party2.jpg" style="margin-right: 20px;" width=165 height=248></a>
+    <a href="/img/afterparty/Party3o.jpg"><img src="/img/afterparty/Party3.jpg" width=370 height=248></a>
   </div>
   
   </p>
