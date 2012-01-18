@@ -1,195 +1,142 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<link href="css/home.css" rel="stylesheet" type="text/css" />
-	<link href="css/jquery-ui/jquery.ui.all.css" rel="stylesheet" type="text/css" />
-	<!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>-->
-	<script type="text/javascript" src="/js/jquery-1.4.2.min.js"></script>
-	<script type="text/javascript" src="/js/jquery-ui-1.8.6.custom.min.js"></script>
-	<script type="text/javascript" src="/js/cufon-yui.js"></script>
-	<script type="text/javascript" src="/js/Helvetica.font.js"></script>
-	<script type="text/javascript">
-		Cufon.replace('h2, h3, #menu a');
-	</script>
-	<title><?php echo $basetitle?></title>
-	<?php include_once('parts/analytics.php');?>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>MIT Techfair</title>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600' rel='stylesheet' type='text/css'>
+    
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        
+    <script type="text/javascript">
+      var _gaq = _gaq || [];  _gaq.push(['_setAccount', 'UA-19969189-3']);  _gaq.push(['_trackPageview']);
+      (function() {    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);  })();
+    
+    var i = 0;
+    function advanceSlide() {
+        $("#slideshow img").eq((i+2) %5).removeClass();
+        $("#slideshow img").eq((i+1) %5).removeClass("hide").addClass("show");
+        $("#slideshow img").eq(i).removeClass("show").addClass("hide");
+        i++;
+        i = i %5;
+    }
+
+    $(document).ready(function() {
+        setInterval(advanceSlide, 8000);
+		
+		$("#mini-schedule-button").mouseover(
+		  function () {
+				$("#mini-schedule").addClass("schedule-show");
+			}
+		);
+		$("#info").mouseleave(
+		  function () {
+				$("#mini-schedule").removeClass("schedule-show");
+			}
+		);
+    });
+    
+
+    </script>
+    
+    <link href="css/style.css" rel="stylesheet" />
+
 </head>
 <body>
-	<div class="ui-widget-overlay" id="movie">
-		<div>
-		    <span id="close"><span class="ui-icon ui-icon-circle-close"></span>close</span>
-			<script src="http://player.ooyala.com/player.js?width=960&height=540&embedCode=ZkeGd2MTrsnQOCzU7pYc2DfL1xbek1cv&autoplay=1&browserPlacement=left350px"></script><noscript><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" id="ooyalaPlayer_22y6g_gj3ciu90" width="960" height="540" codebase="http://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab"><param name="movie" value="http://player.ooyala.com/player.swf?embedCode=ZkeGd2MTrsnQOCzU7pYc2DfL1xbek1cv&version=2" /><param name="bgcolor" value="#000000" /><param name="allowScriptAccess" value="always" /><param name="allowFullScreen" value="true" /><param name="flashvars" value="embedType=noscriptObjectTag&embedCode=ZkeGd2MTrsnQOCzU7pYc2DfL1xbek1cv&autoplay=1&browserPlacement=left350px" /><embed src="http://player.ooyala.com/player.swf?embedCode=ZkeGd2MTrsnQOCzU7pYc2DfL1xbek1cv&version=2" bgcolor="#000000" width="960" height="540" name="ooyalaPlayer_22y6g_gj3ciu90" align="middle" play="true" loop="false" allowscriptaccess="always" allowfullscreen="true" type="application/x-shockwave-flash" flashvars="&embedCode=ZkeGd2MTrsnQOCzU7pYc2DfL1xbek1cv&autoplay=1&browserPlacement=left350px" pluginspage="http://www.adobe.com/go/getflashplayer"></embed></object></noscript>
-		</div>
-	</div>
-	<div id="container">
-		<div id="header">
-			<div id="header-content">
-			    <div id="header-inner">
-    				<h1>
-    					<a href="/"><span>MIT Techfair</span></a>
-						<div>
-                        <h2>"Reg Day" Monday, February 6th, 2012</h2><h2>9:00am - 3:00pm at Rockwell Cage</h2>
+    <div id="container">
+        <?php
+        make_header(NULL, NULL, $routes);
+        ?>
+        <div id="slideshow">
+            <div id="info">
+                <h2>Techfair 2012</h2>
+                <h3>Rockwell Cage - Monday, February 6</h3>
+                <h4>9am - 3pm</h4>
+                <p>
+                    With <strong><a href="/companies/exhibitorlist/">over 50 companies and 30 student projects</a></strong>, this year's student-run expo is bound to be the largest yet.
+                </p>
+                <p>
+                  MIT students, <a href="http://umeqo.com/techfair"><strong>drop your resume</strong></a> by February 4th.
+                </p>
+				<div id="mini-schedule-container">
+					<div id="mini-schedule-grow-button"></div>
+					<div id="mini-schedule-button">
+						<div style="padding: 3px 0px 8px 12px; background: rgba(104, 196, 252, 0.8)">
+						  <h3>Show Schedule &gt;</h3>
+						  </div>
 					</div>
-    				</h1>
-    			</div>
-    		</div>
-		</div>
-		<div id="body">
-		<div id="c1">
-			<div id="event" class="box">
-				<h3>welcome</h3>
-        <p>
-	  Techfair 2012 is planned for Spring Registration day (February 6th, 2012) in Rockwell Cage. Our lineup for this year will include a hackathon, an afterparty, a banquet, and a speaker series in addition to the Fair itself. More details to come!  
-<p>
-Drop off your resume for Techfair 2012 <a href="http://umeqo.com/techfair">here</a>. 
-<p>
-Check out our <a href="https://picasaweb.google.com/103604151821709535051/MITTechFair2011">photos from Techfair 2011</a>!
-				<p>
-				  <a href="mailto:techfair-exec@mit.edu">Contact us</a> with any questions.
-				
-
-<!--	begin schedule 
-			<table>
-				    <tr>
-				        <th><a href="/events/hackathon/">Hack-a-thon</a></th>
-				        <td>1/30 10pm - 1/31 8am<br /><span>32-082 (Stata TEAL room)</td>
-				    </tr>
-				    <tr>
-				        <th><a href="/events/venue/">Techfair</a></th>
-				        <td>1/31 10am - 3:30pm<br />Rockwell Cage</td>
-				    </tr>
-				    <tr>
-				        <th><a href="/events/talks/">TechTalks</a></th>
-				        <td>At the Fair</td>
-				    </tr>
-				    <tr>
-				        <th><a href="/events/banquet/">Banquet</a></th>
-				        <td>1/31 6pm - 8:30pm<br />Hyatt Regency 16th floor<br />Charles View Ballroom</td>
-				    </tr>
-				    <tr>
-				        <th><a href="/events/afterparty/">Afterparty</a></th>
-				        <td>1/31 9pm - 11pm<br />E15 (Old Media Lab)<br />Lower Atrium</td>
-				    </tr>
-				</table>
-				<p>Events require a non-expired MIT ID. <a href="/events/">more info &raquo;</a></p>
-				-->
-				
-				
-			</div>
-    		<div id="think" class="box">
-    			<h3>THINK</h3>
-    			<p>high school science and technology competition</p>
-    			<p><a href="http://mitthink.mit.edu">more info &raquo;</a></p>
-    		</div>
-    		<img src="img/photo1.jpg" id="photo1" class="box" />
-		</div>
-		<div id="c2">
-			<div id="photo2" class="box">
-			    <img src="/img/logos/oracle.png" />
-		        <img src="/img/logos/23andme.png" />
-                <img src="/img/logos/akamai.png" />
-                <!--<img src="/img/logos/aol.png" />-->
-                <img src="/img/logos/boeing.png" />
-                <img src="/img/logos/cisco.png" />
-                <img src="/img/logos/cooliris.png" />
-                <img src="/img/logos/dropbox.png" />
-                <img src="/img/logos/facebook.png" />
-                <img src="/img/logos/interactive.png" />
-                <img src="/img/logos/lockheed.png" />
-                <img src="/img/logos/mathworks.png" />
-                <img src="/img/logos/mesoscale.png" />
-                <img src="/img/logos/microsoft.png" />
-                <img src="/img/logos/mozilla.png" />
-                <img src="/img/logos/palantir.png" />
-                <img src="/img/logos/schlumberger.png" />
-                <img src="/img/logos/synaptics.png" />
-                <img src="/img/logos/walz.png" />
-			</div>
-			<div id="exhibitors" class="box">
-        		<h3>for companies</h3>
-        		<br>
-        		<p style="text-align: center;"><a href="/companies/packages/">2012 sponsorship packages</a></p>
-			</div>
-		</div>
-	<div id="c3">
-		<div id="menu">
-			<ul>
-				<li id="map"><a href="/events/venue/" class="box">Techfair 2012</a></li>
-				<li id="team"><a href="http://techfair.mit.edu/pdf/booklet2011-web.pdf" class="box">Fair Booklet</a></li>
-				<li id="history"><a href="/about" class="box">about us</a></li>
-			</ul>
-		</div>
-		<div id="students" class="box">
-			<h3>for students</h3>
-			<p><a href="/students/">MIT student startups and projects</a></p>
-
-			<p><a href="/students/funding/">Student Project Funding</a></p>
-		</div>
-			<!--
-			<script src="http://widgets.twimg.com/j/2/widget.js"></script>
-			<script>
-			new TWTR.Widget({
-			  version: 2,
-			  type: 'profile',
-			  rpp: 3,
-			  interval: 6000,
-			  width: 290,
-			  height: 220,
-			  theme: {
-			    shell: {
-			      background: '#8bb1f1',
-			      color: '#000'
-			    },
-			    tweets: {
-			      background: '#8bb1f1',
-			      color: '#000', 
-			      links: '#fff' 
-			    }
-			  },
-			  features: {
-			    scrollbar: false,
-			    loop: false,
-			    live: false, 
-			    hashtags: false,
-			    timestamp: false,
-			    avatars: false,
-			    behavior: 'all'
-			  }
-			}).render().setUser('mittechfair').start();
-			</script>
-		-->
-		<img src="img/photo3.jpg" id="photo3" class="box" /></div>
-		</div>
+					<div id="mini-schedule">
+						<div id="mini-schedule-content">
+							<h2>Schedule</h2>
+							<h3>Full Schedule <a href="/events/">Here</a></h3>
+							<table cellpadding=4 cellspacing=5 RULES=ROWS>
+                <tr>
+                  <th><strong>Event</strong>
+                  <th><strong>Time</strong>
+                  <th><strong>Location</strong>
+                </tr>
+                <tr>
+                  <td width=92><a href="/events/hackathon/"><strong>Hackathon</strong></a>
+                  <td>Sat 2/4 10pm-8am
+                  <td>TBA
+                </tr>
+                <tr>
+                  <td><a href="/events/fair/"><strong>The Fair</strong></a>
+                  <td>Mon 2/6 9am-3pm
+                  <td>Rockwell Cage
+                </tr>
+                <tr>
+                  <td><a href="/events/banquet/"><strong>Banquet</strong></a>
+                  <td>Mon 2/6 6pm-8:30pm
+                  <td>The Hyatt
+                </tr>
+                <tr>
+                  <td><a href="/events/afterparty/"><strong>Afterparty</strong></a>
+                  <td>Mon 2/6 9pm-11pm
+                  <td>E14 6th floor
+                </tr>
+                <tr>
+                  <td><a href="/events/talks/"><strong>Techtalks</strong></a>
+                  <td>Sat 2/11 Time TBA
+                  <td>10-250
+                </tr>
+              </table>
+              
+						</div>
+					</div>
+				</div>
+            </div>
+            <div id="overlay"></div>
+            <img class="show" src="http://i19.photobucket.com/albums/b169/3xc1m4tion/1.png"/>
+            <img src="http://i19.photobucket.com/albums/b169/3xc1m4tion/2.png"/>
+            <img src="http://i19.photobucket.com/albums/b169/3xc1m4tion/3.png"/>
+            <img src="http://i19.photobucket.com/albums/b169/3xc1m4tion/4.png"/>
+            <img src="http://i19.photobucket.com/albums/b169/3xc1m4tion/5.png"/>
+        </div>
+		<?php make_footer();?>
 		
-		<div style="clear:both"></div>
-	</div>
-	<div id="footer">
-		<div id="footer-content">
-			<div id="flickr"></div>
-			<div id="footer-links">
-				<ul>
-					<li><a href="/about/">about us</a></li>
-					<li><a href="/contact/">contact us</a></li>
-					<li id="copyright">copyright 2006-2012 MIT Techfair</li>
-				</ul>
-			</div>
-			<div style="clear:both"></div>
-		</div>
-	</div>
-</div>
-<script type="text/javascript">
-	$('#photo2').click(function(){
-		$('#movie').css('display','block');
-	});
-	$('#movie #close').click(function(){
-		$('#movie').css('display','none');
-	});
-	$(document).keyup(function(event){
-	    if (event.keyCode=='27') {
-	        $('#movie').css('display','none');
-	    }
-	});
-</script>
+       <!-- <div id="linkout">
+            <a href="http://facebook.com/techfair"><img src="img/homepage/facebook.png" alt="fb" /></a>
+            <a href="http://twitter.com/mittechfair"><img src="img/homepage/twitter.png" alt="twitter" /></a>
+            <a href="mailto:techfair-exec@mit.edu">techfair-exec@mit.edu</a>
+            <span id="copyright">&copy; MIT Techfair 2012</span>
+        </div>
+        <div id="sponsors">
+            <h1>Attending Companies</h1>
+            <ul id="sponsorlinks">
+                <li id="facebook"><a href="http://www.facebook.com"></a></li>
+                <li id="apple"><a href="http://www.apple.com"></a></li>
+                <li id="dropbox"><a href="http://www.microsoft.com"></a></li>
+                <li id="microsoft"><a href="http://oracle.com"></a></li>
+                <li id="oracle"><a href="http://palantir.com"></a></li>
+                <li id="palantir"><a href="http://www.slb.com"></a></li>
+                <li id="slb"><a href="http://www.dropbox.com"></a></li>
+                <li id="sequoia"><a href="http://www.sequoiacap.com"></a></li>
+                <li id="andmore"><a href="/companies/exhibitorlist">and more...</a></li>
+            </ul>
+            
+        </div>-->
+    </div>
 </body>
 </html>
+

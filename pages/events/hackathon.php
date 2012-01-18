@@ -1,7 +1,11 @@
+<div class="column-top">
 <?php if($_GET['msg']=='success'):?>
 <div class="success">Your email has been saved. Thank you for your interest in MIT Techfair!</div>
 <?php endif;?>
-<h1>The&nbsp;<img src="/img/fb_logo.png" style="vertical-align:bottom" alt="facebook"/>&nbsp;Hack-a-thon</h1>
+<h1>The&nbsp;<img src="/img/fb_logo.png" style="vertical-align:bottom" alt="facebook"/>&nbsp;Hackathon</h1>
+</div>
+
+<div class="column-left">
 <h2>Interested?</h2>
 <!--
 <div id="facebook" class="interest">
@@ -14,20 +18,27 @@
 	</form>
 </div>
 -->
-<p>The details are still being hammered out - stay tuned!</p>
-<h2>What</h2>
-<p>The Hack-a-thon is a coding competition sponsored by Facebook. Hack individually, or form up to teams of 10!
-This competition is open to all MIT students. Build something awesome
-that you've always wanted to build. Bring your ideas or think of one on
-the spot!
-Facebook Engineers will be on site to work with you and judge the final projects. Food/caffeine/free shirts will be distributed.</p>
-<h3>Prizes</h3>
-<p>Winners will be flown out to <strong>Facebook HQ</strong> in Palo
-Alto, CA.
-Judging is based 50% on the idea and 50% on the implementation.
-There will also be prizes, food, drink, and swag for everyone!</p>
-<h2>When</h2>
-<p>TBA</p>
-<h2>Where</h2>
-<p><strong>Room 32-082</strong> - Stata Basement TEAL Room</p>
-<p>MIT students only.</p>
+<p>Further details will be available near the end of January - stay tuned!</p>
+<h2>Attendees</h2>
+<p>MIT, Harvard, and Brown students</p>
+<h2>About</h2>
+<p>An all-night coding competition sponsored by Facebook. Enjoy free food, swag, and caffeine! Prompt will be released at the end of January.</p>
+
+</div>
+
+<div class="column-right">
+  <h2>Prizes</h2>
+  <p>To be announced! <br>
+  There will also be food, drink, and swag for everyone!</p>
+  <h2>Time</h2>
+  <p>Saturday, February 4 @ 10 PM to Sunday, February 5 @ 8 AM</p>
+  <h2>Location</h2>
+  <p>To be announced</p>
+</div>
+
+<div class="column-bottom" style="text-align: center; padding-top: 30px;">
+  <a href="/img/hackathon/Hack1o.JPG"><img src="/img/hackathon/Hack1.JPG" style="margin-right: 20px;" width=220 height=150></a>
+  <a href="/img/hackathon/Hack2o.JPG"><img src="/img/hackathon/Hack2.JPG" style="margin-right: 20px;" width=220 height=150></a>
+  <a href="/img/hackathon/Hack3o.JPG"><img src="/img/hackathon/Hack3.JPG" style="margin-right: 20px;" width=220 height=150></a>
+  <a href="/img/hackathon/Hack4o.JPG"><img src="/img/hackathon/Hack4.JPG" width=220 height=150></a>
+</div>

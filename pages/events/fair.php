@@ -1,19 +1,65 @@
-<div id="column-top">
-	<h1>Events</h1>
+<div class="column-top">
+
+  <h1>The Fair</h1>
+  <p>Techfair is an annual student-run technology expo dedicated to innovation. Come experience Techfair's unique blend of cutting-edge technology and innovation from visionary companies, MIT research groups, student projects, and more.</p>
+  <p>Techfair will be conducted "trade-show" style. Attendees will be able to walk around to different booths and learn about the presenters, how the science and technologies work, and careers in the company and field of research (if applicable). We'll also be raffling off great prizes!</p>
+  <p><h2><a href="/companies/exhibitorlist/">Check out the 2012 Exhibitors</a></h2>
+  </p>
+  <p>If you have any questions, please contact us. If you are interested in helping to organize the fair, stay tuned for planning board applications in Fall 2012.</p>
+  <p><a href="https://picasaweb.google.com/103604151821709535051/MITTechfair2011">View our photos from Techfair 2011</a></p>
+
+
 </div>
-<div id="column-left">
-	<h2>Hackathon Coding Competition</h2>
-	<p>Hackathon is happening the weekend before Techfair! This Facebook-sponsored event is an all-night coding competition. Learn more and sign up <a href="/hack">here</a>.
-	</p>
-	<h2>The Fair</h2>
-	<p>Techfair itself is on February 6th, 2012 in Rockwell Cage. <a href="/events/venue">Learn more</a> about the fair.
-	</p>
+
+<!--<h3 id="raffle">RAFFLE WINNERS</h3>
+<strong>Round 1</strong>
+<ul>
+    <li>SSD Drive: <strong>Rishikesh R. Tirumala (rrt)</strong></li>
+    <li>23" Monitor: <strong>Kwadwo Nyarko (kwadwo)</strong></li>
+    <li>Asus Netbook: <strong>Amanda J. Lazaro (ajlazaro)</strong></li>
+</ul>
+<strong>Round 2</strong>
+<ul>
+    <li>SSD Drive: <strong>Sarah R. Edris (sedris)</strong></li>
+    <li>23" Monitor: <strong>Victor Marius Costan (costan)</strong></li>
+    <li>Apple iPad: <strong>Steven Carreno (carreno)</strong></li>
+</ul>
+-->
+
+<div class="column-left">
+ <h2>Attendees</h2>
+  <p>All MIT students, alumni, staff, and affiliates are welcome to attend.</p>
+  
+<h2>About</h2>
+<p>Techfair: An annual student-run technology expo dedicated to innovation</p>
+
+<h2>Time</h2>
+<p>
+9am - 3pm<br>
+February 6, 2012<br>
+(MIT Spring 2012 Registration Day)
+</p>
+
+<h2>Location</h2>
+<p>Rockwell Cage (building W33) on MIT campus, located on Vassar Street behind the student center. If you're coming from out of town, <a href="http://whereis.mit.edu/directions.html">directions to MIT are available</a>. Click the map for a larger, interactive version.</p>
+
 </div>
-<div id="column-right">
-	<h2>The Banquet</h2>
-	<p>An annual <a href="/events/banquet">banquet</a> is held in celebration of the completion of <a href="/events/venue">Techfair</a> and to present the <a href="http://mittechfair.org/think/">THINK Competition</a> winners. MIT Students, check back in January on how you can sign up to attend.</p>
-	<h2>Afterparty</h2>
-	<p>For details of the Microsoft Afterparty, see the <a href="/events/afterparty/">Afterparty page</a>.</p>
+
+<div class="column-right">
+<h2>Map</h2>
+<p>Suggested route for students: enter through the Johnson Athletic center (W34) and follow the signs to get to Rockwell Cage. </p>
+<a href="http://whereis.mit.edu/?go=W33"><img src="/img/map.png" alt="map of MIT" /></a>
+
 </div>
-<div id="column-bottom">
+
+<div class="column-bottom" style="text-align: center; padding-top: 30px;">
+  <a href="/img/fair/Fair1o.JPG"><img src="/img/fair/Fair1.JPG" style="margin-right: 20px;" width=370 height=250></a>
+  <a href="/img/fair/Fair2o.JPG"><img src="/img/fair/Fair2.JPG" style="margin-right: 20px;" width=165 height=250></a>
+  <a href="/img/fair/Fair3o.JPG"><img src="/img/fair/Fair3.JPG" width=370 height=250></a>
+  
+  <div style="margin-top: 20px;">
+  <a href="/img/fair/Fair4o.JPG"><img src="/img/fair/Fair4.JPG" style="margin-right: 20px;" width=370 height=250></a>
+  <a href="/img/fair/Fair5o.JPG"><img src="/img/fair/Fair5.JPG" style="margin-right: 20px;" width=165 height=250></a>
+  <a href="/img/fair/Fair6o.JPG"><img src="/img/fair/Fair6.JPG" width=370 height=250></a>
+  </div>
 </div>

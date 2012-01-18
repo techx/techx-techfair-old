@@ -1,7 +1,7 @@
 <?php if($_GET['msg']=='success'):?><div class="success">Your email has been saved. Thank you for your interest in MIT Techfair!</div>
 <?php endif;?>
-<h1>Project Exhibitors</h1>
-<p>Have an amazing project you want to showcase to thousands of people? Are you planning to build something cool during IAP? Want an opportunity to demo your project to both students and companies? Apply for a free booth to display your tech at MIT Techfair on February 6th, 2012.
+<h1>Student Projects</h1>
+<p>Have an amazing project you want to showcase to thousands of people? Are you planning to build something cool during IAP? Want an opportunity to demo your project to both students and companies? Apply for a free booth to display your tech at Techfair on February 6, 2012.
   <!--<p>Preferred application deadline is <u>November 20 with rolling applications afterward</u>. Your project must be prepared and ready to present for interviews by the first week of January.</p>-->
   <?php
 /*
@@ -38,17 +38,17 @@ if ($_POST["name"] != "" and $_POST["email"] != ""):
 else:
 ?>
 </p>
-<h2>F.A.Q.</h2>
+<h2>FAQ</h2>
 <ul>
   <li><strong>Can I apply to exhibit multiple projects?</strong><br />
-  Yes, this would all be under one application. You can display all of your projects at one booth.</li>
+  Yes. Please apply for all your own projects under one application; all of your projects will be displayed at one booth.</li>
   <li><strong>Can I display something I worked for in my UROP?</strong><br />
-  Yes, as long as it is primarily your own work, projects may be affliated with particular labs.</li>
+  Yes. As long as it is primarily your own work, projects may be affiliated with particular labs.</li>
 </ul>
-<h1>Application</h1>
-<p><strong>Applications have been extended to Dec 3 and rolling afterwards. </strong></p>
+<h2>Application</h2>
+<p><strong>The application deadline has passed for 2012. Email <a href="mailto:techfair-sr@mit.edu">techfair-sr@mit.edu</a> to be placed on our mailing list for Techfair 2013.</strong></p>
 
-<div style="background-color: #C43B1D; padding:10px;">
+<div style="background-color: #ff8000; padding:10px;">
   <p style="color:#fff; ">Mark that you are applying as a <strong>MIT Project Exhibitor</strong>.</p>
   <p style="color:#fff; ">If you do not receive confirmation that your application was submitted, please email your application to <a href="mailto:techfair-sr@mit.edu">techfair-sr@mit.edu</a>. We will be sending out an email to all applicants on Dec 5, if you submit an application do not receive an email, please contact us.</p>
 </div>
@@ -122,5 +122,4 @@ else:
 </form>
 */?>
 <iframe src="https://docs.google.com/spreadsheet/embeddedform?formkey=dDJkalJzZHRkMmtMSzJWc2pjU09iYXc6MQ" width="760" height="2000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-</div>
 <?php endif;?>

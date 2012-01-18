@@ -23,34 +23,120 @@ function out(num) {
 </script>-->
 
 <script type="text/javascript">
-    $('#tooltip').tipsy();
+	$.fn.preload = function() {
+	    this.each(function(){
+	        $('<img/>')[0].src = this;
+	    });
+	}
+
+	$(['/img/exec/susie.jpg','/img/exec/ravi.jpg','/img/exec/jennifer.jpg','/img/exec/josh.jpg','/img/exec/goot.jpg','/img/exec/exec.JPG','/img/exec/sherry.jpg','/img/exec/ranna.jpg','/img/exec/carolyn.jpg','/img/exec/julie.jpg','/img/exec/david.jpg']).preload();
+	
+	
+	$(document).ready(function() {
+			for(count=0;count<11;count++){
+			$("#tooltip"+count).tipsy({gravity: 's'});
+		}
+	});
  </script>
  
-<h1>The Techfair Executive Team</h1>
-<p><strong>9 people, 1 awesome team.</strong> (1 team email: <a href="mailto:techfair-exec@mit.edu">techfair-exec@mit.edu</a>)</p>
+<style type="text/css">
+.marginnone {
+  margin: 0px 0px 0px 0px;
+  border: 0px;
+  padding: 0px;
+}
+.marginright {
+  margin: 0px 4px 0px 0px;
+  border: 0px;
+  padding: 0px;
+}
+.marginrighttopbottom {
+  margin: 5px 4px 4px 0px;
+  border: 0px;
+  padding: 0px;
+}
+.margintopbottom {
+  margin: 4px 0px 4px 0px;
+  border: 0px;
+  padding: 0px;
+}
 
+#exec-photos a {
+  text-decoration: none;
+}
+
+#exec-photos a:hover {
+  text-decoration: none;
+}
+</style>
+ 
+<h1>The Techfair Executive Team</h1>
+<p>
+  The executive team is elected every year by the <a href="/about/">Techfair committee members</a>. 
+  <br>Team email: <a href="mailto:techfair-exec@mit.edu">techfair-exec@mit.edu</a>
+  </p>
+<h2>10 people, 1 awesome team.</h2> 
+<div id='exec-photos'>
+<a id="tooltip4" href="#" title="Susie Fu: Managing Director, mother hen">
+  <img class="marginright" src="/img/exec/susie.jpg" name="Susie" />
+</a>
+<a id="tooltip5" href="#" title="Ravi Charan: Associate Director, Techtalks director, math genius">
+  <img class="marginright" src="/img/exec/ravi.jpg" name="Ravi" />
+</a>
+<a href="#" id="tooltip1" title="Jennifer Wang: Student Relations Director, nutella fanatic">
+  <img class="marginright" src="/img/exec/jennifer.jpg" name="Jennifer"/>
+</a>
+<a id="tooltip6" href="#" title="Joshua Ma: Corporate Relations Co-Director, superstarhacker">
+  <img class="marginnone" src="/img/exec/josh.jpg" name="Josh" />
+</a>
+<br>
+<a href="#" id="tooltip2" title="Jonathan Gootenberg: Corporate Relations Co-Director, unit overtaker">
+  <img class="marginrighttopbottom" src="/img/exec/goot.jpg" name="Goot"/>
+  </a>
+<a href="/img/exec/execo.jpg" id="tooltip10" title="Executive Team at the Techfair Retreat">
+  <img class="marginrighttopbottom" src="/img/exec/exec.JPG" name="Exec"/>
+</a>
+<a id="tooltip8" href="#" title="Sherry Wu: Finance Director, original apple fangirl">
+  <img class="margintopbottom" src="/img/exec/sherry.jpg" name="Sherry" />
+  </a>
+<br>
+<a id="tooltip7" href="#" title="Ranna Zhou: Internal Director, multitask extraordinare">
+  <img class="marginright" src="/img/exec/ranna.jpg" name="Ranna" />
+  </a>
+<a href="#" id="tooltip3" title="Carolyn Zhang: Marketing Director, fashionista">
+  <img class="marginright" src="/img/exec/carolyn.jpg" name="Carolyn" />
+  </a>
+<a href="#" id="tooltip9" title="Julie Wang: Events Director, mystery woman">
+  <img class="marginright" src="/img/exec/julie.jpg" name="Julie"/>
+</a>
+<a href="#" id="tooltip0" title="David Luciano: Logistics Director, karate master">
+  <img class="marginnone" src="/img/exec/david.jpg" name="David"/>
+</a>
+</div>
+<!-- Old 3x3 2011 Exec
 <table padding=0 margin=15>
   <tr>
-    <td><a id="tooltip" href="#" title="David Luciano: Logistics Director, karate master"><img src="/img/exec/david.jpg" name="David"/></a>
-    <td><a id="tooltip" href="#" title="Jennifer Wang: Student Relations Director, nutella fanatic"><img src="/img/exec/jennifer.jpg" name="Jennifer" class="teamImage"/></a>
-    <td><a id="tooltip" href="#" title="Jonathan Gootenberg: Corporate Relations Co-Director, unit overtaker"><img src="/img/exec/goot.jpg" name="Goot" class="teamImage"/></a>
+    <td><a href="#" id="tooltip0" title="David Luciano: Logistics Director, karate master"><img src="/img/exec/david.jpg" name="David"/></a>
+    <td><a href="#" id="tooltip1" title="Jennifer Wang: Student Relations Director, nutella fanatic"><img src="/img/exec/jennifer.jpg" name="Jennifer"/></a>
+    <td><a href="#" id="tooltip2" title="Jonathan Gootenberg: Corporate Relations Co-Director, unit overtaker"><img src="/img/exec/goot.jpg" name="Goot"/></a>
   </tr>
   <tr>
-    <td><a id="tooltip" href="#" title="Carolyn Zhang: Marketing Director, fashionista"><img src="/img/exec/carolyn.jpg" name="Carolyn" class="teamImage"/></a>
-    <td><a id="tooltip" href="#" title="Susie Fu: Managing Director, mother hen"><img src="/img/exec/susie.jpg" name="Susie" class="teamImage"/></a>
-    <td><a id="tooltip" href="#" title="Ravi Charan: Associate Director, math genius"><img src="/img/exec/ravi.jpg" name="Ravi" class="teamImage"/></a>
+    <td><a href="#" id="tooltip3" title="Carolyn Zhang: Marketing Director, fashionista"><img src="/img/exec/carolyn.jpg" name="Carolyn" /></a>
+    <td><a id="tooltip4" href="#" title="Susie Fu: Managing Director, mother hen"><img src="/img/exec/susie.jpg" name="Susie" /></a>
+    <td><a id="tooltip5" href="#" title="Ravi Charan: Associate Director, math genius"><img src="/img/exec/ravi.jpg" name="Ravi" /></a>
   </tr>
   <tr>
-    <td><a id="tooltip" href="#" title="Joshua Ma: Corporate Relations Co-Director, superstarhacker"><img src="/img/exec/josh.jpg" name="Josh" class="teamImage"/></a>
-    <td><a id="tooltip" href="#" title="Ranna Zhou: Internal Director, multitask extraordinare"><img src="/img/exec/ranna.jpg" name="Ranna" class="teamImage"/></a>
-    <td><a id="tooltip" href="#" title="Sherry Wu: Finance Director, original apple fangirl"><img src="/img/exec/sherry.jpg" name="Sherry" class="teamImage"/></a>
+    <td><a id="tooltip6" href="#" title="Joshua Ma: Corporate Relations Co-Director, superstarhacker"><img src="/img/exec/josh.jpg" name="Josh" /></a>
+    <td><a id="tooltip7" href="#" title="Ranna Zhou: Internal Director, multitask extraordinare"><img src="/img/exec/ranna.jpg" name="Ranna" /></a>
+    <td><a id="tooltip8" href="#" title="Sherry Wu: Finance Director, original apple fangirl"><img src="/img/exec/sherry.jpg" name="Sherry" /></a>
   </tr>
 </table>
+-->
 
 <!--OLD EXEC
 
 <h2>Emily Zhao</h2>
-<img src="/img/exec/Emily0.jpg" name="Emily" onMouseOver="over(0)" onMouseOut="out(0)" class="teamImage"/>
+<img src="/img/exec/Emily0.jpg" name="Emily" onMouseOver="over(0)" onMouseOut="out(0)" />
 <div class="team">
 	<h3>Managing Director, Logistics Director</h3>
 	<h4>Course 6+18</h4>
@@ -59,7 +145,7 @@ function out(num) {
 <div class="clear"></div>
 
 <h2>Jeff Chen</h2>
-<img src="/img/exec/Jeff0.jpg" name="Jeff" onMouseOver="over(1)" onMouseOut="out(1)" class="teamImage"/>
+<img src="/img/exec/Jeff0.jpg" name="Jeff" onMouseOver="over(1)" onMouseOut="out(1)" />
 <div class="team">
 	<h3>Associate Director, Corporate Relations Director, Human Relations Director</h3>
 	<h4>Course 6+18</h4>
@@ -68,7 +154,7 @@ function out(num) {
 <div class="clear"></div>
 
 <h2>Kuan Cheng</h2>
-<img src="/img/exec/Kuan0.jpg" name="Kuan" onMouseOver="over(2)" onMouseOut="out(2)" class="teamImage"/>
+<img src="/img/exec/Kuan0.jpg" name="Kuan" onMouseOver="over(2)" onMouseOut="out(2)" />
 <div class="team">
 	<h3>Corporate Relations Director</h3>
 	<h4>Course 2</h4>
@@ -77,7 +163,7 @@ function out(num) {
 <div class="clear"></div>
 
 <h2>Susie Fu</h2>
-<img src="/img/exec/Susie0.jpg" name="Susie" onMouseOver="over(3)" onMouseOut="out(3)" class="teamImage"/>
+<img src="/img/exec/Susie0.jpg" name="Susie" onMouseOver="over(3)" onMouseOut="out(3)" />
 <div class="team">
 	<h3>Marketing Director, IT Director</h3>
 	<h4>Course 6</h4>
@@ -86,7 +172,7 @@ function out(num) {
 <div class="clear"></div>
 
 <h2>Cyril Lan</h2>
-<img src="/img/exec/Cyril0.jpg" name="Cyril" onMouseOver="over(4)" onMouseOut="out(4)" class="teamImage"/>
+<img src="/img/exec/Cyril0.jpg" name="Cyril" onMouseOver="over(4)" onMouseOut="out(4)" />
 <div class="team">
 	<h3>Finance Director</h3>
 	<h4>Course 6+15</h4>
@@ -95,7 +181,7 @@ function out(num) {
 <div class="clear"></div>
 
 <h2>Nick Dou</h2>
-<img src="/img/exec/Nick0.jpg" name="Nick" onMouseOver="over(5)" onMouseOut="out(5)" class="teamImage"/>
+<img src="/img/exec/Nick0.jpg" name="Nick" onMouseOver="over(5)" onMouseOut="out(5)" />
 <div class="team">
 	<h3>THINK Director</h3>
 	<h4>Course 2+6</h4>

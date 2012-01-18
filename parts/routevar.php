@@ -36,23 +36,23 @@ $routes = array(
 		'name' => 'Events',
 		'' => array(
 			'title' => 'Events / '.$basetitle,
-			'content' => 'pages/events/fair.php'
+			'content' => 'pages/events/schedule.php'
 		),
 		'hackathon' => array(
-			'title' => 'Hack-a-thon / '.$basetitle,
+			'title' => 'Hackathon / '.$basetitle,
 			'content' => 'pages/events/hackathon.php',
-			'name' => 'Hack-a-thon',
+			'name' => 'Hackathon',
 			'process' => 'pages/events/hackathon_process.php'
 		),
-		'venue' => array(
+		'fair' => array(
 			'title' => 'The Fair / '.$basetitle,
-			'content' => 'pages/events/venue.php',
+			'content' => 'pages/events/fair.php',
 			'name' => 'The Fair'
 		),
 		'talks' => array(
-		    'title' => 'TechTalks / '.$basetitle,
+		    'title' => 'Techtalks / '.$basetitle,
 		    'content' => 'pages/events/talks.php',
-		    'name' => 'TechTalks'
+		    'name' => 'Techtalks'
 		),
 		'banquet' => array(
 			'title' => 'Banquet / '.$basetitle,
@@ -81,9 +81,9 @@ $routes = array(
 			'content' => 'pages/companies/why.php'
 		),
 		'exhibitorlist' => array(
-		    'title' => 'Events / '.$basetitle,
+		    'title' => 'Exhibitors / '.$basetitle,
 		    'content' => 'pages/companies/exhibitorlist.php',
-		    'name' => '2011 List of Exhibitors'
+		    'name' => '2012 List of Exhibitors'
 		),
 		'packages' => array(
 			'title' => 'Sponsorship / '.$basetitle,
@@ -95,26 +95,29 @@ $routes = array(
 		//	'content' => 'pages/companies/register.php',
 		//	'name' => 'Register'
 		//),
-		'portal' => array(
-			'external' => 'http://www.mittechfair.org/portal/index.php',
-			'name' => 'Portal'
-		),
 	),
 	'students' => array(
 		'name' => 'For Students',
 		'' => array(
 			'title' => 'For Students / '.$basetitle,
-			'content' => 'pages/students/exhibit.php',
+			'content' => 'pages/students/forstudents.php',
+		),
+		'resume' => array(
+		  'external' => 'http://www.umeqo.com/techfair',
+			'name' => '2012 Resume Drop'
 		),
 		'exhibitors' => array(
 			'external' => '/companies/exhibitorlist/',
-			'name' => '2011 List of Exhibitors'
+			'name' => '2012 List of Exhibitors'
 		),
-		'displays' => array(
-			'external' => '/students/',
-			'name' => 'Startups &amp; Projects'
+		'startups' => array(
+			'external' => '/mitstartups',
+			'name' => 'Student Startups'
 		),
-
+  	'projects' => array(
+  		'external' => '/getabooth',
+  		'name' => 'Student Projects'
+  	),
 
 		'funding' => array(
 			'content' => 'pages/students/funding.php',
