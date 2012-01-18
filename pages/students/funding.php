@@ -1,6 +1,6 @@
-<h2>Techfair Project Funding</h2>
-<p>Techfair is offering $500 per  project of funding for those that need an extra boost to get off the ground. Projects are funded in a two-stage check-in and reimbursement process during the fall semester. 
-<h3>Application &amp; Funding Dates</h3>
+<h1>Techfair Project Funding</h1>
+<p>Techfair is offering up to $500 per project of funding for those that need an extra boost to get off the ground. Projects are funded in a two-stage check-in and reimbursement process during the fall semester. 
+<h2>Application &amp; Funding Dates</h2>
 <p>
   For Fall 2011 funding cycle:
 <ul>
@@ -13,7 +13,7 @@
 <li>mid-December/early IAP - Check-in, reimbursement #2</li>
 </ul>
 </p>
-<h3>F.A.Q.</h3>
+<h2>F.A.Q.</h2>
 <p>
 <ul>
 <li><strong>Can I apply for multiple projects?</strong><br />Yes! However, you are likely to only receive funding for one project.</li>
@@ -24,7 +24,7 @@ We are looking for projects with a solid plan and people who are determined to c
 </ul>
 </p>
 <p>Any other questions? Drop us an email at <a href="techfair-sr@mit.edu">techfair-sr@mit.edu</a> with Techfair Project Funding Question in the subject line.</p>
-<h3>Application Form</h3>
+<h2>Application Form</h2>
 <p>
 Our application is closed for Techfair 2012.
 </p>

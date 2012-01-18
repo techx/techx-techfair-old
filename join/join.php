@@ -21,9 +21,9 @@
   <p>
   The Logistics team is responsible for ironing out all the details involved in planning such a large event. Members of the logistics team learn how to plan and manage large events, in particular how to deal with numerous MIT offices and outside vendors that are involved in planning any event. The skills and knowledge accrued by the logistics team are indispensable to any MIT student group.
     </p>
-  <h3>TechTalks</h3>
+  <h3>Techtalks</h3>
   <p>
-  The TechTalks committee is a new committee this year, and will be contacting and recruiting prominent speakers from various technology industries. Members will get an unparalleled opportunity to contribute their vision to this new planning committee.
+  The Techtalks committee is a new committee this year, and will be contacting and recruiting prominent speakers from various technology industries. Members will get an unparalleled opportunity to contribute their vision to this new planning committee.
     </p>
   <h3>Internal Relations</h3>
   <p>

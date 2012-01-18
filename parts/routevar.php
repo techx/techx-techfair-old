@@ -50,9 +50,9 @@ $routes = array(
 			'name' => 'The Fair'
 		),
 		'talks' => array(
-		    'title' => 'TechTalks / '.$basetitle,
+		    'title' => 'Techtalks / '.$basetitle,
 		    'content' => 'pages/events/talks.php',
-		    'name' => 'TechTalks'
+		    'name' => 'Techtalks'
 		),
 		'banquet' => array(
 			'title' => 'Banquet / '.$basetitle,

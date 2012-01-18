@@ -80,7 +80,7 @@ function out(num) {
 <a id="tooltip4" href="#" title="Susie Fu: Managing Director, mother hen">
   <img class="marginright" src="/img/exec/susie.jpg" name="Susie" />
 </a>
-<a id="tooltip5" href="#" title="Ravi Charan: Associate Director, TechTalks director, math genius">
+<a id="tooltip5" href="#" title="Ravi Charan: Associate Director, Techtalks director, math genius">
   <img class="marginright" src="/img/exec/ravi.jpg" name="Ravi" />
 </a>
 <a href="#" id="tooltip1" title="Jennifer Wang: Student Relations Director, nutella fanatic">

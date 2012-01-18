@@ -1,20 +1,18 @@
 <div class="column-top">
-  <h1>Techfair Afterparty</h1>
-<!--<img src="/img/microsoft.jpg" alt="Microsoft" style="float:right" />-->
-<p>To celebrate the end of Fair, we are hosting an <strong>afterparty</strong> (sponsored by Microsoft).
-  </div>
+  <h1>Afterparty</h1>
+ </div>
   
   <div class="column-left">
-    <h2>Who</h2>
-    <p>All MIT students are welcome!</p>
-    <h2>What</h2>
-    <p>Come party with us and the Microsoft gang against the Boston Skyline on the last night before classes start. Good music, food, mocktails, and lots of Kinect adventures are guaranteed.</p>
+    <h2>About</h2>
+    <p>Celebrate the last night of IAP with Techfair and Microsoft! Come party with us against the beautiful Boston skyline. Enjoy good music, food, mocktails, and Kinect adventures. Sponsored by Microsoft.</p>
+    <h2>Open to</h2>
+    <p>All MIT students</p>
   </div>
   
   <div class="column-right">
-    <h2>When</h2>
-    <p>Monday, February 6th, 9pm-11pm</p>
-    <h2>Where</h2>
+    <h2>Time</h2>
+    <p>Monday, February 6, 9pm - 11pm</p>
+    <h2>Location</h2>
     <p><a href="http://whereis.mit.edu/?go=E14">New Media Lab (E14)</a>, 6th floor</p>
 
   </div>
