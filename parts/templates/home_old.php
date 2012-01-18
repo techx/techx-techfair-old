@@ -60,7 +60,7 @@ Check out our <a href="https://picasaweb.google.com/103604151821709535051/MITTec
 				        <td>1/31 10am - 3:30pm<br />Rockwell Cage</td>
 				    </tr>
 				    <tr>
-				        <th><a href="/events/talks/">TechTalks</a></th>
+				        <th><a href="/events/talks/">Techtalks</a></th>
 				        <td>At the Fair</td>
 				    </tr>
 				    <tr>

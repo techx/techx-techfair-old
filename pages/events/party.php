@@ -2,12 +2,11 @@
   <h1>Afterparty</h1>
 <!--<img src="/img/microsoft.jpg" alt="Microsoft" style="float:right" />-->
   </div>
-  
   <div class="column-left">
-    <h2>Open to...</h2>
-    <p>All MIT students</p>
     <h2>About</h2>
     <p>Celebrate the last night of IAP with Techfair and Microsoft! Come party with us against the beautiful Boston skyline. Enjoy good music, food, mocktails, and Kinect adventures. Sponsored by Microsoft.</p>
+    <h2>Open to</h2>
+    <p>All MIT students</p>
   </div>
   
   <div class="column-right">

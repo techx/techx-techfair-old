@@ -18,12 +18,11 @@
 	</form>
 </div>
 -->
-<p>The details are still being hammered out - stay tuned!</p>
-<h2>Who</h2>
-<p>All MIT, Harvard, and Brown students are welcome!</p>
-<h2>What</h2>
-<p>The Hackathon is a coding competition sponsored by Facebook. This competition is open to all MIT, Harvard, and Brown students. More details soon!</p>
-
+<p>Further details will be available near the end of January - stay tuned!</p>
+<h2>Attendees</h2>
+<p>MIT, Harvard, and Brown students</p>
+<h2>About</h2>
+<p>An all-night coding competition sponsored by Facebook. Enjoy free food, swag, and caffeine! Prompt will be released at the end of January.</p>
 
 </div>
 
@@ -31,10 +30,10 @@
   <h2>Prizes</h2>
   <p>To be announced! <br>
   There will also be food, drink, and swag for everyone!</p>
-  <h2>When</h2>
-  <p>Saturday, February 4th @ 10pm to Sunday, February 5th @ 8am</p>
-  <h2>Where</h2>
-  <p>To be announced!</p>
+  <h2>Time</h2>
+  <p>Saturday, February 4 @ 10 PM to Sunday, February 5 @ 8 AM</p>
+  <h2>Location</h2>
+  <p>To be announced</p>
 </div>
 
 <div class="column-bottom" style="text-align: center; padding-top: 30px;">

@@ -32,6 +32,7 @@
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
     margin: 0;
     padding: 0;
+    color: #222;
 }
 
 table {
@@ -288,6 +289,7 @@ float:left;
     line-height: 22px;
     list-style-type: disc;
     padding-left: 20px;
+    font-weight: 300;
 }
 
 /* FOOTER */
@@ -516,6 +518,9 @@ table#schedule {
 table#schedule td{
   height: 46px;
 }
+table#schedule td, table#schedule th {
+  padding-right: 20px;
+}
 
 #techtalks {
     margin-top: 10px;
@@ -669,7 +674,6 @@ table#schedule td{
      line-height: 29px;
      width: auto;
      color: #222;
-     text-transform: uppercase;
      font-size: 14px;
  }
  ul#sponsorlinks #andmore a:hover {

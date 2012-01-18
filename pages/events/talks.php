@@ -1,9 +1,9 @@
-<h1>TechTalks</h1>
-<h2>Introducing the newest Techfair event.</h2>
-<p>TechTalks are back and completely revamped! We'll be featuring awesome speakers in a one-day event, bringing in leaders and visionaries from various industries and backgrounds.</p>
-<h2>Where and When</h2>
-<p>Room 10-250, Feb 11 (the Saturday after Techfair)
-  <br>
-  Time to be announced</p>
-<h2>Who</h2>
-<p>Everyone is invited! Boston area students, entrepreneurs, and technology enthusiasts alike.</p>
+<h1>Techtalks</h1>
+<h2>About</h2>
+<p>Introducing the newest Techfair event! Come hear industry leaders and visionaries talk about their own perspectives on various aspects of tech and innovation.</p>
+<h2>Location</h2>
+<p>Room 10-250</p>
+<h2>Time</h2>
+<p>February 11 (the Saturday after Techfair) - exact times to be announced</a>
+<h2>Attendees</h2>
+<p>Everyone is invited - Boston area students, entrepreneurs, and tech enthusiasts alike.</p>

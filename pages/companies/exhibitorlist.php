@@ -62,14 +62,14 @@ function populateSponsorTable($sponsorList){
 
 <div class="column-top">
 	<h1>2012 List of Exhibitors</h1>
-	<p>Techfair 2012 is looking to be the biggest Techfair yet!</p>
+	<p>With over 50 companies and 30 student exhibitors, this year's Techfair is the biggest yet!</p>
 	<p>See the full schedule <a href="/events/">here</a>.</p>
 </div>
 <div class="column-left">
 	<h2>Platinum Sponsor</h2>
 	<div class="sponsor-logos">
 	    <a href="http://www.facebook.com/"><img title="Facebook" alt="Facebook" src="/img/logos/facebook_larger.png" /></a>
-	    <p><a href="/events/hackathon/">Hack-a-thon Sponsor</a></p>
+	    <p><a href="/events/hackathon/">Hackathon Sponsor</a></p>
 	</div>
 	<h2>Gold Sponsors</h2>
 	<div class="sponsor-logos full-width">
@@ -148,13 +148,13 @@ function populateSponsorTable($sponsorList){
 				'AT&T' 								=> 'http://www.att.com/',
 				'Autodesk' 							=> 'http://usa.autodesk.com/',
 				'Bose' 								=> 'http://www.bose.com/',
-				'CEO in a box' 						=> 'http://www.beerdropper.com/',
+				'CEO in a Box' 						=> 'http://www.beerdropper.com/',
 				'Citrix Online' 					=> 'http://www.citrix.com/',
 				'Crittercism' 						=> 'http://www.crittercism.com/',
 				'eBay' 								=> 'http://www.ebay.com/',
 				'Fusion-io' 						=> 'http://www.fusionio.com/',
 				'Google' 							=> 'http://www.google.com/',
-				'Kiva' 								=> 'http://www.kivasystems.com/',
+				'Kiva Systems'						=> 'http://www.kivasystems.com/',
 				'Knome'								=> 'http://www.knome.com/',
 				'Lincoln Lab' 						=> 'http://www.ll.mit.edu/',
 				'Maxim Integrated Products' 		=> 'http://www.maxim-ic.com/',

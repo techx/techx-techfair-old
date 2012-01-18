@@ -3,7 +3,7 @@
 <div class="success">Your email has been saved. Thank you for your interest in MIT Techfair!</div>
 <?php endif;?>
 <h1>Student Startups</h1>
-<p>Show off your startup to other students and companies the annual MIT Techfair technology expo! We are looking for technology oriented startups initiated by MIT students. The fair is on February 6th, 2012.</p>
+<p>Show off your startup to other students and companies the annual Techfair technology expo! All MIT students with their own tech startups are welcome to apply for a booth. The fair is on February 6, 2012.</p>
 <h2>Why apply?</h2>
 <ul>
 	<li>You'll get a booth at Techfair, at no cost!</li>
@@ -50,11 +50,13 @@ else:
 ?>
 </p>
 <h1>Application</h1>
-<p><strong>The application deadline has passed for 2012. Email <a href="mailto:techfair-sr@mit.edu">techfair-sr@mit.edu</a> to be placed on our mailing list for Techfair 2013.</strong></p><div style="background-color: #C43B1D; padding:10px;">
+<p><strong>The application deadline has passed for 2012. Email <a href="mailto:techfair-sr@mit.edu">techfair-sr@mit.edu</a> to be placed on our mailing list for Techfair 2013.</strong></p>
+
+<div style="background-color: #ff8000; padding:10px;">
   <p style="color:#fff; ">Mark that you are applying as a <strong>MIT Startup</strong>.</p>
   <p style="color:#fff; ">If you do not receive confirmation that your application was submitted, please email your application to <a href="mailto:techfair-sr@mit.edu">techfair-sr@mit.edu</a>. We will be sending out an email to all applicants on Dec 5, if you submit an application do not receive an email, please contact us.</p>
 </div>
-<p>&nbsp;</p>
+<p></p>
 <?php
 /*
 <form action="" method="POST">
@@ -117,5 +119,4 @@ else:
 </form>
 */?>
 <iframe src="https://docs.google.com/spreadsheet/embeddedform?formkey=dDJkalJzZHRkMmtMSzJWc2pjU09iYXc6MQ" width="760" height="2000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-</div>
 <?php endif;?>

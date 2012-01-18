@@ -8,7 +8,7 @@
     <th><strong>Event</strong>
     <th><strong>Time</strong>
     <th><strong>Location</strong>
-    <th><strong>Who</strong>
+    <th><strong>Attendees</strong>
   </tr>
   <tr>
     <td width=92><a href="/events/hackathon/">Hackathon</a>
@@ -35,7 +35,7 @@
     <td>MIT students
   </tr>
   <tr>
-    <td><a href="/events/talks/">TechTalks</a>
+    <td><a href="/events/talks/">Techtalks</a>
     <td>Sat 2/11<br>Time TBA
     <td>10-250
     <td>Everyone is welcome!
@@ -69,22 +69,34 @@
 </div>
 <div class="column-right">
   <h2><a href="/hack">Techfair Hackathon</a></h2>
-	<p>Hackathon is happening the weekend before Techfair! This Facebook-sponsored event is an all-night coding competition. Learn more <a href="/hack">here</a>.
-	</p>
+    <p>
+        Sleep is for the weak - pull an all-nighter at our Facebook-sponsored coding competition!
+        Win prizes, nom on free food, and enjoy an (almost) unlimited supply of caffeine.
+        Entries will be judged by Facebook engineers.
+    </p>
 	<h2><a href="/events/fair">The Fair</a></h2>
-	<p>Techfair itself is on February 6th, 2012 in Rockwell Cage. <a href="/events/fair">Learn more</a> about the fair.
+	<p>Techfair itself will take place on February 6, 2012 in Rockwell Cage. Learn more <a href="/events/fair">here</a>.
 	</p>
 	<h2><a href="/events/banquet">The Banquet</a></h2>
-	<p>An annual banquet is held in celebration of the completion of <a href="/events/fair">The Fair</a> and to present the <a href="http://mitthink.mit.edu">THINK Competition</a> winners. Learn more <a href="/events/banquet">here</a></p>
+	<p>
+	    This exclusive event, only open to invited students, presents a unique networking opportunity with company representatives. 
+	    Learn more about the invitation process and the event itself <a href="/events/banquet">here</a>.
+	</p>
 	<h2><a href="/events/afterparty/">Afterparty</a></h2>
-	<p>For details of the Techfair Afterparty, see the <a href="/events/afterparty/">Afterparty page</a>.</p>
-	<h2><a href="/events/talks/">TechTalks</a></h2>
-	<p>We are hosting a series of engaging speakers from all different backgrounds. Everyone in the Boston area is welcome to attend. More info <a href="/events/talks/">here</a>.</p>
+	<p>
+	    Celebrate the last night of IAP with Techfair and Microsoft! Come party with us against the beautiful Boston skyline.
+	    Learn more <a href="/events/afterparty/">here</a>.
+	</p>
+	<h2><a href="/events/talks/">Techtalks</a></h2>
+	<p>
+	    Hear industry leaders and visionaries talk about their own perspectives - open to all Boston-area students, entrepreneurs, and tech enthusiasts.
+	    Learn more <a href="/events/talks/">here</a>.
+	</p>
 	<p><p>
 <p><p>
 <h1> Other Events</h1>
 	<h2>Sequoia Panel</h2>
-	<p><a href="http://www.sequoiacap.com/">Sequoia Capital</a> is featuring a few of their innovative startups in a one-hour panel.</p>
+	<p>Leading venture capital firm <a href="http://www.sequoiacap.com/">Sequoia Capital</a> brings some of their hottest startups to Boston in this one-hour panel.</p>
 	<h2>Oblong TechTalk</h2>
 	<p><a href="http://oblong.com/">Oblong Industries</a> will be presenting their g‑speak™ platform at the Media Lab.</p>
 </div>

@@ -56,13 +56,13 @@
                     With <strong><a href="/companies/exhibitorlist/">over 50 companies and 30 student projects</a></strong>, this year's student-run expo is bound to be the largest yet.
                 </p>
                 <p>
-                  MIT students, <a href="http://umeqo.com/techfair"><strong>drop your resume</strong></a> by February 4th
+                  MIT students, <a href="http://umeqo.com/techfair"><strong>drop your resume</strong></a> by February 4th.
                 </p>
 				<div id="mini-schedule-container">
 					<div id="mini-schedule-grow-button"></div>
 					<div id="mini-schedule-button">
 						<div style="padding: 3px 0px 8px 12px; background: rgba(104, 196, 252, 0.8)">
-						  <h3><strong>Show Schedule ></strong></h3>
+						  <h3>Show Schedule &gt;</h3>
 						  </div>
 					</div>
 					<div id="mini-schedule">
@@ -96,7 +96,7 @@
                   <td>E14 6th floor
                 </tr>
                 <tr>
-                  <td><a href="/events/talks/"><strong>TechTalks</strong></a>
+                  <td><a href="/events/talks/"><strong>Techtalks</strong></a>
                   <td>Sat 2/11 Time TBA
                   <td>10-250
                 </tr>
