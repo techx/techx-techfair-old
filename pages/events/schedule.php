@@ -49,7 +49,7 @@
     <th><strong>Event</strong>
     <th><strong>Time</strong>
     <th><strong>Location</strong>
-    <th><strong>Who</strong>
+    <th><strong>Attendees</strong>
   </tr>
   <tr>
     <td width=92>Sequoia Panel
