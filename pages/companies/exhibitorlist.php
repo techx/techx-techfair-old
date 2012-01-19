@@ -275,6 +275,7 @@ function populateSponsorTable($sponsorList){
 	<h2>MIT Student Startups</h2>
 	<ul>
 		<li><a href="http://maslab.mit.edu/2012/site/maslab.php">MASLAB: Mobile Autonomous Systems Lab</a></li>
+		<li>More coming soon!</li>
 	</ul>
 	<h2>MIT Student Exhibitors</h2>
 	<ul>
@@ -289,6 +290,7 @@ function populateSponsorTable($sponsorList){
 		<li>StartLabs</li>
 		<li>Twine</li>
 		<li>Yang Yang (Musical Dress)</li>
+		<li>More coming soon!</li>
 	</ul>
 	
 	<!--<h2>Bronze Sponsors</h2>
