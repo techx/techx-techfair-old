@@ -4,11 +4,11 @@
 
 <div class="column-left">
   <h2>About</h2>
-  <p>This exclusive networking banquet provides a unique opportunity for students to dine with technology enthusiasts from our participating companies. <a href="/companies/exhibitorlist/">Platinum, gold, and silver sponsors</a> will be able to reserve a table at the banquet and invite the students of their choice at the fair.</p>
+  <p>This exclusive event provides a unique opportunity for students to dine with technology enthusiasts from our participating companies. <a href="/companies/exhibitorlist/">Platinum, gold, and silver sponsors</a> will be able to reserve a table at the banquet and invite the students of their choice at the fair.</p>
 <h2>Attendees</h2>
 <p>Company representatives will select students they talk to at Techfair; invited students will be notified by e-mail at the end of Techfair.</p>
 <h3>Banquet Signup for Students</h3>
-<p>At Techfair, students will be able to place themselves on the banquet waitlist. Extra seats at the banquet will be given to waitlist students on a first-come, first-serve basis. Check back in February for more details on the waitlist sign-up process.</p>
+<p>At Techfair, students will be able to place themselves on the banquet waitlist. Look for the waitlist at the Techfair exit booth. Extra seats at the banquet will be given to waitlist students on a first-come, first-serve basis.</p>
 <h2>Time</h2>
 <p>
 6:00pm-8:30pm, after Techfair<br>

@@ -77,7 +77,7 @@
                 </tr>
                 <tr>
                   <td width=92><a href="/events/hackathon/"><strong>Hackathon</strong></a>
-                  <td>Sat 2/4 10pm-8am
+                  <td>Sat 2/4 5pm-Sun 5pm 
                   <td>TBA
                 </tr>
                 <tr>

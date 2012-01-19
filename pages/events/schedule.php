@@ -12,7 +12,7 @@
   </tr>
   <tr>
     <td width=92><a href="/events/hackathon/">Hackathon</a>
-    <td width=84>Sat 2/4 <br>10pm-8am
+    <td width=84>Sat 2/4 5pm <br>to Sun 2/5 5pm
     <td width=69>TBA
     <td>MIT, Harvard, Brown students
   </tr>
@@ -79,8 +79,7 @@
 	</p>
 	<h2><a href="/events/banquet">The Banquet</a></h2>
 	<p>
-	    This exclusive event, only open to invited students, presents a unique networking opportunity with company representatives. 
-	    Learn more about the invitation process and the event itself <a href="/events/banquet">here</a>.
+	    This exclusive event, only open to invited students, provides a unique opportunity for students to dine with technology enthusiasts from our participating companies.   Learn more about the invitation process and the event itself <a href="/events/banquet">here</a>.
 	</p>
 	<h2><a href="/events/afterparty/">Afterparty</a></h2>
 	<p>

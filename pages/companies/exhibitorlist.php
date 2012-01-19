@@ -240,7 +240,7 @@ function populateSponsorTable($sponsorList){
 	<div class="full-width">
 		<div class="column-left-half">
 			<h2>Other Companies</h2>
-			<p><a href="http://www.apple.com/"><img title="Apple" alt="Apple" src="/img/logos/apple.png" /></a></p>
+			<p><a href="http://www.apple.com/">Apple</a></p>
 		</div>
 		<div class="column-right-half">
 			<h2>Startup Sponsors</h2>
