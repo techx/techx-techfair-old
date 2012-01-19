@@ -31,9 +31,9 @@
   <p>To be announced! <br>
   There will also be food, drink, and swag for everyone!</p>
   <h2>Time</h2>
-  <p>Saturday, February 4 @ 10 PM to Sunday, February 5 @ 8 AM</p>
+  <p>Saturday, February 4 @ 5 PM to Sunday, February 5 @ 5 PM</p>
   <h2>Location</h2>
-  <p>To be announced</p>
+  <p>26-152</p>
 </div>
 
 <div class="column-bottom" style="text-align: center; padding-top: 30px;">
