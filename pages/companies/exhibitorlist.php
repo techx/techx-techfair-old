@@ -240,7 +240,9 @@ function populateSponsorTable($sponsorList){
 	<div class="full-width">
 		<div class="column-left-half">
 			<h2>Other Companies</h2>
-			<p><a href="http://www.apple.com/">Apple</a></p>
+			<ul>
+			<li><a href="http://www.apple.com/">Apple</a></li>
+			</ul>
 		</div>
 		<div class="column-right-half">
 			<h2>Startup Sponsors</h2>
@@ -248,6 +250,7 @@ function populateSponsorTable($sponsorList){
 			<li><a href="http://aurora.aero/">Aurora Flight Sciences</a></li>
 			<li><a href="http://locu.com/">Locu</a></li>
 			<li><a href="http://www.lytro.com/">Lytro</a></li>
+			<li><a href="http://nest.com/">Nest</a></li>
 			<li><a href="http://nyxdevices.com/">Nyx Devices</a></li>
 			<li><a href="http://www.yottaa.com/">Yottaa</a></li>
 			</ul>

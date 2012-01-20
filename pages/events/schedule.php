@@ -53,16 +53,17 @@
   </tr>
   <tr>
     <td width=92>Sequoia Panel
-    <td width=84>TBA
-    <td width=69>TBA
+    <td width=84>Tue 2/7<br>6pm-7pm
+    <td width=69>4-145 
     <td>MIT Community
   </tr>
-  <tr>
-    <td>Oblong TechTalk
-    <td>TBA
-    <td>Media Lab<br>Room TBA
+  <!--
+	<tr>
+    <td width=92>Sequoia Panel
+    <td width=84>Tue 2/7<br>6pm-7pm
+    <td width=69>4-145 
     <td>MIT Community
-  </tr>
+  </tr>-->
 </table>
 
 
@@ -95,9 +96,14 @@
 <p><p>
 <h1> Other Events</h1>
 	<h2>Sequoia Panel</h2>
-	<p>Leading venture capital firm <a href="http://www.sequoiacap.com/">Sequoia Capital</a> brings some of their hottest startups to Boston in this one-hour panel.</p>
-	<h2>Oblong TechTalk</h2>
+	<p>Leading venture capital firm <a href="http://www.sequoiacap.com/">Sequoia Capital</a> brings some of their hottest startups to Boston in this one-hour panel. <br>
+	Come and meet:<br>
+	- Omer Artun, Founder/CEO @ <a href="http://www.agilone.com/">Agilone</a><br>
+	- Steve Garrity, Founder/CTO @ <a href="http://hearsaysocial.com/">Hearsay Social</a> <br>
+	- Harlan Crystal, Founder/CTO @ <a href="http://pocketgems.com/">Pocket Gems</a></p>
+	<!--<h2>Oblong TechTalk</h2>
 	<p><a href="http://oblong.com/">Oblong Industries</a> will be presenting their g‑speak™ platform at the Media Lab.</p>
+	-->
 </div>
 <div class="column-bottom">
 </div>
