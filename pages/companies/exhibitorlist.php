@@ -110,32 +110,6 @@ function populateSponsorTable($sponsorList){
 			
 		?>
 	</table>
-	<!--	<tr>
-			<td>10gen (mongoDB)</td>
-			<td>Adobe <a href="http://www.adobe.com/"><img src="/img/external.png"></a></td>
-			<td>Bazaar Voice</td>
-		</tr>
-		<tr>
-			<td>Corning</td>
-			<td>Dassault Systemes (Solidworks)</td>
-			<td>General Electric</td>
-		</tr>
-		<tr>
-			<td>GrubHub</td>
-			<td>MathWorks</td>
-			<td>Merck</td>
-		</tr>
-		<tr>
-			<td>Mozilla</td>
-			<td>Oblong</td>
-			<td>Sony (SCEA)</td>
-		</tr>
-		<tr>
-			<td>Thomson Reuters</td>
-			<td>Twitter</td>
-			<td></td>
-		</tr>
-	</table>-->
 	<h2>Bronze Sponsors</h2>
 	<table class="sponsor-table">
 		<?php
@@ -179,7 +153,7 @@ function populateSponsorTable($sponsorList){
 			
 			populateSponsorTable($bronze);
 		?>
-
+  </table>
 </div>
 <div class="column-right">
   <h2>MIT Labs</h2>
