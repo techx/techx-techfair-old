@@ -12,7 +12,7 @@
   </tr>
   <tr>
     <td width=92><a href="/events/hackathon/">Hackathon</a>
-    <td width=84>Sat 2/4 5pm <br>to Sun 5pm
+    <td width=84>Sat 2/4 10pm <br>to Sun 5pm
     <td width=69>26-152
     <td>MIT, Harvard, Brown students
   </tr>
