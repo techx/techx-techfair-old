@@ -173,7 +173,7 @@ function populateSponsorTable($sponsorList){
       <div class="mit-description">
         <p class="mit-name">Stefanie Tellex, Ph.D, Thomas Kollar, Ph.D, Prof. Seth Teller, Prof. Nicholas Roy </p> 
         Enabling a person to give a robot command as if they were talking to another person. <br>
-        <a href="http://projects.csail.mit.edu/spatial/Main_Page">Project site</div>
+        <a href="http://projects.csail.mit.edu/spatial/Main_Page">Project site</a></div>
   </ul>
   <h2>MIT Student Groups</h2>
   <ul>
