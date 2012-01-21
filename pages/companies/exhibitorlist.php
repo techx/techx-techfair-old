@@ -183,34 +183,37 @@ function populateSponsorTable($sponsorList){
   <ul>
     <li><a href="http://www.icaruslabs.org/	">Icarus Labs</a> 
 		<div class="mit-description">
-        	<span class="mit-name">Anna Fung '11, Damon Henry '10, Adam Mohamed '10, Eric Timmons '10, Jason Wallace '10, Max Brand '11, Anjaney Kottapalli '11, Justine Li '10, Kim Jackson '10, Jeff Simpson, Karen Sun '10</span> 
+         A team of eleven MIT engineers with specialties including aerospace, control systems, and artificial intelligence.
       	</div>
 	</li>
       
     <li><a href="http://miters.mit.edu/">MITERS</a>
 		<div class="mit-description">
-	        <span class="mit-name"> </span> 
+		  MIT Electronics Research Society, a student-run shop and community of people who like to make things.
+		   <span class="mit-name">Nancy Ouyang '13</span>
 		</div>
 	</li>
       
     <li>MIT Hobby Shop
 		<div class="mit-description">
-	        <span class="mit-name"> </span>
+		  The place for learning how to design and build things. 
+		  
+		  <span class="mit-name"> Brian Chan, Ph.D '09, Ken Stone '72, Director, MIT Hobby Shop, Hayami Arakawa, Instructor</span>
 	 	</div>
 	</li>
       
-    <li>MIT Rocket Team
+    <li><a href="http://web.mit.edu/rocketteam/">MIT Rocket Team</a>
 		<div class="mit-description">
-	        <span class="mit-name"> </span>
+	    An independent student group focused on rocket-related projects.
+	    <span class="mit-name">Christian Valledor '12, Andrew Wimmer '12, Julian Lemus'13, Leonard I Tampkins '13</span>
 	 	</div>
 	</li>
       
-    <li><a href="http://solar-cars.scripts.mit.edu/">MIT Solar Electric Vehicle Team</a>
+    <li><a href="http://mitsolar.com">MIT Solar Electric Vehicle Team</a>
 		<div class="mit-description">
-	        <span class="mit-name"> </span> 
+	    A student-run group that designs, builds, and races solar-powered cars.
 		</div>
 	</li>
-      
   </ul>
 	<h2>MIT Individual Projects</h2>
 	<ul>
@@ -287,51 +290,67 @@ function populateSponsorTable($sponsorList){
 	</ul>
 	<h2>MIT Startups</h2>
 	<ul>
-	  <li>Bustle (Part of Startlabs C2C)
+	  <li><a href="getbustle.com">Bustle</a> &#8314;
 		<div class="mit-description">
-	        <span class="mit-name"> </span> </div>
+		  Developing a platform for any community to create an online marketplace. 
+	        <span class="mit-name">Ian Cinnamon '14, Gordon Wintrob '12</span> </div>
 	</li>
       
 	  <li>ForgePond
 		<div class="mit-description">
-	        <span class="mit-name"> </span> </div>
+		  Enables companies to securely enable the use of personal mobile devices for enterprise use.
+	        <span class="mit-name">Eric Marion '11 </span> </div>
 	</li>
       
 	  <li>HelmetHub (2.009)    
 		 <div class="mit-description">
-	        <span class="mit-name"> </span> </div>
+		   Offering a solution to the lack of availability of helmets for bikeshare users.  
+	        <span class="mit-name">Breanna Berry '12, Arni Lehto '12, Danielle Hicks '12,           Chris Mills '12
+          </span> </div>
 	</li>
      
-	  <li>Metrify (Part of Startlabs C2C)
+	  <li>Metrify &#8314;
 		<div class="mit-description">
-	        <span class="mit-name"> </span> </div>
+		    Metrify allows you capture and visualize the data in your everyday life. 
+	        <span class="mit-name">Nancy Ouyang '13, Mark Spatz '14, Diyang Tang '13,  Cathy Wu '12</span> </div>
 	</li>
       
-	  <li>Ministry of Supply, Inc.
+	  <li><a href="http://ministryofsupply.com">Ministry of Supply, Inc.</a>
 		 <div class="mit-description">
-	        <span class="mit-name"> </span> </div>
+		   It's MIT meets Calvin Klein meets Zappos. The Ministry of Supply: fashion meets technology.
+	        <span class="mit-name">Kevin Rustagi '11, Eric Khatchadourian '07,           Eddie Obropta '13, Gihan Amarasiriwardena '11, Kit Hickey (Sloan) '13, Aman Advani (Sloan) '13</span> </div>
 	</li>
      
-	  <li>MUSE Analytical (Part of Startlabs C2C)
+	  <li>MUSE Analytical &#8314;
 		<div class="mit-description">
-	        <span class="mit-name"> </span> </div>
+		  Portable chemical analysis with a hand-held tool. 
+	        <span class="mit-name">Cristina Fernandez, Stephen Guerrera, Ph.D '14 </span> </div>
 	</li>
       
-	  <li>Phil (Part of Startlabs C2C, 2.009)
+	  <li><a href="http://www.phil-labs.com/	">Phil</a> (2.009) &#8314;
 		<div class="mit-description">
-	        <span class="mit-name"> </span> </div>
+		  Phil is a sophisticated faucet attachment that automatically fills sinks to a customizable, pre-set level.
+	        <span class="mit-name">2.009 Team: Brent Boswell, Richard Dahan, Jared Darby, Nick Dou, Danny Guillen, Jess Iacobucci, Bryan Macomber, David Parell, Nydia Ruleman, Bennett Wilson</span> </div>
 	</li>
       
-	  <li>Supermechanical
+	  <li><a href="http://supermechanical.com">Supermechanical</a>
 		<div class="mit-description">
-	        <span class="mit-name"> </span> </div>
+		  Building <a href="http://www.kickstarter.com/projects/supermechanical/twine-listen-to-your-world-talk-to-the-internet">Twine</a>, a WiFi-connected sensor square that get the objects in your life texting, tweeting or emailing. 
+	        <span class="mit-name">John Kestner (Media Lab)	'10, David Carr (Media Lab) '11</span> </div>
 	 </li>
       
-	  <li>The Thingdom (Part of Startlabs C2C)
+	  <li><a href="http://www.thethingdom.com/	">The Thingdom</a> &#8314;
 		<div class="mit-description">
-	        <span class="mit-name"> </span> </div>
+		  A website that lets people share the things they have and want with their friends.
+	        <span class="mit-name"> Aseem Kishore '08</span> </div>
 	</li>
       
 	</ul>
+	
+	<br>
+	
+	* Techfair project funding recipient. More information <a href="/students/funding/">here</a>.
+	<br><br>
+	&#8314; Part of the StartLabs <a href="http://startlabs.org/c2c">Concept to Company program</a>
 </div>
 <div class="column-bottom"></div>
