@@ -367,11 +367,7 @@ function populateSponsorTable($sponsorList){
 	</li>
       
 	</ul>
-	
 	<br>
-	
-
-	<br><br>
 	&#8314; Part of the StartLabs <a href="http://startlabs.org/c2c">Concept to Company program</a>
 </div>
 <div class="column-bottom"></div>
