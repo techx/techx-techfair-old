@@ -32,7 +32,7 @@ function natksort($array)
 <?php
 function populateSponsorTable($sponsorList){
 
-	natksort($sponsorList);
+	$sponsorList = natksort($sponsorList);
 	for($i=0; $i<sizeof($sponsorList)%3; $i++){
 		array_push($sponsorList, 'null');
 	}
