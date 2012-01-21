@@ -214,66 +214,78 @@ function populateSponsorTable($sponsorList){
   </ul>
 	<h2>MIT Individual Projects</h2>
 	<ul>
-		<li>Angry Birdbot (Techfair Funding Recipient)
+		<li>Angry Birdbot *
 			<div class="mit-description">
-		        <span class="mit-name"> </span>
+				A remote controlled Angry Bird plush
+		        <span class="mit-name">Princess Len Carlos '13 </span>
 		 	</div>
 		</li>
       
-		<li>DDR Tetris (Techfair Funding Recipient)
+		<li>DDR Tetris *
 			 <div class="mit-description">
-		        <span class="mit-name"> </span>
+				A two player competitive Tetris game controlled by DDR mats
+		        <span class="mit-name"> Andrew Carlson '12, Russell Cohen '13, Leah Alpert '13</span>
 		 	</div>
 		</li>
      
-		<li>DIY Vending Machine (Techfair Funding Recipient)
+		<li><a href="http://orangenarwhals.blogspot.com/">DIY Vending Machine</a> *
 			<div class="mit-description">
-		        <span class="mit-name"> </span>
+				A compact vending machine suitable for vending small items
+		        <span class="mit-name">Nancy Ouyang '13 </span>
 		 	</div>
 		</li>
       
-		<li>Electric Instruments	(Project Funding Recipient)
+		<li><a href="http://candacedesign.wordpress.com/category/electric-violin-01/">Electric Instruments</a> *
 			<div class="mit-description">
-		        <span class="mit-name"> </span>
+				Two electric violins and an electric ukulele, all hand made 
+		        <span class="mit-name">Candace chen '14 </span>
 		 	</div>
 		</li>
       
-  	<li>Hydrophotonophone (Techfair Funding Recipient)
+  	<li>Hydrophotonophone *
 		 <div class="mit-description">
-	        <span class="mit-name"> </span> </div>
+			A musical instrument played by creating waves in a pool of water
+	        <span class="mit-name"> Robert Arlt Jr. '12, Jennifer Hope '12, Mark Feldmeier, Research Affiliate</span> </div>
 	</li>
      
 		<li>Musical Fabrics	
 			 <div class="mit-description">
-		        <span class="mit-name"> </span> </div>
+				Fabrics integrated with electronic create interfaces for musical expression
+		        <span class="mit-name"> Yang Yang '11, David Welch, Brandeis University</span> </div>
 		</li>
      
-		<li>Science Launch! (Techfair Funding Recipient)
+		<li>Science Launch! *
 			<div class="mit-description">
-		        <span class="mit-name"> </span> </div>
+				 Interactive simulations provide opportunities to learn about STEM fields
+		        <span class="mit-name"> Bridger Maxwell '13, Hanne Paine, Stony Brook University '14</span> </div>
 		</li>
       
-		<li>Servo Subwoofer (Techfair Funding Recipient)
+		<li>Servo Subwoofer *
 			<div class="mit-description">
-		        <span class="mit-name"> </span> </div>
+				A top-notch subwoofer, comparable to much more expensive speakers
+		        <span class="mit-name">Benjamin Shaya '14</span> </div>
 		</li>
       
 		<li>Stark Industries
 			<div class="mit-description">
-	        <span class="mit-name"> </span> </div>
+			Just like in Iron Man
+	        <span class="mit-name">Brian Chan, Ph.D</span> </div>
 		</li>
       
-		<li>Takachar - (Project Funding Recipient)
+		<li>Takachar *
 			<div class="mit-description">
-		        <span class="mit-name"> </span> </div>
+				An improved, low-cost, scalable charcoal production method
+		        <span class="mit-name">Kevin Kung, MIT Graduate, Jacob Young '13, Marie Burkland '13, Sisi Ni, MIT Graduate, D-Lab, University of Nairobi </span> </div>
 		</li>
       
-		<li>Wimshurst Machine (Techfair Funding Recipient)
+		<li>Wimshurst Machine *
 			<div class="mit-description">
-		        <span class="mit-name"> </span> </div>
+				A 7-foot-tall electrostatic generator
+		        <span class="mit-name">Timothy Yang '15 </span> </div>
 		</li>
       
 	</ul>
+	<p style="font-size: 12px;">*Project funding recipient</p>
 	<h2>MIT Startups</h2>
 	<ul>
 	  <li>Bustle (Part of Startlabs C2C)
