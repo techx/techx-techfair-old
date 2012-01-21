@@ -62,7 +62,7 @@ function populateSponsorTable($sponsorList){
 
 <div class="column-top">
 	<h1>2012 List of Exhibitors</h1>
-	<p>With over 50 companies and 30 student exhibitors, this year's Techfair is the biggest yet!</p>
+	<p>With over 60 companies and 30 student exhibitors, this year's Techfair is the biggest yet!</p>
 	<p>See the full schedule <a href="/events/">here</a>.</p>
 </div>
 <div class="column-left">
