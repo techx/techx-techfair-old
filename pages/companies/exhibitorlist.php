@@ -179,159 +179,47 @@ function populateSponsorTable($sponsorList){
 			
 			populateSponsorTable($bronze);
 		?>
-		<!--<tr>
-			<td>3LM</td>
-			<td>AisleBuyer</td>
-			<td>Akamai</td>
-		</tr>
-		<tr>
-			<td>Akiban Technologies</td>
-			<td>AT&T</td>
-			<td>Autodesk</td>
-		</tr>
-		<tr>
-			<td>Bose</td>
-			<td>CEO in a box</td>
-			<td>Citrix Online</td>
-		</tr>
-		<tr>
-			<td>Crittercism</td>
-			<td>eBay</td>
-			<td>Fusion-io</td>
-		</tr>
-		<tr>
-			<td>Google</td>
-			<td>Kiva</td>
-			<td>Knome</td>
-		</tr>
-		<tr>
-			<td>Lincoln Lab</td>
-			<td>Maxim Integrated Products</td>
-			<td>MDS Lavastorm Analytics</td>
-		</tr>
-		<tr>
-			<td>Medtronic</td>
-			<td>Philips</td>
-			<td>Quixey</td>
-		</tr>
-		<tr>
-			<td>Smule</td>
-			<td>Square</td>
-			<td>Synaptics</td>
-		</tr>
-		<tr>
-			<td>TI</td>
-			<td>Under Armour</td>
-			<td>VMWare</td>
-		</tr>
-		<tr>
-			<td>Zanbato</td>
-			<td></td>
-			<td></td>
-		</tr>
-	</table>
-	<h2>Startup Sponsors</h2>
-	<table class="sponsor-table">
-		<tr>
-			<td>Aurora Flight Sciences</td>
-			<td>Locu</td>
-			<td>Lytro</td>
-		</tr>
-		<tr>
-			<td>Nyx Devices</td>
-			<td>Yottaa</td>
-			<td></td>
-		</tr>-->
-	</table>
-	<div class="full-width">
-		<div class="column-left-half">
-			<h2>Other Companies</h2>
-			<ul>
-			<li><a href="http://www.apple.com/">Apple</a></li>
-			</ul>
-		</div>
-		<div class="column-right-half">
-			<h2>Startup Sponsors</h2>
-			<ul>
-			<li><a href="http://aurora.aero/">Aurora Flight Sciences</a></li>
-			<li><a href="http://locu.com/">Locu</a></li>
-			<li><a href="http://www.lytro.com/">Lytro</a></li>
-			<li><a href="http://nest.com/">Nest</a></li>
-			<li><a href="http://nyxdevices.com/">Nyx Devices</a></li>
-			<li><a href="http://www.yottaa.com/">Yottaa</a></li>
-			</ul>
-		</div>
-		<div class="column-bottom"></div>
-	</div>
-	<!--<ul>
-	<li>10gen (mongoDB)</li>
-	<li>Adobe</li>
-	<li>Bazaar Voice</li>
-	<li>Corning</li>
-	<li>Dassault Systemes (Solidworks)</li>
-	<li>General Electric</li>
-	<li>GrubHub</li>
-	<li>MathWorks</li>
-	<li>Merck</li>
-	<li>Mozilla</li>
-	<li>Oblong</li>
-	<li>Sony (SCEA)</li>
-	<li>Thomson Reuters</li>
-	<li>Twitter</li>
-	</ul>-->
+
 </div>
 <div class="column-right">
-	<h2>MIT Student Startups</h2>
+  <h2>MIT Labs</h2>
+  <ul>
+    <li>Hatsopoulos Microfluids Labratory</li>
+    <li>Swÿp</li>
+    <li>Understanding Natural Language Commands Given to Robots (Lab)</li>
+  </ul>
+  <h2>MIT Student Groups</h2>
+  <ul>
+    <li><a href="http://miters.mit.edu/">MITERS</a></li>
+    <li>MIT Hobby Shop</li>
+    <li>MIT Rocket Team</li>
+    <li><a href="http://solar-cars.scripts.mit.edu/">MIT Solar Electric Vehicle Team</a></li>
+  </ul>
+	<h2>MIT Individual Projects</h2>
 	<ul>
-		<li><a href="http://maslab.mit.edu/2012/site/maslab.php">MASLAB: Mobile Autonomous Systems Lab</a></li>
-		<li>More coming soon!</li>
+		<li>Angry Birdbot (Techfair Funding Recipient)</li>
+		<li>DDR Tetris (Techfair Funding Recipient)	</li>
+		<li>DIY Vending Machine (Techfair Funding Recipient)</li>
+		<li>Electric Instruments	(Project Funding Recipient)</li>
+  	<li>Hydrophotonophone (Techfair Funding Recipient)</li>
+		<li>Musical Fabrics	</li>
+		<li>Science Launch! (Techfair Funding Recipient)</li>
+		<li>Servo Subwoofer (Techfair Funding Recipient)</li>
+		<li>Stark Industries</li>
+		<li>Takachar - (Project Funding Recipient)</li>
+		<li>Wimshurst Machine (Techfair Funding Recipient)</li>
 	</ul>
-	<h2>MIT Student Exhibitors</h2>
+	<h2>MIT Startups</h2>
 	<ul>
-		<li>Charles Jessup Franklin</li>
-		<li><a href="http://rvsn.csail.mit.edu/">CSAIL Robotics, Vision and Sensor Networks</a></li>
-		<li>Giant Wimshurst Generator</li>
-		<li>Hydrophotonophone</li>
-		<li>Life-Sized Tetris Boards</li>
-		<li>MIT Hobby Shop</li>
-		<li><a href="http://miters.mit.edu/">MITERS</a></li>
-		<li><a href="http://solar-cars.scripts.mit.edu/">Solar Electric Vehicle Team (SEVT)</a></li>
-		<li>StartLabs</li>
-		<li>Twine</li>
-		<li>Yang Yang (Musical Dress)</li>
-		<li>More coming soon!</li>
+	  <li>Bustle (Part of Startlabs C2C)</li>
+	  <li>ForgePond</li>
+	  <li>HelmetHub (2.009)    </li>
+	  <li>Metrify (Part of Startlabs C2C)</li>
+	  <li>Ministry of Supply, Inc.</li>
+	  <li>MUSE Analytical (Part of Startlabs C2C)</li>
+	  <li>Phil (Part of Startlabs C2C, 2.009)</li>
+	  <li>Supermechanical </li>
+	  <li>The Thingdom (Part of Startlabs C2C)</li>
 	</ul>
-	
-	<!--<h2>Bronze Sponsors</h2>
-	<ul>
-	<li>3LM</li>
-	<li>AisleBuyer</li>
-	<li>Akamai</li>
-	<li>Akiban Technologies</li>
-	<li>AT&T</li>
-	<li>Autodesk</li>
-	<li>Bose</li>
-	<li>CEO in a box</li>
-	<li>Citrix Online</li>
-	<li>Crittercism</li>
-	<li>eBay</li>
-	<li>Fusion-io</li>
-	<li>Google</li>
-	<li>Kiva</li>
-	<li>Knome</li>
-	<li>Lincoln Lab</li>
-	<li>Maxim Integrated Products</li>
-	<li>MDS Lavastorm Analytics</li>
-	<li>Medtronic</li>
-	<li>Philips</li>
-	<li>Quixey</li>
-	<li>Smule</li>
-	<li>Square</li>
-	<li>Synaptics</li>
-	<li>TI</li>
-	<li>Under Armour</li>
-	<li>VMWare</li>
-	<li>Zanbato</li>
-	</ul>-->
 </div>
 <div class="column-bottom"></div>
