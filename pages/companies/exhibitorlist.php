@@ -163,11 +163,10 @@ function populateSponsorTable($sponsorList){
         <span class="mit-name">Katy Gero '13</span>
         A worm-like robot that uses differential air pressures for movement<br>
       </div>
-    <li>Swÿp - MIT Media Lab</li>
+    <li><a href="http://swyp.us">Swÿp</a> - MIT Media Lab</li>
       <div class="mit-description">
         <span class="mit-name">Alexander List '15, Natan Linder (Media Lab Fluid Interfaces Group), Ethan Sherbondy '14 </span>
-        Transfer any file from any app to any app on any device with a Swÿp <br>
-        <a href="http://swyp.us">http://swyp.us</a>
+        Transfer any file from any app to any app on any device with a Swÿp
          </div>
     <li>Understanding Natural Language Commands Given to Robots - MIT CSAIL</li>
       <div class="mit-description">
@@ -179,7 +178,7 @@ function populateSponsorTable($sponsorList){
   <ul>
     <li>Icarus Labs </li>
       <div class="mit-description">
-        <p class="mit-name">Anna Fung '11, Damon Henry '10, Adam Mohamed '10, Eric Timmons '10, Jason Wallace '10, Max Brand '11, Anjaney Kottapalli '11, Justine Li '10, Kim Jackson '10, Jeff Simpson, Karen Sun '10</p> 
+        <span class="mit-name">Anna Fung '11, Damon Henry '10, Adam Mohamed '10, Eric Timmons '10, Jason Wallace '10, Max Brand '11, Anjaney Kottapalli '11, Justine Li '10, Kim Jackson '10, Jeff Simpson, Karen Sun '10</span> 
         <br><a href="http://www.icaruslabs.org/	">http://www.icaruslabs.org</a></div>
     <li><a href="http://miters.mit.edu/">MITERS</a></li>
       <div class="mit-description">
