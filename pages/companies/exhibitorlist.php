@@ -285,7 +285,6 @@ function populateSponsorTable($sponsorList){
 		</li>
       
 	</ul>
-	<p style="font-size: 12px;">*Project funding recipient</p>
 	<h2>MIT Startups</h2>
 	<ul>
 	  <li>Bustle (Part of Startlabs C2C)
