@@ -173,7 +173,7 @@ function populateSponsorTable($sponsorList){
 			<li><a href="http://www.yottaa.com/">Yottaa</a></li>
 			</ul>
 		</div>  
-  
+  </div>
 </div>
 <div class="column-right" id="sr-descriptions">
   <h2>MIT Labs</h2>

@@ -892,10 +892,8 @@ table#schedule td, table#schedule th {
 }
 
 .mit-description {
-  margin-left: 15px;
-  border-left: 1px #eee solid;
+  margin-left: 20px;
   font-size: 13px;
-  padding-left: 8px;
   line-height: 18px;
 }
 
