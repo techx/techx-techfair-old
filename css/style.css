@@ -886,3 +886,16 @@ table#schedule td, table#schedule th {
 	width: 400px;
 }
 
+#sr-descriptions li {
+  font-size: 18px;
+  list-style-type: none;
+}
+
+.mit-description {
+  margin-left: 15px;
+  border-left: 1px #ccc solid;
+}
+
+.mit-name {
+  font-size: 8pt;
+}
