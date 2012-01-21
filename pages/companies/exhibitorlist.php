@@ -159,41 +159,107 @@ function populateSponsorTable($sponsorList){
   <h2>MIT Labs</h2>
   <ul>
     <li>Hatsopoulos Microfluids Labratory</li>
-    <li>Swÿp</li>
-    <li>Understanding Natural Language Commands Given to Robots (Lab)</li>
+      <div class="mit-description">
+        <p class="mit-name">Katy Gero '13</p>
+        A worm-like robot that uses differential air pressures for movement<br>
+      </div>
+    <li>Swÿp - MIT Media Lab</li>
+      <div class="mit-description">
+        <p class="mit-name">Alexander List '15, Natan Linder (Media Lab Fluid Interfaces Group), Ethan Sherbondy '14 </p>
+        Transfer any file from any app to any app on any device with a Swÿp <br>
+        <a href="http://swyp.us">http://swyp.us</a>
+         </div>
+    <li>Understanding Natural Language Commands Given to Robots - MIT CSAIL</li>
+      <div class="mit-description">
+        <p class="mit-name">Stefanie Tellex, Ph.D, Thomas Kollar, Ph.D, Prof. Seth Teller, Prof. Nicholas Roy </p> 
+        Enabling a person to give a robot command as if they were talking to another person. <br>
+        <a href="http://projects.csail.mit.edu/spatial/Main_Page">Project site</div>
   </ul>
   <h2>MIT Student Groups</h2>
   <ul>
+    <li>Icarus Labs </li>
+      <div class="mit-description">
+        <p class="mit-name">Anna Fung '11, Damon Henry '10, Adam Mohamed '10, Eric Timmons '10, Jason Wallace '10, Max Brand '11, Anjaney Kottapalli '11, Justine Li '10, Kim Jackson '10, Jeff Simpson, Karen Sun '10</p> 
+        NEED DESCRIPTION
+        <br><a href="http://www.icaruslabs.org/	">http://www.icaruslabs.org</a></div>
     <li><a href="http://miters.mit.edu/">MITERS</a></li>
+      <div class="mit-description">
+        <p class="mit-name"> </p> </div>
     <li>MIT Hobby Shop</li>
+      <div class="mit-description">
+        <p class="mit-name"> </p> </div>
     <li>MIT Rocket Team</li>
+      <div class="mit-description">
+        <p class="mit-name"> </p> </div>
     <li><a href="http://solar-cars.scripts.mit.edu/">MIT Solar Electric Vehicle Team</a></li>
+      <div class="mit-description">
+        <p class="mit-name"> </p> </div>
   </ul>
 	<h2>MIT Individual Projects</h2>
 	<ul>
 		<li>Angry Birdbot (Techfair Funding Recipient)</li>
+      <div class="mit-description">
+        <p class="mit-name"> </p> </div>
 		<li>DDR Tetris (Techfair Funding Recipient)	</li>
+      <div class="mit-description">
+        <p class="mit-name"> </p> </div>
 		<li>DIY Vending Machine (Techfair Funding Recipient)</li>
+      <div class="mit-description">
+        <p class="mit-name"> </p> </div>
 		<li>Electric Instruments	(Project Funding Recipient)</li>
+      <div class="mit-description">
+        <p class="mit-name"> </p> </div>
   	<li>Hydrophotonophone (Techfair Funding Recipient)</li>
+      <div class="mit-description">
+        <p class="mit-name"> </p> </div>
 		<li>Musical Fabrics	</li>
+      <div class="mit-description">
+        <p class="mit-name"> </p> </div>
 		<li>Science Launch! (Techfair Funding Recipient)</li>
+      <div class="mit-description">
+        <p class="mit-name"> </p> </div>
 		<li>Servo Subwoofer (Techfair Funding Recipient)</li>
+      <div class="mit-description">
+        <p class="mit-name"> </p> </div>
 		<li>Stark Industries</li>
+      <div class="mit-description">
+        <p class="mit-name"> </p> </div>
 		<li>Takachar - (Project Funding Recipient)</li>
+      <div class="mit-description">
+        <p class="mit-name"> </p> </div>
 		<li>Wimshurst Machine (Techfair Funding Recipient)</li>
+      <div class="mit-description">
+        <p class="mit-name"> </p> </div>
 	</ul>
 	<h2>MIT Startups</h2>
 	<ul>
 	  <li>Bustle (Part of Startlabs C2C)</li>
+      <div class="mit-description">
+        <p class="mit-name"> </p> </div>
 	  <li>ForgePond</li>
+      <div class="mit-description">
+        <p class="mit-name"> </p> </div>
 	  <li>HelmetHub (2.009)    </li>
+      <div class="mit-description">
+        <p class="mit-name"> </p> </div>
 	  <li>Metrify (Part of Startlabs C2C)</li>
+      <div class="mit-description">
+        <p class="mit-name"> </p> </div>
 	  <li>Ministry of Supply, Inc.</li>
+      <div class="mit-description">
+        <p class="mit-name"> </p> </div>
 	  <li>MUSE Analytical (Part of Startlabs C2C)</li>
+      <div class="mit-description">
+        <p class="mit-name"> </p> </div>
 	  <li>Phil (Part of Startlabs C2C, 2.009)</li>
+      <div class="mit-description">
+        <p class="mit-name"> </p> </div>
 	  <li>Supermechanical </li>
+      <div class="mit-description">
+        <p class="mit-name"> </p> </div>
 	  <li>The Thingdom (Part of Startlabs C2C)</li>
+      <div class="mit-description">
+        <p class="mit-name"> </p> </div>
 	</ul>
 </div>
 <div class="column-bottom"></div>
