@@ -183,31 +183,35 @@ function populateSponsorTable($sponsorList){
   <ul>
     <li><a href="http://www.icaruslabs.org/	">Icarus Labs</a> 
 		<div class="mit-description">
-        	<span class="mit-name">Anna Fung '11, Damon Henry '10, Adam Mohamed '10, Eric Timmons '10, Jason Wallace '10, Max Brand '11, Anjaney Kottapalli '11, Justine Li '10, Kim Jackson '10, Jeff Simpson, Karen Sun '10</span> 
+         A team of eleven MIT engineers with specialties including aerospace, control systems, and artificial intelligence.
       	</div>
 	</li>
       
     <li><a href="http://miters.mit.edu/">MITERS</a>
 		<div class="mit-description">
-	        <span class="mit-name"> </span> 
+		  MIT Electronics Research Society, a student-run shop and community of people who like to make things.
+		   <span class="mit-name">Nancy Ouyang '13</span>
 		</div>
 	</li>
       
     <li>MIT Hobby Shop
 		<div class="mit-description">
-	        <span class="mit-name"> </span>
+		  The place for learning how to design and build things. 
+		  
+		  <span class="mit-name"> Brian Chan, Ph.D '09, Ken Stone '72, Director, MIT Hobby Shop, Hayami Arakawa, Instructor</span>
 	 	</div>
 	</li>
       
-    <li>MIT Rocket Team
+    <li><a href="http://web.mit.edu/rocketteam/">MIT Rocket Team</a>
 		<div class="mit-description">
-	        <span class="mit-name"> </span>
+	    An independent student group focused on rocket-related projects.
+	    <span class="mit-name">Christian Valledor '12, Andrew Wimmer '12, Julian Lemus'13, Leonard I Tampkins '13</span>
 	 	</div>
 	</li>
       
-    <li><a href="http://solar-cars.scripts.mit.edu/">MIT Solar Electric Vehicle Team</a>
+    <li><a href="http://mitsolar.com">MIT Solar Electric Vehicle Team</a>
 		<div class="mit-description">
-	        <span class="mit-name"> </span> 
+	    A student-run group that designs, builds, and races solar-powered cars.
 		</div>
 	</li>
   </ul>
