@@ -298,7 +298,7 @@ function populateSponsorTable($sponsorList){
 		<li>Takachar *
 			<div class="mit-description">
 				An improved, low-cost, scalable charcoal production method
-		        <span class="mit-name">Kevin Kung, MIT Graduate, Jacob Young '13, Marie Burkland '13, Sisi Ni, MIT Graduate, D-Lab, University of Nairobi </span> </div>
+		        <span class="mit-name">Kevin Kung, Jacob Young '13, Marie Burkland '13, Sisi Ni, D-Lab, University of Nairobi </span> </div>
 		</li>
       
 		<li>Wimshurst Machine *
@@ -308,7 +308,7 @@ function populateSponsorTable($sponsorList){
 		</li>
       
 	</ul>
-	<p style="font-size: 12px;">*Project funding recipient</p>
+	<p style="font-size: 16px;">* Techfair project funding recipient. More information <a href="/students/funding/">here</a>.</p>
 	<h2>MIT Startups</h2>
 	<ul>
 	  <li><a href="getbustle.com">Bustle</a> &#8314;
@@ -370,7 +370,7 @@ function populateSponsorTable($sponsorList){
 	
 	<br>
 	
-	* Techfair project funding recipient. More information <a href="/students/funding/">here</a>.
+
 	<br><br>
 	&#8314; Part of the StartLabs <a href="http://startlabs.org/c2c">Concept to Company program</a>
 </div>
