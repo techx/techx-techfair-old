@@ -158,106 +158,168 @@ function populateSponsorTable($sponsorList){
 <div class="column-right" id="sr-descriptions">
   <h2>MIT Labs</h2>
   <ul>
-    <li>Hatsopoulos Microfluids Labratory</li>
-      <div class="mit-description">
-        <span class="mit-name">Katy Gero '13</span>
-        A worm-like robot that uses differential air pressures for movement<br>
-      </div>
-    <li><a href="http://swyp.us">Swÿp</a> - MIT Media Lab</li>
-      <div class="mit-description">
-        <span class="mit-name">Alexander List '15, Natan Linder (Media Lab Fluid Interfaces Group), Ethan Sherbondy '14 </span>
-        Transfer any file from any app to any app on any device with a Swÿp
-         </div>
-    <li>Understanding Natural Language Commands Given to Robots - MIT CSAIL</li>
-      <div class="mit-description">
-        <span class="mit-name">Stefanie Tellex, Ph.D, Thomas Kollar, Ph.D, Prof. Seth Teller, Prof. Nicholas Roy </span> 
-        Enabling a person to give a robot command as if they were talking to another person. <br>
-        <a href="http://projects.csail.mit.edu/spatial/Main_Page">Project site</a></div>
+    <li>Hatsopoulos Microfluids Labratory 
+		<div class="mit-description">
+			A worm-like robot that uses differential air pressures for movement
+        	<span class="mit-name">Katy Gero '13</span>
+      	</div>
+	</li>
+      
+    <li><a href="http://swyp.us">Swÿp - MIT Media Lab</a>
+		 <div class="mit-description">
+			 Transfer any file from any app to any app on any device with a Swÿp
+	        <span class="mit-name">Alexander List '15, Natan Linder (Media Lab Fluid Interfaces Group), Ethan Sherbondy '14 </span>
+	     </div>
+	</li>
+     
+    <li><a href="http://projects.csail.mit.edu/spatial/Main_Page">Understanding Natural Language Commands Given to Robots - MIT CSAIL</a>
+		 <div class="mit-description">
+			Enabling a person to give a robot command as if they were talking to another person.
+	        <span class="mit-name">Stefanie Tellex, Ph.D, Thomas Kollar, Ph.D, Prof. Seth Teller, Prof. Nicholas Roy </span> 
+		</div>
+	</li>
   </ul>
   <h2>MIT Student Groups</h2>
   <ul>
-    <li>Icarus Labs </li>
-      <div class="mit-description">
-        <span class="mit-name">Anna Fung '11, Damon Henry '10, Adam Mohamed '10, Eric Timmons '10, Jason Wallace '10, Max Brand '11, Anjaney Kottapalli '11, Justine Li '10, Kim Jackson '10, Jeff Simpson, Karen Sun '10</span> 
-        <br><a href="http://www.icaruslabs.org/	">http://www.icaruslabs.org</a></div>
-    <li><a href="http://miters.mit.edu/">MITERS</a></li>
-      <div class="mit-description">
-        <span class="mit-name"> </span> </div>
-    <li>MIT Hobby Shop</li>
-      <div class="mit-description">
-        <span class="mit-name"> </span> </div>
-    <li>MIT Rocket Team</li>
-      <div class="mit-description">
-        <span class="mit-name"> </span> </div>
-    <li><a href="http://solar-cars.scripts.mit.edu/">MIT Solar Electric Vehicle Team</a></li>
-      <div class="mit-description">
-        <span class="mit-name"> </span> </div>
+    <li><a href="http://www.icaruslabs.org/	">Icarus Labs</a> 
+		<div class="mit-description">
+        	<span class="mit-name">Anna Fung '11, Damon Henry '10, Adam Mohamed '10, Eric Timmons '10, Jason Wallace '10, Max Brand '11, Anjaney Kottapalli '11, Justine Li '10, Kim Jackson '10, Jeff Simpson, Karen Sun '10</span> 
+      	</div>
+	</li>
+      
+    <li><a href="http://miters.mit.edu/">MITERS</a>
+		<div class="mit-description">
+	        <span class="mit-name"> </span> 
+		</div>
+	</li>
+      
+    <li>MIT Hobby Shop
+		<div class="mit-description">
+	        <span class="mit-name"> </span>
+	 	</div>
+	</li>
+      
+    <li>MIT Rocket Team
+		<div class="mit-description">
+	        <span class="mit-name"> </span>
+	 	</div>
+	</li>
+      
+    <li><a href="http://solar-cars.scripts.mit.edu/">MIT Solar Electric Vehicle Team</a>
+		<div class="mit-description">
+	        <span class="mit-name"> </span> 
+		</div>
+	</li>
   </ul>
 	<h2>MIT Individual Projects</h2>
 	<ul>
-		<li>Angry Birdbot (Techfair Funding Recipient)</li>
-      <div class="mit-description">
-        <span class="mit-name"> </span> </div>
-		<li>DDR Tetris (Techfair Funding Recipient)	</li>
-      <div class="mit-description">
-        <span class="mit-name"> </span> </div>
-		<li>DIY Vending Machine (Techfair Funding Recipient)</li>
-      <div class="mit-description">
-        <span class="mit-name"> </span> </div>
-		<li>Electric Instruments	(Project Funding Recipient)</li>
-      <div class="mit-description">
-        <span class="mit-name"> </span> </div>
-  	<li>Hydrophotonophone (Techfair Funding Recipient)</li>
-      <div class="mit-description">
-        <span class="mit-name"> </span> </div>
-		<li>Musical Fabrics	</li>
-      <div class="mit-description">
-        <span class="mit-name"> </span> </div>
-		<li>Science Launch! (Techfair Funding Recipient)</li>
-      <div class="mit-description">
-        <span class="mit-name"> </span> </div>
-		<li>Servo Subwoofer (Techfair Funding Recipient)</li>
-      <div class="mit-description">
-        <span class="mit-name"> </span> </div>
-		<li>Stark Industries</li>
-      <div class="mit-description">
-        <span class="mit-name"> </span> </div>
-		<li>Takachar - (Project Funding Recipient)</li>
-      <div class="mit-description">
-        <span class="mit-name"> </span> </div>
-		<li>Wimshurst Machine (Techfair Funding Recipient)</li>
-      <div class="mit-description">
-        <span class="mit-name"> </span> </div>
+		<li>Angry Birdbot (Techfair Funding Recipient)
+			<div class="mit-description">
+		        <span class="mit-name"> </span>
+		 	</div>
+		</li>
+      
+		<li>DDR Tetris (Techfair Funding Recipient)
+			 <div class="mit-description">
+		        <span class="mit-name"> </span>
+		 	</div>
+		</li>
+     
+		<li>DIY Vending Machine (Techfair Funding Recipient)
+			<div class="mit-description">
+		        <span class="mit-name"> </span>
+		 	</div>
+		</li>
+      
+		<li>Electric Instruments	(Project Funding Recipient)
+			<div class="mit-description">
+		        <span class="mit-name"> </span>
+		 	</div>
+		</li>
+      
+  	<li>Hydrophotonophone (Techfair Funding Recipient)
+		 <div class="mit-description">
+	        <span class="mit-name"> </span> </div>
+	</li>
+     
+		<li>Musical Fabrics	
+			 <div class="mit-description">
+		        <span class="mit-name"> </span> </div>
+		</li>
+     
+		<li>Science Launch! (Techfair Funding Recipient)
+			<div class="mit-description">
+		        <span class="mit-name"> </span> </div>
+		</li>
+      
+		<li>Servo Subwoofer (Techfair Funding Recipient)
+			<div class="mit-description">
+		        <span class="mit-name"> </span> </div>
+		</li>
+      
+		<li>Stark Industries
+			<div class="mit-description">
+	        <span class="mit-name"> </span> </div>
+		</li>
+      
+		<li>Takachar - (Project Funding Recipient)
+			<div class="mit-description">
+		        <span class="mit-name"> </span> </div>
+		</li>
+      
+		<li>Wimshurst Machine (Techfair Funding Recipient)
+			<div class="mit-description">
+		        <span class="mit-name"> </span> </div>
+		</li>
+      
 	</ul>
 	<h2>MIT Startups</h2>
 	<ul>
-	  <li>Bustle (Part of Startlabs C2C)</li>
-      <div class="mit-description">
-        <span class="mit-name"> </span> </div>
-	  <li>ForgePond</li>
-      <div class="mit-description">
-        <span class="mit-name"> </span> </div>
-	  <li>HelmetHub (2.009)    </li>
-      <div class="mit-description">
-        <span class="mit-name"> </span> </div>
-	  <li>Metrify (Part of Startlabs C2C)</li>
-      <div class="mit-description">
-        <span class="mit-name"> </span> </div>
-	  <li>Ministry of Supply, Inc.</li>
-      <div class="mit-description">
-        <span class="mit-name"> </span> </div>
-	  <li>MUSE Analytical (Part of Startlabs C2C)</li>
-      <div class="mit-description">
-        <span class="mit-name"> </span> </div>
-	  <li>Phil (Part of Startlabs C2C, 2.009)</li>
-      <div class="mit-description">
-        <span class="mit-name"> </span> </div>
-	  <li>Supermechanical </li>
-      <div class="mit-description">
-        <span class="mit-name"> </span> </div>
-	  <li>The Thingdom (Part of Startlabs C2C)</li>
-      <div class="mit-description">
-        <span class="mit-name"> </span> </div>
+	  <li>Bustle (Part of Startlabs C2C)
+		<div class="mit-description">
+	        <span class="mit-name"> </span> </div>
+	</li>
+      
+	  <li>ForgePond
+		<div class="mit-description">
+	        <span class="mit-name"> </span> </div>
+	</li>
+      
+	  <li>HelmetHub (2.009)    
+		 <div class="mit-description">
+	        <span class="mit-name"> </span> </div>
+	</li>
+     
+	  <li>Metrify (Part of Startlabs C2C)
+		<div class="mit-description">
+	        <span class="mit-name"> </span> </div>
+	</li>
+      
+	  <li>Ministry of Supply, Inc.
+		 <div class="mit-description">
+	        <span class="mit-name"> </span> </div>
+	</li>
+     
+	  <li>MUSE Analytical (Part of Startlabs C2C)
+		<div class="mit-description">
+	        <span class="mit-name"> </span> </div>
+	</li>
+      
+	  <li>Phil (Part of Startlabs C2C, 2.009)
+		<div class="mit-description">
+	        <span class="mit-name"> </span> </div>
+	</li>
+      
+	  <li>Supermechanical
+		<div class="mit-description">
+	        <span class="mit-name"> </span> </div>
+	 </li>
+      
+	  <li>The Thingdom (Part of Startlabs C2C)
+		<div class="mit-description">
+	        <span class="mit-name"> </span> </div>
+	</li>
+      
 	</ul>
 </div>
 <div class="column-bottom"></div>
