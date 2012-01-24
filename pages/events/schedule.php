@@ -70,6 +70,7 @@
 </div>
 <div class="column-right">
   <h2><a href="/hack">Techfair Hackathon</a></h2>
+  	<h3>Sat Feb 4 8pm</h3>
     <p>
         Sleep is for the weak - pull an all-nighter at our Facebook-sponsored coding competition!
         Win prizes, nom on free food, and enjoy an (almost) unlimited supply of caffeine.
@@ -96,7 +97,7 @@
 <p><p>
 <h1> Other Events</h1>
 	<h2>Sequoia Panel</h2>
-	<h3>Tue February 7, 6pm-7pm, 4-145 </h3>
+	<h3>Tue Feb 7, 6pm-7pm, 4-145 </h3>
 	<p>Leading venture capital firm <a href="http://www.sequoiacap.com/">Sequoia Capital</a> brings some of their hottest startups to Boston in this one-hour panel. <br>
 	Come and meet:<br>
 	- Omer Artun, Founder/CEO @ <a href="http://www.agilone.com/">Agilone</a><br>
