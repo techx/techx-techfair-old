@@ -98,7 +98,6 @@ function populateSponsorTable($sponsorList){
 				'General Electric' 					=> 'http://ge.com/',
 				'GrubHub' 							=> 'http://www.grubhub.com/',
 				'MathWorks' 						=> 'http://www.mathworks.com/',
-				'Merck' 							=> 'http://www.merck.com/',
 				'Mozilla'							=> 'http://mozilla.com/',
 				'Oblong' 							=> 'http://oblong.com/',
 				'Sony (SCEA)' 						=> 'http://us.playstation.com/',
@@ -147,6 +146,7 @@ function populateSponsorTable($sponsorList){
 				'Synaptics' 						=> 'http://www.synaptics.com/',
 				'TI' 								=> 'http://www.ti.com/',
 				'Under Armour' 						=> 'http://www.underarmour.com/',
+				'Venture for America'				=> 'http://ventureforamerica.org/',
 				'VMWare' 							=> 'http://www.vmware.com/',
 				'Zanbato' 							=> 'http://www.zanbatogroup.com/'
 			);
