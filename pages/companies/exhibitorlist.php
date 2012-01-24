@@ -363,8 +363,8 @@ function populateSponsorTable($sponsorList){
       
 	  <li><a href="http://www.thethingdom.com/	">The Thingdom</a> &#8314;
 		<div class="mit-description">
-		  A website that lets people share the things they have and want with their friends.
-	        <span class="mit-name"> Aseem Kishore '08</span> </div>
+		  Share the things you have and want with your friends. We want to do for things what Foursquare has done for places. What's in your Thingdom?
+	        <span class="mit-name"> Aseem Kishore '08, Jeremy Smith '09, M.Eng. '10</span> </div>
 	</li>
       
 	</ul>
