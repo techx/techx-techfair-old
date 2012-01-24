@@ -148,7 +148,8 @@ function populateSponsorTable($sponsorList){
 				'TI' 								=> 'http://www.ti.com/',
 				'Under Armour' 						=> 'http://www.underarmour.com/',
 				'VMWare' 							=> 'http://www.vmware.com/',
-				'Zanbato' 							=> 'http://www.zanbatogroup.com/'
+				'Zanbato' 							=> 'http://www.zanbatogroup.com/',
+				'Venture for America '	=> 'http://ventureforamerica.org'
 			);
 			
 			populateSponsorTable($bronze);
