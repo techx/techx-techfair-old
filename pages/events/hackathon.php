@@ -31,7 +31,7 @@
   <p>To be announced! <br>
   There will also be food, drink, and swag for everyone!</p>
   <h2>Time</h2>
-  <p>Saturday, February 4 @ 10 PM to Sunday, February 5 @ 5 PM</p>
+  <p>Saturday, February 4 @ 8 PM to Sunday, February 5 @ 5 PM</p>
   <h2>Location</h2>
   <p>26-152</p>
 </div>

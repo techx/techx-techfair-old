@@ -178,7 +178,7 @@ function populateSponsorTable($sponsorList){
 <div class="column-right" id="sr-descriptions">
   <h2>MIT Labs</h2>
   <ul>
-    <li>Hatsopoulos Microfluids Labratory 
+    <li><a href="http://web.mit.edu/hml/HML.html">Hatsopoulos Microfluids Labratory</a>
 		<div class="mit-description">
 			A worm-like robot that uses differential air pressures for movement
         	<span class="mit-name">Katy Gero '13</span>
@@ -192,7 +192,7 @@ function populateSponsorTable($sponsorList){
 	     </div>
 	</li>
      
-    <li><a href="http://projects.csail.mit.edu/spatial/Main_Page">Understanding Natural Language Commands Given to Robots - MIT CSAIL</a>
+    <li><a href="http://projects.csail.mit.edu/spatial/Main_Page">Natural Human-Robot Interfaces - MIT CSAIL</a>
 		 <div class="mit-description">
 			Enabling a person to give a robot command as if they were talking to another person.
 	        <span class="mit-name">Stefanie Tellex, Ph.D, Thomas Kollar, Ph.D, Prof. Seth Teller, Prof. Nicholas Roy </span> 
@@ -289,7 +289,7 @@ function populateSponsorTable($sponsorList){
 		        <span class="mit-name">Benjamin Shaya '14</span> </div>
 		</li>
       
-		<li>Stark Industries
+		<li><a href="http://web.mit.edu/chosetec/www/">Stark Industries</a>
 			<div class="mit-description">
 			Just like in Iron Man
 	        <span class="mit-name">Brian Chan, Ph.D</span> </div>
@@ -311,7 +311,7 @@ function populateSponsorTable($sponsorList){
 	<p style="font-size: 16px;">* Techfair project funding recipient. More information <a href="/students/funding/">here</a>.</p>
 	<h2>MIT Startups</h2>
 	<ul>
-	  <li><a href="getbustle.com">Bustle</a> &#8314;
+	  <li><a href="http://getbustle.com">Bustle</a> &#8314;
 		<div class="mit-description">
 		  Developing a platform for any community to create an online marketplace. 
 	        <span class="mit-name">Ian Cinnamon '14, Gordon Wintrob '12</span> </div>

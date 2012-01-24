@@ -12,7 +12,7 @@
   </tr>
   <tr>
     <td width=92><a href="/events/hackathon/">Hackathon</a>
-    <td width=84>Sat 2/4 10pm <br>to Sun 5pm
+    <td width=84>Sat 2/4 8pm <br>to Sun 5pm
     <td width=69>26-152
     <td>MIT, Harvard, Brown students
   </tr>
@@ -96,6 +96,7 @@
 <p><p>
 <h1> Other Events</h1>
 	<h2>Sequoia Panel</h2>
+	<h3>Tue February 7, 6pm-7pm, 4-145 </h3>
 	<p>Leading venture capital firm <a href="http://www.sequoiacap.com/">Sequoia Capital</a> brings some of their hottest startups to Boston in this one-hour panel. <br>
 	Come and meet:<br>
 	- Omer Artun, Founder/CEO @ <a href="http://www.agilone.com/">Agilone</a><br>
