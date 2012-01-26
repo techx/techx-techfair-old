@@ -132,7 +132,7 @@ function populateSponsorTable($sponsorList){
 				'Google' 							=> 'http://www.google.com/',
 				'Kiva Systems'						=> 'http://www.kivasystems.com/',
 				'Knome'								=> 'http://www.knome.com/',
-				'Lincoln Lab' 						=> 'http://www.ll.mit.edu/',
+				'MIT Lincoln Lab' 						=> 'http://www.ll.mit.edu/',
 				'Lockheed Martin' 						=> 'http://www.lockheedmartin.com',
 				'Sandia National Labs' 						=> 'http://www.sandia.gov',
 				'Maxim Integrated Products' 		=> 'http://www.maxim-ic.com/',
