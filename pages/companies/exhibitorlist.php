@@ -179,13 +179,6 @@ function populateSponsorTable($sponsorList){
 <div class="column-right" id="sr-descriptions">
   <h2>MIT Labs</h2>
   <ul>
-    <li><a href="http://web.mit.edu/hml/HML.html">Hatsopoulos Microfluids Labratory</a>
-		<div class="mit-description">
-			A worm-like robot that uses differential air pressures for movement
-        	<span class="mit-name">Katy Gero '13</span>
-      	</div>
-	</li>
-      
     <li><a href="http://swyp.us">Swÿp - MIT Media Lab</a>
 		 <div class="mit-description">
 			 Transfer any file from any app to any app on any device with a Swÿp
