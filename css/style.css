@@ -572,17 +572,21 @@ table#schedule td, table#schedule th {
 }
 
 .column-top {
+	position: relative;
     width:100%;
 }
 .column-left {
+	position: relative;
     width: 470px;
     float:left;
 }
 .column-right {
+	position: relative;
      width: 470px;
     float:right;
 }
 .column-bottom {
+	position: relative;
     width: 100%;
     clear:both;
 }
@@ -903,4 +907,39 @@ table#schedule td, table#schedule th {
   font-size: 10px;
   color: #777;
 	display: block;
+}
+
+.techtalk-bio {
+	padding-top:5px;
+	height: 210px;
+	width: 100%;
+	border-bottom: 1px solid #eee;
+}
+.techtalk-bio:first-child {
+	padding-top:5px;
+	border-top: 1px solid #eee;
+}
+
+.techtalk-bio h4 {
+	font-size: 11px !important;
+}
+
+.techtalk-bio .info {
+	margin-left: 123px;
+}
+.techtalk-bio p{
+	line-height:1.3em !important;
+	font-size: 11px !important;
+	text-align:justify;
+	text-justify:inter-word;
+}
+
+.techtalk-bio img {
+	margin-top: 10px;
+	float: left;
+	margin-right: 10px;
+}
+
+.techtalk-bio:first-child img {
+	margin-top: 10px;
 }

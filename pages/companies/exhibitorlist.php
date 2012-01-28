@@ -294,7 +294,12 @@ function populateSponsorTable($sponsorList){
 				An improved, low-cost, scalable charcoal production method
 		        <span class="mit-name">Kevin Kung, Jacob Young '13, Marie Burkland '13, Sisi Ni, D-Lab, University of Nairobi </span> </div>
 		</li>
-      
+      	<li>WiiBook
+			<div class="mit-description">
+				A Nintendo Wii that has been made portable
+				<span class="mit-name">Charles Franklin ‘14</span>
+			</div>
+		</li>
 		<li>Wimshurst Machine *
 			<div class="mit-description">
 				A 7-foot-tall electrostatic generator
