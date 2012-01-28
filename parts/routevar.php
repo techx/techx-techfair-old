@@ -103,7 +103,7 @@ $routes = array(
 			'content' => 'pages/students/forstudents.php',
 		),
 		'resume' => array(
-		  'external' => 'http://umeqo.com/events/35/techfair-2012/?drop=true',
+		  'external' => 'http://umeqo.com/techfair',
 			'name' => '2012 Resume Drop'
 		),
 		'exhibitors' => array(
@@ -196,7 +196,7 @@ $routes = array(
 		'show'=>'false'
 	),
 	'drop' => array(
-    'external' => 'http://umeqo.com/events/35/techfair-2012/?drop=true',
+    'external' => 'http://umeqo.com/techfair',
 		'name' => 'Resume',
 		'show' => false
 	),
