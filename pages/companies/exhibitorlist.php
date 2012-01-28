@@ -125,7 +125,7 @@ function populateSponsorTable($sponsorList){
 				'CEO in a Box' 						=> 'http://www.beerdropper.com/',
 				'Citrix Online' 					=> 'http://www.citrix.com/',
 				'Crittercism' 						=> 'http://www.crittercism.com/',
-				'Cypress Semiconductors' 						=> 'http://www.cypress.com/',
+				/*'Cypress Semiconductors' 						=> 'http://www.cypress.com/',*/
 				'eBay' 								=> 'http://www.ebay.com/',
 				'Fitbit' 								=> 'http://www.fitbit.com/',
 				'Fusion-io' 						=> 'http://www.fusionio.com/',
@@ -178,14 +178,7 @@ function populateSponsorTable($sponsorList){
 </div>
 <div class="column-right" id="sr-descriptions">
   <h2>MIT Labs</h2>
-  <ul>
-    <li><a href="http://swyp.us">Swÿp - MIT Media Lab</a>
-		 <div class="mit-description">
-			 Transfer any file from any app to any app on any device with a Swÿp
-	        <span class="mit-name">Alexander List '15, Natan Linder (Media Lab Fluid Interfaces Group), Ethan Sherbondy '14 </span>
-	     </div>
-	</li>
-     
+  <ul> 
     <li><a href="http://projects.csail.mit.edu/spatial/Main_Page">Natural Human-Robot Interfaces - MIT CSAIL</a>
 		 <div class="mit-description">
 			Enabling a person to give a robot command as if they were talking to another person.
@@ -329,6 +322,12 @@ function populateSponsorTable($sponsorList){
           </span> </div>
 	</li>
      
+	<li><a href="http://www.kangacruise.com">KangaCruise</a> &#8314;
+		<div class="mit-description">
+			Modernizing the cruise industry with web and mobile applications.
+			<span class="mit-name">Colin Sidoti ‘14, Max Kanter’15, Louis Sobel ’14</span>
+		</div>
+	</li>
 	  <li>Metrify &#8314;
 		<div class="mit-description">
 		    Metrify allows you capture and visualize the data in your everyday life. 
@@ -352,13 +351,25 @@ function populateSponsorTable($sponsorList){
 		  Phil is a sophisticated faucet attachment that automatically fills sinks to a customizable, pre-set level.
 	        <span class="mit-name">2.009 Team: Brent Boswell, Richard Dahan, Jared Darby, Nick Dou, Danny Guillen, Jess Iacobucci, Bryan Macomber, David Parell, Nydia Ruleman, Bennett Wilson</span> </div>
 	</li>
-      
+	<li><a href="http://www.startlabs.org/">StartLabs</a>
+		<div class="mit-description">
+			Creating the next generation of technical entrepreneurs.
+			<span class="mit-name"></span>
+		</div>
+	</li>
 	  <li><a href="http://supermechanical.com">Supermechanical</a>
 		<div class="mit-description">
 		  Building <a href="http://www.kickstarter.com/projects/supermechanical/twine-listen-to-your-world-talk-to-the-internet">Twine</a>, a WiFi-connected sensor square that get the objects in your life texting, tweeting or emailing. 
 	        <span class="mit-name">John Kestner (Media Lab)	'10, David Carr (Media Lab) '11</span> </div>
 	 </li>
       
+	<li><a href="http://swyp.us">Swÿp - MIT Media Lab</a>
+		 <div class="mit-description">
+			 Transfer any file from any app to any app on any device with a Swÿp
+	        <span class="mit-name">Alexander List '15, Natan Linder (Media Lab Fluid Interfaces Group), Ethan Sherbondy '14 </span>
+	     </div>
+	</li>
+		
 	  <li><a href="http://www.thethingdom.com/	">The Thingdom</a> &#8314;
 		<div class="mit-description">
 		  Share the things you have and want with your friends. We want to do for things what Foursquare has done for places. What's in your Thingdom?
