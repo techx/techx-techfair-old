@@ -11,7 +11,7 @@
 	<h2>Time</h2>
 	<p>February 11 (the Saturday after Techfair) - exact times to be announced</a>
 	<h2>Location</h2>
-	<p>Room 10-250</p>
+	<p><a href="http://whereis.mit.edu/?go=10-250">Room 10-250</a></p>
 </div>
 <div class="column-bottom">
 	<div style="height:20px"></div>
