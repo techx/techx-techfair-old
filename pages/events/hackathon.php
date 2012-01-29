@@ -18,18 +18,22 @@
 	</form>
 </div>
 -->
-<p>Further details will be available near the end of January - stay tuned!</p>
+<p><a href="https://www.facebook.com/events/226472340766270/">Sign up</a> on the official Facebook event page.</p>
+<p>Please RSVP to this event and add your first and last name and school to the event wall.</p>
 <h2>Attendees</h2>
 <p>MIT, Harvard, and Brown students</p>
 <h2>About</h2>
-<p>An all-night coding competition sponsored by Facebook. Enjoy free food, swag, and caffeine! Prompt will be released at the end of January.</p>
+<p>Calling all MIT, Harvard, and Brown engineering students! We are co-hosting with Facebook the first Battle of Boston Hackathon, an all-night coding competition.</p>
+<p>At most 4 people per team.</p>
+<p>Plenty of free food, caffeine, and swag! Prizes given every hour.</p>
 
 </div>
 
 <div class="column-right">
   <h2>Prizes</h2>
-  <p>To be announced! <br>
-  There will also be food, drink, and swag for everyone!</p>
+  <p>Hackathon winners from each school will receive a pair of Beats by Dr. Dre headphones and a trip to Palo Alto to compete with winning teams from other university Hackathons</p>
+	<p>Second prize winners from each school will be rewarded with Diddy Beats</p>
+  <p>There will also be food, drink, and swag for everyone!</p>
   <h2>Time</h2>
   <p>Saturday, February 4 @ 8 PM to Sunday, February 5 @ 5 PM</p>
   <h2>Location</h2>
