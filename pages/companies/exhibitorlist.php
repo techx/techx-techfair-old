@@ -137,6 +137,7 @@ function populateSponsorTable($sponsorList){
 				'Sandia National Labs' 						=> 'http://www.sandia.gov',
 				'Maxim Integrated Products' 		=> 'http://www.maxim-ic.com/',
 				'MDS Lavastorm Analytics' 			=> 'http://www.martindawessystems.com/',
+        'MDS Lavastorm Analytics'       => 'http://www.lavastorm.com/',
 				'Motion Math' 			=> 'http://www.motionmathgames.com/',
 				'Medtronic' 						=> 'http://www.medtronic.com/',
 				'Philips' 							=> 'http://www.usa.philips.com/',
