@@ -41,7 +41,7 @@
 				<p>
 				  <i>Head of the Synthetic Neurobiology Group, TED Fellow, Optogenetics Pioneer</i>
 				  <br>
-					Boyden is an Associate Professor at the McGovern Institute for Brain Research, head of the Synthetic Neurobiology Group at the Media Lab, and a TED Fellow. He is a leader in the field of optogenetics, a novel technique for controlling neurons with light, which was recognized by the Nature Method Journal as the 2010 Method of the Year. Boyden's work has potential therapeutic value for disorders such as epilepsy, Parkinson's disease, posttraumatic stress disorder, and chronic pain, and holds the possibility for understanding the fundamental roots of emotion and cognition.
+					Boyden is an Associate Professor at the McGovern Institute for Brain Research, head of the Synthetic Neurobiology Group at the Media Lab, and a TED Fellow. He is a leader in the field of optogenetics, a novel technique for controlling neurons with light. Boyden's work has potential therapeutic value for disorders such as epilepsy, Parkinson's disease, PTSD, and chronic pain, and holds the possibility for understanding the fundamental roots of emotion and cognition.
 				</p>
 			</div>
 	</div>
