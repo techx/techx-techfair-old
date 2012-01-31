@@ -97,7 +97,7 @@
                 </tr>
                 <tr>
                   <td><a href="/events/talks/"><strong>Techtalks</strong></a>
-                  <td>Sat 2/11 Time TBA
+                  <td>Sat 2/11 11am-5pm
                   <td>10-250
                 </tr>
               </table>

@@ -98,7 +98,6 @@ function populateSponsorTable($sponsorList){
 				'General Electric' 					=> 'http://ge.com/',
 				'GrubHub' 							=> 'http://www.grubhub.com/',
 				'MathWorks' 						=> 'http://www.mathworks.com/',
-				'Merck' 							=> 'http://www.merck.com/',
 				'Mozilla'							=> 'http://mozilla.com/',
 				'Oblong' 							=> 'http://oblong.com/',
 				'Sony (SCEA)' 						=> 'http://us.playstation.com/',
@@ -126,18 +125,19 @@ function populateSponsorTable($sponsorList){
 				'CEO in a Box' 						=> 'http://www.beerdropper.com/',
 				'Citrix Online' 					=> 'http://www.citrix.com/',
 				'Crittercism' 						=> 'http://www.crittercism.com/',
-				'Cypress Semiconductors' 						=> 'http://www.cypress.com/',
+				/*'Cypress Semiconductors' 						=> 'http://www.cypress.com/',*/
 				'eBay' 								=> 'http://www.ebay.com/',
 				'Fitbit' 								=> 'http://www.fitbit.com/',
 				'Fusion-io' 						=> 'http://www.fusionio.com/',
 				'Google' 							=> 'http://www.google.com/',
 				'Kiva Systems'						=> 'http://www.kivasystems.com/',
 				'Knome'								=> 'http://www.knome.com/',
-				'Lincoln Lab' 						=> 'http://www.ll.mit.edu/',
+				'MIT Lincoln Laboratory' 						=> 'http://www.ll.mit.edu/',
 				'Lockheed Martin' 						=> 'http://www.lockheedmartin.com',
 				'Sandia National Labs' 						=> 'http://www.sandia.gov',
 				'Maxim Integrated Products' 		=> 'http://www.maxim-ic.com/',
 				'MDS Lavastorm Analytics' 			=> 'http://www.martindawessystems.com/',
+        'MDS Lavastorm Analytics'       => 'http://www.lavastorm.com/',
 				'Motion Math' 			=> 'http://www.motionmathgames.com/',
 				'Medtronic' 						=> 'http://www.medtronic.com/',
 				'Philips' 							=> 'http://www.usa.philips.com/',
@@ -147,6 +147,7 @@ function populateSponsorTable($sponsorList){
 				'Synaptics' 						=> 'http://www.synaptics.com/',
 				'TI' 								=> 'http://www.ti.com/',
 				'Under Armour' 						=> 'http://www.underarmour.com/',
+				'Venture for America'				=> 'http://ventureforamerica.org/',
 				'VMWare' 							=> 'http://www.vmware.com/',
 				'Zanbato' 							=> 'http://www.zanbatogroup.com/',
 				'Venture for America '	=> 'http://ventureforamerica.org'
@@ -178,21 +179,7 @@ function populateSponsorTable($sponsorList){
 </div>
 <div class="column-right" id="sr-descriptions">
   <h2>MIT Labs</h2>
-  <ul>
-    <li><a href="http://web.mit.edu/hml/HML.html">Hatsopoulos Microfluids Labratory</a>
-		<div class="mit-description">
-			A worm-like robot that uses differential air pressures for movement
-        	<span class="mit-name">Katy Gero '13</span>
-      	</div>
-	</li>
-      
-    <li><a href="http://swyp.us">Swÿp - MIT Media Lab</a>
-		 <div class="mit-description">
-			 Transfer any file from any app to any app on any device with a Swÿp
-	        <span class="mit-name">Alexander List '15, Natan Linder (Media Lab Fluid Interfaces Group), Ethan Sherbondy '14 </span>
-	     </div>
-	</li>
-     
+  <ul> 
     <li><a href="http://projects.csail.mit.edu/spatial/Main_Page">Natural Human-Robot Interfaces - MIT CSAIL</a>
 		 <div class="mit-description">
 			Enabling a person to give a robot command as if they were talking to another person.
@@ -301,7 +288,12 @@ function populateSponsorTable($sponsorList){
 				An improved, low-cost, scalable charcoal production method
 		        <span class="mit-name">Kevin Kung, Jacob Young '13, Marie Burkland '13, Sisi Ni, D-Lab, University of Nairobi </span> </div>
 		</li>
-      
+      	<li>WiiBook
+			<div class="mit-description">
+				A Nintendo Wii that has been made portable
+				<span class="mit-name">Charles Franklin ‘14</span>
+			</div>
+		</li>
 		<li>Wimshurst Machine *
 			<div class="mit-description">
 				A 7-foot-tall electrostatic generator
@@ -331,6 +323,12 @@ function populateSponsorTable($sponsorList){
           </span> </div>
 	</li>
      
+	<li><a href="http://www.kangacruise.com">KangaCruise</a> &#8314;
+		<div class="mit-description">
+			Modernizing the cruise industry with web and mobile applications.
+			<span class="mit-name">Colin Sidoti ‘14, Max Kanter’15, Louis Sobel ’14</span>
+		</div>
+	</li>
 	  <li>Metrify &#8314;
 		<div class="mit-description">
 		    Metrify allows you capture and visualize the data in your everyday life. 
@@ -354,13 +352,25 @@ function populateSponsorTable($sponsorList){
 		  Phil is a sophisticated faucet attachment that automatically fills sinks to a customizable, pre-set level.
 	        <span class="mit-name">2.009 Team: Brent Boswell, Richard Dahan, Jared Darby, Nick Dou, Danny Guillen, Jess Iacobucci, Bryan Macomber, David Parell, Nydia Ruleman, Bennett Wilson</span> </div>
 	</li>
-      
+	<li><a href="http://www.startlabs.org/">StartLabs</a>
+		<div class="mit-description">
+			Creating the next generation of technical entrepreneurs.
+			<span class="mit-name"></span>
+		</div>
+	</li>
 	  <li><a href="http://supermechanical.com">Supermechanical</a>
 		<div class="mit-description">
 		  Building <a href="http://www.kickstarter.com/projects/supermechanical/twine-listen-to-your-world-talk-to-the-internet">Twine</a>, a WiFi-connected sensor square that get the objects in your life texting, tweeting or emailing. 
 	        <span class="mit-name">John Kestner (Media Lab)	'10, David Carr (Media Lab) '11</span> </div>
 	 </li>
       
+	<li><a href="http://swyp.us">Swÿp - MIT Media Lab</a>
+		 <div class="mit-description">
+			 Transfer any file from any app to any app on any device with a Swÿp
+	        <span class="mit-name">Alexander List '15, Natan Linder (Media Lab Fluid Interfaces Group), Ethan Sherbondy '14 </span>
+	     </div>
+	</li>
+		
 	  <li><a href="http://www.thethingdom.com/	">The Thingdom</a> &#8314;
 		<div class="mit-description">
 		  Share the things you have and want with your friends. We want to do for things what Foursquare has done for places. What's in your Thingdom?

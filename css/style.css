@@ -572,17 +572,21 @@ table#schedule td, table#schedule th {
 }
 
 .column-top {
+	position: relative;
     width:100%;
 }
 .column-left {
+	position: relative;
     width: 470px;
     float:left;
 }
 .column-right {
+	position: relative;
      width: 470px;
     float:right;
 }
 .column-bottom {
+	position: relative;
     width: 100%;
     clear:both;
 }
@@ -750,7 +754,7 @@ table#schedule td, table#schedule th {
 
 
 #info {
-     background: rgba(255, 255, 255, 0.8);
+     background: rgba(255, 255, 255, 0.9);
      width: 400px;
 	 height: 278px;
      padding: 10px;
@@ -841,7 +845,7 @@ table#schedule td, table#schedule th {
 	position:absolute;
 	width: 0px;
 	height: 278px;
-	background: rgba(255, 255, 255, 0.8);
+	background: rgba(255, 255, 255, 0.9);
 	/*border-top: 1px solid rgba(255,255,255,0.9);
      border-right: 1px solid rgba(255,255,255,0.9);
      border-bottom: 1px solid rgba(255,255,255,0.9);*/
@@ -903,4 +907,39 @@ table#schedule td, table#schedule th {
   font-size: 10px;
   color: #777;
 	display: block;
+}
+
+.techtalk-bio {
+	padding-top:5px;
+	height: 290px;
+	width: 100%;
+	border-bottom: 1px solid #eee;
+}
+.techtalk-bio:first-child {
+	padding-top:5px;
+	border-top: 1px solid #eee;
+}
+
+.techtalk-bio h4 {
+	font-size: 11px !important;
+}
+
+.techtalk-bio .info {
+	margin-left: 123px;
+}
+.techtalk-bio p{
+	line-height:1.5em !important;
+	font-size: 13px !important;
+	text-align:justify;
+	text-justify:inter-word;
+}
+
+.techtalk-bio img {
+	margin-top: 10px;
+	float: left;
+	margin-right: 10px;
+}
+
+.techtalk-bio:first-child img {
+	margin-top: 10px;
 }

@@ -36,7 +36,7 @@
   </tr>
   <tr>
     <td><a href="/events/talks/">Techtalks</a>
-    <td>Sat 2/11<br>Time TBA
+    <td>Sat 2/11<br>11am-5pm
     <td>10-250
     <td>Everyone is welcome!
   </tr>
