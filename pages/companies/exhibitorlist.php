@@ -142,6 +142,7 @@ function populateSponsorTable($sponsorList){
 				'Medtronic' 						=> 'http://www.medtronic.com/',
 				'Philips' 							=> 'http://www.usa.philips.com/',
 				'Quixey' 							=> 'http://www.quixey.com/',
+				'Quora' 							=> 'http://www.quora.com/',
 				'Smule' 							=> 'http://www.smule.com/',
 				'Square' 							=> 'http://www.squareup.com/',
 				'Synaptics' 						=> 'http://www.synaptics.com/',
@@ -150,7 +151,6 @@ function populateSponsorTable($sponsorList){
 				'Venture for America'				=> 'http://ventureforamerica.org/',
 				'VMWare' 							=> 'http://www.vmware.com/',
 				'Zanbato' 							=> 'http://www.zanbatogroup.com/',
-				'Venture for America '	=> 'http://ventureforamerica.org'
 			);
 			
 			populateSponsorTable($bronze);
@@ -231,7 +231,14 @@ function populateSponsorTable($sponsorList){
 		        <span class="mit-name">Princess Len Carlos '13 </span>
 		 	</div>
 		</li>
-      
+		
+		<li><a href="http://www.stephanboyer.com/p/self-balancing-electric-unicycle.html">Bullet - Self-Balancing Electric Unicycle </a>
+			<div class="mit-description">
+				An Electric Unicycle crafted from scrap metal and parts from an electric scooter.
+		        <span class="mit-name">Stephan Boyer ‘13 </span>
+		 	</div>
+		</li>       
+    
 		<li>DDR Tetris *
 			 <div class="mit-description">
 				A two player competitive Tetris game controlled by DDR mats

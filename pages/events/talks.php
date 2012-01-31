@@ -76,6 +76,7 @@
 				<h4>VP of Technology, Nest Labs</h4>
 				<p>
 				  <i>Developer of Nest's next-generation Learning Thermostat, MacArthur Fellow  </i>
+				  <br>
 					Dr. Matsuoka, a recipient of the MacArthur Genius Grant, is the Vice President of Technology at Nest Labs. At Nest, she has contributed to the development of the Learning Thermostat, the next generation in adaptive and “smart” technology. Her past research has dealt with the development of robotic technology to enhance the mobility of those with central nervous system-based disabilities. Her work spans the fields of computer science, biophysics, and materials science.
 				</p>
 			</div>
