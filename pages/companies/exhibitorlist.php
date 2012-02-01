@@ -75,7 +75,7 @@ function populateSponsorTable($sponsorList){
 	<div class="sponsor-logos full-width">
 		<div class="column-left-half">
 	   	 	<a href="http://www.dropbox.com/"><img title="Dropbox" alt="Dropbox" src="/img/logos/0Dropbox.png" /></a><br />
-	   	 	<img style="display:block; margin-top:-10px; src="/img/logos/miticon.png">
+	   	 	<img style="display:block; margin-top:-10px; src="/img/miticon.png">
 	   	 	<br />
 		    <a href="http://www.microsoft.com/"><img title="Microsoft" alt="Microsoft" src="/img/logos/0Microsoft.png" /></a> <a style="display:block; margin-top:-15px; font-size: 11px; text-decoration: none;" href="/events/afterparty">Afterparty Sponsor</a>
 	    	 <a href="http://www.oracle.com/"><img title="Oracle" alt="Oracle" src="/img/logos/0Oracle.png" /></a><br />
@@ -116,23 +116,23 @@ function populateSponsorTable($sponsorList){
 		<?php
 			//Add Bronze sponsors & their websites to this list. They DON'T have to be in alphabetical order; the function will sort them.
 			$bronze = array(
-				'3LM <br> <img src="/img/logos/miticon.png">' 								=> 'http://www.3lm.com/',
+				'3LM <br> <img src="/img/miticon.png">' 								=> 'http://www.3lm.com/',
 				'Addepar' 								=> 'http://www.addepar.com/',
 				'AisleBuyer' 						=> 'http://www.aislebuyer.com/',
-				'Akamai <br> <img src="/img/logos/miticon.png">'							=> 'http://www.akamai.com/',
+				'Akamai <br> <img src="/img/miticon.png">'							=> 'http://www.akamai.com/',
 				'Akiban Technologies' 				=> 'http://www.akiban.com/',
 				'AT&T' 								=> 'http://www.att.com/',
 				'Autodesk' 							=> 'http://usa.autodesk.com/',
-				'Bose <br> <img src="/img/logos/miticon.png">' 								=> 'http://www.bose.com/',
+				'Bose <br> <img src="/img/miticon.png">' 								=> 'http://www.bose.com/',
 				'CEO in a Box' 						=> 'http://www.beerdropper.com/',
-				'Crittercism <br> <img src="/img/logos/miticon.png">' 						=> 'http://www.crittercism.com/',
+				'Crittercism <br> <img src="/img/miticon.png">' 						=> 'http://www.crittercism.com/',
 				'eBay' 								=> 'http://www.ebay.com/',
 				'Fitbit' 								=> 'http://www.fitbit.com/',
 				'Fusion-io' 						=> 'http://www.fusionio.com/',
 				'Google' 							=> 'http://www.google.com/',
-				'Kiva Systems <br> <img src="/img/logos/miticon.png">'						=> 'http://www.kivasystems.com/',
-				'Knome<br> <img src="/img/logos/miticon.png">'								=> 'http://www.knome.com/',
-				'MIT Lincoln Laboratory <br> <img src="/img/logos/miticon.png">' 						=> 'http://www.ll.mit.edu/',
+				'Kiva Systems <br> <img src="/img/miticon.png">'						=> 'http://www.kivasystems.com/',
+				'Knome<br> <img src="/img/miticon.png">'								=> 'http://www.knome.com/',
+				'MIT Lincoln Laboratory <br> <img src="/img/miticon.png">' 						=> 'http://www.ll.mit.edu/',
 				'Lockheed Martin' 						=> 'http://www.lockheedmartin.com',
 				'Sandia National Labs' 						=> 'http://www.sandia.gov',
 				'Maxim Integrated Products' 		=> 'http://www.maxim-ic.com/',
@@ -168,15 +168,15 @@ function populateSponsorTable($sponsorList){
 			<h2>Startup Sponsors</h2>
 			<ul>
 			<li><a href="http://aurora.aero/">Aurora Flight Sciences</a></li>
-			<li><a href="http://locu.com/">Locu</a> <img src="/img/logos/miticon.png"></li>
+			<li><a href="http://locu.com/">Locu</a> <img src="/img/miticon.png"></li>
 			<li><a href="http://www.lytro.com/">Lytro</a></li>
 			<li><a href="http://nest.com/">Nest</a></li>
-			<li><a href="http://nyxdevices.com/">Nyx Devices</a> <img src="/img/logos/miticon.png"></li>
+			<li><a href="http://nyxdevices.com/">Nyx Devices</a> <img src="/img/miticon.png"></li>
 			<li><a href="http://www.yottaa.com/">Yottaa</a></li>
 			</ul>
 		</div>  
-		<p><img src="/img/logos/miticon.png"> Founded by MIT Alumni or Professors</p>
   </div>
+  <p><img src="/img/miticon.png"> Founded by MIT Alumni or Professors</p>
 </div>
 <div class="column-right" id="sr-descriptions">
   <h2>MIT Labs</h2>
