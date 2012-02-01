@@ -58,7 +58,7 @@
     <td>MIT Community
   </tr>
 </table>
-
+<br/><br/>
 <p>Download all of our events into your calendar!
   <br/>
   - via <a href="http://www.google.com/calendar/render?cid=https%3A%2F%2Fwww.google.com%2Fcalendar%2Ffeeds%2Fgh1nmqduakfgor623cr7smmc54%2540group.calendar.google.com%2Fpublic%2Fbasic">Google Calendar</a>
