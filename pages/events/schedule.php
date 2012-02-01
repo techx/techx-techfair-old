@@ -25,7 +25,7 @@
   <tr>
     <td><a href="/events/banquet/">Banquet</a>
     <td>Mon 2/6<br> 6pm-8:30pm
-    <td>The Hyatt
+    <td>The Hyatt <br>16th floor
     <td>By company invitation
   </tr>
   <tr>
@@ -70,34 +70,38 @@
 </div>
 <div class="column-right">
   <h2><a href="/hack">Techfair Hackathon</a></h2>
-  	<h3>Sat Feb 4 8pm</h3>
+  	<h3>Sat February 4, 8pm - Sun February 5, 5pm (Room 26-152)</h3>
     <p>
         Sleep is for the weak - pull an all-nighter at our Facebook-sponsored coding competition!
         Win prizes, nom on free food, and enjoy an (almost) unlimited supply of caffeine.
         Entries will be judged by Facebook engineers.
     </p>
 	<h2><a href="/events/fair">The Fair</a></h2>
-	<p>Techfair itself will take place on February 6, 2012 in Rockwell Cage. Learn more <a href="/events/fair">here</a>.
+	  	<h3>Mon February 6, 9am-3pm (Rockwell Cage)</h3>
+	<p>Techfair itself will take place on Monday, February 6, 2012 in Rockwell Cage (Spring Reg Day). Learn more <a href="/events/fair">here</a>.
 	</p>
 	<h2><a href="/events/banquet">The Banquet</a></h2>
+		  <h3>Mon February 6, 6pm-8:30pm (Hyatt - 16th floor)</h3>
 	<p>
 	    This exclusive event, only open to invited students, provides a unique opportunity for students to dine with technology enthusiasts from our participating companies.   Learn more about the invitation process and the event itself <a href="/events/banquet">here</a>.
 	</p>
 	<h2><a href="/events/afterparty/">Afterparty</a></h2>
+		  	<h3>Mon February 6, 9pm-11pm (Media Lab E14 - 6th floor)</h3>
 	<p>
 	    Celebrate the last night of IAP with Techfair and Microsoft! Come party with us against the beautiful Boston skyline.
 	    Learn more <a href="/events/afterparty/">here</a>.
 	</p>
 	<h2><a href="/events/talks/">Techtalks</a></h2>
+		  	<h3>Sat February 11, 11am-5pm (Room 10-250)</h3>
 	<p>
-	    Hear industry leaders and visionaries talk about their own perspectives - open to all Boston-area students, entrepreneurs, and tech enthusiasts.
+	    Hear industry leaders and visionaries talk about their own perspectives - open to all Boston-area students, entrepreneurs, and tech enthusiasts. Lunch will be provided
 	    Learn more <a href="/events/talks/">here</a>.
 	</p>
 	<p><p>
 <p><p>
 <h1> Other Events</h1>
 	<h2>Sequoia Panel</h2>
-	<h3>Tue Feb 7, 6pm-7pm, 4-145 </h3>
+	<h3>Tue February 7, 6pm-7pm (Room 4-145) </h3>
 	<p>Leading venture capital firm <a href="http://www.sequoiacap.com/">Sequoia Capital</a> brings some of their hottest startups to Boston in this one-hour panel. <br>
 	Come and meet:<br>
 	- Omer Artun, Founder/CEO @ <a href="http://www.agilone.com/">Agilone</a><br>
