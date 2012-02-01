@@ -64,6 +64,12 @@ function populateSponsorTable($sponsorList){
 	<h1>2012 List of Exhibitors</h1>
 	<p>With over 60 companies and 30 student exhibitors, this year's Techfair is the biggest yet!</p>
 	<p>See the full schedule <a href="/events/">here</a>.</p>
+	<p>Download all of our events into your calendar!
+    <br/>
+    - via <a href="http://www.google.com/calendar/render?cid=https%3A%2F%2Fwww.google.com%2Fcalendar%2Ffeeds%2Fgh1nmqduakfgor623cr7smmc54%2540group.calendar.google.com%2Fpublic%2Fbasic">Google Calendar</a>
+    <br/>
+    - via <a href="/Techfair2012.ics">iCal</a>
+  </p>
 </div>
 <div class="column-left">
 	<h2>Platinum Sponsor</h2>

@@ -57,15 +57,14 @@
     <td width=69>4-145 
     <td>MIT Community
   </tr>
-  <!--
-	<tr>
-    <td width=92>Sequoia Panel
-    <td width=84>Tue 2/7<br>6pm-7pm
-    <td width=69>4-145 
-    <td>MIT Community
-  </tr>-->
 </table>
 
+<p>Download all of our events into your calendar!
+  <br/>
+  - via <a href="http://www.google.com/calendar/render?cid=https%3A%2F%2Fwww.google.com%2Fcalendar%2Ffeeds%2Fgh1nmqduakfgor623cr7smmc54%2540group.calendar.google.com%2Fpublic%2Fbasic">Google Calendar</a>
+  <br/>
+  - via <a href="/Techfair2012.ics">iCal</a>
+</p>
 
 </div>
 <div class="column-right">
