@@ -58,7 +58,16 @@ else
 	} elseif ($sectionName=='finaldisplayform') {
 		$redirect = true;
 		header('Location: http://docs.google.com/spreadsheet/viewform?hl=en_US&formkey=dEJ0SXlPbnpSS1hjWjA1SWUyYTZLMVE6MQ#gid=0');
-	} else {
+	} elseif ($sectionName=='banquet') {
+  	$redirect = true;
+		header('Location: /events/banquet');
+  } elseif ($sectionName=='talks') {
+    $redirect = true;
+		header('Location: /events/talks');
+  } elseif ($sectionName=='party') {
+    $redirect = true;
+		header('Location: /events/afterparty');
+  } else {
 		$redirect = false;
 	}
 	
