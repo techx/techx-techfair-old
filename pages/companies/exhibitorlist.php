@@ -75,8 +75,6 @@ function populateSponsorTable($sponsorList){
 	<div class="sponsor-logos full-width">
 		<div class="column-left-half">
 	   	 	<a href="http://www.dropbox.com/"><img title="Dropbox" alt="Dropbox" src="/img/logos/0Dropbox.png" /></a><br />
-	   	 	<img src="/img/miticon.png">
-	   	 	<br />
 		    <a href="http://www.microsoft.com/"><img title="Microsoft" alt="Microsoft" src="/img/logos/0Microsoft.png" /></a> <a style="display:block; margin-top:-15px; font-size: 11px; text-decoration: none;" href="/events/afterparty">Afterparty Sponsor</a>
 	    	 <a href="http://www.oracle.com/"><img title="Oracle" alt="Oracle" src="/img/logos/0Oracle.png" /></a><br />
 		</div>
@@ -157,14 +155,8 @@ function populateSponsorTable($sponsorList){
 		?>
 		  
   </table>
-	<div class="full-width">
-		<div class="column-left-half">
-			<h2>Other Companies</h2>
-			<ul>
-			<li><a href="http://www.apple.com/">Apple</a></li>
-			</ul>
-		</div>
-		<div class="column-right-half">
+	<div class="full-width" style="display:block; height: 200px;">
+	  <div class="column-left-half">
 			<h2>Startup Sponsors</h2>
 			<ul>
 			<li><a href="http://aurora.aero/">Aurora Flight Sciences</a></li>
@@ -174,10 +166,17 @@ function populateSponsorTable($sponsorList){
 			<li><a href="http://nyxdevices.com/">Nyx Devices</a> <img src="/img/miticon.png"></li>
 			<li><a href="http://www.yottaa.com/">Yottaa</a></li>
 			</ul>
-		</div>  
+		</div>
+		<div class="column-right-half">
+			<h2>Other Companies</h2>
+			<ul>
+			<li><a href="http://www.apple.com/">Apple</a></li>
+			</ul>
+		</div>
   </div>
-  <div class="full-width"><img src="/img/miticon.png"> Founded by MIT Alumni or Professors</p>
-    </div>
+  <div style="display: block;">
+  <p><img src="/img/miticon.png"> Founded by MIT Alumni or Professors</p>
+  </div>
 </div>
 <div class="column-right" id="sr-descriptions">
   <h2>MIT Labs</h2>
