@@ -123,7 +123,6 @@ function populateSponsorTable($sponsorList){
 				'Autodesk' 							=> 'http://usa.autodesk.com/',
 				'Bose' 								=> 'http://www.bose.com/',
 				'CEO in a Box' 						=> 'http://www.beerdropper.com/',
-				'Citrix Online' 					=> 'http://www.citrix.com/',
 				'Crittercism' 						=> 'http://www.crittercism.com/',
 				/*'Cypress Semiconductors' 						=> 'http://www.cypress.com/',*/
 				'eBay' 								=> 'http://www.ebay.com/',
