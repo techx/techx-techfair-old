@@ -63,9 +63,9 @@
 		<img class="techtalk-img" src="/img/talks/kramer.jpg">
 			<div class="info">
 				<h3>Kwindla H. Kramer</h3>
-				<h4>CEO of Oblong Industries, Inc., Former CTO of AllAfrica</h4>
+				<h4>CEO of Oblong Industries, Inc.</h4>
 				<p>
-					Kwindla Kramer holds degrees from MIT and Harvard College and serves as CEO of Oblong Industries, a gesture-recognition company. Oblong's main product is the g-speak Spatial Operating Environment, famous for its appearance in Minority Report and Iron Man. Before working at Oblong, he served as the founding CTO of AllAfrica.com, one of the web's largest content aggregators. Kwindla's partners and clients include the governments of Nigeria, Angola, Namibia, and South Africa, the Democratic National Committee, Ford Foundation, Open Society Institute, and the United Nations ICT Task Force.
+					Kwindla Hultman Kramer is CEO of Oblong Industries, developer of the g-speak Spatial Operating Environment. Oblong was responsible for the gestural interfaces in the film Minority Report, and the company's current customers and partners include Boeing, SAP, GE, and others. Kwin's background is in programming, hardware design, and the development of large-scale systems architectures. Before helping to start Oblong he served as the founding CTO of AllAfrica.com, one of the web's largest content aggregators and a two-time webby award nominee. Kwin holds degrees from the MIT Media Laboratory and Harvard College and lives in Los Angeles.
 				</p>
 			</div>
 	</div>

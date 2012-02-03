@@ -102,7 +102,7 @@ function populateSponsorTable($sponsorList){
 				'Corning' 							=> 'http://www.corning.com/',
 				'Solidworks' 						=> 'http://www.solidworks.com/',
 				'General Electric' 					=> 'http://ge.com/',
-				'GrubHub' 							=> 'http://www.grubhub.com/',
+				'GrubHub <br> <img style="margin-top: -5px" src="/img/miticon.png">' 							=> 'http://www.grubhub.com/',
 				'MathWorks' 						=> 'http://www.mathworks.com/',
 				'Mozilla'							=> 'http://mozilla.com/',
 				'Oblong' 							=> 'http://oblong.com/',
