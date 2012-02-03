@@ -7,9 +7,99 @@ X-WR-CALNAME:Techfair 2012
 X-WR-TIMEZONE:America/New_York
 X-WR-CALDESC:techfair.mit.edu 
 BEGIN:VEVENT
+DTSTART:20120211T160000Z
+DTEND:20120211T220000Z
+DTSTAMP:20120203T083135Z
+UID:nu0qutth5unshc559dmf0900ik@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Techfa
+ ir 2012;X-NUM-GUESTS=0:mailto:gh1nmqduakfgor623cr7smmc54@group.calendar.goo
+ gle.com
+CREATED:20120201T032442Z
+DESCRIPTION:Introducing the newest Techfair event! Come hear industry leade
+ rs and visionaries talk about their own perspectives on various aspects of 
+ tech and innovation. Schedule of speakers at http://techfair.mit.edu/events
+ /talks
+LAST-MODIFIED:20120203T065846Z
+LOCATION:Room 10-250\, MIT Campus
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Techtalks
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20120207T020000Z
+DTEND:20120207T040000Z
+DTSTAMP:20120203T083135Z
+UID:2do1p2cp3boflleuhchg086lpg@google.com
+CREATED:20120201T032038Z
+DESCRIPTION:Celebrate the last night of IAP with Techfair and Microsoft! Co
+ me party with us against the beautiful Boston skyline. Enjoy good music\, f
+ ood\, mocktails\, and Kinect adventures. Win one of THREE XBox/Kinect bundl
+ es! \n\nSponsored by Microsoft.
+LAST-MODIFIED:20120203T065831Z
+LOCATION:Media Lab (E14) 6th floor 
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Techfair Afterparty
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20120206T140000Z
+DTEND:20120206T200000Z
+DTSTAMP:20120203T083135Z
+UID:ktlfm12bmcgbgihaumcg5mrdtc@google.com
+CREATED:20120201T031513Z
+DESCRIPTION:The annual student-run tech expo is back and bigger than ever! 
+ Come and see our 60+ companies and 30+ student projects! Demos\, raffles\, 
+ free stuff - what's not to like? techfair.mit.edu\n\nSee the full list of e
+ xhibitors at http://techfair.mit.edu/companies/exhibitorlist/
+LAST-MODIFIED:20120203T065742Z
+LOCATION:Rockwell Cage\, MIT Campus
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Techfair!
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20120206T230000Z
+DTEND:20120207T013000Z
+DTSTAMP:20120203T083135Z
+UID:g6pdokk648niaav8s5jjic0r5o@google.com
+CREATED:20120201T031613Z
+DESCRIPTION:An exclusive chance to meet with company representatives. By in
+ vitation only - get yours by attending the fair and talking to company reps
+ !
+LAST-MODIFIED:20120201T211355Z
+LOCATION:Hyatt Regency Cambridge\, Charles View Ballroom (16th floor)
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Techfair Banquet
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20120207T230000Z
+DTEND:20120208T000000Z
+DTSTAMP:20120203T083135Z
+UID:46tgkjrha6ovj7vrol3u7b0ra4@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Techfa
+ ir 2012;X-NUM-GUESTS=0:mailto:gh1nmqduakfgor623cr7smmc54@group.calendar.goo
+ gle.com
+CREATED:20120201T032414Z
+DESCRIPTION:Leading venture capital firm Sequoia Capital brings some of the
+ ir hottest startups to Boston in this one-hour panel. \nCome and meet:\n- O
+ mer Artun\, Founder/CEO @ Agilone\n- Steve Garrity\, Founder/CTO @ Hearsay 
+ Social \n- Harlan Crystal\, Founder/CTO @ Pocket Gems
+LAST-MODIFIED:20120201T211259Z
+LOCATION:4-145
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Sequoia Panel
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
 DTSTART:20120205T010000Z
 DTEND:20120205T220000Z
-DTSTAMP:20120201T033552Z
+DTSTAMP:20120203T083135Z
 UID:ik0m9j5k9rqivl0241bjhdojds@google.com
 CREATED:20120201T031445Z
 DESCRIPTION:RSVP at the official Facebook page! https://www.facebook.com/ev
@@ -22,90 +112,6 @@ LOCATION:26-152\, MIT Campus
 SEQUENCE:0
 STATUS:CONFIRMED
 SUMMARY:Battle in Boston: MIT-Harvard-Brown Hackathon
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20120211T160000Z
-DTEND:20120211T220000Z
-DTSTAMP:20120201T033552Z
-UID:nu0qutth5unshc559dmf0900ik@google.com
-ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Techfa
- ir 2012;X-NUM-GUESTS=0:mailto:gh1nmqduakfgor623cr7smmc54@group.calendar.goo
- gle.com
-CREATED:20120201T032442Z
-DESCRIPTION:Introducing the newest Techfair event! Come hear industry leade
- rs and visionaries talk about their own perspectives on various aspects of 
- tech and innovation. Schedule of speakers at techfair.mit.edu/events/talks
-LAST-MODIFIED:20120201T032817Z
-LOCATION:Room 10-250
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Techtalks
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20120207T230000Z
-DTEND:20120208T000000Z
-DTSTAMP:20120201T033552Z
-UID:46tgkjrha6ovj7vrol3u7b0ra4@google.com
-ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Techfa
- ir 2012;X-NUM-GUESTS=0:mailto:gh1nmqduakfgor623cr7smmc54@group.calendar.goo
- gle.com
-CREATED:20120201T032414Z
-DESCRIPTION:
-LAST-MODIFIED:20120201T032719Z
-LOCATION:4-142
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Sequoia Panel
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20120207T020000Z
-DTEND:20120207T040000Z
-DTSTAMP:20120201T033552Z
-UID:2do1p2cp3boflleuhchg086lpg@google.com
-CREATED:20120201T032038Z
-DESCRIPTION:Celebrate the last night of IAP with Techfair and Microsoft! Co
- me party with us against the beautiful Boston skyline. Enjoy good music\, f
- ood\, mocktails\, and Kinect adventures. Sponsored by Microsoft.
-LAST-MODIFIED:20120201T032708Z
-LOCATION:Media Lab (E14) 6th floor 
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Techfair Afterparty
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20120206T230000Z
-DTEND:20120207T013000Z
-DTSTAMP:20120201T033552Z
-UID:g6pdokk648niaav8s5jjic0r5o@google.com
-CREATED:20120201T031613Z
-DESCRIPTION:An exclusive chance to network with company representatives. By
-  invitation only - get yours by attending the fair and talking to company r
- eps!
-LAST-MODIFIED:20120201T032525Z
-LOCATION:Hyatt Regency Cambridge\, Charles View Ballroom
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Techfair Banquet
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20120206T140000Z
-DTEND:20120206T200000Z
-DTSTAMP:20120201T033552Z
-UID:ktlfm12bmcgbgihaumcg5mrdtc@google.com
-CREATED:20120201T031513Z
-DESCRIPTION:The annual student-run tech expo is back and bigger than ever! 
- Come and see our 60+ companies and 30+ student projects! Demos\, raffles\, 
- free stuff - what's not to like? techfair.mit.edu
-LAST-MODIFIED:20120201T032432Z
-LOCATION:Rockwell Cage
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Techfair!
 TRANSP:OPAQUE
 END:VEVENT
 END:VCALENDAR
