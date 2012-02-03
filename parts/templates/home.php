@@ -107,11 +107,11 @@
 				</div>
             </div>
             <div id="overlay"></div>
-            <img class="show" src="http://i19.photobucket.com/albums/b169/3xc1m4tion/1.png"/>
-            <img src="http://i19.photobucket.com/albums/b169/3xc1m4tion/2.png"/>
-            <img src="http://i19.photobucket.com/albums/b169/3xc1m4tion/3.png"/>
-            <img src="http://i19.photobucket.com/albums/b169/3xc1m4tion/4.png"/>
-            <img src="http://i19.photobucket.com/albums/b169/3xc1m4tion/5.png"/>
+            <img class="show" src="/img/homepage/1.png"/>
+            <img src="/img/homepage/2.png"/>
+            <img src="/img/homepage/3.png"/>
+            <img src="/img/homepage/4.png"/>
+            <img src="/img/homepage/5.png"/>
         </div>
 		<?php make_footer();?>
 		
