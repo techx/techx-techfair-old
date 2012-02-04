@@ -55,7 +55,7 @@
                 <h3>Rockwell Cage - Monday, February 6</h3>
                 <h4>9am - 3pm</h4>
                 <p>
-                    With <strong><a href="/companies/exhibitorlist/">over 60 companies and 30 student projects</a></strong>, this year's student-run expo is bound to be the largest yet.
+                    With <strong><a href="/companies/exhibitorlist/">over 60 companies and 30 student projects</a></strong>, this year's student-run expo is bound to be the largest yet. Checkout the booklet with detailed descriptions <a href="/booklet.pdf">here</a>.
                 </p>
                 <p>
                   MIT students, register for Techfair via <a href="http://umeqo.com/events/35/techfair-2012/?drop=true"><strong>UMEQO</strong></a>!
