@@ -1,6 +1,6 @@
 <div class="column-top">
 	<h1>Techtalks</h1>
-	<p>Coming? Make sure to <a href="https://www.facebook.com/events/361528593864060/">RSVP</a>!
+	<p>Coming? Make sure to <a href="https://www.facebook.com/events/361528593864060/">RSVP</a>!</p>
 </div>
 <div class="column-left">
 <h2>About</h2>
