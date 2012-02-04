@@ -71,6 +71,7 @@ function populateSponsorTable($sponsorList){
     - via <a href="http://www.google.com/calendar/render?cid=https%3A%2F%2Fwww.google.com%2Fcalendar%2Ffeeds%2Fgh1nmqduakfgor623cr7smmc54%2540group.calendar.google.com%2Fpublic%2Fbasic">Google Calendar</a>
     <br/>
     - via <a href="/Techfair2012.ics">iCal</a>
+    	<p>Check out these <a href="/companies/demos/">cool demos</a> by our sponsors.
   </p>
 </div>
 <div class="column-left">
