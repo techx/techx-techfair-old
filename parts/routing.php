@@ -22,7 +22,10 @@ else
 	/*
 	 * SHORTCUTS
 	 */	
-	if ($sectionName=='av') {
+	if ($sectionName=='demos') {
+	    $redirect = true;
+		header('Location: /companies/demos/');
+	} elseif ($sectionName=='av') {
 		$redirect = true;
 		header('Location: http://studentlife.mit.edu/sites/default/files/MITAV~2011~Dec2010PriceList_0.pdf');
 	} elseif ($sectionName=='exhibitors') {
