@@ -990,3 +990,16 @@ table#schedule td, table#schedule th {
 	height: 188px;
 	background: url('/img/homepage/tf-video-thumb.png');
 }
+
+#demos {
+    list-style: none;
+    margin-top: 15px;
+}
+#demos li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+#demos .name {
+    font-weight: 600;
+    margin-right: 5px;
+}

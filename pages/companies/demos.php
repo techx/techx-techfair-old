@@ -1,5 +1,6 @@
 <h1>Demo Highlights</h1>
-<ul>
+<p>Techfair 2012 promises to bring to MIT some fascinating demos! Below are a sampling of booths we're particularly excited for. For a complete list of exhibitors, check out <a href="/companies/exhibitorlist/">this page</a>.
+<ul id="demos">
 <li>
 <span class="name">Oblong</span> <span class="description">Bringing gesture-based interfaces, a la Iron Man, ubiquitous in every home. Look for their futuristic Kinect setup!</span>
 </li>
@@ -40,9 +41,9 @@
 <span class="name">Electric violin</span> <span class="description">Handcrafted electric violins made from acrylic.</span>
 </li>
 <li>
-<span class="name">Bullet- Self-balancing electric unicycle that can travel up to six miles on a single charge.
+<span class="name">Bullet</span> <span class="description">Self-balancing electric unicycle that can travel up to six miles on a single charge.</span>
 </li>
 <li>
-<span class="name">DDR Tetris- Control a life-sized Tetris game with your DDR skills!
+<span class="name">DDR Tetris</span> <span class="description">Control a life-sized Tetris game with your DDR skills!</span>
 </li>
 </ul>
