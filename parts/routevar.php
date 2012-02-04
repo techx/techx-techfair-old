@@ -90,6 +90,11 @@ $routes = array(
 			'content' => 'pages/companies/packages.php',
 			'name' => 'Sponsorship Packages'
 		),
+		'demos' => array(
+			'title' => 'Demos / '.$basetitle,
+			'content' => 'pages/companies/demos.php',
+			'name' => 'Demos'
+		),
 		//'register' => array(
 		//	'title' => 'Register / '.$basetitle,
 		//	'content' => 'pages/companies/register.php',
