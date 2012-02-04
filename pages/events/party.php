@@ -1,5 +1,6 @@
 <div class="column-top">
   <h1>Afterparty</h1>
+    <p>Coming? Make sure to <a href="https://www.facebook.com/events/279710692091143/">RSVP</a>!</p>
 <!--<img src="/img/microsoft.jpg" alt="Microsoft" style="float:right" />-->
   </div>
   <div class="column-left">
