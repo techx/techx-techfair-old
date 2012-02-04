@@ -32,6 +32,9 @@
 <li>
 <span class="name">Texas Instruments (TI)</span> <span class="description">Presenting their new Me-D technology that revolutionizes mobile-user interaction by creating three dimensions of interaction-- a natural gesturing dimension, a glasses-free 3D dimension, and a projected and interactive dimension.</span>
 </li>
+<li>
+<span class="name">Microsoft</span> <span class="description">Try out the highly anticipated Windows 8 tablets.</span>
+</li>
 </ul>
 
 <h2>MIT Exhibitor Demo Highlights</h2>
