@@ -22,7 +22,7 @@
 	<ul id="talks-schedule">
 	    <li><span class="time">11am</span> Yoky Matsuoka, <span class="title">Robots and Thermostats: More in Common Than You'd Think</span></li>
 	    <li><span class="time">noon</span> Janet Baker, <span class="title">Being Listened To - Speech Recognition; Past, Present, and Future!</span></li>
-	    <li><span class="time">1pm</span> lunch break</li>
+	    <li><span class="time">1pm</span> lunch break in Lobby 13</li>
 	    <li><span class="time">2pm</span> Ed Boyden, <span class="title">Engineering the Brain</span></li>
 	    <li><span class="time">3pm</span> Brian Kalma, <span class="title">Technology and Design in eCommerce</li>
 	    <li><span class="time">4pm</span> Kwindla Kramer, <span class="title">The Future of Computing: Multi-user, Multi-machine, Multi-device</li>
