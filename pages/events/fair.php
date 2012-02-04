@@ -2,7 +2,7 @@
 
   <h1>The Fair</h1>
   <p>Techfair is an annual student-run technology expo dedicated to innovation. Come experience Techfair's unique blend of cutting-edge technology and innovation from visionary companies, MIT research groups, student projects, and more.</p>
-  <p>Techfair will be conducted "trade-show" style. Attendees will be able to walk around to different booths and learn about the presenters, how the science and technologies work, and careers in the company and field of research (if applicable). We'll also be raffling off great prizes!</p>
+  <p>Techfair will be conducted "trade-show" style. Attendees will be able to walk around to different booths and learn about the presenters, how the science and technologies work, and careers in the company and field of research (if applicable). We'll also be raffling off great prizes! So <a href="https://www.facebook.com/events/215943828494514/">RSVP</a>, drop in, and take a look around!</p>
   <p><h2><a href="/companies/exhibitorlist/">Check out the 2012 Exhibitors</a></h2>
   </p>
   <p>If you have any questions, please contact us. If you are interested in helping to organize the fair, stay tuned for planning board applications in Fall 2012.</p>
