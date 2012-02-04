@@ -92,7 +92,7 @@
 				<p>
 				  <i>Developer of Nest's next-generation Learning Thermostat, MacArthur Fellow  </i>
 				  <br>
-					Dr. Matsuoka, a recipient of the MacArthur Genius Grant, is the Vice President of Technology at Nest Labs. At Nest, she has contributed to the development of the Learning Thermostat, the next generation in adaptive and “smart” technology. Her past research has dealt with the development of robotic technology to enhance the mobility of those with central nervous system-based disabilities. Her work spans the fields of computer science, biophysics, and materials science.
+				  Yoky Matsuoka is VP of Technology at Nest Labs (<a href="http://www.nest.com">www.nest.com</a>). She received her Ph.D. at MIT in Electrical Engineering and Computer Science in the fields of Artificial Intelligence and Computational Neuroscience.  She received an M.S. from MIT and a B.S. from UC Berkeley, both in EECS.  She was also a Postdoctoral Fellow in the Brain and Cognitive Sciences at MIT and in Mechanical Engineering at Harvard University.  She was Torode Family Endowed Career Development Professor of Computer Science and Engineering at the University of Washington, Director of NSF ERC Center for Sensorimotor Neural Engineering, and Ana Loomis McCandless Professor of Robotics and Mechanical Engineering at Carnegie Mellon University.  Her work has been recognized with a MacArthur Fellowship, acclaimed as one of “The Brilliant Ten” in Popular Science Magazine, “Top 10 Women to Watch in 2010” by Barbie, and "Power 25” in Seattle Magazine.
 				</p>
 			</div>
 	</div>
