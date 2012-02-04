@@ -16,7 +16,7 @@ if (isset($_POST['email'])):
             printf("Connect failed: %s\n", mysqli_connect_error()); 
             exit(); 
         }
-        $stmt = $mysqli->prepare("INSERT INTO registration (email) VALUES (?)");
+        $stmt = $mysqli->prepare("INSERT INTO registration2012 (email) VALUES (?)");
         $stmt->bind_param('s',$full_email);
         $stmt->execute();
         $stmt->close();
