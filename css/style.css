@@ -972,3 +972,21 @@ table#schedule td, table#schedule th {
 .techtalk-bio:first-child img {
 	margin-top: 10px;
 }
+
+
+#homepage-video {
+	padding: 15px;
+	position: absolute;
+     top: 350px;
+     left: 40px;
+     background: rgba(255, 255, 255, 0.9);
+
+}
+
+#homepage-video a{
+	margin: auto;
+	display: block;
+	width: 308px;
+	height: 188px;
+	background: url('/img/homepage/tf-video-thumb.png');
+}

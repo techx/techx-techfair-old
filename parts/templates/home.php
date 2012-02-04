@@ -5,7 +5,6 @@
     <title>MIT Techfair</title>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600' rel='stylesheet' type='text/css'>
     
-    
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
         
     <script type="text/javascript">
@@ -41,6 +40,9 @@
     
     <link href="css/style.css" rel="stylesheet" />
 
+
+	<link rel="stylesheet" href="/css/prettyPhoto.css" type="text/css" media="screen" charset="utf-8" />
+	<script src="/js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
 </head>
 <body>
     <div id="container">
@@ -105,8 +107,14 @@
 						</div>
 					</div>
 				</div>
+					
             </div>
-            <div id="overlay"></div>
+			
+            <div id="overlay">
+				<div id="homepage-video">
+					<a href="http://www.youtube.com/watch?v=bzc4ge3H6hA" rel="prettyPhoto"></a>
+				</div>
+			</div>
             <img class="show" src="/img/homepage/1.png"/>
             <img src="/img/homepage/2.png"/>
             <img src="/img/homepage/3.png"/>
@@ -137,6 +145,54 @@
             
         </div>-->
     </div>
+
+	<script type="text/javascript" charset="utf-8">
+	  $(document).ready(function(){
+	    $("a[rel^='prettyPhoto']").prettyPhoto({
+			default_width: 800,
+			default_height: 450,
+			markup: '<div class="pp_pic_holder"> \
+									<div class="ppt">&nbsp;</div> \
+									<div class="pp_top"> \
+										<div class="pp_left"></div> \
+										<div class="pp_middle"></div> \
+										<div class="pp_right"></div> \
+									</div> \
+									<div class="pp_content_container"> \
+										<div class="pp_left"> \
+										<div class="pp_right"> \
+											<div class="pp_content" style="background: rgba(255,255,255,0)"> \
+												<div class="pp_loaderIcon"></div> \
+												<div class="pp_fade"> \
+													<a href="#" class="pp_expand" title="Expand the image">Expand</a> \
+													<div class="pp_hoverContainer"> \
+														<a class="pp_next" href="#">next</a> \
+														<a class="pp_previous" href="#">previous</a> \
+													</div> \
+													<div id="pp_full_res"></div> \
+													<div class="pp_details"> \
+														<div class="pp_nav"> \
+															<a href="#" class="pp_arrow_previous">Previous</a> \
+															<p class="currentTextHolder">0/0</p> \
+															<a href="#" class="pp_arrow_next">Next</a> \
+														</div> \
+														<a class="pp_close" href="#">Close</a> \
+													</div> \
+												</div> \
+											</div> \
+										</div> \
+										</div> \
+									</div> \
+									<div class="pp_bottom"> \
+										<div class="pp_left"></div> \
+										<div class="pp_middle"></div> \
+										<div class="pp_right"></div> \
+									</div> \
+								</div> \
+								<div class="pp_overlay"></div>'
+		});
+	  });
+	</script>
 </body>
 </html>
 
