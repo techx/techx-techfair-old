@@ -40,9 +40,11 @@
 				<h3>Dr. Janet Baker</h3>
 				<h4>Co-Founder of Dragon Systems</h4>
 				<p>
-					<i>Pioneer in speech recognition software (Dragon Systems, Siri), TED Fellow</i>
+					<i>Pioneer and Entrepreneur in speech recognition software (Dragon Systems)</i>
 					<br>
-          Janet Baker's work led to the development of the first commercial general-purpose speech dictation software and the first audio-search engine. After serving as CEO of Dragon Systems, she went on to contributed to the development of Siri, the iPhone's "intelligent personal assistant" that interacts verbally with the user. Currently, Baker is affiliated with the MIT Media Lab and Harvard Medical School, where she researches how the brain collects and processes speech and language.
+					Janet Baker's work led to the creation of the first commercial general-purpose speech dictation software, the first audio-search engine, etc. and to their subsequent market development. Dragon-based technology platforms now span cars, cloud-based services, desktop computers, tablets, and most recently, smartphones equipped with conversational  "intelligent personal assistants".
+					<br>
+                    Currently, Baker is affiliated with the MIT Media Lab, and Harvard Medical School, where she researches how the brain processes and recognizes speech and language. She also consults, and guest lectures on "Entrepreneurship and Innovation".
 				</p>
 			</div>
 	</div>

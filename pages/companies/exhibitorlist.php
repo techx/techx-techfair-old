@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="/css/video-js.min.css" />
+<script src="/js/video.min.js"></script>
 <?php 
 function natksort($array) 
 { 
@@ -104,7 +106,7 @@ function populateSponsorTable($sponsorList){
 				'General Electric' 					=> 'http://ge.com/',
 				'GrubHub <br> <img style="margin-top: -5px" src="/img/miticon.png">' 							=> 'http://www.grubhub.com/',
 				'MathWorks' 						=> 'http://www.mathworks.com/',
-				'Mozilla'							=> 'http://mozilla.com/',
+				'Mozilla<br /><a href="#" class="video-link" id="video-link-mozilla">VIDEO</a>'							=> 'http://mozilla.com/',
 				'Oblong' 							=> 'http://oblong.com/',
 				'Sony (SCEA)' 						=> 'http://us.playstation.com/',
 				'Thomson Reuters' 					=> 'http://thomsonreuters.com/',
@@ -395,4 +397,59 @@ function populateSponsorTable($sponsorList){
 	<p style="font-size: 16px;">
 	&#8314; Part of the StartLabs <a href="http://startlabs.org/c2c">Concept to Company program</a></p>
 </div>
+<div id="video-overlay" style="display:none">
+    <video id="video-mozilla" class="video-js vjs-default-skin" controls preload="none" width="800" height="450"
+        poster="/img/video_mozilla.png"
+        data-setup="{}">
+        <source src="http://s3.amazonaws.com/techfair/Mozilla-HR-event.mov" type='video/mp4' />
+    </video>
+</div>
+
+</div>
+<script>
+    $('#video-link-mozilla').click(function() {
+        $('#video-overlay').show();
+        return false;
+    });
+    $('.video-js').live('click', function(e) {
+        return false;
+    });
+    $('#video-overlay').live('click', function() {
+        $('#video-overlay').hide();
+        _V_("#video-mozilla").ready(function(){
+            var myPlayer = this;
+            myPlayer.pause();
+            myPlayer.currentTime(0);
+        });
+    });
+</script>
+<style>
+    #video-overlay {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: rgba(0,0,0,0.5);
+    }
+    #video-overlay .video-js {
+        margin-left: -400px;
+        margin-top: -250px;
+        left: 50%;
+        top: 50%;
+        position: absolute;
+    }
+    #content .video-link {
+        font-size: 12px;
+        background: #4078D6;
+        color: white;
+        display: inline-block;
+        padding: 0 5px;
+    }
+    #content .video-link:hover {
+        color: white;
+        text-decoration: none;
+        background: #888;
+    }
+</style>
 <div class="column-bottom"></div>
