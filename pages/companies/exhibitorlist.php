@@ -110,6 +110,7 @@ function populateSponsorTable($sponsorList){
 				'Mozilla<br /><a href="#" class="video-link" id="video-link-mozilla">VIDEO</a>'							=> 'http://mozilla.com/',
 				'Oblong' 							=> 'http://oblong.com/',
 				'Sony (SCEA)' 						=> 'http://us.playstation.com/',
+				'Synthetic Genomics'      => 'http://syntheticgenomics.com/',
 				'Thomson Reuters' 					=> 'http://thomsonreuters.com/',
 				'Twitter' 							=> 'http://twitter.com/' 
 			);
