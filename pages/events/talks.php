@@ -38,7 +38,7 @@
 		<img class="techtalk-img" src="/img/talks/baker.jpg">
 			<div class="info">
 				<h3>Dr. Janet Baker</h3>
-				<h4>Co-Founder of Dragon Systems</h4>
+				<h4>Co-Founder/CEO of Dragon Systems</h4>
 				<p>
 					<i>Pioneer and Entrepreneur in speech recognition software (Dragon Systems)</i>
 					<br>
