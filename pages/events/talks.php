@@ -5,18 +5,19 @@
 <div class="column-left">
 <h2>About</h2>
 	<p>Introducing the newest Techfair event! Come hear industry leaders and visionaries talk about their own perspectives on various aspects of tech and innovation.</p>
-	<p><strong>We'll be raffling a Macbook Air and a 42" television</strong> - your expected value of attending is at least $5!</p>
+	<p><strong>We'll be raffling a Macbook Air and a 42" television</strong> - your expected value of attending is at least $5.</p>
 	<h2>Attendees</h2>
-	<p>Everyone is invited - Boston area students, entrepreneurs, and tech enthusiasts alike.</p>
+	<p><strong>Everyone is invited</strong> - Boston area students, entrepreneurs, and tech enthusiasts alike.</p>
     <p>Registration is required to attend - please register at <a href="http://tf-techtalks.eventbrite.com/">http://tf-techtalks.eventbrite.com/</a>. (MIT students do not need to register.)</p>
+    <p>Can't make it? No worries, we'll be posting the videos here after the event.</p>
 </div>
 <div class="column-right">
 	<h2>Time</h2>
-	<p>February 11, 2012 (the Saturday after the Fair)
-	  <br>11am-5pm
-	  <br>Lunch will be provided</p>
+	<p>Saturday, February 11, 2012
+	  <br>11am-5pm (Lunch will be provided.)</p>
 	<h2>Location</h2>
 	<p><a href="http://whereis.mit.edu/?go=10-250">Room 10-250</a></p>
+	<p>77 Massachusetts Ave<br />Boston, MA 02116</p>
 </div>
 <div class="column-bottom">
     <div style="height:20px"></div>
