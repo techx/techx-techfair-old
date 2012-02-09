@@ -1,6 +1,6 @@
 <div class="column-top">
 	<h1>Techtalks</h1>
-	<p>Coming? Make sure to <a href="https://www.facebook.com/events/361528593864060/">RSVP</a>!</p>
+	<p>Coming? Make sure to <a href="http://tf-techtalks.eventbrite.com/">register on Eventbrite</a> and <a href="https://www.facebook.com/events/361528593864060/">RSVP on Facebook</a>!</p>
 </div>
 <div class="column-left">
 <h2>About</h2>
@@ -8,7 +8,7 @@
 	<p><strong>We'll be raffling a Macbook Air and a 42" television</strong> - your expected value of attending is at least $5!</p>
 	<h2>Attendees</h2>
 	<p>Everyone is invited - Boston area students, entrepreneurs, and tech enthusiasts alike.</p>
-    <p>Registration is required to attend - please register at <a href="http://tf-techtalks.eventbrite.com/">http://tf-techtalks.eventbrite.com/</a>. MIT students do not need to register.</p>
+    <p>Registration is required to attend - please register at <a href="http://tf-techtalks.eventbrite.com/">http://tf-techtalks.eventbrite.com/</a>. (MIT students do not need to register.)</p>
 </div>
 <div class="column-right">
 	<h2>Time</h2>
