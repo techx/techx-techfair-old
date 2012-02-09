@@ -1,5 +1,6 @@
 <h1>Demo Highlights</h1>
 <p>Techfair 2012 promises to bring to MIT some fascinating demos! Below are a sampling of booths we're particularly excited for. For a complete list of exhibitors, check out <a href="/companies/exhibitorlist/">this page</a>.
+<h2>Company Demo Highlights</h2>
 <ul id="demos">
 <li>
 <span class="name">Oblong</span> <span class="description">Bringing gesture-based interfaces, a la Iron Man, ubiquitous in every home. Look for their futuristic Kinect setup!</span>
@@ -31,6 +32,13 @@
 <li>
 <span class="name">Texas Instruments (TI)</span> <span class="description">Presenting their new Me-D technology that revolutionizes mobile-user interaction by creating three dimensions of interaction-- a natural gesturing dimension, a glasses-free 3D dimension, and a projected and interactive dimension.</span>
 </li>
+<li>
+<span class="name">Microsoft</span> <span class="description">Try out the highly anticipated Windows 8 tablets.</span>
+</li>
+</ul>
+
+<h2>MIT Exhibitor Demo Highlights</h2>
+<ul id="demos">
 <li>
 <span class="name">Swyp</span> <span class="description">Transfer files between Apple devices by literally swiping one file across the screen in the direction of the other. File-sharing has never been so easy.</span>
 </li>

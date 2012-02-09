@@ -71,7 +71,7 @@ function populateSponsorTable($sponsorList){
     - via <a href="http://www.google.com/calendar/render?cid=https%3A%2F%2Fwww.google.com%2Fcalendar%2Ffeeds%2Fgh1nmqduakfgor623cr7smmc54%2540group.calendar.google.com%2Fpublic%2Fbasic">Google Calendar</a>
     <br/>
     - via <a href="/Techfair2012.ics">iCal</a>
-    	<p>Check out these <a href="/companies/demos/">cool demos</a> by our sponsors.
+    	<p><strong>Check out these <a href="/companies/demos/">cool demos</a> from both our sponsors and the MIT Exhibitors!</strong>
   </p>
 </div>
 <div class="column-left">
@@ -110,6 +110,7 @@ function populateSponsorTable($sponsorList){
 				'Mozilla<br /><a href="#" class="video-link" id="video-link-mozilla">VIDEO</a>'							=> 'http://mozilla.com/',
 				'Oblong' 							=> 'http://oblong.com/',
 				'Sony (SCEA)' 						=> 'http://us.playstation.com/',
+				'Synthetic Genomics'      => 'http://syntheticgenomics.com/',
 				'Thomson Reuters' 					=> 'http://thomsonreuters.com/',
 				'Twitter' 							=> 'http://twitter.com/' 
 			);
