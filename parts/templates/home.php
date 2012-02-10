@@ -67,7 +67,7 @@
 				<div id="mini-schedule-container">
 					<div id="mini-schedule-grow-button"></div>
 					<div id="mini-schedule-button">
-						<div style="padding: 3px 0px 8px 12px; background: rgba(104, 196, 252, 0.8)">
+						<div style="padding: 3px 0px 8px 12px; background: rgba(104, 196, 252, 1.0)">
 						  <h3>Speaker Schedule &gt;</h3>
 						  </div>
 					</div>
