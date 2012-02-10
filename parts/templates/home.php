@@ -82,7 +82,7 @@
                   <th><strong>Time</strong>
                 </tr>
                 <tr>
-                  <td width=92><strong>Yoky Matsuoka</strong>
+                  <td width=120><strong>Yoky Matsuoka</strong>
                   <td>Robots and Thermostats 
                   <td>11am
                 </tr>
