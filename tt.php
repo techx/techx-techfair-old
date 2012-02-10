@@ -40,7 +40,7 @@ else:
                 font-size: 5em;
                 font-weight: 400;
                 color: #FFF;
-                letter-spacing: -0.05em;
+                letter-spacing: -0.02em;
                 text-shadow: #000 0 -2px 0;
                 margin: 0 0 20px 0;
             }
