@@ -51,56 +51,65 @@
         ?>
         <div id="slideshow">
             <div id="info">
-                <h2>Techfair 2012</h2>
-                <h3>Rockwell Cage - Monday, February 6</h3>
-                <h4>9am - 3pm</h4>
+                <h2>Techfair Techtalks</h2>
+                <h3>Saturday, February 11, 11am-5pm</h3>
+                <h4>MIT Campus (Room 10-250)</h4>
                 <p>
-                    With <strong><a href="/companies/exhibitorlist/">over 60 companies and 30 student projects</a></strong>, this year's student-run expo is bound to be the largest yet. Checkout the booklet with detailed descriptions <a href="/booklet.pdf">here</a>.
+                    <!--With <strong><a href="/companies/exhibitorlist/">over 60 companies and 30 student projects</a></strong>, this year's student-run expo is bound to be the largest yet. Checkout the booklet with detailed descriptions <a href="/booklet.pdf">here</a>.-->
+                    Thanks for a successful Techfair 2012. We have a brand new event on Saturday, Techfair <a href="/events/talks/">Techtalks</a>.  
                 </p>
                 <p>
-                  MIT students, register for Techfair via <a href="http://umeqo.com/events/35/techfair-2012/?drop=true"><strong>UMEQO</strong></a>!
+                    Come attend hourly talks given by industry leaders and visionaries on the future of technology. 
+                </p>
+                <p>
+                    Register for Techtalks on <a href="http://tf-techtalks.eventbrite.com/">EventBrite</a>.
                 </p>
 				<div id="mini-schedule-container">
 					<div id="mini-schedule-grow-button"></div>
 					<div id="mini-schedule-button">
 						<div style="padding: 3px 0px 8px 12px; background: rgba(104, 196, 252, 0.8)">
-						  <h3>Show Schedule &gt;</h3>
+						  <h3>Speaker Schedule &gt;</h3>
 						  </div>
 					</div>
 					<div id="mini-schedule">
 						<div id="mini-schedule-content">
-							<h2>Schedule</h2>
-							<h3>Full Schedule <a href="/events/">Here</a></h3>
+							<h2>Techtalks Schedule</h2>
+							<h3>Full Schedule and Bios <a href="/events/talks">Here</a></h3>
 							<table cellpadding=4 cellspacing=5 RULES=ROWS>
                 <tr>
-                  <th><strong>Event</strong>
+                  <th><strong>Speaker</strong>
+                  <th><strong>Topic</strong>
                   <th><strong>Time</strong>
-                  <th><strong>Location</strong>
                 </tr>
                 <tr>
-                  <td width=92><a href="/events/hackathon/"><strong>Hackathon</strong></a>
-                  <td>Sat 2/4 8pm-Sun 5pm 
-                  <td>26-152
+                  <td width=92><strong>Yoky Matsuoka</strong>
+                  <td>Robots and Thermostats 
+                  <td>11am
                 </tr>
                 <tr>
-                  <td><a href="/events/fair/"><strong>The Fair</strong></a>
-                  <td>Mon 2/6 9am-3pm
-                  <td>Rockwell Cage
+                  <td><strong>Janet Baker</strong>
+                  <td>Speech Recognition; Past, Present, and Future!
+                  <td>12pm
                 </tr>
                 <tr>
-                  <td><a href="/events/banquet/"><strong>Banquet</strong></a>
-                  <td>Mon 2/6 6pm-8:30pm
-                  <td>The Hyatt
+                  <td colspan=2 align=center><strong>Free lunch!</strong>
+                 
+                  <td>1pm
                 </tr>
                 <tr>
-                  <td><a href="/events/afterparty/"><strong>Afterparty</strong></a>
-                  <td>Mon 2/6 9pm-11pm
-                  <td>E14 6th floor
+                  <td><strong>Ed Boyden</strong>
+                  <td>Engineering the Brain
+                  <td>2pm
                 </tr>
                 <tr>
-                  <td><a href="/events/talks/"><strong>Techtalks</strong></a>
-                  <td>Sat 2/11 11am-5pm
-                  <td>10-250
+                  <td><strong>Brian Kalma</strong>
+                  <td>Technology and Design in E-Commerce
+                  <td>3pm
+                </tr>
+                <tr>
+                  <td><strong>Kwindla Kramer</strong>
+                  <td>The Future of Computing
+                  <td>4pm
                 </tr>
               </table>
               
