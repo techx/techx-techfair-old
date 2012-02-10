@@ -92,8 +92,8 @@
                   <td>12pm
                 </tr>
                 <tr>
-                  <td colspan=2 align=center><strong>Free lunch!</strong>
-                 
+                  <td><strong>Free lunch!</strong>
+                  <td>
                   <td>1pm
                 </tr>
                 <tr>
