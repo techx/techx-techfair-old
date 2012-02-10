@@ -6,6 +6,7 @@
 <h2>About</h2>
 	<p>Introducing the newest Techfair event! Come hear industry leaders and visionaries talk about their own perspectives on various aspects of tech and innovation.</p>
 	<p><strong>We'll be raffling a Macbook Air and a 42" television</strong> - your expected value of attending is at least $5.</p>
+	<p><small>Attendees in the morning will receive a ticket at the door, and a second round of tickets will be given out after lunch. Raffles will be announced after the last speaker, must be present to win. Only those who attended both Techfair and Techtalks are eligible to win the Macbook Air.</small></p>
 	<h2>Attendees</h2>
 	<p><strong>Everyone is invited</strong> - Boston area students, entrepreneurs, and tech enthusiasts alike.</p>
     <p>Registration is required to attend - please register at <a href="http://tf-techtalks.eventbrite.com/">http://tf-techtalks.eventbrite.com/</a>. (MIT students do not need to register.)</p>
