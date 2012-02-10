@@ -16,7 +16,7 @@
 	<p>Saturday, February 11, 2012
 	  <br>11am-5pm (Lunch will be provided.)</p>
 	<h2>Location</h2>
-	<p><a href="http://whereis.mit.edu/?go=10-250">Room 10-250</a></p>
+	<p><a href="http://whereis.mit.edu/?go=10-250">Building 10, Room 250</a></p>
 	<p>77 Massachusetts Ave<br />Cambridge, MA 02139</p>
 </div>
 <div class="column-bottom">

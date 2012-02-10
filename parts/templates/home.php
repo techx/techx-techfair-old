@@ -53,7 +53,7 @@
             <div id="info">
                 <h2>Techfair Techtalks</h2>
                 <h3>Saturday, February 11, 11am-5pm</h3>
-                <h4>MIT Campus (Room 10-250)</h4>
+                <h4>MIT Campus (Building 10, Room 250)</h4>
                 <p>
                     <!--With <strong><a href="/companies/exhibitorlist/">over 60 companies and 30 student projects</a></strong>, this year's student-run expo is bound to be the largest yet. Checkout the booklet with detailed descriptions <a href="/booklet.pdf">here</a>.-->
                     Thanks for a successful Techfair 2012. We have a brand new event on Saturday, Techfair <a href="/events/talks/">Techtalks</a>.  
