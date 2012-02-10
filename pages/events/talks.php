@@ -32,7 +32,7 @@
 	    <li><span class="time">3pm</span> Brian Kalma, <span class="title">Technology and Design in eCommerce</li>
 	    <li><span class="time">4pm</span> Kwindla Kramer, <span class="title">The Future of Computing: Multi-user, Multi-machine, Multi-device</li>
 	</u>
-	<p>* Unfortunately, Yoky is sick and will not be able to make it. Techtalks will start at noon instead.
+	<p>* Unfortunately, Dr. Matsuoka cannot make the talks due to illness. Techtalks will start at noon instead.
 </div>
 <div class="column-bottom">
 	<div style="height:20px"></div>
@@ -55,6 +55,34 @@
 			</div>
 	</div>
 	<div class="techtalk-bio">
+		<img class="techtalk-img" src="/img/talks/kalma.jpg">
+			<div class="info">
+				<h3>Brian Kalma</h3>
+				<h4>Chief Experience Officer at Gemvara</h4>
+				<p>
+				  <i>User Experience guru, Former Director of User Experience at Zappos.com  </i>
+				  <br>
+					Kalma, a User Experience guru, jumpstarted his career at  Zappos.com as the Head of User  Experience, Creative Services and Marketing. He also led revolutionary projects that catalyzed the evolution of Zappos’ user platform. He went on to serve as Senior Director of User Experience at Gilt Groupe and is currently Chief Experience Officer at Gemvara. Kalma recently founded Snipwits.com, a new interactive site for information sharing.    
+				</p>
+			</div>
+	</div>
+	
+	<div class="techtalk-bio" style="opacity:0.3">
+		<img class="techtalk-img" src="/img/talks/matsuoka.jpg">
+			<div class="info">
+				<h3>Dr. Yoky Matsuoka</h3>
+				<h4>VP of Technology, Nest Labs</h4>
+				<p>
+				  <i>Developer of Nest's next-generation Learning Thermostat, MacArthur Fellow  </i>
+				  <br>
+				  Yoky Matsuoka is VP of Technology at Nest Labs (<a href="http://www.nest.com">www.nest.com</a>). She received her Ph.D. at MIT in Electrical Engineering and Computer Science in the fields of Artificial Intelligence and Computational Neuroscience.  She received an M.S. from MIT and a B.S. from UC Berkeley, both in EECS.  She was also a Postdoctoral Fellow in the Brain and Cognitive Sciences at MIT and in Mechanical Engineering at Harvard University.  Her work has been recognized with a MacArthur Fellowship, acclaimed as one of “The Brilliant Ten” in Popular Science Magazine, “Top 10 Women to Watch in 2010” by Barbie, and "Power 25” in Seattle Magazine.
+				</p>
+			</div>
+	</div>
+	
+</div>
+<div class="column-right">
+	<div class="techtalk-bio">
 		<img class="techtalk-img" src="/img/talks/boyden.jpg">
 			<div class="info">
 				<h3>Ed Boyden</h3>
@@ -67,20 +95,6 @@
 			</div>
 	</div>
 	<div class="techtalk-bio">
-		<img class="techtalk-img" src="/img/talks/kalma.jpg">
-			<div class="info">
-				<h3>Brian Kalma</h3>
-				<h4>Chief Experience Officer at Gemvara</h4>
-				<p>
-				  <i>User Experience guru, Former Director of User Experience at Zappos.com  </i>
-				  <br>
-					Kalma, a User Experience guru, jumpstarted his career at  Zappos.com as the Head of User  Experience, Creative Services and Marketing. He also led revolutionary projects that catalyzed the evolution of Zappos’ user platform. He went on to serve as Senior Director of User Experience at Gilt Groupe and is currently Chief Experience Officer at Gemvara. Kalma recently founded Snipwits.com, a new interactive site for information sharing.    
-				</p>
-			</div>
-	</div>
-</div>
-<div class="column-right">
-	<div class="techtalk-bio">
 		<img class="techtalk-img" src="/img/talks/kramer.jpg">
 			<div class="info">
 				<h3>Kwindla H. Kramer</h3>
@@ -90,17 +104,6 @@
 				</p>
 			</div>
 	</div>
-	<div class="techtalk-bio" style="opacity:0.3">
-		<img class="techtalk-img" src="/img/talks/matsuoka.jpg">
-			<div class="info">
-				<h3>Dr. Yoky Matsuoka</h3>
-				<h4>VP of Technology, Nest Labs</h4>
-				<p>
-				  <i>Developer of Nest's next-generation Learning Thermostat, MacArthur Fellow  </i>
-				  <br>
-				  Yoky Matsuoka is VP of Technology at Nest Labs (<a href="http://www.nest.com">www.nest.com</a>). She received her Ph.D. at MIT in Electrical Engineering and Computer Science in the fields of Artificial Intelligence and Computational Neuroscience.  She received an M.S. from MIT and a B.S. from UC Berkeley, both in EECS.  She was also a Postdoctoral Fellow in the Brain and Cognitive Sciences at MIT and in Mechanical Engineering at Harvard University.  She was Torode Family Endowed Career Development Professor of Computer Science and Engineering at the University of Washington, Director of NSF ERC Center for Sensorimotor Neural Engineering, and Ana Loomis McCandless Professor of Robotics and Mechanical Engineering at Carnegie Mellon University.  Her work has been recognized with a MacArthur Fellowship, acclaimed as one of “The Brilliant Ten” in Popular Science Magazine, “Top 10 Women to Watch in 2010” by Barbie, and "Power 25” in Seattle Magazine.
-				</p>
-			</div>
-	</div>
+	
 </div>
 <div class="column-bottom"></div>
