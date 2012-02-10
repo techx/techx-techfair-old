@@ -25,13 +25,14 @@
     <h1>Schedule</h1>
 	<div style="height:10px"></div>
 	<ul id="talks-schedule">
-	    <li><span class="time">11am</span> Yoky Matsuoka, <span class="title">Robots and Thermostats: More in Common Than You'd Think</span></li>
+	    <li style="opacity:0.1"><span class="time">11am</span> Yoky Matsuoka, <span class="title">CANCELLED*</span></li>
 	    <li><span class="time">noon</span> Janet Baker, <span class="title">Being Listened To - Speech Recognition; Past, Present, and Future!</span></li>
 	    <li><span class="time">1pm</span> lunch break in Lobby 13</li>
 	    <li><span class="time">2pm</span> Ed Boyden, <span class="title">Engineering the Brain</span></li>
 	    <li><span class="time">3pm</span> Brian Kalma, <span class="title">Technology and Design in eCommerce</li>
 	    <li><span class="time">4pm</span> Kwindla Kramer, <span class="title">The Future of Computing: Multi-user, Multi-machine, Multi-device</li>
 	</u>
+	<p>* Unfortunately, Yoky is sick and will not be able to make it. Techtalks will start at noon instead.
 </div>
 <div class="column-bottom">
 	<div style="height:20px"></div>
@@ -89,7 +90,7 @@
 				</p>
 			</div>
 	</div>
-	<div class="techtalk-bio">
+	<div class="techtalk-bio" style="opacity:0.3">
 		<img class="techtalk-img" src="/img/talks/matsuoka.jpg">
 			<div class="info">
 				<h3>Dr. Yoky Matsuoka</h3>
