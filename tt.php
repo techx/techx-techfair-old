@@ -3,17 +3,17 @@ if (isset($_POST['email'])):
     //$email = mysql_real_escape_string($_POST['email']);
     $email = $_POST['email'];
     $full_email = $email;
-      echo 'SUCCESS';
-      $mysqli = new mysqli('mysql.mit.edu','techfair','02139techfair','techfair+dayof');
-      if (mysqli_connect_errno()) { 
-          echo 'FAILURE';
-          exit(); 
-      }
-      $stmt = $mysqli->prepare("INSERT INTO techtalks2012 (email) VALUES (?)");
-      $stmt->bind_param('s',$full_email);
-      $stmt->execute();
-      $stmt->close();
-      $mysqli->close();
+    echo 'SUCCESS';
+    $mysqli = new mysqli('mysql.mit.edu','techfair','02139techfair','techfair+dayof');
+    if (mysqli_connect_errno()) { 
+        echo 'FAILURE';
+        exit(); 
+    }
+    $stmt = $mysqli->prepare("INSERT INTO techtalks2012 (email) VALUES (?)");
+    $stmt->bind_param('s',$full_email);
+    $stmt->execute();
+    $stmt->close();
+    $mysqli->close();
 else:
 ?>
 <!DOCTYPE html>
@@ -96,7 +96,7 @@ else:
                 $('.message').hide();
                 $('#form').submit(function(){
                     if ($('#email').val()!='') {
-                        $.post('/r.php',{'email': $('#email').val()},function(data){
+                        $.post('/tt.php',{'email': $('#email').val()},function(data){
                             $('#email').val('');
                             if(data!="FAILURE") var div = $('#success');
                             else var div = $('#failure');
@@ -113,10 +113,10 @@ else:
     </head>
     <body>
         <div id="container">
-            <h1>Welcome to MIT Techfair!</h1>
+            <h1>Welcome to Techtalks!</h1>
             <form action="" method="post" id="form">
-                <label for="email"><span class="button">ENTER</span> to submit your MIT email</label>
-                <input type="text" id="email" name="email" placeholder="MIT Email"autocomplete="off"/>
+                <label for="email"><span class="button">ENTER</span> to submit your email</label>
+                <input type="text" id="email" name="email" placeholder="We don't spam, promise!"autocomplete="off"/>
             </form>
             <div id="success" class="message">Thanks!</div>
             <div id="failure" class="message">Try again!</div>
