@@ -20,6 +20,8 @@
 	<p><a href="http://whereis.mit.edu/?go=10-250">Building 10, Room 250</a>
 	  <br>Google Map: <a href="http://g.co/maps/gwj6m">http://g.co/maps/gwj6m</a></p>
 	<p>77 Massachusetts Ave<br />Cambridge, MA 02139</p>
+	<h2>Getting Here</h2>	
+	You may be able to find parking on Memorial Drive, Ames Street, or on various <a href="http://whereis.mit.edu/?mapterms=public+parking">public parking lots</a>, but we recommend taking public transit if possible. The nearest T stop is Kendall/MIT on the MBTA red line.
 </div>
 <div class="column-bottom">
     <div style="height:20px"></div>
