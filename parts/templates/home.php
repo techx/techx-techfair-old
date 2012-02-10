@@ -73,7 +73,7 @@
 					</div>
 					<div id="mini-schedule">
 						<div id="mini-schedule-content">
-							<h2>Techtalks Schedule</h2>
+							<h2>Speaker Schedule</h2>
 							<h3>Full Schedule and Bios <a href="/events/talks">Here</a></h3>
 							<table cellpadding=4 cellspacing=5 RULES=ROWS>
                 <tr>
@@ -88,7 +88,7 @@
                 </tr>
                 <tr>
                   <td><strong>Janet Baker</strong>
-                  <td>Speech Recognition; Past, Present, and Future!
+                  <td>Being Listened To
                   <td>12pm
                 </tr>
                 <tr>
@@ -103,7 +103,7 @@
                 </tr>
                 <tr>
                   <td><strong>Brian Kalma</strong>
-                  <td>Technology and Design in E-Commerce
+                  <td>Technology and Design in eCommerce
                   <td>3pm
                 </tr>
                 <tr>

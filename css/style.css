@@ -859,9 +859,9 @@ table#schedule td, table#schedule th {
 }
 #mini-schedule-button {
 	position: absolute;
-	top: 261px;
-	left: -315px;
-	width: 199px;
+	top: 291px;
+	left: -320px;
+	width: 225px;
 	height: 45px;
 	text-align: left;
 	background:transparent;
