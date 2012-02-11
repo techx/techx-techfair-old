@@ -135,10 +135,10 @@ else:
             <h1>Welcome to Techtalks!</h1>
 			<p>Please take a second to register (and sign up for the raffle)!</p>
             <form action="" method="post" id="form">
-                <label for="email">Press <span class="button">ENTER</span> to submit.</label>
                 <input type="text" id="name" name="name" placeholder="Name"autocomplete="off"/><br />
                 <input type="text" id="email" name="email" placeholder="Email"autocomplete="off"/><br />
                 <input type="text" id="affiliation" name="affiliation" placeholder="Affiliation (optional)"autocomplete="off"/><br />
+                <label for="email">Press <span class="button">ENTER</span> to submit.</label>
 				<div style="visibility:hidden">
 				<input type="submit" />
 				</div>
