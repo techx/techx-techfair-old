@@ -4,17 +4,21 @@ if (isset($_POST['email'])):
     $email = $_POST['email'];
 	$name = $_POST['name'];
 	$affiliation = $_POST['affiliation'];
+	if ($email == '' || $name == '' || $affiliation == '') {
+		echo 'FAILURE';
+		exit();
+	}
     $mysqli = new mysqli('mysql.mit.edu','techfair','02139techfair','techfair+dayof');
     if (mysqli_connect_errno()) { 
         echo 'FAILURE';
         exit(); 
     }
-    echo 'SUCCESS';
     $stmt = $mysqli->prepare("INSERT INTO techtalks2012 (email, name, affiliation) VALUES (?, ?, ?)");
     $stmt->bind_param('sss',$email,$name,$affiliation);
     $stmt->execute();
     $stmt->close();
     $mysqli->close();
+    echo 'SUCCESS';
 else:
 ?>
 <!DOCTYPE html>
