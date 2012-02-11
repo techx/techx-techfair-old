@@ -52,7 +52,7 @@
         <div id="slideshow">
             <div id="info">
                 <h2>Techfair Techtalks</h2>
-                <h3>Saturday, February 11, 11am-5pm</h3>
+                <h3>Saturday, February 11, 12pm-5pm</h3>
                 <h4>MIT Campus (Building 10, Room 250)</h4>
                 <p>
                     <!--With <strong><a href="/companies/exhibitorlist/">over 60 companies and 30 student projects</a></strong>, this year's student-run expo is bound to be the largest yet. Checkout the booklet with detailed descriptions <a href="/booklet.pdf">here</a>.-->
@@ -82,12 +82,7 @@
                   <th><strong>Time</strong>
                 </tr>
                 <tr>
-                  <td width=120><strong>Yoky Matsuoka</strong>
-                  <td>Robots and Thermostats 
-                  <td>11am
-                </tr>
-                <tr>
-                  <td><strong>Janet Baker</strong>
+                  <td width=120><strong>Janet Baker</strong>
                   <td>Being Listened To
                   <td>12pm
                 </tr>
