@@ -54,7 +54,7 @@ else:
                 display: block;
                 color: #AAA;
                 text-shadow: #000 0 -1px 0;
-                margin-bottom: 10px;
+                margin-top: 10px;
             }
             input[type=text] {
                 font-size: 2em;
