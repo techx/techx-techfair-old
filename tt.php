@@ -100,9 +100,12 @@ else:
             $(document).ready(function(){
                 $('.message').hide();
                 $('#form').submit(function(){
-					alert('sub');
                     if ($('#email').val()!='') {
-                        $.post('/tt.php',{'email': $('#email').val()},function(data){
+                        $.post('/tt.php',{
+							'email': $('#email').val(),
+							'name': $('#name').val(),
+							'affiliation': $('#affiliation').val()
+						},function(data){
                             $('#email').val('');
 							$("#name").val('');
 							$('#affiliation').val('');
