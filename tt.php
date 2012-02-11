@@ -119,6 +119,7 @@ else:
 	                            $('#email').val('');
 								$("#name").val('');
 								$('#affiliation').val('');
+								$('#email').focus();
 							} else {
 								div = $('#failure');
 							}
