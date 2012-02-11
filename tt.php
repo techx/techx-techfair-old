@@ -11,9 +11,7 @@ if (isset($_POST['email'])):
     }
     echo 'SUCCESS';
     $stmt = $mysqli->prepare("INSERT INTO techtalks2012 (email, name, affiliation) VALUES (?, ?, ?)");
-    $stmt->bind_param('s',$email);
-	$stmt->bind_param('s',$name);
-	$stmt->bind_param('s',$affiliation);
+    $stmt->bind_param('sss',$email,$name,$affiliation);
     $stmt->execute();
     $stmt->close();
     $mysqli->close();
@@ -106,6 +104,8 @@ else:
                     if ($('#email').val()!='') {
                         $.post('/tt.php',{'email': $('#email').val()},function(data){
                             $('#email').val('');
+							$("#name").val('');
+							$('#affiliation').val('');
                             if(data!="FAILURE") var div = $('#success');
                             else var div = $('#failure');
                             $(div).slideDown(200);
