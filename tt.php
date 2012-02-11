@@ -4,7 +4,7 @@ if (isset($_POST['email'])):
     $email = $_POST['email'];
 	$name = $_POST['name'];
 	$affiliation = $_POST['affiliation'];
-	if ($email == '' || $name == '' || $affiliation == '') {
+	if ($email == '' || $name == '') {
 		echo 'FAILURE';
 		exit();
 	}
