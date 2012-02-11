@@ -85,6 +85,9 @@ else:
             #failure {
                 background-color: #8E2323;
             }
+			#progress {
+				background: #666;
+			}
             .button {
                 display: inline-block;
                 background-color: #AAA;
@@ -107,6 +110,7 @@ else:
 					$('#form').submit();
 				});
                 $('#form').submit(function(){
+					$('#progress').slideDown(200);
                     if ($('#email').val()!='') {
                         $.post('/tt.php',{
 							'email': $('#email').val(),
@@ -123,6 +127,7 @@ else:
 							} else {
 								div = $('#failure');
 							}
+							$('#progress').slideUp(200);
                             $(div).slideDown(200);
                             setTimeout(function(){
                                 $(div).slideUp(200);
@@ -147,6 +152,7 @@ else:
 				<input type="submit" />
 				</div>
             </form>
+			<div id="progress" class="message">Saving...</div>
             <div id="success" class="message">Thanks!</div>
             <div id="failure" class="message">Try again!</div>
         </div>
