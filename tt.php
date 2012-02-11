@@ -110,11 +110,15 @@ else:
 							'name': $('#name').val(),
 							'affiliation': $('#affiliation').val()
 						},function(data){
-                            $('#email').val('');
-							$("#name").val('');
-							$('#affiliation').val('');
-                            if(data!="FAILURE") var div = $('#success');
-                            else var div = $('#failure');
+							var div;
+                            if(data!="FAILURE") {
+								div = $('#success');
+	                            $('#email').val('');
+								$("#name").val('');
+								$('#affiliation').val('');
+							} else {
+								div = $('#failure');
+							}
                             $(div).slideDown(200);
                             setTimeout(function(){
                                 $(div).slideUp(200);
