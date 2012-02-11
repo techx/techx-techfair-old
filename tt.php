@@ -86,7 +86,7 @@ else:
                 background-color: #8E2323;
             }
 			#progress {
-				background: #666;
+				background: #0099CC;
 			}
             .button {
                 display: inline-block;
