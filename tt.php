@@ -127,11 +127,13 @@ else:
 							} else {
 								div = $('#failure');
 							}
-							$('#progress').slideUp(200);
-                            $(div).slideDown(200);
-                            setTimeout(function(){
-                                $(div).slideUp(200);
-                            },1000);
+							$('#progress').slideUp(200, function() {
+	                            $(div).slideDown(200);
+	                            setTimeout(function(){
+	                                $(div).slideUp(200);
+	                            },1000);
+								
+							});
                         });
                     }
                     return false;
