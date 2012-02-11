@@ -2,15 +2,18 @@
 if (isset($_POST['email'])):
     //$email = mysql_real_escape_string($_POST['email']);
     $email = $_POST['email'];
-    $full_email = $email;
-    echo 'SUCCESS';
+	$name = $_POST['name'];
+	$affiliation = $_POST['affiliation'];
     $mysqli = new mysqli('mysql.mit.edu','techfair','02139techfair','techfair+dayof');
     if (mysqli_connect_errno()) { 
         echo 'FAILURE';
         exit(); 
     }
-    $stmt = $mysqli->prepare("INSERT INTO techtalks2012 (email) VALUES (?)");
-    $stmt->bind_param('s',$full_email);
+    echo 'SUCCESS';
+    $stmt = $mysqli->prepare("INSERT INTO techtalks2012 (email, name, affiliation) VALUES (?, ?, ?)");
+    $stmt->bind_param('s',$email);
+	$stmt->bind_param('s',$name);
+	$stmt->bind_param('s',$affiliation);
     $stmt->execute();
     $stmt->close();
     $mysqli->close();
@@ -52,12 +55,12 @@ else:
                 margin-bottom: 10px;
             }
             input[type=text] {
-                font-size: 3em;
-                padding: 0.2em;
+                font-size: 2em;
+                padding: 0.5em;
                 border: 3px solid #000;
                 border-radius: 10px;
                 width: 600px;
-                text-align: center;
+                text-align: left;
             }
             .message {
                 font-size: 2em;
@@ -89,12 +92,17 @@ else:
                 border-radius: 2px;
                 -moz-border-radius: 2px;
             }
+			p {
+				color: #FFF;
+				font-size: 22px;
+			}
         </style>
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
         <script>
             $(document).ready(function(){
                 $('.message').hide();
                 $('#form').submit(function(){
+					alert('sub');
                     if ($('#email').val()!='') {
                         $.post('/tt.php',{'email': $('#email').val()},function(data){
                             $('#email').val('');
@@ -114,9 +122,15 @@ else:
     <body>
         <div id="container">
             <h1>Welcome to Techtalks!</h1>
+			<p>Please take a second to register (and sign up for the raffle)!</p>
             <form action="" method="post" id="form">
-                <label for="email"><span class="button">ENTER</span> to submit your email</label>
-                <input type="text" id="email" name="email" placeholder="We don't spam, promise!"autocomplete="off"/>
+                <label for="email"><span class="button">ENTER</span> to submit.</label>
+                <input type="text" id="name" name="name" placeholder="Name"autocomplete="off"/><br />
+                <input type="text" id="email" name="email" placeholder="Email"autocomplete="off"/><br />
+                <input type="text" id="affiliation" name="affiliation" placeholder="Affiliation (optional)"autocomplete="off"/><br />
+				<div style="visibility:hidden">
+				<input type="submit" />
+				</div>
             </form>
             <div id="success" class="message">Thanks!</div>
             <div id="failure" class="message">Try again!</div>
