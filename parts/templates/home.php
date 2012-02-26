@@ -51,67 +51,10 @@
         ?>
         <div id="slideshow">
             <div id="info">
-                <h2>Techfair Techtalks</h2>
-                <h3>Saturday, February 11, 12pm-5pm</h3>
-                <h4>MIT Campus (Building 10, Room 250)</h4>
-                <p>
-                    <!--With <strong><a href="/companies/exhibitorlist/">over 60 companies and 30 student projects</a></strong>, this year's student-run expo is bound to be the largest yet. Checkout the booklet with detailed descriptions <a href="/booklet.pdf">here</a>.-->
-                    Thanks for a successful Techfair 2012. We have a brand new event on Saturday, Techfair <a href="/events/talks/">Techtalks</a>.  
-                </p>
-                <p>
-                    Come attend hourly talks given by industry leaders and visionaries on the future of technology. 
-                </p>
-                <p>
-                    Register for Techtalks on <a href="http://tf-techtalks.eventbrite.com/">EventBrite</a>.
-                </p>
-				<div id="mini-schedule-container">
-					<div id="mini-schedule-grow-button"></div>
-					<div id="mini-schedule-button">
-						<div style="padding: 3px 0px 8px 12px; background: rgba(104, 196, 252, 1.0)">
-						  <h3>Speaker Schedule &gt;</h3>
-						  </div>
-					</div>
-					<div id="mini-schedule">
-						<div id="mini-schedule-content">
-							<h2>Speaker Schedule</h2>
-							<h3>Full Schedule and Bios <a href="/events/talks">Here</a></h3>
-							<table cellpadding=4 cellspacing=5 RULES=ROWS>
-                <tr>
-                  <th><strong>Speaker</strong>
-                  <th><strong>Topic</strong>
-                  <th><strong>Time</strong>
-                </tr>
-                <tr>
-                  <td width=120><strong>Janet Baker</strong>
-                  <td>Being Listened To
-                  <td>12pm
-                </tr>
-                <tr>
-                  <td><strong>Free lunch!</strong>
-                  <td>
-                  <td>1pm
-                </tr>
-                <tr>
-                  <td><strong>Ed Boyden</strong>
-                  <td>Engineering the Brain
-                  <td>2pm
-                </tr>
-                <tr>
-                  <td><strong>Brian Kalma</strong>
-                  <td>Technology and Design in eCommerce
-                  <td>3pm
-                </tr>
-                <tr>
-                  <td><strong>Kwindla Kramer</strong>
-                  <td>The Future of Computing
-                  <td>4pm
-                </tr>
-              </table>
-              
-						</div>
-					</div>
-				</div>
-					
+                <h2>MIT Techfair</h2>
+                <p>A huge thanks goes to everybody who came and helped make Techfair 2012 the largest yet!</p>
+                <p>We're already busy prepping for Techfair 2013 and cannot wait to see everybody against next year. Until then, check out the pictures from the event <a href="#">here</a>.</p>
+                <p>Techtalks, our newest event, saw attendees from throughout the Boston area. If you missed it, <a href="#">click through</a> to watch the videos.</p>
             </div>
 			
             <div id="overlay">
