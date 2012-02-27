@@ -1,43 +1,43 @@
+<link rel="stylesheet" href="/css/video-js.min.css" />
+<script src="/js/video.min.js"></script>
+
 <div class="column-top">
 	<h1>Techtalks</h1>
 	<p>Coming? Make sure to <a href="http://tf-techtalks.eventbrite.com/">register on Eventbrite</a> and <a href="https://www.facebook.com/events/361528593864060/">RSVP on Facebook</a>!</p>
+	<h2>Videos from Techtalks 2012</h2>
+	<p></p>
+	<div class="video-thumb">
+		<a href="#" class="video-link" id="video-link-baker"><img src="/img/video_baker_thumb.png" alt="Dr. Janet Baker"></a>
+		<p>Dr. Janet Baker</p><!--<p style="font-size:10px">Being Listened To - Speech Recognition; Past, Present, and Future!</p>-->
+	</div>
+	<div class="video-thumb">
+		<a href="#" class="video-link" id="video-link-boyden"><img src="/img/video_boyden_thumb.png" alt="Ed Boyden"></a>
+		<p>Ed Boyden</p>
+	</div>
+	
+	<div class="video-thumb">
+		<a href="#" class="video-link" id="video-link-kalma"><img src="/img/video_kalma_thumb.png" alt="Brian Kalma"></a>
+		<p>Brian Kalma</p>
+	</div>
+	<div class="video-thumb">
+		<a href="#" class="video-link" id="video-link-kramer"><img src="/img/video_kramer_thumb.png" alt="Kwindla H. Kramer"></a>
+		<p>Kwindla H. Kramer</p>
+	</div>
+	
+	<div class="clear"></div>
+	
 </div>
+
 <div class="column-left">
 <h2>About</h2>
 	<p>Introducing the newest Techfair event! Come hear industry leaders and visionaries talk about their own perspectives on various aspects of tech and innovation.</p>
-	<p><strong>We'll be raffling a Macbook Air and a 42" television</strong> - your expected value of attending is at least $5.</p>
-	<p><small>Attendees in the morning will receive a ticket at the door, and a second round of tickets will be given out after lunch. Raffles will be announced after the last speaker, must be present to win. Only those who attended both Techfair and Techtalks are eligible to win the Macbook Air.</small></p>
+	</div>
+<div class="column-right">
 	<h2>Attendees</h2>
 	<p><strong>Everyone is invited</strong> - Boston area students, entrepreneurs, and tech enthusiasts alike.</p>
     <p>Registration is required to attend - please register at <a href="http://tf-techtalks.eventbrite.com/">http://tf-techtalks.eventbrite.com/</a>. (MIT students do not need to register.)</p>
-    <p>Can't make it? No worries, we'll be posting the videos here after the event.</p>
 </div>
-<div class="column-right">
-	<h2>Time</h2>
-	<p>Saturday, February 11, 2012
-	  <br>12pm-5pm (Lunch will be provided.)</p>
-	<h2>Location</h2>
-	<p><a href="http://whereis.mit.edu/?go=10-250">Building 10, Room 250</a>
-	  <br>Google Map: <a href="http://g.co/maps/gwj6m">http://g.co/maps/gwj6m</a></p>
-	<p>77 Massachusetts Ave<br />Cambridge, MA 02139</p>
-	<h2>Getting Here</h2>	
-	  <p>You may be able to find parking on Memorial Drive, Ames Street, or on various <a href="http://whereis.mit.edu/?mapterms=public+parking">public parking lots</a>, but we recommend taking public transit if possible. The nearest T stop is Kendall/MIT on the MBTA red line.
-	    </p>
-</div>
-<div class="column-bottom">
-    <div style="height:20px"></div>
-    <h1>Schedule</h1>
-	<div style="height:10px"></div>
-	<ul id="talks-schedule">
-	    <li style="opacity:0.1"><span class="time">11am</span> Yoky Matsuoka, <span class="title">CANCELLED*</span></li>
-	    <li><span class="time">noon</span> Janet Baker, <span class="title">Being Listened To - Speech Recognition; Past, Present, and Future!</span></li>
-	    <li><span class="time">1pm</span> lunch break in Lobby 13</li>
-	    <li><span class="time">2pm</span> Ed Boyden, <span class="title">Engineering the Brain</span></li>
-	    <li><span class="time">3pm</span> Brian Kalma, <span class="title">Technology and Design in eCommerce</li>
-	    <li><span class="time">4pm</span> Kwindla Kramer, <span class="title">The Future of Computing: Multi-user, Multi-machine, Multi-device</li>
-	</u>
-	<p>* Unfortunately, Dr. Matsuoka cannot make the talks due to illness. Techtalks will start at noon instead.
-</div>
+
 <div class="column-bottom">
 	<div style="height:20px"></div>
 	<h1>Speakers</h1>
@@ -71,19 +71,6 @@
 			</div>
 	</div>
 	
-	<div class="techtalk-bio" style="opacity:0.3">
-		<img class="techtalk-img" src="/img/talks/matsuoka.jpg">
-			<div class="info">
-				<h3>Dr. Yoky Matsuoka</h3>
-				<h4>VP of Technology, Nest Labs</h4>
-				<p>
-				  <i>Developer of Nest's next-generation Learning Thermostat, MacArthur Fellow  </i>
-				  <br>
-				  Yoky Matsuoka is VP of Technology at Nest Labs (<a href="http://www.nest.com">www.nest.com</a>). She received her Ph.D. at MIT in Electrical Engineering and Computer Science in the fields of Artificial Intelligence and Computational Neuroscience.  She received an M.S. from MIT and a B.S. from UC Berkeley, both in EECS.  She was also a Postdoctoral Fellow in the Brain and Cognitive Sciences at MIT and in Mechanical Engineering at Harvard University.  Her work has been recognized with a MacArthur Fellowship, acclaimed as one of “The Brilliant Ten” in Popular Science Magazine, “Top 10 Women to Watch in 2010” by Barbie, and "Power 25” in Seattle Magazine.
-				</p>
-			</div>
-	</div>
-	
 </div>
 <div class="column-right">
 	<div class="techtalk-bio">
@@ -111,3 +98,120 @@
 	
 </div>
 <div class="column-bottom"></div>
+<div class="video-overlay" id="video-overlay-baker" style="display:none">
+    <video id="video-baker" class="video-js vjs-default-skin" controls preload="none" width="800" height="450"
+        poster="/img/video_baker.png"
+        data-setup="{}">
+        <source src="https://s3.amazonaws.com/techfair/baker.mp4" type='video/mp4' />
+    </video>
+</div>
+<div class="video-overlay" id="video-overlay-boyden" style="display:none">
+    <video id="video-boyden" class="video-js vjs-default-skin" controls preload="none" width="800" height="450"
+        poster="/img/video_boyden.png"
+        data-setup="{}">
+        <source src="https://s3.amazonaws.com/techfair/boyden.mp4" type='video/mp4' />
+    </video>
+</div>
+<div class="video-overlay" id="video-overlay-kalma" style="display:none">
+    <video id="video-kalma" class="video-js vjs-default-skin" controls preload="none" width="800" height="450"
+        poster="/img/video_kalma.png"
+        data-setup="{}">
+        <source src="https://s3.amazonaws.com/techfair/kalma.mp4" type='video/mp4' />
+    </video>
+</div>
+<div class="video-overlay" id="video-overlay-kramer" style="display:none">
+    <video id="video-kramer" class="video-js vjs-default-skin" controls preload="none" width="800" height="450"
+        poster="/img/video_kramer.png"
+        data-setup="{}">
+        <source src="https://s3.amazonaws.com/techfair/kramer.mp4" type='video/mp4' />
+    </video>
+</div>
+
+<script>
+    $('#video-link-baker').click(function() {
+        $('#video-overlay-baker').show();
+        return false;
+    });
+	$('#video-link-boyden').click(function() {
+        $('#video-overlay-boyden').show();
+        return false;
+    });
+	$('#video-link-kalma').click(function() {
+        $('#video-overlay-kalma').show();
+        return false;
+    });
+	$('#video-link-kramer').click(function() {
+        $('#video-overlay-kramer').show();
+        return false;
+    });
+    $('.video-js').live('click', function(e) {
+        return false;
+    });
+    $('#video-overlay-baker').live('click', function() {
+        $('#video-overlay-baker').hide();
+        _V_("#video-baker").ready(function(){
+            var myPlayer = this;
+            myPlayer.pause();
+            myPlayer.currentTime(0);
+        });
+		
+    });
+	$('#video-overlay-boyden').live('click', function() {
+        $('#video-overlay-boyden').hide();
+        _V_("#video-boyden").ready(function(){
+            var myPlayer = this;
+            myPlayer.pause();
+            myPlayer.currentTime(0);
+        });
+		
+    });
+	$('#video-overlay-kalma').live('click', function() {
+        $('#video-overlay-kalma').hide();
+        _V_("#video-kalma").ready(function(){
+            var myPlayer = this;
+            myPlayer.pause();
+            myPlayer.currentTime(0);
+        });
+		
+    });
+	$('#video-overlay-kramer').live('click', function() {
+        $('#video-overlay-kramer').hide();
+        _V_("#video-kramer").ready(function(){
+            var myPlayer = this;
+            myPlayer.pause();
+            myPlayer.currentTime(0);
+        });
+		
+    });
+</script>
+<style>
+    .video-overlay {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: rgba(0,0,0,0.5);
+    }
+    .video-overlay .video-js {
+        margin-left: -400px;
+        margin-top: -250px;
+        left: 50%;
+        top: 50%;
+        position: absolute;
+    }
+	.video-link{
+		display:block;
+		width:100%;
+		height:100%;
+	}
+	.video-thumb{
+		margin-right:90px;
+		float:left;
+		width:150px
+	}
+	
+	.video-thumb img:hover{
+		opacity: 0.7;
+	}
+</style>
