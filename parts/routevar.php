@@ -64,6 +64,11 @@ $routes = array(
 		    'content' => 'pages/events/party.php',
 		    'name' => 'Afterparty'
 		),
+		'photos' => array(
+		    'title' => '2012 Photos / '.$basetitle,
+		    'content' => 'pages/events/photos.php',
+		    'name' => '2012 Photos'
+		),
 		/*
 		'afterparty' => array(
 			'title' => 'Afterparty / '.$basetitle,
