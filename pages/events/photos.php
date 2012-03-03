@@ -13,7 +13,7 @@ $sample = array(
 	'/img/photos/1-7' => 'Snacks and coding all night long--what more could you want?.',
 	'/img/photos/2-1' => 'What better way to celebrate Fair day than with cake?',
 	'/img/photos/2-2' => 'Students enjoyed Smule\'s fantastic <a href=glee.smule.com>Glee Karaoke System</a>.',
-	'/img/photos/2-3' => 'Stark Industries--Just Like in Iron Man--is a student organization.',
+	'/img/photos/2-3' => 'Stark Industries, a student organization, demos their high-tech prostheses along with the Iron Man exoskeleton and ARC reactor.',
 	'/img/photos/2-4' => 'Nest demos their iPad-controllable thermostat.',
 	'/img/photos/2-5' => 'The MIT Hobby Shop exhibits various student projects.',
 	'/img/photos/2-6' => 'Students take a brief break from the rush of activities.',
