@@ -12,7 +12,7 @@ $sample = array(
 	'/img/photos/1-6' => 'The coders worked in teams.',
 	'/img/photos/1-7' => 'Snacks and coding all night long--what more could you want?.',
 	'/img/photos/2-1' => 'What better way to celebrate Fair day than with cake?',
-	'/img/photos/2-2' => 'Smule .',
+	'/img/photos/2-2' => 'Students enjoyed Smule\'s fantastic <a href=glee.smule.com>Glee Karaoke System</a>.',
 	'/img/photos/2-3' => 'Stark Industries--Just Like in Iron Man--is a student organization.',
 	'/img/photos/2-4' => 'Nest demos their iPad-controllable thermostat.',
 	'/img/photos/2-5' => 'The MIT Hobby Shop exhibits various student projects.',
@@ -67,6 +67,6 @@ $sample = array(
 <p>Below you'll find just an excerpt of all the great photos from Techfair 2012. We had a blast - see you at Techfair 2013!</p>
 <?php
 foreach($sample as $filename=>$caption) {
-    echo '<a href="',$filename.jpg,'" rel="lightbox[tf]" title="',$caption,'"><img src="',$filename-thumb.jpg,'" style="padding-left: 2px; padding-right: 2px;"></a>';
+    echo '<a href="'.$filename.'.jpg" rel="lightbox[tf]" title="'.$caption.'"><img src="'.$filename.'-thumb.jpg" style="padding-left: 2px; padding-right: 2px;"></a>';
 }
 ?>
