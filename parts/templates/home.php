@@ -53,8 +53,8 @@
             <div id="info">
                 <h2>MIT Techfair</h2>
                 <p>A huge thanks goes to everybody who came and helped make Techfair 2012 the largest yet!</p>
-                <p>We're already busy prepping for Techfair 2013 and cannot wait to see everybody against next year. Until then, check out the pictures from the event <a href="#">here</a>.</p>
-                <p>Techtalks, our newest event, saw attendees from throughout the Boston area. If you missed it, <a href="#">click through</a> to watch the videos.</p>
+                <p>We're already busy prepping for Techfair 2013 and cannot wait to see everybody against next year. Until then, check out the pictures from the event <a href="/photos">here</a>.</p>
+                <p>Techtalks, our newest event, saw attendees from throughout the Boston area. If you missed it, <a href="/talks">click here</a> to watch the videos.</p>
             </div>
 			
             <div id="tf-overlay">
