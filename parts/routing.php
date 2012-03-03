@@ -22,8 +22,11 @@ else
 	/*
 	 * SHORTCUTS
 	 */	
-	if ($sectionName=='demos') {
-	    $redirect = true;
+	if ($sectionName=='feedback') {
+    $redirect = true;
+		header('Location: http://techfair.wufoo.com/forms/techfair-feedback-survey/');
+	} elseif ($sectionName=='demos') {
+    $redirect = true;
 		header('Location: /companies/demos/');
 	} elseif ($sectionName=='av') {
 		$redirect = true;
