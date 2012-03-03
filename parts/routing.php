@@ -73,6 +73,9 @@ else
   } elseif ($sectionName=='party') {
     $redirect = true;
 		header('Location: /events/afterparty');
+  }	elseif ($sectionName=='photos') {
+    $redirect = true;
+		header('Location: /events/photos');
   } else {
 		$redirect = false;
 	}
