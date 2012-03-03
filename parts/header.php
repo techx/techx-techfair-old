@@ -48,7 +48,7 @@ function make_header($sectionName,$subSectionName,$routes)
 											<?php $uniqueName=''; 
 										 		switch($printkey){
 													case "events/":
-														$uniqueName = "Schedule";
+														$uniqueName = "Summary of Events";
 														break;
 													case "companies/":
 														$uniqueName = "Get Involved";
@@ -75,6 +75,9 @@ function make_header($sectionName,$subSectionName,$routes)
 													<?php if($page['name']=="The Fair"):
 															$fairClass = "bold";
 															$page['name'] = '<img src="/img/right.png"> The Fair';
+														  elseif($page['name']=="2012 Photos"):
+															$fairClass = "bold";
+															$page['name'] = '<img src="/img/right.png"> 2012 Photos';
 														  else:
 															$fairClass = "fillerClass";
 														  endif;	?>
