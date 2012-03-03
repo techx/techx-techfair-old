@@ -51,10 +51,10 @@
         ?>
         <div id="slideshow">
             <div id="info">
-                <h2>MIT Techfair</h2>
-                <p>A huge thanks goes to everybody who came and helped make Techfair 2012 the largest yet!</p>
-                <p>We're already busy prepping for Techfair 2013 and cannot wait to see everybody against next year. Until then, check out the pictures from the event <a href="/photos">here</a>.</p>
-                <p>Techtalks, our newest event, saw attendees from throughout the Boston area. If you missed it, <a href="/talks">click here</a> to watch the videos.</p>
+                <h2>Welcome</h2>
+                <p>Thanks for an awesome Techfair 2012!</p>
+                <p>Check out the pictures <a href="/photos">here</a>.</p>
+                <p>Techtalks, our newest event, saw attendees from throughout the Boston area. If you missed it, <a href="/talks">click here</a> to watch the talks.</p>
             </div>
 			
             <div id="tf-overlay">
