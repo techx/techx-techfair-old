@@ -1,6 +1,6 @@
-<script type="text/javascript" src="js/prototype.js"></script>
-<script type="text/javascript" src="js/scriptaculous.js?load=effects,builder"></script>
-<script type="text/javascript" src="js/lightbox.js"></script>
+<script type="text/javascript" src="/js/lightbox/prototype.js"></script>
+<script type="text/javascript" src="/js/lightbox/scriptaculous.js?load=effects,builder"></script>
+<script type="text/javascript" src="/js/lightbox/lightbox.js"></script>
 
 <?php
 $sample = array(
@@ -61,8 +61,8 @@ $sample = array(
 	'/img/photos/4-3.jpg' => 'Kwindla Kramer, CEO of Oblog Industries, speaking on multi-user interfaces.',
 	'/img/photos/4-4.jpg' => 'Audience questions were entertained after each talk.',
 );
-foreach($array as $filename=>$caption) {
-    echo '<a href="',$filename" rel='lightbox' title="',$caption"><img src="',$filename" style='height: 100px; width: 150px;'></a>';
+foreach($sample as $filename=>$caption) {
+    echo '<a href="',$filename,'" rel="lightbox" title="',$caption,'"><img src="',$filename,'" style="height: 100px; width: 150px;"></a>';
 }
 ?>
 

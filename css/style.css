@@ -741,7 +741,7 @@ table#schedule td, table#schedule th {
    overflow: hidden;
    position: relative;
 }
-#overlay {
+#tf-overlay {
    position: absolute;
    top: 20px;
    height: 665px;

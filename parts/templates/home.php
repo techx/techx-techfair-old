@@ -57,7 +57,7 @@
                 <p>Techtalks, our newest event, saw attendees from throughout the Boston area. If you missed it, <a href="#">click through</a> to watch the videos.</p>
             </div>
 			
-            <div id="overlay">
+            <div id="tf-overlay">
 				<div id="homepage-video">
 					<a href="http://www.youtube.com/watch?v=bzc4ge3H6hA" rel="prettyPhoto"></a>
 				</div>
