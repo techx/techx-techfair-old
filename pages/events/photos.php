@@ -4,9 +4,9 @@
 
 <?php
 $sample = array(
-    '/img/photos/1-1.jpg' => 'MIT students hard at work during the Facebook Hackathon.',
+  '/img/photos/1-1.jpg' => 'MIT students hard at work during the Facebook Hackathon.',
 	'/img/photos/1-2.jpg' => 'Students from travelled from Brown and Harvard to MIT to participate in the Facebook Hackathon.',
-    '/img/photos/1-3.jpg' => 'Halfway through a night of non-stop coding and the participants are still going strong.',
+  '/img/photos/1-3.jpg' => 'Halfway through a night of non-stop coding and the participants are still going strong.',
 	'/img/photos/1-4.jpg' => 'The Facebook MicroKitchen was stocked with snacks and drinks.',
 	'/img/photos/1-5.jpg' => 'Students creating and refining their ideas through the course of the night.',
 	'/img/photos/1-6.jpg' => 'Snacks and coding all night long--what more could you want?',
@@ -61,9 +61,12 @@ $sample = array(
 	'/img/photos/4-3.jpg' => 'Kwindla Kramer, CEO of Oblog Industries, speaking on multi-user interfaces.',
 	'/img/photos/4-4.jpg' => 'Audience questions were entertained after each talk.',
 );
-foreach($sample as $filename=>$caption) {
-    echo '<a href="',$filename,'" rel="lightbox" title="',$caption,'"><img src="',$filename,'" style="height: 100px; width: 150px;"></a>';
-}
 ?>
 
 <h1>Techfair 2012 Photos</h1>
+<p>Below you'll find just an excerpt of all the great photos from Techfair 2012. We had a blast - see you at Techfair 2013!</p>
+<?php
+foreach($sample as $filename=>$caption) {
+    echo '<a href="',$filename,'" rel="lightbox[tf]" title="',$caption,'"><img src="',$filename,'" style="height: 100px; width: 150px;"></a>';
+}
+?>
