@@ -113,10 +113,10 @@ $routes = array(
 			'title' => 'For Students / '.$basetitle,
 			'content' => 'pages/students/forstudents.php',
 		),
-		'resume' => array(
+		/*'resume' => array(
 		  'external' => 'http://umeqo.com/events/35/techfair-2012/?drop=true',
 			'name' => '2012 Resume Drop'
-		),
+		),*/
 		'exhibitors' => array(
 			'external' => '/companies/exhibitorlist/',
 			'name' => '2012 List of Exhibitors'
