@@ -3,25 +3,25 @@
 
 <div class="column-top">
 	<h1>Techtalks</h1>
-	<p>Coming? Make sure to <a href="http://tf-techtalks.eventbrite.com/">register on Eventbrite</a> and <a href="https://www.facebook.com/events/361528593864060/">RSVP on Facebook</a>!</p>
-	<h2>Videos from Techtalks 2012</h2>
+	<p>Did you miss our February event? Watch the Talks below!</p>
+	<h2>Videos from Techtalks February 2012</h2>
 	<p></p>
 	<div class="video-thumb">
 		<a href="#" class="video-link" id="video-link-baker"><img src="/img/video_baker_thumb.png" alt="Dr. Janet Baker"></a>
-		<p>Dr. Janet Baker</p><!--<p style="font-size:10px">Being Listened To - Speech Recognition; Past, Present, and Future!</p>-->
+		<p class="talk-name">Dr. Janet Baker</p><p class="talk-title">Speech Recognition; Past, Present, and Future!</p>
 	</div>
 	<div class="video-thumb">
 		<a href="#" class="video-link" id="video-link-boyden"><img src="/img/video_boyden_thumb.png" alt="Ed Boyden"></a>
-		<p>Ed Boyden</p>
+		<p class="talk-name">Ed Boyden</p><p class="talk-title">Engineering the Brain</p>
 	</div>
 	
 	<div class="video-thumb">
 		<a href="#" class="video-link" id="video-link-kalma"><img src="/img/video_kalma_thumb.png" alt="Brian Kalma"></a>
-		<p>Brian Kalma</p>
+		<p class="talk-name">Brian Kalma</p><p class="talk-title">Technology and Design in Ecommerce</p>
 	</div>
 	<div class="video-thumb">
 		<a href="#" class="video-link" id="video-link-kramer"><img src="/img/video_kramer_thumb.png" alt="Kwindla H. Kramer"></a>
-		<p>Kwindla H. Kramer</p>
+		<p class="talk-name">Kwindla H. Kramer</p><p class="talk-title">The Future of Computing</p>
 	</div>
 	
 	<div class="clear"></div>
@@ -31,16 +31,16 @@
 <div class="column-left">
 <h2>About</h2>
 	<p>Introducing the newest Techfair event! Come hear industry leaders and visionaries talk about their own perspectives on various aspects of tech and innovation.</p>
+	<p>Check back in Fall 2012 for more details about our next event.</p>
 	</div>
 <div class="column-right">
 	<h2>Attendees</h2>
 	<p><strong>Everyone is invited</strong> - Boston area students, entrepreneurs, and tech enthusiasts alike.</p>
-    <p>Registration is required to attend - please register at <a href="http://tf-techtalks.eventbrite.com/">http://tf-techtalks.eventbrite.com/</a>. (MIT students do not need to register.)</p>
 </div>
 
 <div class="column-bottom">
 	<div style="height:20px"></div>
-	<h1>Speakers</h1>
+	<h1>February 2012 Speakers</h1>
 	<div style="height:10px"></div>
 </div>
 <div class="column-left">
@@ -99,6 +99,7 @@
 </div>
 <div class="column-bottom"></div>
 <div class="video-overlay" id="video-overlay-baker" style="display:none">
+	<p>Dr. Janet Baker - TechTalks 2012</p>
     <video id="video-baker" class="video-js vjs-default-skin" controls preload="none" width="800" height="450"
         poster="/img/video_baker.png"
         data-setup="{}">
@@ -106,6 +107,7 @@
     </video>
 </div>
 <div class="video-overlay" id="video-overlay-boyden" style="display:none">
+	<p>Ed Boyden - TechTalks 2012</p>
     <video id="video-boyden" class="video-js vjs-default-skin" controls preload="none" width="800" height="450"
         poster="/img/video_boyden.png"
         data-setup="{}">
@@ -113,6 +115,7 @@
     </video>
 </div>
 <div class="video-overlay" id="video-overlay-kalma" style="display:none">
+	<p>Brian Kalma - TechTalks 2012</p>
     <video id="video-kalma" class="video-js vjs-default-skin" controls preload="none" width="800" height="450"
         poster="/img/video_kalma.png"
         data-setup="{}">
@@ -120,6 +123,7 @@
     </video>
 </div>
 <div class="video-overlay" id="video-overlay-kramer" style="display:none">
+	<p>Kwindla H. Kramer - TechTalks 2012</p>
     <video id="video-kramer" class="video-js vjs-default-skin" controls preload="none" width="800" height="450"
         poster="/img/video_kramer.png"
         data-setup="{}">
@@ -128,19 +132,41 @@
 </div>
 
 <script>
+	$(document).ready(function(){
+		switch(location.hash){
+			case "#baker":
+				$('#video-link-baker').click();
+				break;
+			case "#boyden":
+				$('#video-link-boyden').click();
+				break;
+			case "#kalma":
+				$('#video-link-kalma').click();
+				break;
+			case "#kramer":
+				$('#video-link-kramer').click();
+				break;
+			default:
+				break;
+		}
+	});
     $('#video-link-baker').click(function() {
+		location.hash = "baker";
         $('#video-overlay-baker').show();
         return false;
     });
 	$('#video-link-boyden').click(function() {
+		location.hash = "boyden";
         $('#video-overlay-boyden').show();
         return false;
     });
 	$('#video-link-kalma').click(function() {
+		location.hash = "kalma";
         $('#video-overlay-kalma').show();
         return false;
     });
 	$('#video-link-kramer').click(function() {
+		location.hash = "kramer";
         $('#video-overlay-kramer').show();
         return false;
     });
@@ -148,6 +174,7 @@
         return false;
     });
     $('#video-overlay-baker').live('click', function() {
+		location.hash = "";
         $('#video-overlay-baker').hide();
         _V_("#video-baker").ready(function(){
             var myPlayer = this;
@@ -157,6 +184,7 @@
 		
     });
 	$('#video-overlay-boyden').live('click', function() {
+		location.hash = "";
         $('#video-overlay-boyden').hide();
         _V_("#video-boyden").ready(function(){
             var myPlayer = this;
@@ -166,6 +194,7 @@
 		
     });
 	$('#video-overlay-kalma').live('click', function() {
+		location.hash = "";
         $('#video-overlay-kalma').hide();
         _V_("#video-kalma").ready(function(){
             var myPlayer = this;
@@ -175,6 +204,7 @@
 		
     });
 	$('#video-overlay-kramer').live('click', function() {
+		location.hash = "";
         $('#video-overlay-kramer').hide();
         _V_("#video-kramer").ready(function(){
             var myPlayer = this;
@@ -200,6 +230,15 @@
         top: 50%;
         position: absolute;
     }
+	.video-overlay p {
+		text-align: center;
+		font-size: 18px !important;
+		color: #ddd !important;
+		border-top: 3px solid #DDD;
+		margin: 0 auto;
+		width: 400px;
+		background: rgba(0, 0, 0, 0.2);
+	}
 	.video-link{
 		display:block;
 		width:100%;

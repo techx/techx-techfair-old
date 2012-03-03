@@ -1,7 +1,9 @@
 <div class="column-top">
 	<h1>Schedule of Events</h1>
+	<p>Summary of our annual line-up of events from TechFair 2012</p>
+	
 </div>
-<div class="column-left">
+<!--<div class="column-left">
 <h2>Techfair Events</h2>
 <table id="schedule" cellpadding=2 cellspacing=5 RULES=ROWS>
   <tr>
@@ -66,8 +68,8 @@
   - via <a href="/Techfair2012.ics">iCal</a>
 </p>
 
-</div>
-<div class="column-right">
+</div>-->
+<div class="column-top">
   <h2><a href="/hack">Techfair Hackathon</a></h2>
   	<h4>Sat February 4, 8pm - Sun February 5, 5pm (Room 26-152)</h4>
     <p>
@@ -96,19 +98,6 @@
 	    Hear industry leaders and visionaries talk about their own perspectives - open to all Boston-area students, entrepreneurs, and tech enthusiasts. Lunch will be provided
 	    Learn more <a href="/events/talks/">here</a>.
 	</p>
-	<p><p>
-<p><p>
-<h1> Other Events</h1>
-	<h2>Sequoia Panel</h2>
-	<h4>Tue February 7, 6pm-7pm (Room 4-145) </h4>
-	<p>Leading venture capital firm <a href="http://www.sequoiacap.com/">Sequoia Capital</a> brings some of their hottest startups to Boston in this one-hour panel. <br>
-	Come and meet:<br>
-	- Omer Artun, Founder/CEO @ <a href="http://www.agilone.com/">Agilone</a><br>
-	- Steve Garrity, Founder/CTO @ <a href="http://hearsaysocial.com/">Hearsay Social</a> <br>
-	- Harlan Crystal, Founder/CTO @ <a href="http://pocketgems.com/">Pocket Gems</a></p>
-	<!--<h2>Oblong TechTalk</h2>
-	<p><a href="http://oblong.com/">Oblong Industries</a> will be presenting their g‑speak™ platform at the Media Lab.</p>
-	-->
 </div>
 <div class="column-bottom">
 </div>
