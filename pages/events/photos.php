@@ -67,6 +67,6 @@ $sample = array(
 <p>Below you'll find just an excerpt of all the great photos from Techfair 2012. We had a blast - see you at Techfair 2013!</p>
 <?php
 foreach($sample as $filename=>$caption) {
-    echo '<a href="'.$filename.'.jpg" rel="lightbox[tf]" title="'.$caption.'"><img src="'.$filename.'-thumb.jpg" style="padding-left: 2px; padding-right: 2px;"></a>';
+    echo '<a href="'.$filename.'.jpg" rel="lightbox[tf]" title="'.$caption.'"><img src="'.$filename.'-thumb.jpg" style="padding-left: 3px; padding-right: 3px; padding-top: 1px;"></a>';
 }
 ?>
