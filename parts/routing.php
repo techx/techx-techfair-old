@@ -64,6 +64,9 @@ else
 	} elseif ($sectionName=='finaldisplayform') {
 		$redirect = true;
 		header('Location: http://docs.google.com/spreadsheet/viewform?hl=en_US&formkey=dEJ0SXlPbnpSS1hjWjA1SWUyYTZLMVE6MQ#gid=0');
+	} elseif ($sectionName=='student-feedback') {
+		$redirect = true;
+		header('Location: http://techfair.wufoo.com/forms/techfair-student-exhibitor-feedback-survey/');
 	} elseif ($sectionName=='banquet') {
   	$redirect = true;
 		header('Location: /events/banquet');
