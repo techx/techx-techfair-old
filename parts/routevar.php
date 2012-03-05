@@ -216,5 +216,10 @@ $routes = array(
 			'name'=>'Final Display',
 			'show'=>false
 	),
+	'student-feedback' => array(
+			'external' => 'http://techfair.wufoo.com/forms/techfair-student-exhibitor-feedback-survey/',
+			'name'=>'Student Feedback',
+			'show'=>false
+	),
 );
 ?>
