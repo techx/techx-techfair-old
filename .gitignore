@@ -2,6 +2,10 @@
 resumes/*
 applications/*
 
+# ignore archive and think for now
+bak/*
+think2/*
+
 # Mac OS X Finder and whatnot
 .DS_Store
 
