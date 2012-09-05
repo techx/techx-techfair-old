@@ -4,6 +4,9 @@ if (isset($_POST['email'])):
     $email = $_POST['email'];
     $full_email = $email;
     $email = strtolower($email);
+    if (strpos($email, '@') == false) {
+      $email = $email . '@mit.edu';
+    }
     if(preg_match("/mit.edu/",$email))
         $email = substr($email,0,strlen($email)-8);
 	exec("ldapsearch -h ldap.mit.edu -p 389 -u -b 'dc=mit,dc=edu' -x '(uid=".$email.")'", $output1);
@@ -11,12 +14,12 @@ if (isset($_POST['email'])):
     if(preg_match("/givenName/",$output1))
     {
         echo 'SUCCESS';
-        $mysqli = new mysqli('mysql.mit.edu','techfair','02139techfair','techfair+dayof');
+        $mysqli = new mysqli('mysql.mit.edu','techfair','02139techfair','techfair+applications');
         if (mysqli_connect_errno()) { 
             printf("Connect failed: %s\n", mysqli_connect_error()); 
             exit(); 
         }
-        $stmt = $mysqli->prepare("INSERT INTO registration2012 (email) VALUES (?)");
+        $stmt = $mysqli->prepare("INSERT INTO midway_2012 (email) VALUES (?)");
         $stmt->bind_param('s',$full_email);
         $stmt->execute();
         $stmt->close();
@@ -125,8 +128,8 @@ else:
         <div id="container">
             <h1>Welcome to MIT Techfair!</h1>
             <form action="" method="post" id="form">
-                <label for="email"><span class="button">ENTER</span> to submit your MIT email</label>
-                <input type="text" id="email" name="email" placeholder="MIT Email"autocomplete="off"/>
+                <label for="email"><span class="button">GO</span> to submit your MIT email</label>
+                <input type="text" id="email" name="email" placeholder="MIT email or kerberos" autocomplete="off"/>
             </form>
             <div id="success" class="message">Thanks!</div>
             <div id="failure" class="message">Try again!</div>

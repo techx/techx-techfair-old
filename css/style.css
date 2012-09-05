@@ -945,3 +945,14 @@ table#schedule td, table#schedule th {
 	line-height:normal !important;
 }
 
+.intercommittee {
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 20px;
+    background: #EEE;
+    color: #222;
+    padding: 2px 4px;
+    border-radius: 2px;
+    vertical-align: top;
+    letter-spacing: 1px;
+}

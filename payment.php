@@ -391,7 +391,7 @@ input {
             Registration payment for          </td>
 
           <td>
-          	<input type="text" name="sponsorLevel" id="sponsorLevel" onchange="changeSession()" readonly="readonly" value="<?php echo $package; ?> Sponsorship" size="50"/>
+          	<input type="text" name="sponsorLevel" id="sponsorLevel" onchange="changeSession()" readonly="readonly" value="<?php echo $package; ?>" size="50"/>
             
             <?php
             /*

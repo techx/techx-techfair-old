@@ -1,5 +1,4 @@
 <?php
-error_reporting(E_ALL);
 $errors = array();
 if(!isset($_POST['firstname']) || $_POST['firstname']=='')
 {
@@ -27,7 +26,7 @@ if(
 }
 if(
 	!isset($_POST['year']) ||
-	!($_POST['year']=='G' || $_POST['year']=='2012' || $_POST['year']=='2013' || $_POST['year']=='2014' || $_POST['year']=='2015')
+	!($_POST['year']=='G' || $_POST['year']=='2016' || $_POST['year']=='2013' || $_POST['year']=='2014' || $_POST['year']=='2015')
 )
 {
 	$errors['year'] = 'Please choose a valid graduation year.';
@@ -83,16 +82,16 @@ if(count($errors) == 0)
 	$mysql = mysql_connect('mysql.mit.edu', 'techfair', '02139techfair') or die(mysql_error());
 	mysql_select_db('techfair+applications');
 	
-	$query = sprintf("SELECT id from applications_2012 WHERE email='%s'",mysql_real_escape_string($_POST['email']));
+	$query = sprintf("SELECT id from applications_2013 WHERE email='%s'",mysql_real_escape_string($_POST['email']));
 	$result = mysql_query($query);
 	
-	$dir = '/mit/techfair/web_scripts/applications/2012/';
+	$dir = '/mit/techfair/web_scripts/applications/2013/';
 	
 	if (mysql_num_rows($result)>0) {
 	    $row = mysql_fetch_assoc($result);
     	$attachment = $row['attachment'];
 	
-	    $query = sprintf("DELETE from applications_2012 WHERE email='%s'",mysql_real_escape_string($_POST['email']));
+	    $query = sprintf("DELETE from applications_2013 WHERE email='%s'",mysql_real_escape_string($_POST['email']));
 	    mysql_query($query);
 
       if ($attachment!='') {
@@ -101,7 +100,7 @@ if(count($errors) == 0)
       }
 	}
 	
-	$query = sprintf("INSERT into applications_2012 (first,last,email,phone,year,course_1,course_2,committee_1,committee_2,why,commitments,passions, extra, attachment) VALUES ('%s','%s','%s','%s','%d','%s','%s','%s','%s','%s','%s','%s','%s','%s')",
+	$query = sprintf("INSERT into applications_2013 (first,last,email,phone,year,course_1,course_2,committee_1,committee_2,why,commitments,passions, extra, attachment) VALUES ('%s','%s','%s','%s','%d','%s','%s','%s','%s','%s','%s','%s','%s','%s')",
 				mysql_real_escape_string($_POST['firstname']),
 				mysql_real_escape_string($_POST['lastname']),
 				mysql_real_escape_string($_POST['email']),
@@ -132,11 +131,11 @@ if(count($errors) == 0)
 		if ($_FILES['attachment']['error']==4 || move_uploaded_file($_FILES['attachment']['tmp_name'],$filepath))
 		{
       if ($_FILES['attachment']['error']!=4) {
-        $query = sprintf("UPDATE applications_2012 SET attachment='%s' WHERE id=%d",
+        $query = sprintf("UPDATE applications_2013 SET attachment='%s' WHERE id=%d",
               mysql_real_escape_string($filepath),
               $id);
         $update = mysql_query($query);
-        $attachment_url = sprintf('http://tf.mit.edu/applications/2012/%s', $filename);
+        $attachment_url = 'RECEIVED!';
       } else {
         $update = true;
         $attachment_url = '--';
@@ -195,6 +194,8 @@ EOT;
 				exit('Could not update data in database');
 			}
     } else {
+    echo 'error:',$_FILES['attachment']['error'];
+    echo $filepath;
 			exit('File could not be uploaded. Please go back in your browser and try again.');
 		}
 	} else {
