@@ -1,5 +1,6 @@
 # resume files
 resumes/*
+applications/*
 
 # Mac OS X Finder and whatnot
 .DS_Store
