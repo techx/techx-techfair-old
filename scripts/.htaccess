@@ -1,0 +1,7 @@
+AuthType SSLCert
+Require afsgroup system:techfair-exec
+ErrorDocument 401 /__scripts/needcerts
+
+<Files *>
+SetHandler none
+</Files>
