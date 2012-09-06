@@ -1,5 +1,5 @@
 <h1>Planning board 2012 application</h1>
-<p>TechFair is an ambitious organization always looking for visionary new ideas and passionate, creative individuals. Join us and learn professional skills while meeting other students passionate about tech. Be a part of a very unique event on campus. <strong>Applications deadline: 11:59pm on Thursday, 9/20</strong></p>
+<p>Techfair is an ambitious organization always looking for visionary new ideas and passionate, creative individuals. Join us and learn professional skills while meeting other students passionate about tech. Be a part of a very unique event on campus. <strong>Applications deadline: 11:59pm on Thursday, 9/20</strong></p>
 <p>After we receive your application, we may contact you to schedule an interview during the week of 9/24. 
   <br><strong>Questions? Contact the exec team at <a href="mailto:techfair-exec@mit.edu">techfair-exec@mit.edu</a></strong></p>
 <h2>Committees</h2>
