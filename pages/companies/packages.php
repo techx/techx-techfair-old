@@ -102,12 +102,14 @@ function focus($p) {
 		<td<?php focus('b') ?>></td> 
 	</tr> 
 	
+<!-- 
 	<tr class="pricing"> 
-		<th>Price</th> 
+		<th>Price</th>
 		<td<?php focus('g') ?>>$4000</td> 
 		<td<?php focus('s') ?>>$2000</td> 
 		<td<?php focus('b') ?>>$1000</td> 
-	</tr> 
+	</tr>
+-->
 </table>
 <!--
 <p>If your company is interested in registering for MIT Techfair 2012, please contact <a href="mailto:techfair-cr@mit.edu">techfair-cr@mit.edu</a> for more information. <br><br> In addition to the aforementioned sponsorship packages, Techfair also offers custom sponsorships and opportunities. </p> -->

@@ -326,7 +326,7 @@ table#sponsorship td, table#sponsorship th {
     width: 200px;
 }
 table#sponsorship .unfocus {
-    color: #AAA !important;
+    color: #000 !important;
 }
 table#sponsorship td.gold {
     background-color: #EEEE00;
