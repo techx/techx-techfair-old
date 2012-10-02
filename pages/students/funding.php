@@ -2,7 +2,7 @@
 <p>Techfair is offering up to $500 per project of funding for those that need an extra boost to get off the ground. Projects are funded in a two-stage check-in and reimbursement process during the fall semester. 
 <h2>Application &amp; Funding Dates</h2>
 <p>
-  For Fall 2011 funding cycle:
+  For Fall 2012 funding cycle:
 <ul>
 <li>10/15 - Applications Due</li>
 <li>10/17 - Responses out to schedule interviews</li>
