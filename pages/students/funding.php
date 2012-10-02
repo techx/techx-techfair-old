@@ -19,7 +19,7 @@
 <li><strong>Can I apply for startup funding?</strong><br />You may apply for funding any new technologies or products your startup is developing.</li>
 <li><strong>Can I apply for funding for an ongoing project?</strong><br />Yes, but please provide documentation on previous work completed and any prior funding.<br /></li>
 <li><strong>What should I bring to the interview and what are you looking for?</strong><br />
-We are looking for projects with a solid plan and people who are determined to complete their project during Fall 2011/IAP 2012. At your interview, we will want you to pitch your project in person and demonstrate that you have considered many of the project's details. Of course, we understand that projects can take unexpected turns. You will have an opportunity to update your budget and revise your plans at check-in #1. Bring any technical plans, documentation, and evidence supporting your project. Interest in displaying your project at Techfair 2012 is also a plus.</li>
+We are looking for projects with a solid plan and people who are determined to complete their project during Fall 2012/IAP 2013. At your interview, we will want you to pitch your project in person and demonstrate that you have considered many of the project's details. Of course, we understand that projects can take unexpected turns. You will have an opportunity to update your budget and revise your plans at check-in #1. Bring any technical plans, documentation, and evidence supporting your project. Interest in displaying your project at Techfair 2013 is also a plus.</li>
 </ul>
 </p>
 <p>Any other questions? Drop us an email at <a href="techfair-sr@mit.edu">techfair-sr@mit.edu</a> with Techfair Project Funding Question in the subject line.</p>
