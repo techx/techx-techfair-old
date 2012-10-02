@@ -4,12 +4,11 @@
 <p>
   For Fall 2011 funding cycle:
 <ul>
-<li>9/25 - Applications Due</li>
-<li>9/29 - Responses out to schedule interviews</li>
-<li>10/1-10/6 - Interviews</li>
-<li>10/14-10/17 - Acceptances out</li>
-<li>10/17 - Deadline to decline funding</li>
-<li>11/28-12/3 - Check-in, reimbursement #1</li>
+<li>10/15 - Applications Due</li>
+<li>10/17 - Responses out to schedule interviews</li>
+<li>10/17-20 - Interviews</li>
+<li>10/23 - Acceptances out</li>
+<li>11/26-30 - Check-in, reimbursement #1</li>
 <li>mid-December/early IAP - Check-in, reimbursement #2</li>
 </ul>
 </p>
@@ -25,6 +24,4 @@ We are looking for projects with a solid plan and people who are determined to c
 </p>
 <p>Any other questions? Drop us an email at <a href="techfair-sr@mit.edu">techfair-sr@mit.edu</a> with Techfair Project Funding Question in the subject line.</p>
 <h2>Application Form</h2>
-<p>
-Our application is closed for Techfair 2012.
-</p>
+<iframe src="https://docs.google.com/spreadsheet/embeddedform?formkey=dFBzQnZOQ1BZWllwcTh5Z2phMWJuTFE6MA" width="760" height="1833" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
