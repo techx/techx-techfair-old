@@ -70,6 +70,9 @@ else
 	} elseif ($sectionName=='banquet') {
   	$redirect = true;
 		header('Location: /events/banquet');
+  } elseif ($sectionName=='wiki') {
+        $redirect = true;
+                header('Location: https://wikis.mit.edu/confluence/display/techfair/MIT+Techfair');
   } elseif ($sectionName=='talks') {
     $redirect = true;
 		header('Location: /events/talks');
