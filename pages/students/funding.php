@@ -4,12 +4,20 @@
 <p>
   For Fall 2012 funding cycle:
 <ul>
-<li>10/15 - Applications Due</li>
-<li>10/17 - Responses out to schedule interviews</li>
-<li>10/17-20 - Interviews</li>
-<li>10/23 - Acceptances out</li>
+<li>10/20 - Applications Due (Saturday at 11:59pm)</li>
+<li>10/23 - Responses out to schedule interviews</li>
+<li>10/25-27 - Interviews</li>
+<li>10/30 - Acceptances out</li>
 <li>11/26-30 - Check-in, reimbursement #1</li>
 <li>mid-December/early IAP - Check-in, reimbursement #2</li>
+</ul>
+</p>
+<h2>Info Sessions</h2>
+<p>We're holding two info sessions which will both be about an hour each.</p>
+<p>
+<ul>
+<li>Info session #1: 10/12 at 5pm (Friday)</li>
+<li>Info session #2: 10/18 at 9pm (Thursday)</li>
 </ul>
 </p>
 <h2>F.A.Q.</h2>
