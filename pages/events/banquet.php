@@ -12,7 +12,7 @@
 <h2>Time</h2>
 <p>
 6:00pm-8:30pm, after Techfair<br>
-February 6, 2012<br><p>
+February 4, 2013<br><p>
 </div>  
 
 <div class="column-right">
