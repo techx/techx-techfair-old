@@ -1,4 +1,4 @@
-<h1>2011 List of Exhibitors</h1>
+<h1>2012 List of Exhibitors</h1>
 <p>Techfair 2011 was the biggest Techfair yet. Check out <a href="/pdf/booklet2011-web.pdf">the 2011 booklet</a> for company descriptions. See the <a href="/2011checklist/">2011 student checklist</a> to get a taste of all the events that were offered.
 </p>
 <h2>Platinum Sponsor</h2>
