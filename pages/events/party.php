@@ -1,6 +1,6 @@
 <div class="column-top">
   <h1>Afterparty</h1>
-    <p>Coming? Make sure to <a href="https://www.facebook.com/events/279710692091143/">RSVP</a>!</p>
+<!--    <p>Coming? Make sure to <a href="https://www.facebook.com/events/279710692091143/">RSVP</a>!</p> -->
 <!--<img src="/img/microsoft.jpg" alt="Microsoft" style="float:right" />-->
   </div>
   <div class="column-left">
@@ -13,10 +13,10 @@
   <div class="column-right">
     <h2>Raffles</h2>
     <p>We're giving away <i>THREE</i> XBox/Kinect bundles!</p>
-    <h2>Time</h2>
+<!--    <h2>Time</h2>
     <p>February 6, 9pm - 11pm</p>
     <h2>Location</h2>
-    <p><a href="http://whereis.mit.edu/?go=E14">New Media Lab (E14)</a>, 6th floor</p>
+    <p><a href="http://whereis.mit.edu/?go=E14">New Media Lab (E14)</a>, 6th floor</p> -->
 
   </div>
 
