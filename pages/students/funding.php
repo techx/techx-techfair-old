@@ -13,7 +13,7 @@
 </ul>
 </p>
 <h2>Info Sessions</h2>
-<p>We're holding two info sessions which will both be about an hour each.</p>
+<p>We're holding two info sessions which will both be about an hour each. The slides can be found <a href="/mit/techfair/web_scripts/SR_slides.pdf">here</a>.</p>
 <p>
 <ul>
 <li>Info session #1: 10/12 at 5pm (Friday)</li>
