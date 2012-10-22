@@ -1,7 +1,7 @@
 <?php if($_GET['msg']=='success'):?><div class="success">Your email has been saved. Thank you for your interest in MIT Techfair!</div>
 <?php endif;?>
 <h1>Student Projects</h1>
-<p>Have an amazing project you want to showcase to thousands of people? Are you planning to build something cool during IAP? Want an opportunity to demo your project to both students and companies? Apply for a free booth to display your tech at Techfair on February 6, 2012.
+<p>Have an amazing project you want to showcase to thousands of people? Are you planning to build something cool during IAP? Want an opportunity to demo your project to both students and companies? Apply for a free booth to display your tech at Techfair on February 4, 2013.
   <!--<p>Preferred application deadline is <u>November 20 with rolling applications afterward</u>. Your project must be prepared and ready to present for interviews by the first week of January.</p>-->
   <?php
 /*
@@ -47,7 +47,7 @@ else:
 </ul>
 <h2>Application</h2>
 <p><strong>The application deadline has passed for 2012. Email <a href="mailto:techfair-sr@mit.edu">techfair-sr@mit.edu</a> to be placed on our mailing list for Techfair 2013.</strong></p>
-
+<!--
 <div style="background-color: #ff8000; padding:10px;">
   <p style="color:#fff; ">Mark that you are applying as a <strong>MIT Project Exhibitor</strong>.</p>
   <p style="color:#fff; ">If you do not receive confirmation that your application was submitted, please email your application to <a href="mailto:techfair-sr@mit.edu">techfair-sr@mit.edu</a>. We will be sending out an email to all applicants on Dec 5, if you submit an application do not receive an email, please contact us.</p>
@@ -121,5 +121,5 @@ else:
 	</table>
 </form>
 */?>
-<iframe src="https://docs.google.com/spreadsheet/embeddedform?formkey=dDJkalJzZHRkMmtMSzJWc2pjU09iYXc6MQ" width="760" height="2000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+<iframe src="https://docs.google.com/spreadsheet/embeddedform?formkey=dDJkalJzZHRkMmtMSzJWc2pjU09iYXc6MQ" width="760" height="2000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>-->
 <?php endif;?>
