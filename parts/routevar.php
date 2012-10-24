@@ -94,7 +94,12 @@ $routes = array(
 		'packages' => array(
 			'title' => 'Sponsorship / '.$basetitle,
 			'content' => 'pages/companies/packages.php',
-			'name' => 'Sponsorship Packages'
+			'name' => '2013 Sponsorship Packages'
+		),
+		'past-sponsors' => array(
+			'title' => 'Past Sponsors / '.$basetitle,
+			'content' => 'pages/about/pastsponsors.php',
+			'name' => 'Past Sponsors'
 		),
 		'demos' => array(
 			'title' => 'Demos / '.$basetitle,
@@ -123,16 +128,16 @@ $routes = array(
 		),
 		'startups' => array(
 			'external' => '/mitstartups',
-			'name' => 'Student Startups'
+			'name' => 'Student Startups FAQ'
 		),
   	'projects' => array(
   		'external' => '/getabooth',
-  		'name' => 'Student Projects'
+  		'name' => 'Student Projects FAQ'
   	),
 
 		'funding' => array(
 			'content' => 'pages/students/funding.php',
-			'name' => 'Project Funding'
+			'name' => '2013 Project Funding'
 		),
 
 
@@ -152,11 +157,6 @@ $routes = array(
 			'title' => 'Team / '.$basetitle,
 			'content' => 'pages/about/team.php',
 			'name' => 'Exec Team'
-		),
-		'past-sponsors' => array(
-			'title' => 'Past Sponsors / '.$basetitle,
-			'content' => 'pages/about/pastsponsors.php',
-			'name' => 'Past Sponsors'
 		),
 	),
 	'think' => array(
