@@ -5,12 +5,11 @@ function make_footer()
 <div id="footer">
 	 <div id="linkout">
             <a href="http://facebook.com/techfair"><img src="/img/homepage/facebook.png" alt="fb" /></a>
-            <a href="http://twitter.com/mittechfair"><img src="/img/homepage/twitter.png" alt="twitter" /></a>
             <a href="mailto:techfair-exec@mit.edu">techfair-exec@mit.edu</a>
             <span id="copyright">&copy; MIT Techfair 2012 </span>
         </div>
         <div id="sponsors">
-            <h1>Attending Companies</h1>
+            <h1>Past Companies</h1>
             <ul id="sponsorlinks">
                 <li id="facebook"><a href="http://www.facebook.com"></a></li>
                 <li id="apple"><a href="http://www.apple.com"></a></li>
