@@ -58,9 +58,9 @@
             </div>
 			
             <div id="tf-overlay">
-				<div id="homepage-video">
+				<!-- <div id="homepage-video">
 					<a href="http://www.youtube.com/watch?v=bzc4ge3H6hA" rel="prettyPhoto"></a>
-				</div>
+				</div> -->
 			</div>
             <img class="show" src="/img/homepage/1.png"/>
             <img src="/img/homepage/2.png"/>
