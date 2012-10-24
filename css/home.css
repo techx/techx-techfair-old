@@ -298,13 +298,14 @@ h3{
 }
 #footer-content{
 	width:960px; 
-	color:#fff;
+	color:#000000;
 	display:block;
 	margin:0 auto;
 }
 #footer{
 	background: url('/img/footer.png') repeat-x;
-	border-top: 15px solid #FFF;
+	border-top: 15px solid #000000;
+	color: #ffffff;
 	display:block;
 	margin:0;
 	display:block;
