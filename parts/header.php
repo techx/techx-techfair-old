@@ -48,7 +48,7 @@ function make_header($sectionName,$subSectionName,$routes)
 											<?php $uniqueName=''; 
 										 		switch($printkey){
 													case "events/":
-														$uniqueName = "Summary of Events";
+														$uniqueName = "Summary of 2012 Events";
 														break;
 													case "companies/":
 														$uniqueName = "Get Involved";
