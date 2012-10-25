@@ -4,10 +4,10 @@
 <p>
   For Fall 2012 funding cycle:
 <ul>
-<li>10/20 - Applications Due (Saturday at 11:59pm)</li>
-<li>10/23 - Responses out to schedule interviews</li>
-<li>10/25-27 - Interviews</li>
-<li>10/30 - Acceptances out</li>
+<li>10/29 - Applications Due (Saturday at 11:59pm)</li>
+<li>10/31 - Responses out to schedule interviews</li>
+<li>11/1-3 - Interviews</li>
+<li>11/6 - Acceptances out</li>
 <li>11/26-30 - Check-in, reimbursement #1</li>
 <li>mid-December/early IAP - Check-in, reimbursement #2</li>
 </ul>
