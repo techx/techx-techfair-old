@@ -1,6 +1,6 @@
 <h1>About Us</h1>
 <p>Techfair is completely <strong>student-run</strong>, led by passionate and dedicated students at the
-Massachusetts Institute of Technology. Members of the baord are split into six committees: Corporate relations, 
+Massachusetts Institute of Technology. Members of the board are split into six committees: Corporate relations, 
 Marketing, Student Relations, Finance, Developer Operations, and Logistics, and two inter-committees: TechTalks 
 and Events. We are also affiliated with <a href="http://mittechfair.org/think/">THINK</a>, 
 a high school science and technology competition spun out of Techfair in 2008.</p>
