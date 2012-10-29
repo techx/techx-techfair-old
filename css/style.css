@@ -1,4 +1,4 @@
-/* @license
+B1;2c/* @license
  * MyFonts Webfont Build ID 1918894, 2012-01-13T13:34:36-0500
  * 
  * The fonts listed in this notice are subject to the End User License
@@ -126,7 +126,8 @@ div.error {
 #header{
     width: 100%;
     height: 121px;
-    background: url('../img/homepage/pixely.png') no-repeat top right;
+    /*background: url('../img/homepage/pixely.png') no-repeat top right;*/
+    background: url('../img/Header.jpg') no-repeat top left;
 }
 #logo {
     text-indent: -1000em;
@@ -142,7 +143,8 @@ div.error {
     margin: 10px 0 0;
     width: 1000px;
     list-style: none;
-    background: #ffffff;
+    color: #ffffff;
+    background:#1790ee;
     padding: 0;
     overflow:hidden;
 }
