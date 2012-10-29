@@ -74,6 +74,7 @@ body {
     margin: 0;
     overflow-y: scroll;
     background: #e6e6e6;
+    color: #bbb;
 }
 p {
     font-weight: 300;
@@ -113,6 +114,10 @@ div.error {
 	width: 50%;
 }
 
+.emph {
+    font-weight:bold;
+}
+
 /*
  * STRUCTURE
  */
@@ -120,7 +125,7 @@ div.error {
     margin: 0 auto;
 	padding-bottom: 40px;
     width: 1000px;
-    background: #fff;
+    background: #000;
 }
 /* HEADER */
 #header{
@@ -129,18 +134,19 @@ div.error {
     /*background: url('../img/homepage/pixely.png') no-repeat top right;*/
     background: url('../img/Header.jpg') no-repeat top left;
 }
+
 #logo {
     text-indent: -1000em;
     width: 333px;
     height: 121px;
     margin: 0 0 0 25px;
     display: inline-block;
-    background: url('../img/homepage/logo.png') no-repeat left center;
+    /*background: url('../img/homepage/logo.png') no-repeat left center;*/
 }
 
 /*make the navigation menu list*/
 #nav {
-    margin: 10px 0 0;
+    margin: 0 0;
     width: 1000px;
     list-style: none;
     color: #ffffff;
@@ -157,6 +163,12 @@ div.error {
     text-align: center;
     border-left:1px solid #DDD;
     list-style:none;
+    /*background:#1790ee;*/
+}
+
+ul#nav > li {
+    background-color: #1790ee;
+    color:#ffffff;
 }
 #nav li:first-child {
     width:250px;
@@ -169,7 +181,8 @@ div.error {
 #nav > li > a {
     padding: 6px 0;;
     display: block;
-    background: #F0F0F0;
+    background: #1790ee;
+    color:#ffffff;
 }
 
 #nav #submenu {
@@ -262,6 +275,7 @@ float:left;
     margin: 20px 0 0 0;
     font-size: 30px;
     font-weight: 300;
+    color:#ddd;
 }
 #content h2 {
     font-size: 24px;
@@ -276,12 +290,13 @@ float:left;
 #content h4 {
     font-size: 14px;
     font-weight: 600;
+    color:#eee;
 }
 #content p {
     padding: 5px 0;
     font-size: 16px;
     line-height: 22px;
-    color: #444;
+    color: #999;
 }
 #content strong {
     font-weight: 600;
@@ -297,6 +312,8 @@ float:left;
 /* FOOTER */
 #footer {
     width: 100%;
+    background:#000000;
+    color: #ffffff;
 }
 
  #linkout {
@@ -651,37 +668,37 @@ table#schedule td, table#schedule th {
      background: url('../img/homepage/sponsors.png') 0px 0px;
  }
  ul#sponsorlinks li#facebook a:hover{  
-     background-position: 0px -29px;  
+    /* background-position: 0px -29px;*/  
  }  
  ul#sponsorlinks li#dropbox a {
      background: url('../img/homepage/sponsors.png') -120px 0px;
  }
  ul#sponsorlinks li#dropbox a:hover{  
-     background-position: -120px -29px;  
+    /* background-position: -120px -29px; */ 
  }  
  ul#sponsorlinks li#microsoft a {
      background: url('../img/homepage/sponsors.png') -240px 0px;
  }
  ul#sponsorlinks li#microsoft a:hover{  
-     background-position: -240px  -29px;  
+    /* background-position: -240px  -29px;  */
  }  
  ul#sponsorlinks li#oracle a {
      background: url('../img/homepage/sponsors.png') -360px 0px;
  }
  ul#sponsorlinks li#oracle a:hover{  
-     background-position: -360px -29px;  
+    /* background-position: -360px -29px;  */
  }  
  ul#sponsorlinks li#palantir a {
      background: url('../img/homepage/sponsors.png') -480px 0px;
  }
  ul#sponsorlinks li#palantir a:hover{  
-     background-position: -480px -29px;  
+    /* background-position: -480px -29px;  */
  }
  ul#sponsorlinks li#slb a {
      background: url('../img/homepage/sponsors.png') -600px 0px;
  }
  ul#sponsorlinks li#slb a:hover{  
-     background-position: -600px -29px;  
+    /* background-position: -600px -29px;  */
  }
  ul#sponsorlinks li#sequoia {
      margin: 0;
@@ -690,14 +707,14 @@ table#schedule td, table#schedule th {
      background: url('../img/homepage/sponsors.png') -720px 0px;
  }
  ul#sponsorlinks li#sequoia a:hover{  
-     background-position: -720px -29px;  
+    /* background-position: -720px -29px;  */
  }
  ul#sponsorlinks li#apple a {
      width: 60px;
      background: url('../img/homepage/sponsors.png') -870px 0px;
  }
  ul#sponsorlinks li#apple a:hover{  
-     background-position: -870px -29px;  
+    /* background-position: -870px -29px;*/  
  }
  ul#sponsorlinks #andmore {
 	 margin-left: 50px;
@@ -708,17 +725,17 @@ table#schedule td, table#schedule th {
      text-indent: 0;
      line-height: 29px;
      width: auto;
-     color: #222;
+     color: #bbb;
      font-size: 14px;
  }
  ul#sponsorlinks #andmore a:hover {
-     color: #888;
+     color: #fff;
  }
  
 /*sponsors panel code*/
 #sponsors {
     position: relative;
-    border-top: 1px solid rgb(255,160,51);
+    border-top: 1px solid #ffffff;
     text-align: center;
     padding: 20px 0 30px;
 }
@@ -730,7 +747,7 @@ table#schedule td, table#schedule th {
     margin: 0 0 0 -80px;
     font-size: 16px;
     font-weight: 400;
-    background: white;
+    background:#000000;
 }
 #sponsors a {
     color: #006cff;
@@ -776,23 +793,25 @@ table#schedule td, table#schedule th {
    padding: 25px 15px 20px;
 }
 #linkout, #linkout a {
-   color: #006cff;
+   color:#ffffff;
    vertical-align: top;
 }
 #copyright {
    float: right;
+   color:#ffffff;
 }
 
 
 #info {
-     background: rgba(255, 255, 255, 0.9);
-     width: 400px;
-	 height: 222px;
-     padding: 10px;
+     background: rgba(255, 255, 255, 0.7);
+     width: 350px;
+	 height: 665px;
+     padding: 100px 27px 20px;
      z-index: 200;
      position: absolute;
-     top: 30px;
+     top: 0;
      left: 0;
+     color:#000000;
     /* border-top: 1px solid rgba(255,255,255,0.9);
      border-right: 1px solid rgba(255,255,255,0.9);
      border-bottom: 1px solid rgba(255,255,255,0.9);*/
@@ -810,7 +829,7 @@ table#schedule td, table#schedule th {
 }
 #info p {
      margin: 10px 0;
-     line-height: 26px;
+     line-height: 28px;
 }
 #info p strong {
      font-weight: 600;
@@ -818,12 +837,20 @@ table#schedule td, table#schedule th {
 #info p em {
      font-style: italic;
 }
+
+#info p.space {
+    border-top: 1px solid #000000;
+    padding-top:1em;
+}
+
 #info a {
 	text-decoration: none;
-     color: #006cff;
+     color: #000000;
+     font-weight:bold;
 }
 #info a:hover {
 	text-decoration: underline;
+	color:#1790ee;
 }
 /* END HOME PAGE STYLES */
 

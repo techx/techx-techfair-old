@@ -17,7 +17,7 @@
         $("#slideshow img").eq((i+1) %5).removeClass("hide").addClass("show");
         $("#slideshow img").eq(i).removeClass("show").addClass("hide");
         i++;
-        i = i %5;
+        i = i %7;
     }
 
     $(document).ready(function() {
@@ -51,17 +51,22 @@
         ?>
         <div id="slideshow">
             <div id="info">
-                <h2>Welcome</h2>
-                <p>Thanks for an awesome Techfair 2012!</p>
-                <p>Check out the pictures <a href="/photos">here</a>.</p>
-                <p>Techtalks, our newest event, saw attendees from throughout the Boston area. If you missed it, <a href="/talks">click here</a> to watch the talks.</p>
-            </div>
+      
+                <p class="emph">Thanks for an awesome Techfair 2012!</p>
+                <p class="">Check out the pictures <a href="/photos">here</a>.</p>
+                <!--<p>Techtalks, our newest event, saw attendees from throughout the Boston area. If you missed it, <a href="/talks">click here</a> to watch the talks.</p>
+            Thanks for an awesome Techfair 2012!-->
+		<p class="space">Techfair is an annual student-run technology expo dedicated to innovation. Come experience Techfair's unique blend of cutting-edge technology and innovation from visionary companies, MIT research groups, student projects, and more.</p>
+		<p class="space">Planning for Techfair 2013 is currently underway. This year, it will take place on <strong>February 4, 2013</strong>.</p>
+	    </div>
 			
-            <img class="show" src="/img/homepage/1.png"/>
-            <img src="/img/homepage/2.png"/>
-            <img src="/img/homepage/3.png"/>
-            <img src="/img/homepage/4.png"/>
-            <img src="/img/homepage/5.png"/>
+            <img class="show" src="/img/homepage/3.jpg"/>
+            <img src="/img/homepage/2.jpg"/>
+            <img src="/img/homepage/1.jpg"/>
+            <img src="/img/homepage/4.jpg"/>
+            <img src="/img/homepage/5.jpg"/>
+	    <img src="/img/homepage/6.jpg"/>
+	    <img src="/img/homepage/7.jpg"/>
         </div>
 		<?php make_footer();?>
 		
