@@ -6,7 +6,7 @@ function make_footer()
 	 <div id="linkout">
             <a href="http://facebook.com/techfair"><img src="/img/homepage/facebook.png" alt="fb" /></a>
             <a href="mailto:techfair-exec@mit.edu">techfair-exec@mit.edu</a>
-            <span id="copyright">&copy; MIT Techfair 2012 </span>
+            <span id="copyright">&copy; MIT Techfair 2013</span>
         </div>
         <div id="sponsors">
             <h1>Past Companies</h1>
