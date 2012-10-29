@@ -3,7 +3,7 @@ function make_header($sectionName,$subSectionName,$routes)
 {
 ?>
     <div id="header">
-		<a id="logo">Techfair</a>
+<!--		<a id="logo">Techfair</a>-->
 	</div>
 	<div id="nav" class="clearfix">
 		<div id="navleft" class="navEl">
