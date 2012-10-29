@@ -50,7 +50,7 @@ else:
 ?>
 </p>
 <h1>Application</h1>
-<p><strong>The application deadline has passed for 2012. Email <a href="mailto:techfair-sr@mit.edu">techfair-sr@mit.edu</a> to be placed on our mailing list for Techfair 2013.</strong></p>
+<p><strong>The application deadline has passed for 2012. Email <a href="mailto:techfair-sr@mit.edu">techfair-sr@mit.edu</a> for more information about Techfair 2013.</strong></p>
 <!--
 <div style="background-color: #ff8000; padding:10px;">
   <p style="color:#fff; ">Mark that you are applying as a <strong>MIT Startup</strong>.</p>

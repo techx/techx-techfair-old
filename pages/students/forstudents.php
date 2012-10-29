@@ -11,7 +11,7 @@ Don't forget to drop your resume <a href="http://umeqo.com/events/35/techfair-20
 <h1>Get a booth at Techfair</h1>
 <h2>Display at Techfair: Startups, Projects, and Student Groups</h2>
 <p>We at Techfair believe that innovative technology does not solely stem from a corporate or research setting. We are again opening up our booths to include individual student projects, student startups, and student groups on campus. Don't have a project? Come to the <a href="/events">fair</a> and support your fellow classmates!</p>
-<p>Email <a href="mailto:techfair-sr@mit.edu">techfair-sr@mit.edu</a> to be placed on our mailing list for Techfair 2013.</p>
+<p>Email <a href="mailto:techfair-sr@mit.edu">techfair-sr@mit.edu</a> for more information about Techfair 2013.</p>
 <p>Learn more about how to get your own booth:
 <ul>
 	<li>Get your own booth for your <a href="/mitstartups/">student startup</a></li>
