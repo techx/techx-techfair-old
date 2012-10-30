@@ -31,5 +31,5 @@ We are looking for projects with a solid plan and people who are determined to c
 </ul>
 </p>
 <p>Any other questions? Drop us an email at <a href="techfair-sr@mit.edu">techfair-sr@mit.edu</a> with Techfair Project Funding Question in the subject line.</p>
-<h2>Application Form</h2>
-<iframe src="https://docs.google.com/spreadsheet/embeddedform?formkey=dFBzQnZOQ1BZWllwcTh5Z2phMWJuTFE6MA" width="760" height="1833" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+<!--<h2>Application Form</h2>
+<iframe src="https://docs.google.com/spreadsheet/embeddedform?formkey=dFBzQnZOQ1BZWllwcTh5Z2phMWJuTFE6MA" width="760" height="1833" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>-->

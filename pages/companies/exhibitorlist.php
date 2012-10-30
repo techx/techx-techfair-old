@@ -407,7 +407,7 @@ function populateSponsorTable($sponsorList){
     </video>
 </div>
 
-</div>
+<!--</div>-->
 <script>
     $('#video-link-mozilla').click(function() {
         $('#video-overlay').show();

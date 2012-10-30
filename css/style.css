@@ -74,7 +74,7 @@ body {
     margin: 0;
     overflow-y: scroll;
     background: #e6e6e6;
-    color: #bbb;
+    color: #000;
 }
 p {
     font-weight: 300;
@@ -123,9 +123,9 @@ div.error {
  */
 #container {
     margin: 0 auto;
-	padding-bottom: 40px;
+	padding-bottom: 0px;
     width: 1000px;
-    background: #000;
+    background: #fff;
 }
 /* HEADER */
 #header{
@@ -264,6 +264,7 @@ float:left;
     border-top: 1px solid #dddddd;
     clear: both;
     padding: 10px 20px 20px;
+    background:#ffffff;
 }
 #content a {
     color: #4078D6;
@@ -275,7 +276,7 @@ float:left;
     margin: 20px 0 0 0;
     font-size: 30px;
     font-weight: 300;
-    color:#ddd;
+    color:#000000;
 }
 #content h2 {
     font-size: 24px;
@@ -290,13 +291,13 @@ float:left;
 #content h4 {
     font-size: 14px;
     font-weight: 600;
-    color:#eee;
+    color:#444444;
 }
 #content p {
     padding: 5px 0;
     font-size: 16px;
     line-height: 22px;
-    color: #999;
+    color: #444444;
 }
 #content strong {
     font-weight: 600;
