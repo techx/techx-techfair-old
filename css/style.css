@@ -986,3 +986,10 @@ table#schedule td, table#schedule th {
     vertical-align: top;
     letter-spacing: 1px;
 }
+
+.pic-holder {
+    border-radius:6px;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    background:#bbb;    
+}

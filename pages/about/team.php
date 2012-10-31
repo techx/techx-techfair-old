@@ -113,10 +113,10 @@ function out(num) {
   <img class="marginright" width="234" height="234" src="/img/exec/Devin.jpg" name="Devin" />
   </a>
 <a href="#" id="tooltip9" title="Anvisha Pai: TechTalks Director">
-  <img class="marginright" width="234" height="234" src="/img/exec/julie_OLD.jpg" name="Anvisha"/>
+<img class="marginright" width="234" height="234" src="/img/exec/Anvisha.jpg" name="Anvisha" />
 </a>
 <a href="#" id="tooltip0" title="Emily Zhang: Events Director">
-  <img class="marginnone" width="234" height="234" src="/img/exec/david_OLD.jpg" name="Emily"/>
+  <img class="marginnone" width="234" height="234" src="/img/exec/Emily.jpg" name="Emily"/>
 </a>
 </div>
 <!-- Old 3x3 2011 Exec
