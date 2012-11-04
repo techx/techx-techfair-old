@@ -89,7 +89,7 @@ function out(num) {
 
 
 <a id="tooltip5" href="#" title="Julie Wang: Associate Director">
-  <img class="marginright" width="234" height="234" src="/img/exec/Julie.jpg" onmouseover="this.src='/img/exec/Julie_Silly.jpg'" onmouseout="this.src='/img/exec/Julie.jpg'" name="Julie" />
+  <img class="marginright" width="234" height="234" src="/img/exec/Julie.jpg" onmouseover="this.src='/img/exec/Julie_silly.jpg'" onmouseout="this.src='/img/exec/Julie.jpg'" name="Julie" />
 </a>
 <a href="#" id="tooltip1" title="Richard Ni: Corporate Relations Director">
   <img class="marginright" width="234" height="234" src="/img/exec/Richard.jpg" onmouseover="this.src='/img/exec/Richard_Silly.jpg'" onmouseout="this.src='/img/exec/Richard.jpg'" name="Richard"/>
