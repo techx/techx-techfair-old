@@ -1,5 +1,20 @@
 <h1>Past Sponsors of Techfair<h1>
 
+<h2>2012 MIT Techfair</h2>
+<h3>Platinum Sponsor</h3>
+<p>Facebook</p>
+<h3>Gold Sponsors</h3>
+<p>Dropbox, Microsoft, Schlumberger, Sequoia Capital, Oracle, Palantir</p>
+<h3>Silver Sponsors</h3>
+<p>10gen (mongoDB), Adobe, Bazaar Voice, Corning, General Electric, GrubHub, MathWorks, Mozilla, Oblong, Solidworks, Sony (SCEA), Synthetic Genomics, Thomson Reuters, Twitter</p>
+<h3>Bronze Sponsors</h3>
+<p>3LM, Addepar, AisleBuyer, Akamai, Akiban Technologies, AT&amp;T, Autodesk, Bose, CEO in a Box, Crittercism, eBay, Fitbit, Fusion-io, Google, Kiva Systems, Knome, Lockheed Martin, Maxim Integrated Products, MDS Lavastorm Anayltics, Medtronic, MIT Lincoln Laboratory, Motion Math, Philips, Quixey, Quora, Sandia National Labs, Smule, Square, Synaptics, TI, Under Armour, Ventur for America, VMWare, Zanbato</p>
+<h3>Startup Sponsors</h3>
+<p>Aurora Flight Sciences, Locu, Lytro, Nest, Nyx Devices, Yottaa</p>
+<h3>Other Companies</h3>
+<p>Apple</p>
+<br/>
+
 <h2>2011 MIT Techfair</h2>
 <h3>Platinum Sponsor</h3>
 <p>Oracle</p>
@@ -11,7 +26,7 @@
 <p>Adobe, AT&amp;T, Azure Dynamics, B Line, Cypress Semiconductors, Foursquare, General Electric, Google, NAVAIR, OPNET Technologies Inc., REAL Software Systems, SecondMarket, Volkswagen ERL</p>
 <h3>Startup Sponsors</h3>
 <p>Aurora Flight Sciences, Circle Twelve, LiquidPiston, Prepr Foundation, Tap 'n Tap</p>
-
+<br/>
 	
 <h2>2010 MIT Techfair</h2>
 <p>2010 included the addition of some very big names in the technology industry, and the continuation of many of our loyal partners.</p>
@@ -25,7 +40,7 @@
 Systems, Inc.</p>
 <h3>Startup Sponsors</h3>
 <p>Draper Laboratory, Medtronic, Cooliris, LogMeIn Inc., Tagged Inc, Activision, Akamai, Dropbox, Google, US Army Natick, Ball Aerospace &amp; Technologies Corp., Recombinant Data Corp., Global Prior Art, Grassroots Giving Group, RealNetworks, DRW Trading Group, Knight Equity Markets, L.P., General Atomics., Northrop Grumman, Autotegrity, GE Aviation, Human Dynamics Research Group, MIT Lincoln Laboratory, PROTEUS Technologies</p>
-
+<br/>
 <h2>2009 MIT Techfair</h2>
 <h3>Gold Sponsors</h3>
 <p>BAE Systems, Microsoft, The Mathworks, Thomson Reuters, Bloomberg</p>
@@ -34,7 +49,7 @@ Systems, Inc.</p>
 Group, IGT, Cisco</p>
 <h3>Startup Sponsors</h3>
 <p>454 Life Sciences, Analog Devices, Aurora Flight Sciences, Shell, Cooliris, Glance Networks, Medtronic, Redi2 Technologies, US Army, Wacom, Real Software Systems, Tibco Software Inc., Northrop Grumman, Vertica Systems, Akamai Technologies, Elastra Corporation, IBM, KD Secure, ClickDiagnostics, Linden Lab, Philips North America, Trimble Navigation Limited, Baker Hughes, Scanscout, Onlatte, PadMapper, Sponty, DropBox, Sun Microsystems, Astaro, GE aviation, Robert Bosch llc., Soapstone Networks, Tap n' Tap</p>
-
+<br/>
 <h2>2007 MIT Techfair</h2>
 <p>The 2007 event saw Techfair continue its explosive growth as fifty-six companies, eight academic labs, and one student group exhibited for more than 2200 students.</p>
 <h3>Platinum Sponsor</h3>
@@ -45,7 +60,7 @@ Group, IGT, Cisco</p>
 <p>Google, Sensata Technologies, Bose, Draper Laboratory, Sun Microsystems, Nokia, Nortel, Pfizer, Aleri, Autodesk, Invinity Ward, KLA Tencor, GE MDS, Shell Oil, Thomson, Vertex Pharmaceuticals, Schlumberger</p>
 <h3>Startup Sponsors</h3>
 <p>Merck, ClearPoint Metrics, Hillcrest Labs, Medtronic, StreamBase, Integrated DNA Technologies, Amgen, Yahoo!, Analog Devices, 454 Life Sciences, Air Products Ltd., BioDefense, Boeing, Wilson TurboPower, Electro Standards Laboratories, GE Healthcare, IBM, Lucasfilm Ltd., Power Systems Mfg., Roland, Pulmatrix, Holosonics, Vanu</p>
-
+<br/>
 <h2>2006 MIT Techfair</h2>
 <p>Thirty-eight companies and more than 1400 students attended the second MIT Techfair.</p>
 <h3>Platinum Sponsor</h3>
@@ -83,7 +98,7 @@ Group, IGT, Cisco</p>
         </td>
     </tr>
 </table>
-
+<br/>
 <h2>2005 MIT Techfair</h2>
 <p>On January 31st, 2005, over 700 students went to Walker Memorial on the MIT campus to attend MIT's first ever Techfair. Ten industry-leading companies presented in a trade show format some of their most innovative science and technologies. Everything from technologies protecting the soldier of the future to automating carpet vacuuming was displayed. See pictures of the 2005 exhibition.</p>
 <p>The following companies attended the 2005 MIT Techfair:</p>

@@ -84,39 +84,41 @@ function out(num) {
 <h2>10 people, 1 awesome team.</h2> 
 <div id='exec-photos'>
 <a id="tooltip4" href="#" title="Josh Ma: Managing Director">
-  <img class="marginright" width="234" height="234" src="/img/exec/Josh.jpg" name="Josh" />
+  <img class="marginright" width="234" height="234" src="/img/exec/Josh.jpg" onmouseover="this.src='/img/exec/Josh_Silly.jpg'" onmouseout="this.src='/img/exec/Josh.jpg'" name="Josh" />
 </a>
+
+
 <a id="tooltip5" href="#" title="Julie Wang: Associate Director">
-  <img class="marginright" width="234" height="234" src="/img/exec/Julie.jpg" name="Julie" />
+  <img class="marginright" width="234" height="234" src="/img/exec/Julie.jpg" onmouseover="this.src='/img/exec/Julie_Silly.jpg'" onmouseout="this.src='/img/exec/Julie.jpg'" name="Julie" />
 </a>
 <a href="#" id="tooltip1" title="Richard Ni: Corporate Relations Director">
-  <img class="marginright" width="234" height="234" src="/img/exec/Richard.jpg" name="Richard"/>
+  <img class="marginright" width="234" height="234" src="/img/exec/Richard.jpg" onmouseover="this.src='/img/exec/Richard_Silly.jpg'" onmouseout="this.src='/img/exec/Richard.jpg'" name="Richard"/>
 </a>
 <a id="tooltip6" href="#" title="Annie Tang: Marketing Director">
-  <img class="marginnone" width="234" height="234" src="/img/exec/Annie.jpg" name="Annie" />
+  <img class="marginnone" width="234" height="234" src="/img/exec/Annie.jpg" onmouseover="this.src='/img/exec/Annie_Silly.jpg'" onmouseout="this.src='/img/exec/Annie.jpg'" name="Annie" />
 </a>
 <br>
 <a href="#" id="tooltip2" title="Ramya Swamy: Student Relations Director">
-  <img class="marginrighttopbottom" width="234" height="234" src="/img/exec/Ramya.jpg" name="Ramya"/>
+  <img class="marginrighttopbottom" width="234" height="234" src="/img/exec/Ramya.jpg" onmouseover="this.src='/img/exec/Ramya_Silly.jpg'" onmouseout="this.src='/img/exec/Ramya.jpg'" name="Ramya"/>
   </a>
 <a href="/img/exec/execo.jpg" id="tooltip10" title="Techfair Executive Team">
   <img class="marginrighttopbottom" position="center" src="/img/exec/EXEC-ALL_small.jpg" name="Exec"/>
 </a>
 <a id="tooltip8" href="#" title="Virginia Chiu: Logistics Director">
-  <img class="margintopbottom" width="234" height="234" src="/img/exec/Virginia.jpg" name="Virginia" />
+  <img class="margintopbottom" width="234" height="234" src="/img/exec/Virginia.jpg" onmouseover="this.src='/img/exec/Virginia_Silly.jpg'" onmouseout="this.src='/img/exec/Virginia.jpg'" name="Virginia" />
   </a>
 <br>
 <a id="tooltip7" href="#" title="Max Kolysh: Dev Ops Director">
-  <img class="marginright" width="234" height="234" src="/img/exec/Max.jpg" name="Max" />
+  <img class="marginright" width="234" height="234" src="/img/exec/Max.jpg" onmouseover="this.src='/img/exec/Max_Silly.jpg'" onmouseout="this.src='/img/exec/Max.jpg'" name="Max" />
   </a>
 <a href="#" id="tooltip3" title="Devin Zhang: Finance Director">
-  <img class="marginright" width="234" height="234" src="/img/exec/Devin.jpg" name="Devin" />
+  <img class="marginright" width="234" height="234" src="/img/exec/Devin.jpg" onmouseover="this.src='/img/exec/Devin_Silly.jpg'" onmouseout="this.src='/img/exec/Devin.jpg'" name="Devin" />
   </a>
 <a href="#" id="tooltip9" title="Anvisha Pai: TechTalks Director">
-<img class="marginright" width="234" height="234" src="/img/exec/Anvisha.jpg" name="Anvisha" />
+<img class="marginright" width="234" height="234" src="/img/exec/Anvisha.jpg" onmouseover="this.src='/img/exec/Anvisha.jpg'" onmouseout="this.src='/img/exec/Anvisha.jpg'" name="Anvisha" />
 </a>
 <a href="#" id="tooltip0" title="Emily Zhang: Events Director">
-  <img class="marginnone" width="234" height="234" src="/img/exec/Emily.jpg" name="Emily"/>
+  <img class="marginnone" width="234" height="234" src="/img/exec/Emily.jpg" onmouseover="this.src='/img/exec/Emily.jpg'" onmouseout="this.src='/img/exec/Emily.jpg'" name="Emily"/>
 </a>
 </div>
 <!-- Old 3x3 2011 Exec
