@@ -19,7 +19,7 @@ if (!mysql_select_db($dbname)) {
 	die();
 }
 
-$result = mysql_query('SELECT * FROM exp12');
+$result = mysql_query('SELECT * FROM exp13');
 if (!$result) {
 	echo error("bad query!");
 }

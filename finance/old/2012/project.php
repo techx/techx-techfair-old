@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang=en>
 <head>
-<title>techfair Finance : People</title>
+<title>techfair Finance : Projects</title>
 <style>@import 'main.css';</style>
 <script type="text/javascript" src="http://www.kryogenix.org/code/browser/sorttable/sorttable.js"></script>
 </head>
@@ -19,14 +19,14 @@ if (!mysql_select_db($dbname)) {
 	die();
 }
 
-$result = mysql_query('SELECT * FROM exp13');
+$result = mysql_query('SELECT * FROM exp12');
 if (!$result) {
 	echo error("bad query!");
 }
 mkhdr($USER);
 
-if (isset($_GET["person"]) && in_array($_GET["person"], $people)) {
-	echo "<h1>Transactions : ".$_GET['person']."</h1>";
+if (isset($_GET["project"]) && in_array($_GET["project"], $projects)) {
+	echo "<h1>Transactions : ".$_GET['project']."</h1>";
 	echo "<table class=sortable>";
 	echo "<thead><tr>";
 	for ($i = 0; $i < count($tbl_hdrs); $i++) {
@@ -34,7 +34,7 @@ if (isset($_GET["person"]) && in_array($_GET["person"], $people)) {
 	}
 	echo "</tr></thead><tbody>";
 	while ($row = mysql_fetch_assoc($result)) {
-		if (!strcmp($_GET["person"], $row["Recipient"])) {
+		if (!strcmp($_GET["project"], $row["Project"])) {
 			echo "<tr>";
 			$i = 0;
 			foreach ($row as $val) {
@@ -67,28 +67,37 @@ if (isset($_GET["person"]) && in_array($_GET["person"], $people)) {
 	echo "</tbody></table>";
 } else {
 ?>
-<h1>People</h1>
+<h1>Projects</h1>
 <table border=1 class=sortable>
-<tr><th>Name</th><th>Untaxed Total</th><th>Tax</th></tr>
+<tr><th>Project</th><th>Subtotal</th><th>Budget</th></tr>
 <?
-$ppl = array();
+$total = 0;
+$tbudget = 0;
+$proj = array();
 while ($row = mysql_fetch_assoc($result)) {
-	$recp = $row["Recipient"];
-	if (!in_array($recp, $people)) {
-		$ppl[$recp] = array(0, 0);
-	}
-	if (strcmp($row["Project"], "(2012) Tax Refunds") == 0) {
-		$ppl[$recp][1] -= (float)($row["Subtotal excl tax"]);
-	} else {
-		$ppl[$recp][0] += (float)($row["Subtotal excl tax"]);
-		$ppl[$recp][1] += (float)($row["Tax"]);
-	}
+	$title = $row["Project"];
+	$proj[$title] += (float)$row["Subtotal excl tax"] + (float)$row["Tax"];
 }
-foreach ($ppl as $person => $a) {
-	echo "<tr><td><a href=people.php?person=$person>" . styleMe($person, $USER, applyBold) . "</a></td><td>".format_currency($a[0])."</td><td>".format_currency($a[1])."</td></tr>";
+foreach ($projects as $project => $budget) {
+	echo "<tr><td><a href='project.php?project=$project'>$project</a></td>";
+	if ($proj[$project] > $budget) {
+		echo "<td class=\"budgetOver\">";
+	} else if ($proj[$project] >= 0.9 * $budget && $budget > 0) {
+		echo "<td class=\"budgetApproaching\">";
+	} else {
+		echo "<td>";
+	}
+	echo format_currency($proj[$project])."</td><td>$budget</td></tr>";
+	$total += $proj[$project];
+	$tbudget += $budget;
 }
 ?>
 </table>
+<p>Total: <?php echo applyBold($total);?> / <?php echo $tbudget;?></p>
+<p>Notes:</p>
+<ul>
+<li>Subtotals include tax</li>
+</ul>
 <?} // close from parameter switch?>
 </body>
 </html>

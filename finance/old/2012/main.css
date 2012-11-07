@@ -1,0 +1,94 @@
+body {
+	font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; font-weight:300; font-stretch:normal;
+	color:#333;
+}
+
+h1 {
+	font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; 
+	font-weight:300; 
+	font-stretch:normal;
+	display:block;
+	border-bottom:2px solid #000;
+}
+
+nav, footer {
+	display: block;
+}
+
+footer {
+	padding: 1em;
+	text-align: center;
+	font-size: xx-small;
+}
+
+.budgetApproaching {
+	background: yellow;
+	color: black;
+}
+
+table{
+	font-size: 0.75em;
+	border:0;
+	padding:0;
+	margin:0;
+}
+	
+td, th, tr{
+	border:0;
+	padding:5px;
+	margin:0;
+	margin-bottom:2px;
+} 
+
+tr:nth-child(odd) {
+	background-color: #eef;
+}
+
+tr:nth-child(even) {
+	background-color: #eee;
+}
+
+tr, table{
+	background:#fff;
+}
+td{
+	border-bottom:1px solid #ccf;
+	text-shadow: #fff 1px 1px 0;
+}
+
+tr:hover td {
+	background-color:#ddf;
+}
+tr:hover td.processing {
+	background-color:#c00;
+}
+tr:hover td.budgetOver {
+	background-color:#c00;
+}
+th{
+	background-color:#0076EC;
+	border-bottom:2px solid #0036aC;
+	color:#fff;
+	text-shadow: #777 0 -1px 1px;
+}
+a{
+	color:#0076EC;
+}
+
+/* RFP statuses */
+
+.processing {
+	background: #e00;
+	border-bottom:1px solid #b00;
+	color: white;
+	text-shadow: #000 0 0 0;
+}
+
+/* Budget alerts */
+
+.budgetOver {
+	background: red;
+	color: white;
+	text-shadow: #000 -1px -1px 0;
+}
+

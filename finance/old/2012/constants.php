@@ -99,35 +99,6 @@ $projects = array(
 	"(Day of) Rockwell" => 4500,
 	"(Day of) Food" => 4000,
 	"(Day of) Shirts" => 800
-"Committee food (CR)	  600
-"Committee food (DevOps)	  350
-"Committee food (Events)	  350
-"Committee food (Finance)  200
-"Committee food (Logistics)	450
-"Committee food (Marketing)	650
-"Committee food (SR)		350
-"Committee food (Techtalks)	250
-"Committee food (THINK)		400
-"Committee food (Exec)		400
-"GBM Food  800  
-"Recruiting     380
-"Exec Retreat   2300
-"Retreat	       4000
-"Retreat Shirts 1000
-"Staff Shirts   1000
-"Hoodies	       2000
-"Raffle	       2000
-"CR	       100
-"DevOps	       2000
-"Events	       
-Marketing      9000
-SR	       4000
-Techtalks      6000
-THINK	       10000
-Logistics (Day of)	50000
-Afterparty     5000
-Afterafterparty	2000
-Last dinner	1000
 );
 
 $tbl_hdrs = array(

@@ -65,7 +65,7 @@ if (!mysql_select_db($dbname)) {
 if (valid($_POST)) {
 	if (isset($_POST["edit"])) {
 		$status = $_POST["stat"] == '' ? 0 : 1;
-		$query = sprintf("UPDATE exp13 SET Description = '%s', Status = %s, Notes = '%s' WHERE Date = %s AND Recipient = '%s' AND Project = '%s' AND `Subtotal excl tax` = %s AND Tax = %s AND Reimburser = '%s' AND `RFP #` = %s",
+		$query = sprintf("UPDATE exp12 SET Description = '%s', Status = %s, Notes = '%s' WHERE Date = %s AND Recipient = '%s' AND Project = '%s' AND `Subtotal excl tax` = %s AND Tax = %s AND Reimburser = '%s' AND `RFP #` = %s",
 			mysql_real_escape_string($_POST["desc"]),
 			$status,
 			mysql_real_escape_string($_POST["note"]),
@@ -86,7 +86,7 @@ if (valid($_POST)) {
 			}
 		}
 	} else if (isset($_POST["delete"])) {
-		$query = sprintf("DELETE FROM exp13 WHERE Date = %s AND Recipient = '%s' AND Project = '%s' AND `Subtotal excl tax` = %s AND Tax = %s AND Description = '%s' AND Reimburser = '%s' AND `RFP #` = %s",
+		$query = sprintf("DELETE FROM exp12 WHERE Date = %s AND Recipient = '%s' AND Project = '%s' AND `Subtotal excl tax` = %s AND Tax = %s AND Description = '%s' AND Reimburser = '%s' AND `RFP #` = %s",
 			$_POST["date"],
 			$_POST["recp"],
 			$_POST["proj"],
@@ -101,7 +101,7 @@ if (valid($_POST)) {
 			echo "Your query was: $query<br />";
 		}
 	} else { // add might not be set if we submit by hitting enter in the form
-		$query = sprintf("INSERT INTO exp13 VALUES (%s, '%s', '%s', %s, %s, '%s', %s, '%s', %s, '%s')", 
+		$query = sprintf("INSERT INTO exp12 VALUES (%s, '%s', '%s', %s, %s, '%s', %s, '%s', %s, '%s')", 
 			$_POST["date"], 
 			$_POST["recp"], 
 			$_POST["proj"], 
@@ -122,55 +122,11 @@ if (valid($_POST)) {
 if (isset($_GET["i"])) {
 	$__SHOW_ONLY_INCOMPLETE = true;
 }
-$result = mysql_query('SELECT * FROM exp13');
+$result = mysql_query('SELECT * FROM exp12');
 if (!$result) {
 	echo error("bad query!");
 }
-
 mkhdr($USER);
-
-echo "</tbody></table>";
-if (in_array($USER, $finczars)) {
-	echo "<h2>Receipt Entry</h2>\n";
-	echo "<form name=\"addTransaction\" action=\"$PHP_SELF\" method=post>";
-	echo "<table border=1>";
-	for ($i = 0; $i < count($tbl_hdrs); $i++) {
-		echo "<tr><th>$tbl_hdrs[$i]</th>";
-		if ($i == 1) { // recipient
-			echo "<td><select name=\"".$tbl_submit_names[$i]."\">";
-			foreach ($people as $person) {
-				if ($person != $USER) {
-					echo "<option value=\"$person\">$person</option>";
-				}
-			}
-			echo "</select></td>";
-		} else if ($i == 2) { // project
-			echo "<td><select name=\"".$tbl_submit_names[$i]."\">";
-			foreach ($projects as $project => $budget) {
-				echo "<option value=\"$project\">$project</option>";
-			}
-			echo "</select></td>";
-		} else if ($i == 6) { // status
-			echo "<td><input type=hidden name=\"".$tbl_submit_names[$i]."\" value=0 />Unsubmitted</td>";
-		} else if ($i == 7) { // reimburser
-			echo "<td><input type=hidden name=\"".$tbl_submit_names[$i]."\" value=$USER />$USER</td>";
-		} else {
-			echo "<td><input type=text name=\"".$tbl_submit_names[$i]."\" size=\"".$tbl_input_widths[$i]."\" ";
-			if ($i == count($tbl_hdrs) - 1) {
-				echo "onKeyPress=\"return submitEnter(this, event)\" ";
-			} else if ($i == 4) {
-				echo "value=0 ";
-			} else if ($i == 0) {
-				echo "placeholder=YYMMDD ";
-			}
-			echo "/></td>";
-		}
-		echo "</tr>";
-	}
-	echo "<tr><th>&nbsp;</th><td><input type=submit name=add value=Add /></td></tr>\n";
-	echo "</table></form>\n";
-}
-
 ?>
 <h1>Transactions</h1>
 <?
@@ -231,7 +187,47 @@ while ($row = mysql_fetch_assoc($result)) {
 	}
 	echo "</tr>\n";
 }
-
+echo "</tbody></table>";
+if (in_array($USER, $finczars)) {
+	echo "<h2>Receipt Entry</h2>\n";
+	echo "<form name=\"addTransaction\" action=\"$PHP_SELF\" method=post>";
+	echo "<table border=1>";
+	for ($i = 0; $i < count($tbl_hdrs); $i++) {
+		echo "<tr><th>$tbl_hdrs[$i]</th>";
+		if ($i == 1) { // recipient
+			echo "<td><select name=\"".$tbl_submit_names[$i]."\">";
+			foreach ($people as $person) {
+				if ($person != $USER) {
+					echo "<option value=\"$person\">$person</option>";
+				}
+			}
+			echo "</select></td>";
+		} else if ($i == 2) { // project
+			echo "<td><select name=\"".$tbl_submit_names[$i]."\">";
+			foreach ($projects as $project => $budget) {
+				echo "<option value=\"$project\">$project</option>";
+			}
+			echo "</select></td>";
+		} else if ($i == 6) { // status
+			echo "<td><input type=hidden name=\"".$tbl_submit_names[$i]."\" value=0 />Unsubmitted</td>";
+		} else if ($i == 7) { // reimburser
+			echo "<td><input type=hidden name=\"".$tbl_submit_names[$i]."\" value=$USER />$USER</td>";
+		} else {
+			echo "<td><input type=text name=\"".$tbl_submit_names[$i]."\" size=\"".$tbl_input_widths[$i]."\" ";
+			if ($i == count($tbl_hdrs) - 1) {
+				echo "onKeyPress=\"return submitEnter(this, event)\" ";
+			} else if ($i == 4) {
+				echo "value=0 ";
+			} else if ($i == 0) {
+				echo "placeholder=YYMMDD ";
+			}
+			echo "/></td>";
+		}
+		echo "</tr>";
+	}
+	echo "<tr><th>&nbsp;</th><td><input type=submit name=add value=Add /></td></tr>\n";
+	echo "</table></form>\n";
+}
 ?>
 <h3>Tips</h3>
 <ul>
