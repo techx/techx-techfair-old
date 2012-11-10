@@ -1,5 +1,6 @@
 <h1>Sponsorship Packages</h1>
 <p>Techfair offers three standard sponsorship packages (see below). Aside from the amenities described, the higher-level sponsorships help companies maintain a more significant on-campus presence during the Techfair marketing campaign.</p>
+<p<strong>Packages have been updated as of Nov 9, 2012.</strong></p>
 <!--<h1>Registration</h1>
 <p><strong>As of January 12, all packages have been sold out and are no longer being offered. Please contact the Corporate Relations committee, <a href="mailto:techfair-cr@mit.edu">techfair-cr@mit.edu</a>, if you'd like to be added to the waiting list.</strong></p>-->
 <h2>Packages</h2>
@@ -31,13 +32,6 @@ function focus($p) {
 	</tr> 
  
 	<tr> 
-		<th>Lodging</th> 
-		<td<?php focus('g') ?>>2 hotel rooms</td> 
-		<td<?php focus('s') ?>>1 hotel room</td> 
-		<td<?php focus('b') ?>></td> 
-	</tr> 
- 
-	<tr> 
 		<th>Catering</th> 
 		<td<?php focus('g') ?>>Breakfast and lunch</td> 
 		<td<?php focus('s') ?>>Breakfast and lunch</td> 
@@ -47,22 +41,36 @@ function focus($p) {
 	<tr> 
 		<th>Storage &amp; Shipping</th> 
 		<td<?php focus('g') ?>>Complimentary</td> 
-		<td<?php focus('s') ?>>Optional extra</td> 
+		<td<?php focus('s') ?>>Complimentary</td> 
+		<td<?php focus('b') ?>>Complimentary</td>
+	</tr> 
+ 	
+  <tr> 
+		<th>Resume Book</th> 
+		<td<?php focus('g') ?>>Full access to online and paper versions</td> 
+		<td<?php focus('s') ?>>Full access to online and paper versions</td> 
+		<td<?php focus('b') ?>>Full access to online and paper versions</td> 
+	</tr> 
+ 
+	<tr> 
+		<th>Lodging</th> 
+		<td<?php focus('g') ?>>2 hotel rooms, 2 nights</td> 
+		<td<?php focus('s') ?>>1 hotel room, 2 nights</td> 
 		<td<?php focus('b') ?>></td> 
 	</tr> 
  
 	<tr> 
 		<th>Parking</th> 
 		<td<?php focus('g') ?>>Complimentary</td> 
-		<td<?php focus('s') ?>>Optional extra</td> 
+		<td<?php focus('s') ?>>Complimentary, first-come-first-serve</td> 
 		<td<?php focus('b') ?>></td> 
 	</tr> 
  
 	<tr> 
 		<th>A/V Support</th> 
 		<td<?php focus('g') ?>>Complimentary</td> 
-		<td<?php focus('s') ?>>Optional extra</td> 
-		<td<?php focus('b') ?>></td> 
+		<td<?php focus('s') ?>>Complimentary, with limited selection</td> 
+		<td<?php focus('b') ?>>Complimentary, with limited selection</td>
 	</tr> 
  
 	<tr> 
@@ -70,13 +78,6 @@ function focus($p) {
 		<td<?php focus('g') ?>>1 table</td> 
 		<td<?php focus('s') ?>>1 table</td> 
 		<td<?php focus('b') ?>></td> 
-	</tr> 
- 	
-    <tr> 
-		<th>Resume Book</th> 
-		<td<?php focus('g') ?>>Full access to online and paper versions</td> 
-		<td<?php focus('s') ?>>Full access to online and paper versions</td> 
-		<td<?php focus('b') ?>>Full access to online and paper versions</td> 
 	</tr> 
  
 	<tr> 
