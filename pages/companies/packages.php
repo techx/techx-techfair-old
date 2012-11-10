@@ -53,6 +53,13 @@ function focus($p) {
 	</tr> 
  
 	<tr> 
+		<th>A/V Support</th> 
+		<td<?php focus('g') ?>>Complimentary</td> 
+		<td<?php focus('s') ?>>Complimentary, with limited selection</td> 
+		<td<?php focus('b') ?>>Complimentary, with limited selection</td>
+	</tr> 
+ 
+	<tr> 
 		<th>Lodging</th> 
 		<td<?php focus('g') ?>>2 hotel rooms, 2 nights</td> 
 		<td<?php focus('s') ?>>1 hotel room, 2 nights</td> 
@@ -64,13 +71,6 @@ function focus($p) {
 		<td<?php focus('g') ?>>Complimentary</td> 
 		<td<?php focus('s') ?>>Complimentary, first-come-first-serve</td> 
 		<td<?php focus('b') ?>></td> 
-	</tr> 
- 
-	<tr> 
-		<th>A/V Support</th> 
-		<td<?php focus('g') ?>>Complimentary</td> 
-		<td<?php focus('s') ?>>Complimentary, with limited selection</td> 
-		<td<?php focus('b') ?>>Complimentary, with limited selection</td>
 	</tr> 
  
 	<tr> 
