@@ -242,7 +242,6 @@ while ($row = mysql_fetch_assoc($result)) {
 <li>ECommerce site: <a href=https://ebc.cybersource.com/ebc/login/LoginProcess.do>Click me</a>; Merchant ID is MIT_SAO_Techfair</li>
 <?}?>
 </ul>
-<footer>Your Mom is Hawt.</footer>
 </body>
 </html>
 

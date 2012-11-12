@@ -2,11 +2,17 @@
 $finczars = array(
 	"ddz",
 	"shewu",
-	"cyrillan",
+	"hujj",
+	"rswang",
+	"leonz",
 	"mkolysh"
 );
 $people = array(
+
 "yuetang",
+"jtywang",
+"emzhang",
+"anvishap",
 "jodiec",
 "alyxdaly",
 "skao",
@@ -55,7 +61,8 @@ $people = array(
 "ddoucet",
 "holliman",
 "mmou",
-"joshma"
+"joshma",
+"(other)"
 );
 
 $projects = array(
@@ -69,16 +76,18 @@ $projects = array(
 	"Committee food (exec)" => 400,
 	"Committee food (techtalks)" => 250,
 	"Committee food (Events)" => 350,
-	"GBM" => 800,
+	"GBM Food" => 800,
+	"Recruiting" => 380,
+	"Exec Retreat" => 2300,
 	"Retreat" => 4000,
 	"Retreat Shirts" => 1000,
 	"Staff Shirts" => 1000,
 	"Hoodies" => 2000,
-	"Recruiting" => 380,
 	"Raffle" => 2000,
 	"CR" => 100,
 	"DevOps" => 2000,
-	"Events Marketing" => 9000,
+	"Events" => 0,
+	"Marketing" => 9000,
 	"SR" => 4000,
 	"Techtalks" => 6000,
 	"THINK" => 10000,

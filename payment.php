@@ -8,7 +8,7 @@ if (mysqli_connect_errno()) {
 	exit();
 }
 $hash = $_GET['i'];
-if ($stmt = $mysqli->prepare("SELECT name, cost, package, invoice FROM payment_2012 WHERE hash=?")) {
+if ($stmt = $mysqli->prepare("SELECT name, cost, package, invoice FROM payment_2013 WHERE hash=?")) {
 	$stmt->bind_param("s", $hash);
 	$stmt->execute();
 	$stmt->bind_result($name, $cost, $package, $invoice);

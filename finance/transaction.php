@@ -25,7 +25,7 @@ if (valid($_POST)) {
 		echo "<tr><th>$tbl_hdrs[$i]</th>";
 		if ($i == 0) {
 			$a = $_POST[$tbl_submit_names[$i]];
-			echo "<td><input type=hidden value=\"$a\" name=$tbl_submit_names[$i] />".displayDate($a)."</td>";
+			echo "<td><input type=input=\"$a\" name=$tbl_submit_names[$i] placeholder=YYMMDD />".displayDate($a)."</td>";
 		} else if ($i == 5) { // description
 			echo "<td><input type=text value=\"".$_POST["desc"]."\" name=$tbl_submit_names[$i] /></td>";
 		} else if ($i == 6) { // status
@@ -34,7 +34,7 @@ if (valid($_POST)) {
 			echo "<td><input type=text value=\"".$_POST["notes"]."\" name=$tbl_submit_names[$i] /></td>";
 		} else {
 			$a = $_POST[$tbl_submit_names[$i]];
-			echo "<td><input type=hidden value=\"$a\" name=$tbl_submit_names[$i] />$a</td>";
+			echo "<td><input type=text value=\"$a\" name=$tbl_submit_names[$i] />$a</td>";
 		}
 		echo "</tr>";
 	}

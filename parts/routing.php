@@ -22,7 +22,10 @@ else
 	/*
 	 * SHORTCUTS
 	 */	
-	if ($sectionName=='feedback') {
+  if ($sectionName == 'portal') {
+    $redirect = true;
+		header('Location: http://portal.mittechfair.org');
+	} elseif ($sectionName=='feedback') {
     $redirect = true;
 		header('Location: http://techfair.wufoo.com/forms/techfair-feedback-survey/');
 	} elseif ($sectionName=='demos') {
