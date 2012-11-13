@@ -1,73 +1,20 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>MIT Techfair</title>
-    
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600' rel='stylesheet' type='text/css'>
-	<link href="css/style.css" rel="stylesheet" />
-	<link rel="stylesheet" href="css/orbit-1.2.3/orbit-1.2.3.css">
-
+    
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script src="js/orbit-1.2.3/jquery.orbit-1.2.3.min.js" type="text/javascript"></script>
         
 	<script type="text/javascript">
-	    var i = 0;
-    	function advanceSlide() {
-	        $("#slideshow img").eq((i+1)).removeClass("hide").addClass("show");
-	        $("#slideshow img").eq(i).removeClass("show").addClass("hide");
-	        i++;
-	        i = i %7;
-    	}
-
-    	$(document).ready(function() {
-       		setInterval(advanceSlide, 10);
-    </script>
-
-
-	<script type="text/javascript">
-	    $(window).load(function() {
+	     $(window).load(function() {
 	         $('#featured').orbit();
 	     });
 	</script>
-</head>
-
-<body>
-    <div id="container">
-        <?php make_header(NULL, NULL, $routes);?>
-        <div id="slideshow">
-            <div id="info">
-                <p class="emph">Thanks for an awesome Techfair 2012!</p>
-                <p class="">Check out the pictures <a href="/photos">here</a>.</p>
-                <!--<p>Techtalks, our newest event, saw attendees from throughout the Boston area. If you missed it, <a href="/talks">click here</a> to watch the talks.</p>
-            Thanks for an awesome Techfair 2012!-->
-				<p class="space">Techfair is an annual student-run technology expo dedicated to innovation. Come experience Techfair's unique blend of cutting-edge technology and innovation from visionary companies, MIT research groups, student projects, and more.</p>
-				<p class="space">Planning for Techfair 2013 is currently underway. This year, it will take place on <strong>February 4, 2013</strong>.</p>
-			</div>
-			<div id="featured">	
-				<img class="show" src="/img/homepage/1.jpg"/>
-				<img class="show" src="/img/homepage/2.jpg"/>
-				<img class="show" src="/img/homepage/3.jpg"/>            
-	            <img class="show" src="/img/homepage/4.jpg"/>
-	            <img class="show" src="/img/homepage/5.jpg"/>
-			    <img class="show" src="/img/homepage/6.jpg"/>
-			    <img class="show" src="/img/homepage/7.jpg"/>
-        	</div>
-        </div>
-		<?php make_footer();?>
-    </div>
-</body>
-</html>
-
-
-
-
-
-
-
-
- <!--<script type="text/javascript">
+        
+<!--    <script type="text/javascript">
       var _gaq = _gaq || [];  _gaq.push(['_setAccount', 'UA-19969189-3']);  _gaq.push(['_trackPageview']);
       (function() {    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);  })();
     
@@ -96,13 +43,67 @@
     });
     
 
-    </script>
-   
-<link rel="stylesheet" href="/css/prettyPhoto.css" type="text/css" media="screen" charset="utf-8" />
+    </script>-->
+    
+    <link href="css/style.css" rel="stylesheet" />
+	<link rel="stylesheet" href="css/orbit-1.2.3/orbit-1.2.3.css">
+
+<!--	<link rel="stylesheet" href="/css/prettyPhoto.css" type="text/css" media="screen" charset="utf-8" />
 	<script src="/js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>-->
+</head>
+<body>
+    <div id="container">
+        <?php
+        make_header(NULL, NULL, $routes);
+        ?>
+        <div id="featured">
+            <div id="info">
+      
+                <p class="emph">Thanks for an awesome Techfair 2012!</p>
+                <p class="">Check out the pictures <a href="/photos">here</a>.</p>
+                <!--<p>Techtalks, our newest event, saw attendees from throughout the Boston area. If you missed it, <a href="/talks">click here</a> to watch the talks.</p>
+            Thanks for an awesome Techfair 2012!-->
+		<p class="space">Techfair is an annual student-run technology expo dedicated to innovation. Come experience Techfair's unique blend of cutting-edge technology and innovation from visionary companies, MIT research groups, student projects, and more.</p>
+		<p class="space">Planning for Techfair 2013 is currently underway. This year, it will take place on <strong>February 4, 2013</strong>.</p>
+	    	</div>
+			
+            <img class="show" src="/img/homepage/3.jpg"/>
+            <img src="/img/homepage/2.jpg"/>
+            <img src="/img/homepage/1.jpg"/>
+            <img src="/img/homepage/4.jpg"/>
+            <img src="/img/homepage/5.jpg"/>
+	    <img src="/img/homepage/6.jpg"/>
+	    <img src="/img/homepage/7.jpg"/>
+        </div>
 
 
-	<!--	<script type="text/javascript" charset="utf-8">
+
+		<?php make_footer();?>
+		
+       <!-- <div id="linkout">
+            <a href="http://facebook.com/techfair"><img src="img/homepage/facebook.png" alt="fb" /></a>
+            <a href="http://twitter.com/mittechfair"><img src="img/homepage/twitter.png" alt="twitter" /></a>
+            <a href="mailto:techfair-exec@mit.edu">techfair-exec@mit.edu</a>
+            <span id="copyright">&copy; MIT Techfair 2012</span>
+        </div>
+        <div id="sponsors">
+            <h1>Attending Companies</h1>
+            <ul id="sponsorlinks">
+                <li id="facebook"><a href="http://www.facebook.com"></a></li>
+                <li id="apple"><a href="http://www.apple.com"></a></li>
+                <li id="dropbox"><a href="http://www.microsoft.com"></a></li>
+                <li id="microsoft"><a href="http://oracle.com"></a></li>
+                <li id="oracle"><a href="http://palantir.com"></a></li>
+                <li id="palantir"><a href="http://www.slb.com"></a></li>
+                <li id="slb"><a href="http://www.dropbox.com"></a></li>
+                <li id="sequoia"><a href="http://www.sequoiacap.com"></a></li>
+                <li id="andmore"><a href="/companies/exhibitorlist">and more...</a></li>
+            </ul>
+            
+        </div>-->
+    </div>
+
+<!--	<script type="text/javascript" charset="utf-8">
 	  $(document).ready(function(){
 	    $("a[rel^='prettyPhoto']").prettyPhoto({
 			default_width: 800,
@@ -149,4 +150,6 @@
 		});
 	  });
 	</script>-->
+</body>
+</html>
 

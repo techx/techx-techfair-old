@@ -769,7 +769,7 @@ table#schedule td, table#schedule th {
    background: url('../img/homepage/slideshow-pixels.png') no-repeat center bottom;
    z-index: 150;
 }
-#slideshow img {
+/* #slideshow img {
    position: absolute;
    top: 665px;
    z-index: 1;
@@ -777,18 +777,18 @@ table#schedule td, table#schedule th {
 #slideshow img.show {
    top: 0;
    display: block;
-   transition: top 2s ease 0s;
-   -moz-transition: top 2s ease 0s;
-   -webkit-transition: top 2s ease 0s;
+   transition: right 2s ease 0s;
+   -moz-transition: right 2s ease 0s;
+   -webkit-transition: right 2s ease 0s;
    z-index: 100;
 }
 #slideshow img.hide {
    top: -665px;
    display: block;
-   transition: top 2s ease 0s;
-   -moz-transition: top 2s ease 0s;
-   -webkit-transition: top 2s ease 0s;
-   z-index: 100;
+   transition: right 2s ease 0s;
+   -moz-transition: right 2s ease 0s;
+   -webkit-transition: right 2s ease 0s;
+   z-index: 100; */
 }
 #linkout {
    padding: 25px 15px 20px;
