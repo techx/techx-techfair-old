@@ -22,7 +22,10 @@ else
 	/*
 	 * SHORTCUTS
 	 */	
-  if ($sectionName == 'portal') {
+  if ($sectionName == 'sponsor') {
+    $redirect = true;
+		header('Location: /companies/packages/');
+  } elseif ($sectionName == 'portal') {
     $redirect = true;
 		header('Location: http://portal.mittechfair.org');
 	} elseif ($sectionName=='feedback') {

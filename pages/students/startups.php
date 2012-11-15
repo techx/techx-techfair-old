@@ -50,73 +50,7 @@ else:
 ?>
 </p>
 <h1>Application</h1>
-<p><strong>The application deadline has passed for 2012. Email <a href="mailto:techfair-sr@mit.edu">techfair-sr@mit.edu</a> for more information about Techfair 2013.</strong></p>
-<!--
-<div style="background-color: #ff8000; padding:10px;">
-  <p style="color:#fff; ">Mark that you are applying as a <strong>MIT Startup</strong>.</p>
-  <p style="color:#fff; ">If you do not receive confirmation that your application was submitted, please email your application to <a href="mailto:techfair-sr@mit.edu">techfair-sr@mit.edu</a>. We will be sending out an email to all applicants on Dec 5, if you submit an application do not receive an email, please contact us.</p>
-</div>
-<p></p>
-<?php
-/*
-<form action="" method="POST">
-	<table> 
-		<tr> 
-			<th><label>Name</label></th> 
-			<td><input type="text" name="name" size="40" /></td> 
-		</tr> 
-		<tr> 
-			<th><label>MIT Email</label></th> 
-			<td><input type="text" name="email" size="40" /></td> 
-		</tr> 
-		<tr> 
-			<th><label>Phone Number</label></th> 
-			<td><input type="text" name="phone" size="40" /></td> 
-		</tr> 
-		<tr> 
-			<th><label>Year</label></th> 
-			<td>
-			<select name="year"> 
-			<option value="" selected="selected"></option>
-			<option value="1" >1</option>
-			<option value="2" >2</option>
-			<option value="3" >3</option>
-			<option value="4" >4</option>
-			<option value="5" >Grad</option>
-			</select>
-			</td> 
-		</tr>
-		<tr> 
-			<th></th>
-			<td><label>What does your startup do? </label></td>
-		</tr>
-			<th></th>
-			<td><textarea name="q1" rows="5" cols="55"></textarea></td> 
-		</tr> 
-		<tr> 
-			<th></th>
-			<td><label>What is your startup's name? </label></td> 
-		</tr>
-		<tr>
-			<th></th>
-			<td><textarea name="q2" rows="5" cols="55"></textarea></td> 
-		</tr> 
-		<tr> 
-			<th></th>
-			<td><label>How will you demonstrate your project, and will it be demo-able by the end of IAP?</label></td> 
-		</tr>
-		<tr>
-			<th></th>
-			<td><textarea name="q3" rows="5" cols="55"></textarea></td> 
-		</tr> 
-		<tr>
-			<th></th>
-			<td>
-				<button type="submit" name="submit">Submit</button>
-			</td>
-		</tr>
-	</table>
-</form>
-*/?>
-<iframe src="https://docs.google.com/spreadsheet/embeddedform?formkey=dDJkalJzZHRkMmtMSzJWc2pjU09iYXc6MQ" width="760" height="2000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>-->
+<!--<p><strong>The application deadline has passed for 2012. Email <a href="mailto:techfair-sr@mit.edu">techfair-sr@mit.edu</a> for more information about Techfair 2013.</strong></p>-->
+<iframe src="https://docs.google.com/spreadsheet/embeddedform?formkey=dGRFX2ZhZGZLMXg5R1dESTVKbmhpa3c6MA" width="760" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+
 <?php endif;?>
