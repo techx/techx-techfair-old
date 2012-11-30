@@ -299,6 +299,11 @@ float:left;
     line-height: 22px;
     color: #444444;
 }
+#content p em {
+    font-weight: 400;
+    font-style: italic;
+    color: #666;
+}
 #content strong {
     font-weight: 600;
 }
