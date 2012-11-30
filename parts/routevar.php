@@ -106,11 +106,11 @@ $routes = array(
 			'content' => 'pages/companies/demos.php',
 			'name' => 'Demos'
 		),
-		//'register' => array(
-		//	'title' => 'Register / '.$basetitle,
-		//	'content' => 'pages/companies/register.php',
-		//	'name' => 'Register'
-		//),
+		'intro' => array(
+			'title' => 'Introductory Packet / '.$basetitle,
+			'content' => 'pages/companies/intro.php',
+			'show' => false
+		),
 	),
 	'students' => array(
 		'name' => 'For Students',
