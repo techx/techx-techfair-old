@@ -28,12 +28,12 @@
 <p>If you have any ideas you want to run by us or any questions, don't hesitate to reach out.</p>
 
 <h2>Invoice and Payments</h2>
-You'll receive an invoice upon being confirmed for acceptance into the fair. Payment should be completed by January 31st. If you prefer to pay by credit card, let your CR liaison know and we can provide a link to pay online. Otherwise, please send all checks to:<p>
+<p>You'll receive an invoice upon being confirmed for acceptance into the fair. Payment should be completed by January 31st. If you prefer to pay by credit card, let your CR liaison know and we can provide a link to pay online. Otherwise, please send all checks to:</p>
 
 <p>
-<strong>MIT Technology Fair</strong>
-W20-401
-84 Massachusetts Avenue
+<strong>MIT Technology Fair</strong><br />
+W20-401<br />
+84 Massachusetts Avenue<br />
 Cambridge, MA 02139
 </p>
 
@@ -41,9 +41,9 @@ Cambridge, MA 02139
 <p>MIT Mail Services will be receiving and storing packages intended for use at Techfair. To ensure that you receive all of your shipments on the day of the fair, please send your packages to the exact address below (note that it is different from the invoice address):</p>
 
 <p>
-<strong>Techfair</strong>
-WW15
-350 Brookline St.
+<strong>Techfair</strong><br />
+WW15<br />
+350 Brookline St.<br />
 Cambridge, MA 02139
 </p>
 
