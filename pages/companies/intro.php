@@ -10,7 +10,7 @@
 
 <h2>Important Deadlines</h2>
 <ul>
-  <li>Company registration is initiated by an official invoice, sent by your CR liaison.</p>
+  <li>Company registration is initiated by an official invoice, sent by your CR liaison.</li>
   <li>1 week after receiving portal login information: company logo, name (as displayed on marketing materials), and description must be submitted to the logistics portal.</li>
   <li>Jan 7: The rest of the logistics portal must be completely filled out. This includes crucial details like A/V requests, the representatives attending, hotel needs, and more. You'll receive more details on hotel and A/V within the next month, as soon as details are settled on our end.</li>
   <li>Jan 21: All shipped packages should be received. We allot extra time so we can notify you of any missing packages and resolve these issues before the fair!</li>
