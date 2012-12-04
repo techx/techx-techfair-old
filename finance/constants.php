@@ -5,10 +5,12 @@ $finczars = array(
 	"hujj",
 	"rswang",
 	"leonz",
-	"mkolysh"
+	"mkolysh",
+	"joshma"
 );
 $people = array(
 
+"vchiu",
 "yuetang",
 "jtywang",
 "emzhang",

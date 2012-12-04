@@ -65,7 +65,8 @@ if (!mysql_select_db($dbname)) {
 if (valid($_POST)) {
 	if (isset($_POST["edit"])) {
 		$status = $_POST["stat"] == '' ? 0 : 1;
-		$query = sprintf("UPDATE exp13 SET Description = '%s', Status = %s, Notes = '%s' WHERE Date = %s AND Recipient = '%s' AND Project = '%s' AND `Subtotal excl tax` = %s AND Tax = %s AND Reimburser = '%s' AND `RFP #` = %s",
+		//$query = sprintf("UPDATE exp13 SET Description = '%s', Status = %s, Notes = '%s' WHERE Date = %s AND Recipient = '%s' AND Project = '%s' AND `Subtotal excl tax` = %s AND Tax = %s AND Reimburser = '%s' AND `RFP #` = %s",
+                $query = sprintf("UPDATE exp13 SET Description = '%s', Status = %s, Notes = '%s', Date = '%s', Recipient = '%s', Project = '%s', `Subtotal excl tax` = %s, Tax = %s, Reimburser = '%s' WHERE `RFP #` = %s",
 			mysql_real_escape_string($_POST["desc"]),
 			$status,
 			mysql_real_escape_string($_POST["note"]),
@@ -77,8 +78,9 @@ if (valid($_POST)) {
 			$_POST["rmbr"],
 			$_POST["rfp"]
 		);
+    echo $query;
 		if (!($result = mysql_query($query))) {
-			echo error("editing your mother failed!<br />");
+			echo error("editing failed!<br />");
 			echo "Your query was: $query<br />";
 		} else {
 			if ($status && !sendEmail($_POST)) {

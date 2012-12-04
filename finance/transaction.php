@@ -1,6 +1,7 @@
 <?
 include 'constants.php';
 
+
 $_email = $_SERVER['SSL_CLIENT_S_DN_Email']; // email
 $USER = substr($_email, 0, strrpos($_email, "@"));
 if (!in_array($USER, $finczars)) {
@@ -25,16 +26,27 @@ if (valid($_POST)) {
 		echo "<tr><th>$tbl_hdrs[$i]</th>";
 		if ($i == 0) {
 			$a = $_POST[$tbl_submit_names[$i]];
-			echo "<td><input type=input=\"$a\" name=$tbl_submit_names[$i] placeholder=YYMMDD />".displayDate($a)."</td>";
+			echo "<td><input type=input value=\"$a\" name=$tbl_submit_names[$i] /></td>";
 		} else if ($i == 5) { // description
 			echo "<td><input type=text value=\"".$_POST["desc"]."\" name=$tbl_submit_names[$i] /></td>";
 		} else if ($i == 6) { // status
 			echo "<td><input type=checkbox value=1 name=$tbl_submit_names[$i] /> Complete</td>";
 		} else if ($i == 9) { // notes
 			echo "<td><input type=text value=\"".$_POST["notes"]."\" name=$tbl_submit_names[$i] /></td>";
+		} else if ($i == 0) { // date
+			echo "<td><input type=input value=\"".$_POST["date"]."\" name=$tbl_submit_names[$i] /></td>";
+		} else if ($i == 1) { // recipient
+			echo "<td><input type=input value=\"".$_POST["recp"]."\" name=$tbl_submit_names[$i] /></td>";
+		} else if ($i == 2) { // project
+			echo "<td><input type=text value=\"".$_POST["proj"]."\" name=$tbl_submit_names[$i] /></td>";
+		} else if ($i == 3) { // subtotal
+			echo "<td><input type=input value=\"".$_POST["subt"]."\" name=$tbl_submit_names[$i] /></td>";
+		} else if ($i == 4) { // tax
+			echo "<td><input type=input value=\"".$_POST["tax"]."\" name=$tbl_submit_names[$i] /></td>";
 		} else {
 			$a = $_POST[$tbl_submit_names[$i]];
-			echo "<td><input type=text value=\"$a\" name=$tbl_submit_names[$i] />$a</td>";
+			echo "<td><input type=hidden value=\"$a\" name=$tbl_submit_names[$i] />$a</td>";
+			//echo "<td><input type=text placeholder=\"$a\" value=\"$a\" name=$tbl_submit_names[$i] /></td>";
 		}
 		echo "</tr>";
 	}

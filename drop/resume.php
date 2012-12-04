@@ -70,10 +70,10 @@ if($exists>0):
 			<td>
 				<select name="year" id="year">
 					<option value="G" <?php pickSelect('year','G')?>>Grad</option>
-					<option value="2011" <?php pickSelect('year','2011')?><?php if(!isset($_POST['year'])) echo 'selected'?>>2011</option>
-					<option value="2012" <?php pickSelect('year','2012')?>>2012</option>
-					<option value="2013" <?php pickSelect('year','2013')?>>2013</option>
+					<option value="2013" <?php pickSelect('year','2013')?><?php if(!isset($_POST['year'])) echo 'selected'?>>2013</option>
 					<option value="2014" <?php pickSelect('year','2014')?>>2014</option>
+					<option value="2015" <?php pickSelect('year','2015')?>>2015</option>
+					<option value="2016" <?php pickSelect('year','2016')?>>2016</option>
 				</select>
 			</td>
 			<td class="error"><?php echoError('year')?></td>
