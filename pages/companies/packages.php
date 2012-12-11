@@ -1,5 +1,6 @@
 <h1>Sponsorship Packages</h1>
 <p>Techfair offers three standard sponsorship packages (see below). Aside from the amenities described, the higher-level sponsorships help companies maintain a more significant on-campus presence during the Techfair marketing campaign.</p>
+<p><strong>If you and your company are interested in attending Techfair, please contact us at <a href="mailto:techfair-cr@mit.edu">techfair-cr@mit.edu</a>.</strong></p>
 <p<strong>Please note that packages have been updated as of Nov 9, 2012.</strong></p>
 <!--<h1>Registration</h1>
 <p><strong>As of January 12, all packages have been sold out and are no longer being offered. Please contact the Corporate Relations committee, <a href="mailto:techfair-cr@mit.edu">techfair-cr@mit.edu</a>, if you'd like to be added to the waiting list.</strong></p>-->

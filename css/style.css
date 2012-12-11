@@ -998,3 +998,19 @@ table#schedule td, table#schedule th {
     -webkit-border-radius:6px;
     background:#bbb;    
 }
+
+.blank {
+    margin:0;
+    border:0;
+    padding:0;
+}
+
+.group:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.pic {
+    float:left;
+}

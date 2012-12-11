@@ -44,6 +44,7 @@
             Thanks for an awesome Techfair 2012!-->
 				<p class="space">Techfair is an annual student-run technology expo dedicated to innovation. Come experience Techfair's unique blend of cutting-edge technology and innovation from visionary companies, MIT research groups, student projects, and more.</p>
 				<p class="space">Planning for Techfair 2013 is currently underway. This year, it will take place on <strong>February 4, 2013</strong>.</p>
+        <p class="space">If you are a company interested in attending, please email the corporate relations team at <a href="mailto:techfair-cr@mit.edu">techfair-cr@mit.edu</a>.</p>
 			</div>
 			<div id="featured">	
 				<img class="show" src="/img/homepage/1.jpg"/>

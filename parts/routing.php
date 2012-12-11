@@ -63,7 +63,7 @@ else
 		header('Location: /mitstartups/');
 	} elseif ($sectionName=='drop') {
 		$redirect = true;
-    header('Location: http://umeqo.com/events/40/techfair-2013-resume-drop/');
+    header('Location: http://umeqo.com/events/40/techfair-2013-resume-drop/?drop=true');
 	} elseif ($sectionName=='think') {
 		$redirect = true;
 		header('Location: http://mitthink.mit.edu');
