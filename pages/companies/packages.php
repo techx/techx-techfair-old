@@ -17,7 +17,7 @@ function focus($p) {
 		<th>Sponsorship</th> 
 		<td class="gold">Gold (<strong>Sold Out</strong>)</td> 
 		<td class="silver">Silver (<strong>Sold Out</strong>)</td> 
-		<td class="bronze">Bronze</td> 
+		<td class="bronze">Bronze (<strong>Sold Out</strong>)</td> 
 	</tr>
 	<tr> 
 		<th>Price</th> 
