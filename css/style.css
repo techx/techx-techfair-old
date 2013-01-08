@@ -1085,6 +1085,7 @@ table#schedule td, table#schedule th {
 
 .info-wrapper .sticky-wrapper {
     float: left;
+    width: 180px;
 }
 
 .clearfix {
