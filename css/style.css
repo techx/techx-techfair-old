@@ -1080,7 +1080,7 @@ table#schedule td, table#schedule th {
 .info-content {
     width: 600px;
     float: left;
-    margin-left: 200px;
+    margin-left: 20px;
 }
 
 .info-wrapper .sticky-wrapper {
