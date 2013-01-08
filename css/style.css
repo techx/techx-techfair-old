@@ -1,4 +1,4 @@
-B1;2c/* @license
+/* @license
  * MyFonts Webfont Build ID 1918894, 2012-01-13T13:34:36-0500
  * 
  * The fonts listed in this notice are subject to the End User License
@@ -1041,4 +1041,52 @@ table#schedule td, table#schedule th {
     top: -10px;
     display: inline-block;
     position: relative;
+}
+
+#content .info-nav {
+    width: 180px;
+    margin-top: 20px;
+    padding: 0;
+}
+
+.info-nav li {
+    list-style: none;
+}
+
+.info-nav li:hover, .info-nav li.active {
+    background: #4078D6;
+}
+
+.info-nav li a {
+    text-decoration: none;
+    display: block;
+    padding: 2px 8px;
+}
+
+.info-nav a.new:after {
+    content: "NEW!";
+    font-size: 11px;
+    position: relative;
+    top: -5px;
+    left: 2px;
+    font-weight: bold;
+}
+
+#content .info-nav li:hover a,
+#content .info-nav li.active a {
+    color: white;
+}
+
+.info-content {
+    width: 600px;
+    float: left;
+    margin-left: 200px;
+}
+
+.info-wrapper .sticky-wrapper {
+    float: left;
+}
+
+.clearfix {
+    clear: both;
 }
