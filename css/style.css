@@ -1014,3 +1014,31 @@ table#schedule td, table#schedule th {
 .pic {
     float:left;
 }
+
+#content p.new-info {
+    background: #eee;
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+#content p.new-info:before {
+    content: 'NEW!';
+    display: block;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+#content h2.new-info {
+    background: #eee;
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+#content h2.new-info:after {
+    content: 'NEW!';
+    font-size: 12px;
+    font-weight: 700;
+    top: -10px;
+    display: inline-block;
+    position: relative;
+}

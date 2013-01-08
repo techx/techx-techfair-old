@@ -23,16 +23,16 @@ else
 	 * SHORTCUTS
 	 */	
   if ($sectionName == 'sponsor') {
-    $redirect = true;
+        $redirect = true;
 		header('Location: /companies/packages/');
   } elseif ($sectionName == 'portal') {
-    $redirect = true;
+        $redirect = true;
 		header('Location: http://portal.mittechfair.org');
 	} elseif ($sectionName=='feedback') {
-    $redirect = true;
+        $redirect = true;
 		header('Location: http://techfair.wufoo.com/forms/techfair-feedback-survey/');
 	} elseif ($sectionName=='demos') {
-    $redirect = true;
+        $redirect = true;
 		header('Location: /companies/demos/');
 	} elseif ($sectionName=='av') {
 		$redirect = true;
