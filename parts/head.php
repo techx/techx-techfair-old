@@ -17,6 +17,8 @@ function make_head($title)
 	<!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>-->
 	<script src="/js/jquery-1.4.2.min.js"></script>
 	<script src="/js/jquery-ui-1.8.6.custom.min.js"></script>
+	<script src="/js/jquery.sticky.js"></script>
+	<script src="/js/script.js"></script>
 
   <!-- tipsy tooltips -->
   <link rel="stylesheet" href="/css/tipsy.css" />
