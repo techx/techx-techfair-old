@@ -1,5 +1,10 @@
+<!--ul class="info-nav">
+    <li><a href="#what-to-expect">What to expect</a></li>
+    <li><a href="#deadlines">Deadlines</a></li>
+</ul-->
+
 <h1>Welcome to Techfair!</h1>
-<h2>About Techfair: what to expect</h2>
+<h2 id="what-to-expect">About Techfair: what to expect</h2>
 <p><em>Techfair 2013 is scheduled for <strong>Feb 4, 2013</strong>, the day
 before classes start, from <strong>10AM-3PM</strong> (setup starts at
 <strong>7AM</strong>).</em></p>
@@ -47,19 +52,19 @@ to complete the portal in time, please let your CR liaison know.</p>
 company and the fair. Students are looking for interesting and engaging booths
 with technology demos they can learn about and ideally try out.</p>
 
-<p>We encourage every company to invest time into their Techfair display! We've
-seen incredible displays from a wide variety of companies. Organizations with
-tangible products have brought in prototypes of their latest models and
-designs, while software companies tend to demo their latest (and sometimes
-unreleased) products on large gorgeous displays. Others with products that are
-more difficult to demonstrate have instead compiled videos, infographics, and
-posters on the impact of their work and the science or engineering behind them.
-Just for fun, we've also seen baristas, popcorn machines, and swag for
-attendees.</p>
+<p><strong>We encourage every company to invest time into their Techfair
+display!</strong> We've seen incredible displays from a wide variety of
+companies. Organizations with tangible products have brought in prototypes of
+their latest models and designs, while software companies tend to demo their
+latest (and sometimes unreleased) products on large gorgeous displays. Others
+with products that are more difficult to demonstrate have instead compiled
+videos, infographics, and posters on the impact of their work and the science
+or engineering behind them.  Just for fun, we've also seen baristas, popcorn
+machines, and swag for attendees.</p>
 
-<p class="new-info">Each booth measures 8' x 10' and includes one 6' x 2'table, two
-chairs, and electrical outlets. Free wi-fi is avilable through MIT's guest
-network.</p>
+<p class="new-info">Each booth measures 8' x 10' and includes one 6' x 2'
+table, two chairs, and electrical outlets. Free wi-fi is avilable through MIT's
+guest network.</p>
 
 <p>If you have any ideas you want to run by us or any questions, don't hesitate
 to reach out.</p>
@@ -90,13 +95,13 @@ WW15<br />
 Cambridge, MA 02139
 </p>
 
-<p>Packages mailed must be received at this address by January 21st. We will be
-taking inventory of the packages soon after this deadline and will notify you
-of how many of your packages we have received. Because MIT Mail Services
-receives and sorts a large number of packages a day, mislabeled items have a
-high chance of not being sorted into Techfair's group of packages. In order to
-prevent avoidable delays, please be sure your packages are labeled clearly with
-Techfair and your company's name.</p>
+<p><strong>Packages mailed must be received at this address by January
+21st.</strong> We will be taking inventory of the packages soon after this
+deadline and will notify you of how many of your packages we have received.
+Because MIT Mail Services receives and sorts a large number of packages a day,
+mislabeled items have a high chance of not being sorted into Techfair's group
+of packages. In order to prevent avoidable delays, please be sure your packages
+are labeled clearly with Techfair and your company's name.</p>
 
 <p>If you are shipping your packages back right after the fair, we will provide
 you FedEx labels and cover the cost of shipping. We will also include stickers
@@ -107,7 +112,8 @@ packages in front of your booth to be collected.</p>
 <p>If you are storing your packages overnight for Tau Beta Pi's career fair, we
 will provide you stickers that indicate your package is to be stored overnight.
 Please attach the sticker to the front of your packages and leave your packages
-in front of your booth to be collected.</p>
+in front of your booth to be collected. <strong>Please indicate in the
+logistics portal that you are storing things overnight for TBP.</strong></p>
 
 <h2>A/V Services</h2>
 <p>Based on feedback and past experience, Techfair is simplifying its A/V
@@ -167,7 +173,9 @@ attending the banquet in order to have a table reserved for you.</strong></p>
 <h3>Banquet Invitation procedure</h3>
 <p>Each banquet table seats 10 people, and companies will be able to invite
 students to sit at their table. Note that the 10 people includes both company
-representatives and students.</p>
+representatives and students, so if you have 3 representatives attending
+banquet only 7 students can attend. (Please fill out the food choice of the
+representatives in the portal.)</p>
 
 <p>Shortly after the resume drop opens (mid January), companies will be able to
 invite students through an online system.  More information on how to access
@@ -177,8 +185,8 @@ notified via email.</p>
 
 <p>Additionally, companies will be able to invite students throughout the day of
 the fair by collecting their MIT username and phone number. Students will be
-notified via text message as well as email. All invitations must be accepted or
-rejected by 3pm the day of the fair.</p>
+notified via text message as well as email. All invitations must be accepted by
+3pm the day of the fair.</p>
 
 <p>The first ten students to accept the invitation will be guaranteed spots at the
 banquet. Companies are allowed to extend as many invitations as they want, but
