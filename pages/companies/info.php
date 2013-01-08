@@ -128,6 +128,9 @@ attending Techfair for access to the lot. Gold sponsors will have guaranteed
 spaces, while silver sponsors will receive spaces on a first come first serve
 basis.</p>
 
+<p><strong>To help with our planning, please indicate the number of parking
+spaces you would like in the logistics portal.</strong></p>
+
 <p>For sponsors without complimentary parking, there is a pay-per-hour parking lot
 at the corner of Vassar St. and Massachusetts Ave.</p>
 
@@ -143,23 +146,25 @@ Phone: (617) 577-0200<br />
 Toll-free: (800) 222-8733
 </p>
 
-<p>Gold sponsors will have two complimentary rooms, and silver sponsors will
-have one complimentary room. Rooms will be booked for two nights: Sunday,
-February 3rd and Monday, February 4th. Confirm with your Techfair liaison if
-you have requested additional rooms.</p>
+<p>Gold sponsors have up to two complimentary rooms, and silver sponsors will
+have one complimentary room. <strong>You must indicate in the logistics portal
+how many rooms you would like.</strong> Rooms will be booked for two nights:
+Sunday, February 3rd and Monday, February 4th. Confirm with your Techfair
+liaison if you have requested additional rooms.</p>
 
 <p>Check-in details will be available by January 31st.</p>
 
 <h2 class="new-info">Banquet</h2>
 <p>Platinum, gold, and silver sponsors get tables at the Techfair banquet. The
 banquet is an excellent opportunity for sponsors to connect with students of
-interest.</p>
+interest. <strong>You must indicate in the logistics portal that you are
+attending the banquet in order to have a table reserved for you.</strong></p>
 
 <p>The banquet is scheduled from <strong>6-8pm after the fair</strong>
 (February 4) at the <strong>Marriott in Kendall</strong> (Two Cambridge Center,
 50 Broadway Cambridge, Massachusetts, MA 02142). Attire is dressy casual.
 
-<h3>Invitation procedure</h3>
+<h3>Banquet Invitation procedure</h3>
 <p>Each banquet table seats 10 people, and companies will be able to invite
 students to sit at their table. Note that the 10 people includes both company
 representatives and students.</p>
