@@ -106,9 +106,14 @@ $routes = array(
 			'content' => 'pages/companies/demos.php',
 			'name' => 'Demos'
 		),
+		'info' => array(
+			'title' => 'Company Information / '.$basetitle,
+			'content' => 'pages/companies/info.php',
+            'name' => 'Company Information'
+		),
 		'intro' => array(
 			'title' => 'Introductory Packet / '.$basetitle,
-			'content' => 'pages/companies/intro.php',
+			'content' => 'pages/companies/info.php',
 			'show' => false
 		),
 	),
