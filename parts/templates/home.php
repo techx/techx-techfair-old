@@ -2,152 +2,44 @@
 <html>
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>MIT Techfair</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>MIT Techfair</title>
     
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600' rel='stylesheet' type='text/css'>
-	<link href="css/style.css" rel="stylesheet" />
-	<link rel="stylesheet" href="css/orbit-1.2.3/orbit-1.2.3.css">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600' rel='stylesheet' type='text/css'>
+  <link href="css/style.css" rel="stylesheet" />
+  <link href="css/home.css" rel="stylesheet" />
 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="js/orbit-1.2.3/jquery.orbit-1.2.3.min.js" type="text/javascript"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
         
-	<script type="text/javascript">
-	    var i = 0;
-    	function advanceSlide() {
-	        $("#slideshow img").eq((i+1)).removeClass("hide").addClass("show");
-	        $("#slideshow img").eq(i).removeClass("show").addClass("hide");
-	        i++;
-	        i = i %7;
-    	}
-
-    	$(document).ready(function() {
-       		setInterval(advanceSlide, 10);
-    </script>
-
-
-	<script type="text/javascript">
-	    $(window).load(function() {
-	         $('#featured').orbit();
-	     });
-	</script>
 </head>
 
 <body>
-    <div id="container">
-        <?php make_header(NULL, NULL, $routes);?>
-        <div id="slideshow">
-            <div id="info">
-                <p class="emph">Thanks for an awesome Techfair 2012!</p>
-                <p class="">Check out the pictures <a href="/photos">here</a>.</p>
-                <!--<p>Techtalks, our newest event, saw attendees from throughout the Boston area. If you missed it, <a href="/talks">click here</a> to watch the talks.</p>
-            Thanks for an awesome Techfair 2012!-->
-				<p class="space">Techfair is an annual student-run technology expo dedicated to innovation. Come experience Techfair's unique blend of cutting-edge technology and innovation from visionary companies, MIT research groups, student projects, and more.</p>
-				<p class="space">Planning for Techfair 2013 is currently underway. This year, it will take place on <strong>February 4, 2013</strong>.</p>
-        <p class="space">If you are a company interested in attending, please email the corporate relations team at <a href="mailto:techfair-cr@mit.edu">techfair-cr@mit.edu</a>.</p>
-			</div>
-			<div id="featured">	
-				<img class="show" src="/img/homepage/1.jpg"/>
-				<img class="show" src="/img/homepage/2.jpg"/>
-				<img class="show" src="/img/homepage/3.jpg"/>            
-	            <img class="show" src="/img/homepage/4.jpg"/>
-	            <img class="show" src="/img/homepage/5.jpg"/>
-			    <img class="show" src="/img/homepage/6.jpg"/>
-			    <img class="show" src="/img/homepage/7.jpg"/>
-        	</div>
+    <div id="container" class="home-container">
+      <?php make_header(NULL, NULL, $routes);?>
+
+      <div class="carousel">
+        <div class="caption">
+          <h1>A new approach to career fair.</h1>
+          <p>Techfair is a student-run organization dedicated to bringing technology and recruiting to campus in a fresh, new way.</p>
         </div>
-		<?php make_footer();?>
+      </div>
+
+      <div class="tile main-fair">
+        <h2>Techfair 2013</h2>
+        <img class="map" width="250" src="http://maps.googleapis.com/maps/api/staticmap?center=MIT+W33&size=250x250&scale=2&sensor=false&markers=color:blue%7Clabel:T%7CMIT+W33" />
+        <p>Kick off your spring semester with Techfair 2013. Featuring the
+        largest number of companies and student exhibitors ever (really, we
+        can't fit more), it's going to be an event you won't want to miss.</p>
+        <dl>
+          <dt>Location</dt>
+          <dd>Rockwell Cage, MIT Building W33</dd>
+          <dt>Time and Date</dt>
+          <dd>February 4th, 2013 - 10am-3pm</dd>
+          <dt>
+        </dl>
+      </div>
+
+      <?php make_footer();?>
     </div>
 </body>
 </html>
-
-
-
-
-
-
-
-
- <!--<script type="text/javascript">
-      var _gaq = _gaq || [];  _gaq.push(['_setAccount', 'UA-19969189-3']);  _gaq.push(['_trackPageview']);
-      (function() {    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);  })();
-    
-    var i = 0;
-    function advanceSlide() {
-        $("#slideshow img").eq((i+2) %5).removeClass();
-        $("#slideshow img").eq((i+1) %5).removeClass("hide").addClass("show");
-        $("#slideshow img").eq(i).removeClass("show").addClass("hide");
-        i++;
-        i = i %7;
-    }
-
-    $(document).ready(function() {
-        setInterval(advanceSlide, 8000);
-		
-		$("#mini-schedule-button").mouseover(
-		  function () {
-				$("#mini-schedule").addClass("schedule-show");
-			}
-		);
-		$("#info").mouseleave(
-		  function () {
-				$("#mini-schedule").removeClass("schedule-show");
-			}
-		);
-    });
-    
-
-    </script>
-   
-<link rel="stylesheet" href="/css/prettyPhoto.css" type="text/css" media="screen" charset="utf-8" />
-	<script src="/js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>-->
-
-
-	<!--	<script type="text/javascript" charset="utf-8">
-	  $(document).ready(function(){
-	    $("a[rel^='prettyPhoto']").prettyPhoto({
-			default_width: 800,
-			default_height: 450,
-			markup: '<div class="pp_pic_holder"> \
-									<div class="ppt">&nbsp;</div> \
-									<div class="pp_top"> \
-										<div class="pp_left"></div> \
-										<div class="pp_middle"></div> \
-										<div class="pp_right"></div> \
-									</div> \
-									<div class="pp_content_container"> \
-										<div class="pp_left"> \
-										<div class="pp_right"> \
-											<div class="pp_content" style="background: rgba(255,255,255,0)"> \
-												<div class="pp_loaderIcon"></div> \
-												<div class="pp_fade"> \
-													<a href="#" class="pp_expand" title="Expand the image">Expand</a> \
-													<div class="pp_hoverContainer"> \
-														<a class="pp_next" href="#">next</a> \
-														<a class="pp_previous" href="#">previous</a> \
-													</div> \
-													<div id="pp_full_res"></div> \
-													<div class="pp_details"> \
-														<div class="pp_nav"> \
-															<a href="#" class="pp_arrow_previous">Previous</a> \
-															<p class="currentTextHolder">0/0</p> \
-															<a href="#" class="pp_arrow_next">Next</a> \
-														</div> \
-														<a class="pp_close" href="#">Close</a> \
-													</div> \
-												</div> \
-											</div> \
-										</div> \
-										</div> \
-									</div> \
-									<div class="pp_bottom"> \
-										<div class="pp_left"></div> \
-										<div class="pp_middle"></div> \
-										<div class="pp_right"></div> \
-									</div> \
-								</div> \
-								<div class="pp_overlay"></div>'
-		});
-	  });
-	</script>-->
-
