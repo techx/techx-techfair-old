@@ -114,10 +114,6 @@ div.error {
 	width: 50%;
 }
 
-.emph {
-    font-weight:bold;
-}
-
 /*
  * STRUCTURE
  */
@@ -368,16 +364,6 @@ table#sponsorship td.bronze {
     font-size: 16px;
     padding: 10px 5px;
 }
-table#sponsorship tr.pricing th {
-    font-size: 18px;
-    color: #000;
-    background-color: #CDCDCD;
-}
-table#sponsorship tr.pricing td {
-    font-size: 18px;
-    color: #000;
-    background-color: #DDD;
-}
 table#sponsorship th {
     text-align: right;
 }
@@ -388,30 +374,6 @@ table#sponsorship tr:nth-child(even) th {
     background-color: #DDD;
 }
 
-/*
- * TEAM
- */
-.teamImage {
-    float: left;
-}
-.team {
-    float: left;
-    width: 350px;
-    padding-left: 10px;
-    color: #444;
-}
-.team h3 {
-    border-left: 10px solid #F29523 !important;
-    margin-left: 0 !important;
-    margin-bottom: 5px !important;
-}
-.team h4 {
-    border-left: 20px solid #CCC !important;
-    padding-left: 5px;
-    font-size: 15px !important;
-    color: #666;
-    margin-bottom: 5px !important;
-}
 
 /*
  * FORM
@@ -487,65 +449,6 @@ ul.radio span {
     color: white !important;
 }
 
-div.schedule{
-    font-size:12px;
-    margin-left:5px;
-    font-family: Helvetica, Arial, sans-serif;
-}
-h2.schedule{
-    padding-top:5px;
-    padding-left:10px;
-    margin: 0 0 0 -10px !important;
-    border: 0 !important;
-    color: #000 !important;
-}
-.schedule-title{
-    font-size:16px;
-    border-top:1px solid #ddd;
-    padding-top:5px;
-    margin-top:5px;
-    clear:left;
-}
-.schedule-orange, .schedule-orange a{
-    color:#f26a25;
-}
-#schedule-during{
-    background-color:#ddf;
-    padding-bottom:10px;
-    margin-top:10px;
-}
-.schedule-orange, .schedule-blue{
-    margin-left:40px;
-}
-.schedule-blue, .schedule-blue a{
-    color:#1d5daa;
-}
-.schedule-check{
-    border:2px solid #555;
-    width:10px;
-    background:#fff;
-    height:10px;
-    float:left;
-    margin-top:2px;
-    margin-right:10px;
-}
-#schedule-before, #schedule-during, #schedule-after {
-    padding-left: 10px;
-    width: 500px;
-}
-
-table#schedule {
-  font-family: font-family: 'Open Sans', sans-serif; 
-  font-size: 13px;
-  width: 470px;
-}
-
-table#schedule td{
-  height: 46px;
-}
-table#schedule td, table#schedule th {
-  padding-right: 20px;
-}
 
 #techtalks {
     margin-top: 10px;
@@ -759,42 +662,6 @@ table#schedule td, table#schedule th {
     color: #006cff;
     text-decoration: none;
 }
-
-#slideshow {
-   height: 665px;
-   width: 1000px;
-   overflow: hidden;
-   position: relative;
-}
-#tf-overlay {
-   position: absolute;
-   top: 20px;
-   height: 665px;
-   width: 1000px;
-   background: url('../img/homepage/slideshow-pixels.png') no-repeat center bottom;
-   z-index: 150;
-}
-/* #slideshow img {
-   position: absolute;
-   top: 665px;
-   z-index: 1;
-}
-#slideshow img.show {
-   top: 0;
-   display: block;
-   transition: right 2s ease 0s;
-   -moz-transition: right 2s ease 0s;
-   -webkit-transition: right 2s ease 0s;
-   z-index: 100;
-}
-#slideshow img.hide {
-   top: -665px;
-   display: block;
-   transition: right 2s ease 0s;
-   -moz-transition: right 2s ease 0s;
-   -webkit-transition: right 2s ease 0s;
-   z-index: 100; */
-}
 #linkout {
    padding: 25px 15px 20px;
 }
@@ -808,56 +675,6 @@ table#schedule td, table#schedule th {
 }
 
 
-#info {
-     background: rgba(255, 255, 255, 0.7);
-     width: 350px;
-	 height: 665px;
-     padding: 100px 27px 20px;
-     z-index: 200;
-     position: absolute;
-     top: 0;
-     left: 0;
-     color:#000000;
-    /* border-top: 1px solid rgba(255,255,255,0.9);
-     border-right: 1px solid rgba(255,255,255,0.9);
-     border-bottom: 1px solid rgba(255,255,255,0.9);*/
-}
-#info h2 {
-     font-size: 46px;
-     line-height: 50px;
-     border-bottom: 1px solid #999999; /*rgb(255,182,0);*/
-     font-weight: 300;
-}
-#info h3 {
-     margin-top: 5px;
-     font-size: 22px;
-     font-weight: 300;
-}
-#info p {
-     margin: 10px 0;
-     line-height: 28px;
-}
-#info p strong {
-     font-weight: 600;
-}
-#info p em {
-     font-style: italic;
-}
-
-#info p.space {
-    border-top: 1px solid #000000;
-    padding-top:1em;
-}
-
-#info a {
-	text-decoration: none;
-     color: #000000;
-     font-weight:bold;
-}
-#info a:hover {
-	text-decoration: underline;
-	color:#1790ee;
-}
 /* END HOME PAGE STYLES */
 
 
@@ -939,23 +756,6 @@ table#schedule td, table#schedule th {
 	margin-top: 10px;
 }
 
-
-#homepage-video {
-	padding: 8px;
-	position: absolute;
-     top: 282px;
-     left: 40px;
-     background: rgba(255, 255, 255, 0.9);
-
-}
-
-#homepage-video a{
-	margin: auto;
-	display: block;
-	width: 308px;
-	height: 188px;
-	background: url('/img/homepage/tf-video-thumb.png');
-}
 
 #demos {
     list-style: none;
