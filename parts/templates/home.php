@@ -38,7 +38,7 @@
             <div class="event-name">Hackathon</div>
             <div class="time-item">Feb 2 <strong>8PM</strong></div>
             <div class="desc-item">doors open</div>
-            <div class="desc-item map-location" data-name="Ray and Maria Stata Center" data-lat="42.361667" data-lng="-71.090512">
+            <div class="desc-item map-location" data-name="Stata Center" data-lat="42.361667" data-lng="-71.090512">
               <a href="http://goo.gl/maps/R3EKa">Stata Center <span class="typicn export"></span></a>
             </div>
             <div class="time-item">Feb 3 <strong>1PM</strong></div>
@@ -95,7 +95,7 @@
         can't fit more), it's going to be an event you won't want to miss.</p>
         <div class="event-details">
           <a href="http://goo.gl/maps/vwbqj">
-            <img class="map" height="200" src="http://maps.googleapis.com/maps/api/staticmap?center=MIT+W33&size=350x200&scale=2&sensor=false&markers=color:blue%7Clabel:T%7CMIT+W33" />
+            <img class="map" height="200" src="http://maps.googleapis.com/maps/api/staticmap?center=MIT+W33&size=250x200&scale=2&sensor=false&markers=color:blue%7Clabel:T%7CMIT+W33" />
           </a>
           <div class="fair-detail">
             <span class="typicn location"></span>
@@ -148,7 +148,7 @@
           <div class="fair-detail">
             <span class="typicn location"></span>
             <div class="detail-caption">
-              <a href="http://goo.gl/maps/R3EKa">Ray and Maria Stata Center <span class="typicn export nofloat"></span></a>
+              <a href="http://goo.gl/maps/R3EKa">Stata Center <span class="typicn export nofloat"></span></a>
               <p class="address">
                 32 Vassar St<br />
                 Cambridge, MA 02139
@@ -174,18 +174,19 @@
           <div class="fair-detail">
             <span class="typicn location"></span>
             <div class="detail-caption">
-              <a href="http://goo.gl/maps/R3EKa">32-123 (Ray and Maria Stata Center) <span class="typicn export nofloat"></span></a>
+              <a href="http://goo.gl/maps/R3EKa">32-123 (Stata Center) <span class="typicn export nofloat"></span></a>
             </div>
           </div>
           <div class="fair-detail">
             <span class="typicn time"></span>
             <div class="detail-caption">
-              Fri Feb 8
+              Fri Feb 8, 4-8pm
               <p>
-                6pm: Speaker A<br />
-                7pm: Speaker B<br />
-                8pm: Speaker C<br />
-                9pm: Speaker D
+                <span class="speaker-time">4pm</span> Kickoff<br />
+                <span class="speaker-time">4:15pm</span> Paul English <span class="speaker-affiliation">Kayak</span><br />
+                <span class="speaker-time">5pm</span> Ari Gesher <span class="speaker-affiliation">Palantir</span><br />
+                <span class="speaker-time">6pm</span> Yoky Matsuoka <span class="speaker-affiliation">Nest</span><br />
+                <span class="speaker-time">7pm</span> Peter Levine <span class="speaker-affiliation">Andreesen Horowitz</span>
               </p>
             </div>
           </div>
