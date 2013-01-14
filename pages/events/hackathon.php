@@ -7,7 +7,7 @@
     The&nbsp;<img height="35" width="140" src="/img/palantir_logo.png" style="vertical-align:-12%" alt="palantir"/>&nbsp;Hackathon
   </div>
   <div class="column-right">
-    <a href=[eventbrite_link]>Registration is open!</a>
+    <a href="http://techfairhack2013.eventbrite.com/">Registration is open!</a>
   </div>
 </h1>
 </div>
@@ -29,8 +29,10 @@
   <p>Please RSVP to this event and add your first and last name and school to the event wall.</p>-->
 
   <h2>About</h2>
-    <p>Techfair and Palantir are teaming up to bring you MIT’s biggest hackathon of the year. Represent your school and compete against college students of the northeast. </p>
-    
+    <p>Techfair and Palantir are teaming up to bring you MIT’s biggest hackathon of the year. 
+      Represent your school and compete against college students of the northeast. 
+      Prove your skills in either the veteran coder or novice league and tap into our $3,000+ prize pool, including $1,500
+      and direct entry into Greylock Hackfest 2 for the top team! </p>
   <h2>Schedule</h2>
     <p>
 
@@ -48,8 +50,11 @@
 </div>
 
 <div class="column-right">
-	<h2>Attendees</h2>
-	  <p>All university students are invited to compete.</p>
+	<h2>Eligibility and Deadlines</h2>
+	  <p> - All university students are invited to compete <br>
+      - Register by <b>January 30th</b> to be guaranteed a spot <br>
+      - Maximum of <b>4</b> students per team
+    </p>
   <!--<h2>Prizes</h2>
   <p>Hackathon winners from each school will receive a pair of Beats by Dr. Dre headphones and a trip to Palo Alto to compete with winning teams from other university Hackathons</p>
 	<p>Second prize winners from each school will be rewarded with Diddy Beats</p>
