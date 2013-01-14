@@ -77,10 +77,10 @@
 .home-container .tile {
     padding: 20px 40px;
     color: #222;
-    width: 700px;
+    width: 600px;
 }
 .home-container .half.tile {
-    width: 350px;
+    width: 400px;
     display: inline-block;
     vertical-align: top;
 }
@@ -149,10 +149,11 @@
 
 .schedule {
     float: right;
-    width: 200px;
     border-left: 1px solid #ccc;
     margin: 20px 0;
-    padding: 5px 20px;
+    position: relative;
+    z-index: 50;
+    box-shadow: -5px 0 8px 0 rgba(0,0,0,0.3);
 }
 .schedule h3 {
     font-size: 24px;
@@ -161,9 +162,10 @@
     margin-top: 10px;
 }
 .schedule .event-name {
-    color: #444;
+    color: #666;
     font-weight: 700;
     text-transform: uppercase;
+    float: right;
 }
 .schedule .time-item.no-date {
     margin-left: 45px;
@@ -183,4 +185,36 @@
 .schedule .typicn {
     position: relative;
     top: 3px;
+}
+
+.schedule-map {
+    position: absolute;
+    left: -22px;
+    top: 0;
+    bottom: 0;
+    background: yellow;
+    z-index: 100;
+    width: 20px;
+    -webkit-transition-property: left width;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-property: left width;
+    -moz-transition-duration: 0.3s;
+    transition-property: left width;
+    transition-duration: 0.3s;
+    border: 1px solid #ccc;
+    box-shadow: -5px 0 8px 0 rgba(0,0,0,0.3);
+}
+.schedule-wrapper {
+    padding: 5px 20px;
+    width: 250px;
+    z-index: 101;
+    position: relative;
+    box-shadow: -5px 0 4px -2px rgba(0,0,0,0.4);
+}
+.schedule:hover .schedule-wrapper {
+    background: #f5f5f5;
+}
+.schedule:hover .schedule-map {
+    left: -601px;
+    width: 600px;
 }
