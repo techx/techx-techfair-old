@@ -211,7 +211,7 @@
       </div>
       <div class="half tile">
         <h2>Afterparty</h2>
-        <p><img src="http://techfair.com/img/photos/3-3.jpg" width="350" /></p>
+        <p><img src="/img/photos/3-3.jpg" width="350" /></p>
         <p>Kinects, Xbox, and Surfaces meet a live DJ, food, drinks, and an
         incredible view of the Boston skyline. The Afterparty is brought to you
         by Microsoft - party one last time before classes start!</p>
