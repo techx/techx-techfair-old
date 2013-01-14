@@ -64,11 +64,11 @@
     color: white;
 }
 .home-container .for-companies {
-    background: #F29523;
+    background: #2a17ee;
     color: white;
-    text-align: center;
     padding: 5px;
     font-size: 14px;
+    padding-left: 40px;
 }
 .home-container .for-companies a {
     color: white;
@@ -78,6 +78,11 @@
     padding: 20px 40px;
     color: #222;
     width: 700px;
+}
+.home-container .half.tile {
+    width: 350px;
+    display: inline-block;
+    vertical-align: top;
 }
 .home-container .main-fair {
 
@@ -95,6 +100,14 @@
 .home-container .map {
     float: right;
     margin-left: 20px;
+}
+.home-container .palantir-logo {
+    height: 75px;
+    float: right;
+    margin: 5px 50px;
+}
+.home-container .map {
+    border: 2px solid #1790ee;
 }
 .home-container .event-details {
     margin: 10px 0 0 20px;
@@ -136,35 +149,33 @@
 
 .schedule {
     float: right;
-    margin: 20px;
     width: 200px;
+    border-left: 1px solid #ccc;
+    margin: 20px 0;
+    padding: 5px 20px;
 }
 .schedule h3 {
     font-size: 24px;
 }
 .schedule .event {
-    clear: both;
     margin-top: 10px;
 }
 .schedule .event-name {
-    float: right;
-    color: #888;
+    color: #444;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 .schedule .time-item.no-date {
     margin-left: 45px;
 }
 .schedule .time-item {
-    float: left;
-    clear: left;
-    color: #F29523;
+    color: #2a17ee;
     margin-top: 4px;
 }
 .schedule strong {
     font-weight: 700;
 }
 .schedule .desc-item {
-    float: left;
-    clear: left;
     text-transform: uppercase;
     font-size: 12px;
     margin-left: 45px;

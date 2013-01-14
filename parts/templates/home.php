@@ -25,50 +25,51 @@
         </div>
       </div>
       <div class="for-companies">
-        Sponsorships are sold out for Techfair 2013. Are you a company attending Techfair 2013? Check out <a href="/companies/info/">our company info page</a>.
+        Sponsorships are unfortunately sold out for Techfair 2013. Are you a company attending Techfair 2013? Check out <a href="/companies/info/">our company info page</a>.
       </div>
 
       <div class="schedule">
         <h3>2013 Schedule</h3>
         <div class="event">
-          <span class="event-name">Hackathon</span>
-          <span class="time-item">Feb 2 <strong>8PM</strong></span>
-          <span class="desc-item">doors open</span>
-          <span class="desc-item"><a href="http://goo.gl/maps/R3EKa">Stata Center <span class="typicn export"></span></a></span>
-          <span class="time-item">Feb 3 <strong>1PM</strong></span>
-          <span class="desc-item">hacking ends</span>
-          <span class="time-item no-date"><strong>1:30PM</strong></span>
-          <span class="desc-item">presentation &amp; awards</span>
+          <div class="event-name">Hackathon</div>
+          <div class="time-item">Feb 2 <strong>8PM</strong></div>
+          <div class="desc-item">doors open</div>
+          <div class="desc-item"><a href="http://goo.gl/maps/R3EKa">Stata Center <span class="typicn export"></span></a></div>
+          <div class="time-item">Feb 3 <strong>1PM</strong></div>
+          <div class="desc-item">hacking ends</div>
+          <div class="time-item no-date"><strong>1:30PM</strong></div>
+          <div class="desc-item">presentation &amp; awards</div>
           <div class="clearfix"></div>
         </div>
         <div class="event">
-          <span class="event-name">Fair</span>
-          <span class="time-item">Feb 4 <strong>10AM</strong></span>
-          <span class="desc-item">doors open</span>
-          <span class="time-item no-date"><strong>3PM</strong></span>
-          <span class="desc-item">fair concludes</span>
+          <div class="event-name">Fair</div>
+          <div class="time-item">Feb 4 <strong>10AM</strong></div>
+          <div class="desc-item">doors open</div>
+          <div class="desc-item"><a href="http://http://goo.gl/maps/vwbqj">Rockwell Cage <span class="typicn export"></span></a></div>
+          <div class="time-item no-date"><strong>3PM</strong></div>
+          <div class="desc-item">fair concludes</div>
           <div class="clearfix"></div>
         </div>
         <div class="event">
-          <span class="event-name">Banquet</span>
-          <span class="time-item no-date"><strong>6PM</strong></span>
-          <span class="desc-item">networking kickoff</span>
-          <span class="desc-item"><a href="http://goo.gl/maps/d6YFp">Media Lab<span class="typicn export"></span></a></span>
-          <span class="time-item no-date"><strong>8:30PM</strong></span>
-          <span class="desc-item">banquet concludes</span>
+          <div class="event-name">Banquet</div>
+          <div class="time-item no-date"><strong>6PM</strong></div>
+          <div class="desc-item">networking kickoff</div>
+          <div class="desc-item"><a href="http://goo.gl/maps/d6YFp">Media Lab<span class="typicn export"></span></a></div>
+          <div class="time-item no-date"><strong>8:30PM</strong></div>
+          <div class="desc-item">banquet concludes</div>
           <div class="clearfix"></div>
         </div>
         <div class="event">
-          <span class="event-name">Afterparty</span>
-          <span class="time-item no-date"><strong>9PM</strong></span>
-          <span class="desc-item">the party begins</span>
-          <span class="desc-item"><a href="http://goo.gl/maps/d6YFp">Media Lab<span class="typicn export"></span></a></span>
+          <div class="event-name">Afterparty</div>
+          <div class="time-item no-date"><strong>9PM</strong></div>
+          <div class="desc-item">the party begins</div>
+          <div class="desc-item"><a href="http://goo.gl/maps/d6YFp">Media Lab<span class="typicn export"></span></a></div>
           <div class="clearfix"></div>
         </div>
         <div class="event">
-          <span class="event-name">TechTalks</span>
-          <span class="time-item">Feb 8 <strong>6-10PM</strong></span>
-          <span class="desc-item">LOCATION TBD</span>
+          <div class="event-name">TechTalks</div>
+          <div class="time-item">Feb 8 <strong>6-10PM</strong></div>
+          <div class="desc-item">LOCATION TBD</div>
         </div>
       </div>
 
@@ -78,17 +79,16 @@
         largest number of companies and student exhibitors ever (really, we
         can't fit more), it's going to be an event you won't want to miss.</p>
         <div class="event-details">
-          <img class="map" width="200" src="http://maps.googleapis.com/maps/api/staticmap?center=MIT+W33&size=200x200&scale=2&sensor=false&markers=color:blue%7Clabel:T%7CMIT+W33" />
+          <a href="http://goo.gl/maps/vwbqj">
+            <img class="map" height="200" src="http://maps.googleapis.com/maps/api/staticmap?center=MIT+W33&size=350x200&scale=2&sensor=false&markers=color:blue%7Clabel:T%7CMIT+W33" />
+          </a>
           <div class="fair-detail">
             <span class="typicn location"></span>
             <div class="detail-caption">
-              Rockwell Cage <span class="sub">MIT Building W33</span>
+              <a href="http://goo.gl/maps/vwbqj">Rockwell Cage <span class="typicn export nofloat"></span></a> <span class="sub">MIT Building W33</span>
               <p class="address">
                 120 Vassar St<br />
                 Cambridge, MA 02139
-              </p>
-              <p>
-                (See it on <a href="http://goo.gl/maps/vwbqj">Google Maps <span class="typicn export nofloat"></span></a>)
               </p>
             </div>
           </div>
@@ -107,7 +107,7 @@
           <div class="fair-detail">
             <span class="typicn thumbsDown"></span>
             <div class="detail-caption">
-              No resumes!
+              Leave your paper resumes at home.
               <p>
                 Drop your resume <a href="http://techfair.mit.edu/drop">online <span class="typicn export nofloat"></span></a> instead.
               </p>
@@ -120,33 +120,116 @@
         <h2>Hackathon</h2>
         <p>Techfair is proud to bring to the MIT community the <a
         href="/hack">Techfair Hackathon (sponsored by Palantir)</a>.</p>
-        <img height="75" src="/img/homepage/palantir.png" />
-        <p>We've worked hard to get thousands of prize dollars on the line,
-        three awesome meals, notable judges, and competitors from throughout
-        the northeast. Battle it out over a 12 hour period and BRING
-        HONOR AND GLORY TO YOUR SCHOOL.</p>
-        <p>Visit <a href="/hack">http://techfair.mit.edu/hack</a> for more
+        <p>We've worked hard to put <strong>$5000 of prize money on the
+        line</strong>, three awesome meals, notable judges, and competitors
+        from throughout the northeast. Battle it out over a 12 hour period and
+        BRING HONOR AND GLORY TO YOUR SCHOOL.</p>
+        <p>Visit <a href="/hack">techfair.mit.edu/hack</a> for more
         details, and be sure to <a
         href="http://techfairhack2013.eventbrite.com">register on
         Eventbrite</a>.
+        <img class="palantir-logo" src="/img/homepage/palantir.png" />
         <div class="event-details">
           <div class="fair-detail">
             <span class="typicn location"></span>
             <div class="detail-caption">
-              Ray and Maria Stata Center
+              <a href="http://goo.gl/maps/R3EKa">Ray and Maria Stata Center <span class="typicn export nofloat"></span></a>
               <p class="address">
                 32 Vassar St<br />
                 Cambridge, MA 02139
-              </p>
-              <p>
-                (See it on <a href="http://goo.gl/maps/R3EKa">Google Maps <span class="typicn export nofloat"></span></a>)
               </p>
             </div>
           </div>
           <div class="fair-detail">
             <span class="typicn time"></span>
             <div class="detail-caption">
-              Sat Feb 2 2013, 8pm - Sun Feb 3 2013, 3pm
+              Sat Feb 2, 8pm - Sun Feb 3, 3pm
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tile">
+        <h2>TechTalks</h2>
+        <p>The second annual TechTalks takes place the Friday after Techfair!
+        Come by after classes to hear our incredible lineup of speakers, grab
+        some food, and meet interesting people.</p>
+        <p>Visit <a href="/talks">techfair.mit.edu/talks</a> for more
+        details and for videos from last year.</p>
+        <div class="event-details">
+          <div class="fair-detail">
+            <span class="typicn location"></span>
+            <div class="detail-caption">
+              <a href="http://goo.gl/maps/R3EKa">32-123 (Ray and Maria Stata Center) <span class="typicn export nofloat"></span></a>
+            </div>
+          </div>
+          <div class="fair-detail">
+            <span class="typicn time"></span>
+            <div class="detail-caption">
+              Fri Feb 8
+              <p>
+                6pm: Speaker A<br />
+                7pm: Speaker B<br />
+                8pm: Speaker C<br />
+                9pm: Speaker D
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="half tile">
+        <h2>Banquet</h2>
+        <p><img src="/img/banquet/Banquet3.jpg" width="350" /></p>
+        <p><strong>The Techfair banquet is an exclusive event that allows
+        companies and students to connect over a classy dinner.</strong>
+        Companies that are attending will be able to invite students of their
+        choice to sit at their table.</p>
+        <p>Invites will start going out in January - look out for an invitation
+        by email and text. <strong>Invitations must be accepted by the end of
+        the fair, 3pm.</strong></p>
+        <p>Visit <a
+        href="/events/banquet/">techfair.mit.edu/events/banquet/</a> for more
+        information.</p>
+        <div class="event-details">
+          <div class="fair-detail">
+            <span class="typicn location"></span>
+            <div class="detail-caption">
+              <a href="http://goo.gl/maps/t7wDX">Boston Marriott Cambridge <span class="typicn export nofloat"></span></a>
+              <p class="address">
+                2 Cambridge Center<br />
+                Cambridge, MA 02142
+              </p>
+            </div>
+          </div>
+          <div class="fair-detail">
+            <span class="typicn time"></span>
+            <div class="detail-caption">
+              Mon Feb 4, 6-8:30pm
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="half tile">
+        <h2>Afterparty</h2>
+        <p><img src="http://techfair.com/img/photos/3-3.jpg" width="350" /></p>
+        <p>Kinects, Xbox, and Surfaces meet a live DJ, food, drinks, and an
+        incredible view of the Boston skyline. The Afterparty is brought to you
+        by Microsoft - party one last time before classes start!</p>
+        <p><strong>Come celebrate the end of Techfair day with us at the
+        top of the Media Lab.</strong> We'll be giving away free Xboxes and
+        Surfaces - for more afterparty information visit <a
+        href="/events/afterparty/">techfair.mit.edu/events/afterparty/</a>.</p>
+        <div class="event-details">
+          <div class="fair-detail">
+            <span class="typicn location"></span>
+            <div class="detail-caption">
+              <a href="http://goo.gl/maps/d6YFp">Media Lab<span class="typicn export nofloat"></span></a>
+            </div>
+          </div>
+          <div class="fair-detail">
+            <span class="typicn time"></span>
+            <div class="detail-caption">
+              Mon Feb 4, 9-11pm
             </div>
           </div>
         </div>
