@@ -192,7 +192,6 @@
     left: -22px;
     top: 0;
     bottom: 0;
-    background: yellow;
     z-index: 100;
     width: 20px;
     -webkit-transition-property: left width;
