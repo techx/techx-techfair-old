@@ -63,10 +63,28 @@
 .home-container .carousel p {
     color: white;
 }
-
+.home-container .for-companies {
+    background: #F29523;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 14px;
+}
+.home-container .for-companies a {
+    color: white;
+    text-decoration: underline;
+}
 .home-container .tile {
     padding: 20px 40px;
     color: #222;
+    width: 700px;
+}
+.home-container .main-fair {
+
+}
+.home-container h2.techfair2013 {
+    font-size: 42px;
+    font-weight: 600;
 }
 
 .home-container h2 {
@@ -77,4 +95,81 @@
 .home-container .map {
     float: right;
     margin-left: 20px;
+}
+.home-container .event-details {
+    margin: 10px 0 0 20px;
+}
+.home-container .fair-detail {
+    margin-top: 5px;
+}
+.home-container .event-details .sub {
+    color: #666;
+    background: #EEE;
+    padding: 2px 4px;
+    border-radius: 2px;
+}
+.home-container .detail-caption {
+    margin-left: 20px;
+}
+.home-container .event-details .typicn {
+    float: left;
+    margin-top: 4px;
+    color: #888;
+}
+.home-container a .typicn.nofloat {
+    float: none;
+    position: relative;
+    top: 3px;
+    color: #1790ee;
+}
+.home-container a {
+    color: #1790ee;
+    text-decoration: none;
+}
+.home-container a:hover,
+.home-container a:hover .typicn.nofloat {
+    color: #666;
+}
+.home-container p {
+    margin-top: 5px;
+}
+
+.schedule {
+    float: right;
+    margin: 20px;
+    width: 200px;
+}
+.schedule h3 {
+    font-size: 24px;
+}
+.schedule .event {
+    clear: both;
+    margin-top: 10px;
+}
+.schedule .event-name {
+    float: right;
+    color: #888;
+}
+.schedule .time-item.no-date {
+    margin-left: 45px;
+}
+.schedule .time-item {
+    float: left;
+    clear: left;
+    color: #F29523;
+    margin-top: 4px;
+}
+.schedule strong {
+    font-weight: 700;
+}
+.schedule .desc-item {
+    float: left;
+    clear: left;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-left: 45px;
+}
+.schedule .typicn {
+    position: relative;
+    top: 3px;
 }
