@@ -35,7 +35,7 @@
         <div class="schedule-wrapper">
           <h3>2013 Schedule</h3>
           <div class="event">
-            <div class="event-name">Hackathon</div>
+            <div class="event-name"><a href="/events/hackathon/">Hackathon</a></div>
             <div class="time-item">Feb 2 <strong>8PM</strong></div>
             <div class="desc-item">doors open</div>
             <div class="desc-item map-location" data-name="Stata Center" data-lat="42.361667" data-lng="-71.090512">
@@ -48,7 +48,7 @@
             <div class="clearfix"></div>
           </div>
           <div class="event">
-            <div class="event-name">Fair</div>
+            <div class="event-name"><a href="/events/fair/">Fair</a></div>
             <div class="time-item">Feb 4 <strong>10AM</strong></div>
             <div class="desc-item">doors open</div>
             <div class="desc-item map-location" data-name="Rockwell Cage" data-lat="42.359242" data-lng="-71.095855">
@@ -59,7 +59,7 @@
             <div class="clearfix"></div>
           </div>
           <div class="event">
-            <div class="event-name">Banquet</div>
+            <div class="event-name"><a href="/events/banquet/">Banquet</a></div>
             <div class="time-item no-date"><strong>6PM</strong></div>
             <div class="desc-item">networking kickoff</div>
             <div class="desc-item map-location" data-name="Media Lab" data-lat="42.363047" data-lng="-71.085963">
@@ -70,7 +70,7 @@
             <div class="clearfix"></div>
           </div>
           <div class="event">
-            <div class="event-name">Afterparty</div>
+            <div class="event-name"><a href="/events/afterparty/">Afterparty</a></div>
             <div class="time-item no-date"><strong>9PM</strong></div>
             <div class="desc-item">the party begins</div>
             <div class="desc-item map-location" data-name="Media Lab" data-lat="42.360415" data-lng="-71.087315">
@@ -79,11 +79,20 @@
             <div class="clearfix"></div>
           </div>
           <div class="event">
-            <div class="event-name">TechTalks</div>
-            <div class="time-item">Feb 8 <strong>6-10PM</strong></div>
+            <div class="event-name"><a href="/events/talks/">TechTalks</a></div>
+            <div class="time-item">Feb 8 <strong>4PM</strong></div>
+            <div class="desc-item">kickoff</div>
             <div class="desc-item map-location" data-name="32-123" data-lat="42.361315" data-lng="-71.090646">
               <a href="http://goo.gl/maps/R3EKa">32-123 (Stata Center) <span class="typicn export"></span></a>
             </div>
+            <div class="time-item no-date"><strong>4:15PM</strong></div>
+            <div class="desc-item">Paul English</div>
+            <div class="time-item no-date"><strong>5PM</strong></div>
+            <div class="desc-item">Ari Gesher</div>
+            <div class="time-item no-date"><strong>6PM</strong></div>
+            <div class="desc-item">Yoky Matsuoka</div>
+            <div class="time-item no-date"><strong>7PM</strong></div>
+            <div class="desc-item">Peter Levine</div>
           </div>
         </div>
       </div>
