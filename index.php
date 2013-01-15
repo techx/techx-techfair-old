@@ -8,6 +8,8 @@ require('parts/routing.php');
 require('parts/head.php');
 //header of site, top banner and nav
 require('parts/header.php');
+//schedule addon
+require('parts/schedule.php');
 //footer of site
 require('parts/footer.php');
 
@@ -19,8 +21,6 @@ if(isset($_POST['action']) && isset($d['process']))
 //pick the right template
 if ($sectionName=='') {
 	require('parts/templates/home.php');
-} else if ($sectionName=='vvv') {
-    require('parts/templates/homeSAND.php');  
 } else {
 	require('parts/templates/default.php');
 }

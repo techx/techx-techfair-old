@@ -48,7 +48,7 @@ function make_header($sectionName,$subSectionName,$routes)
 											<?php $uniqueName=''; 
 										 		switch($printkey){
 													case "events/":
-														$uniqueName = "Summary of 2012 Events";
+														$uniqueName = "2013 Events Schedule";
 														break;
 													case "companies/":
 														$uniqueName = "Get Involved";
@@ -62,37 +62,14 @@ function make_header($sectionName,$subSectionName,$routes)
 												}
 											?>
 											<li><a href="/<?php echo $printkey?>"><?php echo $uniqueName?></a></li>
-											
-											
 											<?php foreach($section as $subkey=>$page): ?>
 												<?php if(is_array($page) && $subkey != ''):?>
-													
-													<!-- BIG LIST OF EXCEPTIONS -->
-													<?php if($page['name']=="Demos"):
-														continue;
-														endif;
-													?>
-													<?php if($page['name']=="The Fair"):
-															$fairClass = "bold";
-															$page['name'] = '<img src="/img/right.png"> The Fair';
-														  elseif($page['name']=="2012 Photos"):
-															$fairClass = "bold";
-															$page['name'] = '<img src="/img/right.png"> 2012 Photos';
-														  else:
-															$fairClass = "fillerClass";
-														  endif;	?>
-														
-														<?php if($page['name']=="2012 Resume Drop"):
-																$page['name'] = '<img src="/img/right.png"> 2012 Resume Drop <img src="/img/external-grey.png">';
-															  endif;	?>
-															
-													<!-- END LIST OF EXCEPTIONS -->	
-													
+                          <?php if (isset($page['show']) && !$page['show']) continue; ?>
 													<?php if(isset($page['content'])):?>
 														<?php ($sectionName==$key && $subSectionName==$subkey) ? $class=' class="current"' : $class='';?>
-														<li<?php echo $class?>><a class=<?php echo $fairClass ?> href="/<?php echo $key?>/<?php echo $subkey ?>/"><?php echo $page['name']?></a></li>
+														<li<?php echo $class?>><a href="/<?php echo $key?>/<?php echo $subkey ?>/"><?php echo $page['name']?></a></li>
 													<?php else:?>
-														<li><a class=<?php echo $fairClass ?> href="<?php echo $page['external']?>"><?php echo $page['name']?></a></li>
+														<li><a href="<?php echo $page['external']?>"><?php echo $page['name']?></a></li>
 													<?php endif;?>
 									
 												<?php endif;?>

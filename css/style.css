@@ -157,7 +157,6 @@ div.error {
     float: left;
     width: 249px;
     text-align: center;
-    border-left:1px solid #DDD;
     list-style:none;
     /*background:#1790ee;*/
 }
@@ -264,6 +263,7 @@ float:left;
 }
 #content a {
     color: #4078D6;
+    text-decoration: none;
 }
 #content a:hover {
     color: #333;
@@ -890,4 +890,133 @@ ul.radio span {
 
 .clearfix {
     clear: both;
+}
+
+.schedule {
+    float: right;
+    border-left: 1px solid #ccc;
+    margin: 20px 0 20px 40px;
+    position: relative;
+    z-index: 50;
+    box-shadow: -5px 0 8px 0 rgba(0,0,0,0.3);
+}
+.schedule h3 {
+    font-size: 24px;
+}
+.schedule .event {
+    margin-top: 10px;
+}
+.schedule .event-name {
+    font-weight: 700;
+    text-transform: uppercase;
+    float: right;
+}
+.schedule .time-item.no-date {
+    margin-left: 45px;
+}
+.schedule .time-item {
+    color: #2a17ee;
+    margin-top: 4px;
+}
+.schedule strong {
+    font-weight: 700;
+}
+.schedule .desc-item {
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-left: 45px;
+}
+.schedule .typicn {
+    position: relative;
+    top: 3px;
+}
+
+.schedule-map {
+    position: absolute;
+    left: -22px;
+    top: 0;
+    bottom: 0;
+    z-index: 100;
+    width: 20px;
+    -webkit-transition-property: left width;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-property: left width;
+    -moz-transition-duration: 0.3s;
+    transition-property: left width;
+    transition-duration: 0.3s;
+    border: 1px solid #ccc;
+    box-shadow: -5px 0 8px 0 rgba(0,0,0,0.3);
+}
+.schedule-wrapper {
+    padding: 5px 20px;
+    width: 250px;
+    z-index: 101;
+    position: relative;
+    box-shadow: -5px 0 4px -2px rgba(0,0,0,0.4);
+}
+.schedule:hover .schedule-wrapper {
+    background: #f5f5f5;
+}
+.schedule:hover .schedule-map {
+    left: -601px;
+    width: 600px;
+}
+
+.talks-details {
+    margin: 20px;
+}
+.talks-detail {
+    margin-top: 5px;
+}
+.talks-detail .typicn {
+    position: relative;
+    top: 3px;
+}
+.talks-detail .typicn.label {
+    color: #888;
+}
+.talks-detail p {
+    margin-left: 20px;
+}
+.talks-detail li {
+    list-style: none;
+    text-transform: uppercase;
+}
+.talks-detail li .speaker-time {
+    color: #555;
+    display: inline-block;
+    width: 50px;
+    text-align: right;
+}
+.talks-detail li .affiliation {
+    color: white;
+    background: #ccc;
+    font-weight: 700;
+    font-size: 12px;
+    padding: 2px 4px;
+    border-radius: 2px;
+}
+.talks-detail li .affiliation:hover {
+    background: #aaa;
+}
+.speaker {
+    clear: both;
+    padding-top: 10px;
+}
+.speaker h3 span {
+    color: white;
+    background: #F29523;
+    padding: 0 5px;
+    font-size: 16px;
+    position: relative;
+    top: -3px;
+    border-radius: 2px;
+}
+.speaker img {
+    float: left;
+    margin-right: 10px;
+}
+.speaker p {
+    width: 500px;
+    float: left;
 }

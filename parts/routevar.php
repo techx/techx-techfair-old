@@ -1,5 +1,5 @@
 <?php
-$basetitle = 'MIT Techfair 2012';
+$basetitle = 'MIT Techfair 2013';
 $routes = array(
 	'home' => array(
 		'title' => $basetitle,
@@ -34,11 +34,6 @@ $routes = array(
 	),
 	'events' => array(
 		'name' => 'Events',
-		'photos' => array(
-		    'title' => '2012 Photos / '.$basetitle,
-		    'content' => 'pages/events/photos.php',
-		    'name' => '2012 Photos'
-		),
 		'' => array(
 			'title' => 'Events / '.$basetitle,
 			'content' => 'pages/events/schedule.php'
@@ -54,11 +49,6 @@ $routes = array(
 			'content' => 'pages/events/fair.php',
 			'name' => 'The Fair'
 		),
-		'talks' => array(
-		    'title' => 'Techtalks / '.$basetitle,
-		    'content' => 'pages/events/talks.php',
-		    'name' => 'Techtalks'
-		),
 		'banquet' => array(
 			'title' => 'Banquet / '.$basetitle,
 			'content' => 'pages/events/banquet.php',
@@ -68,6 +58,21 @@ $routes = array(
 		    'title' => 'Afterparty / '.$basetitle,
 		    'content' => 'pages/events/party.php',
 		    'name' => 'Afterparty'
+		),
+		'talks' => array(
+		    'title' => 'TechTalks / '.$basetitle,
+		    'content' => 'pages/events/talks.php',
+		    'name' => 'TechTalks'
+		),
+		'talks-2012' => array(
+		    'title' => 'TechTalks 2012 / '.$basetitle,
+		    'content' => 'pages/events/talks-2012.php',
+		    'show' => false
+		),
+		'photos' => array(
+		    'title' => '2012 Photos / '.$basetitle,
+		    'content' => 'pages/events/photos.php',
+        'show' => false
 		),
 		
 		/*
@@ -96,6 +101,7 @@ $routes = array(
 			'content' => 'pages/companies/packages.php',
 			'name' => '2013 Sponsorship Packages'
 		),
+        /*
 		'past-sponsors' => array(
 			'title' => 'Past Sponsors / '.$basetitle,
 			'content' => 'pages/about/pastsponsors.php',
@@ -106,6 +112,7 @@ $routes = array(
 			'content' => 'pages/companies/demos.php',
 			'name' => 'Demos'
 		),
+        */
 		'info' => array(
 			'title' => 'Company Information / '.$basetitle,
 			'content' => 'pages/companies/info.php',
