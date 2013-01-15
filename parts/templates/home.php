@@ -60,12 +60,14 @@
           </div>
           <div class="event">
             <div class="event-name"><a href="/events/banquet/">Banquet</a></div>
-            <div class="time-item no-date"><strong>6PM</strong></div>
+            <div class="time-item no-date"><strong>5:30PM</strong></div>
             <div class="desc-item">networking kickoff</div>
             <div class="desc-item map-location" data-name="Media Lab" data-lat="42.363047" data-lng="-71.085963">
               <a href="http://goo.gl/maps/t7wDX">Boston Marriott Cambridge<span class="typicn export"></span></a>
             </div>
-            <div class="time-item no-date"><strong>8:30PM</strong></div>
+            <div class="time-item no-date"><strong>6PM</strong></div>
+            <div class="desc-item">dinner begins</div>
+            <div class="time-item no-date"><strong>8PM</strong></div>
             <div class="desc-item">banquet concludes</div>
             <div class="clearfix"></div>
           </div>
@@ -80,11 +82,12 @@
           </div>
           <div class="event">
             <div class="event-name"><a href="/events/talks/">TechTalks</a></div>
-            <div class="time-item">Feb 8 <strong>4PM</strong></div>
-            <div class="desc-item">kickoff</div>
+            <div class="time-item">Feb 8 <strong>4-8PM</strong></div>
             <div class="desc-item map-location" data-name="32-123" data-lat="42.361315" data-lng="-71.090646">
               <a href="http://goo.gl/maps/R3EKa">32-123 (Stata Center) <span class="typicn export"></span></a>
             </div>
+            <?php /*
+            <div class="desc-item">kickoff</div>
             <div class="time-item no-date"><strong>4:15PM</strong></div>
             <div class="desc-item">Paul English</div>
             <div class="time-item no-date"><strong>5PM</strong></div>
@@ -93,6 +96,7 @@
             <div class="desc-item">Yoky Matsuoka</div>
             <div class="time-item no-date"><strong>7PM</strong></div>
             <div class="desc-item">Peter Levine</div>
+            */?>
           </div>
         </div>
       </div>
@@ -190,6 +194,7 @@
             <span class="typicn time"></span>
             <div class="detail-caption">
               Fri Feb 8, 4-8pm
+              <?php /*
               <p>
                 <span class="speaker-time">4pm</span> Kickoff<br />
                 <span class="speaker-time">4:15pm</span> Paul English <span class="speaker-affiliation">Kayak</span><br />
@@ -197,6 +202,7 @@
                 <span class="speaker-time">6pm</span> Yoky Matsuoka <span class="speaker-affiliation">Nest</span><br />
                 <span class="speaker-time">7pm</span> Peter Levine <span class="speaker-affiliation">Andreesen Horowitz</span>
               </p>
+              */ ?>
             </div>
           </div>
         </div>
@@ -229,8 +235,7 @@
           <div class="fair-detail">
             <span class="typicn time"></span>
             <div class="detail-caption">
-              Mon Feb 4, 6-8:30pm
-            </div>
+              Mon Feb 4, 5:30-8pm </div>
           </div>
         </div>
       </div>
