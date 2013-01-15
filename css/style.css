@@ -962,33 +962,33 @@ ul.radio span {
     width: 600px;
 }
 
-.talks-details {
+.event-details {
     margin: 20px;
 }
-.talks-detail {
+.event-detail {
     margin-top: 5px;
 }
-.talks-detail .typicn {
+.event-detail .typicn {
     position: relative;
     top: 3px;
 }
-.talks-detail .typicn.label {
+.event-detail .typicn.label {
     color: #888;
 }
-.talks-detail p {
+.event-detail p {
     margin-left: 20px;
 }
-.talks-detail li {
+.event-detail li {
     list-style: none;
     text-transform: uppercase;
 }
-.talks-detail li .speaker-time {
+.event-detail li .speaker-time {
     color: #555;
     display: inline-block;
     width: 50px;
     text-align: right;
 }
-.talks-detail li .affiliation {
+.event-detail li .affiliation {
     color: white;
     background: #ccc;
     font-weight: 700;
@@ -996,7 +996,7 @@ ul.radio span {
     padding: 2px 4px;
     border-radius: 2px;
 }
-.talks-detail li .affiliation:hover {
+.event-detail li .affiliation:hover {
     background: #aaa;
 }
 .speaker {

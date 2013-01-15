@@ -44,7 +44,7 @@
             <div class="detail-caption">
               <a href="http://goo.gl/maps/vwbqj">Rockwell Cage <span class="typicn export nofloat"></span></a> <span class="sub">MIT Building W33</span>
               <p class="address">
-                120 Vassar St<br />
+                100 Vassar St<br />
                 Cambridge, MA 02139
               </p>
             </div>
@@ -115,6 +115,12 @@
       </div>
       <div class="tile">
         <h2>TechTalks</h2>
+        <div class="speaker-mugs">
+          <a href="/events/talks/#paul"><img src="http://placehold.it/100x100" /></a>
+          <a href="/events/talks/#ari"><img src="http://placehold.it/100x100" /></a>
+          <a href="/events/talks/#yoky"><img src="http://placehold.it/100x100" /></a>
+          <a href="/events/talks/#peter"><img src="http://placehold.it/100x100" /></a>
+        </div>
         <p>The second annual TechTalks takes place the Friday after Techfair!
         Come by after classes to hear our incredible lineup of speakers, grab
         some food, and meet interesting people.</p>
