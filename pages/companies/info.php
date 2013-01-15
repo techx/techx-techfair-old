@@ -75,8 +75,8 @@
     machines, and swag for attendees.</p>
 
     <p class="new-info">Each booth measures 8' x 10' and includes one 6' x 2'
-    table, two chairs, and electrical outlets. Free wi-fi is avilable through MIT's
-    guest network.</p>
+    table, two chairs, and electrical outlets. Free wi-fi is available through
+    MIT's guest network.</p>
 
     <p>If you have any ideas you want to run by us or any questions, don't hesitate
     to reach out.</p>
