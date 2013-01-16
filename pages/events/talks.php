@@ -21,6 +21,7 @@ and you'll understand why!</p>
   </div>
   <div class="event-detail">
     <span class="typicn time label"></span> Fri Feb 8, 4-8pm
+    <p>Lineup will be released soon.</p>
     <?php /*
     <ul>
       <li><span class="schedule-time">4pm</span> Kickoff</li>

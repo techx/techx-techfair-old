@@ -94,12 +94,12 @@ $routes = array(
 		'exhibitorlist' => array(
 		    'title' => 'Exhibitors / '.$basetitle,
 		    'content' => 'pages/companies/exhibitorlist.php',
-		    'name' => '2012 List of Exhibitors'
+		    'name' => '2013 List of Exhibitors'
 		),
 		'packages' => array(
 			'title' => 'Sponsorship / '.$basetitle,
 			'content' => 'pages/companies/packages.php',
-			'name' => '2013 Sponsorship Packages'
+			'name' => '2013 Sponsorship'
 		),
         /*
 		'past-sponsors' => array(
@@ -136,7 +136,7 @@ $routes = array(
 		),*/
 		'exhibitors' => array(
 			'external' => '/companies/exhibitorlist/',
-			'name' => '2012 List of Exhibitors'
+			'name' => '2013 List of Exhibitors'
 		),
 		'startups' => array(
 			'external' => '/mitstartups',

@@ -77,7 +77,7 @@
         <h2><a href="/hack/">Hackathon: hackMIT</a></h2>
         <p>Techfair is proud to bring to the MIT community <a
         href="/hack">hackMIT (sponsored by Techfair and Palantir)</a>.</p>
-        <p>We've worked hard to put <strong>$5000 of prize money on the
+        <p>We've worked hard to put <strong>over $5000 of prize money on the
         line</strong>, three awesome meals, notable judges, and competitors
         from throughout the northeast. Battle it out over a 12 hour period and
         BRING HONOR AND GLORY TO YOUR SCHOOL.</p>

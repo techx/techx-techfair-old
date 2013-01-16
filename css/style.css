@@ -253,7 +253,7 @@ ul#nav > li {
 }
 #content h3 {
     font-size: 20px;
-    color: #F29523;
+    color: #0f469d;
     margin: 10px 0 0;
 }
 #content h4 {
@@ -282,30 +282,6 @@ ul#nav > li {
     padding-left: 20px;
     font-weight: 300;
 }
-
-/* FOOTER */
-#footer {
-    background: #222;
-    color: #999;
-    padding: 20px;
-    border-top: 5px solid #000;
-}
-#footer a {
-    color: #888;
-    text-decoration: none;
-}
-#footer a:hover {
-    color: #AAA;
-}
-#footer a img {
-    position: relative;
-    top: 3px;
-}
-
-#copyright {
-    float: right;
-}
-
 
 /* SPONSORSHIP TABLE */
 table#sponsorship {
@@ -491,10 +467,10 @@ ul.radio span {
     text-align: center;
 }
 #content .sponsor-oracle img {
-    margin-top: 30px;
+    margin-top: 42px;
 }
 #content .sponsor-slb img {
-    margin-top: 34px;
+    margin-top: 47px;
 }
 #content .sponsor-sequoia img {
     margin-top: 41px;
@@ -916,7 +892,7 @@ ul.radio span {
     margin-left: 45px;
 }
 .schedule .time-item {
-    color: #2a17ee;
+    color: #0f469d;
     margin-top: 4px;
 }
 .schedule strong {
@@ -1022,7 +998,7 @@ ul.radio span {
 }
 .speaker h3 span {
     color: white;
-    background: #F29523;
+    background: #0f469d;
     padding: 0 5px;
     font-size: 14px;
     position: relative;
@@ -1069,34 +1045,71 @@ ul.radio span {
 .hack-prizes.rookie li span {
     width: 120px;
 }
+.hack-prizes-category {
+    margin-left: 20px;
+}
 .main-sponsor {
-    height: 150px;
+    height: 120px;
+    margin-top: 20px;
 }
 .sub-sponsor {
     padding: 15px;
     position: relative;
 }
-.sub-sponsor.greylock {
-    top: 9px;
-}
 .sub-sponsor.sifteo {
     top: -4px;
 }
 .sub-sponsor.twitter {
-    top: -8px;
+    top: 10px;
 }
 .sub-sponsor.venmo {
-    top: -21px;
+    top: -10px;
+}
+.hack-sponsor-logos {
+    text-align: center;
 }
 
 /** FOOTER **/
+#footer {
+    background: #222;
+    color: #999;
+    padding: 20px;
+    border-top: 5px solid #000;
+    font-size: 13px;
+    position: relative;
+}
+#footer a {
+    color: #888;
+    text-decoration: none;
+}
+#footer a:hover {
+    color: #AAA;
+}
+#footer a img {
+    position: relative;
+    top: 3px;
+    padding-left: 5px;
+}
 #footer-nav ul {
-    font-size: 14px;
     display: inline-block;
-    width: 220px;
+    width: 190px;
     vertical-align: top;
-    padding-bottom: 20px;
+    padding-left: 6px;
+    margin-bottom: 10px;
+    border-left: 3px solid #333;
+}
+#footer-nav ul li {
+    font-weight: 700;
+    list-style: none;
 }
 #footer-nav ul li+li {
     margin-left: 15px;
+    font-weight: 400;
+}
+#footer .footer-contact {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #666;
+    text-align: right;
 }

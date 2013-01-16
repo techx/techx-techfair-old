@@ -34,7 +34,7 @@ $eventBriteLink; ?>">Eventbrite registration</a>.)</p>
 </ul>
 <h3>Category Prizes</h3>
 <p>We're also throwing in some bonus prizes worth <strong>$250 each</strong>:</p>
-<ul>
+<ul class="hack-prizes-category">
   <li>Best user interface</li>
   <li>Best integration of data</li>
   <li>Most likely to become a real product</li>
@@ -57,7 +57,7 @@ $eventBriteLink; ?>">Eventbrite registration</a>.)</p>
     <ul>
       <li><span class="schedule-time"><span class="day">Sat Feb 2</span> 8pm</span> Doors open</li>
       <li><span class="schedule-time">8:30pm</span> Dinner is served</li>
-      <li><span class="schedule-time">9pm</span> Kickoff with Palantir</li>
+      <li><span class="schedule-time">9pm</span> Kickoff with <strong>Cooper Bills</strong>, Palantir</li>
       <li><span class="schedule-time">10pm-12am</span> Mini-lectures by our sponsors</li>
       <li><span class="schedule-time"><span class="day">Sun Feb 3</span> 2am</span> Late night snack</li>
       <li><span class="schedule-time">8am</span> Breakfast is served</li>
@@ -66,7 +66,7 @@ $eventBriteLink; ?>">Eventbrite registration</a>.)</p>
     </ul>
   </div>
   <div class="event-detail">
-    <span class="typicn group label"></span> Open to all college students
+    <span class="typicn group label"></span> Open to all college students (undergrad and grad)
   </div>
   <div class="event-detail">
     <span class="typicn anchor label"></span> Must <a
@@ -79,14 +79,18 @@ $eventBriteLink; ?>">Eventbrite registration</a>.)</p>
 </div>
 
 <h2 id="hack-sponsors">Sponsors</h2>
-<img class="main-sponsor" src="/img/hackathon/palantir.png" />
-<p>
-<img class="greylock sub-sponsor" src="/img/hackathon/greylock.jpg" />
-<img class="sifteo sub-sponsor" src="/img/hackathon/sifteo.png" /><br />
-<img class="twilio sub-sponsor" src="/img/hackathon/twilio.png" />
-<img class="twitter sub-sponsor" src="/img/hackathon/twitter.png" />
-<img class="venmo sub-sponsor" src="/img/hackathon/venmo.png" />
-</p>
+<div class="hack-sponsor-logos">
+  <img class="main-sponsor" src="/img/hackathon/palantir.png" />
+  <p>
+    <img class="greylock sub-sponsor" src="/img/hackathon/greylock.jpg" />
+    <img class="twitter sub-sponsor" src="/img/hackathon/twitter.png" />
+    <img class="venmo sub-sponsor" src="/img/hackathon/venmo.png" />
+    <?php /*
+    <img class="sifteo sub-sponsor" src="/img/hackathon/sifteo.png" />
+    <img class="twilio sub-sponsor" src="/img/hackathon/twilio.png" />
+    */ ?>
+  </p>
+</div>
 
 <div class="column-bottom" style="text-align: center; padding-top: 30px;">
   <a href="/img/hackathon/Hack1o.jpg"><img src="/img/hackathon/Hack1.jpg" style="margin-right: 20px;" width=220 height=150></a>
