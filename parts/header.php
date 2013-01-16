@@ -24,7 +24,7 @@ function make_header($sectionName,$subSectionName,$routes)
 							<a href="<?php echo $section['external']?>"><span><?php echo $section['name']?></span></a>
 						<?php endif;?>
 					</li>
-					<? endif;?>
+					<?php endif;?>
 					
 				<?php
 				$k++;
