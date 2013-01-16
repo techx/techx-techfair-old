@@ -70,21 +70,22 @@ like it.</p>
 	<h2>Platinum Sponsor</h2>
 	<div class="sponsor-logos">
 	    <a href="http://www.palantir.com/"><img title="Palantir" alt="Palantir" src="/img/logos/palantir_larger.png" /></a>
-	    <p><a href="/events/hackathon/">Hackathon Sponsor</a></p>
+	    <p class="sponsorship-title"><a href="/events/hackathon/">Hackathon Sponsor</a></p>
 	</div>
 	<h2>Gold Sponsors</h2>
-	<div class="sponsor-logos full-width">
+	<div class="gold-logos sponsor-logos full-width">
 		<div class="column-left-half">
-	   	 	<a href="http://www.dropbox.com/"><img title="Dropbox" alt="Dropbox" src="/img/logos/0Dropbox.png" /></a><br />
-	   	 	<a href="http://www.facebook.com/"><img title="Facebook" alt="Facebook" src="/img/logos/0Facebook.jpeg" /></a><br />		    
-		    <a href="http://www.microsoft.com/"><img title="Microsoft" alt="Microsoft" src="/img/logos/0Microsoft.jpeg" /></a> <a style="display:block; margin-top:-4px; font-size: 11px; text-decoration: none;" href="/events/afterparty">Afterparty Sponsor</a>
-		    <a href="http://www.novus.com/"><img title="Novus Partners" alt="Novus Partners" src="/img/logos/0Novus.png" /></a>
+	   	 	<a class="sponsor-dropbox" href="http://www.dropbox.com/"><img title="Dropbox" alt="Dropbox" src="/img/logos/0Dropbox.png" /></a><br />
+	   	 	<a class="sponsor-facebook" href="http://www.facebook.com/"><img title="Facebook" alt="Facebook" src="/img/logos/0Facebook.jpeg" /></a><br />		    
+		    <a class="sponsor-microsoft" href="http://www.microsoft.com/"><img title="Microsoft" alt="Microsoft" src="/img/logos/0Microsoft.jpeg" /></a>
+        <p class="sponsorship-title"><a href="/events/afterparty">Afterparty Sponsor</a></p>
+		    <a class="sponsor-novus" href="http://www.novus.com/"><img title="Novus Partners" alt="Novus Partners" src="/img/logos/0Novus.png" /></a>
 		</div>
 		<div class="column-right-half">
-			<a href="http://www.oracle.com/"><img title="Oracle" alt="Oracle" src="/img/logos/0Oracle.png" /></a><br />
-		    <a href="http://www.slb.com/"><img title="Schlumberger" alt="Schlumberger" src="/img/logos/0Schlumberger.png" /></a><br />
-		    <a href="http://www.sequoiacap.com/"><img title="Sequoia" alt="Sequoia" src="/img/logos/0Sequoia.jpeg" /></a><br />
-	    	<a href="http://www.yahoo.com/"><img title="Yahoo" alt="Yahoo" src="/img/logos/0Yahoo.png" /></a><br />
+			  <a class="sponsor-oracle" href="http://www.oracle.com/"><img title="Oracle" alt="Oracle" src="/img/logos/0Oracle.png" /></a><br />
+		    <a class="sponsor-slb" href="http://www.slb.com/"><img title="Schlumberger" alt="Schlumberger" src="/img/logos/0Schlumberger.png" /></a><br />
+		    <a class="sponsor-sequoia" href="http://www.sequoiacap.com/"><img title="Sequoia" alt="Sequoia" src="/img/logos/0Sequoia.jpeg" /></a><br />
+	    	<a class="sponsor-yahoo" href="http://www.yahoo.com/"><img title="Yahoo" alt="Yahoo" src="/img/logos/0Yahoo.png" /></a><br />
 		</div>
 		<div class="column-bottom"></div>
 	</div>
@@ -163,12 +164,12 @@ like it.</p>
 	<div class="full-width" style="display:block; height: 200px;">
 	  <div class="column-left-half">
 			<h2>Startup Sponsors</h2>
-			<ul>
-			<li><a href="http://formlabs.com/">Formlabs</a></li>
-			<li><a href="http://nest.com/">Nest</a></li>
-			<li><a href="http://peddl.com/">Peddl</a></li>
-			<li><a href="http://www.restdevices.com/">Rest Devices</a></li>
-			<li><a href="http://www.unmannedinnovation.com/">Unmanned Innovation</a></li>
+			<ul class="startup-sponsors">
+			  <li><a href="http://formlabs.com/">Formlabs</a></li>
+			  <li><a href="http://nest.com/">Nest</a></li>
+			  <li><a href="http://peddl.com/">Peddl</a></li>
+			  <li><a href="http://www.restdevices.com/">Rest Devices</a></li>
+			  <li><a href="http://www.unmannedinnovation.com/">Unmanned Innovation</a></li>
 			</ul>
 		</div>
 
@@ -178,6 +179,10 @@ like it.</p>
   </div>-->
 </div>
 <div class="column-right" id="sr-descriptions">
+<h2>Student Groups and Projects</h2>
+<p>Stay tuned! We'll have a complete list of student presenters and projects shortly.</p>
+<?php
+/*
   <h2>MIT Labs</h2>
   <ul> 
     <li><a href="http://projects.csail.mit.edu/spatial/Main_Page">Natural Human-Robot Interfaces - MIT CSAIL</a>
@@ -387,6 +392,7 @@ like it.</p>
 	</ul>
 	<p style="font-size: 16px;">
 	&#8314; Part of the StartLabs <a href="http://startlabs.org/c2c">Concept to Company program</a></p>
+*/ ?>
 </div>
 <div id="video-overlay" style="display:none">
     <video id="video-mozilla" class="video-js vjs-default-skin" controls preload="none" width="800" height="450"

@@ -1,11 +1,7 @@
 <?php
-function make_header($sectionName,$subSectionName,$routes)
-{
+function make_nav($sectionName,$subSectionName,$routes,$navId) {
 ?>
-    <div id="header">
-	    	<a id="logo" href="/">Techfair</a>
-	</div>
-		<ul id="nav">
+		<ul id="<?php echo $navId; ?>">
 			<?php
 			$k = 0;
 			foreach($routes as $key=>$section):?>
@@ -82,4 +78,16 @@ function make_header($sectionName,$subSectionName,$routes)
 						<?php endforeach;?>
 					</li>
 		</ul>
-<?php } ?>
+<?php
+}
+
+function make_header($sectionName,$subSectionName,$routes)
+{
+?>
+    <div id="header">
+	    	<a id="logo" href="/">Techfair</a>
+	</div>
+<?php
+    make_nav($sectionName,$subSectionName,$routes, "nav");
+}
+?>

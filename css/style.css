@@ -313,22 +313,23 @@ float:left;
 
 /* FOOTER */
 #footer {
-    width: 100%;
-    background:#000000;
-    color: #ffffff;
+    background: #222;
+    color: #999;
+    padding: 20px;
+    border-top: 5px solid #000;
+}
+#footer a {
+    color: #888;
+    text-decoration: none;
+}
+#footer a:hover {
+    color: #AAA;
+}
+#footer a img {
+    position: relative;
+    top: 3px;
 }
 
- #linkout {
-    padding: 25px 15px 20px;
-}
-#linkout, #linkout a {
-    text-decoration: none;
-    color: #006cff;
-    vertical-align: top;
-}
-#linkout a:hover {
-	text-decoration: underline;
-}
 #copyright {
     float: right;
 }
@@ -515,10 +516,40 @@ ul.radio span {
 .sponsor-logos {
     margin-left: 20px;
     margin-bottom: 20px;
+    text-align: center;
+}
+#content .sponsor-oracle img {
+    margin-top: 30px;
+}
+#content .sponsor-slb img {
+    margin-top: 34px;
+}
+#content .sponsor-sequoia img {
+    margin-top: 41px;
+}
+#content .sponsor-yahoo img {
+    margin-top: 52px;
 }
 
 .sponsor-logos img {
     margin-top: 18px;
+}
+#content .sponsorship-title {
+    text-align: center;
+}
+#content .sponsorship-title a {
+    text-transform: uppercase;
+    color: white;
+    background: #4078D6;
+    font-weight: 600;
+    font-size: 12px;
+    display: inline-block;
+    padding: 2px 8px;
+    -webkit-border-radius: 0px 0px 5px 5px;
+    border-radius: 0px 0px 5px 5px;
+}
+#content .sponsorship-title a:hover {
+    background: #666;
 }
 
 #student-startups span, #student-exhibitors span{
@@ -662,17 +693,6 @@ ul.radio span {
     color: #006cff;
     text-decoration: none;
 }
-#linkout {
-   padding: 25px 15px 20px;
-}
-#linkout, #linkout a {
-   color:#ffffff;
-   vertical-align: top;
-}
-#copyright {
-   float: right;
-   color:#ffffff;
-}
 
 
 /* END HOME PAGE STYLES */
@@ -683,11 +703,12 @@ ul.radio span {
 	width: 100%;
 }
 
-.sponsor-table a {
+#content .sponsor-table a {
 	color: #000;
 	text-decoration: none;
 }
-.sponsor-table a:hover {
+#content .sponsor-table a:hover,
+#content .startup-sponsors a:hover {
 	color: #000;
 	text-decoration: underline;
 }
@@ -700,6 +721,14 @@ ul.radio span {
 	height:50px;
 	padding: 5px 11px;
 	text-align: center;
+}
+.startup-sponsors {
+    margin-left: 10px;
+}
+#content .startup-sponsors a {
+    font-size: 18px;
+	color: #000;
+	text-decoration: none;
 }
 
 #sr-descriptions li {
@@ -1086,4 +1115,8 @@ ul.radio span {
 }
 .sub-sponsor.venmo {
     top: -21px;
+}
+
+#footer-nav {
+    font-size; 12px;
 }

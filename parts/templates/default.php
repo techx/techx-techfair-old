@@ -9,9 +9,9 @@
 		<?php make_header($sectionName,$subSectionName,$routes);?>
 		<div id="content">
 			<?php require($d['content']); ?>
-      <div class="clearfix"></div>
+            <div class="clearfix"></div>
 		</div>
-		<?php make_footer();?>
+		<?php make_footer($sectionName,$subSectionName,$routes);?>
 	</div>
 </body>
 </html>
