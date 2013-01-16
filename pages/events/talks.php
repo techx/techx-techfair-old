@@ -19,12 +19,12 @@ and you'll understand why!</p>
   <div class="event-detail">
     <span class="typicn time label"></span> Fri Feb 8, 4-8pm
     <ul>
-      <li><span class="speaker-time">4pm</span> Kickoff</li>
-      <li><span class="speaker-time">4:15pm</span> Paul English</li>
-      <li><span class="speaker-time">5pm</span> Ari Gesher</li>
-      <li><span class="speaker-time">5:45pm</span> Dinner / Break</li>
-      <li><span class="speaker-time">6:15pm</span> Yoky Matsuoka</li>
-      <li><span class="speaker-time">7pm</span> Peter Levine</li>
+      <li><span class="schedule-time">4pm</span> Kickoff</li>
+      <li><span class="schedule-time">4:15pm</span> Paul English</li>
+      <li><span class="schedule-time">5pm</span> Ari Gesher</li>
+      <li><span class="schedule-time">5:45pm</span> Dinner / Break</li>
+      <li><span class="schedule-time">6:15pm</span> Yoky Matsuoka</li>
+      <li><span class="schedule-time">7pm</span> Peter Levine</li>
     </ul>
   </div>
   <div class="event-detail">

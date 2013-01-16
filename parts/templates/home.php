@@ -74,9 +74,9 @@
       </div>
 
       <div class="tile">
-        <h2>Hackathon</h2>
-        <p>Techfair is proud to bring to the MIT community the <a
-        href="/hack">Techfair Hackathon (sponsored by Palantir)</a>.</p>
+        <h2>Hackathon: hackMIT</h2>
+        <p>Techfair is proud to bring to the MIT community <a
+        href="/hack">hackMIT (sponsored by Techfair and Palantir)</a>.</p>
         <p>We've worked hard to put <strong>$5000 of prize money on the
         line</strong>, three awesome meals, notable judges, and competitors
         from throughout the northeast. Battle it out over a 12 hour period and
@@ -108,7 +108,7 @@
           <div class="fair-detail">
             <span class="typicn anchor"></span>
             <div class="detail-caption">
-              <a href="http://techfairhack2013.eventbrite.com">Register on Eventbrite</a>
+              <a href="http://hackmit.eventbrite.com">Register on Eventbrite</a>
             </div>
           </div>
         </div>
