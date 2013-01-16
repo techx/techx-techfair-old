@@ -965,6 +965,16 @@ ul.radio span {
 .event-details {
     margin: 20px;
 }
+.event-details.hack-details {
+    margin: 0;
+}
+#content .event-details h3 {
+    margin: 5px 0 0 20px;
+    font-size: 18px;
+}
+.event-details ul {
+    padding-left: 0;
+}
 .event-detail {
     margin-top: 5px;
 }
@@ -982,11 +992,17 @@ ul.radio span {
     list-style: none;
     text-transform: uppercase;
 }
-.event-detail li .speaker-time {
-    color: #555;
+.event-detail li .schedule-time {
+    color: #666;
     display: inline-block;
-    width: 50px;
+    width: 110px;
     text-align: right;
+    font-weight: 600;
+}
+.event-detail li .schedule-time .day {
+    font-weight: 400;
+    color: #222;
+    float: left;
 }
 .event-detail li .affiliation {
     color: white;
@@ -1019,4 +1035,55 @@ ul.radio span {
 .speaker p {
     width: 500px;
     float: left;
+}
+.hack-event-photo {
+    float: right;
+    width: 400px;
+    margin-right: 80px;
+}
+.hack-prizes li {
+    list-style: none;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.hack-prizes li span {
+    width: 120px;
+    text-align: right;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.hack-prizes li div {
+    font-size: 14px;
+    color: #444;
+    margin-left: 20px;
+}
+.hack-prizes.rookie li {
+    color: #333;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.hack-prizes.rookie li span {
+    width: 120px;
+}
+.main-sponsor {
+    height: 150px;
+}
+.sub-sponsor {
+    padding: 15px;
+    position: relative;
+}
+.sub-sponsor.greylock {
+    top: 9px;
+}
+.sub-sponsor.sifteo {
+    top: -4px;
+}
+.sub-sponsor.twitter {
+    top: -8px;
+}
+.sub-sponsor.venmo {
+    top: -21px;
 }

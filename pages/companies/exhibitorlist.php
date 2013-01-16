@@ -1,5 +1,3 @@
-<link rel="stylesheet" href="/css/video-js.min.css" />
-<script src="/js/video.min.js"></script>
 <?php 
 function natksort($array) 
 { 
@@ -63,17 +61,11 @@ function populateSponsorTable($sponsorList){
 ?>
 
 <div class="column-top">
-	<h1>2013 List of Exhibitors</h1>
-	<p>With over 60 companies and 30 student exhibitors, this year's Techfair is the biggest yet!</p>
-	<p>See the full schedule <a href="/events/">here</a>.</p>
-	<p>Download all of our events into your calendar!
-    <br/>
-    - via <a href="http://www.google.com/calendar/render?cid=https%3A%2F%2Fwww.google.com%2Fcalendar%2Ffeeds%2Fgh1nmqduakfgor623cr7smmc54%2540group.calendar.google.com%2Fpublic%2Fbasic">Google Calendar</a>
-    <br/>
-    - via <a href="/Techfair2013.ics">iCal</a>
-    	<p><strong>Check out these <a href="/companies/demos/">cool demos</a> from both our sponsors and the MIT Exhibitors!</strong>
-  </p>
-</div>
+<h1>2013 List of Exhibitors</h1>
+<p>With over 60 companies and 30 student exhibitors, Techfair 2013 has a full
+house. While we physically can't fit any more booths, we're always pushing for
+the best displays that companies can manage. Come check us out; we think you'll
+like it.</p>
 <div class="column-left">
 	<h2>Platinum Sponsor</h2>
 	<div class="sponsor-logos">
@@ -404,51 +396,4 @@ function populateSponsorTable($sponsorList){
     </video>
 </div>
 
-<!--</div>-->
-<script>
-    $('#video-link-mozilla').click(function() {
-        $('#video-overlay').show();
-        return false;
-    });
-    $('.video-js').live('click', function(e) {
-        return false;
-    });
-    $('#video-overlay').live('click', function() {
-        $('#video-overlay').hide();
-        _V_("#video-mozilla").ready(function(){
-            var myPlayer = this;
-            myPlayer.pause();
-            myPlayer.currentTime(0);
-        });
-    });
-</script>
-<style>
-    #video-overlay {
-        position: fixed;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        background: rgba(0,0,0,0.5);
-    }
-    #video-overlay .video-js {
-        margin-left: -400px;
-        margin-top: -250px;
-        left: 50%;
-        top: 50%;
-        position: absolute;
-    }
-    #content .video-link {
-        font-size: 12px;
-        background: #4078D6;
-        color: white;
-        display: inline-block;
-        padding: 0 5px;
-    }
-    #content .video-link:hover {
-        color: white;
-        text-decoration: none;
-        background: #888;
-    }
-</style>
 <div class="column-bottom"></div>
