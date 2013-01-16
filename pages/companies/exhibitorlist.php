@@ -61,9 +61,10 @@ function populateSponsorTable($sponsorList){
 ?>
 
 <h1>2013 List of Exhibitors</h1>
-<p>With over 60 companies and 30 student exhibitors, this year's Techfair is the biggest yet.</p>
-<p>A finalized listing of companies is nearly complete. Check this spot soon!</p>
-<?php /*
+<p>With over 60 companies and 30 student exhibitors, Techfair 2013 has a full
+house. While we physically can't fit any more booths, we're always pushing for
+the best displays that companies can manage. Come check us out; we think you'll
+like it.</p>
 <div class="column-left">
 	<h2>Platinum Sponsor</h2>
 	<div class="sponsor-logos">
@@ -396,7 +397,5 @@ function populateSponsorTable($sponsorList){
         <source src="http://s3.amazonaws.com/techfair/Mozilla-HR-event.mov" type='video/mp4' />
     </video>
 </div>
-*/
-?>
 
 <div class="column-bottom"></div>
