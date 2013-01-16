@@ -1,27 +1,3 @@
-<!--<script type="text/javascript"> 
-var revert = new Array();
-var inames = new Array('Emily', 'Jeff', 'Kuan', 'Susie', 'Cyril', 'Nick');
- 
-// Preload
-if (document.images) {
-  var flipped = new Array();
-  for(i=0; i< inames.length; i++) {
-    flipped[i] = new Image();
-    flipped[i].src = "/img/exec/"+inames[i]+"1.jpg";
-  }
-}
- 
-function over(num) {
-  if(document.images) {
-    revert[num] = document.images[inames[num]].src;
-    document.images[inames[num]].src = flipped[num].src;
-  }
-}
-function out(num) {
-  if(document.images) document.images[inames[num]].src = revert[num];
-}
-</script>-->
-
 <script type="text/javascript">
 	$.fn.preload = function() {
 	    this.each(function(){
@@ -30,49 +6,39 @@ function out(num) {
 	}
 
 	$(['/img/exec/Josh.jpg','/img/exec/Julie.jpg','/img/exec/Richard.jpg','/img/exec/Annie.jpg','/img/exec/Ramya.jpg','/img/exec/EXEC-ALL_small.jpg','/img/exec/Virginia.jpg','/img/exec/Max.jpg','/img/exec/Devin.jpg','/img/exec/julie_OLD.jpg','/img/exec/david_OLD.jpg']).preload();
-	
-	
-	$(document).ready(function() {
-			for(count=0;count<11;count++){
-			$("#tooltip"+count).tipsy({gravity: 's', fade: true});
-		}
-	});
  </script>
  
 <style type="text/css">
-.marginnone {
-  margin: 0px 0px 0px 0px;
-  border: 0px;
-  padding: 0px;
-}
-.marginright {
-  margin: 0px 4px 0px 0px;
-  border: 0px;
-  padding: 0px;
-}
-.marginrighttopbottom {
-  margin: 5px 4px 4px 0px;
-  border: 0px;
-  padding: 0px;
-}
 
-/*for center exec picture*/
-.margincenter {
-  margin: 4px 10px 4px 10px;
+.exec-person {
+  display: inline-block;
+  position: relative;
 }
-
-.margintopbottom {
-  margin: 4px 0px 4px 0px;
-  border: 0px;
-  padding: 0px;
+.exec-person:hover .exec-name {
+  opacity: 1;
 }
-
-#exec-photos a {
-  text-decoration: none;
-}
-
-#exec-photos a:hover {
-  text-decoration: none;
+.exec-person .exec-name {
+  position: absolute;
+  opacity: 0;
+  left: 0;
+  right: 0;
+  bottom: -45px;
+  padding: 5px;
+  height: 40px;
+  line-height: 20px;
+  text-align: center;
+  background: rgba(10,10,10,0.8);
+  color: white;
+  font-size: 12px;
+  z-index: 200;
+  -webkit-border-radius: 0px 0px 5px 5px;
+  border-radius: 0px 0px 5px 5px;
+  font-weight: 700;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 </style>
  
@@ -83,48 +49,58 @@ function out(num) {
   </p>
 <h2>10 people, 1 awesome team.</h2> 
 <div id='exec-photos'>
-  <div class=" group blank">
-    <a class="pic" id="tooltip4" href="#" title="Josh Ma: Managing Director">
-      <img class="marginright" width="234" height="234" src="/img/exec/Josh.jpg" onmouseover="this.src='/img/exec/Josh_Silly.jpg'" onmouseout="this.src='/img/exec/Josh.jpg'" name="Josh" />
-    </a>
-    <a class="pic" id="tooltip5" href="#" title="Julie Wang: Associate Director">
-      <img class="marginright" width="234" height="234" src="/img/exec/Julie.jpg" onmouseover="this.src='/img/exec/Julie_silly.jpg'" onmouseout="this.src='/img/exec/Julie.jpg'" name="Julie" />
-    </a>
-    <a class="pic" href="#" id="tooltip1" title="Richard Ni: Corporate Relations Director">
-      <img class="marginright" width="234" height="234" src="/img/exec/Richard.jpg" onmouseover="this.src='/img/exec/Richard_Silly.jpg'" onmouseout="this.src='/img/exec/Richard.jpg'" name="Richard"/>
-    </a>
-    <a class="pic" id="tooltip6" href="#" title="Annie Tang: Marketing Director">
-      <img class="marginnone" width="234" height="234" src="/img/exec/Annie.jpg" onmouseover="this.src='/img/exec/Annie_Silly.jpg'" onmouseout="this.src='/img/exec/Annie.jpg'" name="Annie" />
-    </a>
+  <div class="group blank">
+    <div class="exec-person">
+      <div class="exec-name">Joshua Ma<br /> Managing Director</div>
+      <img width="234" height="234" src="/img/exec/Josh.jpg" onmouseover="this.src='/img/exec/Josh_Silly.jpg'" onmouseout="this.src='/img/exec/Josh.jpg'" name="Josh" />
+    </div>
+    <div class="exec-person">
+      <div class="exec-name">Julie Wang<br /> Associate Director</div>
+      <img width="234" height="234" src="/img/exec/Julie.jpg" onmouseover="this.src='/img/exec/Julie_silly.jpg'" onmouseout="this.src='/img/exec/Julie.jpg'" name="Julie" />
+    </div>
+    <div class="exec-person">
+      <div class="exec-name">Richard Ni<br /> Corporate Relations Director</div>
+      <img width="234" height="234" src="/img/exec/Richard.jpg" onmouseover="this.src='/img/exec/Richard_Silly.jpg'" onmouseout="this.src='/img/exec/Richard.jpg'" name="Richard"/>
+    </div>
+    <div class="exec-person">
+      <div class="exec-name">Annie Tang<br /> Marketing Director</div>
+      <img width="234" height="234" src="/img/exec/Annie.jpg" onmouseover="this.src='/img/exec/Annie_Silly.jpg'" onmouseout="this.src='/img/exec/Annie.jpg'" name="Annie" />
+    </div>
   </div>
   <br>
 
   <div class=" group blank">
-    <a class="pic" href="#" id="tooltip2" title="Ramya Swamy: Student Relations Director">
-      <img class="marginrighttopbottom" width="234" height="234" src="/img/exec/Ramya.jpg" onmouseover="this.src='/img/exec/Ramya_Silly.jpg'" onmouseout="this.src='/img/exec/Ramya.jpg'" name="Ramya"/>
-      </a>
-    <a class="pic" href="/img/exec/execo.jpg" id="tooltip10" title="Techfair Executive Team">
-      <img class="marginrighttopbottom" position="center" src="/img/exec/EXEC-ALL_small.jpg" name="Exec"/>
-    </a>
-    <a class="pic" id="tooltip8" href="#" title="Virginia Chiu: Logistics Director">
-      <img class="margintopbottom" width="234" height="234" src="/img/exec/Virginia.jpg" onmouseover="this.src='/img/exec/Virginia_Silly.jpg'" onmouseout="this.src='/img/exec/Virginia.jpg'" name="Virginia" />
-    </a>
+    <div class="exec-person">
+      <div class="exec-name">Ramya Swamy<br /> Student Relations Director</div>
+      <img width="234" height="234" src="/img/exec/Ramya.jpg" onmouseover="this.src='/img/exec/Ramya_Silly.jpg'" onmouseout="this.src='/img/exec/Ramya.jpg'" name="Ramya"/>
+    </div>
+    <div class="exec-person">
+      <img src="/img/exec/EXEC-ALL_small.jpg" name="Exec"/>
+    </div>
+    <div class="exec-person">
+      <div class="exec-name">Virginia Chiu<br /> Logistics Director</div>
+      <img width="234" height="234" src="/img/exec/Virginia.jpg" onmouseover="this.src='/img/exec/Virginia_Silly.jpg'" onmouseout="this.src='/img/exec/Virginia.jpg'" name="Virginia" />
+    </div>
   </div>
   <br>
 
   <div class="group blank">
-    <a class="pic" id="tooltip7" href="#" title="Max Kolysh: Dev Ops Director">
-      <img class="marginright" width="234" height="234" src="/img/exec/Max.jpg" onmouseover="this.src='/img/exec/Max_Silly.jpg'" onmouseout="this.src='/img/exec/Max.jpg'" name="Max" />
-      </a>
-    <a class="pic" href="#" id="tooltip3" title="Devin Zhang: Finance Director">
-      <img class="marginright" width="234" height="234" src="/img/exec/Devin.jpg" onmouseover="this.src='/img/exec/Devin_Silly.jpg'" onmouseout="this.src='/img/exec/Devin.jpg'" name="Devin" />
-      </a>
-    <a class="pic" href="#" id="tooltip9" title="Anvisha Pai: TechTalks Director">
-    <img class="marginright" width="234" height="234" src="/img/exec/Anvisha.jpg" onmouseover="this.src='/img/exec/Anvisha_Silly.jpg'" onmouseout="this.src='/img/exec/Anvisha.jpg'" name="Anvisha" />
-    </a>
-    <a class="pic" href="#" id="tooltip0" title="Emily Zhang: Events Director">
-      <img class="marginnone" width="234" height="234" src="/img/exec/Emily.jpg" onmouseover="this.src='/img/exec/Emily_Silly.jpg'" onmouseout="this.src='/img/exec/Emily.jpg'" name="Emily"/>
-    </a>
+    <div class="exec-person">
+      <div class="exec-name">Max Kolysh<br /> Dev Ops Director</div>
+      <img width="234" height="234" src="/img/exec/Max.jpg" onmouseover="this.src='/img/exec/Max_Silly.jpg'" onmouseout="this.src='/img/exec/Max.jpg'" name="Max" />
+    </div>
+    <div class="exec-person">
+      <div class="exec-name">Devin Zhang<br /> Finance Director</div>
+      <img width="234" height="234" src="/img/exec/Devin.jpg" onmouseover="this.src='/img/exec/Devin_Silly.jpg'" onmouseout="this.src='/img/exec/Devin.jpg'" name="Devin" />
+    </div>
+    <div class="exec-person">
+      <div class="exec-name">Anvisha Pai<br /> TechTalks Director</div>
+      <img width="234" height="234" src="/img/exec/Anvisha.jpg" onmouseover="this.src='/img/exec/Anvisha_Silly.jpg'" onmouseout="this.src='/img/exec/Anvisha.jpg'" name="Anvisha" />
+    </div>
+    <div class="exec-person">
+      <div class="exec-name">Emily Zhang<br /> Events Director</div>
+      <img width="234" height="234" src="/img/exec/Emily.jpg" onmouseover="this.src='/img/exec/Emily_Silly.jpg'" onmouseout="this.src='/img/exec/Emily.jpg'" name="Emily"/>
+    </div>
   </div>
 </div>
 <!-- Old 3x3 2011 Exec
