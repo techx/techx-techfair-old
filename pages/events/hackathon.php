@@ -14,7 +14,7 @@ mention free dinner, breakfast, and lunch.</p>
 Eventbrite</a> in order to attend.</p>
 
 <h2>Prizes</h2>
-<p>Thanks to our sponsors (see below), hackMIT features over $5000 in
+<p>Thanks to <a href="#hack-sponsors">our sponsors</a> (see below), hackMIT features over $5000 in
 prizes. We've split them so there's more to share:</p>
 <ul class="hack-prizes">
   <li><span>1st place:</span> $1500 <div>+ automatic entry into Greylock Hackfest 2</div></li>
@@ -78,7 +78,7 @@ $eventBriteLink; ?>">Eventbrite registration</a>.)</p>
   </div>
 </div>
 
-<h2>Sponsors</h2>
+<h2 id="hack-sponsors">Sponsors</h2>
 <img class="main-sponsor" src="/img/hackathon/palantir.png" />
 <p>
 <img class="greylock sub-sponsor" src="/img/hackathon/greylock.jpg" />
