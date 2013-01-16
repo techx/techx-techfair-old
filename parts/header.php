@@ -1,6 +1,7 @@
 <?php
-function make_nav($sectionName,$subSectionName,$routes,$navId) {
+function make_nav($sectionName,$subSectionName,$routes,$navId="nav",$showHeadings=true) {
 ?>
+<?php if($showHeadings): ?>
 		<ul id="<?php echo $navId; ?>">
 			<?php
 			$k = 0;
@@ -27,6 +28,9 @@ function make_nav($sectionName,$subSectionName,$routes,$navId) {
 				endif;?>
 			<?php endforeach;?>
 					<li id="submenu">
+<?php else: ?>
+        <div id="<?php echo $navId; ?>">
+<?php endif; ?>
 						<?php
 						$k = 0;
 						foreach($routes as $key=>$section):?>
@@ -47,10 +51,10 @@ function make_nav($sectionName,$subSectionName,$routes,$navId) {
 														$uniqueName = "2013 Events Schedule";
 														break;
 													case "companies/":
-														$uniqueName = "Get Involved";
+														$uniqueName = "Get Involved - Companies";
 														break;
 													case "students/":
-														$uniqueName = "Get Involved";
+														$uniqueName = "Get Involved - Students";
 														break;
 													case "about/":
 														$uniqueName = "About Techfair";
@@ -76,8 +80,12 @@ function make_nav($sectionName,$subSectionName,$routes,$navId) {
 							$k++;
 							endif;?>
 						<?php endforeach;?>
+<?php if ($showHeadings): ?>
 					</li>
 		</ul>
+<?php else: ?>
+        </div>
+<?php endif; ?>
 <?php
 }
 

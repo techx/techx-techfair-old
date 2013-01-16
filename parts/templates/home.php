@@ -231,7 +231,7 @@
         </div>
       </div>
 
-      <?php make_footer();?>
+      <?php make_footer($routes); ?>
     </div>
 </body>
 </html>

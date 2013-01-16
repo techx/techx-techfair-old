@@ -1,8 +1,8 @@
 <?php
-function make_footer($sectionName,$subSectionName,$routes) {
+function make_footer($routes) {
 ?>
 <div id="footer">
-    <?php make_nav($sectionName,$subSectionName,$routes,"footer-nav"); ?>
+    <?php make_nav("","",$routes,"footer-nav",false); ?>
     <a href="http://facebook.com/techfair"><img src="/img/homepage/facebook.png" alt="fb" /></a>
     <a href="mailto:techfair-exec@mit.edu">techfair-exec@mit.edu</a>
     <span id="copyright">&copy; MIT Techfair 2013</span>

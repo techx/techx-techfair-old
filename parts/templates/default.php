@@ -11,7 +11,7 @@
 			<?php require($d['content']); ?>
             <div class="clearfix"></div>
 		</div>
-		<?php make_footer($sectionName,$subSectionName,$routes);?>
+		<?php make_footer($routes);?>
 	</div>
 </body>
 </html>

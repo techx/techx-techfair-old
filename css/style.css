@@ -1,31 +1,3 @@
-/* @license
- * MyFonts Webfont Build ID 1918894, 2012-01-13T13:34:36-0500
- * 
- * The fonts listed in this notice are subject to the End User License
- * Agreement(s) entered into by the website owner. All other parties are 
- * explicitly restricted from using the Licensed Webfonts(s).
- * 
- * You may obtain a valid license at the URLs below.
- * 
- * Webfont: Calluna Sans Regular by exljbris
- * URL: http://www.myfonts.com/fonts/exljbris/calluna-sans/regular/
- * Copyright: Copyright (c) 2010 by Jos Buivenga. All rights reserved.
- * Licensed pageviews: unlimited
- * 
- * 
- * License: http://www.myfonts.com/viewlicense?type=web&buildid=1918894
- * 
- * © 2012 Bitstream Inc
-*/
-
-/*
- @font-face {
-      font-family: 'CallunaSans-Regular';
-      src: url('webfonts/1D47AE_0_0.eot');
-      src: url('webfonts/1D47AE_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/1D47AE_0_0.woff') format('woff'),url('webfonts/1D47AE_0_0.ttf') format('truetype');
-}
-*/
- 
  /*
  * RESET
  */
@@ -193,17 +165,17 @@ ul#nav > li {
     background: #FAFAFA;
     margin: 0;
 }
-#submenu ul {
+#nav #submenu ul {
     list-style: none;
     margin: 0;
     padding: 0;
     border-left: 1px solid #ddd;
     height:200px;
     width:249px;
-float:left;
+    float:left;
 }
 
-#submenu li {
+#nav #submenu li {
     border: 0;
 }   
 /* #subMenu ul:first-child {
@@ -222,7 +194,7 @@ float:left;
 #nav a:hover {
     text-decoration: underline;
 }
-#submenu a {
+#nav #submenu a {
     color: #bbb;
     display:block;
     margin-top:10px;
@@ -239,10 +211,10 @@ float:left;
 #menu3:hover ~ #submenu > #sub3 a, #sub3:hover a {
     color: #666;
 }
-#sub0:hover a:hover,
-#sub1:hover a:hover,
-#sub2:hover a:hover,
-#sub3:hover a:hover {
+#nav #sub0:hover a:hover,
+#nav #sub1:hover a:hover,
+#nav #sub2:hover a:hover,
+#nav #sub3:hover a:hover {
     color: #111;
     text-decoration: none;
 }
@@ -1052,7 +1024,7 @@ ul.radio span {
     color: white;
     background: #F29523;
     padding: 0 5px;
-    font-size: 16px;
+    font-size: 14px;
     position: relative;
     top: -3px;
     border-radius: 2px;
@@ -1117,6 +1089,14 @@ ul.radio span {
     top: -21px;
 }
 
-#footer-nav {
-    font-size; 12px;
+/** FOOTER **/
+#footer-nav ul {
+    font-size: 14px;
+    display: inline-block;
+    width: 220px;
+    vertical-align: top;
+    padding-bottom: 20px;
+}
+#footer-nav ul li+li {
+    margin-left: 15px;
 }
