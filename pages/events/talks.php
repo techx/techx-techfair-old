@@ -23,7 +23,7 @@ and you'll understand why!</p>
       <li><span class="speaker-time">4:15pm</span> Paul English</li>
       <li><span class="speaker-time">5pm</span> Ari Gesher</li>
       <li><span class="speaker-time">5:45pm</span> Dinner / Break</li>
-      <li><span class="speaker-time">6:15pm</span> Yoky Matsuaka</li>
+      <li><span class="speaker-time">6:15pm</span> Yoky Matsuoka</li>
       <li><span class="speaker-time">7pm</span> Peter Levine</li>
     </ul>
   </div>
@@ -44,20 +44,20 @@ and you'll understand why!</p>
 <h2>The Lineup</h2>
 <div class="speaker">
   <h3 id="paul">Paul English <span>Kayak</span></h3>
-  <img src="http://placehold.it/100x100" />
+  <img src="/img/homepage/paul_english.jpg" />
   <p>Born at the age of 20, this is a relatively long biography. He was a CEO,
   a founder, and a husband of three. There were the best of good times, the
   worst of old age. There are pineapples under the sea.
 </div>
 <div class="speaker">
   <h3 id="ari">Ari Gesher <span>Palantir</span></h3>
-  <img src="http://placehold.it/100x100" />
+  <img src="/img/homepage/ari_gesher.jpg" />
 </div>
 <div class="speaker">
-  <h3 id="yoky">Yoky Matsuaka <span>Nest</span></h3>
-  <img src="http://placehold.it/100x100" />
+  <h3 id="yoky">Yoky Matsuoka <span>Nest</span></h3>
+  <img src="/img/homepage/yoky_matsuoka.jpg" />
 </div>
 <div class="speaker">
   <h3 id="peter">Peter Levine <span>Andreesen Horowitz</span></h3>
-  <img src="http://placehold.it/100x100" />
+  <img src="/img/homepage/peter_levine.jpg" />
 </div>

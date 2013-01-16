@@ -23,7 +23,7 @@ function schedule() {
       <div class="time-item">Feb 4 <strong>10AM</strong></div>
       <div class="desc-item">doors open</div>
       <div class="desc-item map-location" data-name="Rockwell Cage" data-lat="42.359242" data-lng="-71.095855">
-        <a href="http://http://goo.gl/maps/vwbqj">Rockwell Cage <span class="typicn export"></span></a>
+        <a href="http://goo.gl/maps/vwbqj">Rockwell Cage <span class="typicn export"></span></a>
       </div>
       <div class="time-item no-date"><strong>3PM</strong></div>
       <div class="desc-item">fair concludes</div>

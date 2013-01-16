@@ -116,10 +116,10 @@
       <div class="tile">
         <h2>TechTalks</h2>
         <div class="speaker-mugs">
-          <a href="/events/talks/#paul"><img src="http://placehold.it/100x100" /></a>
-          <a href="/events/talks/#ari"><img src="http://placehold.it/100x100" /></a>
-          <a href="/events/talks/#yoky"><img src="http://placehold.it/100x100" /></a>
-          <a href="/events/talks/#peter"><img src="http://placehold.it/100x100" /></a>
+          <a href="/events/talks/#paul"><img src="/img/homepage/paul_english.jpg" alt="Paul English" /></a>
+          <a href="/events/talks/#ari"><img src="/img/homepage/ari_gesher.jpg" alt="Ari Gesher" /></a>
+          <a href="/events/talks/#yoky"><img src="/img/homepage/yoky_matsuoka.jpg" alt="Yoky Matsuoka" /></a>
+          <a href="/events/talks/#peter"><img src="/img/homepage/peter_levine.jpg" alt="Peter Levine" /></a>
         </div>
         <p>The second annual TechTalks takes place the Friday after Techfair!
         Come by after classes to hear our incredible lineup of speakers, grab
@@ -135,6 +135,8 @@
             <span class="typicn time"></span>
             <div class="detail-caption">
               Fri Feb 8, 4-8pm
+              <p>
+                Kickoff starts at 4pm, followed by 30 
               <?php /*
               <p>
                 <span class="speaker-time">4pm</span> Kickoff<br />
@@ -159,6 +161,7 @@
             </div>
           </div>
         </div>
+        <div class="clearfix"></div>
       </div>
 
       <div class="half tile">
@@ -198,11 +201,11 @@
       <div class="half tile">
         <h2>Afterparty</h2>
         <p><img src="/img/photos/3-3.jpg" width="400" /></p>
-        <p>Kinects, Xbox, and Surfaces meet a live DJ, food, drinks, and an
-        incredible view of the Boston skyline. The Afterparty is brought to you
-        by Microsoft - party one last time before classes start!</p>
-        <p><strong>Come celebrate the end of Techfair day with us at the
-        top of the Media Lab.</strong> We'll be giving away free Xboxes and
+        <p>Kinects, Xbox, and Surfaces meet live DJ, finger food, moocktails,
+        and an incredible view of the Boston skyline. The Afterparty is brought
+        to you by Microsoft - party one last time before classes start.</p>
+        <p><strong>Come celebrate the end of IAP with us at the top of the
+        Media Lab.</strong> We'll be giving away free Xboxes and
         Surfaces!
         <div class="event-details">
           <div class="fair-detail">
