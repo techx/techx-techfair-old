@@ -5,8 +5,11 @@
 Techfair</strong>.</p>
 <p>(For last year's Techtalks page, visit <a
 href="/events/talks-2012/">techfair.mit.edu/events/talks-2012/</a>.)
+<?php /*
 <p>We're extremely excited about this year's talks - check out our lineup below
 and you'll understand why!</p>
+*/ ?>
+<p>We're extremely excited for this year's talks - check this spot soon for a speaker lineup!</p>
 
 <div class="event-details">
   <div class="event-detail">
@@ -18,6 +21,7 @@ and you'll understand why!</p>
   </div>
   <div class="event-detail">
     <span class="typicn time label"></span> Fri Feb 8, 4-8pm
+    <?php /*
     <ul>
       <li><span class="schedule-time">4pm</span> Kickoff</li>
       <li><span class="schedule-time">4:15pm</span> Paul English</li>
@@ -26,6 +30,7 @@ and you'll understand why!</p>
       <li><span class="schedule-time">6:15pm</span> Yoky Matsuoka</li>
       <li><span class="schedule-time">7pm</span> Peter Levine</li>
     </ul>
+    */ ?>
   </div>
   <div class="event-detail">
     <span class="typicn group label"></span> Open to everyone - students, entrepreneurs, and tech enthusiasts alike.
@@ -40,7 +45,7 @@ and you'll understand why!</p>
     <span class="typicn thumbsUp label"></span> Dinner will be served.
   </div>
 </div>
-
+<?php /*
 <h2>The Lineup</h2>
 <div class="speaker">
   <h3 id="paul">Paul English <span>Kayak</span></h3>
@@ -61,3 +66,4 @@ and you'll understand why!</p>
   <h3 id="peter">Peter Levine <span>Andreesen Horowitz</span></h3>
   <img src="/img/homepage/peter_levine.jpg" />
 </div>
+*/ ?>
