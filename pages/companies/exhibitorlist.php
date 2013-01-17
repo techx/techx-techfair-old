@@ -180,219 +180,223 @@ like it.</p>
 </div>
 <div class="column-right" id="sr-descriptions">
 <h2>Student Groups and Projects</h2>
-<p>Stay tuned! We'll have a complete list of student presenters and projects shortly.</p>
-<?php
-/*
-  <h2>MIT Labs</h2>
+
   <ul> 
-    <li><a href="http://projects.csail.mit.edu/spatial/Main_Page">Natural Human-Robot Interfaces - MIT CSAIL</a>
-		 <div class="mit-description">
-			Enabling a person to give a robot command as if they were talking to another person.
-	        <span class="mit-name">Stefanie Tellex, Ph.D, Thomas Kollar, Ph.D, Prof. Seth Teller, Prof. Nicholas Roy </span> 
-		</div>
-	</li>
-  </ul>
-  <h2>MIT Student Groups</h2>
-  <ul>
-    <li><a href="http://www.icaruslabs.org/	">Icarus Labs</a> 
-		<div class="mit-description">
-         A team of eleven MIT engineers with specialties including aerospace, control systems, and artificial intelligence.
-      	</div>
-	</li>
-      
-    <li><a href="http://miters.mit.edu/">MITERS</a>
-		<div class="mit-description">
-		  MIT Electronics Research Society, a student-run shop and community of people who like to make things.
-		   <span class="mit-name">Nancy Ouyang '13</span>
-		</div>
-	</li>
-      
-    <li>MIT Hobby Shop
-		<div class="mit-description">
-		  The place for learning how to design and build things. 
-		  
-		  <span class="mit-name"> Brian Chan, Ph.D '09, Ken Stone '72, Director, MIT Hobby Shop, Hayami Arakawa, Instructor</span>
-	 	</div>
-	</li>
-      
-    <li><a href="http://web.mit.edu/rocketteam/">MIT Rocket Team</a>
-		<div class="mit-description">
-	    An independent student group focused on rocket-related projects.
-	    <span class="mit-name">Christian Valledor '12, Andrew Wimmer '12, Julian Lemus'13, Leonard I Tampkins '13</span>
-	 	</div>
-	</li>
-      
-    <li><a href="http://mitsolar.com">MIT Solar Electric Vehicle Team</a>
-		<div class="mit-description">
-	    A student-run group that designs, builds, and races solar-powered cars.
-		</div>
-	</li>
-  </ul>
-	<h2>MIT Individual Projects</h2>
-	<ul>
-		<li>Angry Birdbot *
+
+		<li>
+			Immersion
 			<div class="mit-description">
-				A remote controlled Angry Bird plush
-		        <span class="mit-name">Princess Len Carlos '13 </span>
-		 	</div>
-		</li>
-		
-		<li><a href="http://www.stephanboyer.com/p/self-balancing-electric-unicycle.html">Bullet - Self-Balancing Electric Unicycle </a>
-			<div class="mit-description">
-				An Electric Unicycle crafted from scrap metal and electric scooter parts.
-		        <span class="mit-name">Stephan Boyer ‘13 </span>
-		 	</div>
-		</li>       
-    
-		<li>DDR Tetris *
-			 <div class="mit-description">
-				A two player competitive Tetris game controlled by DDR mats
-		        <span class="mit-name"> Andrew Carlson '12, Russell Cohen '13, Leah Alpert '13</span>
-		 	</div>
-		</li>
-     
-		<li><a href="http://orangenarwhals.blogspot.com/">DIY Vending Machine</a> *
-			<div class="mit-description">
-				A compact vending machine suitable for vending small items
-		        <span class="mit-name">Nancy Ouyang '13 </span>
-		 	</div>
-		</li>
-      
-		<li><a href="http://candacedesign.wordpress.com/category/electric-violin-01/">Electric Instruments</a> *
-			<div class="mit-description">
-				Two electric violins and an electric ukulele, all hand made 
-		        <span class="mit-name">Candace chen '14 </span>
-		 	</div>
-		</li>
-      
-  	<li>Hydrophotonophone *
-		 <div class="mit-description">
-			A musical instrument played by creating waves in a pool of water
-	        <span class="mit-name"> Robert Arlt Jr. '12, Jennifer Hope '12, Mark Feldmeier, Research Affiliate</span> </div>
-	</li>
-     
-		<li>Musical Fabrics	
-			 <div class="mit-description">
-				Fabrics integrated with electronic create interfaces for musical expression
-		        <span class="mit-name"> Yang Yang '11, David Welch, Brandeis University</span> </div>
-		</li>
-     
-		<li>Science Launch! *
-			<div class="mit-description">
-				 Interactive simulations provide opportunities to learn about STEM fields
-		        <span class="mit-name"> Bridger Maxwell '13, Hanne Paine, Stony Brook University '14</span> </div>
-		</li>
-      
-		<li>Servo Subwoofer *
-			<div class="mit-description">
-				A top-notch subwoofer, comparable to much more expensive speakers
-		        <span class="mit-name">Benjamin Shaya '14</span> </div>
-		</li>
-      
-		<li><a href="http://web.mit.edu/chosetec/www/">Stark Industries</a>
-			<div class="mit-description">
-			Just like in Iron Man
-	        <span class="mit-name">Brian Chan, Ph.D</span> </div>
-		</li>
-      
-		<li>Takachar *
-			<div class="mit-description">
-				An improved, low-cost, scalable charcoal production method
-		        <span class="mit-name">Kevin Kung, Jacob Young '13, Marie Burkland '13, Sisi Ni, D-Lab, University of Nairobi </span> </div>
-		</li>
-      	<li>WiiBook
-			<div class="mit-description">
-				A Nintendo Wii that has been made portable
-				<span class="mit-name">Charles Franklin ‘14</span>
+				A website that turns your computer into a virtual window using google street view.
+				<span class="mit-name">Hisham Bedri</span>
 			</div>
 		</li>
-		<li>Wimshurst Machine *
+
+		<li>
+			Motorized Orbit Wheels
 			<div class="mit-description">
-				A 7-foot-tall electrostatic generator
-		        <span class="mit-name">Timothy Yang '15 </span> </div>
+				Self-propelled roller blades that go sideways rather than straight
+				<span class="mit-name">Jaguar Kristeller</span>
+			</div>
 		</li>
-      
+
+		<li>
+			SEVT
+			<div class="mit-description">
+				A student-run club that designs, builds, and races solar powered vehicles in competitive international races.
+				<span class="mit-name">Julia Hsu, Dillon McConnon, George Hansel</span>
+			</div>
+		</li>
+
+		<li>
+			Automated Network 3D Printer
+			<div class="mit-description">
+				Automating and networking current models of desktop 3D printers
+				<span class="mit-name">Alfonso Perez, Forrest Pieper, Chris Haid, Mateo Pena-Doll</span>
+			</div>
+		</li>
+
+		<li>
+			Pocket Motorcycle Squad
+			<div class="mit-description">
+				Modified electric pocket bikes
+				<span class="mit-name">Candace Chen</span>
+			</div>
+		</li>
+
+		<li>
+			Hybrid Regenerative Electric Bicycle
+			<div class="mit-description">
+				A 100% emission-free, powered bicycle with regenerative braking and pedal-to-charge
+				<span class="mit-name">Ryan Fish</span>
+			</div>
+		</li>
+
+		<li>
+			Voyager
+			<div class="mit-description">
+				A website that makes planning an itinerary simple, fun and a lot more social
+				<span class="mit-name">Emily Calandrelli, Luwen Huang</span>
+			</div>
+		</li>
+
+		<li>
+			KawaiiKart
+			<div class="mit-description">	
+				A novel gas-electric miniature go kart that hopes to bring the hybrid powertrain to the DIY world.
+				<span class="mit-name">Sherry Wu</span>
+			</div>
+		</li>
+
+		<li>
+			SmartCart
+			<div class="mit-description">
+				An intelligent shopping cart which eliminates the current problems of shopping.
+				<span class="mit-name">Keren Gu, Karen Su, Kwadwo Nyarko</span>
+			</div>
+		</li>
+
+		<li>
+			DigiMynd
+			<div class="mit-description">
+				A series of two-player cooperative and competitive games controlled by raw EEG signals.
+				<span class="mit-name">Jonathan Mei, Kameron Oser</span>
+			</div>
+		</li>
+
+		<li>
+			The Sun v2.0
+			<div class="mit-description">
+				A better version of the sun that rises on command and can be custom tailored to any night-shifted MIT student's schedule
+				<span class="mit-name">Micaela Wiseman, Cathy Wu</span>
+			</div>
+		</li>
+
+		<li>
+			Climbable Tensegrity
+			<div class="mit-description">
+				A tensegrity is a rigid structure constructed out of bars and cables
+				<span class="mit-name">Kate Rudolph, Duncan Townsend, Lauren St. Hilaire</span>
+			</div>
+		</li>
+
+		<li>	
+			SnowKart
+			<div class="mit-description">
+				A go-kart fused with a snow-mobile powered by two brushless motors and a 40 volt lithium ion battery pack
+				<span class="mit-name">Victor Rodriguez</span>
+			</div>
+		</li>
+
+		<li>
+			Barbot
+			<div class="mit-description">
+				A drink mixing machine that can build a custom mixed drink with robotic efficiency and precision
+				<span class="mit-name">Skyler Adams, Ben Shaya</span>
+			</div>
+		</li>
+
+		<li>
+			Tara Ebsworth
+			<div class="mit-description">
+				Lamps inspired by Islamic screens used to create intricate patterns in the dark
+				<span class="mit-name">Tara Ebsworth</span>
+			</div>
+		</li>
+
+		<li>
+			Project CAKE
+			<div class="mit-description">
+				Cabinet for Arcade and Karaoke Emulation
+				<span class="mit-name">Steve Sullivan, Taylor Farnham, Brian Sennett</span>
+			</div>
+		</li>
+
+		<li>
+			Sir-Rolls-a-Lot 36er Mountain Bike
+			<div class="mit-description">
+				A hand-built and welded 36"-wheeled monster of a mountain bike
+				<span class="mit-name">Luke Plummer, Ben Eck, Carlos Kubler Pietri</span>
+			</div>
+		</li>
+
+		<li>
+			Open KB
+			<div class="mit-description">
+				A device designed to trivialize getting digital input and output into a computer
+				<span class="mit-name">Alex Willisson</span>
+			</div>
+		</li>
+
+		<li>
+			DeltaBot
+			<div class="mit-description">
+				An ARM based control board for 3D printers
+				<span class="mit-name">Pranjal Vachaspati</span>
+			</div>
+		</li>
+
+		<li>
+			MIT EVT
+			<div class="mit-description">
+				A long range bicycle trailer system that can go from Cambridge to NYC in one single charge
+				<span class="mit-name">Roberto Melendez, Victor Rodriguez, David Orozco</span>
+			</div>
+		</li>
+
+		<li>
+			MelonChopper
+			<div class="mit-description">	
+				MelonChopper is a high-powered three-wheeled ("tadpole" style) electric gokart.
+				<span class="mit-name">Bayley Wang, Daniel Gonzalez</span>
+			</div>
+		</li>
+
+		<li>
+			Acoustic-Electric Violin
+			<div class="mit-description">
+				An acoustic-electric violin that is designed to glow when played in the dark.
+				<span class="mit-name">Charles Hsu</span>
+			</div>
+		</li>
+
+		<li>
+			International Genetically Engineered Machines (iGEM)
+			<div class="mit-description">
+				The MIT team’s 2012 project on an RNA-based biochemical "computer" in living cells
+				<span class="mit-name">Kristjan Eerik Kaseniit, Lealia Xiong</span>
+			</div>
+		</li>
+
+		<li>
+			Self-balancing Longboard
+			<div class="mit-description">
+				An electric longboard whose speed is controlled by leaning forward and backward.
+				<span class="mit-name">Andrew Mikofalvy</span>
+			</div>
+		</li>
+
+		<li>
+			Tesla Coil
+			<div class="mit-description">
+				Tesla coil demonstrations including a MIDI-controlled singing Tesla coil
+				<span class="mit-name">Daniel Kramnik</span>
+			</div>
+		</li>
+
+		<li>
+			Muumba
+			<div class="mit-description">
+				A social entrepreneurship venture that aims to foster innovation throughout Sub-Saharan Africa.
+				<span class="mit-name">Netia McCrae</span>
+			</div>
+		</li>
 	</ul>
-	<p style="font-size: 16px;">* Techfair project funding recipient. More information <a href="/students/funding/">here</a>.</p>
-	<h2>MIT Startups</h2>
-	<ul>
-	  <li><a href="http://getbustle.com">Bustle</a> &#8314;
-		<div class="mit-description">
-		  Developing a platform for any community to create an online marketplace. 
-	        <span class="mit-name">Ian Cinnamon '14, Gordon Wintrob '12</span> </div>
-	</li>
-      
-	  <li>ForgePond
-		<div class="mit-description">
-		  Enables companies to securely enable the use of personal mobile devices for enterprise use.
-	        <span class="mit-name">Eric Marion '11 </span> </div>
-	</li>
-      
-	  <li>HelmetHub (2.009)    
-		 <div class="mit-description">
-		   Offering a solution to the lack of availability of helmets for bikeshare users.  
-	        <span class="mit-name">Breanna Berry '12, Arni Lehto '12, Danielle Hicks '12,           Chris Mills '12
-          </span> </div>
-	</li>
-     
-	<li><a href="http://www.kangacruise.com">KangaCruise</a> &#8314;
-		<div class="mit-description">
-			Modernizing the cruise industry with web and mobile applications.
-			<span class="mit-name">Colin Sidoti ‘14, Max Kanter’15, Louis Sobel ’14</span>
-		</div>
-	</li>
-	  <li>Metrify &#8314;
-		<div class="mit-description">
-		    Metrify allows you capture and visualize the data in your everyday life. 
-	        <span class="mit-name">Nancy Ouyang '13, Mark Spatz '14, Diyang Tang '13,  Cathy Wu '12</span> </div>
-	</li>
-      
-	  <li><a href="http://ministryofsupply.com">Ministry of Supply, Inc.</a>
-		 <div class="mit-description">
-		   It's MIT meets Calvin Klein meets Zappos. The Ministry of Supply: fashion meets technology.
-	        <span class="mit-name">Kevin Rustagi '11, Eric Khatchadourian '07,           Eddie Obropta '13, Gihan Amarasiriwardena '11, Kit Hickey (Sloan) '13, Aman Advani (Sloan) '13</span> </div>
-	</li>
-     
-	  <li>MUSE Analytical &#8314;
-		<div class="mit-description">
-		  Portable chemical analysis with a hand-held tool. 
-	        <span class="mit-name">Cristina Fernandez, Stephen Guerrera, Ph.D '14 </span> </div>
-	</li>
-      
-	  <li><a href="http://www.phil-labs.com/	">Phil</a> (2.009) &#8314;
-		<div class="mit-description">
-		  Phil is a sophisticated faucet attachment that automatically fills sinks to a customizable, pre-set level.
-	        <span class="mit-name">2.009 Team: Brent Boswell, Richard Dahan, Jared Darby, Nick Dou, Danny Guillen, Jess Iacobucci, Bryan Macomber, David Parell, Nydia Ruleman, Bennett Wilson</span> </div>
-	</li>
-	<li><a href="http://www.startlabs.org/">StartLabs</a>
-		<div class="mit-description">
-			Creating the next generation of technical entrepreneurs.
-			<span class="mit-name"></span>
-		</div>
-	</li>
-	  <li><a href="http://supermechanical.com">Supermechanical</a>
-		<div class="mit-description">
-		  Building <a href="http://www.kickstarter.com/projects/supermechanical/twine-listen-to-your-world-talk-to-the-internet">Twine</a>, a WiFi-connected sensor square that get the objects in your life texting, tweeting or emailing. 
-	        <span class="mit-name">John Kestner (Media Lab)	'10, David Carr (Media Lab) '11</span> </div>
-	 </li>
-      
-	<li><a href="http://swyp.us">Swÿp - MIT Media Lab</a>
-		 <div class="mit-description">
-			 Transfer any file from any app to any app on any device with a Swÿp
-	        <span class="mit-name">Alexander List '15, Natan Linder (Media Lab Fluid Interfaces Group), Ethan Sherbondy '14 </span>
-	     </div>
-	</li>
-		
-	  <li><a href="http://www.thethingdom.com/	">The Thingdom</a> &#8314;
-		<div class="mit-description">
-		  Share the things you have and want with your friends. We want to do for things what Foursquare has done for places. What's in your Thingdom?
-	        <span class="mit-name"> Aseem Kishore '08, Jeremy Smith '09, M.Eng. '10</span> </div>
-	</li>
-      
-	</ul>
+ 
+	<!--<p style="font-size: 16px;">* Techfair project funding recipient. More information <a href="/students/funding/">here</a>.</p>
+
 	<p style="font-size: 16px;">
-	&#8314; Part of the StartLabs <a href="http://startlabs.org/c2c">Concept to Company program</a></p>
-*/ ?>
+	&#8314; Part of the StartLabs <a href="http://startlabs.org/c2c">Concept to Company program</a></p>-->
+ 
 </div>
 <div id="video-overlay" style="display:none">
     <video id="video-mozilla" class="video-js vjs-default-skin" controls preload="none" width="800" height="450"
