@@ -53,21 +53,19 @@ function schedule() {
     </div>
     <div class="event">
       <div class="event-name"><a href="/events/talks/">TechTalks</a></div>
-      <div class="time-item">Feb 8 <strong>4-8PM</strong></div>
+      <div class="time-item">Feb 8 <strong>4PM</strong></div>
+      <div class="desc-item">kickoff</div>
       <div class="desc-item map-location" data-name="32-123" data-lat="42.361315" data-lng="-71.090646">
         <a href="http://goo.gl/maps/R3EKa">32-123 (Stata Center) <span class="typicn export"></span></a>
       </div>
-      <?php /*
-      <div class="desc-item">kickoff</div>
       <div class="time-item no-date"><strong>4:15PM</strong></div>
       <div class="desc-item">Paul English</div>
       <div class="time-item no-date"><strong>5PM</strong></div>
       <div class="desc-item">Ari Gesher</div>
-      <div class="time-item no-date"><strong>6PM</strong></div>
+      <div class="time-item no-date"><strong>6:15PM</strong></div>
       <div class="desc-item">Yoky Matsuoka</div>
       <div class="time-item no-date"><strong>7PM</strong></div>
       <div class="desc-item">Peter Levine</div>
-      */?>
     </div>
   </div>
 </div>

@@ -976,6 +976,9 @@ ul.radio span {
     text-align: right;
     font-weight: 600;
 }
+.event-detail li .schedule-time.no-date {
+    width: 50px;
+}
 .event-detail li .schedule-time .day {
     font-weight: 400;
     color: #222;
@@ -993,7 +996,7 @@ ul.radio span {
     background: #aaa;
 }
 .speaker {
-    clear: both;
+    clear: left;
     padding-top: 10px;
 }
 .speaker h3 span {

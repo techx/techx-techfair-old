@@ -164,12 +164,22 @@
 
 .speaker-mugs {
     float: right;
-    width: 200px;
+    width: 300px;
     margin-left: 20px;
     opacity: 0.8;
     transition: opacity ease 0.5s;
     -webkit-transition: opacity ease 0.5s;
     -moz-transition: opacity ease 0.5s;
+}
+.speaker-mugs .checkout-lineup {
+    background: #222;
+    color: white;
+    width: 90px;
+    height: 70px;
+    display: inline-block;
+    text-align: center;
+    padding: 25px 5px 5px;
+    text-transform: uppercase;
 }
 .speaker-mugs:hover {
     opacity: 1;

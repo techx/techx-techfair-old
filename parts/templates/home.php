@@ -119,7 +119,11 @@
           <a href="/events/talks/#paul"><img src="/img/homepage/paul_english.jpg" alt="Paul English" /></a>
           <a href="/events/talks/#ari"><img src="/img/homepage/ari_gesher.jpg" alt="Ari Gesher" /></a>
           <a href="/events/talks/#yoky"><img src="/img/homepage/yoky_matsuoka.jpg" alt="Yoky Matsuoka" /></a>
-          <a href="/events/talks/#peter"><img src="/img/homepage/peter_levine.jpg" alt="Peter Levine" /></a>
+          <a href="/events/talks/#john"><img src="/img/homepage/john_bicket.png" alt="John Bicket" /></a>
+          <a href="/events/talks/#sanjit"><img src="/img/homepage/sanjit_biswas.png" alt="Sanjit Biswas" /></a>
+          <a href="/events/talks/#paul">
+            <div class="checkout-lineup">Check out the lineup</div>
+          </a>
         </div>
         <p>The second annual TechTalks takes place the Friday after Techfair!
         Come by after classes to hear our incredible lineup of speakers, grab
@@ -157,7 +161,7 @@
           <div class="fair-detail">
             <span class="typicn anchor"></span>
             <div class="detail-caption">
-              Watch this spot for a link to registration (coming soon)
+              <a href="http://mittechtalks.eventbrite.com">Register on Eventbrite <span class="typicn export nofloat"></a>
             </div>
           </div>
         </div>
