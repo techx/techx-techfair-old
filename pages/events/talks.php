@@ -24,11 +24,11 @@ and you'll understand why!</p>
     <p>Lineup will be released soon.</p>
     <ul>
       <li><span class="schedule-time no-date">4pm</span> Kickoff</li>
-      <li><span class="schedule-time no-date">4:15pm</span> Paul English</li>
-      <li><span class="schedule-time no-date">5pm</span> Ari Gesher</li>
+      <li><span class="schedule-time no-date">4:15pm</span> Paul English (Co-Founder, CTO, Kayak)</li>
+      <li><span class="schedule-time no-date">5pm</span> Ari Gesher (Senior Engineer, Palantir)</li>
       <li><span class="schedule-time no-date">5:45pm</span> Dinner / Break</li>
-      <li><span class="schedule-time no-date">6:15pm</span> Yoky Matsuoka</li>
-      <li><span class="schedule-time no-date">7pm</span> Peter Levine</li>
+      <li><span class="schedule-time no-date">6:15pm</span> Yoky Matsuoka (VP Technology, Nest)</li>
+      <li><span class="schedule-time no-date">7pm</span> John Bicket and Sanjit Biswas (Co-Founders, Meraki)</li>
     </ul>
   </div>
   <div class="event-detail">
