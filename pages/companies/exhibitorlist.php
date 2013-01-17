@@ -323,7 +323,7 @@ like it.</p>
 			Open KB
 			<div class="mit-description">
 				A device designed to trivialize getting digital input and output into a computer
-				<span class="mit-name">Alex Willisson</span>
+				<span class="mit-name">Alex Willisson, Ben Shaya</span>
 			</div>
 		</li>
 
