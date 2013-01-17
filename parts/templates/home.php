@@ -136,10 +136,11 @@
               Fri Feb 8, 4-8pm
               <p>
                 <span class="speaker-time">4pm</span> Kickoff<br />
-                <span class="speaker-time">4:15pm</span> Paul English <span class="speaker-affiliation">Kayak</span><br />
-                <span class="speaker-time">5pm</span> Ari Gesher <span class="speaker-affiliation">Palantir</span><br />
-                <span class="speaker-time">6pm</span> Yoky Matsuoka <span class="speaker-affiliation">Nest</span><br />
-                <span class="speaker-time">7pm</span> John Bicket and Sanjit Biswas <span class="speaker-affiliation">Meraki</span>
+                <span class="speaker-time">4:15pm</span> Paul English <span class="speaker-affiliation">CTO, Co-Founder, Kayak</span><br />
+                <span class="speaker-time">5pm</span> Ari Gesher <span class="speaker-affiliation">Senior Engineer, Palantir</span><br />
+                <span class="speaker-time">5:45pm</span> Dinner / Break</span><br />
+                <span class="speaker-time">6:15pm</span> Yoky Matsuoka <span class="speaker-affiliation">VP Technology, Nest</span><br />
+                <span class="speaker-time">7pm</span> John Bicket and Sanjit Biswas <span class="speaker-affiliation">Co-Founders, Meraki</span>
               </p>
             </div>
           </div>

@@ -62,6 +62,8 @@ function schedule() {
       <div class="desc-item">Paul English (Kayak)</div>
       <div class="time-item no-date"><strong>5PM</strong></div>
       <div class="desc-item">Ari Gesher (Palantir)</div>
+      <div class="time-item no-date"><strong>5:45PM</strong></div>
+      <div class="desc-item">Dinner / Break</div>
       <div class="time-item no-date"><strong>6:15PM</strong></div>
       <div class="desc-item">Yoky Matsuoka (Nest)</div>
       <div class="time-item no-date"><strong>7PM</strong></div>
