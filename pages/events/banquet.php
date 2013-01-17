@@ -21,7 +21,7 @@
     </ul>
   </div>
   <div class="event-detail">
-    <span class="typicn group label"></span> Open to invited studnets only (see below)
+    <span class="typicn group label"></span> Open to invited students only (see below)
   </div>
 </div>
 
