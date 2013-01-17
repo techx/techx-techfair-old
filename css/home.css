@@ -164,6 +164,7 @@
 
 .speaker-mugs {
     float: right;
+    clear: right;
     width: 300px;
     margin-left: 20px;
     opacity: 0.8;
