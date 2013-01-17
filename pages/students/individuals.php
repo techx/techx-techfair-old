@@ -46,9 +46,9 @@ else:
   Yes. As long as it is primarily your own work, projects may be affiliated with particular labs.</li>
 </ul>
 <h2>Application</h2>
-<p>The application deadline has passed for 2012. Email <a
+<p>The application deadline has passed for 2013. Email <a
 href="mailto:techfair-sr@mit.edu">techfair-sr@mit.edu</a> for more information
-about Techfair 2013.</p>
+about Techfair 2014.</p>
 <?php /*
 <iframe src="https://docs.google.com/spreadsheet/embeddedform?formkey=dGRFX2ZhZGZLMXg5R1dESTVKbmhpa3c6M
 A" width="760" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>

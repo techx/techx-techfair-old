@@ -5,11 +5,8 @@
 Techfair</strong>.</p>
 <p>(For last year's Techtalks page, visit <a
 href="/events/talks-2012/">techfair.mit.edu/events/talks-2012/</a>.)
-<?php /*
 <p>We're extremely excited about this year's talks - check out our lineup below
 and you'll understand why!</p>
-*/ ?>
-<p>We're extremely excited for this year's talks - check this spot soon for a speaker lineup!</p>
 
 <div class="event-details">
   <div class="event-detail">
@@ -21,14 +18,14 @@ and you'll understand why!</p>
   </div>
   <div class="event-detail">
     <span class="typicn time label"></span> Fri Feb 8, 4-8pm
-    <p>Lineup will be released soon.</p>
+    <h3>Schedule</h3>
     <ul>
       <li><span class="schedule-time no-date">4pm</span> Kickoff</li>
-      <li><span class="schedule-time no-date">4:15pm</span> Paul English (Co-Founder, CTO, Kayak)</li>
-      <li><span class="schedule-time no-date">5pm</span> Ari Gesher (Senior Engineer, Palantir)</li>
+      <li><span class="schedule-time no-date">4:15pm</span> Paul English <span class="speaker-about">(Co-Founder, CTO, Kayak)</span></li>
+      <li><span class="schedule-time no-date">5pm</span> Ari Gesher <span class="speaker-about">(Senior Engineer, Palantir)</span></li>
       <li><span class="schedule-time no-date">5:45pm</span> Dinner / Break</li>
-      <li><span class="schedule-time no-date">6:15pm</span> Yoky Matsuoka (VP Technology, Nest)</li>
-      <li><span class="schedule-time no-date">7pm</span> John Bicket and Sanjit Biswas (Co-Founders, Meraki)</li>
+      <li><span class="schedule-time no-date">6:15pm</span> Yoky Matsuoka <span class="speaker-about">(VP Technology, Nest)</span></li>
+      <li><span class="schedule-time no-date">7pm</span> John Bicket and Sanjit Biswas <span class="speaker-about">(Co-Founders, Meraki)</span></li>
     </ul>
   </div>
   <div class="event-detail">

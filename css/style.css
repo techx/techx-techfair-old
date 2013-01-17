@@ -451,6 +451,10 @@ ul.radio span {
     text-transform: uppercase;
     font-weight: 300;
 }
+.speaker-about {
+    color: #555;
+    font-style: italic;
+}
 
 
 .rsvp {
