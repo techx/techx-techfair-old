@@ -59,13 +59,13 @@ function schedule() {
         <a href="http://goo.gl/maps/R3EKa">32-123 (Stata Center) <span class="typicn export"></span></a>
       </div>
       <div class="time-item no-date"><strong>4:15PM</strong></div>
-      <div class="desc-item">Paul English</div>
+      <div class="desc-item">Paul English (Kayak)</div>
       <div class="time-item no-date"><strong>5PM</strong></div>
-      <div class="desc-item">Ari Gesher</div>
+      <div class="desc-item">Ari Gesher (Palantir)</div>
       <div class="time-item no-date"><strong>6:15PM</strong></div>
-      <div class="desc-item">Yoky Matsuoka</div>
+      <div class="desc-item">Yoky Matsuoka (Nest)</div>
       <div class="time-item no-date"><strong>7PM</strong></div>
-      <div class="desc-item">Peter Levine</div>
+      <div class="desc-item">John Bicket and Sanjit Biswas (Meraki)</div>
     </div>
   </div>
 </div>
