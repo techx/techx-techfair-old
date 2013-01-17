@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="/css/video-js.min.css" />
+<script src="/js/video.min.js"></script>
 <?php 
 function natksort($array) 
 { 
@@ -61,31 +63,34 @@ function populateSponsorTable($sponsorList){
 ?>
 
 <div class="column-top">
-<h1>2013 List of Exhibitors</h1>
-<p>With over 60 companies and 30 student exhibitors, Techfair 2013 has a full
-house. While we physically can't fit any more booths, we're always pushing for
-the best displays that companies can manage. Come check us out; we think you'll
-like it.</p>
+	<h1>2012 List of Exhibitors</h1>
+	<p>With over 60 companies and 30 student exhibitors, this year's Techfair is the biggest yet!</p>
+	<p>See the full schedule <a href="/events/">here</a>.</p>
+	<p>Download all of our events into your calendar!
+    <br/>
+    - via <a href="http://www.google.com/calendar/render?cid=https%3A%2F%2Fwww.google.com%2Fcalendar%2Ffeeds%2Fgh1nmqduakfgor623cr7smmc54%2540group.calendar.google.com%2Fpublic%2Fbasic">Google Calendar</a>
+    <br/>
+    - via <a href="/Techfair2012.ics">iCal</a>
+    	<p><strong>Check out these <a href="/companies/demos/">cool demos</a> from both our sponsors and the MIT Exhibitors!</strong>
+  </p>
+</div>
 <div class="column-left">
 	<h2>Platinum Sponsor</h2>
 	<div class="sponsor-logos">
-	    <a href="http://www.palantir.com/"><img title="Palantir" alt="Palantir" src="/img/logos/palantir_larger.png" /></a>
-	    <p class="sponsorship-title"><a href="/events/hackathon/">Hackathon Sponsor</a></p>
+	    <a href="http://www.facebook.com/"><img title="Facebook" alt="Facebook" src="/img/logos/facebook_larger.png" /></a>
+	    <p><a href="/events/hackathon/">Hackathon Sponsor</a></p>
 	</div>
 	<h2>Gold Sponsors</h2>
-	<div class="gold-logos sponsor-logos full-width">
+	<div class="sponsor-logos full-width">
 		<div class="column-left-half">
-	   	 	<a class="sponsor-dropbox" href="http://www.dropbox.com/"><img title="Dropbox" alt="Dropbox" src="/img/logos/0Dropbox.png" /></a><br />
-	   	 	<a class="sponsor-facebook" href="http://www.facebook.com/"><img title="Facebook" alt="Facebook" src="/img/logos/0Facebook.jpeg" /></a><br />		    
-		    <a class="sponsor-microsoft" href="http://www.microsoft.com/"><img title="Microsoft" alt="Microsoft" src="/img/logos/0Microsoft.jpeg" /></a>
-        <p class="sponsorship-title"><a href="/events/afterparty">Afterparty Sponsor</a></p>
-		    <a class="sponsor-novus" href="http://www.novus.com/"><img title="Novus Partners" alt="Novus Partners" src="/img/logos/0Novus.png" /></a>
+	   	 	<a href="http://www.dropbox.com/"><img title="Dropbox" alt="Dropbox" src="/img/logos/0Dropbox.png" /></a><br />
+		    <a href="http://www.microsoft.com/"><img title="Microsoft" alt="Microsoft" src="/img/logos/0Microsoft.png" /></a> <a style="display:block; margin-top:-15px; font-size: 11px; text-decoration: none;" href="/events/afterparty">Afterparty Sponsor</a>
+	    	 <a href="http://www.oracle.com/"><img title="Oracle" alt="Oracle" src="/img/logos/0Oracle.png" /></a><br />
 		</div>
 		<div class="column-right-half">
-			  <a class="sponsor-oracle" href="http://www.oracle.com/"><img title="Oracle" alt="Oracle" src="/img/logos/0Oracle.png" /></a><br />
-		    <a class="sponsor-slb" href="http://www.slb.com/"><img title="Schlumberger" alt="Schlumberger" src="/img/logos/0Schlumberger.png" /></a><br />
-		    <a class="sponsor-sequoia" href="http://www.sequoiacap.com/"><img title="Sequoia" alt="Sequoia" src="/img/logos/0Sequoia.jpeg" /></a><br />
-	    	<a class="sponsor-yahoo" href="http://www.yahoo.com/"><img title="Yahoo" alt="Yahoo" src="/img/logos/0Yahoo.png" /></a><br />
+	 	    <a href="http://www.palantir.com/"><img title="Palantir" alt="Palantir" src="/img/logos/0Palantir.png" /></a><br />
+		     <a href="http://www.slb.com/"><img title="Schlumberger" alt="Schlumberger" src="/img/logos/0Schlumberger.png" /></a><br />
+		     <a href="http://www.sequoiacap.com/"><img title="Sequoia" alt="Sequoia" src="/img/logos/0Sequoia.png" /></a><br />
 		</div>
 		<div class="column-bottom"></div>
 	</div>
@@ -94,19 +99,20 @@ like it.</p>
 		<?php
 			//Add Silver sponsors & their websites to this list. They DON'T have to be in alphabetical order; the function will sort them.
 			$silver = array(
-				'DE Shaw Research'					=> 'http://www.deshawresearch.com/',
-				'Uber' 								=> 'https://www.uber.com/',
-				'General Electric' 					=> 'http://ge.com/',
-				'State Farm' 						=> 'http://www.statefarm.com/',
-				'Twilio' 							=> 'http://www.twilio.com/',
-				'Intuit' 							=> 'http://www.intuit.com/',
+				'10gen (mongoDB)'					=> 'http://www.10gen.com/',
+				'Adobe' 							=> 'http://www.adobe.com/',
+				'Bazaar Voice' 						=> 'http://www.bazaarvoice.com/',
 				'Corning' 							=> 'http://www.corning.com/',
-				'Venmo' 							=> 'http://venmo.com/',
-				'Apple'								=> 'http://apple.com/',
-				'HGST' 								=> 'http://hgst.com/',
-				'Square'	 						=> 'http://square.com/',
-				'Meraki'      						=> 'http://www.meraki.com/',
-				'Jane Street' 						=> 'http://www.janestreet.com/'
+				'Solidworks' 						=> 'http://www.solidworks.com/',
+				'General Electric' 					=> 'http://ge.com/',
+				'GrubHub <br> <img style="margin-top: -5px" src="/img/miticon.png">' 							=> 'http://www.grubhub.com/',
+				'MathWorks' 						=> 'http://www.mathworks.com/',
+				'Mozilla<br /><a href="#" class="video-link" id="video-link-mozilla">VIDEO</a>'							=> 'http://mozilla.com/',
+				'Oblong' 							=> 'http://oblong.com/',
+				'Sony (SCEA)' 						=> 'http://us.playstation.com/',
+				'Synthetic Genomics'      => 'http://syntheticgenomics.com/',
+				'Thomson Reuters' 					=> 'http://thomsonreuters.com/',
+				'Twitter' 							=> 'http://twitter.com/' 
 			);
 			
 			populateSponsorTable($silver);
@@ -118,43 +124,41 @@ like it.</p>
 		<?php
 			//Add Bronze sponsors & their websites to this list. They DON'T have to be in alphabetical order; the function will sort them.
 			$bronze = array(
-				'Potion Design' 					=> 'http://www.potiondesign.com/',
-				'Twitter' 							=> 'http://www.twitter.com/',
-				'CIA' 								=> 'http://www.cia.gov/',
-				'Counsyl'							=> 'http://www.counsyl.com/',
-				'Google'			 				=> 'http://www.google.com/',
-				'MIT Lincoln Laboratory' 			=> 'http://www.ll.mit.edu/',
-				'Bloomberg' 						=> 'http://bloomberg.com/',
+				'3LM <br> <img style="margin-top: -5px" src="/img/miticon.png">' 								=> 'http://www.3lm.com/',
+				'Addepar' 								=> 'http://www.addepar.com/',
+				'AisleBuyer' 						=> 'http://www.aislebuyer.com/',
+				'Akamai <br> <img style="margin-top: -5px" src="/img/miticon.png">'							=> 'http://www.akamai.com/',
+				'Akiban Technologies' 				=> 'http://www.akiban.com/',
+				'AT&T' 								=> 'http://www.att.com/',
+				'Autodesk' 							=> 'http://usa.autodesk.com/',
+				'Bose <br> <img style="margin-top: -5px" src="/img/miticon.png">' 								=> 'http://www.bose.com/',
+				'CEO in a Box' 						=> 'http://www.beerdropper.com/',
+				'Crittercism <br> <img style="margin-top: -5px" src="/img/miticon.png">' 						=> 'http://www.crittercism.com/',
 				'eBay' 								=> 'http://www.ebay.com/',
-				'Netsuite'	 						=> 'http://www.netsuite.com/',
-				'Synaptics' 						=> 'http://www.synaptics.com/',
-				'VMWare' 							=> 'http://www.vmware.com/',
-				'Cisco' 							=> 'http://www.cisco.com/',
-				'Kayak' 							=> 'http://www.kayak.com/',
-				'imo.im' 							=> 'http://www.imo.im/',
-				'Maxim Integrated Products'			=> 'http://www.maxim-ic.com/',
-				'Memsql'							=> 'http://www.memsql.com/',
-				'AppDirect' 						=> 'http://www.appdirect.com/',
-				'Codecademy' 						=> 'http://www.codecademy.com',
-				'EditShare' 						=> 'http://www.editshare.com',
-				'Mathworks' 						=> 'http://www.mathworks.com/',
-				'SanDisk'				 			=> 'http://www.sandisk.com/',
-        		'AppNexus'					        => 'http://www.appnexus.com/',
-				'Bose' 								=> 'http://www.bose.com/',
-				'Sifteo' 							=> 'http://www.sifteo.com/',
-				'TI'				 				=> 'http://www.ti.com/',
-				'Aurora Flight Sciences' 			=> 'http://www.aurora.aero/',
-				'Digital Science' 					=> 'http://www.labtiva.com/',
-				'Fitbit' 							=> 'http://www.fitbit.com/',
+				'Fitbit' 								=> 'http://www.fitbit.com/',
+				'Fusion-io' 						=> 'http://www.fusionio.com/',
+				'Google' 							=> 'http://www.google.com/',
+				'Kiva Systems <br> <img style="margin-top: -5px" src="/img/miticon.png">'						=> 'http://www.kivasystems.com/',
+				'Knome<br> <img style="margin-top: -5px" src="/img/miticon.png">'								=> 'http://www.knome.com/',
+				'MIT Lincoln Laboratory <br> <img style="margin-top: -5px" src="/img/miticon.png">' 						=> 'http://www.ll.mit.edu/',
+				'Lockheed Martin' 						=> 'http://www.lockheedmartin.com',
+				'Sandia National Labs' 						=> 'http://www.sandia.gov',
+				'Maxim Integrated Products' 		=> 'http://www.maxim-ic.com/',
+				'MDS Lavastorm Analytics' 			=> 'http://www.martindawessystems.com/',
+        'MDS Lavastorm Analytics'       => 'http://www.lavastorm.com/',
+				'Motion Math' 			=> 'http://www.motionmathgames.com/',
 				'Medtronic' 						=> 'http://www.medtronic.com/',
-				'Akamai' 							=> 'http://www.akamai.com/',
-				'Hulu' 								=> 'http://www.hulu.com/',
-				'Jaybridge' 						=> 'http://www.jaybridge.com/',
-				'Mozilla'							=> 'http://mozilla.org/',
-				'Boston Power' 						=> 'http://www.boston-power.com/',
-				'Sandia National Laboratories' 		=> 'http://www.sandia.gov/',
-				'B Line'					 		=> 'http://www.blinemedical.com/',
-				'Knewton'					 		=> 'http://www.knewton.com/'
+				'Philips' 							=> 'http://www.usa.philips.com/',
+				'Quixey' 							=> 'http://www.quixey.com/',
+				'Quora' 							=> 'http://www.quora.com/',
+				'Smule' 							=> 'http://www.smule.com/',
+				'Square' 							=> 'http://www.squareup.com/',
+				'Synaptics' 						=> 'http://www.synaptics.com/',
+				'TI' 								=> 'http://www.ti.com/',
+				'Under Armour' 						=> 'http://www.underarmour.com/',
+				'Venture for America'				=> 'http://ventureforamerica.org/',
+				'VMWare' 							=> 'http://www.vmware.com/',
+				'Zanbato' 							=> 'http://www.zanbatogroup.com/',
 			);
 			
 			populateSponsorTable($bronze);
@@ -164,25 +168,27 @@ like it.</p>
 	<div class="full-width" style="display:block; height: 200px;">
 	  <div class="column-left-half">
 			<h2>Startup Sponsors</h2>
-			<ul class="startup-sponsors">
-			  <li><a href="http://formlabs.com/">Formlabs</a></li>
-			  <li><a href="http://nest.com/">Nest</a></li>
-			  <li><a href="http://peddl.com/">Peddl</a></li>
-			  <li><a href="http://www.restdevices.com/">Rest Devices</a></li>
-			  <li><a href="http://www.unmannedinnovation.com/">Unmanned Innovation</a></li>
+			<ul>
+			<li><a href="http://aurora.aero/">Aurora Flight Sciences</a></li>
+			<li><a href="http://locu.com/">Locu</a> <img src="/img/miticon.png"></li>
+			<li><a href="http://www.lytro.com/">Lytro</a></li>
+			<li><a href="http://nest.com/">Nest</a></li>
+			<li><a href="http://nyxdevices.com/">Nyx Devices</a> <img src="/img/miticon.png"></li>
+			<li><a href="http://www.yottaa.com/">Yottaa</a></li>
 			</ul>
 		</div>
-
+		<div class="column-right-half">
+			<h2>Other Companies</h2>
+			<ul>
+			<li><a href="http://www.apple.com/">Apple</a></li>
+			</ul>
+		</div>
   </div>
-  <!--<div style="display: block;">
+  <div style="display: block;">
   <p><img src="/img/miticon.png"> Founded by MIT Alumni or Professors</p>
-  </div>-->
+  </div>
 </div>
 <div class="column-right" id="sr-descriptions">
-<h2>Student Groups and Projects</h2>
-<p>Stay tuned! We'll have a complete list of student presenters and projects shortly.</p>
-<?php
-/*
   <h2>MIT Labs</h2>
   <ul> 
     <li><a href="http://projects.csail.mit.edu/spatial/Main_Page">Natural Human-Robot Interfaces - MIT CSAIL</a>
@@ -392,7 +398,6 @@ like it.</p>
 	</ul>
 	<p style="font-size: 16px;">
 	&#8314; Part of the StartLabs <a href="http://startlabs.org/c2c">Concept to Company program</a></p>
-*/ ?>
 </div>
 <div id="video-overlay" style="display:none">
     <video id="video-mozilla" class="video-js vjs-default-skin" controls preload="none" width="800" height="450"
@@ -402,4 +407,51 @@ like it.</p>
     </video>
 </div>
 
+<!--</div>-->
+<script>
+    $('#video-link-mozilla').click(function() {
+        $('#video-overlay').show();
+        return false;
+    });
+    $('.video-js').live('click', function(e) {
+        return false;
+    });
+    $('#video-overlay').live('click', function() {
+        $('#video-overlay').hide();
+        _V_("#video-mozilla").ready(function(){
+            var myPlayer = this;
+            myPlayer.pause();
+            myPlayer.currentTime(0);
+        });
+    });
+</script>
+<style>
+    #video-overlay {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: rgba(0,0,0,0.5);
+    }
+    #video-overlay .video-js {
+        margin-left: -400px;
+        margin-top: -250px;
+        left: 50%;
+        top: 50%;
+        position: absolute;
+    }
+    #content .video-link {
+        font-size: 12px;
+        background: #4078D6;
+        color: white;
+        display: inline-block;
+        padding: 0 5px;
+    }
+    #content .video-link:hover {
+        color: white;
+        text-decoration: none;
+        background: #888;
+    }
+</style>
 <div class="column-bottom"></div>

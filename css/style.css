@@ -1,31 +1,3 @@
-/* @license
- * MyFonts Webfont Build ID 1918894, 2012-01-13T13:34:36-0500
- * 
- * The fonts listed in this notice are subject to the End User License
- * Agreement(s) entered into by the website owner. All other parties are 
- * explicitly restricted from using the Licensed Webfonts(s).
- * 
- * You may obtain a valid license at the URLs below.
- * 
- * Webfont: Calluna Sans Regular by exljbris
- * URL: http://www.myfonts.com/fonts/exljbris/calluna-sans/regular/
- * Copyright: Copyright (c) 2010 by Jos Buivenga. All rights reserved.
- * Licensed pageviews: unlimited
- * 
- * 
- * License: http://www.myfonts.com/viewlicense?type=web&buildid=1918894
- * 
- * © 2012 Bitstream Inc
-*/
-
-/*
- @font-face {
-      font-family: 'CallunaSans-Regular';
-      src: url('webfonts/1D47AE_0_0.eot');
-      src: url('webfonts/1D47AE_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/1D47AE_0_0.woff') format('woff'),url('webfonts/1D47AE_0_0.ttf') format('truetype');
-}
-*/
- 
  /*
  * RESET
  */
@@ -114,10 +86,6 @@ div.error {
 	width: 50%;
 }
 
-.emph {
-    font-weight:bold;
-}
-
 /*
  * STRUCTURE
  */
@@ -161,7 +129,6 @@ div.error {
     float: left;
     width: 249px;
     text-align: center;
-    border-left:1px solid #DDD;
     list-style:none;
     /*background:#1790ee;*/
 }
@@ -198,17 +165,17 @@ ul#nav > li {
     background: #FAFAFA;
     margin: 0;
 }
-#submenu ul {
+#nav #submenu ul {
     list-style: none;
     margin: 0;
     padding: 0;
     border-left: 1px solid #ddd;
     height:200px;
     width:249px;
-float:left;
+    float:left;
 }
 
-#submenu li {
+#nav #submenu li {
     border: 0;
 }   
 /* #subMenu ul:first-child {
@@ -227,7 +194,7 @@ float:left;
 #nav a:hover {
     text-decoration: underline;
 }
-#submenu a {
+#nav #submenu a {
     color: #bbb;
     display:block;
     margin-top:10px;
@@ -244,10 +211,10 @@ float:left;
 #menu3:hover ~ #submenu > #sub3 a, #sub3:hover a {
     color: #666;
 }
-#sub0:hover a:hover,
-#sub1:hover a:hover,
-#sub2:hover a:hover,
-#sub3:hover a:hover {
+#nav #sub0:hover a:hover,
+#nav #sub1:hover a:hover,
+#nav #sub2:hover a:hover,
+#nav #sub3:hover a:hover {
     color: #111;
     text-decoration: none;
 }
@@ -268,6 +235,7 @@ float:left;
 }
 #content a {
     color: #4078D6;
+    text-decoration: none;
 }
 #content a:hover {
     color: #333;
@@ -285,7 +253,7 @@ float:left;
 }
 #content h3 {
     font-size: 20px;
-    color: #F29523;
+    color: #0f469d;
     margin: 10px 0 0;
 }
 #content h4 {
@@ -314,29 +282,6 @@ float:left;
     padding-left: 20px;
     font-weight: 300;
 }
-
-/* FOOTER */
-#footer {
-    width: 100%;
-    background:#000000;
-    color: #ffffff;
-}
-
- #linkout {
-    padding: 25px 15px 20px;
-}
-#linkout, #linkout a {
-    text-decoration: none;
-    color: #006cff;
-    vertical-align: top;
-}
-#linkout a:hover {
-	text-decoration: underline;
-}
-#copyright {
-    float: right;
-}
-
 
 /* SPONSORSHIP TABLE */
 table#sponsorship {
@@ -368,16 +313,6 @@ table#sponsorship td.bronze {
     font-size: 16px;
     padding: 10px 5px;
 }
-table#sponsorship tr.pricing th {
-    font-size: 18px;
-    color: #000;
-    background-color: #CDCDCD;
-}
-table#sponsorship tr.pricing td {
-    font-size: 18px;
-    color: #000;
-    background-color: #DDD;
-}
 table#sponsorship th {
     text-align: right;
 }
@@ -388,30 +323,6 @@ table#sponsorship tr:nth-child(even) th {
     background-color: #DDD;
 }
 
-/*
- * TEAM
- */
-.teamImage {
-    float: left;
-}
-.team {
-    float: left;
-    width: 350px;
-    padding-left: 10px;
-    color: #444;
-}
-.team h3 {
-    border-left: 10px solid #F29523 !important;
-    margin-left: 0 !important;
-    margin-bottom: 5px !important;
-}
-.team h4 {
-    border-left: 20px solid #CCC !important;
-    padding-left: 5px;
-    font-size: 15px !important;
-    color: #666;
-    margin-bottom: 5px !important;
-}
 
 /*
  * FORM
@@ -487,65 +398,6 @@ ul.radio span {
     color: white !important;
 }
 
-div.schedule{
-    font-size:12px;
-    margin-left:5px;
-    font-family: Helvetica, Arial, sans-serif;
-}
-h2.schedule{
-    padding-top:5px;
-    padding-left:10px;
-    margin: 0 0 0 -10px !important;
-    border: 0 !important;
-    color: #000 !important;
-}
-.schedule-title{
-    font-size:16px;
-    border-top:1px solid #ddd;
-    padding-top:5px;
-    margin-top:5px;
-    clear:left;
-}
-.schedule-orange, .schedule-orange a{
-    color:#f26a25;
-}
-#schedule-during{
-    background-color:#ddf;
-    padding-bottom:10px;
-    margin-top:10px;
-}
-.schedule-orange, .schedule-blue{
-    margin-left:40px;
-}
-.schedule-blue, .schedule-blue a{
-    color:#1d5daa;
-}
-.schedule-check{
-    border:2px solid #555;
-    width:10px;
-    background:#fff;
-    height:10px;
-    float:left;
-    margin-top:2px;
-    margin-right:10px;
-}
-#schedule-before, #schedule-during, #schedule-after {
-    padding-left: 10px;
-    width: 500px;
-}
-
-table#schedule {
-  font-family: font-family: 'Open Sans', sans-serif; 
-  font-size: 13px;
-  width: 470px;
-}
-
-table#schedule td{
-  height: 46px;
-}
-table#schedule td, table#schedule th {
-  padding-right: 20px;
-}
 
 #techtalks {
     margin-top: 10px;
@@ -612,10 +464,40 @@ table#schedule td, table#schedule th {
 .sponsor-logos {
     margin-left: 20px;
     margin-bottom: 20px;
+    text-align: center;
+}
+#content .sponsor-oracle img {
+    margin-top: 42px;
+}
+#content .sponsor-slb img {
+    margin-top: 47px;
+}
+#content .sponsor-sequoia img {
+    margin-top: 41px;
+}
+#content .sponsor-yahoo img {
+    margin-top: 52px;
 }
 
 .sponsor-logos img {
     margin-top: 18px;
+}
+#content .sponsorship-title {
+    text-align: center;
+}
+#content .sponsorship-title a {
+    text-transform: uppercase;
+    color: white;
+    background: #4078D6;
+    font-weight: 600;
+    font-size: 12px;
+    display: inline-block;
+    padding: 2px 8px;
+    -webkit-border-radius: 0px 0px 5px 5px;
+    border-radius: 0px 0px 5px 5px;
+}
+#content .sponsorship-title a:hover {
+    background: #666;
 }
 
 #student-startups span, #student-exhibitors span{
@@ -760,104 +642,7 @@ table#schedule td, table#schedule th {
     text-decoration: none;
 }
 
-#slideshow {
-   height: 665px;
-   width: 1000px;
-   overflow: hidden;
-   position: relative;
-}
-#tf-overlay {
-   position: absolute;
-   top: 20px;
-   height: 665px;
-   width: 1000px;
-   background: url('../img/homepage/slideshow-pixels.png') no-repeat center bottom;
-   z-index: 150;
-}
-/* #slideshow img {
-   position: absolute;
-   top: 665px;
-   z-index: 1;
-}
-#slideshow img.show {
-   top: 0;
-   display: block;
-   transition: right 2s ease 0s;
-   -moz-transition: right 2s ease 0s;
-   -webkit-transition: right 2s ease 0s;
-   z-index: 100;
-}
-#slideshow img.hide {
-   top: -665px;
-   display: block;
-   transition: right 2s ease 0s;
-   -moz-transition: right 2s ease 0s;
-   -webkit-transition: right 2s ease 0s;
-   z-index: 100; */
-}
-#linkout {
-   padding: 25px 15px 20px;
-}
-#linkout, #linkout a {
-   color:#ffffff;
-   vertical-align: top;
-}
-#copyright {
-   float: right;
-   color:#ffffff;
-}
 
-
-#info {
-     background: rgba(255, 255, 255, 0.7);
-     width: 350px;
-	 height: 665px;
-     padding: 100px 27px 20px;
-     z-index: 200;
-     position: absolute;
-     top: 0;
-     left: 0;
-     color:#000000;
-    /* border-top: 1px solid rgba(255,255,255,0.9);
-     border-right: 1px solid rgba(255,255,255,0.9);
-     border-bottom: 1px solid rgba(255,255,255,0.9);*/
-}
-#info h2 {
-     font-size: 46px;
-     line-height: 50px;
-     border-bottom: 1px solid #999999; /*rgb(255,182,0);*/
-     font-weight: 300;
-}
-#info h3 {
-     margin-top: 5px;
-     font-size: 22px;
-     font-weight: 300;
-}
-#info p {
-     margin: 10px 0;
-     line-height: 28px;
-}
-#info p strong {
-     font-weight: 600;
-}
-#info p em {
-     font-style: italic;
-}
-
-#info p.space {
-    border-top: 1px solid #000000;
-    padding-top:1em;
-}
-
-#info a {
-	text-decoration: none;
-     color: #000000;
-     font-weight:bold;
-}
-#info a:hover {
-	text-decoration: underline;
-	color:#1790ee;
-}
 /* END HOME PAGE STYLES */
 
 
@@ -866,11 +651,12 @@ table#schedule td, table#schedule th {
 	width: 100%;
 }
 
-.sponsor-table a {
+#content .sponsor-table a {
 	color: #000;
 	text-decoration: none;
 }
-.sponsor-table a:hover {
+#content .sponsor-table a:hover,
+#content .startup-sponsors a:hover {
 	color: #000;
 	text-decoration: underline;
 }
@@ -883,6 +669,14 @@ table#schedule td, table#schedule th {
 	height:50px;
 	padding: 5px 11px;
 	text-align: center;
+}
+.startup-sponsors {
+    margin-left: 10px;
+}
+#content .startup-sponsors a {
+    font-size: 18px;
+	color: #000;
+	text-decoration: none;
 }
 
 #sr-descriptions li {
@@ -939,23 +733,6 @@ table#schedule td, table#schedule th {
 	margin-top: 10px;
 }
 
-
-#homepage-video {
-	padding: 8px;
-	position: absolute;
-     top: 282px;
-     left: 40px;
-     background: rgba(255, 255, 255, 0.9);
-
-}
-
-#homepage-video a{
-	margin: auto;
-	display: block;
-	width: 308px;
-	height: 188px;
-	background: url('/img/homepage/tf-video-thumb.png');
-}
 
 #demos {
     list-style: none;
@@ -1090,4 +867,252 @@ table#schedule td, table#schedule th {
 
 .clearfix {
     clear: both;
+}
+
+.schedule {
+    float: right;
+    border-left: 1px solid #ccc;
+    margin: 20px 0 20px 40px;
+    position: relative;
+    z-index: 50;
+    box-shadow: -5px 0 8px 0 rgba(0,0,0,0.3);
+}
+.schedule h3 {
+    font-size: 24px;
+}
+.schedule .event {
+    margin-top: 10px;
+}
+.schedule .event-name {
+    font-weight: 700;
+    text-transform: uppercase;
+    float: right;
+}
+.schedule .time-item.no-date {
+    margin-left: 45px;
+}
+.schedule .time-item {
+    color: #0f469d;
+    margin-top: 4px;
+}
+.schedule strong {
+    font-weight: 700;
+}
+.schedule .desc-item {
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-left: 45px;
+}
+.schedule .typicn {
+    position: relative;
+    top: 3px;
+}
+
+.schedule-map {
+    position: absolute;
+    left: -22px;
+    top: 0;
+    bottom: 0;
+    z-index: 100;
+    width: 20px;
+    -webkit-transition-property: left width;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-property: left width;
+    -moz-transition-duration: 0.3s;
+    transition-property: left width;
+    transition-duration: 0.3s;
+    border: 1px solid #ccc;
+    box-shadow: -5px 0 8px 0 rgba(0,0,0,0.3);
+}
+.schedule-wrapper {
+    padding: 5px 20px;
+    width: 250px;
+    z-index: 101;
+    position: relative;
+    box-shadow: -5px 0 4px -2px rgba(0,0,0,0.4);
+}
+.schedule:hover .schedule-wrapper {
+    background: #f5f5f5;
+}
+.schedule:hover .schedule-map {
+    left: -601px;
+    width: 600px;
+}
+
+.event-details {
+    margin: 20px;
+}
+.event-details.hack-details {
+    margin: 0;
+}
+#content .event-details h3 {
+    margin: 5px 0 0 20px;
+    font-size: 18px;
+}
+.event-details ul {
+    padding-left: 0;
+}
+.event-detail {
+    margin-top: 5px;
+}
+.event-detail .typicn {
+    position: relative;
+    top: 3px;
+}
+.event-detail .typicn.label {
+    color: #888;
+}
+.event-detail p {
+    margin-left: 20px;
+}
+.event-detail li {
+    list-style: none;
+    text-transform: uppercase;
+}
+.event-detail li .schedule-time {
+    color: #666;
+    display: inline-block;
+    width: 110px;
+    text-align: right;
+    font-weight: 600;
+}
+.event-detail li .schedule-time.no-date {
+    width: 50px;
+}
+.event-detail li .schedule-time .day {
+    font-weight: 400;
+    color: #222;
+    float: left;
+}
+.event-detail li .affiliation {
+    color: white;
+    background: #ccc;
+    font-weight: 700;
+    font-size: 12px;
+    padding: 2px 4px;
+    border-radius: 2px;
+}
+.event-detail li .affiliation:hover {
+    background: #aaa;
+}
+.speaker {
+    clear: left;
+    padding-top: 10px;
+}
+.speaker h3 span {
+    color: white;
+    background: #0f469d;
+    padding: 0 5px;
+    font-size: 14px;
+    position: relative;
+    top: -3px;
+    border-radius: 2px;
+}
+.speaker img {
+    float: left;
+    margin-right: 10px;
+}
+.speaker p {
+    width: 500px;
+    float: left;
+}
+.hack-event-photo {
+    float: right;
+    width: 400px;
+    margin-right: 80px;
+}
+.hack-prizes li {
+    list-style: none;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.hack-prizes li span {
+    width: 120px;
+    text-align: right;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.hack-prizes li div {
+    font-size: 14px;
+    color: #444;
+    margin-left: 20px;
+}
+.hack-prizes.rookie li {
+    color: #333;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.hack-prizes.rookie li span {
+    width: 120px;
+}
+.hack-prizes-category {
+    margin-left: 20px;
+}
+.main-sponsor {
+    height: 120px;
+    margin-top: 20px;
+}
+.sub-sponsor {
+    padding: 15px;
+    position: relative;
+}
+.sub-sponsor.sifteo {
+    top: -4px;
+}
+.sub-sponsor.twitter {
+    top: 10px;
+}
+.sub-sponsor.venmo {
+    top: -10px;
+}
+.hack-sponsor-logos {
+    text-align: center;
+}
+
+/** FOOTER **/
+#footer {
+    background: #222;
+    color: #999;
+    padding: 20px;
+    border-top: 5px solid #000;
+    font-size: 13px;
+    position: relative;
+}
+#footer a {
+    color: #888;
+    text-decoration: none;
+}
+#footer a:hover {
+    color: #AAA;
+}
+#footer a img {
+    position: relative;
+    top: 3px;
+    padding-left: 5px;
+}
+#footer-nav ul {
+    display: inline-block;
+    width: 190px;
+    vertical-align: top;
+    padding-left: 6px;
+    margin-bottom: 10px;
+    border-left: 3px solid #333;
+}
+#footer-nav ul li {
+    font-weight: 700;
+    list-style: none;
+}
+#footer-nav ul li+li {
+    margin-left: 15px;
+    font-weight: 400;
+}
+#footer .footer-contact {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #666;
+    text-align: right;
 }

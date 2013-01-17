@@ -1,12 +1,21 @@
 <h1>Students, get involved!</h1>
 <h2>Techfair Events</h2>
-<!--<h3>Check out our full lineup of events for Techfair 2012 <a href="/events">here</a>!</h3>
+<h3>Check out our full lineup of events for Techfair 2013 <a href="/events">here</a>!</h3>
 <p>
-We're kicking off Techfair week with a <a href="/events/hackathon">hackathon</a>, followed by <strong><a href="/events/fair">The Fair</a></strong> itself, a <a href="/events/banquet">banquet</a>, and an <a href="/events/talks">afterparty</a> on Spring Reg Day. On the Saturday of the first week of school, we are also hosting a <a href="/events/talks">speaker series</a> to conclude the Techfair week.</p>
+We're kicking off Techfair week with a <a
+href="/events/hackathon">hackathon</a>, followed by <strong><a
+href="/events/fair">The Fair</a></strong> itself, a <a
+href="/events/banquet">banquet</a>, and an <a
+href="/events/talks">afterparty</a> on Spring Reg Day. On the Friday of the
+first week of school, we are also hosting a <a href="/events/talks">speaker
+series</a> to conclude the Techfair week.</p>
+
 <h2>R&eacute;sum&eacute; Drop</h2>
-<p>
-Don't forget to drop your resume <a href="http://umeqo.com/events/35/techfair-2012/?drop=true">here</a>. This year, we've partnered with <a href="http://umeqo.com">UMEQO</a> to bring you the next generation of recruiting. 
-</p>-->
+<p> Don't forget to drop your resume <a
+href="/drop">here</a>. This year,
+we've partnered with <a href="http://umeqo.com">UMEQO</a> to bring you the next
+generation of recruiting. 
+</p>
 
 <h1>Get a booth at Techfair</h1>
 <h2>Display at Techfair: Startups, Projects, and Student Groups</h2>
