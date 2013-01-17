@@ -108,21 +108,19 @@
           <div class="fair-detail">
             <span class="typicn anchor"></span>
             <div class="detail-caption">
-              <a href="http://hackmit.eventbrite.com">Register on Eventbrite</a>
+              <a href="http://hackmit.eventbrite.com">Register on Eventbrite <span class="typicn export nofloat"></a>
             </div>
           </div>
         </div>
       </div>
       <div class="tile">
         <h2><a href="/talks/">TechTalks</a></h2>
-        <?php /*
         <div class="speaker-mugs">
           <a href="/events/talks/#paul"><img src="/img/homepage/paul_english.jpg" alt="Paul English" /></a>
           <a href="/events/talks/#ari"><img src="/img/homepage/ari_gesher.jpg" alt="Ari Gesher" /></a>
           <a href="/events/talks/#yoky"><img src="/img/homepage/yoky_matsuoka.jpg" alt="Yoky Matsuoka" /></a>
           <a href="/events/talks/#peter"><img src="/img/homepage/peter_levine.jpg" alt="Peter Levine" /></a>
         </div>
-        */ ?>
         <p>The second annual TechTalks takes place the Friday after Techfair!
         Come by after classes to hear our incredible lineup of speakers, grab
         some food, and meet interesting people.</p>
