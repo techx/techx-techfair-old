@@ -135,16 +135,12 @@
             <div class="detail-caption">
               Fri Feb 8, 4-8pm
               <p>
-                Kickoff starts at 4pm, followed by 30 
-              <?php /*
-              <p>
                 <span class="speaker-time">4pm</span> Kickoff<br />
                 <span class="speaker-time">4:15pm</span> Paul English <span class="speaker-affiliation">Kayak</span><br />
                 <span class="speaker-time">5pm</span> Ari Gesher <span class="speaker-affiliation">Palantir</span><br />
                 <span class="speaker-time">6pm</span> Yoky Matsuoka <span class="speaker-affiliation">Nest</span><br />
                 <span class="speaker-time">7pm</span> Peter Levine <span class="speaker-affiliation">Andreesen Horowitz</span>
               </p>
-              */ ?>
             </div>
           </div>
           <div class="fair-detail">
