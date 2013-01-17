@@ -116,12 +116,7 @@
       <div class="tile">
         <h2><a href="/talks/">TechTalks</a></h2>
         <div class="speaker-mugs">
-          <a href="/events/talks/#paul"><img src="/img/homepage/paul_english.jpg" alt="Paul English" /></a>
-          <a href="/events/talks/#ari"><img src="/img/homepage/ari_gesher.jpg" alt="Ari Gesher" /></a>
-          <a href="/events/talks/#yoky"><img src="/img/homepage/yoky_matsuoka.jpg" alt="Yoky Matsuoka" /></a>
-          <a href="/events/talks/#john"><img src="/img/homepage/john_bicket.png" alt="John Bicket" /></a>
-          <a href="/events/talks/#sanjit"><img src="/img/homepage/sanjit_biswas.png" alt="Sanjit Biswas" /></a>
-          <a href="/events/talks/#paul">
+          <a href="/events/talks/#paul"><img src="/img/homepage/paul_english.jpg" alt="Paul English" /></a><a href="/events/talks/#ari"><img src="/img/homepage/ari_gesher.jpg" alt="Ari Gesher" /></a><a href="/events/talks/#yoky"><img src="/img/homepage/yoky_matsuoka.jpg" alt="Yoky Matsuoka" /></a><a href="/events/talks/#john"><img src="/img/homepage/john_bicket.png" alt="John Bicket" /></a><a href="/events/talks/#sanjit"><img src="/img/homepage/sanjit_biswas.png" alt="Sanjit Biswas" /></a><a href="/events/talks/#paul">
             <div class="checkout-lineup">Check out the lineup</div>
           </a>
         </div>
