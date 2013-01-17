@@ -17,9 +17,9 @@ Eventbrite</a> in order to attend.</p>
 <p>Thanks to <a href="#hack-sponsors">our sponsors</a> (see below), hackMIT features over $5000 in
 prizes. We've split them so there's more to share:</p>
 <ul class="hack-prizes">
-  <li><span>1st place:</span> $1500 <div>+ automatic entry into Greylock Hackfest 2</div></li>
-  <li><span>2nd place:</span> $1000</li>
-  <li><span>3rd place:</span> $500</li>
+  <li><span>$1500</span> 1st place<div>+ automatic entry into Greylock Hackfest 2</div></li>
+  <li><span>$1000</span> 2nd place</li>
+  <li><span>$500</span> 3rd place</li>
 </ul>
 <h3>Rookie Division</h3>
 <p>If you don't have much experience coding, enter our <b>rookie</b> division.
@@ -28,9 +28,9 @@ win some awesome prizes! <strong>You must have 2 or less years or programming
 experience</strong> in order to enter. (Indicate so on the <a href="<?php echo
 $eventBriteLink; ?>">Eventbrite registration</a>.)</p>
 <ul class="hack-prizes rookie">
-  <li><span>1st place:</span> $1000</li>
-  <li><span>2nd place:</span> $500</li>
-  <li><span>3rd place:</span> $250</li>
+  <li><span>$1000</span> 1st place</li>
+  <li><span>$500</span> 2nd place</li>
+  <li><span>$250</span> 3rd place</li>
 </ul>
 <h3>Category Prizes</h3>
 <p>We're also throwing in some bonus prizes worth <strong>$250 each</strong>:</p>
@@ -43,7 +43,7 @@ $eventBriteLink; ?>">Eventbrite registration</a>.)</p>
 
 <h2>Event Details</h2>
 <img class="hack-event-photo" src="/img/photos/1-3.jpg" />
-<div class="hack-details event-details">
+<div class="event-details">
   <div class="event-detail">
     <span class="typicn location label"></span> <a href="http://goo.gl/maps/R3EKa">Stata Center <span class="typicn export"></span></a>
     <p>
@@ -85,6 +85,7 @@ $eventBriteLink; ?>">Eventbrite registration</a>.)</p>
     <img class="greylock sub-sponsor" src="/img/hackathon/greylock.jpg" />
     <img class="twitter sub-sponsor" src="/img/hackathon/twitter.png" />
     <img class="venmo sub-sponsor" src="/img/hackathon/venmo.png" />
+    <img class="mgwu sub-sponsor" src="/img/hackathon/mgwu.png" />
     <?php /*
     <img class="sifteo sub-sponsor" src="/img/hackathon/sifteo.png" />
     <img class="twilio sub-sponsor" src="/img/hackathon/twilio.png" />
