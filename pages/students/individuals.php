@@ -46,7 +46,10 @@ else:
   Yes. As long as it is primarily your own work, projects may be affiliated with particular labs.</li>
 </ul>
 <h2>Application</h2>
-<!--<p><strong>The application deadline has passed for 2012. Email <a href="mailto:techfair-sr@mit.edu">techfair-sr@mit.edu</a> for more information about Techfair 2013.</strong></p>-->
+<p>The application deadline has passed for 2012. Email <a
+href="mailto:techfair-sr@mit.edu">techfair-sr@mit.edu</a> for more information
+about Techfair 2013.</p>
+<?php /*
 <iframe src="https://docs.google.com/spreadsheet/embeddedform?formkey=dGRFX2ZhZGZLMXg5R1dESTVKbmhpa3c6M
 A" width="760" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 <!--
@@ -54,9 +57,6 @@ A" width="760" height="800" frameborder="0" marginheight="0" marginwidth="0">Loa
   <p style="color:#fff; ">Mark that you are applying as a <strong>MIT Project Exhibitor</strong>.</p>
   <p style="color:#fff; ">If you do not receive confirmation that your application was submitted, please email your application to <a href="mailto:techfair-sr@mit.edu">techfair-sr@mit.edu</a>. We will be sending out an email to all applicants on Dec 5, if you submit an application do not receive an email, please contact us.</p>
 </div>
-<p>&nbsp;</p>
-<?php
-/*
 <form action="" method="POST">
 	<table>
 		<tr> 
@@ -122,6 +122,6 @@ A" width="760" height="800" frameborder="0" marginheight="0" marginwidth="0">Loa
 		</tr>	
 	</table>
 </form>
-*/?>
 <iframe src="https://docs.google.com/spreadsheet/embeddedform?formkey=dDJkalJzZHRkMmtMSzJWc2pjU09iYXc6MQ" width="760" height="2000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>-->
+*/?>
 <?php endif;?>
