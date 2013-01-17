@@ -171,6 +171,10 @@
     -webkit-transition: opacity ease 0.5s;
     -moz-transition: opacity ease 0.5s;
 }
+.speaker-mugs a {
+    display: inline-block;
+    vertical-align: top;
+}
 .speaker-mugs .checkout-lineup {
     background: #222;
     color: white;
