@@ -4,8 +4,9 @@ $eventBriteLink = "http://hackmit.eventbrite.com";
 ?>
 <h1>hackMIT</h1>
 <p>Techfair and Palantir are teaming up to bring you MIT’s biggest hackathon of
-the year. We've taken over Stata for 20 hours - represent your school and
-compete against college students of the northeast.</p>
+the year. We've taken over Stata for 20 hours, <strong>from Sat Feb 2, 8pm to
+Sun Feb 3, 4pm</strong>  - represent your school and compete against college
+students of the northeast.</p>
 <p>This year's hackathon features <strong>over $5000 in prizes</strong>, not to
 mention free dinner, breakfast, and lunch.</p>
 
