@@ -116,9 +116,7 @@
       <div class="tile">
         <h2><a href="/talks/">TechTalks</a></h2>
         <div class="speaker-mugs">
-          <a href="/events/talks/#paul"><img src="/img/homepage/paul_english.jpg" alt="Paul English" /></a><a href="/events/talks/#ari"><img src="/img/homepage/ari_gesher.jpg" alt="Ari Gesher" /></a><a href="/events/talks/#yoky"><img src="/img/homepage/yoky_matsuoka.jpg" alt="Yoky Matsuoka" /></a><a href="/events/talks/#john"><img src="/img/homepage/john_bicket.png" alt="John Bicket" /></a><a href="/events/talks/#sanjit"><img src="/img/homepage/sanjit_biswas.png" alt="Sanjit Biswas" /></a><a href="/events/talks/#paul">
-            <div class="checkout-lineup">Check out the lineup</div>
-          </a>
+          <a href="/events/talks/#paul"><img src="/img/homepage/paul_english.jpg" alt="Paul English" /></a><a href="/events/talks/#ari"><img src="/img/homepage/ari_gesher.jpg" alt="Ari Gesher" /></a><a href="/events/talks/#yoky"><img src="/img/homepage/yoky_matsuoka.jpg" alt="Yoky Matsuoka" /></a><a href="/events/talks/#john"><img src="/img/homepage/john_bicket.png" alt="John Bicket" /></a>
         </div>
         <p>The second annual TechTalks takes place the Friday after Techfair!
         Come by after classes to hear our incredible lineup of speakers, grab
@@ -140,7 +138,7 @@
                 <span class="speaker-time">5pm</span> Ari Gesher <span class="speaker-affiliation">Senior Engineer, Palantir</span><br />
                 <span class="speaker-time">5:45pm</span> Dinner / Break</span><br />
                 <span class="speaker-time">6:15pm</span> Yoky Matsuoka <span class="speaker-affiliation">VP Technology, Nest</span><br />
-                <span class="speaker-time">7pm</span> John Bicket and Sanjit Biswas <span class="speaker-affiliation">Co-Founders, Meraki</span>
+                <span class="speaker-time">7pm</span> John Bicket <span class="speaker-affiliation">Co-Founder, Meraki</span>
               </p>
             </div>
           </div>
