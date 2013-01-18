@@ -67,7 +67,7 @@ function schedule() {
       <div class="time-item no-date"><strong>6:15PM</strong></div>
       <div class="desc-item">Yoky Matsuoka (Nest)</div>
       <div class="time-item no-date"><strong>7PM</strong></div>
-      <div class="desc-item">John Bicket and Sanjit Biswas (Meraki)</div>
+      <div class="desc-item">John Bicket (Meraki)</div>
     </div>
   </div>
 </div>
