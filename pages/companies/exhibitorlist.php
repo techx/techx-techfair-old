@@ -144,7 +144,7 @@ like it.</p>
 				'Sifteo' 							=> 'http://www.sifteo.com/',
 				'TI'				 				=> 'http://www.ti.com/',
 				'Aurora Flight Sciences' 			=> 'http://www.aurora.aero/',
-				'Digital Science' 					=> 'http://www.labtiva.com/',
+				'Labtiva' 							=> 'http://www.labtiva.com/',
 				'Fitbit' 							=> 'http://www.fitbit.com/',
 				'Medtronic' 						=> 'http://www.medtronic.com/',
 				'Akamai' 							=> 'http://www.akamai.com/',
@@ -167,7 +167,7 @@ like it.</p>
 			<ul class="startup-sponsors">
 			  <li><a href="http://formlabs.com/">Formlabs</a></li>
 			  <li><a href="http://nest.com/">Nest</a></li>
-			  <li><a href="http://peddl.com/">Peddl</a></li>
+			  <li><a href="http://peddl.com/">Sold</a></li>
 			  <li><a href="http://www.restdevices.com/">Rest Devices</a></li>
 			  <li><a href="http://www.unmannedinnovation.com/">Unmanned Innovation</a></li>
 			</ul>
