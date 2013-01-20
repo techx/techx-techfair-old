@@ -251,7 +251,7 @@ like it.</p>
 			SmartCart
 			<div class="mit-description">
 				An intelligent shopping cart which eliminates the current problems of shopping.
-				<span class="mit-name">Keren Gu, Karen Su, Kwadwo Nyarko</span>
+				<span class="mit-name">Keren Gu</span>
 			</div>
 		</li>
 
@@ -296,7 +296,7 @@ like it.</p>
 		</li>
 
 		<li>
-			Tara Ebsworth
+			Cut Screen Lamps
 			<div class="mit-description">
 				Lamps inspired by Islamic screens used to create intricate patterns in the dark
 				<span class="mit-name">Tara Ebsworth</span>
@@ -387,7 +387,7 @@ like it.</p>
 			Muumba
 			<div class="mit-description">
 				A social entrepreneurship venture that aims to foster innovation throughout Sub-Saharan Africa.
-				<span class="mit-name">Netia McCrae</span>
+				<span class="mit-name">Netia McCray</span>
 			</div>
 		</li>
 	</ul>
