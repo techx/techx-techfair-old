@@ -946,9 +946,6 @@ ul.radio span {
 .event-details {
     margin: 20px;
 }
-.event-details.hack-details {
-    margin: 0;
-}
 #content .event-details h3 {
     margin: 5px 0 0 20px;
     font-size: 18px;
@@ -1027,22 +1024,23 @@ ul.radio span {
 }
 .hack-prizes li {
     list-style: none;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 30px;
     font-weight: 600;
     margin-top: 10px;
 }
 .hack-prizes li span {
-    width: 120px;
+    width: 70px;
     text-align: right;
     display: inline-block;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 24px;
 }
 .hack-prizes li div {
     font-size: 14px;
     color: #444;
-    margin-left: 20px;
+    margin-left: 10px;
+    display: inline-block;
 }
 .hack-prizes.rookie li {
     color: #333;
@@ -1050,7 +1048,7 @@ ul.radio span {
     margin-top: 5px;
 }
 .hack-prizes.rookie li span {
-    width: 120px;
+    width: 70px;
 }
 .hack-prizes-category {
     margin-left: 20px;

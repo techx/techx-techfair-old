@@ -25,7 +25,7 @@ and you'll understand why!</p>
       <li><span class="schedule-time no-date">5pm</span> Ari Gesher <span class="speaker-about">(Senior Engineer, Palantir)</span></li>
       <li><span class="schedule-time no-date">5:45pm</span> Dinner / Break</li>
       <li><span class="schedule-time no-date">6:15pm</span> Yoky Matsuoka <span class="speaker-about">(VP Technology, Nest)</span></li>
-      <li><span class="schedule-time no-date">7pm</span> John Bicket and Sanjit Biswas <span class="speaker-about">(Co-Founders, Meraki)</span></li>
+      <li><span class="schedule-time no-date">7pm</span> John Bicket <span class="speaker-about">(Co-Founder, Meraki)</span></li>
     </ul>
   </div>
   <div class="event-detail">
@@ -59,8 +59,4 @@ and you'll understand why!</p>
 <div class="speaker">
   <h3 id="john">John Bicket <span>Co-Founder, Meraki</span></h3>
   <img src="/img/homepage/john_bicket.png" />
-</div>
-<div class="speaker">
-  <h3 id="sanjit">Sanjit Biswas <span>Co-Founder, Meraki</span></h3>
-  <img src="/img/homepage/sanjit_biswas.png" />
 </div>

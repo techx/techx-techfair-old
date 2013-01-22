@@ -144,7 +144,7 @@ like it.</p>
 				'Sifteo' 							=> 'http://www.sifteo.com/',
 				'TI'				 				=> 'http://www.ti.com/',
 				'Aurora Flight Sciences' 			=> 'http://www.aurora.aero/',
-				'Digital Science' 					=> 'http://www.labtiva.com/',
+				'Labtiva' 							=> 'http://www.labtiva.com/',
 				'Fitbit' 							=> 'http://www.fitbit.com/',
 				'Medtronic' 						=> 'http://www.medtronic.com/',
 				'Akamai' 							=> 'http://www.akamai.com/',
@@ -167,7 +167,7 @@ like it.</p>
 			<ul class="startup-sponsors">
 			  <li><a href="http://formlabs.com/">Formlabs</a></li>
 			  <li><a href="http://nest.com/">Nest</a></li>
-			  <li><a href="http://peddl.com/">Peddl</a></li>
+			  <li><a href="http://peddl.com/">Sold</a></li>
 			  <li><a href="http://www.restdevices.com/">Rest Devices</a></li>
 			  <li><a href="http://www.unmannedinnovation.com/">Unmanned Innovation</a></li>
 			</ul>
@@ -251,7 +251,7 @@ like it.</p>
 			SmartCart
 			<div class="mit-description">
 				An intelligent shopping cart which eliminates the current problems of shopping.
-				<span class="mit-name">Keren Gu, Karen Su, Kwadwo Nyarko</span>
+				<span class="mit-name">Keren Gu</span>
 			</div>
 		</li>
 
@@ -296,7 +296,7 @@ like it.</p>
 		</li>
 
 		<li>
-			Tara Ebsworth
+			Cut Screen Lamps
 			<div class="mit-description">
 				Lamps inspired by Islamic screens used to create intricate patterns in the dark
 				<span class="mit-name">Tara Ebsworth</span>
@@ -387,7 +387,7 @@ like it.</p>
 			Muumba
 			<div class="mit-description">
 				A social entrepreneurship venture that aims to foster innovation throughout Sub-Saharan Africa.
-				<span class="mit-name">Netia McCrae</span>
+				<span class="mit-name">Netia McCray</span>
 			</div>
 		</li>
 	</ul>
