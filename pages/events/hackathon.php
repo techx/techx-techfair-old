@@ -79,6 +79,19 @@ $eventBriteLink; ?>">Eventbrite registration</a>.)</p>
   </div>
 </div>
 
+<h2>Some Frequently Asked Questions</h2>
+<h3>What's the format of the hackathon?</h3>
+<p>Anything goes! Web apps, mobile apps, and hardware hacks are all welcome.
+(Hacks should be computer-related, though.) Projected will be judged based on
+<strong>creativity, technical difficulty, polish, and usefulness</strong>.</p>
+<h3>I'm not too close to MIT. Can I get reimbursed for travel?</h3>
+<p>Sure! Unfortunately, we can only reimburse up to $20 per participant. If
+you're looking to be reimbursed, please email us at <a
+href="mailto:techfair-hack@mit.edu">techfair-hack@mit.edu</a> to let us know.</p>
+<h3>Who can attend?</h3>
+<p>All undergraduate and graduate students are welcome. Participants must be
+registered through Eventbrite (see above).</p>
+
 <h2 id="hack-sponsors">Sponsors</h2>
 <div class="hack-sponsor-logos">
   <img class="main-sponsor" src="/img/hackathon/palantir.png" />
