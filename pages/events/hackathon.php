@@ -79,6 +79,28 @@ $eventBriteLink; ?>">Eventbrite registration</a>.)</p>
   </div>
 </div>
 
+<h2>Some Frequently Asked Questions</h2>
+<h3>What's the format of the hackathon?</h3>
+<p>Anything goes! Web apps, mobile apps, and hardware hacks are all welcome.
+(Hacks should be computer-related, though.) Projected will be judged based on
+<strong>creativity, technical difficulty, polish, and usefulness</strong>.</p>
+<h3>I'm not too close to MIT. Can I get reimbursed for travel?</h3>
+<p>Sure! Unfortunately, we can only reimburse up to $20 per participant. If
+you're looking to be reimbursed, please email us at <a
+href="mailto:techfair-hack@mit.edu">techfair-hack@mit.edu</a> to let us know.</p>
+<h3>Who can attend?</h3>
+<p>All undergraduate and graduate students are welcome. Participants must be
+registered through Eventbrite (see above).</p>
+<h3>How big should teams be? Can I do it alone?</h3>
+<p>Teams should be at most 4 people total. You can do it alone, but it'll be
+less fun! We'll have a site up to help find teams before the event, and you'll
+have time at the start to meet others.</p>
+<h3>Are we allowed to build on past projects? Other code?</h3> <p>We strongly
+discourage, but do not forbid, building off of existing projects you've worked
+on. If you're building off of existing code you should note that, to be fair to
+others. On the other hand, using third-party APIs and libraries is definitely
+okay, as long as they're accessible by everyone else as well.</p>
+
 <h2 id="hack-sponsors">Sponsors</h2>
 <div class="hack-sponsor-logos">
   <img class="main-sponsor" src="/img/hackathon/palantir.png" />
