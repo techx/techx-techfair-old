@@ -58,7 +58,7 @@ $eventBriteLink; ?>">Eventbrite registration</a>.)</p>
     <ul>
       <li><span class="schedule-time"><span class="day">Sat Feb 2</span> 8pm</span> Doors open</li>
       <li><span class="schedule-time">8:30pm</span> Dinner is served</li>
-      <li><span class="schedule-time">9pm</span> Kickoff with <strong>Cooper Bills</strong>, Palantir</li>
+      <li><span class="schedule-time">9pm</span> Kickoff with <strong>Jack Zhou</strong>, Palantir</li>
       <li><span class="schedule-time">10pm-12am</span> Mini-lectures by our sponsors</li>
       <li><span class="schedule-time"><span class="day">Sun Feb 3</span> 2am</span> Late night snack</li>
       <li><span class="schedule-time">8am</span> Breakfast is served</li>
