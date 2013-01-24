@@ -275,7 +275,7 @@ like it.</p>
 			Climbable Tensegrity
 			<div class="mit-description">
 				A tensegrity is a rigid structure constructed out of bars and cables
-				<span class="mit-name">Kate Rudolph, Duncan Townsend, Lauren St. Hilaire</span>
+				<span class="mit-name">Kate Rudolph</span>
 			</div>
 		</li>
 
@@ -292,14 +292,6 @@ like it.</p>
 			<div class="mit-description">
 				A drink mixing machine that can build a custom mixed drink with robotic efficiency and precision
 				<span class="mit-name">Skyler Adams, Ben Shaya</span>
-			</div>
-		</li>
-
-		<li>
-			Cut Screen Lamps
-			<div class="mit-description">
-				Lamps inspired by Islamic screens used to create intricate patterns in the dark
-				<span class="mit-name">Tara Ebsworth</span>
 			</div>
 		</li>
 

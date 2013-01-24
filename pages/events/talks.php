@@ -47,12 +47,12 @@ and you'll understand why!</p>
 <div class="speaker">
   <h3 id="paul">Paul English <span>Co-Founder, CTO, Kayak</span></h3>
   <img src="/img/homepage/paul_english.jpg" />
-  <p>Paul English is Chief Technology Officer and cofounder. Before starting
-  KAYAK, Paul was a lifelong technology entrepreneur. He co-founded Boston
-  Light Software, a small business e-commerce platform that was sold to Intuit.
-  At Intuit, Paul became Vice President of technology and led small business
-  Internet and product strategy, company-wide innovation process, and tech
-  recruiting.</p>
+  <p>Paul English is the Chief Technology Officer and co-founder of KAYAK.
+  Before starting KAYAK, Paul was a lifelong technology entrepreneur. He
+  co-founded Boston Light Software, a small business e-commerce platform that
+  was sold to Intuit.  At Intuit, Paul became Vice President of technology and
+  led small business Internet and product strategy, company-wide innovation
+  process, and tech recruiting.</p>
   <p>Paul was briefly an entrepreneur in-residence at Greylock, a co-founder and
   Director of Intermute, the founder of the World Xiangqi League, cofounder and
   Chairman of Mancala, Inc., Senior Vice President of Engineering and Product
@@ -65,11 +65,11 @@ and you'll understand why!</p>
   recruiting. Paul is obsessed with customer feedback. (He hates bad customer
   service so much that he launched the www.gethuman.com initiative to help
   consumers fight back against bad phone systems.)</p>
-  <p>Paul received a BS and MS in computer science from University of
-  Massachusetts. Paul regularly lectures on entrepreneurship topics at
+  <p>Paul received a BS and MS in computer science from the University of
+  Massachusetts. He regularly lectures on entrepreneurship topics at
   Boston-area universities, and was named Chief Technology Officer of the year
-  by Mass Technology Leadership Council in 2009. He's also a Director at
-  Partners-In-Health and Village Health Works, and is an advisor to JoinAfrica,
+  by the Mass Technology Leadership Council in 2009. He's also a Director at
+  Partners-In-Health and Village Health Works and is an advisor to JoinAfrica,
   FanSnap, Roost, LinkedIn, and Pixable.</p>
 </div>
 <div class="speaker">
@@ -111,12 +111,12 @@ and you'll understand why!</p>
   <h3 id="john">John Bicket <span>Co-Founder, Meraki</span></h3>
   <img src="/img/homepage/john_bicket.png" />
   <p>John Bicket is responsible for the technical direction and development of
-  Meraki. John holds a B.S. in Computer Science from Cornell University, and an
+  Meraki. John holds a B.S. in Computer Science from Cornell University and an
   S.M. degree in Computer Science from MIT. He was most recently a Ph.D.
   student in the Parallel and Distributed Operating Systems group at MIT, where
   he co-led the research project that won several academic awards and later
   became the foundation of Meraki’s wireless mesh technology. John, along with
-  Sanjit Biswas and Hans Robertson, were able to turn the idea of Meraki into a
+  Sanjit Biswas and Hans Robertson, was able to turn the idea of Meraki into a
   reality.</p>
   <p>Meraki brings the benefits of the cloud to edge and branch networks,
   delivering easy-to-manage wireless, switching, and security solutions that
@@ -124,6 +124,6 @@ and you'll understand why!</p>
   cost. Whether securing iPads in an enterprise or blanketing a campus with
   WiFi, Meraki networks simply work. In December 2012, Cisco acquired Meraki,
   forming Cisco’s new Cloud Networking Group. John continues to lead the
-  technical team to continue to improve and expand Meraki while innovating new
-  and exciting products.</p>
+  technical team to improve and expand Meraki while innovating new and exciting
+  products.</p>
 </div>
