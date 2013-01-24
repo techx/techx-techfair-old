@@ -368,7 +368,7 @@ like it.</p>
 		</li>
 
 		<li>
-			Self-balancing Longboard
+			Weight-Sensing Electric Longboard
 			<div class="mit-description">
 				An electric longboard whose speed is controlled by leaning forward and backward.
 				<span class="mit-name">Andrew Mikofalvy</span>
