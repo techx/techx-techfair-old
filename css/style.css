@@ -1014,8 +1014,8 @@ ul.radio span {
     margin-right: 10px;
 }
 .speaker p {
-    width: 500px;
-    float: left;
+    width: 600px;
+    text-align: justify;
 }
 .hack-event-photo {
     float: right;
