@@ -106,12 +106,12 @@ okay, as long as they're accessible by everyone else as well.</p>
   <img class="main-sponsor" src="/img/hackathon/palantir.png" />
   <p>
     <img class="greylock sub-sponsor" src="/img/hackathon/greylock.jpg" />
-    <img class="twitter sub-sponsor" src="/img/hackathon/twitter.png" />
     <img class="venmo sub-sponsor" src="/img/hackathon/venmo.png" />
+    <img class="twilio sub-sponsor" src="/img/hackathon/twilio.png" />
     <img class="mgwu sub-sponsor" src="/img/hackathon/mgwu.png" />
     <?php /*
+    <img class="twitter sub-sponsor" src="/img/hackathon/twitter.png" />
     <img class="sifteo sub-sponsor" src="/img/hackathon/sifteo.png" />
-    <img class="twilio sub-sponsor" src="/img/hackathon/twilio.png" />
     */ ?>
   </p>
 </div>
