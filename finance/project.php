@@ -25,7 +25,7 @@ if (!$result) {
 }
 mkhdr($USER);
 
-if (isset($_GET["project"]) && in_array($_GET["project"], $projects)) {
+if (isset($_GET["project"]) && array_key_exists($_GET["project"], $projects)) {
 	echo "<h1>Transactions : ".$_GET['project']."</h1>";
 	echo "<table class=sortable>";
 	echo "<thead><tr>";

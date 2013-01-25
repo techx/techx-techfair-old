@@ -1,6 +1,14 @@
 <?php
 //separate the $route variable into its own file so resume drop can access it
 require('routevar.php');
+include 'Mobile_Detect.php';
+$detect = new Mobile_Detect();
+if ($detect->isMobile()) {
+    $redirect = true;
+	header('Location: http://m.mittechfair.org');
+}
+else {
+
 $error404 = array(
 	'title' => '404 Not Found',
 	'content' => 'pages/404.php'
@@ -111,5 +119,6 @@ else
 	    header("HTTP/1.0 404 Not Found");
 		$d = $error404;
 	}
+}
 }
 ?>
