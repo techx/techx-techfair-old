@@ -22,6 +22,8 @@ prizes. We've split them so there's more to share:</p>
   <li><span>$1000</span> 2nd place</li>
   <li><span>$500</span> 3rd place</li>
 </ul>
+<p><strong>Additionally, the top three projects will be invited to a <a
+href="http://roughdraft.vc">roughdraft.vc</a> pitch meeting!</strong></p>
 <h3>Rookie Division</h3>
 <p>If you don't have much experience coding, enter our <b>rookie</b> division.
 This is a great chance to expand your programming skills, meet new people, and
@@ -82,7 +84,7 @@ $eventBriteLink; ?>">Eventbrite registration</a>.)</p>
 <h2>Some Frequently Asked Questions</h2>
 <h3>What's the format of the hackathon?</h3>
 <p>Anything goes! Web apps, mobile apps, and hardware hacks are all welcome.
-(Hacks should be computer-related, though.) Projected will be judged based on
+(Hacks should be computer-related, though.) Projects will be judged based on
 <strong>creativity, technical difficulty, polish, and usefulness</strong>.</p>
 <h3>I'm not too close to MIT. Can I get reimbursed for travel?</h3>
 <p>Sure! Unfortunately, we can only reimburse up to $20 per participant. If
