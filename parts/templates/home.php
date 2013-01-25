@@ -116,7 +116,7 @@
       <div class="tile">
         <h2><a href="/talks/">TechTalks</a></h2>
         <div class="speaker-mugs">
-          <a href="/events/talks/#paul"><img src="/img/homepage/paul_english.jpg" alt="Paul English" /></a><a href="/events/talks/#ari"><img src="/img/homepage/ari_gesher.jpg" alt="Ari Gesher" /></a><a href="/events/talks/#yoky"><img src="/img/homepage/yoky_matsuoka.jpg" alt="Yoky Matsuoka" /></a><a href="/events/talks/#john"><img src="/img/homepage/john_bicket.png" alt="John Bicket" /></a>
+          <a href="/events/talks/#paul"><img src="/img/homepage/paul_english.jpg" alt="Paul English" /></a><a href="/events/talks/#ari"><img src="/img/homepage/ari_gesher.jpg" alt="Ari Gesher" /></a><a href="/events/talks/#yoky"><img src="/img/homepage/yoky_matsuoka.jpg" alt="Yoky Matsuoka" /></a><a href="/events/talks/#john"><img src="/img/homepage/john_bicket.jpg" alt="John Bicket" /></a>
         </div>
         <p>The second annual TechTalks takes place the Friday after Techfair!
         Come by after classes to hear our incredible lineup of speakers, grab

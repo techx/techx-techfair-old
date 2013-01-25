@@ -93,7 +93,7 @@ and you'll understand why!</p>
 </div>
 <div class="speaker">
   <h3 id="john">John Bicket <span>Co-Founder, Meraki</span></h3>
-  <img src="/img/homepage/john_bicket.png" />
+  <img src="/img/homepage/john_bicket.jpg" />
   <p>John Bicket is responsible for the technical direction and development of
   Meraki. John holds a B.S. in Computer Science from Cornell University and an
   S.M. degree in Computer Science from MIT. He was most recently a Ph.D.
