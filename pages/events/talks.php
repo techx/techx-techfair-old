@@ -47,39 +47,23 @@ and you'll understand why!</p>
 <div class="speaker">
   <h3 id="paul">Paul English <span>Co-Founder, CTO, Kayak</span></h3>
   <img src="/img/homepage/paul_english.jpg" />
-  <p>Paul English is the Chief Technology Officer and co-founder of KAYAK.
-  Before starting KAYAK, Paul was a lifelong technology entrepreneur. He
-  co-founded Boston Light Software, a small business e-commerce platform that
-  was sold to Intuit.  At Intuit, Paul became Vice President of technology and
-  led small business Internet and product strategy, company-wide innovation
-  process, and tech recruiting.</p>
-  <p>Paul was briefly an entrepreneur in-residence at Greylock, a co-founder and
-  Director of Intermute, the founder of the World Xiangqi League, cofounder and
-  Chairman of Mancala, Inc., Senior Vice President of Engineering and Product
-  Management at Interleaf. He also did contract programming for the US Air
-  Force, operations research programming for Data General, programming for a
-  medical device company, and even some video game software and sound-effect
-  development.</p>
-  <p>Paul is involved in nearly every aspect of our company, but he spends most of
-  his time leading product strategy and design, customer support and
-  recruiting. Paul is obsessed with customer feedback. (He hates bad customer
-  service so much that he launched the www.gethuman.com initiative to help
-  consumers fight back against bad phone systems.)</p>
-  <p>Paul received a BS and MS in computer science from the University of
-  Massachusetts. He regularly lectures on entrepreneurship topics at
-  Boston-area universities, and was named Chief Technology Officer of the year
-  by the Mass Technology Leadership Council in 2009. He's also a Director at
-  Partners-In-Health and Village Health Works and is an advisor to JoinAfrica,
-  FanSnap, Roost, LinkedIn, and Pixable.</p>
+  <p>Paul English is the cofounder and Chief Technology Officer of Kayak.com, a
+  travel search engine that helps consumers find travel deals from hundreds of
+  travel providers. English graduated with a Bachelor's and Master's in
+  Computer Science from UMASS Boston in 1989. English was previously on the
+  product advisory boards for LinkedIn and Pixable. He also served as the Vice
+  President of Technology for Intuit Inc following its acquisition of Boston
+  Light Software, of which he was a co-founder. English won 2008 CTO of the
+  Year from Mass Technology Leadership Council and 2012 New England
+  Entrepreneur of the Year from Ernst and Young.</p>
 </div>
 <div class="speaker">
   <h3 id="ari">Ari Gesher <span>Senior Engineer, Palantir</span></h3>
   <img src="/img/homepage/ari_gesher.jpg" />
-  <p>Ari Gesher is a Senior Software Engineer at Palantir Technologies.
-  Palantir Technologies is a thriving startup that is building the next
-  generation of human-driven data analysis platforms and applications, now
-  broadly deployed in a variety of applications in government, industry, and
-  non-profits.</p>
+  <p>Ari Gesher is a Senior Software Engineer at Palantir Technologies.  Palantir
+  Technologies is a thriving startup that is building the next generation of
+  human-driven data analysis platforms and applications, now broadly deployed
+  in a variety of applications in government, industry, and non-profits.</p>
   <p>An alumnus of the University of Illinois computer science department, Ari
   has worked in the software industry for the past ten years, including a stint
   as lead website and infrastructure maintainer for the SourceForge.net open
