@@ -1121,3 +1121,8 @@ ul.radio span {
     color: #666;
     text-align: right;
 }
+
+/* For /companies/info */
+#info-map {
+    height: 400px;
+}

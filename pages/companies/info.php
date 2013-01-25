@@ -2,6 +2,7 @@
 
     <ul class="info-nav">
         <li><a href="#welcome">Welcome</a></li>
+        <li><a href="#map">Map</a></li>
         <li><a href="#deadlines">Deadlines</a></li>
         <li><a href="#logistics-portal">Logistics Portal</a></li>
         <li><a href="#booths">Booths</a></li>
@@ -9,7 +10,7 @@
         <li><a href="#packages-shipping">Packages and Shipping</a></li>
         <li><a href="#av">A/V Services</a></li>
         <li><a href="#parking" class="new">Parking</a></li>
-        <li><a href="#hotels" class="new">Hotels</a></li>
+        <li><a href="#hotels">Hotels</a></li>
         <li><a href="#banquet" class="new">Banquet</a></li>
     </ul>
 
@@ -33,6 +34,40 @@
 
     <p>We're extremely excited to have you and your organization on board - the
     fair is not too far away, and we have a lot of work to do together!</p>
+
+    <h2 id="map">Map</h2>
+    <p>Techfair is taking place inside <strong>Rockwell Cage</strong>, the MIT
+    basketball gymnasium. The entrances are actually from the adjacent building
+    - both are indicated on the map.</p>
+    <p>Visit <a href="http://goo.gl/maps/Jw7RU">http://goo.gl/maps/Jw7RU</a>
+    for the same map in Google Maps.</p>
+    <div id="info-map"></div>
+    <script>
+    // Sorry about the inline script, easier than hunting around for it.
+    var mapOptions = {
+        center: new google.maps.LatLng(42.35881,-71.095212),
+        zoom: 17,
+        // disableDefaultUI: true,
+        // disableDoubleClickZoom: true,
+        // scrollwheel: false,
+        // draggable: false,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+    var map = new google.maps.Map(document.getElementById("info-map"), mapOptions);
+    var locations = [
+        [42.359131,-71.09592, "Rockwell Cage"],
+        [42.359035,-71.096601, "North Entrance"],
+        [42.358262,-71.096075, "South Entrance"],
+    ];
+    $.each(locations, function(i, values) {
+        var options = {
+            position: new google.maps.LatLng(values[0], values[1]),
+            title: values[2],
+            map: map
+        };
+        var marker = new google.maps.Marker(options);
+    });
+    </script>
 
     <h2 id="deadlines">Important Deadlines</h2>
     <ul>
@@ -74,7 +109,7 @@
     or engineering behind them.  Just for fun, we've also seen baristas, popcorn
     machines, and swag for attendees.</p>
 
-    <p class="new-info">Each booth measures 8' x 10' and includes one 6' x 2'
+    <p>Each booth measures 8' x 10' and includes one 6' x 2'
     table, two chairs, and electrical outlets. Free wi-fi is available through
     MIT's guest network.</p>
 
@@ -138,13 +173,14 @@
     services, however, so we kindly ask that companies only request items as
     necessary!)</em></p>
 
-    <h2 id="parking" class="new-info">Parking</h2>
+    <h2 id="parking">Parking</h2>
     <p>For gold and silver sponsors, complimentary parking will be provided at the
-    <strong>Westgate Lot</strong> (located at the end of Amherst Alley in front of
-    Next House at 500 Memorial Drive). Notify the parking attendant that you are
-    attending Techfair for access to the lot. Gold sponsors will have guaranteed
-    spaces, while silver sponsors will receive spaces on a first come first serve
-    basis.</p>
+    <strong>Kresge Lot</strong> (located right outside the Z center, behind the
+    half-dome shaped Kresge Auditorium). Notify the parking attendant that you
+    are attending Techfair for access.</p>
+
+    <p class="new-info">Note that the location of the parking lot has been
+    updated to Kresge Lot instead of Westgate Lot.</p>
 
     <p><strong>To help with our planning, please indicate the number of parking
     spaces you would like in the logistics portal.</strong></p>
@@ -152,7 +188,7 @@
     <p>For sponsors without complimentary parking, there is a pay-per-hour parking lot
     at the corner of Vassar St. and Massachusetts Ave.</p>
 
-    <h2 id="hotels" class="new-info">Hotels</h2>
+    <h2 id="hotels">Hotels</h2>
     <p>For sponsors with hotel accommodations through Techfair, Techfair has booked
     hotel rooms at Le Méridien Cambridge:</p>
 
@@ -172,7 +208,7 @@
 
     <p>Check-in details will be available by January 31st.</p>
 
-    <h2 id="banquet" class="new-info">Banquet</h2>
+    <h2 id="banquet">Banquet</h2>
     <p>Platinum, gold, and silver sponsors get tables at the Techfair banquet. The
     banquet is an excellent opportunity for sponsors to connect with students of
     interest. <strong>You must indicate in the logistics portal that you are
@@ -181,6 +217,10 @@
     <p>The banquet is scheduled from <strong>6-8pm after the fair</strong>
     (February 4) at the <strong>Marriott in Kendall</strong> (Two Cambridge Center,
     50 Broadway Cambridge, Massachusetts, MA 02142). Attire is dressy casual.
+
+    <p class="new-info">To manage and create your invitations, please use <a
+    href="http://portal.mittechfair.org/banquet_invites/">the invitation
+    website</a>.</p>
 
     <h3>Banquet Invitation procedure</h3>
     <p>Each banquet table seats 10 people, and companies will be able to invite
