@@ -3,7 +3,7 @@
 require('routevar.php');
 include 'Mobile_Detect.php';
 $detect = new Mobile_Detect();
-if ($detect->isMobile()) {
+if ($detect->isMobile() && !isset($_GET['desktop'])) {
     $redirect = true;
 	header('Location: http://m.mittechfair.org');
 }
