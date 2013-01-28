@@ -2,7 +2,6 @@
 error_reporting(E_ALL);
 ini_set("display_errors", 1);
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    sleep(1);
     // Validate email.
     $email = $_POST['email'];
 
@@ -11,20 +10,26 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     if (preg_match("/mit.edu/",$email)) {
         $email = substr($email, 0, strlen($email) - strlen('@mit.edu'));
     }
-	exec("ldapsearch -h ldap.mit.edu -p 389 -u -b 'dc=mit,dc=edu' -x '(uid=".$email.")'", $output1);
-    $output1 = implode($output1);
-    if (preg_match("/givenName/",$output1))
-    {
-        echo 'SUCCESS';
-        $mysqli = new mysqli('sql.mit.edu','techfair','02139techfair','techfair+applications');
+	exec("ldapsearch -h ldap.mit.edu -p 389 -u -b 'dc=mit,dc=edu' -x '(uid=".$email.")' givenName", $output_arr);
+    $name = "";
+    foreach ($output_arr as $line) {
+        $prefix = "givenName: ";
+        if (substr($line, 0, strlen($prefix)) == $prefix) {
+            $name = substr($line, strlen($prefix));
+        }
+    }
+    if (strlen($name) > 0) {
+        echo $name;
+        return;
+        $mysqli = new mysqli('sql.mit.edu','techfair','02139techfair','techfair+dayof');
         if (mysqli_connect_errno()) { 
             printf("Connect failed: %s\n", mysqli_connect_error()); 
             exit(); 
         }
-        // $stmt = $mysqli->prepare("INSERT INTO midway_2012 (email) VALUES (?)");
-        // $stmt->bind_param('s', $_POST['email']);
-        // $stmt->execute();
-        // $stmt->close();
+        $stmt = $mysqli->prepare("INSERT INTO registration2013 (email, name) VALUES (?,?)");
+        $stmt->bind_param('ss', $_POST['email'], $name);
+        $stmt->execute();
+        $stmt->close();
         $mysqli->close();
     } else {
         header('HTTP/1.0 400 Invalid Athena', true, 400);

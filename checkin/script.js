@@ -33,6 +33,12 @@ var update_matches = function(c, match) {
     match.html(html);
 }
 
+var reset = function() {
+    $('.blinker').show();
+    $('#cool-textbox').children().not('.match, .blinker').remove();
+    $('.match').html('');
+}
+
 var submitting = false;
 
 var submit = function() {
@@ -43,7 +49,18 @@ var submit = function() {
     $.post('', { email: athena }, function(res) {
         $('#loading').addClass('hide');
         $('.match').removeClass('disabled');
+        var success = $('<div class="submit-result success fade-out">hi ' + res + '!</div>');
+        $('body').append(success);
+        setTimeout(function() {
+            success.removeClass('fade-out');
+        }, 100);
+        $('#cool-textbox').addClass('fade-out');
+        reset();
+        $('#cool-textbox').removeClass('fade-out');
         submitting = false;
+        setTimeout(function() {
+            $('.submit-result').addClass('fade-out');
+        }, 2000);
     })
     .error(function(res) {
         $('#loading').addClass('hide');
@@ -57,7 +74,9 @@ var setup_textbox = function() {
     var c = $('<div id="cool-textbox">');
     var match = $('<span class="match visible">');
     c.append(match);
-    $('body').on('keypress', function(e) {
+    var blinker = $('<div class="blinker">');
+    c.append(blinker);
+    $(document).on('keypress', function(e) {
         if (submitting) {
             return;
         }
@@ -66,10 +85,10 @@ var setup_textbox = function() {
             return;
         }
         if (e.which == 32) {
-            $(c).children().not('.match').remove();
-            $('.match').html('');
+            reset();
             return;
         }
+        $('.blinker').hide();
         var el = $('<span class="letter">').html(String.fromCharCode(e.which));
         var starting_left = (Math.random() * 50) - 50;
         var starting_top = (Math.random() * 50) - 50;
@@ -83,7 +102,8 @@ var setup_textbox = function() {
             update_matches(c, match);
         }, 50);
     });
-    $('body').on('keydown', function(e) {
+    $(document).on('keydown', function(e) {
+        console.log(e);
         // 8: BACKSPACE
         if (e.which != 8) {
             return;
@@ -100,7 +120,4 @@ var setup_textbox = function() {
 
 $(document).ready(function() {
     setup_textbox();
-//     $(document).click(function() {
-//         document.body.webkitRequestFullScreen();
-//     });
 });

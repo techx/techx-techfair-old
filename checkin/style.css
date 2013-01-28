@@ -1,3 +1,13 @@
+body {
+    background: url('square_grid.png') #1790ee;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 #cool-textbox {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -6,7 +16,6 @@
     -ms-user-select: none;
     user-select: none;
 
-    font-family: 'Open Sans', sans-serif;
     font-size: 52px;
     margin: 0 auto;
 
@@ -17,6 +26,7 @@
     left: 50%;
     margin-left: -400px;
     width: 800;
+    -webkit-transition: opacity 0.3s ease-in;
 }
 
 #cool-textbox > span {
@@ -32,17 +42,17 @@
 }
 
 #cool-textbox .match {
-    color: #888;
+    color: rgba(20,20,20,0.7);
     display: inline-block;
     vertical-align: top;
 }
 
 #cool-textbox .match.disabled .first-line {
-    color: #888;
+    color: rgba(20,20,20,0.3);
 }
 
 #cool-textbox .match .first-line {
-    color: #1790ee;
+    color: rgba(20,20,20,0.9);
 }
 
 #loading {
@@ -56,6 +66,8 @@
     -webkit-animation-duration: 1s;
     -webkit-animation-name: square-rotate;
     -webkit-animation-iteration-count: infinite;
+    border: 2px solid white;
+    background: white;
 }
 #loading div div {
     width: 10px;
@@ -99,4 +111,41 @@
     100% {
         -webkit-transform: rotate(360deg);
     }
+}
+
+.submit-result {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    text-align: center;
+    text-transform: lowercase;
+    font-weight: 700;
+    -webkit-transition: opacity 0.2s ease-in;
+    opacity: 1;
+}
+.submit-result.success {
+    background: green;
+}
+
+.fade-out {
+    opacity: 0;
+}
+
+.blinker {
+    width: 30px;
+    height: 5px;
+    background: #222;
+    position: absolute;
+    top: 70px;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-name: blink;
+    -webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes 'blink' {
+    0% { opacity: 1; }
+    30% { opacity: 0.2; }
+    100% { opacity: 1; }
 }
