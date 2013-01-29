@@ -144,7 +144,7 @@ like it.</p>
         		'AppNexus'					        => 'http://www.appnexus.com/',
 				'Bose' 								=> 'http://www.bose.com/',
 				'Sifteo' 							=> 'http://www.sifteo.com/',
-				'TI'				 				=> 'http://www.ti.com/',
+				'Texas Instruments'				 				=> 'http://www.ti.com/',
 				'Aurora Flight Sciences' 			=> 'http://www.aurora.aero/',
 				'Fitbit' 							=> 'http://www.fitbit.com/',
 				'Medtronic' 						=> 'http://www.medtronic.com/',
