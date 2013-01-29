@@ -106,7 +106,9 @@ like it.</p>
 				'HGST' 								=> 'http://hgst.com/',
 				'Square'	 						=> 'http://square.com/',
 				'Meraki'      						=> 'http://www.meraki.com/',
-				'Jane Street' 						=> 'http://www.janestreet.com/'
+				'Jane Street' 						=> 'http://www.janestreet.com/',
+        'MoPub'               => 'http://www.mopub.com/'
+        'Yelp'               => 'http://www.yelp.com/'
 			);
 			
 			populateSponsorTable($silver);
@@ -144,7 +146,6 @@ like it.</p>
 				'Sifteo' 							=> 'http://www.sifteo.com/',
 				'TI'				 				=> 'http://www.ti.com/',
 				'Aurora Flight Sciences' 			=> 'http://www.aurora.aero/',
-				'Labtiva' 							=> 'http://www.labtiva.com/',
 				'Fitbit' 							=> 'http://www.fitbit.com/',
 				'Medtronic' 						=> 'http://www.medtronic.com/',
 				'Akamai' 							=> 'http://www.akamai.com/',
@@ -170,6 +171,7 @@ like it.</p>
 			  <li><a href="http://peddl.com/">Sold</a></li>
 			  <li><a href="http://www.restdevices.com/">Rest Devices</a></li>
 			  <li><a href="http://www.unmannedinnovation.com/">Unmanned Innovation</a></li>
+			  <li><a href="http://beehive.mit.edu/">Beehive Cooperative</a></li>
 			</ul>
 		</div>
 
