@@ -1,0 +1,339 @@
+#!/usr/bin/python
+
+# $Source: /afs/.athena.mit.edu/contrib/consult/src/shell-scripts/RCS/ldaps,v $
+# $Id: ldaps,v 1.9 2011/04/15 19:29:10 jmorzins Exp jmorzins $
+
+# NOTE: To generate the man page, run through "pod2man":
+#   pod2man ldaps > ldaps.1
+
+
+# Todo:
+# Allow the hardcoded default exclude list to be modified by the user?
+
+
+"""Basic usage:
+  ldaps johndoe                -> email or username search for "johndoe"
+  ldaps 'John Doe'             -> full name search for "John Doe"
+
+Advanced usage (also see --help):
+  ldaps [--debug] SEARCH [attrs... | "all"]"""
+
+more_usage = """
+Standard LDAP searches:
+  ldaps '(attribute=value)'    -> search for (attribute=value)
+  ldaps '(<ldap_query>)'       -> For examples, see RFC 2254, Sec. 4 and 5
+
+Shortcut searches:
+  ldaps email                  -> search for (uid=email) or (mail=email@*)
+  ldaps email@example.com      -> search for (mail=email@example.com)
+  ldaps 'first last'           -> search for (cn=first*last)
+
+Choose output attributes:
+  ldaps johndoe all            -> print ALL attributes of johndoe
+  ldaps johndoe uid cn mail    -> print only UID, CN, and MAIL attributes"""
+
+debug = False
+
+# Use cases:
+#
+# 1) ldaps 'first last'
+#  -> searches for (cn=first*last)
+# 2) ldaps email[@mit[.edu]]
+#  -> searches for (uid=email) or (mail=email@*)
+# 3) ldaps email@example.com
+#  -> searches for (mail=email@example.com)
+# 4) ldaps 'attribute=value'
+#  -> searches for (attribute=value)
+# 5) ldaps '(ldap filter)'
+#  -> searches for (ldap filter) -- see RFC 2254, Sec. 4 and 5
+# 
+# In all cases, the search term may optionally be followed by a
+#  list of attributes.  If attributes are provided, the search
+#  will return only those attributes.  If no attributes are
+#  provided, this script will prune the search results, and
+#  remove less-useful attributes.
+#
+# Hints:
+#  To search for last name (surname),     search for (sn=last)
+#  To search for first name (given name), search for (givenName=first*)
+#  You can use "*" as a wildcard:                    (cn=*partial*name*)
+
+
+import sys
+import getopt
+import os
+
+class Usage(Exception):
+    def __init__(self, msg):
+        self.msg = msg
+
+
+######################################################################
+# makeNonBlocking / getCommandOutput
+#
+# Output from ldapsearch is preceded with a SASL/GSSAPI authentication
+#  block.  We want to filter stderr, to squelch uninteresting stderr.
+# Output from ldapsearch also includes many uninteresting attributes.
+#  We want to filter stdout, to squelch uninteresting stdout.
+#
+# To filter both streams, we have to actively manage reading the
+#  streams, via popen3 and non-blocking fcntls.
+######################################################################
+
+# non-blocking reading code adapted from
+# http://aspn.activestate.com/ASPN/Cookbook/Python/Recipe/52296
+# http://projects.edgewall.com/trac/ticket/2066
+
+import os, fcntl, select
+
+haveSubprocess = False
+try:
+    import subprocess
+    haveSubprocess = True
+except ImportError:
+    pass
+
+def makeNonBlocking(fd):
+    flags = fcntl.fcntl(fd, fcntl.F_GETFL)
+    fcntl.fcntl(fd, fcntl.F_SETFL, flags | os.O_NONBLOCK)
+    
+def getCommandOutput(command):
+    if haveSubprocess:
+        p = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, close_fds=True)
+        (r, e) = (p.stdout, p.stderr)
+    else:
+        w, r, e = os.popen3(command)      # capture stdout and stderr
+        w.close()                         # don't need to write to child's stdin
+
+    outfd = r.fileno()
+    errfd = e.fileno()
+    makeNonBlocking(outfd)            # try not to deadlock
+    makeNonBlocking(errfd)
+    outdata = errdata = ''
+    outeof = erreof = False
+    while 1:
+        ready = select.select([outfd,errfd],[],[]) # wait for input
+        if (outfd in ready[0] and not outeof):
+            outchunk = r.read()
+            outdata = outdata + outchunk
+            if outchunk == '': outeof = True
+        if (errfd in ready[0] and not erreof):
+            errchunk = e.read()
+            errdata = errdata + errchunk
+            if errchunk == '': erreof = True
+        if outeof and erreof: break
+# Arbitrary .02 second loop delay: give a little time for buffers to fill
+        select.select([],[],[],.02)
+    return outdata, errdata
+
+import re
+
+######################################################################
+# cleanUpFilter
+#
+# Clean the ldap_query before passing it to "ldapsearch".
+#
+# If filter has a space, search for "cn" with spaces replaced by asterisks.
+# If filter is "email", search for "(|(uid=email)(mail=email@*))"
+# Also for "email@mit[.edu]", search for "(|(uid=email)(mail=email@*))"
+# If filter is "email@example.com", search for "(mail=email@example.com)"
+# If filter is a malformed filter, wrap parens around it and pass it on.
+#  -> Let ldapsearch return an error.
+# Note: (|(a)(b)) is an ldap search for "a OR b"
+######################################################################
+
+def cleanUpFilter(filter):
+    re_blank    = re.compile(r"^$")
+    re_hasblank = re.compile(r" ")
+    re_username = re.compile(r"^([^()=@]+)(?:@(mit(?:\.edu)?)?)?$", re.I)
+    re_email    = re.compile(r"^([^()=@]+@.*)$")
+
+    if re_blank.search(filter):
+        filter = "()"
+    elif ( re_hasblank.search(filter) and re.compile(r"^[^=()]*$").search(filter) ):
+        filter = re.sub( r"\** \**", r"*", filter )
+	filter = re.sub( r"^(.*)$", r"(cn=\1)", filter)
+    elif re_username.search(filter): 
+        m = re_username.search(filter)
+	if m.group(2):
+            filter = "(|(uid=%s)(mail=%s@*%s*))" % ( m.group(1), m.group(1), m.group(2) )
+        else:
+            filter = "(|(uid=%s)(mail=%s@*))" % ( m.group(1), m.group(1) )
+    elif re_email.search(filter):
+        m = re_email.search(filter)
+        filter = "(mail=%s)" % ( m.group(1) )
+    filter = re.sub( r"^([^(])", r"(\1", filter )  # if needed, prepend ( 
+    filter = re.sub( r"([^)])$", r"\1)", filter )  # if needed,  append )
+    return filter
+
+
+######################################################################
+# ldaps
+#
+# Runs ldapsearch, optionally filtering results.
+######################################################################
+
+def ldaps(args):
+
+# Notes regarding ldapsearch command line options:
+# "-x": Use simple authentication instead of SASL.
+# "-u": include User Friendly Name (UFN) form of the Distinguished Name (DN)
+# "-LLL": display results in simple LDIFv1 format, with no comments.
+# "-l ...": time limit to wait for a search to complete.
+# "-h ...": LDAP server
+# "-b ...": search base - currently restricted to "users" subtree
+
+    cmd  = [ "ldapsearch", "-x", "-u", "-LLL", "-l", "10", "-h", "ldap-too.mit.edu", "-b", "ou=users,ou=moira,dc=mit,dc=edu" ]
+
+    filter = cleanUpFilter(args[0])
+    attributes = args[1:]
+
+    cmd.append(filter)
+
+    if (len(attributes) == 0):
+        prune = True
+    else:
+        prune = False
+        for attr in attributes:
+            if (attr == "all"): attr = "*"    # Allow "all" as alias for "*"
+            cmd.append(attr)
+
+    if debug:
+        print "Command:",
+        # If a list item contains "unsafe" shell chars,
+        #  put single quotes around the item.
+        for item in cmd:
+            if (not re.compile(r"^(\w|[-.,=])*$").search(item)):
+                item = re.sub( r"'", r"'\\''", item )     # ' -> '\''
+                item = re.sub( r"^(.*)$", r"'\1'", item ) # ' around item
+            print item,
+        print
+        print
+
+    # needs to use non-blocking reads in getCommandOutput
+    child_out, child_err = getCommandOutput(cmd)
+
+    unwanted_err = re.compile(r"^SASL[ /].*\n", re.M)
+    child_err = re.sub(unwanted_err, "", child_err)
+
+
+    child_out = re.sub( re.compile(r"\n ", re.M), "", child_out)  # join lines
+    if prune:
+        unwanted_out = [ "objectClass", "homeDirectory", "apple-user-homeDirectory", "uidNumber", "gidNumber", "loginShell", "postalCode", "l", "st", "o", "physicalDeliveryOfficeName", "dn", "eduPerson\\w+Affiliation", "eduPersonPrincipalName" ]
+        unwanted_out = "^(" + "|".join(unwanted_out) + "):.*\\n"
+        unwanted_out = re.compile(unwanted_out, re.M)
+        child_out = re.sub(unwanted_out, "", child_out)
+
+# See RFC 2256 for a larger list of what "SN", "OU", "DC" mean.
+# CN      commonName
+# L       localityName
+# ST      stateOrProvinceName
+# O       organizationName
+# OU      organizationalUnitName
+# C       countryName
+# STREET  streetAddress
+# DC      domainComponent
+# UID     userid
+
+    if child_out:
+        print child_out,
+    else:
+        print >>sys.stderr, "No matches to your query."
+    if child_err:
+        print >>sys.stderr, child_err,
+   
+
+def main(argv=None):
+    if argv is None:
+        argv = sys.argv
+    try:
+        try:
+            opts, args = getopt.getopt(argv[1:], "h", ["help", "debug"])
+        except getopt.error, msg:
+            raise Usage(msg)
+	# process options
+        for o, a in opts:
+            if o in ("-h", "--help"):
+                print __doc__
+                print more_usage
+                return 0
+            if o in ("--debug"):
+                global debug
+                debug = True
+	# process arguments
+	if (len(args) < 1):
+	    print __doc__
+	    return 1
+        ldaps(args)
+    except Usage, err:
+        print >>sys.stderr, err.msg
+        print >>sys.stderr, __doc__
+        return 2
+
+if __name__ == "__main__":
+    sys.exit(main())
+
+
+
+
+
+######################################################################
+# NOTE: To generate the man page, run through "pod2man":
+#   pod2man ldaps > ldaps.1
+######################################################################
+
+"""
+=pod
+
+=head1 NAME
+
+I<ldaps> - Search for entries in MIT's LDAP server.
+
+=head1 SYNOPSIS
+
+ ldaps [-h|--help] [--debug] SEARCH [attrs... | "all"]
+
+=head1 DESCRIPTION
+
+The I<ldaps> program will search for terms in MIT's LDAP server.
+It will try to guess whether to do a email or username or
+fullname search based on how it is called.
+
+The program is a wrapper around L<ldapsearch(1)>.  
+
+=head1 USAGE
+
+=over
+
+=item C<ldaps johndoe@example.com>
+
+Search for email address matching C<johndoe@example.com>.
+
+=item C<ldaps johndoe>
+
+Search for username or email matching C<johndoe>.
+
+=item C<ldaps "John Doe">
+
+Search for person by full name: C<(cn=John*Doe)>
+
+=back
+
+You can use C<--debug> to see the exact ldapsearch command that
+is used.  Raw ldap queries can be done if you use "=" or wrap
+your search in parentheses "(" ")".
+
+=head1 SEE ALSO
+
+L<ldapsearch(1)>
+
+=head1 NOTES
+
+For a description of allowed LDAP queries, see RFC 2254, Sec. 4 and 5
+
+=head1 BUGS
+
+Please report bugs to C<consultdev@mit.edu>
+
+=cut
+"""

@@ -6,6 +6,10 @@ var get_athena = function() {
     return athena;
 }
 
+var print_func = function() {
+    alert('not initialized yet');
+};
+
 var update_matches = function(c, match) {
     var athena = get_athena();
     match.html('');
@@ -49,39 +53,65 @@ var submit = function() {
     $.post('', { email: athena }, function(res) {
         $('#loading').addClass('hide');
         $('.match').removeClass('disabled');
-        var success = $('<div class="submit-result success fade-out">hi ' + res + '!</div>');
-        $('body').append(success);
-        setTimeout(function() {
-            success.removeClass('fade-out');
-        }, 100);
-        $('#cool-textbox').addClass('fade-out');
         reset();
-        $('#cool-textbox').removeClass('fade-out');
-        submitting = false;
-        setTimeout(function() {
-            $('.submit-result').addClass('fade-out');
-        }, 2000);
+        var student = JSON.parse(res);
+        console.log(student);
+
+        $('#form-name').val(student.name);
+        var years = {
+            "1": "FRESHMAN",
+            "2": "SOPHOMORE",
+            "3": "JUNIOR",
+            "4": "SENIOR"
+        };
+        if (student.year in years) {
+            $('#form-year').val(years[student.year]);
+        } else {
+            $('#form-year').val("year " + student.year);
+        }
+        $('#form-course').val(student.course);
+        $('form').removeClass('fade-out');
+        $('#form-name').focus();
     })
     .error(function(res) {
         $('#loading').addClass('hide');
         $('.match').removeClass('disabled');
+
+        var error = $('<div class="submit-result error fade-out">invalid athena</div>');
+        $('body').append(error);
+        setTimeout(function() {
+            error.removeClass('fade-out');
+        }, 10);
+        setTimeout(function() {
+            var b = $('.submit-result');
+            b.addClass('fade-out');
+            setTimeout(function() {
+                b.remove();
+            }, 500);
+        }, 2000);
+
         submitting = false;
     });
 }
 
 var setup_textbox = function() {
-    $('#athena').css('display', 'none');
-    var c = $('<div id="cool-textbox">');
+    var c = $('#cool-textbox');
     var match = $('<span class="match visible">');
     c.append(match);
     var blinker = $('<div class="blinker">');
     c.append(blinker);
     $(document).on('keypress', function(e) {
-        if (submitting) {
+        if (e.which == 13) {
+            if (submitting) {
+                print_func();
+                $('form').addClass('fade-out');
+                submitting = false;
+            } else {
+                submit();
+            }
             return;
         }
-        if (e.which == 13) {
-            submit();
+        if (submitting) {
             return;
         }
         if (e.which == 32) {
@@ -103,7 +133,6 @@ var setup_textbox = function() {
         }, 50);
     });
     $(document).on('keydown', function(e) {
-        console.log(e);
         // 8: BACKSPACE
         if (e.which != 8) {
             return;
@@ -114,10 +143,36 @@ var setup_textbox = function() {
             r.remove();
             update_matches(c, match);
         }, 200);
+        return (e.target.id.substring(0,5) === 'form-');
     });
-    $('body').append(c);
+}
+
+var setup_printer = function(xml) {
+    var label = dymo.label.framework.openLabelXml(xml);
+
+    var printers = dymo.label.framework.getPrinters();
+    if (printers.length == 0) {
+        alert("No DYMO printers are installed.");
+        return;
+    }
+
+    var printerName = printers[0].name;
+
+    print_func = function() {
+        label.setObjectText("name_ref", $("#form-name").val());
+        label.setObjectText("major_ref", $("#form-course").val());
+        label.setObjectText("year_ref", $("#form-year").val());
+        label.print(printerName); 
+    };
 }
 
 $(document).ready(function() {
     setup_textbox();
+    $.ajax({
+        url: "/checkin/nametag.label",
+        dataType: "text",
+        success: function(xml) {
+            setup_printer(xml);
+        }
+    });
 });

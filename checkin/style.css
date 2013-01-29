@@ -20,8 +20,7 @@ body {
     margin: 0 auto;
 
     position: absolute;
-    top: 50%;
-    margin-top: -100px;
+    margin-top: 100px;
     height: 200px;
     left: 50%;
     margin-left: -400px;
@@ -124,13 +123,18 @@ body {
     font-weight: 700;
     -webkit-transition: opacity 0.2s ease-in;
     opacity: 1;
+    font-size: 24px;
 }
 .submit-result.success {
     background: green;
 }
+.submit-result.error {
+    background: red;
+    opacity: 0.8;
+}
 
 .fade-out {
-    opacity: 0;
+    opacity: 0 !important;
 }
 
 .blinker {
@@ -148,4 +152,42 @@ body {
     0% { opacity: 1; }
     30% { opacity: 0.2; }
     100% { opacity: 1; }
+}
+
+form {
+    position: absolute;
+    top: 450px;
+    left: 50%;
+    margin-left: -400px;
+    -webkit-transition: opacity 0.2s ease-in;
+    opacity: 1;
+    font-family: 'Open Sans', sans-serif;
+}
+
+input[type=text]:focus {
+    outline: 0;
+}
+
+input[type=text] {
+    display: block;
+    margin: 0 auto 10px;
+    padding: 5px;
+    font-size: 52px;
+    width: 670px;
+    text-align: center;
+    background: none;
+    color: white;
+    border-width: 0 0 2px;
+    border-style: solid;
+    border-color: rgba(255,255,255,0.5);
+}
+
+#form-year, #form-course {
+    font-size: 36px;
+}
+
+form p {
+    font-size: 32px;
+    margin: 0 0 5px;
+    color: #222;
 }
