@@ -30,6 +30,15 @@
         Sponsorships are unfortunately sold out for Techfair 2013. Are you a company attending Techfair 2013? Check out <a href="/companies/info/">our company info page</a>.
       </div>
       <?php schedule(); ?>
+      <div class="tile think">
+        <h2>Congratulations to the THINK 2013 winners!</h2>
+        <p>
+        The 2013 winners have been announced <a
+        href="http://think.mit.edu/winners">on the THINK website</a>.  THINK
+        started as a Techfair subcommittee, and we are proud to continue
+        supporting them today.
+        </p>
+      </div>
       <div class="tile main-fair">
         <h2 class="techfair2013">Techfair 2013</h2>
         <p>Kick off your spring semester with Techfair 2013. Featuring the

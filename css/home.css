@@ -204,3 +204,18 @@
     filter: saturate(100%);
     -webkit-filter: saturate(100%);
 }
+
+.tile.think {
+    background: #f4f4f8;
+    padding: 20px;
+    margin: 15px;
+    width: 600px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+.tile.think h2 {
+    font-size: 18px;
+}
+.tile.think p {
+    font-size: 14px;
+}
