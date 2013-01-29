@@ -107,7 +107,7 @@ like it.</p>
 				'Square'	 						=> 'http://square.com/',
 				'Meraki'      						=> 'http://www.meraki.com/',
 				'Jane Street' 						=> 'http://www.janestreet.com/',
-        'MoPub'               => 'http://www.mopub.com/'
+        'MoPub'               => 'http://www.mopub.com/',
         'Yelp'               => 'http://www.yelp.com/'
 			);
 			
