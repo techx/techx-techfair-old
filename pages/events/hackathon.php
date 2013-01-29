@@ -111,6 +111,7 @@ okay, as long as they're accessible by everyone else as well.</p>
     <img class="venmo sub-sponsor" src="/img/hackathon/venmo.png" />
     <img class="twilio sub-sponsor" src="/img/hackathon/twilio.png" />
     <img class="mgwu sub-sponsor" src="/img/hackathon/mgwu.png" />
+    <a href="http://www.windowsazure.com/mobile"><img class="microsoft sub-sponsor" src="/img/hackathon/microsoft.png" /></a>
     <?php /*
     <img class="twitter sub-sponsor" src="/img/hackathon/twitter.png" />
     <img class="sifteo sub-sponsor" src="/img/hackathon/sifteo.png" />

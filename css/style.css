@@ -1061,17 +1061,20 @@ ul.radio span {
     padding: 15px;
     position: relative;
 }
-.sub-sponsor.sifteo {
-    top: -4px;
-}
-.sub-sponsor.twitter {
-    top: 10px;
+.sub-sponsor.greylock {
+    top: -5px;
 }
 .sub-sponsor.venmo {
     top: -10px;
 }
 .sub-sponsor.twilio {
     top: 10px;
+}
+.sub-sponsor.microsoft {
+    top: -20px;
+}
+.sub-sponsor.mgwu {
+    top: -50px;
 }
 .hack-sponsor-logos {
     text-align: center;
