@@ -65,6 +65,12 @@
             </div>
           </div>
           <div class="fair-detail">
+            <span class="typicn group"></span>
+            <div class="detail-caption">
+              Open to MIT students, alumin, staff, and affiliates only.
+            </div>
+          </div>
+          <div class="fair-detail">
             <span class="typicn thumbsUp"></span>
             <div class="detail-caption">
               Casual attire
