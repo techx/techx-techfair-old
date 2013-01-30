@@ -273,7 +273,7 @@
       off raffle tickets there. We can choose the winner for you.</li>
     </ul>
     <p>In either case, we'll have a large poster listing the raffles going on,
-    and we'll deliver the prizes to the winner. Be sure to give your prize to a
+    and we'll deliver the prizes to the winners. Be sure to give your prize to a
     Techfair staff member (labeled with your company name) during morning setup.</p>
     </div>
 
