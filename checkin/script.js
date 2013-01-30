@@ -12,7 +12,8 @@ var print_func = function() {
 
 var confirm_attendee = function() {
     var email = $('body').data('email');
-    var name = $('body').data('name');
+    // Use form value if they changed it.
+    var name = $('#form-name').val();
     $.post('submit.php', {
         email: email,
         name: name
@@ -74,7 +75,6 @@ var submit = function() {
             "4": "SENIOR"
         };
         $('body').data('email', athena);
-        $('body').data('name', student.name);
         if (student.year in years) {
             $('#form-year').val(years[student.year]);
         } else {
