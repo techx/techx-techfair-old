@@ -12,6 +12,7 @@
         <li><a href="#parking" class="new">Parking</a></li>
         <li><a href="#hotels">Hotels</a></li>
         <li><a href="#banquet" class="new">Banquet</a></li>
+        <li><a href="#raffles" class="new">Raffles</a></li>
     </ul>
 
     <div class="info-content">
@@ -176,11 +177,14 @@
     <h2 id="parking">Parking</h2>
     <p>For gold and silver sponsors, complimentary parking will be provided at the
     <strong>Kresge Lot</strong> (located right outside the Z center, behind the
-    half-dome shaped Kresge Auditorium). Notify the parking attendant that you
-    are attending Techfair for access.</p>
+    half-dome shaped Kresge Auditorium).</p>
 
     <p class="new-info">Note that the location of the parking lot has been
     updated to Kresge Lot instead of Westgate Lot.</p>
+
+    <p class="new-info">In order to access the parking lot, tell the parking
+    attendant that you are here for Techfair and tell them the name of your
+    company.</p>
 
     <p><strong>To help with our planning, please indicate the number of parking
     spaces you would like in the logistics portal.</strong></p>
@@ -245,11 +249,6 @@
     any extra students will be placed on a waitlist in case of last minute
     cancellations.</p>
 
-    <p>Finally, Techfair will maintain a general waitlist for students who are
-    interested but have not yet received an invitation. We will do our best to
-    match students to company tables for those tables with available seats and an
-    empty waitlist.</p>
-
     <h2>Further Updates</h2>
     <p>We will be contacting you in the weeks to come with updates, where
     applicable, regarding any missing details. We will be updating the logistics
@@ -261,6 +260,21 @@
     reach us at <a href="mailto:techfair-cr@mit.edu">techfair-cr@mit.edu</a>
     and <a href="mailto:techfair-exec@mit.edu">techfair-exec@mit.edu</a>.</p>
 
+    <h2 id="raffles" class="new-info">Raffles</h2>
+    <p>If you've filled out the raffle option in the portal, we'll help
+    advertise your raffle at the fair! You can choose to either:</p>
+    <ul>
+      <li><strong>Raffle the item yourself</strong> - we'll give you raffle
+      tickets in the morning to give out. Collect the MIT username of the
+      students (also known as "athenas" or "kerberos IDs") on each ticket. At
+      the end of the day, let us know the username of the winner.</li>
+      <li><strong>Let Techfair raffle the item</strong> - we'll have boxes at
+      the exit booth for each raffle prize, and students will be able to drop
+      off raffle tickets there. We can choose the winner for you.</li>
+    </ul>
+    <p>In either case, we'll have a large poster listing the raffles going on,
+    and we'll deliver the prizes to the winner. Be sure to give your prize to a
+    Techfair staff member (labeled with your company name) during morning setup.</p>
     </div>
 
     <div class="clearfix"></div>
