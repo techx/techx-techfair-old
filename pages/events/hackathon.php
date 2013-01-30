@@ -119,6 +119,12 @@ okay, as long as they're accessible by everyone else as well.</p>
   </p>
 </div>
 
+<h2>Special Thanks to Our Friends</h2>
+<div class="hack-sponsor-logos">
+  <img class="roughdraft sub-sponsor" src="/img/hackathon/roughdraft.png" />
+  <img class="bss sub-sponsor" src="/img/hackathon/bss.png" />
+</div>
+
 <div class="column-bottom" style="text-align: center; padding-top: 30px;">
   <a href="/img/hackathon/Hack1o.jpg"><img src="/img/hackathon/Hack1.jpg" style="margin-right: 20px;" width=220 height=150></a>
   <a href="/img/hackathon/Hack2o.jpg"><img src="/img/hackathon/Hack2.jpg" style="margin-right: 20px;" width=220 height=150></a>

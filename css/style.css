@@ -1076,6 +1076,9 @@ ul.radio span {
 .sub-sponsor.mgwu {
     top: -50px;
 }
+.sub-sponsor.bss {
+    top: -20px;
+}
 .hack-sponsor-logos {
     text-align: center;
 }
