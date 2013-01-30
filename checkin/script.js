@@ -8,6 +8,15 @@ var get_athena = function() {
 
 var print_func = function() {
     alert('not initialized yet');
+}
+
+var confirm_attendee = function() {
+    var email = $('body').data('email');
+    var name = $('body').data('name');
+    $.post('submit.php', {
+        email: email,
+        name: name
+    }, print_func);
 };
 
 var update_matches = function(c, match) {
@@ -64,6 +73,8 @@ var submit = function() {
             "3": "JUNIOR",
             "4": "SENIOR"
         };
+        $('body').data('email', athena);
+        $('body').data('name', student.name);
         if (student.year in years) {
             $('#form-year').val(years[student.year]);
         } else {
@@ -103,7 +114,7 @@ var setup_textbox = function() {
     $(document).on('keypress', function(e) {
         if (e.which == 13) {
             if (submitting) {
-                print_func();
+                confirm_attendee();
                 $('form').addClass('fade-out');
                 submitting = false;
             } else {

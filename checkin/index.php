@@ -37,16 +37,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         echo '"year": "', $year, '",';
         echo '"course": "', $course, '"';
         echo "}";
-        $mysqli = new mysqli('sql.mit.edu','techfair','02139techfair','techfair+dayof');
-        if (mysqli_connect_errno()) { 
-            printf("Connect failed: %s\n", mysqli_connect_error()); 
-            exit(); 
-        }
-        $stmt = $mysqli->prepare("INSERT INTO registration2013 (email, name) VALUES (?,?)");
-        $stmt->bind_param('ss', $_POST['email'], $name);
-        $stmt->execute();
-        $stmt->close();
-        $mysqli->close();
     } else {
         header('HTTP/1.0 400 Invalid Athena', true, 400);
     }
