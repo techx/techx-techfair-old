@@ -7,7 +7,7 @@ var get_athena = function() {
 }
 
 var print_func = function() {
-    alert('not initialized yet');
+    alert('this is when we print the nametag');
 }
 
 var confirm_attendee = function() {
