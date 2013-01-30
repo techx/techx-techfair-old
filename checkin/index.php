@@ -37,7 +37,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         echo '"year": "', $year, '",';
         echo '"course": "', $course, '"';
         echo "}";
-        return;
         $mysqli = new mysqli('sql.mit.edu','techfair','02139techfair','techfair+dayof');
         if (mysqli_connect_errno()) { 
             printf("Connect failed: %s\n", mysqli_connect_error()); 
