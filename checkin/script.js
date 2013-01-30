@@ -47,13 +47,14 @@ var update_matches = function(c, match) {
     match.html(html);
 }
 
+var submitting = false;
+
 var reset = function() {
     $('.blinker').show();
     $('#cool-textbox').children().not('.match, .blinker').remove();
     $('.match').html('');
+    $('form').addClass('fade-out');
 }
-
-var submitting = false;
 
 var submit = function() {
     submitting = true;
@@ -112,6 +113,7 @@ var setup_textbox = function() {
     var blinker = $('<div class="blinker">');
     c.append(blinker);
     $(document).on('keypress', function(e) {
+        console.log(e);
         if (e.which == 13) {
             if (submitting) {
                 confirm_attendee();
@@ -144,6 +146,12 @@ var setup_textbox = function() {
         }, 50);
     });
     $(document).on('keydown', function(e) {
+        // 27: ESC
+        if (e.which == 27) {
+            submitting = false;
+            reset();
+            return;
+        }
         // 8: BACKSPACE
         if (e.which != 8) {
             return;
