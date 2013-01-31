@@ -168,7 +168,7 @@ like it.</p>
 			<ul class="startup-sponsors">
 			  <li><a href="http://formlabs.com/">Formlabs</a></li>
 			  <li><a href="http://nest.com/">Nest</a></li>
-			  <li><a href="http://peddl.com/">Sold</a></li>
+			  <li><a href="http://usesold.com/">Sold</a></li>
 			  <li><a href="http://www.restdevices.com/">Rest Devices</a></li>
 			  <li><a href="http://www.unmannedinnovation.com/">Unmanned Innovation</a></li>
 			  <li><a href="http://beehive.mit.edu/">Beehive Cooperative</a></li>
