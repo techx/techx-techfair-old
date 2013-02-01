@@ -33,7 +33,10 @@ else
   if ($sectionName == 'sponsor') {
         $redirect = true;
 		header('Location: /companies/packages/');
-  } elseif ($sectionName == 'portal') {
+  } elseif ($sectionName == 'hack_vote') {
+        $redirect = true;
+		header('Location: http://ec2-54-242-212-158.compute-1.amazonaws.com/');
+	}elseif ($sectionName == 'portal') {
         $redirect = true;
 		header('Location: http://portal.mittechfair.org');
 	} elseif ($sectionName=='feedback') {
