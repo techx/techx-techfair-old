@@ -113,7 +113,7 @@ var setup_textbox = function() {
     var blinker = $('<div class="blinker">');
     c.append(blinker);
     $(document).on('keypress', function(e) {
-        console.log(e);
+        console.log(e.which);
         if (e.which == 13) {
             if (submitting) {
                 confirm_attendee();
@@ -122,6 +122,9 @@ var setup_textbox = function() {
             } else {
                 submit();
             }
+            return;
+        }
+        if (e.which == 8) {
             return;
         }
         if (submitting) {
