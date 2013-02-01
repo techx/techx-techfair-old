@@ -120,7 +120,7 @@ like it.</p>
 		<?php
 			//Add Bronze sponsors & their websites to this list. They DON'T have to be in alphabetical order; the function will sort them.
 			$bronze = array(
-				'Potion Design' 					=> 'http://www.potiondesign.com/',
+				'Potion' 					=> 'http://www.potiondesign.com/',
 				'Twitter' 							=> 'http://www.twitter.com/',
 				'CIA' 								=> 'http://www.cia.gov/',
 				'Counsyl'							=> 'http://www.counsyl.com/',
