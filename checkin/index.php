@@ -54,6 +54,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <div id="instructions">Enter your MIT athena username:</div>
   <div id="loading" class="hide"><div>
     <div class="div0"></div>
     <div class="div1"></div>
@@ -62,7 +63,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
   </div></div>
   <div id="cool-textbox"></div>
   <form class="fade-out">
-    <p>Make any necessary changes and hit enter:</p>
+    <p>Make any necessary changes with TAB. <br> Then hit ENTER to print your nametag.</p>
     <input type="text" id="form-name" />
     <input type="text" id="form-year" />
     <input type="text" id="form-course" />
