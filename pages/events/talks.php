@@ -3,6 +3,7 @@
 <h2>"Innovation in a data-driven world."</h2>
 <p>The second annual TechTalks takes place <strong>Feb 8, the Friday after
 Techfair</strong>.</p>
+
 <p>(For last year's Techtalks page, visit <a
 href="/events/talks-2012/">techfair.mit.edu/events/talks-2012/</a>.)
 <p>We're extremely excited about this year's talks - check out our lineup below
@@ -40,7 +41,7 @@ and you'll understand why!</p>
     <span class="typicn thumbsUp label"></span> Dinner will be served.
   </div>
   <div class="event-detail">
-    <span class="typicn anchor label"></span> The talks will be livestreamed! Check back later for a link to the stream.
+    <span class="typicn anchor label"></span>If you can't make it, check out the livestream <a href="https://new.livestream.com/accounts/2721370/techtalks">here!</a>
   </div>
 </div>
 <h2>The Lineup</h2>
