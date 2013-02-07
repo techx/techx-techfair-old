@@ -18,7 +18,7 @@ and you'll understand why!</p>
     </p>
   </div>
   <div class="event-detail">
-    <span class="typicn time label"></span> Fri Feb 8, 4-8pm
+    <span class="typicn time label"></span> <strong>Postponed due to inclement weather.</strong> Date TBA, check back soon.
     <h3>Schedule</h3>
     <ul>
       <li><span class="schedule-time no-date">4pm</span> Kickoff</li>
