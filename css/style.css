@@ -467,15 +467,11 @@ ul.radio span {
 }
 .speaker-topic {
     display: block;
-    margin-left: 65px;
     font-size: 14px;
     text-transform: uppercase;
     color: #555;
-    font-weight: 600;
-}
-.event-details .speaker-topic {
-    margin-left: 54px;
     font-weight: 400;
+    margin: 0 0 10px 54px;
 }
 .speaker-name {
     font-weight: 600;

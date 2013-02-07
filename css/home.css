@@ -224,3 +224,8 @@
     display: block;
     margin: 50px auto 20px;
 }
+
+.speaker-topic {
+    margin: 0 0 10px 65px;
+    font-weight: 600;
+}
