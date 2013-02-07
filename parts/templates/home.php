@@ -7,8 +7,8 @@
     
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600' rel='stylesheet' type='text/css'>
   <link href="/css/typicons_kit/css/typicons.css" rel="stylesheet" />
-  <link href="/css/style.css" rel="stylesheet" />
-  <link href="/css/home.css" rel="stylesheet" />
+  <link href="/css/style.css?v=2" rel="stylesheet" />
+  <link href="/css/home.css?v=2" rel="stylesheet" />
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVA4WxYlg7xLQh_Yfnj2PDqK4LI1S_y6g&sensor=false"></script>
