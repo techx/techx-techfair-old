@@ -59,11 +59,15 @@
               <strong>Postponed due to inclement weather.</strong> Date TBA, check back soon.
               <p>
                 <span class="speaker-time">4pm</span> Kickoff<br />
-                <span class="speaker-time">4:15pm</span> Paul English <span class="speaker-affiliation">CTO, Co-Founder, Kayak</span><br />
+                <span class="speaker-time">4:15pm</span> Paul English <span class="speaker-affiliation">CTO, Co-Founder, Kayak</span>
+                  <span class="speaker-topic">Innovation Large and Small: How to be excellent at both</span>
                 <span class="speaker-time">5pm</span> Ari Gesher <span class="speaker-affiliation">Senior Engineer, Palantir</span><br />
+                  <span class="speaker-topic">Philanthropy Engineering: Because We Have To</span>
                 <span class="speaker-time">5:45pm</span> Dinner / Break</span><br />
                 <span class="speaker-time">6:15pm</span> Yoky Matsuoka <span class="speaker-affiliation">VP Technology, Nest</span><br />
+                  <span class="speaker-topic">Robots and Thermostats: More in Common Than You'd Think</span>
                 <span class="speaker-time">7pm</span> John Bicket <span class="speaker-affiliation">Co-Founder, Meraki</span>
+                  <span class="speaker-topic">How the Cloud has Changed Enterprise Networking</span>
               </p>
             </div>
           </div>

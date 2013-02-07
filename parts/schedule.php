@@ -53,7 +53,7 @@ function schedule() {
     </div>
     <div class="event">
       <div class="event-name"><a href="/events/talks/">TechTalks</a></div>
-      <div class="time-item">Feb 8 <strong>4PM</strong></div>
+      <div class="time-item">TBA <strong>4PM</strong></div>
       <div class="desc-item">kickoff</div>
       <div class="desc-item map-location" data-name="32-123" data-lat="42.361315" data-lng="-71.090646">
         <a href="http://goo.gl/maps/R3EKa">32-123 (Stata Center) <span class="typicn export"></span></a>

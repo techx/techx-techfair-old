@@ -22,11 +22,31 @@ and you'll understand why!</p>
     <h3>Schedule</h3>
     <ul>
       <li><span class="schedule-time no-date">4pm</span> Kickoff</li>
-      <li><span class="schedule-time no-date">4:15pm</span> Paul English <span class="speaker-about">(Co-Founder, CTO, Kayak)</span></li>
-      <li><span class="schedule-time no-date">5pm</span> Ari Gesher <span class="speaker-about">(Senior Engineer, Palantir)</span></li>
+      <li>
+        <span class="schedule-time no-date">4:15pm</span>
+        <span class="speaker-name">Paul English</span>
+        <span class="speaker-about">(Co-Founder, CTO, Kayak)</span>
+        <span class="speaker-topic">Innovation Large and Small: How to be excellent at both</span>
+      </li>
+      <li>
+        <span class="schedule-time no-date">5pm</span>
+        <span class="speaker-name">Ari Gesher</span>
+        <span class="speaker-about">(Senior Engineer, Palantir)</span>
+        <span class="speaker-topic">Philanthropy Engineering: Because We Have To</span>
+      </li>
       <li><span class="schedule-time no-date">5:45pm</span> Dinner / Break</li>
-      <li><span class="schedule-time no-date">6:15pm</span> Yoky Matsuoka <span class="speaker-about">(VP Technology, Nest)</span></li>
-      <li><span class="schedule-time no-date">7pm</span> John Bicket <span class="speaker-about">(Co-Founder, Meraki)</span></li>
+      <li>
+        <span class="schedule-time no-date">6:15pm</span>
+        <span class="speaker-name">Yoky Matsuoka</span>
+        <span class="speaker-about">(VP Technology, Nest)</span>
+        <span class="speaker-topic">Robots and Thermostats: More in Common Than You'd Think</span>
+      </li>
+      <li>
+        <span class="schedule-time no-date">7pm</span>
+        <span class="speaker-name">John Bicket</span>
+        <span class="speaker-about">(Co-Founder, Meraki)</span>
+        <span class="speaker-topic">How the Cloud has Changed Enterprise Networking</span>
+      </li>
     </ul>
   </div>
   <div class="event-detail">
