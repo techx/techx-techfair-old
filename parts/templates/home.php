@@ -13,6 +13,7 @@
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVA4WxYlg7xLQh_Yfnj2PDqK4LI1S_y6g&sensor=false"></script>
   <script src="/js/script.js"></script>
+  <?php include_once($_SERVER['DOCUMENT_ROOT'].'/parts/analytics.php');?>
         
 </head>
 
