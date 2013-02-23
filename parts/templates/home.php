@@ -7,8 +7,8 @@
     
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600' rel='stylesheet' type='text/css'>
   <link href="/css/typicons_kit/css/typicons.css" rel="stylesheet" />
-  <link href="/css/style.css" rel="stylesheet" />
-  <link href="/css/home.css" rel="stylesheet" />
+  <link href="/css/style.css?v=2" rel="stylesheet" />
+  <link href="/css/home.css?v=2" rel="stylesheet" />
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVA4WxYlg7xLQh_Yfnj2PDqK4LI1S_y6g&sensor=false"></script>
@@ -28,18 +28,69 @@
         </div>
       </div>
       <div class="for-companies">
-        Sponsorships are unfortunately sold out for Techfair 2013. Are you a company attending Techfair 2013? Check out <a href="/companies/info/">our company info page</a>.
+        Thanks everyone for making Techfair 2013 the highest attended yet! Check back for awesome photos from the hackathon, fair, and more.
       </div>
-      <?php schedule(); ?>
-      <div class="tile think">
-        <h2>Congratulations to the THINK 2013 winners!</h2>
-        <p>
-        The 2013 winners have been announced <a
-        href="http://think.mit.edu/winners">on the THINK website</a>.  THINK
-        started as a Techfair subcommittee, and we are proud to continue
-        supporting them today.
-        </p>
+      <div class="tile announcement">
+        <h2>Due to the upcoming blizzard, TechTalks has been postponed.</h2>
+        <p> The Boston/Cambridge area is expecting about two feet of snow in
+        the next few days. As a result, <strong>we are postponing
+        TechTalks</strong> until a later date. We'll update the website and
+        email out to those registered on <a
+        href="http://mittechtalks.eventbrite.com">Eventbrite</a> with further
+        updates.</p>
       </div>
+      <div class="tile">
+        <h2><a href="/talks/">TechTalks</a></h2>
+        <div class="speaker-mugs">
+          <a href="/events/talks/#paul"><img src="/img/homepage/paul_english.jpg" alt="Paul English" /></a><a href="/events/talks/#ari"><img src="/img/homepage/ari_gesher.jpg" alt="Ari Gesher" /></a><a href="/events/talks/#yoky"><img src="/img/homepage/yoky_matsuoka.jpg" alt="Yoky Matsuoka" /></a><a href="/events/talks/#john"><img src="/img/homepage/john_bicket.jpg" alt="John Bicket" /></a>
+        </div>
+        <p>The second annual TechTalks takes place the Friday after Techfair!
+        Come by after classes to hear our incredible lineup of speakers, grab
+        some food, and meet interesting people.</p>
+        <div class="event-details">
+          <div class="fair-detail">
+            <span class="typicn location"></span>
+            <div class="detail-caption">
+              <a href="http://goo.gl/maps/R3EKa">32-123 (Stata Center) <span class="typicn export nofloat"></span></a>
+            </div>
+          </div>
+          <div class="fair-detail">
+            <span class="typicn time"></span>
+            <div class="detail-caption">
+              <strong>Postponed due to inclement weather.</strong> Date TBA, check back soon.
+              <p>
+                <span class="speaker-time">4pm</span> Kickoff<br />
+                <span class="speaker-time">4:15pm</span> Paul English <span class="speaker-affiliation">CTO, Co-Founder, Kayak</span>
+                  <span class="speaker-topic">Innovation Large and Small: How to be excellent at both</span>
+                <span class="speaker-time">5pm</span> Ari Gesher <span class="speaker-affiliation">Senior Engineer, Palantir</span><br />
+                  <span class="speaker-topic">Philanthropy Engineering: Because We Have To</span>
+                <span class="speaker-time">5:45pm</span> Dinner / Break</span><br />
+                <span class="speaker-time">6:15pm</span> Yoky Matsuoka <span class="speaker-affiliation">VP Technology, Nest</span><br />
+                  <span class="speaker-topic">Robots and Thermostats: More in Common Than You'd Think</span>
+                <span class="speaker-time">7pm</span> John Bicket <span class="speaker-affiliation">Co-Founder, Meraki</span>
+                  <span class="speaker-topic">How the Cloud has Changed Enterprise Networking</span>
+              </p>
+            </div>
+          </div>
+          <div class="fair-detail">
+            <span class="typicn anchor"></span>
+            <div class="detail-caption">
+              Visit <a href="/talks">techfair.mit.edu/talks</a> for detailed schedule and more
+            </div>
+          </div>
+          <div class="fair-detail">
+            <span class="typicn anchor"></span>
+            <div class="detail-caption">
+              <a href="http://mittechtalks.eventbrite.com">Register on Eventbrite <span class="typicn export nofloat"></a>
+            </div>
+          </div>
+        </div>
+        <img class="tt-poster" src="/img/homepage/tt_poster.png" />
+      </div>
+
+      <?php
+      /* FAIR IS OVER! Save for next year?
+
       <div class="tile main-fair">
         <h2 class="techfair2013">Techfair 2013</h2>
         <p>Kick off your spring semester with Techfair 2013. Featuring the
@@ -129,51 +180,6 @@
           </div>
         </div>
       </div>
-      <div class="tile">
-        <h2><a href="/talks/">TechTalks</a></h2>
-        <div class="speaker-mugs">
-          <a href="/events/talks/#paul"><img src="/img/homepage/paul_english.jpg" alt="Paul English" /></a><a href="/events/talks/#ari"><img src="/img/homepage/ari_gesher.jpg" alt="Ari Gesher" /></a><a href="/events/talks/#yoky"><img src="/img/homepage/yoky_matsuoka.jpg" alt="Yoky Matsuoka" /></a><a href="/events/talks/#john"><img src="/img/homepage/john_bicket.jpg" alt="John Bicket" /></a>
-        </div>
-        <p>The second annual TechTalks takes place the Friday after Techfair!
-        Come by after classes to hear our incredible lineup of speakers, grab
-        some food, and meet interesting people.</p>
-        <div class="event-details">
-          <div class="fair-detail">
-            <span class="typicn location"></span>
-            <div class="detail-caption">
-              <a href="http://goo.gl/maps/R3EKa">32-123 (Stata Center) <span class="typicn export nofloat"></span></a>
-            </div>
-          </div>
-          <div class="fair-detail">
-            <span class="typicn time"></span>
-            <div class="detail-caption">
-              Fri Feb 8, 4-8pm
-              <p>
-                <span class="speaker-time">4pm</span> Kickoff<br />
-                <span class="speaker-time">4:15pm</span> Paul English <span class="speaker-affiliation">CTO, Co-Founder, Kayak</span><br />
-                <span class="speaker-time">5pm</span> Ari Gesher <span class="speaker-affiliation">Senior Engineer, Palantir</span><br />
-                <span class="speaker-time">5:45pm</span> Dinner / Break</span><br />
-                <span class="speaker-time">6:15pm</span> Yoky Matsuoka <span class="speaker-affiliation">VP Technology, Nest</span><br />
-                <span class="speaker-time">7pm</span> John Bicket <span class="speaker-affiliation">Co-Founder, Meraki</span>
-              </p>
-            </div>
-          </div>
-          <div class="fair-detail">
-            <span class="typicn anchor"></span>
-            <div class="detail-caption">
-              Visit <a href="/talks">techfair.mit.edu/talks</a> for detailed schedule and more
-            </div>
-          </div>
-          <div class="fair-detail">
-            <span class="typicn anchor"></span>
-            <div class="detail-caption">
-              <a href="http://mittechtalks.eventbrite.com">Register on Eventbrite <span class="typicn export nofloat"></a>
-            </div>
-          </div>
-        </div>
-        <div class="clearfix"></div>
-      </div>
-
       <div class="half tile">
         <h2><a href="/events/banquet/">Banquet</a></h2>
         <p><img src="/img/banquet/Banquet3.jpg" width="400" /></p>
@@ -240,6 +246,8 @@
           </div>
         </div>
       </div>
+      */
+      ?>
 
       <?php make_footer($routes); ?>
     </div>

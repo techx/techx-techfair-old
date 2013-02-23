@@ -452,10 +452,30 @@ ul.radio span {
     font-weight: 300;
 }
 .speaker-about {
-    color: #555;
-    font-style: italic;
+    color: white;
+    font-weight: 600;
+    font-size: 11px;
+    background: #AAA;
+    padding: 2px 4px;
+    border-radius: 2px;
 }
-
+.speaker-topic:before {
+    content: '"';
+}
+.speaker-topic:after {
+    content: '"';
+}
+.speaker-topic {
+    display: block;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #555;
+    font-weight: 400;
+    margin: 0 0 10px 54px;
+}
+.speaker-name {
+    font-weight: 600;
+}
 
 .rsvp {
     margin-bottom: 10px;

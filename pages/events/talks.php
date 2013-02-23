@@ -3,6 +3,7 @@
 <h2>"Innovation in a data-driven world."</h2>
 <p>The second annual TechTalks takes place <strong>Feb 8, the Friday after
 Techfair</strong>.</p>
+
 <p>(For last year's Techtalks page, visit <a
 href="/events/talks-2012/">techfair.mit.edu/events/talks-2012/</a>.)
 <p>We're extremely excited about this year's talks - check out our lineup below
@@ -17,15 +18,35 @@ and you'll understand why!</p>
     </p>
   </div>
   <div class="event-detail">
-    <span class="typicn time label"></span> Fri Feb 8, 4-8pm
+    <span class="typicn time label"></span> <strong>Postponed due to inclement weather.</strong> Date TBA, check back soon.
     <h3>Schedule</h3>
     <ul>
       <li><span class="schedule-time no-date">4pm</span> Kickoff</li>
-      <li><span class="schedule-time no-date">4:15pm</span> Paul English <span class="speaker-about">(Co-Founder, CTO, Kayak)</span></li>
-      <li><span class="schedule-time no-date">5pm</span> Ari Gesher <span class="speaker-about">(Senior Engineer, Palantir)</span></li>
+      <li>
+        <span class="schedule-time no-date">4:15pm</span>
+        <span class="speaker-name">Paul English</span>
+        <span class="speaker-about">Co-Founder, CTO, Kayak</span>
+        <span class="speaker-topic">Innovation Large and Small: How to be excellent at both</span>
+      </li>
+      <li>
+        <span class="schedule-time no-date">5pm</span>
+        <span class="speaker-name">Ari Gesher</span>
+        <span class="speaker-about">Senior Engineer, Palantir</span>
+        <span class="speaker-topic">Philanthropy Engineering: Because We Have To</span>
+      </li>
       <li><span class="schedule-time no-date">5:45pm</span> Dinner / Break</li>
-      <li><span class="schedule-time no-date">6:15pm</span> Yoky Matsuoka <span class="speaker-about">(VP Technology, Nest)</span></li>
-      <li><span class="schedule-time no-date">7pm</span> John Bicket <span class="speaker-about">(Co-Founder, Meraki)</span></li>
+      <li>
+        <span class="schedule-time no-date">6:15pm</span>
+        <span class="speaker-name">Yoky Matsuoka</span>
+        <span class="speaker-about">VP Technology, Nest</span>
+        <span class="speaker-topic">Robots and Thermostats: More in Common Than You'd Think</span>
+      </li>
+      <li>
+        <span class="schedule-time no-date">7pm</span>
+        <span class="speaker-name">John Bicket</span>
+        <span class="speaker-about">Co-Founder, Meraki</span>
+        <span class="speaker-topic">How the Cloud has Changed Enterprise Networking</span>
+      </li>
     </ul>
   </div>
   <div class="event-detail">
@@ -40,7 +61,7 @@ and you'll understand why!</p>
     <span class="typicn thumbsUp label"></span> Dinner will be served.
   </div>
   <div class="event-detail">
-    <span class="typicn anchor label"></span> The talks will be livestreamed! Check back later for a link to the stream.
+    <span class="typicn anchor label"></span>If you can't make it, check out the livestream <a href="https://new.livestream.com/accounts/2721370/techtalks">here!</a>
   </div>
 </div>
 <h2>The Lineup</h2>

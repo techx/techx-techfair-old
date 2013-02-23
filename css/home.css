@@ -205,17 +205,27 @@
     -webkit-filter: saturate(100%);
 }
 
-.tile.think {
+.tile.announcement {
     background: #f4f4f8;
     padding: 20px;
-    margin: 15px;
-    width: 600px;
+    margin: 15px 15px 0;
     border: 1px solid #ddd;
     border-radius: 3px;
 }
-.tile.think h2 {
+.tile.announcement h2 {
     font-size: 18px;
+    font-weight: 700;
 }
-.tile.think p {
+.tile.announcement p {
     font-size: 14px;
+}
+
+.tt-poster {
+    display: block;
+    margin: 50px auto 20px;
+}
+
+.speaker-topic {
+    margin: 0 0 10px 65px;
+    font-weight: 600;
 }
