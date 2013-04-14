@@ -30,62 +30,33 @@
       <div class="for-companies">
         Thanks everyone for making Techfair 2013 the highest attended yet! Check back for awesome photos from the hackathon, fair, and more.
       </div>
-      <div class="tile announcement">
-        <h2>Due to the upcoming blizzard, TechTalks has been postponed.</h2>
-        <p> The Boston/Cambridge area is expecting about two feet of snow in
-        the next few days. As a result, <strong>we are postponing
-        TechTalks</strong> until a later date. We'll update the website and
-        email out to those registered on <a
-        href="http://mittechtalks.eventbrite.com">Eventbrite</a> with further
-        updates.</p>
+
+      <div class="tile">
+        <h2>Come help us build Techfair 2014.</h2>
+        <p>We're looking for fellow MIT students who are passionate about
+        technology (or passionate about Techfair, either is great) and
+        <strong>have a knack for getting stuff done</strong>.</p>
+        <p>From corporate relations to marketing, finance, and developer
+        operations, we have a wide range of committees and an equally wide
+        range of roles we're looking to fill.</p>
+        <img src="/img/homepage/midway.jpg" class="homepage-midway" />
+        <p>Our applications are currently closed, but <strong>look out for the
+        application once Fall rolls around</strong>!</p>
       </div>
       <div class="tile">
-        <h2><a href="/talks/">TechTalks</a></h2>
-        <div class="speaker-mugs">
-          <a href="/events/talks/#paul"><img src="/img/homepage/paul_english.jpg" alt="Paul English" /></a><a href="/events/talks/#ari"><img src="/img/homepage/ari_gesher.jpg" alt="Ari Gesher" /></a><a href="/events/talks/#yoky"><img src="/img/homepage/yoky_matsuoka.jpg" alt="Yoky Matsuoka" /></a><a href="/events/talks/#john"><img src="/img/homepage/john_bicket.jpg" alt="John Bicket" /></a>
-        </div>
-        <p>The second annual TechTalks takes place the Friday after Techfair!
-        Come by after classes to hear our incredible lineup of speakers, grab
-        some food, and meet interesting people.</p>
-        <div class="event-details">
-          <div class="fair-detail">
-            <span class="typicn location"></span>
-            <div class="detail-caption">
-              <a href="http://goo.gl/maps/R3EKa">32-123 (Stata Center) <span class="typicn export nofloat"></span></a>
-            </div>
-          </div>
-          <div class="fair-detail">
-            <span class="typicn time"></span>
-            <div class="detail-caption">
-              <strong>Postponed due to inclement weather.</strong> Date TBA, check back soon.
-              <p>
-                <span class="speaker-time">4pm</span> Kickoff<br />
-                <span class="speaker-time">4:15pm</span> Paul English <span class="speaker-affiliation">CTO, Co-Founder, Kayak</span>
-                  <span class="speaker-topic">Innovation Large and Small: How to be excellent at both</span>
-                <span class="speaker-time">5pm</span> Ari Gesher <span class="speaker-affiliation">Senior Engineer, Palantir</span><br />
-                  <span class="speaker-topic">Philanthropy Engineering: Because We Have To</span>
-                <span class="speaker-time">5:45pm</span> Dinner / Break</span><br />
-                <span class="speaker-time">6:15pm</span> Yoky Matsuoka <span class="speaker-affiliation">VP Technology, Nest</span><br />
-                  <span class="speaker-topic">Robots and Thermostats: More in Common Than You'd Think</span>
-                <span class="speaker-time">7pm</span> John Bicket <span class="speaker-affiliation">Co-Founder, Meraki</span>
-                  <span class="speaker-topic">How the Cloud has Changed Enterprise Networking</span>
-              </p>
-            </div>
-          </div>
-          <div class="fair-detail">
-            <span class="typicn anchor"></span>
-            <div class="detail-caption">
-              Visit <a href="/talks">techfair.mit.edu/talks</a> for detailed schedule and more
-            </div>
-          </div>
-          <div class="fair-detail">
-            <span class="typicn anchor"></span>
-            <div class="detail-caption">
-              <a href="http://mittechtalks.eventbrite.com">Register on Eventbrite <span class="typicn export nofloat"></a>
-            </div>
-          </div>
-        </div>
-        <img class="tt-poster" src="/img/homepage/tt_poster.png" />
+        <h2>Interested in attending?</h2>
+        <p>If you're a company with mind-blowing tech or a student hacking away
+        on campus, we'd love to have you at the next Techfair.</p>
+        <p><strong>Companies</strong> participate through tiered sponsorship
+        packages. We sell out as early as mid-December, so reach out to us
+        early! The online application will be up soon, but in the meantime,
+        contact <a href="techfair-cr@mit.edu">techfair-cr@mit.edu</a> to
+        indicate your interest. Visit our <a href="/companies">companies
+        page</a> for more info.</p>
+        <p><strong>Students</strong> can apply to display through our student
+        relations committee. Applications for display open later in the year.
+        (Each year, we also give grants of up to $500 to the coolest student
+        projects. Wathc out!)</p>
       </div>
 
       <?php
