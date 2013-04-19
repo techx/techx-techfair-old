@@ -56,7 +56,7 @@
         <p><strong>Students</strong> can apply to display through our student
         relations committee. Applications for display open later in the year.
         (Each year, we also give grants of up to $500 to the coolest student
-        projects. Wathc out!)</p>
+        projects. Watch out!)</p>
       </div>
 
       <?php
