@@ -19,14 +19,14 @@ function focus($p) {
 		<td class="silver">Silver</td> 
 		<td class="bronze">Bronze</td> 
 	</tr>
-    <?php /*
+  
 	<tr> 
 		<th>Price</th> 
 		<td<?php focus('g') ?>>$5000</td> 
 		<td<?php focus('s') ?>>$2500</td> 
 		<td<?php focus('b') ?>>$1250</td> 
 	</tr> 
-    */ ?>
+   
 	<tr> 
 		<th>Booths</th> 
 		<td<?php focus('g') ?>>2 booths</td> 
