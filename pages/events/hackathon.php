@@ -3,6 +3,7 @@
 $eventBriteLink = "http://hackmit.eventbrite.com";
 ?>
 <h1>hackMIT</h1>
+<p><strong>Please note that this information is for <em>last January's HackMIT</em>. For details about the upcoming HackMIT in October, <a href="http://hackmit.org">click here</a>.</strong></p>
 <p>Techfair and Palantir are teaming up to bring you MIT’s biggest hackathon of
 the year. We've taken over Stata for 20 hours, <strong>from Sat Feb 2, 8pm to
 Sun Feb 3, 4pm</strong>  - represent your school and compete against college
