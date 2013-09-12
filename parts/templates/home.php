@@ -40,8 +40,7 @@
         operations, we have a wide range of committees and an equally wide
         range of roles we're looking to fill.</p>
         <img src="/img/homepage/midway.jpg" class="homepage-midway" />
-        <p>Our applications are currently closed, but <strong>look out for the
-        application once Fall rolls around</strong>!</p>
+        <p>Apply to be part of Techfair through TechX at <strong><a href="http://techx.mit.edu/join">our new website</a></strong>!</p>
       </div>
       <div class="tile">
         <h2>Interested in attending?</h2>
