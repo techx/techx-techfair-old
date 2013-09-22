@@ -22,8 +22,8 @@ function focus($p) {
   
 	<tr> 
 		<th>Price</th> 
-		<td<?php focus('g') ?>>$5000</td> 
-		<td<?php focus('s') ?>>$2750</td> 
+		<td<?php focus('g') ?>>$5500</td> 
+		<td<?php focus('s') ?>>$3000</td> 
 		<td<?php focus('b') ?>>$1500</td> 
 	</tr> 
    
