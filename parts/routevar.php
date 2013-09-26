@@ -228,17 +228,15 @@ $routes = array(
 			'name'=>'Final Display',
 			'show'=>false
 	),
-        'applications' => array(
-                'platinum' => array(
-                        'title' => 'Platinum Sponsor Application / '.$basetitle,
-                        'content' => 'pages/applications/platinum.php',
+    'platinum' => array(
+            'title' => 'Platinum Sponsor Application / '.$basetitle,
+            'content' => 'pages/applications/platinum.php',
 			'name' => 'Platinum Sponsor Application'
-                ),
-                'sponsor' => array(
-                        'title' => 'Sponsor Application / '.$basetitle,
-                        'content' => 'pages/applications/sponsor.php',
-                        'name' => 'Sponsor Application'
-                ),
-	),
+    ),
+    'sponsor' => array(
+            'title' => 'Sponsor Application / '.$basetitle,
+            'content' => 'pages/applications/sponsor.php',
+            'name' => 'Sponsor Application'
+    )
 );
 ?>
