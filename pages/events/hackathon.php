@@ -1,3 +1,20 @@
+<?php
+function redirect($url)
+{
+    $string = '<script type="text/javascript">';
+    $string .= 'window.location = "' . $url . '"';
+    $string .= '</script>';
+
+    echo $string;
+}
+if(!headers_sent()){
+  header("HTTP/1.1 301 Moved Permanently"); 
+  header("Location: http://hackmit.org"); }
+else{
+  redirect('http://hackmit.org/'); 
+}
+exit();
+ /*
 <?php schedule(); ?>
 <?php
 $eventBriteLink = "http://hackmit.eventbrite.com";
@@ -113,10 +130,10 @@ okay, as long as they're accessible by everyone else as well.</p>
     <img class="twilio sub-sponsor" src="/img/hackathon/twilio.png" />
     <img class="mgwu sub-sponsor" src="/img/hackathon/mgwu.png" />
     <a href="http://www.windowsazure.com/mobile"><img class="microsoft sub-sponsor" src="/img/hackathon/microsoft.png" /></a>
-    <?php /*
-    <img class="twitter sub-sponsor" src="/img/hackathon/twitter.png" />
-    <img class="sifteo sub-sponsor" src="/img/hackathon/sifteo.png" />
-    */ ?>
+    <?php 
+    // <img class="twitter sub-sponsor" src="/img/hackathon/twitter.png" />
+    // <img class="sifteo sub-sponsor" src="/img/hackathon/sifteo.png" />
+     ?>
   </p>
 </div>
 
@@ -132,3 +149,5 @@ okay, as long as they're accessible by everyone else as well.</p>
   <a href="/img/hackathon/Hack3o.jpg"><img src="/img/hackathon/Hack3.jpg" style="margin-right: 20px;" width=220 height=150></a>
   <a href="/img/hackathon/Hack4o.jpg"><img src="/img/hackathon/Hack4.jpg" width=220 height=150></a>
 </div>
+*/
+?>
