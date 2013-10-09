@@ -39,10 +39,11 @@ $routes = array(
 			'content' => 'pages/events/schedule.php'
 		),
 		'hackathon' => array(
-			'title' => 'Hackathon / '.$basetitle,
-			'content' => 'pages/events/hackathon.php',
-			'name' => 'Hackathon',
-			'process' => 'pages/events/hackathon_process.php'
+			'title' => 'HackMIT / '.$basetitle,
+			//'content' => 'pages/events/hackathon.php',
+			'name' => 'HackMIT',
+			//'process' => 'pages/events/hackathon_process.php', 
+			'external' => 'http://hackmit.org'
 		),
 		'fair' => array(
 			'title' => 'The Fair / '.$basetitle,
